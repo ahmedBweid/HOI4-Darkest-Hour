@@ -1,0 +1,308 @@
+﻿###########################
+# Realism Overhaul Specials
+###########################
+
+add_namespace = DH_germany
+add_namespace = DH_italy
+add_namespace = DH_spain
+add_namespace = DH_finland
+add_namespace = DH_soviet
+
+
+### ------------------- Germany ---------------------------------------------
+
+###### Operation Isabella
+country_event = {
+	id = DH_germany.1
+	title = DH_germany.1.t
+	desc = DH_germany.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#Send a telegram to Madrid!
+	option = { 
+		name = DH_germany.1.a
+		SPR = { country_event = { hours = 6 id = DH_spain.1 }}
+	}
+}
+###### Operation Isabella:Spain accepts
+country_event = {
+	id = DH_germany.2
+	title = DH_germany.2.t
+	desc = DH_germany.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#
+	option = { 
+		name = DH_germany.2.a
+		GER = { set_state_owner = 178 }
+		add_opinion_modifier = { target = SPR modifier = offered_support }
+	}
+}
+
+######  Operation Isabella:Spain Rejects!
+country_event = {
+	id = DH_germany.3
+	title = DH_germany.3.t
+	desc = DH_germany.3.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#
+	option = { 
+		name = DH_germany.3.a
+		add_opinion_modifier = { target = SPR modifier = protest_action_light }
+	}
+}
+
+######  Projekt Amerika
+country_event = {
+	id = DH_germany.4
+	title = DH_germany.4.t
+	desc = DH_germany.4.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	# Amerika Bomber
+	option = { 
+		name = DH_germany.4.a
+		add_tech_bonus = { bonus = 0.5 uses = 1 technology = strategic_bomber3 }	
+	}
+	# Amerika Rakete
+	option = { 
+		name = DH_germany.4.b
+		add_tech_bonus = { bonus = 0.5 uses = 1 technology = improved_rocket_engines }
+	}	
+	
+}
+
+
+###------------------- Spain ----------------------------------------------
+###### Operation Isabella: Spanish Reply
+country_event = {
+	id = DH_spain.1
+	title = DH_spain.1.t
+	desc = DH_spain.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#We accept this transition
+	option = { 
+		name = DH_spain.1.a
+		GER = { country_event = { hours = 6 id = DH_germany.2 }}
+	}
+	#We cannot sell our sovereignty!
+	option = { 
+		name = DH_spain.1.b
+		GER = { country_event = { hours = 6 id = DH_germany.3 }}
+	}	
+	
+}
+
+### ------------------- Finland ---------------------------------------------
+
+###### Northern Flank : Finland
+country_event = {
+	id = DH_finland.1
+	title = DH_finland.1.t
+	desc = DH_finland.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#Accept
+	option = { 
+		name = DH_finland.1.a
+		GER = { add_to_faction = FIN }
+		FIN = {
+			set_state_owner = 215
+			set_state_owner = 216
+			set_state_owner = 213
+			set_state_owner = 146
+		}
+	}
+	
+	#Reject
+	option = { 
+		name = DH_finland.1.b
+		add_opinion_modifier = { target = GER modifier = protest_action_light }
+	}
+}
+
+### ------------------- Italy ---------------------------------------------
+####### Italian Socialist Republic
+country_event = { 
+	id = DH_italy.1
+    title = DH_italy.1.t
+    desc = DH_italy.1.d
+    picture = GFX_report_event_generic_read_write
+		
+        fire_only_once = yes
+		
+        trigger = {
+                tag = ITA
+                has_war_with = ENG
+				has_war_with = FRA
+				has_war_with = USA
+			NOT = {
+				controls_state = 115
+				controls_state = 156	
+				controls_state = 117			
+			}
+        }
+		
+		mean_time_to_happen = {
+			days = 2
+		}
+		
+		option = {
+			name = DH_italy.1.a
+			ai_chance = { 
+				factor = 90
+			}
+			set_cosmetic_tag = ITA_GER_fascism
+			GER = { puppet = ITA }
+		}
+		
+		option = {
+			name = DH_italy.1.b
+			ai_chance = { 
+				factor = 10
+			}
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+			set_politics = { 
+				parties = {
+					democratic = { popularity = 60 }
+					fascism = { popularity = 29 }
+					communism = { popularity = 11 }
+				} 
+				ruling_party = democratic elections_allowed = yes 
+			}
+			remove_ideas = vittoria_mutilata 
+			ENG = { add_to_faction = ITA }
+			ENG = { 
+				white_peace = {
+					tag = ITA
+					message = ITA_agree_peace 
+				}
+			}
+			USA = {
+				white_peace = {
+				tag = ITA
+				message = ITA_agree_peace 
+				}
+			}
+			FRA = { 
+				white_peace = {
+				tag = ITA
+				message = ITA_agree_peace 
+				}
+			}
+		}		
+}
+
+
+
+### ------------------- USSR ---------------------------------------------
+
+###### Death of Stalin
+country_event = {
+	id = DH_soviet.1
+	title = DH_soviet.1.t
+	desc = DH_soviet.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1953.3.1	
+	}
+
+	
+	#Accept
+	option = { 
+		name = DH_soviet.1.a
+		country_event = { days = 31 id = DH_soviet.2 }
+		create_country_leader = { 
+			name = "Lavrenti P. Beria" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Beria.dds" 
+			expire = "1967.1.1" 
+			ideology = stalinism 
+			traits = { } 
+		}
+	}
+}
+
+###### Death of Stalin : Succession after Stalin's death
+country_event = {
+	id = DH_soviet.2
+	title = DH_soviet.2.t
+	desc = DH_soviet.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	# Nikita S. Khrushchev
+	option = { 
+		name = DH_soviet.2.a
+		create_country_leader = { 
+			name = "Nikita S. Khrushchev" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Khrushchev.dds" 
+			expire = "1971.9.11" 
+			ideology = marxism 
+			traits = { } 
+		}			
+	}
+	# Georgy Malenkov
+	option = { 
+		name = DH_soviet.2.b
+		create_country_leader = { 
+			name = "Georgy Malenkov" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Malenkov.dds" 
+			expire = "1988.1.14" 
+			ideology = stalinism 
+			traits = { } 
+		}	
+	}	
+	# Beria
+	option = { 
+		name = DH_soviet.2.c
+	}	
+	# Georgy Zhukov
+	option = { 
+		name = DH_soviet.2.d
+		create_country_leader = { name = "Georgy Zhukov" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Zhukov.dds" 
+			expire = "1974.6.18" 
+			ideology = leninism 
+			traits = { } 
+		}			
+	}	
+}
+

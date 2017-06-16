@@ -1,0 +1,258 @@
+equipments = {
+
+	submarine = {
+		is_archetype = yes
+		is_buildable = no
+		type = submarine
+		group_by = archetype
+		
+		upgrades = {
+			ship_reliability_upgrade
+			sub_engine_upgrade
+			sub_stealth_upgrade
+			sub_torpedo_upgrade
+		}
+		
+		interface_category = interface_category_other_ships
+
+		ap_attack = 0.5
+		attack = 0 # Their main weapon is torpedo_attack.
+		fire_range = 10
+		torpedo_attack = 25
+		sub_attack = 3
+		
+		anti_air_attack = 0.5
+		
+		armor_value = 0
+		evasion = 60
+		
+		surface_detection = 95
+		sub_detection = 8
+		surface_visibility = 8
+		sub_visibility = 8
+		naval_speed = 20
+		reliability = 0.70
+		
+		naval_range = 5000
+		
+		max_strength = 30
+		
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 450
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		
+		manpower = 40
+	}
+
+	submarine_1 = {
+		archetype = submarine
+		priority = 80
+
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		type = { 
+			submarine
+		}
+
+	}
+	
+	submarine_2 = {
+		archetype = submarine
+		parent = submarine_1
+		priority = 80
+		
+		ap_attack = 1.0
+		attack = 0
+		fire_range = 12
+		torpedo_attack = 35
+		sub_attack = 5
+		
+		anti_air_attack = 1
+		
+		armor_value = 0
+		evasion = 70
+		
+		surface_detection = 95
+		sub_detection = 10
+		surface_visibility = 9
+		sub_visibility = 6
+		naval_speed = 25
+		reliability = 0.70
+
+		naval_range = 6000
+		
+		max_strength = 40
+		
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 500
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		type = { 
+			submarine
+		}		
+	}
+	
+	submarine_3 = {
+		archetype = submarine
+		parent = submarine_2
+		priority = 80
+		
+		ap_attack = 1.5
+		attack = 0
+		fire_range = 14
+		torpedo_attack = 45
+		sub_attack = 7
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 80
+		
+		surface_detection = 95
+		sub_detection = 12
+		surface_visibility = 8
+		sub_visibility = 4
+		naval_speed = 27
+		reliability = 0.75
+		
+		naval_range = 7000
+		
+		max_strength = 45
+
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 550
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		type = { 
+			submarine
+		}		
+	}
+	
+	submarine_4 = {
+		archetype = submarine
+		parent = submarine_3
+		priority = 80
+		
+		ap_attack = 2.0
+		attack = 0
+		fire_range = 16
+		torpedo_attack = 50
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 50
+		
+		surface_detection = 95
+		sub_detection = 0
+		surface_visibility = 6
+		sub_visibility = 2
+		naval_speed = 30
+		reliability = 0.80
+
+		naval_range = 8000
+		
+		max_strength = 50
+		
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 600
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 1
+		}
+		type = { 
+			submarine
+		}		
+	}
+	submarine_5 = {
+		archetype = submarine
+		parent = submarine_4
+		priority = 80
+		
+		ap_attack = 2.0
+		attack = 0
+		fire_range = 16
+		torpedo_attack = 50
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 50
+		
+		surface_detection = 95
+		sub_detection = 0
+		surface_visibility = 6
+		sub_visibility = 2
+		naval_speed = 30
+		reliability = 0.80
+
+		naval_range = 8000
+		
+		max_strength = 50
+		
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 600
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 1
+		}
+		type = { 
+			submarine
+		}		
+	}
+	
+	submarine_6 = {
+		archetype = submarine
+		parent = submarine_5
+		priority = 80
+		
+		ap_attack = 2.0
+		attack = 0
+		fire_range = 16
+		torpedo_attack = 50
+		
+		anti_air_attack = 1.5
+		
+		armor_value = 0
+		evasion = 50
+		
+		surface_detection = 95
+		sub_detection = 0
+		surface_visibility = 6
+		sub_visibility = 2
+		naval_speed = 30
+		reliability = 0.80
+
+		naval_range = 8000
+		
+		max_strength = 50
+		
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 600
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 1
+		}
+		type = { 
+			submarine
+		}		
+	}
+}

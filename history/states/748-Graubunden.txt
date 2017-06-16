@@ -1,0 +1,20 @@
+state={
+	id=748
+	name="STATE_748"
+	provinces={
+		658 3641 3660 3662 9600 
+	}
+history={
+		owner = SWI
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+		
+		add_core_of = SWI
+
+	}
+	manpower=240142
+	buildings_max_level_factor=1.000
+      state_category=city
+}

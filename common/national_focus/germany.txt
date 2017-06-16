@@ -1,0 +1,4531 @@
+focus_tree = {
+	id = germany
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = GER_Luftwafe
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		x = 30
+		y = 0
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			complete_tooltip = {
+					air_experience = 25
+					add_tech_bonus = {
+							name = air_sup_bonus
+							bonus = 0.5
+							uses = 2
+							category = battlefield_support_tree
+						}
+					every_state = {
+							limit = {
+									has_state_flag = GER_air_innovation_2air
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+						}
+					every_state = {
+							limit = {
+									has_state_flag = GER_air_innovation_6air
+								}
+							add_building_construction = {
+									type = air_base
+									level = 6
+									instant_build = yes
+								}
+						}
+					custom_effect_tooltip = available_chief_of_airforce
+					show_ideas_tooltip = ritter_von_greim
+				}
+			completion_reward = {
+					air_experience = 25
+					add_tech_bonus = {
+							name = air_sup_bonus
+							bonus = 0.5
+							uses = 2
+							category = battlefield_support_tree
+						}
+					if = {
+							limit = {
+									NOT = {
+											any_owned_state = {
+													air_base > 3
+													air_base < 9
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 5
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 6
+											instant_build = yes
+										}
+									set_state_flag = GER_air_innovation_6air
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									air_base > 3
+									air_base < 9
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_air_innovation_2air
+						}
+					random_owned_controlled_state = {
+							limit = {
+									air_base > 3
+									air_base < 9
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_air_innovation_2air
+						}
+					random_owned_controlled_state = {
+							limit = {
+									air_base > 2
+									air_base < 9
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_air_innovation_2air
+						}
+					custom_effect_tooltip = available_chief_of_airforce
+					show_ideas_tooltip = ritter_von_greim
+				}
+
+	}
+	focus = {
+		id = GER_army_innovation
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		x = 8
+		y = 0
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					army_experience = 10
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.5
+							uses = 2
+							category = land_doctrine
+						}
+					custom_effect_tooltip = available_chief_of_army
+					show_ideas_tooltip = walther_von_brauchitsch
+				}
+
+	}
+	focus = {
+		id = GER_rhineland
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		x = 14
+		y = 0
+			available = {
+					is_puppet = no
+				}
+			bypass = {
+					42 = {
+							is_demilitarized_zone = no
+						}
+					51 = {
+							is_demilitarized_zone = no
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					42 = {
+							set_demilitarized_zone = no
+						}
+					51 = {
+							set_demilitarized_zone = no
+						}
+					custom_effect_tooltip = GER_rhineland_ultimatum
+					add_political_power = 120
+					army_experience = 5
+					add_named_threat = {
+							threat = 5
+							name = GER_rhineland
+						}
+					if = {
+							limit = {
+									FRA = {
+											is_puppet = no
+										}
+								}
+							FRA = {
+									country_event = {
+											id = germany.60
+										}
+									custom_effect_tooltip = may_provoke_hostility
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_naval_rearmament
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		x = 26
+		y = 0
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			bypass = {
+					custom_trigger_tooltip = {
+							tooltip = naval_effort_tt
+							NOT = {
+									any_owned_state = {
+											free_building_slots = {
+													building = dockyard
+													size > 1
+													include_locked = yes
+												}
+										}
+								}
+						}
+				}
+			complete_tooltip = {
+					every_state = {
+							limit = {
+									has_state_flag = GER_naval_rearmament_2dockyards
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					every_state = {
+							limit = {
+									has_state_flag = GER_naval_rearmament_1dockyard
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									dockyard > 0
+									free_building_slots = {
+											building = dockyard
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_naval_rearmament_2dockyards
+						}
+					random_owned_controlled_state = {
+							limit = {
+									dockyard > 0
+									free_building_slots = {
+											building = dockyard
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = dockyard
+									level = 1
+									instant_build = yes
+								}
+							set_state_flag = GER_naval_rearmament_1dockyard
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Trade_union
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		x = 37
+		y = 0
+			completion_reward = {
+					add_ideas = trade_union
+				}
+
+	}
+	focus = {
+		id = GER_Schut
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		x = 3
+		y = 0
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = GER_Knifed
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Schut
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = GER_Jewis
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Knifed
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = GER_Madagaskar
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Jewis
+		}
+		mutually_exclusive = {
+			focus = GER_Eternal
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = GER_Reichssicheitsambt
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Knifed
+		}
+		x = 3
+		y = 2
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = military_police_tech
+							category = radar_tech
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Plankul
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Reichssicheitsambt
+		}
+		x = 3
+		y = 3
+			complete_tooltip = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = electronics
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Army_SS
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Knifed
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = GER_SS_Vol
+		icon = GFX_goal_rhineland
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Army_SS
+		}
+		x = 5
+		y = 3
+			available = {
+					GER = {
+							owns_state = 7
+							owns_state = 6
+							owns_state = 99
+							owns_state = 13
+							owns_state = 190
+						}
+				}
+			complete_tooltip = {
+					add_manpower = 550000
+				}
+
+	}
+	focus = {
+		id = GER_army_innovation_2
+		icon = GFX_goal_generic_army_tanks
+		cost = 10.00
+		prerequisite = {
+			focus = GER_army_innovation
+		}
+		x = 7
+		y = 1
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					army_experience = 20
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.5
+							uses = 2
+							category = land_doctrine
+						}
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							name = mech_army_bonus
+							technology = basic_medium_tank
+							technology = improved_medium_tank
+							technology = advanced_medium_tank
+							technology = mechanised_infantry
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Afrika
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = GER_army_innovation_2
+		}
+		x = 7
+		y = 2
+			completion_reward = {
+					army_experience = 15
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = recon_tech
+							category = maintenance_company_tech
+							category = logistics_tech
+						}
+				}
+
+	}
+	focus = {
+		id = GER_soviet_treaty
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = GER_army_innovation
+		}
+		x = 9
+		y = 1
+			bypass = {
+					OR = {
+							has_war_with = SOV
+							NOT = {
+									country_exists = SOV
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					SOV = {
+							country_event = {
+									id = germany.75
+									days = 1
+								}
+							custom_effect_tooltip = needs_approval
+						}
+					effect_tooltip = {
+							add_tech_bonus = {
+									name = med_armor_bonus
+									bonus = 0.5
+									ahead_reduction = 1
+									technology = basic_medium_tank
+								}
+							add_tech_bonus = {
+									name = armor_bonus
+									bonus = 0.5
+									uses = 2
+									category = armor
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_mol_rib_pact
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = GER_soviet_treaty
+		}
+		x = 9
+		y = 2
+			available = {
+					is_puppet = no
+					has_army_manpower = {
+							size > 849999
+						}
+					#ca 90 div
+					SOV = {
+							NOT = {
+									has_war_with = GER
+								}
+							country_exists = SOV
+						}
+				}
+			cancel = {
+					OR = {
+							has_war_with = SOV
+							NOT = {
+									country_exists = SOV
+								}
+						}
+				}
+			cancel_if_invalid = no
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0
+							NOT = {
+									has_completed_focus = GER_anti_comitern_pact
+								}
+						}
+				}
+			completion_reward = {
+					SOV = {
+							country_event = {
+									id = germany.11
+									days = 1
+								}
+							custom_effect_tooltip = GER_mol_rib_pact_tt
+							custom_effect_tooltip = needs_approval
+						}
+				}
+
+	}
+	focus = {
+		id = GER_soviet_ally
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = GER_mol_rib_pact
+		}
+		mutually_exclusive = {
+			focus = GER_ussr_war_goal
+		}
+		x = 9
+		y = 3
+			available = {
+					is_puppet = no
+					has_war = no
+					SOV = {
+							has_war = no
+							NOT = {
+									has_war_with = GER
+								}
+							is_puppet = no
+						}
+				}
+			bypass = {
+					SOV = {
+							is_in_faction_with = GER
+						}
+				}
+			ai_will_do = {
+					factor = 0.01
+					modifier = {
+							factor = 0
+							NOT = {
+									is_in_faction_with = POL
+								}
+							country_exists = POL
+						}
+					modifier = {
+							factor = 0
+							OR = {
+									has_war_with = POL
+									has_war_with = FRA
+								}
+						}
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									is_faction_leader = yes
+								}
+							custom_effect_tooltip = ger_sov_buddies_tooltip_2
+						}
+					custom_effect_tooltip = ger_sov_buddies_tooltip
+					add_ideas = soviet_german_friendship
+					SOV = {
+							add_opinion_modifier = {
+									target = GER
+									modifier = ger_sov_alliance_focus
+								}
+							add_ideas = soviet_german_friendship
+							country_event = germany.89
+						}
+				}
+
+	}
+	focus = {
+		id = GER_turkey_puppet
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = GER_soviet_ally
+		}
+		x = 9
+		y = 5
+			available = {
+					is_puppet = no
+					OR = {
+							GRE = {
+									is_in_faction_with = GER
+									all_owned_state = {
+											controller = {
+													is_in_faction_with = GER
+												}
+										}
+								}
+						}
+					NOT = {
+							has_war_with = SOV
+						}
+					country_exists = TUR
+				}
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					TUR = {
+							country_event = {
+									id = germany.79
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_anti_comitern_pact
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10.00
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		x = 11
+		y = 1
+			available = {
+					is_puppet = no
+					NOT = {
+							has_government = communism
+						}
+					NOT = {
+							is_in_faction_with = SOV
+						}
+				}
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					SOV = {
+							add_opinion_modifier = {
+									target = ROOT
+									modifier = pact_against_us
+								}
+						}
+					add_named_threat = {
+							threat = 2
+							name = GER_anti_comitern_pact
+						}
+					every_other_country = {
+							limit = {
+									NOT = {
+											tag = GER
+										}
+									NOT = {
+											has_war_with = GER
+										}
+									NOT = {
+											is_in_faction_with = SOV
+										}
+									OR = {
+											capital_scope = {
+													is_on_continent = europe
+												}
+											capital_scope = {
+													is_on_continent = asia
+												}
+											num_of_factories > 30
+										}
+									OR = {
+											has_government = fascism
+											AND = {
+													is_neighbor_of = SOV
+													NOT = {
+															has_government = communism
+														}
+												}
+										}
+								}
+							country_event = germany.5
+						}
+				}
+
+	}
+	focus = {
+		id = GER_ussr_war_goal
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = GER_anti_comitern_pact
+		}
+		mutually_exclusive = {
+			focus = GER_soviet_ally
+		}
+		x = 11
+		y = 3
+			will_lead_to_war_with = SOV
+			cancel = {
+					NOT = {
+							country_exists = SOV
+						}
+				}
+			historical_ai = {
+					NOT = {
+							any_home_area_neighbor_country = {
+									has_war_with = ROOT
+								}
+						}
+				}
+			bypass = {
+					has_war_with = SOV
+				}
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0
+							OR = {
+									has_army_manpower = {
+											size < 1199999
+										}
+									any_home_area_neighbor_country = {
+											has_war_with = ROOT
+										}
+								}
+						}
+					modifier = {
+							factor = 0#AI should not pick this focus if it does not share a border with the Soviets
+							NOT = {
+									any_home_area_neighbor_country = {
+											tag = SOV
+										}
+								}
+						}
+					modifier = {
+							factor = 0
+							is_historical_focus_on = yes
+							date < 1939.1.1
+						}
+				}
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = SOV
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Finka
+		icon = GFX_goal_generic_military_deal
+		cost = 10.00
+		prerequisite = {
+			focus = GER_ussr_war_goal
+		}
+		x = 10
+		y = 4
+			available = {
+					is_puppet = no
+					GER = {
+							NOT = {
+									has_war_with = FIN
+								}
+							owns_state = 215
+							owns_state = 216
+							owns_state = 213
+							owns_state = 146
+						}
+				}
+			bypass = {
+					FIN = {
+							is_in_faction_with = GER
+						}
+				}
+			complete_tooltip = {
+					FIN = {
+							country_event = {
+									days = 1
+									id = RO_finland.1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Osttrupen
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = GER_ussr_war_goal
+		}
+		x = 11
+		y = 5
+			available = {
+					GER = {
+							owns_state = 193
+							owns_state = 206
+							owns_state = 90
+						}
+				}
+			completion_reward = {
+					add_manpower = 400000
+				}
+
+	}
+	focus = {
+		id = GER_turkey_friend
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = GER_ussr_war_goal
+		}
+		x = 12
+		y = 4
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = TUR
+						}
+					TUR = {
+							exists = yes
+							is_puppet = no
+						}
+					TUR = {
+							custom_trigger_tooltip = {
+									tooltip = GER_alone_or_peace_faction_tt
+									is_alone_or_in_faction_at_peace_with_GER = yes
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					TUR = {
+							add_opinion_modifier = {
+									target = GER
+									modifier = ger_tur_diplomacy_focus
+								}
+							if = {
+									limit = {
+											TUR = {
+													is_ai = yes
+													NOT = {
+															is_in_faction = yes
+														}
+													NOT = {
+															is_puppet = yes
+														}
+												}
+											GER = {
+													is_faction_leader = yes
+												}
+										}
+									GER = {
+											add_to_faction = TUR
+										}
+									add_ai_strategy = {
+											type = alliance
+											id = "GER"
+											value = 200
+										}
+								}
+							if = {
+									limit = {
+											GER = {
+													has_government = fascism
+												}
+										}
+									add_ideas = fascist_influence
+								}
+							if = {
+									limit = {
+											GER = {
+													has_government = communism
+												}
+										}
+									add_ideas = communist_influence
+								}
+							if = {
+									limit = {
+											GER = {
+													has_government = democratic
+												}
+										}
+									add_ideas = democratic_influence
+								}
+							country_event = {
+									id = generic.1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_anschluss
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = GER_rhineland
+		}
+		x = 18
+		y = 1
+			available = {
+					is_puppet = no
+					has_army_manpower = {
+							size > 549999
+						}
+					NOT = {
+							has_idea = rhineland_challenge_met
+						}
+				}
+			cancel = {
+					OR = {
+							is_puppet = yes
+							has_idea = rhineland_challenge_met
+						}
+				}
+			cancel_if_invalid = no
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0
+							date < 1938.1.1
+						}
+				}
+			completion_reward = {
+					army_experience = 10
+					if = {
+							limit = {
+									country_exists = AUS
+									AUS = {
+											has_civil_war = no
+											OR = {
+													owns_state = 4
+													owns_state = 152
+													owns_state = 153
+												}
+										}
+								}
+							AUS = {
+									country_event = germany.28
+								}
+						}
+					if = {
+							limit = {
+									any_other_country = {
+											original_tag = AUS
+											has_civil_war = yes
+											OR = {
+													owns_state = 4
+													owns_state = 152
+													owns_state = 153
+												}
+										}
+								}
+							custom_effect_tooltip = germany.126.warning
+							random_other_country = {
+									limit = {
+											original_tag = AUS
+											OR = {
+													has_government = fascism
+													AND = {
+															has_government = neutrality
+															NOT = {
+																	any_other_country = {
+																			original_tag = AUS
+																			has_government = fascism
+																		}
+																}
+														}
+													NOT = {
+															any_other_country = {
+																	original_tag = AUS
+																	OR = {
+																			has_government = fascism
+																			has_government = neutrality
+																		}
+																}
+														}
+												}
+										}
+									country_event = {
+											id = germany.126
+											days = 1
+										}
+								}
+						}
+					if = {
+							limit = {
+									4 = {
+											owner = {
+													NOT = {
+															tag = AUS
+														}
+													NOT = {
+															is_in_faction_with = ROOT
+														}
+												}
+										}
+								}
+							add_state_core = 4
+						}
+					if = {
+							limit = {
+									152 = {
+											owner = {
+													NOT = {
+															tag = AUS
+														}
+													NOT = {
+															is_in_faction_with = ROOT
+														}
+												}
+										}
+								}
+							add_state_core = 152
+						}
+					if = {
+							limit = {
+									153 = {
+											owner = {
+													NOT = {
+															tag = AUS
+														}
+													NOT = {
+															is_in_faction_with = ROOT
+														}
+												}
+										}
+								}
+							add_state_core = 153
+						}
+				}
+
+	}
+	focus = {
+		id = GER_demand_slovenia
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = GER_anschluss
+		}
+		x = 15
+		y = 2
+			available = {
+					NOT = {
+							has_war_with = YUG
+						}
+					NOT = {
+							is_in_faction_with = YUG
+						}
+					is_puppet = no
+					controls_state = 4
+					controls_state = 152
+					has_army_manpower = {
+							size > 749999
+						}
+					#ca 80 div
+					YUG = {
+							owns_state = 102
+						}
+					NOT = {
+							YUG = {
+									is_puppet_of = GER
+								}
+						}
+				}
+			cancel = {
+					OR = {
+							is_in_faction_with = YUG
+							has_war_with = YUG
+							YUG = {
+									is_puppet_of = GER
+								}
+							NOT = {
+									controls_state = 4
+								}
+							NOT = {
+									controls_state = 152
+								}
+							NOT = {
+									YUG = {
+											owns_state = 102
+										}
+								}
+						}
+				}
+			cancel_if_invalid = no
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_named_threat = {
+							threat = 2
+							name = GER_demand_slovenia_threat
+						}
+					YUG = {
+							add_opinion_modifier = {
+									target = GER
+									modifier = GER_demand_slovenia_YUG
+								}
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_war_with = ENG
+										}
+									YUG = {
+											is_puppet = no
+											NOT = {
+													has_war_with = ENG
+												}
+										}
+								}
+							ENG = {
+									country_event = {
+											id = britain.14
+										}
+								}
+						}
+					if = {
+							limit = {
+									OR = {
+											YUG = {
+													is_puppet = yes
+												}
+											YUG = {
+													has_war_with = ENG
+												}
+											has_war_with = ENG
+										}
+								}
+							create_wargoal = {
+									type = annex_everything
+									target = YUG
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_first_ljubljana_award
+		icon = GFX_goal_generic_military_deal
+		cost = 10.00
+		prerequisite = {
+			focus = GER_demand_slovenia
+		}
+		x = 14
+		y = 3
+			available = {
+					is_puppet = no
+					NOT = {
+							is_in_faction_with = YUG
+						}
+					OR = {
+							AND = {
+									country_exists = YUG
+									NOT = {
+											has_war_with = YUG
+										}
+									owns_state = 102
+								}
+							AND = {
+									NOT = {
+											country_exists = YUG
+										}
+									owns_state = 102
+									owns_state = 45
+									owns_state = 106
+									owns_state = 103
+									owns_state = 105
+								}
+						}
+					OR = {
+							YUG = {
+									is_puppet = no
+								}
+							YUG = {
+									is_puppet_of = GER
+								}
+						}
+				}
+			bypass = {
+					OR = {
+							is_in_faction_with = YUG
+							NOT = {
+									country_exists = YUG
+								}
+							NOT = {
+									OR = {
+											YUG = {
+													owns_state = 45
+												}
+											YUG = {
+													owns_state = 106
+												}
+										}
+								}
+							AND = {
+									HUN = {
+											is_friend_or_potential_friend_of_GER = no
+										}
+									BUL = {
+											is_friend_or_potential_friend_of_GER = no
+										}
+									ITA = {
+											is_friend_or_potential_friend_of_GER = no
+										}
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									HUN = {
+											is_friend_or_potential_friend_of_GER = yes
+											NOT = {
+													is_in_faction_with = YUG
+												}
+										}
+								}
+							hidden_effect = {
+									HUN = {
+											country_event = {
+													id = hungary.6
+													days = 1
+												}
+											add_opinion_modifier = {
+													target = GER
+													modifier = GER_first_ljubljana_award_GER
+												}
+											set_country_flag = GER_first_ljubljana_award
+										}
+								}
+							effect_tooltip = {
+									HUN = {
+											add_opinion_modifier = {
+													target = GER
+													modifier = GER_first_ljubljana_award_GER
+												}
+											transfer_state = 45
+										}
+								}
+							every_other_country = {
+									limit = {
+											is_faction_leader = yes
+											NOT = {
+													tag = GER
+												}
+										}
+									reverse_add_opinion_modifier = {
+											target = HUN
+											modifier = GER_first_ljubljana_award_other
+										}
+								}
+						}
+					if = {
+							limit = {
+									BUL = {
+											is_friend_or_potential_friend_of_GER = yes
+											NOT = {
+													is_in_faction_with = YUG
+												}
+										}
+								}
+							hidden_effect = {
+									BUL = {
+											country_event = {
+													id = bulgaria.3
+													days = 1
+												}
+											add_opinion_modifier = {
+													target = GER
+													modifier = GER_first_ljubljana_award_GER
+												}
+											set_country_flag = GER_first_ljubljana_award
+										}
+								}
+							effect_tooltip = {
+									BUL = {
+											add_opinion_modifier = {
+													target = GER
+													modifier = GER_first_ljubljana_award_GER
+												}
+											transfer_state = 106
+										}
+								}
+							every_other_country = {
+									limit = {
+											is_faction_leader = yes
+											NOT = {
+													tag = GER
+												}
+										}
+									reverse_add_opinion_modifier = {
+											target = BUL
+											modifier = GER_first_ljubljana_award_other
+										}
+								}
+						}
+					if = {
+							limit = {
+									ITA = {
+											OR = {
+													has_completed_focus = ITA_slovenia_dalmatia_claims
+													owns_state = 44
+												}
+											is_friend_or_potential_friend_of_GER = yes
+											NOT = {
+													is_in_faction_with = YUG
+												}
+										}
+								}
+							hidden_effect = {
+									ITA = {
+											country_event = {
+													id = italy.13
+													days = 1
+												}
+											add_opinion_modifier = {
+													target = GER
+													modifier = GER_first_ljubljana_award_GER
+												}
+										}
+									set_country_flag = GER_first_ljubljana_award
+								}
+							effect_tooltip = {
+									ITA = {
+											add_opinion_modifier = {
+													target = GER
+													modifier = GER_first_ljubljana_award_GER
+												}
+											if = {
+													limit = {
+															has_completed_focus = ITA_slovenia_dalmatia_claims
+														}
+													transfer_state = 103
+												}
+											if = {
+													limit = {
+															owns_state = 44
+														}
+													transfer_state = 105
+												}
+										}
+								}
+							every_other_country = {
+									limit = {
+											is_faction_leader = yes
+											NOT = {
+													tag = GER
+												}
+										}
+									reverse_add_opinion_modifier = {
+											target = ITA
+											modifier = GER_first_ljubljana_award_other
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_second_ljubljana_award
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = GER_first_ljubljana_award
+		}
+		x = 14
+		y = 4
+			available = {
+					is_puppet = no
+					GRE = {
+							has_war = no
+							owns_state = 731
+							owns_state = 186
+							owns_state = 185
+							owns_state = 47
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			#bypass = {
+			# OR = {
+			#  GRE = {
+			#   NOT = { owns_state = 731 }
+			#   NOT = { owns_state = 186 }
+			#   NOT = { owns_state = 185 }
+			#   NOT = { owns_state = 47 }
+			#  }
+			#  AND = {
+			#   OR = {
+			#    NOT = { country_exists = ITA }
+			#    ITA = { has_war_with = GRE }
+			#    NOT = { has_completed_focus = ITA_greece_war_goal }
+			#    AND = {
+			#     ITA = {
+			#      NOT = { is_in_faction_with = GER }
+			#      is_in_faction = yes
+			#     }
+			#    }
+			#   }
+			#   OR = {
+			#    NOT = { country_exists = BUL }
+			#    BUL = { has_war_with = GRE }
+			#    AND = {
+			#     BUL = {
+			#      NOT = { is_in_faction_with = GER }
+			#      is_in_faction = yes
+			#     }
+			#    }
+			#   }
+			#   AND = {
+			#    731 = {
+			#     OR = {
+			#      NOT = { any_neighbor_state = { is_owned_by = GER } }
+			#      NOT = { is_owned_by = GRE }
+			#     }
+			#    }
+			#    47 = {
+			#     OR = {
+			#      NOT = { any_neighbor_state = { is_owned_by = GER } }
+			#      NOT = { is_owned_by = GRE }
+			#     }
+			#    }
+			#    185 = {
+			#     OR = {
+			#      NOT = { any_neighbor_state = { is_owned_by = GER } }
+			#      NOT = { is_owned_by = GRE }
+			#     }
+			#    }
+			#   }
+			#  }
+			# }
+			#}
+			completion_reward = {
+					add_named_threat = {
+							threat = 2
+							name = GER_second_ljubljana_award
+						}
+					if = {
+							limit = {
+									GRE = {
+											OR = {
+													owns_state = 185
+													owns_state = 186
+													owns_state = 47
+												}
+										}
+									ITA = {
+											NOT = {
+													has_war_with = GRE
+												}
+											country_exists = ITA
+											has_completed_focus = ITA_greece_war_goal
+											OR = {
+													is_in_faction_with = GER
+													is_in_faction = no
+												}
+										}
+								}
+							set_global_flag = GER_second_ljubljana_award_ITA_event
+							country_event = {
+									id = germany.99
+								}
+						}
+					if = {
+							limit = {
+									GRE = {
+											owns_state = 184
+										}
+									BUL = {
+											NOT = {
+													has_war_with = GRE
+												}
+											country_exists = BUL
+											OR = {
+													is_in_faction_with = GER
+													is_in_faction = no
+												}
+										}
+								}
+							set_global_flag = GER_second_ljubljana_award_BUL_event
+							country_event = {
+									id = germany.100
+								}
+						}
+					if = {
+							limit = {
+									any_neighbor_country = {
+											tag = GRE
+										}
+									OR = {
+											NOT = {
+													country_exists = ITA
+												}
+											AND = {
+													ITA = {
+															NOT = {
+																	is_in_faction_with = GER
+																}
+															is_in_faction = yes
+														}
+												}
+										}
+									OR = {
+											NOT = {
+													country_exists = BUL
+												}
+											AND = {
+													BUL = {
+															NOT = {
+																	is_in_faction_with = GER
+																}
+															is_in_faction = yes
+														}
+												}
+										}
+								}
+							set_global_flag = GER_second_ljubljana_award_GER_event
+							country_event = {
+									id = germany.101
+								}
+						}
+					custom_effect_tooltip = GER_second_ljubljana_award_tt
+				}
+
+	}
+	focus = {
+		id = GER_fate_of_greece
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = GER_second_ljubljana_award
+		}
+		mutually_exclusive = {
+			focus = GER_war_with_greece
+		}
+		x = 15
+		y = 5
+			available = {
+					country_exists = GRE
+					NOT = {
+							has_war_with = GRE
+						}
+					GRE = {
+							is_puppet = no
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					GRE = {
+							country_event = {
+									id = greece.3
+									hours = 6
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_war_with_greece
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = GER_second_ljubljana_award
+		}
+		mutually_exclusive = {
+			focus = GER_fate_of_greece
+		}
+		x = 13
+		y = 5
+			will_lead_to_war_with = GRE
+			available = {
+					GRE = {
+							exists = yes
+							has_war = yes
+						}
+					NOT = {
+							is_in_faction_with = GRE
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					create_wargoal = {
+							target = GRE
+							type = annex_everything
+						}
+				}
+
+	}
+	focus = {
+		id = GER_fate_of_yugoslavia
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = GER_demand_slovenia
+		}
+		x = 16
+		y = 3
+			available = {
+					is_puppet = no
+					NOT = {
+							has_war_with = YUG
+						}
+					NOT = {
+							is_in_faction_with = YUG
+						}
+				}
+			bypass = {
+					OR = {
+							NOT = {
+									country_exists = YUG
+								}
+							any_other_country = {
+									is_in_faction_with = ROOT
+									YUG = {
+											is_puppet_of = PREV
+										}
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					country_event = {
+							id = germany.98
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Puppet_Bulgaria
+		text = GER_Puppet_Bulgaria
+		icon = GFX_goal_rhineland
+		cost = 10.00
+		prerequisite = {
+			focus = GER_fate_of_yugoslavia
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = GER_demand_memel
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = GER_anschluss
+		}
+		x = 18
+		y = 2
+			available = {
+					is_puppet = no
+				}
+			bypass = {
+					188 = {
+							is_owned_by = GER
+						}
+					85 = {
+							is_owned_by = GER
+						}
+					86 = {
+							is_owned_by = GER
+						}
+				}
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0
+							date < 1939.1.1
+						}
+				}
+			completion_reward = {
+					188 = {
+							add_claim_by = GER
+						}
+					85 = {
+							add_claim_by = GER
+						}
+					86 = {
+							add_claim_by = GER
+						}
+					add_named_threat = {
+							threat = 3
+							name = GER_demand_memel_threat
+						}
+					if = {
+							limit = {
+									LIT = {
+											owns_state = 188
+											controls_state = 188
+										}
+								}
+							LIT = {
+									country_event = {
+											id = baltic.4
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_danzig_or_war
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = GER_demand_memel
+		}
+		mutually_exclusive = {
+			focus = GER_danzig_vs_slovakia
+		}
+		x = 18
+		y = 4
+			will_lead_to_war_with = POL
+			available = {
+					is_puppet = no
+					has_army_manpower = {
+							size > 949999
+						}
+					#100 div   
+					#Make custom trigger tooltip here
+					85 = {
+							owner = {
+									original_tag = POL
+								}
+							controller = {
+									original_tag = POL
+								}
+						}
+					OR = {
+							POL = {
+									has_civil_war = no
+								}
+							#custom_trigger_tooltip = {
+							#tooltip = GER_danzig_trigger_polish_civil_war
+							AND = {
+									any_other_country = {
+											original_tag = POL
+											has_civil_war = yes
+											OR = {
+													is_in_faction_with = ROOT
+													has_volunteers_amount_from = {
+															tag = GER
+															count > 0
+														}
+												}
+										}
+								}
+						}
+				}
+			#}
+			bypass = {
+					OR = {
+							has_war_with = POL
+							is_in_faction_with = POL
+							NOT = {
+									85 = {
+											controller = {
+													original_tag = POL
+												}
+											owner = {
+													original_tag = POL
+												}
+										}
+								}
+						}
+				}
+			cancel_if_invalid = no
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0
+							OR = {
+									date < 1939.1.1
+									any_neighbor_country = {
+											has_war_with = GER
+											NOT = {
+													has_capitulated = yes
+												}
+											strength_ratio = {
+													tag = GER
+													ratio > 0.6
+												}
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_named_threat = {
+							threat = 5
+							name = GER_danzig_or_war
+						}
+					if = {
+							limit = {
+									85 = {
+											controller = {
+													tag = POL
+													has_civil_war = no
+												}
+										}
+								}
+							effect_tooltip = {
+									transfer_state = 85
+									remove_state_claim = 86
+								}
+							POL = {
+									country_event = {
+											id = germany.86
+										}
+									if = {
+											limit = {
+													NOT = {
+															is_in_faction_with = ROOT
+														}
+												}
+											custom_effect_tooltip = needs_approval
+										}
+									if = {
+											limit = {
+													is_in_faction_with = ROOT
+													ROOT = {
+															is_faction_leader = yes
+														}
+												}
+											custom_effect_tooltip = GER_danzig_or_war_POL_faction_GER_leader
+										}
+									if = {
+											limit = {
+													is_in_faction_with = ROOT
+													NOT = {
+															ROOT = {
+																	is_faction_leader = yes
+																}
+														}
+												}
+											custom_effect_tooltip = GER_danzig_or_war_POL_faction_GER_noleader
+										}
+								}
+						}
+					if = {
+							limit = {
+									85 = {
+											owner = {
+													OR = {
+															original_tag = POL
+															tag = POL
+														}
+												}
+										}
+								}
+							random_other_country = {
+									limit = {
+											original_tag = POL
+											has_civil_war = yes
+											OR = {
+													is_in_faction_with = GER
+													has_volunteers_amount_from = {
+															tag = GER
+															count > 0
+														}
+												}
+										}
+									country_event = {
+											id = germany.113
+											days = 1
+										}
+								}
+							custom_effect_tooltip = GER_danzig_or_war_POL_civil_war
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Heim
+		icon = GFX_goal_demand_sudetenland
+		cost = 60.00
+		prerequisite = {
+			focus = GER_danzig_or_war
+		}
+		x = 17
+		y = 5
+			available = {
+					OR = {
+							72 = {
+									is_controlled_by = GER
+								}
+							188 = {
+									is_controlled_by = GER
+								}
+							102 = {
+									is_controlled_by = GER
+								}
+							85 = {
+									is_controlled_by = GER
+								}
+							86 = {
+									is_controlled_by = GER
+								}
+							747 = {
+									is_controlled_by = GER
+								}
+							98 = {
+									is_controlled_by = GER
+								}
+							87 = {
+									is_controlled_by = GER
+								}
+						}
+				}
+			completion_reward = {
+					72 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+					188 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+					102 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+					85 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+					86 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+					747 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+					98 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+					87 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = GER
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_around_maginot
+		icon = GFX_goal_generic_attack_allies
+		cost = 4.00
+		prerequisite = {
+			focus = GER_danzig_or_war
+		}
+		x = 18
+		y = 6
+			available = {
+					OR = {
+							NOT = {
+									HOL = {
+											is_in_faction_with = GER
+										}
+								}
+							NOT = {
+									BEL = {
+											is_in_faction_with = GER
+										}
+								}
+							NOT = {
+									LUX = {
+											is_in_faction_with = GER
+										}
+								}
+						}
+				}
+			bypass = {
+					HOL = {
+							OR = {
+									exists = no
+									is_in_faction_with = GER
+									has_war_with = ROOT
+								}
+						}
+					BEL = {
+							OR = {
+									exists = no
+									is_in_faction_with = GER
+									has_war_with = ROOT
+								}
+						}
+					LUX = {
+							OR = {
+									exists = no
+									is_in_faction_with = GER
+									has_war_with = ROOT
+								}
+						}
+				}
+			historical_ai = {
+					date > 1939.1.1
+					NOT = {
+							any_home_area_neighbor_country = {
+									NOT = {
+											tag = FRA
+										}
+									has_war_with = ROOT
+									surrender_progress < 0.5
+								}
+						}
+				}
+			will_lead_to_war_with = BEL
+			will_lead_to_war_with = HOL
+			will_lead_to_war_with = LUX
+			will_lead_to_war_with = FRA
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0.05
+							date < 1939.1.1
+						}
+					modifier = {
+							factor = 0.2
+							any_home_area_neighbor_country = {
+									NOT = {
+											tag = FRA
+										}
+									has_war_with = ROOT
+									surrender_progress < 0.5
+								}
+						}
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									country_exists = BEL
+									NOT = {
+											BEL = {
+													is_in_faction_with = GER
+												}
+										}
+									NOT = {
+											has_war_with = BEL
+										}
+								}
+							create_wargoal = {
+									type = take_state_focus
+									target = BEL
+									generator = { 6 }
+								}
+						}
+					if = {
+							limit = {
+									country_exists = HOL
+									NOT = {
+											HOL = {
+													is_in_faction_with = GER
+												}
+										}
+									NOT = {
+											has_war_with = HOL
+										}
+								}
+							create_wargoal = {
+									type = take_state_focus
+									target = HOL
+									generator = { 7 }
+								}
+						}
+					if = {
+							limit = {
+									country_exists = LUX
+									NOT = {
+											LUX = {
+													is_in_faction_with = GER
+												}
+										}
+									NOT = {
+											has_war_with = LUX
+										}
+								}
+							create_wargoal = {
+									type = take_state_focus
+									target = LUX
+									generator = { 8 }
+								}
+						}
+					hidden_effect = {
+							news_event = {
+									hours = 6
+									id = news.234
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_war_with_france
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = GER_around_maginot
+		}
+		x = 0
+		y = 1
+		relative_position_id = GER_around_maginot
+			available = {
+					is_puppet = no
+					NOT = {
+							is_in_faction_with = FRA
+						}
+				}
+			bypass = {
+					OR = {
+							NOT = {
+									country_exists = FRA
+								}
+							has_war_with = FRA
+						}
+				}
+			historical_ai = {
+					date > 1939.1.1
+					NOT = {
+							any_neighbor_country = {
+									has_war_with = ROOT
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0.05
+							date < 1939.1.1
+						}
+				}
+			completion_reward = {
+					add_named_threat = {
+							threat = 5
+							name = GER_war_with_france_threat
+						}
+					create_wargoal = {
+							type = take_state_focus
+							target = FRA
+							generator = { 28 }
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Wesmark
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 5.00
+		prerequisite = {
+			focus = GER_war_with_france
+		}
+		x = 16
+		y = 8
+			available = {
+					28 = {
+							is_controlled_by = GER
+						}
+				}
+			completion_reward = {
+					28 = {
+							add_core_of = GER
+						}
+					hidden_effect = {
+							FRA = {
+									remove_state_core = 28
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Westland
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		prerequisite = {
+			focus = GER_war_with_france
+		}
+		x = 18
+		y = 8
+			available = {
+					36 = {
+							is_controlled_by = GER
+						}
+					7 = {
+							is_controlled_by = GER
+						}
+					35 = {
+							is_controlled_by = GER
+						}
+				}
+			completion_reward = {
+					hidden_effect = {
+							HOL = {
+									remove_state_core = 36
+									remove_state_core = 7
+									remove_state_core = 35
+								}
+						}
+					36 = {
+							add_core_of = GER
+						}
+					7 = {
+							add_core_of = GER
+						}
+					35 = {
+							add_core_of = GER
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Wallonien
+		icon = GFX_goal_generic_propaganda
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Westland
+		}
+		x = 18
+		y = 9
+			available = {
+					743 = {
+							is_controlled_by = GER
+						}
+					6 = {
+							is_controlled_by = GER
+						}
+					34 = {
+							is_controlled_by = GER
+						}
+				}
+			completion_reward = {
+					hidden_effect = {
+							BEL = {
+									remove_state_core = 6
+									remove_state_core = 743
+									remove_state_core = 34
+								}
+						}
+					743 = {
+							add_core_of = GER
+						}
+					6 = {
+							add_core_of = GER
+						}
+					34 = {
+							add_core_of = GER
+						}
+				}
+
+	}
+	focus = {
+		id = GER_demand_sudetenland
+		icon = GFX_goal_demand_sudetenland
+		cost = 10.00
+		prerequisite = {
+			focus = GER_anschluss
+		}
+		x = 21
+		y = 2
+			will_lead_to_war_with = CZE
+			will_lead_to_war_with = FRA
+			available = {
+					is_puppet = no
+					has_army_manpower = {
+							size > 749999
+						}
+				}
+			#80 div  
+			bypass = {
+					OR = {
+							CZE = {
+									is_puppet_of = GER
+								}
+							69 = {
+									CONTROLLER = {
+											has_war_with = GER
+										}
+								}
+							GER = {
+									controls_state = 69
+								}
+						}
+				}
+			cancel = {
+					is_puppet = yes
+				}
+			cancel_if_invalid = no
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									OR = {
+											has_war_with = ENG
+											has_war_with = FRA
+											CZE = {
+													is_puppet = yes
+												}
+											CZE = {
+													has_war_with = ENG
+												}
+											CZE = {
+													has_war_with = FRA
+												}
+										}
+									CZE = {
+											controls_state = 69
+										}
+								}
+							CZE = {
+									country_event = {
+											id = germany.122
+										}
+								}
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_war_with = ENG
+										}
+									NOT = {
+											has_war_with = FRA
+										}
+									CZE = {
+											is_puppet = no
+										}
+									CZE = {
+											NOT = {
+													has_war_with = ENG
+												}
+										}
+									CZE = {
+											controls_state = 69
+										}
+								}
+							ENG = {
+									country_event = germany.40
+								}
+							add_named_threat = {
+									threat = 3
+									name = GER_demand_sudetenland_threat
+								}
+						}
+					69 = {
+							add_claim_by = GER
+						}
+					if = {
+							limit = {
+									NOT = {
+											CZE = {
+													controls_state = 69
+												}
+										}
+									69 = {
+											controller = {
+													NOT = {
+															is_in_faction_with = GER
+														}
+												}
+										}
+								}
+							add_named_threat = {
+									threat = 3
+									name = GER_demand_sudetenland_threat
+								}
+							69 = {
+									controller = {
+											GER = {
+													create_wargoal = {
+															type = take_state_focus
+															target = PREV
+															generator = { 69 }
+														}
+												}
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_end_of_czechoslovakia
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = GER_demand_sudetenland
+		}
+		x = 20
+		y = 3
+			available = {
+					is_puppet = no
+					has_army_manpower = {
+							size > 749999
+						}
+					NOT = {
+							has_war_with = CZE
+						}
+				}
+			bypass = {
+					OR = {
+							has_war_with = CZE
+							NOT = {
+									country_exists = CZE
+								}
+							any_other_country = {
+									is_in_faction_with = GER
+									CZE = {
+											is_puppet_of = PREV
+										}
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									country_exists = CZE
+								}
+							set_global_flag = end_of_czechoslovakia
+							CZE = {
+									country_event = germany.53
+								}
+						}
+					if = {
+							limit = {
+									NOT = {
+											country_exists = CZE
+										}
+								}
+							country_event = {
+									id = germany.55
+									hours = 6
+								}
+						}
+					add_named_threat = {
+							threat = 5
+							name = GER_end_of_czechoslovakia
+						}
+				}
+
+	}
+	focus = {
+		id = GER_danzig_vs_slovakia
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = GER_end_of_czechoslovakia
+		}
+		mutually_exclusive = {
+			focus = GER_danzig_or_war
+		}
+		x = 20
+		y = 4
+			available = {
+					is_puppet = no
+					OR = {
+							SLO = {
+									exists = yes
+									is_in_faction_with = GER
+								}
+							owns_state = 70
+						}
+					NOT = {
+							owns_state = 85
+						}
+					NOT = {
+							has_war_with = POL
+						}
+					POL = {
+							owns_state = 72
+						}
+				}
+			ai_will_do = {
+					factor = 0
+				}
+			completion_reward = {
+					POL = {
+							country_event = {
+									id = germany.80
+									days = 1
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_first_vienna_award
+		icon = GFX_goal_generic_military_deal
+		cost = 10.00
+		prerequisite = {
+			focus = GER_demand_sudetenland
+		}
+		x = 22
+		y = 3
+			bypass = {
+					OR = {
+							AND = {
+									NOT = {
+											CZE = {
+													controls_state = 664
+												}
+										}
+									NOT = {
+											owns_state = 664
+										}
+								}
+							HUN = {
+									is_friend_or_potential_friend_of_GER = no
+								}
+						}
+				}
+			available = {
+					is_puppet = no
+					owns_state = 69
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					HUN = {
+							country_event = {
+									id = germany.51
+								}
+							add_opinion_modifier = {
+									target = GER
+									modifier = GER_first_vienna_award_GER
+								}
+						}
+					every_other_country = {
+							limit = {
+									is_faction_leader = yes
+								}
+							reverse_add_opinion_modifier = {
+									target = HUN
+									modifier = GER_first_vienna_award_other
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_second_vienna_award
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = GER_first_vienna_award
+		}
+		x = 22
+		y = 4
+			ai_will_do = {
+					factor = 10
+				}
+			available = {
+					is_puppet = no
+					has_army_manpower = {
+							size > 749999
+						}
+					has_capitulated = no
+				}
+			bypass = {
+					OR = {
+							AND = {
+									OR = {
+											HUN = {
+													NOT = {
+															has_government = fascism
+														}
+													is_friend_or_potential_friend_of_GER = no
+												}
+											ROM = {
+													OR = {
+															AND = {
+																	NOT = {
+																			controls_state = 76
+																		}
+																	NOT = {
+																			controls_state = 83
+																		}
+																	NOT = {
+																			controls_state = 84
+																		}
+																}
+															has_war_with = HUN
+														}
+												}
+										}
+									OR = {
+											BUL = {
+													is_friend_or_potential_friend_of_GER = no
+												}
+											ROM = {
+													OR = {
+															NOT = {
+																	controls_state = 77
+																}
+															has_war_with = BUL
+														}
+												}
+										}
+								}
+							HUN = {
+									exists = no
+								}
+							ROM = {
+									exists = no
+								}
+							HUN = {
+									has_capitulated = yes
+								}
+							ROM = {
+									has_capitulated = yes
+								}
+						}
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									HUN = {
+											has_government = fascism
+											is_friend_or_potential_friend_of_GER = yes
+										}
+									ROM = {
+											controls_state = 76
+											NOT = {
+													has_war_with = HUN
+												}
+										}
+								}
+							country_event = {
+									id = germany.20
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_italy_ally
+		icon = GFX_focus_generic_italy_first
+		cost = 10.00
+		prerequisite = {
+			focus = GER_second_vienna_award
+		}
+		x = 20
+		y = 5
+			available = {
+					NOT = {
+							has_war_with = ITA
+						}
+				}
+			bypass = {
+					OR = {
+							is_in_faction_with = ITA
+							has_war_with = ITA
+							NOT = {
+									country_exists = ITA
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 10
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					ITA = {
+							add_opinion_modifier = {
+									target = GER
+									modifier = ger_ita_alliance_focus
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_nationalist_spain_ally
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 10.00
+		prerequisite = {
+			focus = GER_second_vienna_award
+		}
+		x = 22
+		y = 5
+			available = {
+					SPR = {
+							has_civil_war = no
+						}
+					any_other_country = {
+							original_tag = SPR
+							has_government = fascism
+							NOT = {
+									has_war_with = GER
+								}
+							NOT = {
+									is_in_faction_with = GER
+								}
+						}
+					FRA = {
+							OR = {
+									NOT = {
+											country_exists = THIS
+										}
+									has_capitulated = yes
+									has_government = fascism
+								}
+						}
+				}
+			#bypass = {
+			# any_other_country = {
+			#  original_tag = SPR
+			#  has_government = fascism
+			#  is_in_faction_with = GER
+			# }
+			#}
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					SPR = {
+							add_ideas = spain_aid
+						}
+					if = {
+							limit = {
+									OR = {
+											SPR = {
+													NOT = {
+															has_government = fascism
+														}
+												}
+											NOT = {
+													country_exists = SPR
+												}
+										}
+								}
+							custom_effect_tooltip = GER_nationalist_spain_ally_tt
+						}
+					random_other_country = {
+							limit = {
+									original_tag = SPR
+									has_government = fascism
+								}
+							remove_ideas = SPA_recovering_from_civil_war
+							add_opinion_modifier = {
+									target = GER
+									modifier = ger_spa_alliance_focus
+								}
+						}
+					GER = {
+							add_timed_idea = {
+									idea = german_aid
+									days = 365
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_OP_Felix
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 10.00
+		prerequisite = {
+			focus = GER_nationalist_spain_ally
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = GER_naval_effort
+		text = naval_effort
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = GER_naval_rearmament
+		}
+		x = 26
+		y = 1
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			complete_tooltip = {
+					navy_experience = 25
+					every_state = {
+							limit = {
+									has_state_flag = GER_naval_effort_2dockyards
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 0.5
+							uses = 1
+							technology = improved_destroyer
+							technology = advanced_destroyer
+						}
+					add_tech_bonus = {
+							name = cr_bonus
+							bonus = 0.5
+							uses = 1
+							technology = improved_light_cruiser
+							technology = advanced_light_cruiser
+							technology = improved_heavy_cruiser
+							technology = advanced_heavy_cruiser
+						}
+				}
+			completion_reward = {
+					navy_experience = 25
+					random_owned_controlled_state = {
+							limit = {
+									dockyard > 0
+									free_building_slots = {
+											building = dockyard
+											size > 2
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_naval_effort_2dockyards
+						}
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 0.5
+							uses = 1
+							technology = improved_destroyer
+							technology = advanced_destroyer
+						}
+					add_tech_bonus = {
+							name = cr_bonus
+							bonus = 0.5
+							uses = 1
+							technology = improved_light_cruiser
+							technology = advanced_light_cruiser
+							technology = improved_heavy_cruiser
+							technology = advanced_heavy_cruiser
+						}
+				}
+
+	}
+	focus = {
+		id = GER_u_boat_effort
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = GER_naval_effort
+		}
+		mutually_exclusive = {
+			focus = GER_plan_z
+		}
+		x = 24
+		y = 2
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			complete_tooltip = {
+					navy_experience = 25
+					every_state = {
+							limit = {
+									has_state_flag = GER_u_boat_effort_2dockyards
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = GER_u_boat_effort
+							bonus = 0.5
+							uses = 1
+							technology = early_submarine
+							technology = basic_submarine
+							technology = improved_submarine
+							technology = advanced_submarine
+						}
+				}
+			completion_reward = {
+					navy_experience = 25
+					random_owned_controlled_state = {
+							limit = {
+									dockyard > 0
+									free_building_slots = {
+											building = dockyard
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_u_boat_effort_2dockyards
+						}
+					add_tech_bonus = {
+							name = GER_u_boat_effort
+							bonus = 0.5
+							uses = 1
+							technology = early_submarine
+							technology = basic_submarine
+							technology = improved_submarine
+							technology = advanced_submarine
+						}
+				}
+
+	}
+	focus = {
+		id = GER_trade_interdiction
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = GER_u_boat_effort
+		}
+		x = 24
+		y = 4
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = ti_bonus
+							name = GER_trade_interdiction
+							bonus = 0.5
+							category = trade_interdiction_tree
+						}
+				}
+
+	}
+	focus = {
+		id = GER_OP_Isabella
+		icon = GFX_focus_generic_cryptologic_bomb
+		cost = 10.00
+		prerequisite = {
+			focus = GER_nationalist_spain_ally
+		}
+		prerequisite = {
+			focus = GER_trade_interdiction
+		}
+		x = 24
+		y = 6
+			complete_tooltip = {
+					country_event = {
+							days = 1
+							id = RO_germany.1
+						}
+				}
+
+	}
+	focus = {
+		id = GER_panske
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = GER_OP_Isabella
+		}
+		x = 24
+		y = 7
+			completion_reward = {
+					add_tech_bonus = {
+							name = GER_u_boat_effort
+							bonus = 0.5
+							uses = 1
+							technology = advanced_submarine
+						}
+				}
+
+	}
+	focus = {
+		id = GER_plan_z
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = GER_naval_effort
+		}
+		mutually_exclusive = {
+			focus = GER_u_boat_effort
+		}
+		x = 26
+		y = 2
+			ai_will_do = {
+					factor = 0.25
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					navy_experience = 50
+					add_tech_bonus = {
+							name = bc_bonus
+							bonus = 0.5
+							uses = 1
+							technology = basic_battlecruiser
+						}
+					add_tech_bonus = {
+							name = bb_bonus
+							bonus = 0.5
+							uses = 1
+							technology = basic_battleship
+							technology = improved_battleship
+							technology = advanced_battleship
+							technology = heavy_battleship
+							technology = heavy_battleship2
+						}
+					add_tech_bonus = {
+							name = cv_bonus
+							bonus = 0.5
+							uses = 1
+							technology = early_carrier
+							technology = basic_carrier
+							technology = improved_carrier
+							technology = advanced_carrier
+						}
+				}
+
+	}
+	focus = {
+		id = GER_weserubung
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 10.00
+		prerequisite = {
+			focus = GER_plan_z
+		}
+		x = 26
+		y = 3
+			will_lead_to_war_with = DEN
+			will_lead_to_war_with = NOR
+			bypass = {
+					AND = {
+							OR = {
+									DEN = {
+											is_in_faction_with = GER
+											NOT = {
+													country_exists = DEN
+												}
+										}
+								}
+						}
+				}
+			available = {
+					POL = {
+							NOT = {
+									controls_state = 85
+								}
+							NOT = {
+									controls_state = 10
+								}
+						}
+					OR = {
+							has_war_with = ENG
+							NOT = {
+									country_exists = ENG
+								}
+						}
+				}
+			ai_will_do = {
+					factor = 10
+					modifier = {
+							factor = 0
+							date < 1939.1.1
+						}
+				}
+			completion_reward = {
+					if = {
+							limit = {
+									NOT = {
+											DEN = {
+													is_in_faction_with = GER
+												}
+										}
+									country_exists = DEN
+								}
+							create_wargoal = {
+									type = take_state_focus
+									target = DEN
+									generator = { 37 }
+								}
+						}
+					if = {
+							limit = {
+									NOT = {
+											NOR = {
+													is_in_faction_with = GER
+												}
+										}
+									country_exists = NOR
+								}
+							create_wargoal = {
+									type = take_state_focus
+									target = NOR
+									generator = { 110 }
+								}
+						}
+					add_tech_bonus = {
+							name = tp_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 1
+							technology = transport
+							technology = landing_craft
+							technology = tank_landing_craft
+						}
+					hidden_effect = {
+							news_event = {
+									hours = 6
+									id = news.233
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Luflander
+		icon = GFX_focus_generic_paratrooper
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Luftwafe
+		}
+		x = 28
+		y = 1
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = para_tech
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Sealowe
+		icon = GFX_focus_AST_never_gallipoli
+		cost = 10.00
+		prerequisite = {
+			focus = GER_naval_effort
+		}
+		prerequisite = {
+			focus = GER_Luflander
+		}
+		x = 28
+		y = 2
+			complete_tooltip = {
+					add_tech_bonus = {
+							name = tp_bonus
+							bonus = 0.5
+							uses = 1
+							technology = transport
+							technology = landing_craft
+							technology = tank_landing_craft
+						}
+					add_tech_bonus = {
+							name = marine_bonus
+							bonus = 0.5
+							uses = 1
+							category = marine_tech
+						}
+				}
+
+	}
+	focus = {
+		id = GER_improve_national_spirit
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Sealowe
+		}
+		x = 28
+		y = 3
+			available = {
+					custom_trigger_tooltip = {
+							tooltip = GER_improve_national_spirit_tooltip
+							OR = {
+									GER = {
+											controls_state = 126
+										}
+									any_other_country = {
+											is_in_faction_with = GER
+											controls_state = 126
+										}
+								}
+							OR = {
+									GER = {
+											controls_state = 16
+										}
+									any_other_country = {
+											is_in_faction_with = GER
+											controls_state = 16
+										}
+								}
+						}
+				}
+			cancel = {
+					AND = {
+							has_war = no
+							126 = {
+									owner = {
+											NOT = {
+													tag = GER
+												}
+											NOT = {
+													is_in_faction_with = GER
+												}
+										}
+								}
+							16 = {
+									owner = {
+											NOT = {
+													tag = GER
+												}
+											NOT = {
+													is_in_faction_with = GER
+												}
+										}
+								}
+						}
+				}
+			cancel_if_invalid = no
+			ai_will_do = {
+					factor = 10
+				}
+			completion_reward = {
+					remove_ideas = sour_loser
+					add_ideas = triumphant_will
+				}
+
+	}
+	focus = {
+		id = GER_tactical_air_effort
+		icon = GFX_goal_generic_CAS
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Luftwafe
+		}
+		mutually_exclusive = {
+			focus = GER_strategic_air_effort
+		}
+		x = 30
+		y = 1
+			ai_will_do = {
+					factor = 0.25
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = op_dest_bonus
+							bonus = 0.5
+							uses = 2
+							category = battlefield_support_tree
+						}
+					add_tech_bonus = {
+							name = bomber_bonus
+							bonus = 0.5
+							uses = 1
+							technology = tactical_bomber2
+							technology = CAS2
+						}
+				}
+
+	}
+	focus = {
+		id = GER_naval_air_effort
+		text = naval_air_effort
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = GER_tactical_air_effort
+		}
+		x = 30
+		y = 2
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = nav_bomber_bonus
+							bonus = 0.5
+							uses = 1
+							technology = naval_bomber2
+						}
+				}
+
+	}
+	focus = {
+		id = GER_strategic_air_effort
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Luftwafe
+		}
+		mutually_exclusive = {
+			focus = GER_tactical_air_effort
+		}
+		x = 32
+		y = 1
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = strat_dest_bonus
+							bonus = 0.5
+							uses = 2
+							category = battlefield_support_tree
+						}
+					add_tech_bonus = {
+							name = bomber_bonus
+							bonus = 0.5
+							uses = 1
+							technology = strategic_bomber2
+						}
+				}
+
+	}
+	focus = {
+		id = GER_rocketry_focus
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = GER_strategic_air_effort
+		}
+		x = 32
+		y = 2
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = GER_rocketry_idea
+				}
+
+	}
+	focus = {
+		id = GER_air_innovation_2
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = GER_rocketry_focus
+			focus = GER_naval_air_effort
+		}
+		x = 30
+		y = 3
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					air_experience = 50
+					add_ideas = GER_air_innovations_2_idea
+					add_tech_bonus = {
+							name = radar_tech_bonus
+							bonus = 0.5
+							uses = 1
+							category = radar_tech
+						}
+					if = {
+							limit = {
+									has_opinion_modifier = sov_ger_treaty
+									NOT = {
+											has_war_with = SOV
+										}
+								}
+							SOV = {
+									country_event = {
+											id = germany.78
+											days = 1
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_industrial_effort
+		text = industrial_effort
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Trade_union
+		}
+		x = 34
+		y = 1
+			ai_will_do = {
+					factor = 9
+				}
+			available_if_capitulated = yes
+			complete_tooltip = {
+					every_state = {
+							limit = {
+									has_state_flag = GER_industrial_effort_2IC
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = construction_tech_bonus
+							bonus = 0.5
+							uses = 1
+							category = construction_tech
+						}
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_industrial_effort_2IC
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_industrial_effort_2IC
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_industrial_effort_2IC
+						}
+					add_tech_bonus = {
+							name = construction_tech_bonus
+							bonus = 0.5
+							uses = 1
+							category = construction_tech
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Mettal
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = GER_industrial_effort
+		}
+		x = 34
+		y = 2
+			completion_reward = {
+					add_resource = {
+							type = steel
+							amount = 32
+							state = 65
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Refin
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Mettal
+		}
+		x = 34
+		y = 3
+			completion_reward = {
+					add_timed_idea = {
+							idea = coal_liq
+							days = 245
+						}
+					add_tech_bonus = {
+							name = synth_tech_bonus
+							bonus = 0.5
+							uses = 1
+							category = synth_resources
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Freude
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Trade_union
+		}
+		x = 36
+		y = 1
+			completion_reward = {
+					add_timed_idea = {
+							idea = pipi_caca
+							days = 120
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Todt
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Freude
+		}
+		x = 36
+		y = 2
+			completion_reward = {
+					add_ideas = todt2
+				}
+
+	}
+	focus = {
+		id = GER_Wolkswagen
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Todt
+		}
+		x = 36
+		y = 3
+			complete_tooltip = {
+					add_ideas = wolk
+				}
+
+	}
+	focus = {
+		id = GER_autobahn
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Trade_union
+		}
+		x = 38
+		y = 1
+			ai_will_do = {
+					factor = 12
+				}
+			completion_reward = {
+					custom_effect_tooltip = GER_autobahn_tt
+					hidden_effect = {
+							64 = {
+									if = {
+											limit = {
+													is_controlled_by = ROOT
+												}
+											add_building_construction = {
+													type = infrastructure
+													level = 10
+													instant_build = yes
+												}
+										}
+								}
+							59 = {
+									if = {
+											limit = {
+													is_controlled_by = ROOT
+												}
+											add_building_construction = {
+													type = infrastructure
+													level = 10
+													instant_build = yes
+												}
+										}
+								}
+							60 = {
+									if = {
+											limit = {
+													is_controlled_by = ROOT
+												}
+											add_building_construction = {
+													type = infrastructure
+													level = 10
+													instant_build = yes
+												}
+										}
+								}
+							54 = {
+									if = {
+											limit = {
+													is_controlled_by = ROOT
+												}
+											add_building_construction = {
+													type = infrastructure
+													level = 10
+													instant_build = yes
+												}
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_industrial_effort_2
+		text = industrial_effort_2
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = GER_autobahn
+		}
+		x = 38
+		y = 2
+			ai_will_do = {
+					factor = 5
+				}
+			available_if_capitulated = yes
+			complete_tooltip = {
+					every_state = {
+							limit = {
+									has_state_flag = GER_industrial_effort_2_2IC
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = construction_tech_bonus
+							bonus = 0.5
+							uses = 1
+							category = construction_tech
+						}
+				}
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_industrial_effort_2_2IC
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_industrial_effort_2_2IC
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+							set_state_flag = GER_industrial_effort_2_2IC
+						}
+					add_tech_bonus = {
+							name = construction_tech_bonus
+							bonus = 0.5
+							uses = 1
+							category = construction_tech
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Reinhardt
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = GER_industrial_effort_2
+		}
+		x = 38
+		y = 3
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					52 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = infrastructure
+											level = 10
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Italian_Land
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = GER_italy_ally
+		}
+		x = 20
+		y = 6
+			available = {
+					OR = {
+							1 = {
+									is_controlled_by = GER
+								}
+							1 = {
+									is_controlled_by = ITA
+								}
+							1 = {
+									is_controlled_by = RFA
+								}
+						}
+					OR = {
+							735 = {
+									is_controlled_by = GER
+								}
+							735 = {
+									is_controlled_by = ITA
+								}
+							735 = {
+									is_controlled_by = RFA
+								}
+						}
+					OR = {
+							21 = {
+									is_controlled_by = GER
+								}
+							21 = {
+									is_controlled_by = ITA
+								}
+							21 = {
+									is_controlled_by = RFA
+								}
+						}
+				}
+			completion_reward = {
+					hidden_effect = {
+							FRA = {
+									remove_state_core = 735
+									remove_state_core = 1
+									remove_state_core = 21
+								}
+						}
+					ITA = {
+							transfer_state = 735
+						}
+					ITA = {
+							transfer_state = 1
+						}
+					ITA = {
+							transfer_state = 21
+						}
+					735 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = ITA
+								}
+						}
+					1 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = ITA
+								}
+						}
+					21 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_core_of = ITA
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Tane
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = GER_war_with_france
+		}
+		x = 20
+		y = 8
+			completion_reward = {
+					create_wargoal = {
+							type = take_state_focus
+							target = SWI
+							generator = { 28 }
+						}
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							technology = tech_mountaineers2
+						}
+					151 = {
+							add_claim_by = GER
+						}
+					1 = {
+							add_claim_by = GER
+						}
+					748 = {
+							add_claim_by = ITA
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Aktion_S
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Tane
+		}
+		x = 20
+		y = 9
+			available = {
+					151 = {
+							is_controlled_by = GER
+						}
+					3 = {
+							is_controlled_by = GER
+						}
+				}
+			completion_reward = {
+					hidden_effect = {
+							SWI = {
+									remove_state_core = 151
+									remove_state_core = 3
+									remove_state_core = 748
+								}
+						}
+					ITA = {
+							transfer_state = 748
+						}
+					151 = {
+							add_core_of = GER
+						}
+					3 = {
+							add_core_of = GER
+						}
+					748 = {
+							add_core_of = ITA
+						}
+				}
+
+	}
+	focus = {
+		id = GER_west_wall
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Trade_union
+		}
+		x = 40
+		y = 1
+			ai_will_do = {
+					factor = 8
+				}
+			completion_reward = {
+					50 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									custom_effect_tooltip = GER_west_wall_forts
+									hidden_effect = {
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 11640
+													instant_build = yes
+												}
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 6712
+													instant_build = yes
+												}
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 6542
+													instant_build = yes
+												}
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 3530
+													instant_build = yes
+												}
+										}
+								}
+						}
+					if = {
+							limit = {
+									42 = {
+											is_demilitarized_zone = yes
+										}
+								}
+							custom_effect_tooltip = GER_west_wall_tt
+							42 = {
+									custom_effect_tooltip = GER_west_wall_forts
+								}
+						}
+					hidden_effect = {
+							42 = {
+									if = {
+											limit = {
+													is_controlled_by = ROOT
+												}
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 3558
+													instant_build = yes
+												}
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 563
+													instant_build = yes
+												}
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 11531
+													instant_build = yes
+												}
+											add_building_construction = {
+													type = bunker
+													level = 3
+													province = 9575
+													instant_build = yes
+												}
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Atlantik
+		icon = GFX_focus_generic_coastal_fort
+		cost = 30.00
+		prerequisite = {
+			focus = GER_west_wall
+		}
+		x = 40
+		y = 2
+			available = {
+					date > 1940.1.1
+					OR = {
+							743 = {
+									is_controlled_by = GER
+								}
+							23 = {
+									is_controlled_by = GER
+								}
+							19 = {
+									is_controlled_by = GER
+								}
+							6 = {
+									is_controlled_by = GER
+								}
+							14 = {
+									is_controlled_by = GER
+								}
+							15 = {
+									is_controlled_by = GER
+								}
+							7 = {
+									is_controlled_by = GER
+								}
+						}
+				}
+			completion_reward = {
+					743 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 2
+											province = 575
+											instant_build = yes
+										}
+								}
+						}
+					19 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 1
+											province = 9739
+											instant_build = yes
+										}
+								}
+						}
+					6 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 1
+											province = 6560
+											instant_build = yes
+										}
+								}
+						}
+					23 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 1
+											province = 6657
+											instant_build = yes
+										}
+								}
+						}
+					14 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 2
+											province = 3552
+											instant_build = yes
+										}
+								}
+						}
+					14 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 1
+											province = 9510
+											instant_build = yes
+										}
+								}
+						}
+					15 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 2
+											province = 6649
+											instant_build = yes
+										}
+								}
+						}
+					15 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 1
+											province = 485
+											instant_build = yes
+										}
+								}
+						}
+					7 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 1
+											province = 3314
+											instant_build = yes
+										}
+								}
+						}
+					7 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = coastal_bunker
+											level = 2
+											province = 9498
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Flak
+		icon = GFX_focus_generic_air_defense
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Atlantik
+		}
+		x = 40
+		y = 3
+			completion_reward = {
+					64 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = anti_air_building
+											level = 4
+											instant_build = yes
+										}
+								}
+						}
+					58 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = anti_air_building
+											level = 4
+											instant_build = yes
+										}
+								}
+						}
+					4 = {
+							if = {
+									limit = {
+											is_controlled_by = ROOT
+										}
+									add_building_construction = {
+											type = anti_air_building
+											level = 4
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Mosseland
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 5.00
+		prerequisite = {
+			focus = GER_Wesmark
+		}
+		x = 16
+		y = 9
+			available = {
+					8 = {
+							is_controlled_by = GER
+						}
+				}
+			completion_reward = {
+					hidden_effect = {
+							FRA = {
+									remove_state_core = 8
+								}
+						}
+					8 = {
+							add_core_of = GER
+						}
+				}
+
+	}
+	focus = {
+		id = GER_wunderwaffe
+		icon = GFX_focus_wonderweapons
+		cost = 10.00
+		prerequisite = {
+			focus = GER_extra_tech_slot
+		}
+		x = 31
+		y = 5
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = secret_bonus
+							bonus = 0.5
+							uses = 1
+							category = nuclear
+							category = rocketry
+						}
+				}
+
+	}
+	focus = {
+		id = GER_extra_tech_slot
+		text = extra_tech_slot
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = GER_air_innovation_2
+		}
+		x = 30
+		y = 4
+			ai_will_do = {
+					factor = 1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_research_slot = 1
+				}
+
+	}
+	focus = {
+		id = GER_Westraum
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Aktion_S
+		}
+		prerequisite = {
+			focus = GER_Wallonien
+		}
+		prerequisite = {
+			focus = GER_Mosseland
+		}
+		x = 18
+		y = 10
+			available = {
+					745 = {
+							is_controlled_by = GER
+						}
+					744 = {
+							is_controlled_by = GER
+						}
+					17 = {
+							is_controlled_by = GER
+						}
+				}
+			completion_reward = {
+					hidden_effect = {
+							FRA = {
+									remove_state_core = 17
+									remove_state_core = 744
+									remove_state_core = 745
+									745 = {
+											add_core_of = GER
+										}
+									744 = {
+											add_core_of = GER
+										}
+									17 = {
+											add_core_of = GER
+										}
+									26 = {
+											add_core_of = RFA
+										}
+									25 = {
+											add_core_of = RFA
+										}
+									31 = {
+											add_core_of = RFA
+										}
+									22 = {
+											add_core_of = RFA
+										}
+									20 = {
+											add_core_of = RFA
+										}
+									32 = {
+											add_core_of = RFA
+										}
+									33 = {
+											add_core_of = RFA
+										}
+									19 = {
+											add_core_of = RFA
+										}
+									23 = {
+											add_core_of = RFA
+										}
+									24 = {
+											add_core_of = RFA
+										}
+									27 = {
+											add_core_of = RFA
+										}
+									18 = {
+											add_core_of = RFA
+										}
+									29 = {
+											add_core_of = RFA
+										}
+									16 = {
+											add_core_of = RFA
+										}
+									15 = {
+											add_core_of = RFA
+										}
+									30 = {
+											add_core_of = RFA
+										}
+									14 = {
+											add_core_of = RFA
+										}
+								}
+						}
+					release_puppet = RFA
+					RFA = {
+							hidden_effect = {
+									transfer_state = 26
+									transfer_state = 25
+									transfer_state = 31
+									transfer_state = 22
+									transfer_state = 20
+									transfer_state = 32
+									transfer_state = 33
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = GER_Amerika
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 10.00
+		prerequisite = {
+			focus = GER_extra_tech_slot
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = GER_Eternal
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = GER_Jewis
+		}
+		mutually_exclusive = {
+			focus = GER_Madagaskar
+		}
+		x = 0
+		y = 3
+
+	}
+}
