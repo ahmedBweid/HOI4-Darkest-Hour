@@ -157,7 +157,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_jet_interceptor2_medium"
+		name = "GFX_GER_jet_interceptor3_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/GER_P13a.dds"
 	}
 	
@@ -339,149 +339,171 @@ spriteTypes = {
 ###---------------------------------- USA planes ----------------------------------####
 
 	SpriteType = {
-		name = "GFX_USA_early_bomber_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_early_bomber.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_CAS1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_CAS1.dds"
+		name = "GFX_USA_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_transport_plane_equipment.dds"
 	}	
-
+## Tactical Bomber
 	SpriteType = {
-		name = "GFX_USA_CAS2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_CAS2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_CAS3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_CAS3.dds"
-	}
+		name = "GFX_USA_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B10.dds"
+	}	
 	
 	SpriteType = {
 		name = "GFX_USA_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_tactical_bomber1.dds"
-	}	
+		texturefile = "gfx/interface/technologies/Aircraft/USA_DB7.dds"
+	}		
 	
 	SpriteType = {
 		name = "GFX_USA_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_tactical_bomber2.dds"
-	}
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B25.dds"
+	}		
 	
 	SpriteType = {
 		name = "GFX_USA_tactical_bomber3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_tactical_bomber3.dds"
-	}	
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B26.dds"
+	}		
 
 	SpriteType = {
 		name = "GFX_USA_jet_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_jet_tactical_bomber1.dds"
-	}
+		texturefile = "gfx/interface/technologies/Aircraft/USA_A26.dds"
+	}		
 	
 	SpriteType = {
 		name = "GFX_USA_jet_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_jet_tactical_bomber2.dds"
-	}	
-	SpriteType = {
-		name = "GFX_USA_strategic_bomber3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_strategic_bomber3.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B45.dds"
 	}
+## Strategic Bomber
+	SpriteType = {
+		name = "GFX_USA_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B17.dds"
+	}	
 
 	SpriteType = {
 		name = "GFX_USA_strategic_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_strategic_bomber2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_strategic_bomber1.dds"
-	}
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B24.dds"
+	}		
 	
+	SpriteType = {
+		name = "GFX_USA_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B29.dds"
+	}		
+
 	SpriteType = {
 		name = "GFX_USA_jet_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_jet_strategic_bomber1.dds"
-	}
-	
-
-	
-	SpriteType = {
-		name = "GFX_USA_naval_bomber3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_naval_bomber3.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_naval_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_naval_bomber2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_naval_bomber1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_cv_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_naval_bomber1_cv.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B36.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_USA_heavy_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_heavy_fighter3.dds"
-	}
+		name = "GFX_USA_jet_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B47.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_jet_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_B52.dds"
+	}	
+	
+##CAS
+	SpriteType = {
+		name = "GFX_USA_CAS1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_A17.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_CAS2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_A31.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_CAS3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_A36.dds"
+	}		
+	
+
+
+## Escort Fighter
+	SpriteType = {
+		name = "GFX_USA_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P30.dds"
+	}	
 
 	SpriteType = {
 		name = "GFX_USA_heavy_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_heavy_fighter2.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P38.dds"
+	}		
+
+	SpriteType = {
+		name = "GFX_USA_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P38F.dds"
+	}		
+	
+### Fighters	
+	SpriteType = {
+		name = "GFX_USA_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P26.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_USA_heavy_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_heavy_fighter1.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_USA_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_fighter3.dds"
-	}
+		name = "GFX_USA_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P35.dds"
+	}		
 	
 	SpriteType = {
+		name = "GFX_USA_fighter2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P39.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P47.dds"
+	}	
+	SpriteType = {
 		name = "GFX_USA_jet_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_jet_fighter1.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P59.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_USA_jet_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_jet_fighter2.dds"
-	}	
-	SpriteType = {
-		name = "GFX_USA_cv_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_fighter3_cv.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_F84.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_USA_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_fighter2.dds"
+		name = "GFX_USA_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_F84F.dds"
 	}
+	
+### Interceptor	
 
 	SpriteType = {
-		name = "GFX_USA_cv_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_fighter2_cv.dds"
+		name = "GFX_USA_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P36.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_USA_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P40.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_USA_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_fighter1.dds"
+		name = "GFX_USA_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P51.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_jet_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_P80.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_USA_jet_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_F86.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_jet_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/USA_F86.dds"
+	}
+	
 
-	SpriteType = {
-		name = "GFX_USA_cv_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_fighter1_cv.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_USA_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/USA_early_fighter.dds"
-	}
 	
 	###---------------------------------- ENG aircraft ----------------------------------###	
 
@@ -623,73 +645,88 @@ spriteTypes = {
 ## Tactical Bomber
 	SpriteType = {
 		name = "GFX_SOV_early_bomber_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Do17.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_DB3.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_SOV_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_He111.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_SB2.dds"
 	}		
 	
 	SpriteType = {
 		name = "GFX_SOV_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ju88.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Il4.dds"
 	}		
 	
 	SpriteType = {
 		name = "GFX_SOV_tactical_bomber3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ju188.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Tu2D.dds"
 	}		
 
 	SpriteType = {
 		name = "GFX_SOV_jet_tactical_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ar234.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Tu12.dds"
 	}		
 	
 	SpriteType = {
 		name = "GFX_SOV_jet_tactical_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ju287.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Il82.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Il28.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Il54.dds"
+	}		
 ## Strategic Bomber
 	SpriteType = {
 		name = "GFX_SOV_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Do19.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_TB3.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_SOV_strategic_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_He177.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Pe8.dds"
 	}		
 	
 	SpriteType = {
 		name = "GFX_SOV_strategic_bomber3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Me264.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Tu4.dds"
 	}		
 
 	SpriteType = {
 		name = "GFX_SOV_jet_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ju132.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_M4.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_SOV_jet_strategic_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_HoXVIII.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Tu16.dds"
 	}	
-
+	
+	SpriteType = {
+		name = "GFX_SOV_jet_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Tu95.dds"
+	}	
+	
 ##CAS
 	SpriteType = {
 		name = "GFX_SOV_CAS1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ju87.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Su4.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_SOV_CAS2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ju87G.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Il2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_SOV_CAS3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Hs129.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Il10.dds"
 	}		
 	
 
@@ -697,17 +734,17 @@ spriteTypes = {
 ## Escort Fighter
 	SpriteType = {
 		name = "GFX_SOV_heavy_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_BF110.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Pe2.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_SOV_heavy_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Me410.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Pe3.dds"
 	}		
 
 	SpriteType = {
 		name = "GFX_SOV_heavy_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Me410.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/SOV_Tu2.dds"
 	}		
 	
 ### Fighters	
@@ -776,21 +813,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Aircraft/SOV_La15.dds"
 	}
 	
-## Naval Bomber
-	SpriteType = {
-		name = "GFX_SOV_naval_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Do217.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_naval_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Fw200.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_SOV_naval_bomber3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/SOV_Ju390.dds"
-	}	
+
 	
 	
 	### ----------------------------------Japan Aircrafts ----------------------------------###

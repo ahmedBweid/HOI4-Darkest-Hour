@@ -1,0 +1,14 @@
+﻿l_english:
+###### German RK events-------------------------------------
+ germany_establish_rk_ostland:0 "The Baltic States and Belarus will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
+ germany_establish_rk_ukraine:0 "The Ukraine will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
+ germany_establish_rk_moscow:0 "Russia shall be brought down to its historical size."
+ germany_establish_rk_kaukasus:0 "For the sake of stability the indeginous people of the Caucasus will be granted a limited form of self-rule."
+ germany_rk_military_occupation:0 "Full control of the region is in our best interest."
+
+ DH_germany_rk.1.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.1.b:0 "Continue Military Occupation."
+ DH_germany_rk.2.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.2.b:0 "Continue Military Occupation."
+ DH_germany_rk.3.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.3.b:0 "Continue Military Occupation."

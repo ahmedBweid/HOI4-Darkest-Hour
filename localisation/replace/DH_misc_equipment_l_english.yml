@@ -312,10 +312,11 @@
  ITA_cavalry:0 "Cavalleria" 
  
  USA_paratrooper:0 "Airborne"
+ USA_militia:0 "National Guard"
  
  HOL_marine:0 "Mariners"
  
- ROM_mountaineers:0 "Vanatori de Munte" 
+
  ROM_cavalry:0 "Cavalerie" 
  ROM_mountaineers:0 "Alpinisti"
  ROM_paratrooper:0 "Parasutisti"

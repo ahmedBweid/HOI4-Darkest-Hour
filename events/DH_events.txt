@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = DH_germany
+add_namespace = DH_germany_rk
 add_namespace = DH_italy
 add_namespace = DH_spain
 add_namespace = DH_finland
@@ -65,31 +66,387 @@ country_event = {
 	}
 }
 
-######  Projekt Amerika
+
+
+###### RK  Ostland
 country_event = {
-	id = DH_germany.4
-	title = DH_germany.4.t
-	desc = DH_germany.4.d
+	id = DH_germany_rk.1
+	title = DH_germany_rk.1.t
+	desc = DH_germany_rk.1.d
 	picture = GFX_news_event_002
 	fire_only_once = yes
 	
-	is_triggered_only = yes
+        trigger = {
+			tag = GER
+			GER = { has_government = fascism }
+			BLR = { exists = no }
+			LIT = { exists = no }
+			EST = { exists = no }		
+			LAT = { exists = no }	
+			GER = { 
+				has_full_control_of_state = 13 
+				has_full_control_of_state = 12
+				has_full_control_of_state = 11
+				has_full_control_of_state = 96
+				has_full_control_of_state = 206		
+				has_full_control_of_state = 191
+				has_full_control_of_state = 190			
+				has_full_control_of_state = 189
+				has_full_control_of_state = 95
+				has_full_control_of_state = 204				
+			}	
+        }
 
 	
-	# Amerika Bomber
+# Establish RK Ostland
 	option = { 
-		name = DH_germany.4.a
-		add_tech_bonus = { bonus = 0.5 uses = 1 technology = strategic_bomber3 }	
+		name = DH_germany_rk.1.a
+		hidden_effect = {
+			puppet = BLR
+			BLR = {
+				add_popularity = { ideology = fascism popularity = 0.1 }	
+				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_cosmetic_tag = BLR_GER_autonomy_reichskommissariat
+			
+				set_state_owner = 13 
+				set_state_owner = 12
+				set_state_owner = 11
+				set_state_owner = 96
+				set_state_owner = 206		
+				set_state_owner = 191
+				set_state_owner = 190			
+				set_state_owner = 189
+				set_state_owner = 95
+				set_state_owner = 204				
+				create_country_leader = { name = "Hinrich Lohse" desc = "POLITICS_HINRICH_LOHSE_DESC" picture = "Portrait_Germany_Hinrich_Lohse.dds" expire = "1964.2.26" ideology = nazism traits = { } }					
+			}	
+		}
+		custom_effect_tooltip = germany_establish_rk_ostland		
 	}
-	# Amerika Rakete
+	#Establish direct military occupation
 	option = { 
-		name = DH_germany.4.b
-		add_tech_bonus = { bonus = 0.5 uses = 1 technology = improved_rocket_engines }
+		name = DH_germany_rk.1.b
+		custom_effect_tooltip = germany_rk_military_occupation
 	}	
+}
+
+###### RK  Ukraine
+country_event = {
+	id = DH_germany_rk.2
+	title = DH_germany_rk.2.t
+	desc = DH_germany_rk.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
 	
+        trigger = {
+			tag = GER
+			GER = { has_government = fascism }
+			UKR = { exists = no }
+			GER = { 
+				has_full_control_of_state = 94 
+				has_full_control_of_state = 93
+				has_full_control_of_state = 199
+				has_full_control_of_state = 201
+				has_full_control_of_state = 194		
+				has_full_control_of_state = 202
+				has_full_control_of_state = 203			
+				has_full_control_of_state = 197
+				has_full_control_of_state = 196
+				has_full_control_of_state = 200		
+				has_full_control_of_state = 226				
+			}	
+        }
+
+	
+# Establish RK Ukraine
+	option = { 
+		name = DH_germany_rk.2.a
+		hidden_effect = {
+#-------- Odessa 		
+			if = {
+				limit = {
+					GER = { 
+						has_full_control_of_state = 192		
+					}	
+				}	
+				UKR = { 
+					set_state_owner = 192
+				}					
+			}
+			if = {
+				limit = {
+					GER = { 
+						has_full_control_of_state = 198		
+					}	
+				}	
+				UKR = { 
+					set_state_owner = 198
+				}					
+			}			
+#----------------------			
+			puppet = UKR
+			UKR = {
+				add_popularity = { ideology = fascism popularity = 0.1 }
+				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_cosmetic_tag = UKR_GER_autonomy_reichskommissariat
+			
+				set_state_owner = 94 
+				set_state_owner = 93
+				set_state_owner = 199
+				set_state_owner = 201
+				set_state_owner = 194		
+				set_state_owner = 202
+				set_state_owner = 203			
+				set_state_owner = 197
+				set_state_owner = 196
+				set_state_owner = 200		
+				set_state_owner = 226		
+				create_country_leader = { name = "Erich Koch" desc = "POLITICS_ERICH_KOCH_DESC" picture = "Portrait_Germany_Erich_Koch.dds" expire = "1986.11.12" ideology = nazism traits = { } }			
+			}
+		}
+		custom_effect_tooltip = germany_establish_rk_ukraine	
+	}
+	#Establish direct military occupation
+	option = { 
+		name = DH_germany_rk.2.b
+		custom_effect_tooltip = germany_rk_military_occupation		
+	}	
 }
 
 
+
+###### RK  Moskowien
+country_event = {
+	id = DH_germany_rk.3
+	title = DH_germany_rk.3.t
+	desc = DH_germany_rk.3.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+        trigger = {
+			tag = GER
+			GER = { has_government = fascism }
+			SOV = { exists = no }
+			BLR = { exists = yes has_government = fascism }	
+			UKR = { exists = yes has_government = fascism }			
+			GER = { 
+				has_full_control_of_state = 262
+				has_full_control_of_state = 581
+				has_full_control_of_state = 573
+				has_full_control_of_state = 582
+				has_full_control_of_state = 652		
+				has_full_control_of_state = 651
+				has_full_control_of_state = 398			
+				has_full_control_of_state = 397
+				has_full_control_of_state = 214
+				has_full_control_of_state = 351		
+				has_full_control_of_state = 400	
+				has_full_control_of_state = 399
+				has_full_control_of_state = 249
+				has_full_control_of_state = 251
+				has_full_control_of_state = 250
+				has_full_control_of_state = 256
+				has_full_control_of_state = 252
+				has_full_control_of_state = 253
+				has_full_control_of_state = 248
+				has_full_control_of_state = 247
+				has_full_control_of_state = 264
+				has_full_control_of_state = 244
+				has_full_control_of_state = 246		
+				has_full_control_of_state = 219	
+				has_full_control_of_state = 254	
+				has_full_control_of_state = 257
+				has_full_control_of_state = 255
+				has_full_control_of_state = 220		
+				has_full_control_of_state = 222
+				has_full_control_of_state = 223
+				has_full_control_of_state = 258
+				has_full_control_of_state = 224
+				has_full_control_of_state = 205
+				has_full_control_of_state = 242	
+				has_full_control_of_state = 243				
+			}	
+        }
+
+	
+# Establish RK Moskowien
+	option = { 
+		name = DH_germany_rk.3.a
+		hidden_effect = {
+			set_cosmetic_tag = GER_GREATER
+			puppet = SOV
+#-------- Finland stuff		
+			if = {
+				limit = {
+					GER = { 
+						has_full_control_of_state = 213		
+					}	
+				}	
+				SOV = { 
+					set_state_owner = 213
+				}					
+			}
+			if = {
+				limit = {
+					GER = { 
+						has_full_control_of_state = 215		
+					}	
+				}	
+				SOV = { 
+					set_state_owner = 215
+				}					
+			}
+			if = {
+				limit = {
+					GER = { 
+						has_full_control_of_state = 216				
+					}	
+				}	
+				SOV = { 
+					set_state_owner = 216
+				}					
+			}	
+#-------------------		
+			SOV = {
+				add_popularity = { ideology = fascism popularity = 0.1 }
+				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_cosmetic_tag = SOV_GER_autonomy_reichskommissariat
+			
+				set_state_owner = 262
+				set_state_owner = 581
+				set_state_owner = 573
+				set_state_owner = 582
+				set_state_owner = 652		
+				set_state_owner = 651
+				set_state_owner = 398			
+				set_state_owner = 397
+				set_state_owner = 214
+				set_state_owner = 351		
+				set_state_owner = 400	
+				set_state_owner = 399
+				set_state_owner = 249
+				set_state_owner = 251
+				set_state_owner = 250
+				set_state_owner = 256
+				set_state_owner = 252
+				set_state_owner = 253
+				set_state_owner = 248
+				set_state_owner = 247
+				set_state_owner = 264
+				set_state_owner = 244
+				set_state_owner = 246		
+				set_state_owner = 219	
+				set_state_owner = 254	
+				set_state_owner = 257
+				set_state_owner = 255
+				set_state_owner = 220		
+				set_state_owner = 222
+				set_state_owner = 223
+				set_state_owner = 258
+				set_state_owner = 224
+				set_state_owner = 205
+				set_state_owner = 242	
+				set_state_owner = 243			
+				create_country_leader = { name = "Siegfried Kasche" desc = "POLITICS_SIEGFRIED_KASCHE_DESC" picture = "Portrait_Germany_Siegfried_Kasche.dds" expire = "1973.5.3" ideology = nazism traits = { } }			
+			}
+#-----------Expand RK Ostland
+			BLR = {			
+				set_state_owner = 195 
+				set_state_owner = 208
+				set_state_owner = 209
+				set_state_owner = 263
+				set_state_owner = 210		
+				set_state_owner = 207
+				set_state_owner = 241						
+			}
+		
+#--------- Expand  RK Ukraine		
+			UKR = {			
+				set_state_owner = 193
+				set_state_owner = 225
+				set_state_owner = 259
+				set_state_owner = 240
+				set_state_owner = 221		
+				set_state_owner = 260
+				set_state_owner = 228
+				set_state_owner = 227
+				set_state_owner = 218
+				set_state_owner = 245
+				set_state_owner = 265
+				set_state_owner = 217
+				set_state_owner = 239
+#-------------------------				
+			}
+		}
+#-------------------------		
+		custom_effect_tooltip = germany_establish_rk_moscow	
+	}
+	#Establish direct military occupation
+	option = { 
+		name = DH_germany_rk.3.b
+		custom_effect_tooltip = germany_rk_military_occupation		
+	}	
+}
+
+###### RK  Caucasus
+country_event = {
+	id = DH_germany_rk.4
+	title = DH_germany_rk.4.t
+	desc = DH_germany_rk.4.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+        trigger = {
+			tag = GER
+			GER = { has_government = fascism }
+			UKR = { exists = yes has_government = fascism }	
+			AZR = { exists = no }
+			GER = { 
+				has_full_control_of_state = 236 
+				has_full_control_of_state = 237
+				has_full_control_of_state = 238
+				has_full_control_of_state = 234
+				has_full_control_of_state = 235		
+				has_full_control_of_state = 232
+				has_full_control_of_state = 233			
+				has_full_control_of_state = 231
+				has_full_control_of_state = 230
+				has_full_control_of_state = 229					
+			}	
+        }
+
+	
+# Establish RK Caucasus
+	option = { 
+		name = DH_germany_rk.4.a
+		hidden_effect = {		
+			puppet = AZR
+			AZR = {
+				add_popularity = { ideology = fascism popularity = 0.1 }
+				set_politics = { ruling_party = fascism elections_allowed = no }
+				set_cosmetic_tag = AZR_GER_autonomy_reichskommissariat
+			
+				set_state_owner = 236 
+				set_state_owner = 237
+				set_state_owner = 238
+				set_state_owner = 234
+				set_state_owner = 235		
+				set_state_owner = 232
+				set_state_owner = 233			
+				set_state_owner = 231
+				set_state_owner = 230
+				set_state_owner = 229			
+				create_country_leader = { name = "Arno Schickedanz" desc = "POLITICS_ARNO_SCHICKEDANZ_DESC" picture = "Portrait_Germany_Arno_Schickedanz.dds" expire = "1961.2.19" ideology = nazism traits = { } }			
+			}
+		}
+		custom_effect_tooltip = germany_establish_rk_kaukasus	
+	}
+	#Establish direct military occupation
+	option = { 
+		name = DH_germany_rk.4.b
+		custom_effect_tooltip = germany_rk_military_occupation		
+	}	
+}
 ###------------------- Spain ----------------------------------------------
 ###### Operation Isabella: Spanish Reply
 country_event = {
@@ -179,7 +536,14 @@ country_event = {
 				factor = 90
 			}
 			set_cosmetic_tag = ITA_GER_fascism
-			GER = { puppet = ITA }
+			GER = {
+				puppet = ITA 
+				set_state_owner = 736
+				set_state_owner = 746
+				set_state_owner = 750
+				set_state_owner = 39				
+			}
+			
 		}
 		
 		option = {
