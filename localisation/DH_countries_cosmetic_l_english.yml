@@ -1,0 +1,31 @@
+﻿l_english:
+ GER_BIG_fascism:0 "Großdeutsches Reich"
+ GER_BIG_fascism_DEF:0 "Großdeutsches Reich"
+ GER_GREATER_fascism:0 "Großgermanisches Reich"
+#--- RKs
+ BLR_GER_RK_fascism:0 "Reichskommissariat Ostland"
+ BLR_GER_RK_fascism_DEF:0 "Das Reichskommissariat Ostland"
+ 
+ UKR_GER_RK_fascism:0 "Reichskommissariat Ukraine"
+ UKR_GER_RK_fascism_DEF:0 "Das Reichskommissariat Ukraine"
+
+ SOV_GER_RK_fascism:0 "Reichskommissariat Moskowien"
+ SOV_GER_RK_fascism_DEF:0 "Das Reichskommissariat Moskowien"
+ 
+ AZR_GER_RK_fascism:0 "Reichskommissariat Kaukasien"
+ AZR_GER_RK_fascism_DEF:0 "Das Reichskommissariat Kaukasien"
+ 
+ KAZ_GER_RK_fascism:0 "Reichskommissariat Turkestan"
+ KAZ_GER_RK_fascism_DEF:0 "Das Reichskommissariat Turkestan"
+ 
+ ICE_GER_RK_fascism:0 "Reichskommissariat Island"
+ ICE_GER_RK_fascism_DEF:0 "Das Reichskommissariat Island"
+
+ SWE_GER_RK_fascism:0 "Reichskommissariat Schweland"
+ SWE_GER_RK_fascism_DEF:0 "Das Reichskommissariat Schweland"
+ 
+ AUS_GER_fascism:0 "Ostmark"
+ AUS_GER_fascism_DEF:0 "Ostmark" 
+ 
+ AUS_GER_AXIS_fascism:0 "Deutschösterreich"
+ AUS_GER_AXIS_fascism_DEF:0 "Deutschösterreich" 

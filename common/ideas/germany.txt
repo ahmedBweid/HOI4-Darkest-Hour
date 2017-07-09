@@ -118,24 +118,7 @@ ideas = {
 				unity_factor = -0.10
 			}
 		}
-		GER_synth_innovations = {
-		
-			allowed = {
-				always = no
-			}
 
-			allowed_civil_war = {
-				has_government = fascism
-			}
-
-			removal_cost = -1
-			
-			picture = generic_refining_concern_1
-			
-			modifier = {
-				production_speed_synthetic_refinery_factor = 0.10
-	}
-}
 		defying.versailles = {
 		
 			allowed = {
@@ -439,6 +422,18 @@ ideas = {
 			ai_will_do = {
 				factor = 0
 			}
+		}
+		
+		reinhard_heydrich = {
+
+			allowed = {
+				original_tag = GER
+			}
+			available = {
+				GER = { has_completed_focus = GER_Reichssicheitsambt }
+			}
+
+			traits = { prince_of_terror }
 		}
 		
 		rudolf_hess = {

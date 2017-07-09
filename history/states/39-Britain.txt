@@ -9,8 +9,7 @@ state={
 	history={
 		owner = ITA
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 6			
 
 		}
 		add_core_of = ITA
@@ -19,9 +18,9 @@ state={
 	}
 
 	provinces={
-		656 3657 6631 6656 6675 9598 9630 11598 11615 
+		6675 9630 11615
 	}
-	manpower=641650
+	manpower=312600
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -1,0 +1,332 @@
+ideas = {
+
+	country = {
+
+		GER_ikarus = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_bonus
+
+			equipment_bonus = {
+				carrier = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+
+		GER_nibelungenwerk = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			equipment_bonus = {
+				medium_tank_equipment_2 = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				heavy_tank_destroyer_equipment_2 = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				heavy_tank_destroyer_equipment_3 = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+		}
+
+		GER_total_war = {
+
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				has_war = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		GER_retooling = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				conversion_cost_civ_to_mil_factor= -0.2
+			}
+		}
+
+		GER_panzer_production = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				medium_tank_destroyer_equipment_1 = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+
+		GER_volkswagen = {
+			allowed = {
+				always = no
+			}
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.10 instant = yes
+				}
+			}
+		}
+
+		GER_ss_vol = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			picture = generic_manpower_bonus
+
+			modifier = {
+				conscription = 0.005
+			}
+		}
+
+		GER_reichsbahn = {
+			allowed = {
+				always = no
+			}
+
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				land_reinforce_rate = 0.03
+				org_loss_when_moving = -0.05
+			}
+		}
+
+		GER_reinhardt = {
+		allowed = {
+			always = no
+		}
+
+
+		removal_cost = -1
+
+		picture = generic_manpower_bonus
+
+		modifier = {
+			industry_repair_factor = 0.15
+			production_speed_infrastructure_factor = 0.15
+		}
+
+
+	}
+
+	GER_amerikabomber = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_air_bonus
+
+		equipment_bonus = {
+			strat_bomber_equipment = {
+				air_range = 0.1 instant = yes
+			}
+		}
+	}
+
+	GER_u_boot_bunker = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		equipment_bonus = {
+			submarine = {
+				evasion = 0.05 instant = yes
+				sub_visibility = -0.1 instant = yes
+			}
+		}
+
+	}
+
+	GER_planz = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		equipment_bonus = {
+			battleships = {
+				armor_value = 0.05 instant = yes
+				ap_attack = 0.05 instant = yes
+			}
+		}
+	}
+
+	GER_staatenbund = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			production_speed_industrial_complex_factor = 0.05
+			production_speed_infrastructure_factor = 0.05
+		}
+
+	}
+
+	GER_SS = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			political_power_gain = -0.15
+			fascism_drift = 0.05
+		}
+
+	}
+
+	GER_knives = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			political_power_factor = -0.5
+			unity_factor = -0.2
+		}
+	}
+
+	GER_work_camp = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			industrial_capacity_factory = 0.07
+		}
+	}
+
+	GER_volks = {
+		allowed = {
+			always = no
+		}
+		removal_cost = -1
+		modifier = {
+			MONTHLY_POPULATION = 0.25
+		}
+	}
+	GER_synth_innovations = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = fascism
+		}
+
+		removal_cost = -1
+
+		picture = generic_refining_concern_1
+
+		modifier = {
+			production_speed_synthetic_refinery_factor = 0.10
+		}
+	}
+
+
+	GER_commercial = {
+		allowed = {
+			always = no
+		}
+		picture = generic_refining_concern_1
+
+		cancel = {
+			SOV = {
+				has_war_with = GER
+			}
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.04
+		}
+	}	
+}
+	
+	hidden_ideas = {
+		GER_jewland = {
+			allowed = {
+				always = no
+			}
+		
+
+			allowed_civil_war = {
+			has_government = fascism
+			}
+			removal_cost = -1
+
+			picture = generic_refining_concern_1
+
+			modifier = {
+				MONTHLY_POPULATION = 9.00
+			}
+		}	
+	}
+	
+}

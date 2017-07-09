@@ -1,0 +1,30 @@
+﻿###########################
+# Realism Overhaul Events : Spain
+###########################
+
+add_namespace = DH_spain
+
+###------------------- Spain ----------------------------------------------
+###### Operation Isabella: Spanish Reply
+country_event = {
+	id = DH_spain.1
+	title = DH_spain.1.t
+	desc = DH_spain.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	#We accept this transition
+	option = { 
+		name = DH_spain.1.a
+		GER = { country_event = { hours = 6 id = DH_germany.2 }}
+	}
+	#We cannot sell our sovereignty!
+	option = { 
+		name = DH_spain.1.b
+		GER = { country_event = { hours = 6 id = DH_germany.3 }}
+	}	
+	
+}

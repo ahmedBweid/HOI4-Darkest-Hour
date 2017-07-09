@@ -118,6 +118,7 @@ country_event = {
 	}
 
 }
+
 country_event = {
 	id = germany.7
 	title = germany.7.t

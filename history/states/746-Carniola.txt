@@ -2,7 +2,7 @@ state={
 	id=746
 	name="STATE_746"
 	provinces={
-		6650 9627 11564 
+		6650 9627 11564
 	}
 history={
 		owner = YUG
@@ -11,12 +11,12 @@ history={
 
 		}
 		victory_points = {
-			9627 3 
+			9627 3
 		}
 		add_core_of = YUG
 
 	}
-	manpower=640254
+	manpower=330520
 	buildings_max_level_factor=1.000
 state_category=large_town
 }

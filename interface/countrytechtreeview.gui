@@ -1522,7 +1522,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 75 }
 				size = {
-					width = 2000 height = 1000
+					width = 2800 height = 1000
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
@@ -1638,7 +1638,17 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}				
-
+				instantTextBoxType = {
+					name = "infantry_year11"
+					position = { x = 2415 y = 30 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1960"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}	
 ## Subtitles			
 			instantTextBoxType = {
 				name = "airtech_subtitle_fighter"
@@ -1770,7 +1780,7 @@ guiTypes = {
 				name = "size_filler"
 				position = { x=0 y=0 }
 				size = {
-					width = 1350 height = 1000 
+					width = 1500 height = 1000 
 					min = { width = 100%% height = 100%% }
 				}
 				

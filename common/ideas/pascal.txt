@@ -1,116 +1,44 @@
 ideas = {
 
-country = {
-		pipi_caca = {
-			
+	country = {
 		
+		GER_kraft_durch_freude = {
 			modifier = {
-				consumer_goods_factor = -0.05
-				
+				production_factory_efficiency_gain_factor =0.055
 			}
-		
 		}
-		}
-		country = {
-		
-		trade_union = {
-			
-		
+
+		GER_trade_union = {
 			modifier = {
-		    production_factory_efficiency_gain_factor =0.055
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
-			
-			
 		}
-		
-		}
-		
-		country = {
-		
-		todt2 = {
-			
-		
+
+		GER_org_todt = {
 			modifier = {
-		    production_speed_arms_factory_factor = 0.05
-			production_speed_industrial_complex_factor = 0.05
-	        production_speed_dockyard_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_dockyard_factor = 0.05
 			}
-			
-			
-			
-			
-		
 		}
-	}	
-		country = {
-		coal_liq = {
-			
-		
+
+		GER_coal_liq = {
 			modifier = {
-		   
-	        production_speed_synthetic_refinery_factor = 0.20
-		   
+				production_speed_synthetic_refinery_factor = 0.20
 			}
-			
-			
-			
-			
 		}
-		
-		}
-		country = {
-		
-		wolk = {
-			
-		
-			
-		  equipment_bonus = {
-                motorized_equipment = {
-                    build_cost_ic = -0.1
-                    instant = yes
-                }
-            }
-		}
-			
-		}
-		
-		country = {
-		spain_aid = {
-			
-		
+
+		GER_spain_aid = {
 			modifier = {
 				consumer_goods_factor = -0.10
-				
 			}
-		
 		}
-		}
-		country = {
-		german_aid = {
-			
-		
+
+		GER_german_aid = {
 			modifier = {
 				consumer_goods_factor = 0.10
-				
 			}
-		
 		}
-		}
-		
-		
-		
-		
-		
-		
-		
-	}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
+	}	
+}
