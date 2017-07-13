@@ -85,15 +85,7 @@ ideas = {
 					has_government = communism
 					has_war = yes
 					threat > 0.05
-				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}	
+				}			
 			}
 			
 			cost = 150
@@ -104,7 +96,7 @@ ideas = {
 
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
-			    	unity_factor = -0.05				
+			    unity_factor = -0.05				
 			}
 			
 			cancel_if_invalid = no
@@ -128,18 +120,7 @@ ideas = {
 					has_government = communism
 					has_war = yes
 					threat > 0.15
-				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					OR = {
-						has_completed_focus = HUN_secret_rearmament
-						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
+				}			
 			}
 
 			cost = 150
@@ -150,7 +131,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 				conversion_cost_civ_to_mil_factor= -0.1
 				conversion_cost_mil_to_civ_factor = -0.1
-			    	unity_factor = -0.1				
+			    unity_factor = -0.1				
 			}
 			
 			cancel_if_invalid = no
@@ -184,15 +165,7 @@ ideas = {
 							}
 						}
 					}
-				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}		
+				}			
 			}
 		
 			cost = 150
@@ -203,7 +176,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 				conversion_cost_civ_to_mil_factor= -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
-			   	unity_factor = -0.15				
+			    unity_factor = -0.15				
 			}
 			
 			cancel_if_invalid = no
@@ -212,10 +185,10 @@ ideas = {
 			ai_will_do = {
    				factor = 1
 
-				modifier = {
-					#High prio on production
-					factor = 20
-					manpower_per_military_factory >  1000
+   				modifier = {
+					factor = 40
+					
+					is_major = yes
 				}
    			}
 		}
@@ -234,44 +207,10 @@ ideas = {
 								ratio > 0.5
 							}
 						}
-					}
-					GER = { has_completed_focus = GER_total_war }	
-				}
-
-				if = {
-					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
+					}	
+				GER = { has_completed_focus = GER_total_war }	
+				}	
 			}
-
-			ai_will_do = {
-   				factor = 1
-
-				modifier = {
-					factor = 25
-					#Prio this if nation has a lot of manpower compared to MIC
-					manpower_per_military_factory >  10000
-				}
-
-				modifier = {
-					#Block  unless nation has a lot of manpower
-					factor = 0
-					manpower_per_military_factory <  3000
-				}
-
-				
-				modifier = {
-					# never take this if we are on low conscription laws for safety
-					factor = 0
-					OR = {
-						has_idea = volunteer_only
-						has_idea = limited_conscription
-					}
-				}				
-   			}
 			
 			cost = 150
 			removal_cost = -1
@@ -282,7 +221,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor= -0.3
 				conversion_cost_mil_to_civ_factor = -0.3
-			    	unity_factor = -0.2				
+			    unity_factor = -0.2				
 			}
 			
 			cancel_if_invalid = no
