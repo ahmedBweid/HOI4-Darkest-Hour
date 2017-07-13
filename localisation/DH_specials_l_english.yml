@@ -7,9 +7,6 @@
   GER_special.1.d:0 "With Poland in the east and France in the west, Germany is wedged in between hostile powers. While our enemies still cling on to the defensive, immobile warfare of the past, the German armed forces will coordinate their attacks to force a decisive breakthrough. Success will render useless all remaining enemy defensive positions, instead forcing them to respond to our continual offensive. Only the new Blitzkrieg strategy will grant us victory, and thereby prevents us from fighting in a two front war.."
   GER_special.1.a:0 "We should take our revenge!"
   
-  GER_special.1.t:0 "Blitzkreig"
-  GER_special.1.d:0 "."
-  GER_special.1.a:0 ""
   
   GER_destiny:0 "Destiny"
   GER_destiny_desc:0 "Encirclement forced Germany into war in 1914 and blockade brought her to her knees. Conquest in the east will neatly solve both of those problems. Allowing Germany to fufil her destiny."
@@ -24,6 +21,8 @@
   GER_special.3.t:0 "Fortress Europa"
   GER_special.3.d:0 "Now both the Soviet Union and America are participating in the war, Germany must prevent a second front from opening up in the west. The conquest of Europe has been a stunning success, but we have to defend our territory with tooth and nail. Germany is adamant to turn the continent into an impregnable fortress. However this won’t be sufficient, as our intelligence warns that the Soviets and Western Allies heavily outnumber the Axis, by manpower and by industrial production. The only way to even out the playing field is through the development of superior weaponry."
   GER_special.3.a:0 "Mein Gott!"  
+  
+  
 ###Soviet Decisions ---------------------
 
   SOV_rodina:0 "For the Rodina!" 

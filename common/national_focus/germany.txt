@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = GER_Luftwafe
 		icon = GFX_goal_generic_build_airforce
-		cost = 7.00
+		cost = 5.00
 		x = 38
 		y = 0
 			ai_will_do = {
@@ -311,14 +311,57 @@ focus_tree = {
 
 	}
 	focus = {
+		id = GER_Reichssicheitsambt
+		icon = GFX_goal_generic_defence
+		cost = 8.00
+		prerequisite = {
+			focus = GER_Schut
+		}
+		x = 1
+		y = 1
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 2
+							category = military_police_tech
+							category = radar_tech
+						}
+					custom_effect_tooltip = available_political_advisor
+					show_ideas_tooltip = reinhard_heydrich
+				}
+
+	}
+	focus = {
+		id = GER_Plankalkul
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 14.00
+		prerequisite = {
+			focus = GER_Reichssicheitsambt
+		}
+		x = 1
+		y = 2
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = decryption_tech
+						}
+					add_tech_bonus = {
+							ahead_reduction = 1
+							technology = advanced_computing_machine
+						}
+				}
+
+	}
+	focus = {
 		id = GER_Jewis
 		icon = GFX_goal_support_fascism
 		cost = 10.00
 		prerequisite = {
 			focus = GER_Schut
 		}
-		x = 1
-		y = 2
+		x = 3
+		y = 1
 			completion_reward = {
 					every_other_country = {
 							limit = {
@@ -366,8 +409,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_madagaskar
 		}
-		x = 0
-		y = 4
+		x = 2
+		y = 3
 			completion_reward = {
 					GER = {
 							add_ideas = GER_work_camp
@@ -385,8 +428,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = GER_eternal
 		}
-		x = 2
-		y = 4
+		x = 4
+		y = 3
 			available = {
 					GER = {
 							controls_state = 543
@@ -421,7 +464,7 @@ focus_tree = {
 									transfer_state = 543
 								}
 						}
-					release_puppet = JEW
+					GER = { puppet = JEW }
 					GER = {
 							send_equipment = {
 									target = JEW
@@ -446,8 +489,8 @@ focus_tree = {
 			focus = GER_eternal
 			focus = GER_madagaskar
 		}
-		x = 1
-		y = 5
+		x = 3
+		y = 4
 			available = {
 					date > 1948.1.1
 					any_other_country = {
@@ -533,8 +576,8 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_gotenland
 		}
-		x = 1
-		y = 6
+		x = 3
+		y = 5
 			available = {
 					UKR = {
 							is_puppet_of = GER
@@ -573,49 +616,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_Reichssicheitsambt
-		icon = GFX_goal_generic_defence
-		cost = 8.00
-		prerequisite = {
-			focus = GER_Schut
-		}
-		x = 3
-		y = 2
-			completion_reward = {
-					add_tech_bonus = {
-							bonus = 0.5
-							uses = 2
-							category = military_police_tech
-							category = radar_tech
-						}
-					custom_effect_tooltip = available_political_advisor
-					show_ideas_tooltip = reinhard_heydrich
-				}
-
-	}
-	focus = {
-		id = GER_Plankalkul
-		icon = GFX_goal_tfv_generic_tech_sharing
-		cost = 14.00
-		prerequisite = {
-			focus = GER_Reichssicheitsambt
-		}
-		x = 3
-		y = 3
-			completion_reward = {
-					add_tech_bonus = {
-							bonus = 0.5
-							uses = 1
-							category = decryption_tech
-						}
-					add_tech_bonus = {
-							ahead_reduction = 1
-							technology = advanced_computing_machine
-						}
-				}
-
-	}
-	focus = {
 		id = GER_Army_SS
 		icon = GFX_goal_generic_army_motorized
 		cost = 10.00
@@ -623,7 +623,7 @@ focus_tree = {
 			focus = GER_Schut
 		}
 		x = 5
-		y = 2
+		y = 1
 			available = {
 					GER = {
 							has_tech = basic_light_art
@@ -640,6 +640,12 @@ focus_tree = {
 					GER = {
 							custom_effect_tooltip = GER_ss_division_unlock
 						}
+					hidden_effect = {
+							set_technology = {
+									GER_waffen_ss = 1
+								}
+							army_experience = 30
+						}
 				}
 
 	}
@@ -651,7 +657,7 @@ focus_tree = {
 			focus = GER_Army_SS
 		}
 		x = 5
-		y = 3
+		y = 2
 			available = {
 					FRA = {
 							has_capitulated = yes
@@ -912,10 +918,9 @@ focus_tree = {
 		y = 5
 			completion_reward = {
 					SAF = {
-							add_ideas = fascist_influence
 							country_event = {
 									hours = 6
-									id = RO_africa.1
+									id = DH_southafrica.1
 								}
 						}
 				}
@@ -932,7 +937,7 @@ focus_tree = {
 		y = 6
 			available = {
 					SAF = {
-							fascism > 39
+							fascism > 0.39
 						}
 				}
 			bypass = {
@@ -970,12 +975,14 @@ focus_tree = {
 											has_government = fascism
 										}
 								}
-							start_civil_war = {
-									ideology = fascism
-									size = 0.35
-									capital = 275
-									states = { 275  541 }
-								}
+								SAF = {
+									start_civil_war = {
+											ideology = fascism
+											size = 0.35
+											capital = 275
+											states = { 275  541 }
+										}
+								}		
 						}
 					if = {
 							limit = {
@@ -1254,7 +1261,7 @@ focus_tree = {
 					SOV = {
 							country_event = {
 									days = 1
-									id = RO_soviet.1
+									id = DH_soviet.1
 								}
 						}
 				}
@@ -1318,8 +1325,6 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = GER_mol_rib_pact
-		}
-		prerequisite = {
 			focus = GER_commercial
 		}
 		mutually_exclusive = {
@@ -1409,7 +1414,7 @@ focus_tree = {
 	focus = {
 		id = GER_anti_comitern_pact
 		icon = GFX_goal_anti_comintern_pact
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_rhineland
 		}
@@ -1476,7 +1481,7 @@ focus_tree = {
 	focus = {
 		id = GER_tripartite
 		icon = GFX_goal_tripartite_pact
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_anti_comitern_pact
 		}
@@ -1620,7 +1625,7 @@ focus_tree = {
 					FIN = {
 							country_event = {
 									days = 1
-									id = RO_finland.1
+									id = DH_finland.1
 								}
 						}
 				}
@@ -2608,6 +2613,7 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
+					custom_effect_tooltip = GER_danube_effect					
 					if = {
 							limit = {
 									CRO = {
@@ -3416,15 +3422,16 @@ focus_tree = {
 		y = 8
 			available = {
 					date > 1942.7.1
-					FRA = {
+					VIC = {
 							is_puppet_of = GER
 						}
+					country_exists = VIC
 				}
 			completion_reward = {
-					FRA = {
+					VIC = {
 							country_event = {
 									hours = 6
-									id = RO_france.1
+									id = DH_vichy.1
 								}
 						}
 				}
@@ -3443,7 +3450,7 @@ focus_tree = {
 					POL = {
 							country_event = {
 									hours = 6
-									id = RO_poland.1
+									id = DH_poland.1
 								}
 						}
 				}
@@ -3841,7 +3848,7 @@ focus_tree = {
 		id = GER_naval_effort
 		text = naval_effort
 		icon = GFX_goal_generic_navy_doctrines_tactics
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_naval_rearmament
 		}
@@ -4019,7 +4026,7 @@ focus_tree = {
 	focus = {
 		id = GER_panske
 		icon = GFX_goal_generic_navy_anti_submarine
-		cost = 16.00
+		cost = 12.00
 		prerequisite = {
 			focus = GER_trade_interdiction
 		}
@@ -4099,7 +4106,7 @@ focus_tree = {
 	focus = {
 		id = GER_zukunftsflotte
 		icon = GFX_goal_generic_construct_naval_dockyard
-		cost = 17.00
+		cost = 15.00
 		prerequisite = {
 			focus = GER_plan_z
 		}
@@ -4171,7 +4178,7 @@ focus_tree = {
 			completion_reward = {
 					country_event = {
 							days = 1
-							id = RO_germany.1
+							id = DH_germany.1
 						}
 				}
 
@@ -4391,7 +4398,13 @@ focus_tree = {
 										}
 								}
 						}
-					release_puppet = DEN
+					puppet = DEN
+					DEN = {
+							white_peace = GER
+							transfer_state = 37
+							transfer_state = 99
+							set_cosmetic_tag = DEN_GER_RP
+						}
 				}
 
 	}
@@ -4595,29 +4608,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GER_support_ira
-		icon = GFX_goal_generic_improve_relations
-		cost = 12.00
-		prerequisite = {
-			focus = GER_Sealowe
-		}
-		mutually_exclusive = {
-			focus = GER_fall_grunn
-		}
-		x = 35
-		y = 4
-			completion_reward = {
-					IRE = {
-							add_ideas = fascist_influence
-							add_popularity = {
-									ideology = fascism
-									popularity = 0.10
-								}
-						}
-				}
-
-	}
-	focus = {
 		id = GER_improve_national_spirit
 		icon = GFX_goal_support_fascism
 		cost = 10.00
@@ -4685,6 +4675,29 @@ focus_tree = {
 
 	}
 	focus = {
+		id = GER_support_ira
+		icon = GFX_goal_generic_improve_relations
+		cost = 12.00
+		prerequisite = {
+			focus = GER_improve_national_spirit
+		}
+		mutually_exclusive = {
+			focus = GER_fall_grunn
+		}
+		x = 35
+		y = 4
+			completion_reward = {
+					IRE = {
+							add_ideas = fascist_influence
+							add_popularity = {
+									ideology = fascism
+									popularity = 0.10
+								}
+						}
+				}
+
+	}
+	focus = {
 		id = GER_nationalist_ireland
 		icon = GFX_goal_generic_alliance
 		cost = 30.00
@@ -4695,33 +4708,26 @@ focus_tree = {
 		y = 5
 			available = {
 					IRE = {
-							fascism > 0.5
-						}
+						OR = {
+							has_government = fascism
+							has_government = neutrality
+						}	
+					}
 					GER = {
 							controls_state = 119
 						}
 				}
 			completion_reward = {
-					IRE = {
-							set_politics = {
-									ruling_party = fascism
-									elections_allowed = no
-								}
-							transfer_state = 119
-							add_state_core = 119
-						}
-					GER = {
-							add_to_faction = IRE
-						}
-				}
+					IRE = { country_event = { days = 1 id = DH_ireland.1 }}
 
-	}
+			}
+	}		
 	focus = {
 		id = GER_fall_grunn
 		icon = GFX_goal_generic_attack_allies
 		cost = 8.00
 		prerequisite = {
-			focus = GER_Sealowe
+			focus = GER_improve_national_spirit
 		}
 		mutually_exclusive = {
 			focus = GER_support_ira
@@ -4835,7 +4841,7 @@ focus_tree = {
 	focus = {
 		id = GER_tactical_air_effort
 		icon = GFX_goal_generic_CAS
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_Luftwafe
 		}
@@ -4868,7 +4874,7 @@ focus_tree = {
 	focus = {
 		id = GER_strategic_air_effort
 		icon = GFX_goal_generic_air_bomber
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_Luftwafe
 		}
@@ -4901,7 +4907,7 @@ focus_tree = {
 		id = GER_naval_air_effort
 		text = naval_air_effort
 		icon = GFX_goal_generic_air_naval_bomber
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_tactical_air_effort
 			focus = GER_strategic_air_effort
@@ -4925,7 +4931,7 @@ focus_tree = {
 	focus = {
 		id = GER_rocketry_focus
 		icon = GFX_focus_rocketry
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_strategic_air_effort
 			focus = GER_tactical_air_effort
@@ -4949,7 +4955,7 @@ focus_tree = {
 	focus = {
 		id = GER_air_innovation_2
 		icon = GFX_goal_generic_air_fighter2
-		cost = 12.00
+		cost = 10.00
 		prerequisite = {
 			focus = GER_rocketry_focus
 		}
@@ -4991,7 +4997,7 @@ focus_tree = {
 		id = GER_extra_tech_slot
 		text = extra_tech_slot
 		icon = GFX_focus_research
-		cost = 12.00
+		cost = 10.00
 		prerequisite = {
 			focus = GER_air_innovation_2
 		}
@@ -5222,6 +5228,7 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
+					custom_effect_tooltip = GER_atlantik_effect					
 					743 = {
 							if = {
 									limit = {
@@ -5762,7 +5769,7 @@ focus_tree = {
 				}
 			completion_reward = {
 					ITA = {
-							country_event = RO_italy.1
+							country_event = DH_italy.2
 						}
 				}
 
@@ -6043,9 +6050,6 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_Westland
 		}
-		prerequisite = {
-			focus = GER_OP_anton
-		}
 		x = 21
 		y = 9
 			available = {
@@ -6066,7 +6070,12 @@ focus_tree = {
 									remove_state_core = 744
 									remove_state_core = 745
 									745 = {
-											add_core_of = GER
+											if = {
+													limit = {
+															is_controlled_by = GER
+														}
+													add_core_of = RFA
+												}
 										}
 									744 = {
 											add_core_of = GER
@@ -6125,6 +6134,7 @@ focus_tree = {
 									14 = {
 											add_core_of = RFA
 										}
+										
 								}
 						}
 					release_puppet = RFA
@@ -6157,27 +6167,25 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
-					all_allied_country = {
-							limit = {
-									is_on_continent = europe
-									NOT = {
-											tag = TUR
-										}
-									NOT = {
-											is_puppet_of = GER
-										}
-									is_in_faction_with = GER
-								}
-							add_ideas = GER_staatenbund
-						}
-					SWE = {
-							country_event = {
-									hours = 6
-									id = RO_sweden.1
-								}
-						}
-				}
-
+					if = {
+						all_allied_country = {
+								limit = {
+										is_on_continent = europe
+										NOT = {
+												tag = TUR
+											}
+										NOT = {
+												is_puppet_of = GER
+											}
+										is_in_faction_with = GER
+									}
+								country_event = {
+										hours = 6
+										id = DH_germany.30
+									}
+							}
+					}		
+			}
 	}
 	focus = {
 		id = GER_bolivar
@@ -6314,8 +6322,6 @@ focus_tree = {
 										}
 								}
 						}
-				
-
 					492 = {
 							if = {
 									limit = {
@@ -6352,8 +6358,6 @@ focus_tree = {
 										}
 								}
 						}
-				
-
 					489 = {
 							if = {
 									limit = {
@@ -6390,7 +6394,6 @@ focus_tree = {
 										}
 								}
 						}
-				
 					313 = {
 							if = {
 									limit = {
@@ -6409,7 +6412,6 @@ focus_tree = {
 										}
 								}
 						}
-				
 					319 = {
 							if = {
 									limit = {
@@ -6423,8 +6425,6 @@ focus_tree = {
 										}
 								}
 						}
-				
-
 					319 = {
 							if = {
 									limit = {
@@ -6438,7 +6438,6 @@ focus_tree = {
 										}
 								}
 						}
-            
 				}
 
 	}

@@ -49,7 +49,7 @@ country_event = {
 	option = { #refuse deal
 		ai_chance = { factor = 1 }
 		name = DH_soviet.1.b
-		GER = { country_event = { hours = 6 id = RO_germany.12 }}
+		GER = { country_event = { hours = 6 id = DH_germany.11 }}
 	}
 }
 

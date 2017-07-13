@@ -1378,4 +1378,17 @@ technologies = {
 			}
 		}
 	}
+	
+	GER_waffen_ss = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		enable_subunits = {
+			ss_hq
+		}
+	}	
 }

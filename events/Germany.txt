@@ -3492,12 +3492,38 @@ country_event = {
 	title = germany.94.t
 	desc = germany.94.d
 	picture = GFX_report_event_german_politician_speech
-	
+
 	is_triggered_only = yes
-	
-	option = {
+
+	option = { #take everything
 		name = germany.94.a
+		GER = {
+			transfer_state = 102
+			transfer_state = 751
+			transfer_state = 746
+		 }
+		set_country_flag = slovenia_acquired
+		hidden_effect = {
+			news_event = { id = news.163 hours = 6 }
+		}
+	}
+	option = { #partition
+		name = germany.94.b
 		GER = { transfer_state = 102 }
+		HUN = {
+			transfer_state = 751
+			add_opinion_modifier = {
+				target = GER
+				modifier = GER_partitioned_yugoslavia_hun
+			}
+		}
+		ITA = {
+			transfer_state = 746
+			add_opinion_modifier = {
+				target = GER
+				modifier = GER_partitioned_yugoslavia_ita
+			}
+		}
 		set_country_flag = slovenia_acquired
 		hidden_effect = {
 			news_event = { id = news.163 hours = 6 }

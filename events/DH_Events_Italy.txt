@@ -106,7 +106,7 @@ country_event = {
 	option = {
 		name = DH_italy.1.a
 		ai_chance = { factor = 0 }
-		GER = { country_event = { hours = 6 id = RO_germany.7 }}
+		GER = { country_event = { hours = 6 id = DH_germany.7 }}
   }
   #Trade
   option = {
@@ -115,7 +115,7 @@ country_event = {
 		GER = {
 			add_state_core = 39
 			transfer_state = 39
-			country_event = { hours = 6 id = RO_germany.8 }
+			country_event = { hours = 6 id = DH_germany.8 }
 		}
 		ITA = {
 			add_state_core = 748
@@ -140,12 +140,12 @@ country_event = { #Cyprus offer
 		name = DH_italy.3.a
 		ITA = {
 			transfer_state = 183
-			add_opinion_modifier = { fascism_leanings_good }
 		}
+		add_opinion_modifier = { target = GER modifier = fascism_leanings_good }		
 	}
 
 	option = { #refuse cyprus
 		name = DH_italy.3.b
-		GER = { country_event = { hours = 6 id = RO_germany.15}}
+		TUR = { country_event = { hours = 6 id = DH_turkey.2 }}
 	}
 }

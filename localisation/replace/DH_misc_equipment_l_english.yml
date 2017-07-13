@@ -73,9 +73,8 @@
  UNIT_GENERIC_NAME_JAP:0 "$NR$ $NAME$"
  UNIT_GENERIC_NAME_SOV:0 "$NR$ya $NAME$"
 
- NAVAL_TITLE_LIGHT_CRUISERS:0 "LIGHT CRUISERS"
- NAVAL_TITLE_HEAVY_CRUISERS:0 "HEAVY CRUISERS"
- 
+
+
  
  ###### Versions ---------------------------------------------------------------------
  

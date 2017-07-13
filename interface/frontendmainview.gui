@@ -4,13 +4,14 @@ guiTypes = {
 		name ="frontend_background"
 		position = { x=0 y =0 }	
 		size = { 
-			width = 1920 
-			height = 1440 
+			width = 1024 
+			height = 768 
 			min = { width = 100% height = 100% }
 		}
 		Orientation = center
 		Origo = center
 		clipping = no 
+
 		
 		background = {
 			name = "Background"		
@@ -205,18 +206,6 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
-		instantTextBoxType = {
-
-			name ="version_label"
-			position = { x = 35 y = 356 }
-			textureFile = ""
-			font = "hoi_18b"
-			borderSize = {x = 0 y = 0}
-			text = "ALPHA"	
-			format = centre
-			maxWidth = 250
-			maxHeight = 20	
-		}
 		
 		
 		ButtonType = {
@@ -248,7 +237,17 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 		}
 		
-
+		ButtonType = {
+			name = "join_discord_button"
+			position = { x = 16 y = 218 }
+			quadTextureSprite ="GFX_main_lobby_button"	
+			buttonText = "Join us on Discord"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+			web_link = "https://discord.gg/DyRWJT7"
+		}
+		
 		ButtonType = {
 			name = "exit_button"
 			position = { x = 16 y = 260 }
@@ -259,9 +258,32 @@ guiTypes = {
 			oversound = ui_menu_over
 			
 		}
+### Versioning	
+		instantTextBoxType = {
+			name ="version_label"
+			position = { x = 25 y = 356 }
+			textureFile = ""
+			font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "ALPHA"	
+			format = left
+			maxWidth = 270
+			maxHeight = 20	
+		}
 		
+		instantTextBoxType = {
+			name ="dh_version_label"
+			position = { x = 25 y = 356 }
+			textureFile = ""
+			font = "hoi_18b"
+			borderSize = {x = 0 y = 0}
+			text = "DH v0.1.3 'Rheinland'"
+			format = right
+			maxWidth = 270
+			maxHeight = 20	
+		}	
 		
-		## facebook etc.
+####### facebook etc.
 		ButtonType = {
 			name = "homepage_button"
 			position = { x = 79 y = 309 }

@@ -19,23 +19,13 @@ AUS_NOT_WHITE = {
 	color_ui = rgb { 255 164 127 }
 }
 
-UKR_GER_RK = {
-	color = rgb { 153 153 153 }
-	color_ui = rgb { 153 153 153 }
+
+
+EGL_GER_RP = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
 }
-BLR_GER_RK = {
-	color = rgb { 153 153 153 }
-	color_ui = rgb { 153 153 153 }
-}
-SOV_GER_RK = {
-	color = rgb { 153 153 153 }
-	color_ui = rgb { 153 153 153 }
-}
-AZR_GER_RK = {
-	color = rgb { 153 153 153 }
-	color_ui = rgb { 153 153 153 }
-}
-KAZ_GER_RK = {
-	color = rgb { 153 153 153 }
-	color_ui = rgb { 153 153 153 }
+SCO_GER_RP = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
 }

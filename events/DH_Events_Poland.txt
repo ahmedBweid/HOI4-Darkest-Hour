@@ -1,5 +1,5 @@
 ﻿###########################
-# Realism Overhaul Events : Spain
+# Realism Overhaul Events : Poland
 ###########################
 
 add_namespace = DH_poland
@@ -7,7 +7,7 @@ add_namespace = DH_poland
 
 
 #########################################################################
-# Northern Flank : Finland
+# Join the Axis
 #########################################################################
 country_event = {
 	id = DH_poland.1
@@ -54,8 +54,9 @@ country_event = {
 					factor = 0.6
 				}
 			}
-      GER = { country_event = { hours = 6 id = RO_germany.7 }}
+      GER = { country_event = { hours = 6 id = DH_germany.31 }}
     }
+	
     #Join Axis
     option = {
       name = DH_poland.1.b
@@ -96,6 +97,5 @@ country_event = {
 			GER = {
 					add_to_faction = POL
 				}
-
     }
 }

@@ -4,27 +4,36 @@
 
 add_namespace = DH_spain
 
-###------------------- Spain ----------------------------------------------
-###### Operation Isabella: Spanish Reply
 country_event = {
 	id = DH_spain.1
 	title = DH_spain.1.t
 	desc = DH_spain.1.d
 	picture = GFX_news_event_002
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
-	
-	#We accept this transition
-	option = { 
+	#War on Portugal
+	option = {
+		ai_chance = { factor = 1 }
 		name = DH_spain.1.a
-		GER = { country_event = { hours = 6 id = DH_germany.2 }}
+		SPR = {
+			declare_war_on = {
+				target = POR
+				type = annex_everything
+			}
+		}
+		SPR = {
+			add_to_war = {
+				targeted_alliance = GER
+				enemy = POR
+			}
+		}
 	}
-	#We cannot sell our sovereignty!
-	option = { 
+	#Decline War
+	option = {
+		ai_chance = { factor = 0 }
 		name = DH_spain.1.b
-		GER = { country_event = { hours = 6 id = DH_germany.3 }}
-	}	
-	
+		GER = {country_event = { hours = 6 id = DH_germany.6 }}
+	}
 }

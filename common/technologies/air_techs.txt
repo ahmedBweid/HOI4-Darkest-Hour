@@ -571,10 +571,7 @@ technologies = {
 			light_fighter
 			air_equipment
 		}
-		
-		sub_technologies = {
-			cv_interceptor1
-		}
+
 		
 		ai_will_do = {
 			factor = 2
@@ -605,35 +602,7 @@ technologies = {
 			}
 		}
 	}
-	
-	cv_interceptor1 = {
 
-		enable_equipments = {
-			cv_interceptor_equipment_1
-		}
-	
-		research_cost = 1 #Carrier Variant
-		start_year = 1936
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-		}
-	}
 
 ## Interceptor '40
 	interceptor2 = {
@@ -663,11 +632,7 @@ technologies = {
 			light_fighter
 			air_equipment
 		}
-		
-		sub_technologies = {
-			cv_interceptor2
-		}
-		
+
 		ai_will_do = {
 			factor = 3
 			
@@ -697,35 +662,7 @@ technologies = {
 			}
 		}
 	}
-	
-	cv_interceptor2 = {
 
-		enable_equipments = {
-			cv_interceptor_equipment_2
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1940
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-		}
-	}
 
 	## Interceptor '43
 	interceptor3 = {
@@ -756,10 +693,7 @@ technologies = {
 			air_equipment
 		}
 		
-		sub_technologies = {
-			cv_interceptor3
-		}
-		
+
 		ai_will_do = {
 			factor = 2
 			
@@ -790,34 +724,7 @@ technologies = {
 		}
 	}
 	
-	cv_interceptor3 = {
 
-		enable_equipments = {
-			cv_interceptor_equipment_3
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1943
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-		}
-	}
 
 	## Jet Interceptor '45
 	jet_interceptor1 = {

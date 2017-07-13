@@ -41,6 +41,10 @@ country_event = {
             capital = 144
             states = { 110 }
         }
+		random_other_country = {
+			limit = { original_tag = NOR has_government = fascism }
+			GER = { puppet = PREV }		
+		}	
 		ai_chance = {
 			factor = 40
 			modifier = {

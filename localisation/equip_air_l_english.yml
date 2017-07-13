@@ -1,7 +1,8 @@
 ﻿l_english:
  fighter:0 "Fighter"
- fighter_equipment_desc:0 "Fighters are fast and nimble and can do many jobs. Everything from fighting for air superiority, protect your bombers and intercept the enemies bombers."
- 
+ fighter_equipment_desc:0 "Fighters are fast and nimble and can do many jobs. Everything from fighting for air superiority, protect your bombers and intercept the enemies bombers in addition to providing air support to the ground forces."
+ interceptor:0 "Interceptor"
+ interceptor_equipment_desc:0 "An interceptor aircraft, or simply interceptor, is a type of fighter aircraft designed specifically to attack enemy aircraft, particularly bombers and reconnaissance aircraft, as they approach."
  cv_fighter:0 "Fighter"
  cv_fighter_equipment_desc:0 "Fighters are fast and nimble and can do many jobs. Everything from fighting for air superiority, protect your bombers and intercept the enemies bombers."
  jet_fighter:0 "Fighter"
@@ -278,12 +279,12 @@
  GER_strat_bomber_equipment_1_short:0 "Do 19"
  GER_strat_bomber_equipment_2:0 "Heinkel He 177 'Greif'"
  GER_strat_bomber_equipment_2_short:0 "He 177 'Greif'"
- GER_strat_bomber_equipment_3:0 "Messerschmitt Me 264 'Amerika'"
- GER_strat_bomber_equipment_3_short:0 "Me 264"
+ GER_strat_bomber_equipment_3:0 "Junkers Ju 488"
+ GER_strat_bomber_equipment_3_short:0 "Ju 488"
+ GER_strat_bomber_equipment_4:0 "Messerschmitt Me 264 Amerika"
+ GER_strat_bomber_equipment_4_short:0 "Me 264 'Amerika'"
  GER_jet_strat_bomber_equipment_1:0 "Junkers EF 132"
  GER_jet_strat_bomber_equipment_1_short:0 "Ju 132"
- GER_jet_strat_bomber_equipment_2:0 "Messerschmitt Me-264"
- GER_jet_strat_bomber_equipment_2_short:0 "Me-264"
  GER_jet_strat_bomber_equipment_3:0 "Horten H.XVIII"
  GER_jet_strat_bomber_equipment_3_short:0 "H.XVIII"
  GER_jet_strat_bomber_equipment_3_desc:0 "The experimental flying wing design is the future of stealth bombing planes. Combined with intercontintal range, this bomber can strike even our most distant enemies before they are able to respond."
@@ -375,8 +376,8 @@
  ENG_jet_fighter_equipment_5:0 "de Havilland Vixen"
  ENG_jet_fighter_equipment_5_short:0 "Vixen"
  
- ENG_interceptor_equipment_1:0 "Hawker Hurricane Mk I"
- ENG_interceptor_equipment_1_short:0 "Hurricane Mk I"
+ ENG_interceptor_equipment_1:0 "Hawker Hurricane"
+ ENG_interceptor_equipment_1_short:0 "Hurricane"
  ENG_interceptor_equipment_2:0 "Hawker Hurricane Mk IIA"
  ENG_interceptor_equipment_2_short:0 "Hurricane Mk IIA"
  ENG_interceptor_equipment_3:0 "Supermarine Spitfire Mk XIV"
@@ -1105,7 +1106,7 @@
  JAP_strat_bomber_equipment_2_short:0 "G5N 'Liz'"
  JAP_strat_bomber_equipment_3:0 "Nakajima G8N 'Rita'"
  JAP_strat_bomber_equipment_3_short:0 "G8N 'Rita'"
- JAP_strat_bomber_equipment_4:0 "Nakajima G10N"
+ JAP_strat_bomber_equipment_4:0 "Nakajima G10N 'Mount Fuji'"
  JAP_strat_bomber_equipment_4_short:0 "G10N"
 
 
@@ -1132,10 +1133,9 @@
  JAP_CAS_equipment_1_short:0 "Ki-32 'Mary'"
  JAP_CAS_equipment_2:0 "Yokosuka D4Y 'Judy'"
  JAP_CAS_equipment_2_short:0 "D4Y 'Judy'"
- JAP_CAS_equipment_3:0 "Tachikawa Ki-74 'Patsy'"
- JAP_CAS_equipment_3_short:0 "Ki-74 'Patsy'"
- JAP_CAS_equipment_4:0 "Kawasaki Ki-66"
- JAP_CAS_equipment_4_short:0 "Ki-66'"
+ JAP_CAS_equipment_3:0 "Tachikawa Ki-66"
+ JAP_CAS_equipment_3_short:0 "Ki-66'"
+
  
  JAP_nav_bomber_equipment_1:0 "G3M1 Model 11"
  JAP_nav_bomber_equipment_1_short:0 "G3M1"
@@ -1373,11 +1373,11 @@
  FRA_cv_fighter_equipment_3_short:0 "D.525"
 
  ### ---------------------- Transport ----------------------------------------------
- GER_transport_plane_equipment_1:0 "Ju 52"
- USA_transport_plane_equipment_1:0 "DC-3"
+ GER_transport_plane_equipment_1:0 "Ju 52m3"
+ USA_transport_plane_equipment_1:0 "C-47 Skytrain"
  JAP_transport_plane_equipment_1:0 "Ki-56"
  SOV_transport_plane_equipment_1:0 "Li-2"
- ENG_transport_plane_equipment_1:0 "Bristol Bombay"
+ ENG_transport_plane_equipment_1:0 "C-47 Dakota"
  ITA_transport_plane_equipment_1:0 "Caproni Ca.133"
  FRA_transport_plane_equipment_1:0 "MB. 220"
  SWE_transport_plane_equipment_1:0 "Trp2"

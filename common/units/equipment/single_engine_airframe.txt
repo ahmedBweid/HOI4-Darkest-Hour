@@ -35,7 +35,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		build_cost_ic = 22
+		build_cost_ic = 16.5
 		resources = {
 			oil = 1
 			aluminium = 2
@@ -73,7 +73,7 @@ equipments = {
 		air_defence = 10
 		
 				
-		build_cost_ic = 24
+		build_cost_ic = 18
 		resources = {
 			oil = 1
 			aluminium = 3
@@ -96,7 +96,7 @@ equipments = {
 		air_defence = 16		
 
 				
-		build_cost_ic = 26
+		build_cost_ic = 19.5
 		resources = {
 			oil = 2
 			aluminium = 3
@@ -118,7 +118,7 @@ equipments = {
 		air_defence = 20	
 		
 				
-		build_cost_ic = 28
+		build_cost_ic = 21
 		resources = {
 			oil = 2
 			aluminium = 4
@@ -159,7 +159,7 @@ equipments = {
 		naval_strike_attack = 0.5
 		naval_strike_targetting = 1.0
 		
-		build_cost_ic = 30
+		build_cost_ic = 23
 		resources = {
 			aluminium = 2
 			tungsten = 3
@@ -181,7 +181,7 @@ equipments = {
 		air_attack = 36
 		air_defence = 20
 
-		build_cost_ic = 30
+		build_cost_ic = 23
 	}
 
 	# Improved Jet Fighter
@@ -197,7 +197,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 32
+		build_cost_ic = 24.5
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -217,7 +217,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 34
+		build_cost_ic = 26
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -237,7 +237,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 36
+		build_cost_ic = 27.5
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -257,7 +257,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 38
+		build_cost_ic = 29
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -266,7 +266,7 @@ equipments = {
 	}
 ##########---------------------------- Interceptors --------------------------------	
 	interceptor_equipment = {
-		year = 1933
+		year = 1936
 
 		is_archetype = yes
 		is_convertable = yes
@@ -299,7 +299,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		build_cost_ic = 22
+		build_cost_ic = 18.5
 		resources = {
 			oil = 1
 			aluminium = 2
@@ -311,6 +311,8 @@ equipments = {
 
 	# Basic interceptor
 	interceptor_equipment_1 = {
+		year = 1936		
+		
 		archetype = interceptor_equipment
 		priority = 10
 
@@ -321,7 +323,7 @@ equipments = {
 		air_defence = 10
 		
 				
-		build_cost_ic = 24
+		build_cost_ic = 18.5
 		resources = {
 			oil = 1
 			aluminium = 3
@@ -332,6 +334,8 @@ equipments = {
 
 	# Improved interceptor
 	interceptor_equipment_2 = {
+		year = 1940	
+		
 		archetype = interceptor_equipment
 		parent = interceptor_equipment_1
 		priority = 10
@@ -343,7 +347,7 @@ equipments = {
 		air_defence = 16		
 
 				
-		build_cost_ic = 26
+		build_cost_ic = 20
 		resources = {
 			oil = 2
 			aluminium = 3
@@ -353,6 +357,8 @@ equipments = {
 
 	# Advanced interceptor
 	interceptor_equipment_3 = {
+		year = 1943	
+		
 		archetype = interceptor_equipment
 		parent = interceptor_equipment_2
 		priority = 10
@@ -364,7 +370,7 @@ equipments = {
 		air_defence = 20	
 		
 				
-		build_cost_ic = 28
+		build_cost_ic = 21.5
 		resources = {
 			oil = 2
 			aluminium = 4
@@ -375,6 +381,8 @@ equipments = {
 	
 ### ------------------- Jet Interceptor ---------------------------------------
 	jet_interceptor_equipment = {
+		year = 1945			
+
 		is_archetype = yes
 		picture = archetype_fighter_equipment
 		is_buildable = no
@@ -402,7 +410,7 @@ equipments = {
 		naval_strike_attack = 0.5
 		naval_strike_targetting = 1.0
 		
-		build_cost_ic = 30
+		build_cost_ic = 24
 		resources = {
 			aluminium = 2
 			tungsten = 3
@@ -414,6 +422,8 @@ equipments = {
 
 	# Basic Jet interceptor
 	jet_interceptor_equipment_1 = {
+		year = 1945	
+		
 		archetype = jet_interceptor_equipment
 		priority = 20
 		
@@ -427,6 +437,8 @@ equipments = {
 
 	# Improved Jet interceptor
 	jet_interceptor_equipment_2 = {
+		year = 1947	
+		
 		archetype = jet_interceptor_equipment
 		parent = jet_interceptor_equipment_1
 		priority = 20
@@ -437,7 +449,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 32
+		build_cost_ic = 25.5
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -446,6 +458,8 @@ equipments = {
 	}
 	
 	jet_interceptor_equipment_3 = {
+		year = 1950	
+		
 		archetype = jet_interceptor_equipment
 		parent = jet_interceptor_equipment_2
 		priority = 20
@@ -456,7 +470,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 32
+		build_cost_ic = 27
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -465,6 +479,8 @@ equipments = {
 	}
 	
 	jet_interceptor_equipment_4 = {
+		year = 1954	
+		
 		archetype = jet_interceptor_equipment
 		parent = jet_interceptor_equipment_3
 		priority = 20
@@ -475,7 +491,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 32
+		build_cost_ic = 28.5
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -484,6 +500,8 @@ equipments = {
 	}
 
 	jet_interceptor_equipment_5 = {
+		year = 1960	
+		
 		archetype = jet_interceptor_equipment
 		parent = jet_interceptor_equipment_4
 		priority = 20
@@ -494,7 +512,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 26
 
-		build_cost_ic = 32
+		build_cost_ic = 31
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -502,6 +520,7 @@ equipments = {
 		}
 	}	
 #########------------------------ CV fighters --------------------------------------------------------------	
+
 	cv_fighter_equipment = {
 		year = 1933
 
@@ -550,6 +569,8 @@ equipments = {
 
 	# Early Carrier Fighter
 	cv_fighter_equipment_0 = {
+		year = 1933
+
 		archetype = cv_fighter_equipment
 		carrier_capable = yes
 		priority = 30
@@ -558,12 +579,17 @@ equipments = {
 		maximum_speed = 297 #CV planes have less speed than their land based counterparts 
 		air_agility = 45
 		air_attack = 9
-		air_defence = 6
+		air_defence = 8
 		
-		build_cost_ic =	26.4 # cv_version costs 20% more of base archetype
+		build_cost_ic =	19.8 # cv_version costs 20% more of base archetype
+
+		naval_strike_attack = 2
+		naval_strike_targetting = 10
 	}
 	# Basic Carrier Fighter
 	cv_fighter_equipment_1 = {
+		year = 1936
+
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_0
 		carrier_capable = yes
@@ -575,15 +601,20 @@ equipments = {
 		air_attack = 18
 		air_defence = 11
 		
-		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
+		build_cost_ic = 21.6 # cv_version costs 20% more of base archetype
 		resources = {
 			oil = 1
 			aluminium = 3
 			rubber = 1
 		}
+
+		naval_strike_attack = 3
+		naval_strike_targetting = 10
 	}
 	# Improved Carrier Fighter
 	cv_fighter_equipment_2 = {
+		year = 1940
+
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_1
 		carrier_capable = yes
@@ -593,17 +624,21 @@ equipments = {
 		maximum_speed =	585
 		air_agility = 65
 		air_attack = 27
-		air_defence = 17
+		air_defence = 13
 
-		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
+		build_cost_ic = 23.4 # cv_version costs 20% more of base archetype
 		resources = {
 			oil = 2
 			aluminium = 2
 			rubber = 1
 		}
+		naval_strike_attack = 6
+		naval_strike_targetting = 10
 	}
 	# Advanced Carrier Fighter
 	cv_fighter_equipment_3 = {
+		year = 1943
+
 		archetype = cv_fighter_equipment
 		parent = cv_fighter_equipment_2
 		carrier_capable = yes
@@ -613,14 +648,17 @@ equipments = {
 		maximum_speed =	648
 		air_agility = 80
 		air_attack = 32
-		air_defence = 22
+		air_defence = 15
 		
-		build_cost_ic = 32.4 # cv_version costs 20% more of base archetype
+		build_cost_ic = 25.3 # cv_version costs 20% more of base archetype
 		resources = {
 			oil = 2
 			aluminium = 3
 			rubber = 1
 		}
+
+		naval_strike_attack = 8
+		naval_strike_targetting = 10
 	}
 
 

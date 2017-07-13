@@ -62,7 +62,7 @@ country_event = {
 				factor = 0
 			}
 		}
-		GER = { country_event = RO_germany.10 }
+		GER = { country_event = DH_germany.10 }
 	}
 }
 
@@ -83,12 +83,12 @@ country_event = {
 		TUR = {
 			transfer_state = 183
 			add_state_core = 183
-			add_opinion_modifier = { fascism_leanings_good }
 		}
+		add_opinion_modifier = { target = GER modifier = fascism_leanings_good }			
 	}
 
 	option = { #refuse cyprus
 		name = DH_turkey.2.b
-		GER = { country_event = { hours = 6 id = RO_germany.14}}
+		ITA = { country_event = { hours = 6 id = DH_italy.3 }}
 	}
 }

@@ -1,0 +1,15 @@
+
+VIC = "countries/Vichy France.txt"
+EGL = "countries/England.txt"
+WAL = "countries/Wales.txt"
+SCO = "countries/Scotland.txt"
+#### Reichskommissariat-----------------------------------------------------------
+ROS = "countries/ReichskommissariatOstland.txt"
+RUK = "countries/ReichskommissariatUkraine.txt"
+RMO = "countries/ReichskommissariatMoskowien.txt"
+RKA = "countries/ReichskommissariatKaukasien.txt"
+RTU = "countries/ReichskommissariatTurkestan.txt"
+RUR = "countries/ReichskommissariatUral.txt"
+RFA = "countries/ReichskommissariatFranken.txt"
+MTA = "countries/Mittelafrika.txt"
+JEW = "countries/Jewland.txt"

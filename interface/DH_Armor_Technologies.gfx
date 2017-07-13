@@ -30,7 +30,7 @@ spriteTypes = {
 ### Germany --------------------------------
 	SpriteType = {
 		name = "GFX_GER_basic_light_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_pz_I.dds"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_I.dds"
 	}
 	
 	SpriteType = {

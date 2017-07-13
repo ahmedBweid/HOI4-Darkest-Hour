@@ -98,9 +98,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 187 102 32 }
-	#color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 170 0 30 }
+	color_ui = rgb { 170 0 30 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -512,10 +511,60 @@ PAK = {
 	#color = rgb { 21 38 66 }
 	color_ui = rgb { 21 38 66 }
 }
-RFA = {
-	color = rgb { 0  23 23 }
-	color_ui = rgb { 0  23 23 }
+
+####-------------------------------------- DH Colors ----------------------------------------------------
+ROS = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
 }
+RUK = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+RMO = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+RKA = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+RTU = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+RUR = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+RFA = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+JEW = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+VIC = {
+	color = rgb { 25 56 104 }
+	color_ui = rgb { 25 56 104 }
+}
+EGL = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+WAL = {
+	color = rgb { 75 77 186 }
+	color_ui = rgb { 124 125 184 }
+}
+SCO = {
+	color = rgb { 36 132 247 }
+	color_ui = rgb { 47 172 255 }
+}
+
+
+
+
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

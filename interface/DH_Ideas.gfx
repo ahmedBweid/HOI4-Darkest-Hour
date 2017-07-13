@@ -2,130 +2,110 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_GER_org_todt"
-		texturefile = "gfx/interface/ideas/idea_ast_all_in.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_ast_all_in.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_volkswagen"
-		texturefile = "gfx/interface/ideas/FRA_motorized_focus.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/FRA_motorized_focus.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_kraft_durch_freude"
-		texturefile = "gfx/interface/ideas/idea_ast_abandon_the_westminster_system_communism.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_trade_union"
-		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_coal_liq"
-		texturefile = "gfx/interface/ideas/idea_generic_refining_concern_1.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_refining_concern_1.dds"	
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_spain_aid"
-		texturefile = "gfx/interface/ideas/vittoria_mutilata.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/vittoria_mutilata.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_german_aid"
-		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"	
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_ss_vol"
-		texturefile = "gfx/interface/ideas/generic_manpower_bonus.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/generic_manpower_bonus.dds"		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_nibelungenwerk"
-		texturefile = "gfx/interface/ideas/idea_generic_tanks.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_tanks.dds"		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_ikarus"
-		texturefile = "gfx/interface/ideas/idea_generic_carrier.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_carrier.dds"		
 	}		
 	SpriteType = {
 		name = "GFX_idea_GER_retooling"
-		texturefile = "gfx/interface/ideas/idea_generic_tools.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_tools.dds"		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_panzer_production"
-		texturefile = "gfx/interface/ideas/idea_generic_tanks2.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_tanks2.dds"		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_reichsbahn"
-		texturefile = "gfx/interface/ideas/idea_generic_infra.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_infra.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_commercial"
-		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board .dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_can_wartime_prices_and_trade_board .dds"		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_synth_innovations"
-		texturefile = "gfx/interface/ideas/idea_generic_refining_concern_1 .dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_refining_concern_1 .dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_work_camp"
-		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_volks"
-		texturefile = "gfx/interface/ideas/generic_fascism_drift_bonus.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/generic_fascism_drift_bonus.dds"		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_jewland"
-		texturefile = "gfx/interface/ideas/idea_isolation .dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_isolation .dds"	
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_knives"
-		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_secret_police.dds"	
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_staatenbund"
 		texturefile = "gfx/interface/ideas/idea_generic_fascism_drift_2.dds"
-		noOfFrames = 14		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_u_boot_bunker"
-		texturefile = "gfx/interface/ideas/generic_wall_line .dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/generic_wall_line .dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_SS"
-		texturefile = "gfx/interface/ideas/idea_generic_general.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_general.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_amerikabomber"
-		texturefile = "gfx/interface/ideas/idea_generic_air_payment.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_air_payment.dds"		
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_planz"
-		texturefile = "gfx/interface/ideas/idea_generic_sea_focused_navy.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_generic_sea_focused_navy.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_reinhardt"
-		texturefile = "gfx/interface/ideas/idea_tot_economic_mobilisation.dds"
-		noOfFrames = 14		
+		texturefile = "gfx/interface/ideas/idea_tot_economic_mobilisation.dds"		
 	}
-
-
-	
+	SpriteType = {
+		name = "GFX_idea_GER_RK_repression"
+		texturefile = "gfx/interface/ideas/german_advisors.dds"		
+	}	
+	SpriteType = {
+		name = "GFX_idea_reinhard_heydrich"
+		texturefile = "gfx/interface/ideas/idea_reinhard_heydrich.dds"		
+	}		
 }

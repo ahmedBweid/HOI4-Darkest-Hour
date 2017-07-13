@@ -726,5 +726,8 @@ opinion_modifiers = {
 	fascism_leanings_good = {
 		value = 30
 	}	
+	GER_partitioned_yugoslavia_hun = { value = 10 }
+
+	GER_partitioned_yugoslavia_ita = { value = 15 }
 	
 }	
