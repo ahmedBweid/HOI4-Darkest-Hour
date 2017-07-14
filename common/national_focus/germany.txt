@@ -4575,31 +4575,50 @@ focus_tree = {
 			available = {
 					OR = {
 							GER = {
+								OR = {
+									owns_state = 7
 									controls_state = 7
 								}
+							}
 							any_other_country = {
+								OR = {
+									owns_state = 7
 									controls_state = 7
 									is_in_faction_with = GER
 								}
-						}
+								is_in_faction_with = GER
+								}
+					}
 					OR = {
 							GER = {
+								OR = {
+									owns_state = 6
 									controls_state = 6
 								}
+							}
 							any_other_country = {
+								OR = {
 									owns_state = 6
-									is_in_faction_with = GER
+									controls_state = 6
 								}
-						}
+								is_in_faction_with = GER
+								}
+					}
 					OR = {
 							GER = {
+								OR = {
+									owns_state = 743
 									controls_state = 743
 								}
+							}
 							any_other_country = {
+								OR = {
+									owns_state = 743
 									controls_state = 743
-									is_in_faction_with = GER
 								}
-						}
+								is_in_faction_with = GER
+							}
+					}
 				}
 			completion_reward = {
 					add_tech_bonus = {
@@ -6187,29 +6206,31 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
-						every_country = {
-								limit = {
-									OR = {
-										AND = {
-											any_state = { is_on_continent = europe }
-											NOT = {
-													tag = TUR
-												}
-											NOT = {
-													is_puppet_of = GER
-												}
-											is_in_faction_with = GER
-										}
-										tag = SWE
+				every_country = {
+						limit = {
+							OR = {
+								AND = {
+									any_state = {
+										is_on_continent = europe
 									}
-								}	
-								country_event = {
-										hours = 6
-										id = DH_germany.30
-									}						
+									NOT = {
+										tag = TUR
+									}
+									NOT = {
+										is_puppet_of = GER
+									}
+									is_in_faction_with = GER
+								}
+								original_tag = SWE
+							}
 						}
+						country_event = {
+							hours = 6
+							id = DH_germany.30
+						}
+					}
 			}
-	}	
+	}
 	focus = {
 		id = GER_bolivar
 		icon = GFX_goal_generic_intelligence_exchange

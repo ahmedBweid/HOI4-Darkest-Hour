@@ -1332,16 +1332,16 @@ country_event = { #Ireland refused
 #  Fate of Brittania
 #########################################################################
 country_event = {
-         id = DH_germany.35
-         title = DH_germany.35.t
-         desc = DH_germany.35.d 
-         picture = GFX_report_event_german_troops
-         
-         fire_only_once = yes
+        id = DH_germany.35
+        title = DH_germany.35.t
+        desc = DH_germany.35.d 
+        picture = GFX_report_event_german_troops
+        
+        fire_only_once = yes
  
-         trigger = {
-              tag = GER
-              ENG = { has_capitulated = yes }
+        trigger = {
+             tag = GER
+             ENG = { has_capitulated = yes }
 		}
 
         mean_time_to_happen = {
@@ -1350,25 +1350,45 @@ country_event = {
 
         option = {  # A  Fascist Regime
 			custom_effect_tooltip = dh.1.tt
-              name = DH_germany.35.a
-              hidden_effect = {
-				ENG = { release_puppet = RAJ }
-				ENG = { release_puppet = CAN }
-				ENG = { release_puppet = SAF }
-				ENG = { release_puppet = AST }
-				ENG = { release_puppet = NZL }
-				white_peace = ENG
-				ENG = { set_political_party = { ideology = fascism popularity = 0.7 } }
-				ENG = { set_political_party = { ideology = communism popularity = 0.1 } }
-				ENG = { set_politics = { ruling_party = fascism elections_allowed = no } }
-				GER = { add_to_faction = ENG }
+            name = DH_germany.35.a
+            hidden_effect = {
 				ENG = {
+					every_owned_state = {
+						limit = {
+							is_core_of = ENG				
+						}
+						add_core_of = EGL
+					}
+				}
+				EGL = {
+					transfer_state = 119
+					transfer_state = 120
+					transfer_state = 136
+					transfer_state = 121
+					transfer_state = 133
+					transfer_state = 131
+					transfer_state = 130
+					transfer_state = 132
+					transfer_state = 122
+					transfer_state = 128
+					transfer_state = 129
+					transfer_state = 125
+					transfer_state = 126
+					transfer_state = 127
+					transfer_state = 338
+					transfer_state = 123
+				}
+				EGL = { set_political_party = { ideology = fascism popularity = 1 } }
+				EGL = { set_politics = { ruling_party = fascism elections_allowed = no } }
+				GER = { add_to_faction = EGL }
+				EGL = {
 					add_ai_strategy = {
 						type = alliance
 						id = "GER"
 						value = 200
 					}
 				}
+				EGL = { set_country_flag = whole_friendly_regime }
 			}
 		}
           
@@ -1400,20 +1420,37 @@ country_event = {
 					IRE = { transfer_state = 119 }
 					CAN = { transfer_state = 332 }
 					CAN = { transfer_state = 331 }
-					GER = { 	
-						set_autonomy = {
-							target = SCO
-							autonomous_state = autonomy_satellite
-						} 
+					GER = {
+						if = {
+							limit = {
+								has_dlc = "Together for Victory"
+							}
+							set_autonomy = {
+								target = SCO
+								autonomous_state = autonomy_satellite
+							}
+							else = {
+								puppet = SCO
+							}
+						}
 					}
 					GER = { 	
-						set_autonomy = {
-							target = EGL
-							autonomous_state = autonomy_satellite
-						} 
+						if = {
+							limit = {
+								has_dlc = "Together for Victory"
+							}
+							set_autonomy = {
+								target = EGL
+								autonomous_state = autonomy_satellite
+							}
+							else = {
+								puppet = EGL
+							}
+						}
 					}
 					EGL = { set_cosmetic_tag = EGL_GER_RP }
 					SCO = { set_cosmetic_tag = SCO_GER_RP }
+					EGL = { set_country_flag = friendly_regime }
 				}
 		}
 }
