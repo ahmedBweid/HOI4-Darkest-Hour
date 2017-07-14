@@ -554,7 +554,7 @@ VIC = {
 	color_ui = rgb { 25 56 104 }
 }
 EGL = {
-	color = rgb { 201 56 93 }
+	color = rgb { 168 16 32 }
 	color_ui = rgb { 255 73 121 }
 }
 WAL = {

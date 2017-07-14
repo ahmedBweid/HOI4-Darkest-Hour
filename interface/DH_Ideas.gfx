@@ -82,7 +82,7 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_u_boot_bunker"
-		texturefile = "gfx/interface/ideas/generic_wall_line .dds"		
+		texturefile = "gfx/interface/ideas/generic_wall_line.dds"		
 	}
 	SpriteType = {
 		name = "GFX_idea_GER_SS"

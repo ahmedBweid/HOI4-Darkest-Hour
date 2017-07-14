@@ -20,11 +20,15 @@ country_event = {
 	# Submit to the coup
 	option = { 
 		name = DH_norway.1.a
-		GER = { puppet = NOR }
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-			set_autonomy = { target = NOR autonomy_state = autonomy_puppet }
-		}	
+		GER = {
+			if = {
+				limit = { has_dlc = "Together for Victory" }
+				set_autonomy = { target = NOR autonomy_state = autonomy_puppet }
+				else = {
+					puppet = NOR
+				}
+			}
+		}
 		NOR = { 
 			add_popularity = { ideology = fascism popularity = 0.1 }
 			set_politics = { ruling_party = fascism elections_allowed = no }		
@@ -37,13 +41,21 @@ country_event = {
 		start_civil_war = {
 			ruling_party = democratic		
 			ideology = fascism
-            size = 0.5
-            capital = 144
-            states = { 110 }
-        }
+			size = 0.5
+			capital = 144
+			states = { 110 }
+		}
 		random_other_country = {
 			limit = { original_tag = NOR has_government = fascism }
-			GER = { puppet = PREV }		
+			GER = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = NOR autonomy_state = autonomy_puppet }
+					else = {
+						puppet = NOR
+					}
+				}
+			}	
 		}	
 		ai_chance = {
 			factor = 40
@@ -59,7 +71,7 @@ country_event = {
 			modifier = {
 				factor = 5
 					is_in_faction = yes
-			}			
-		}	
-	}	
+			}
+		}
+	}
 }
