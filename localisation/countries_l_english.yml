@@ -241,8 +241,6 @@
  SWI_communism_ADJ:0 "Canton"
  TUR_fascism:0 "Ottoman Empire"
  TUR_fascism_DEF:0 "The Ottoman Empire"
- TUR_neutrality:0 "Ottoman Empire"
- TUR_neutrality_DEF:0 "The Ottoman Empire"
  TUR_democratic:0 "Republic of Turkey"
  TUR_democratic_DEF:0 "The Republic of Turkey"
  TUR_neutrality:0 "Ottoman Empire"
