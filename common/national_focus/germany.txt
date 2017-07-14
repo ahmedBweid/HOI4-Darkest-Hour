@@ -493,7 +493,7 @@ focus_tree = {
 		y = 4
 			available = {
 					date > 1948.1.1
-					any_other_country = {
+					any_country = {
 							OR = {
 									tag = GER
 									is_puppet_of = GER
@@ -5034,7 +5034,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_extra_tech_slot
-		text = extra_tech_slot
+		text = GER_extra_tech_slot
 		icon = GFX_focus_research
 		cost = 10.00
 		prerequisite = {
@@ -5464,7 +5464,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_industrial_effort
-		text = industrial_effort
+		text = GER_industrial_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
@@ -5922,7 +5922,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_industrial_effort_2
-		text = industrial_effort_2
+		text = GER_industrial_effort_2
 		icon = GFX_goal_generic_construction
 		cost = 5.00
 		prerequisite = {
