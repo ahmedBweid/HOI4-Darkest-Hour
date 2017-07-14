@@ -25,8 +25,8 @@
   
 ###Soviet Decisions ---------------------
 
-  SOV_rodina:0 "For the Rodina!" 
-  SOV_rodina_desc:0 "Pravda reports that the vile fascists have attacked the Motherland, and is there a more reliable source? To arms comrades we must show the invaders the power of the Russian Bear!" 
+  SOV_german_betrayal:0 "German Betrayal" 
+  SOV_german_betrayal_desc:0 "Germany has proven herself to be untrustworthy by declaring war on the Soviet Union, breaking the pact between us. But rest assured, that this betrayal will not go unpunished." 
  
  
   SOV_patrotic_war:0 "The Great Patriotic War"  

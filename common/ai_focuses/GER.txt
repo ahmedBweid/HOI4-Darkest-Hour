@@ -1,49 +1,62 @@
-
 ai_historical_focus_list_GER = {
 	ai_national_focuses = {
 		# grab as fast as you can if available
-		GER_around_maginot
-		GER_ussr_war_goal
-		GER_war_SOV
-		GER_war_USA
-
 		GER_rhineland
-		GER_fouryearplan
-		GER_west_wall
-		GER_auftragstaktik
+		GER_Trade_union
+		GER_army_innovation
+		GER_Luftwafe
+		GER_naval_rearmament
 		GER_anti_comitern_pact
-		GER_MEFO
+		GER_industrial_effort
+		GER_autobahn
+		GER_Mettal
 		GER_achtung_panzer
-		GER_synth_focus
-		GER_bolster_luftwaffe
-		GER_lightning_war
-		GER_frontline_op
-		GER_anschluss
-		GER_thefirstarmy
+		GER_naval_effort
+		GER_west_wall
+		GER_u_boat_effort
+		GER_soviet_treaty
+		GER_anschluss     ####806 days
+		GER_blitzkrieg
+		GER_tactical_air_effort
 		GER_demand_sudetenland
-		GER_first_vienna_award
 		GER_end_of_czechoslovakia
 		GER_demand_memel
-		GER_mol_rib_pact
-		GER_danzig_or_war
-		GER_war_with_france
+		GER_first_vienna_award
 		GER_second_vienna_award
-		GER_weserubung		
 		GER_italy_ally
-		GER_japan_friend
-		GER_defense_reich
-		GER_demand_slovenia
-		GER_enigma_improvements
-		GER_extra_tech_slot
-		GER_versuchsmuster_focus
-		GER_barbarossa
-		GER_armor_focus
-		GER_naval_rearmament
-		GER_naval_effort
-		GER_u_boat_effort
+		GER_retool		
+		GER_refin		
+		GER_tripartite	
+		GER_danzig_or_war		#####1383 days
+		GER_Schut
+		GER_commercial
+		GER_around_maginot
+		GER_war_with_france
 		GER_trade_interdiction
-		GER_promotion_from_loyalty
-		GER_wunderwaffe
+		GER_weserubung
+		GER_Westmark
+		GER_demand_slovenia
+		GER_first_ljubljana_award
+		GER_fate_of_Yugoslavia
+		GER_ussr_war_goal		######1628 days
+		GER_army_innovation_2
+		GER_Army_SS
+		GER_SS_vol
+		GER_Mosseland
+		GER_industrial_effort_2
+		GER_Atlantik
+		GER_Freude
+		GER_Todt
+		GER_Reinhardt
+		GER_Reichssicheitsamt
+		GER_heim
+		GER_nordmark
+		GER_rocketry_focus
+		GER_panske
+		GER_Volkswagen
+		GER_total_war
+		
+		
 	}
 }
 

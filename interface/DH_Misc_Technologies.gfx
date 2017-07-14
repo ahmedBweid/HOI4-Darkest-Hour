@@ -6,6 +6,11 @@ spriteTypes = {
 		name = "GFX_flying_bomb_medium"
 		texturefile = "gfx/interface/technologies/Misc/experimental_rockets.dds"	
 	}
+	SpriteType = {
+		name = "GFX_theoretical_jet_engines_medium"
+		texturefile = "gfx/interface/technologies/Misc/jet_engines.dds"	
+	}	
+	
 	
 ### Nuclear Program --------------------------
 

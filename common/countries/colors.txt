@@ -545,6 +545,10 @@ JEW = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }
 }
+MTA = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
 VIC = {
 	color = rgb { 25 56 104 }
 	color_ui = rgb { 25 56 104 }

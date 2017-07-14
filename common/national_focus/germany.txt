@@ -618,19 +618,12 @@ focus_tree = {
 	focus = {
 		id = GER_Army_SS
 		icon = GFX_goal_generic_army_motorized
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = GER_Schut
 		}
 		x = 5
 		y = 1
-			available = {
-					GER = {
-							has_tech = basic_light_art
-							has_tech = tech_engineers
-							has_tech = basic_medium_tank
-						}
-				}
 			completion_reward = {
 					add_tech_bonus = {
 							bonus = 0.5
@@ -914,6 +907,14 @@ focus_tree = {
 		prerequisite = {
 			focus = GER_afrika
 		}
+			available = {
+					ENG = {
+							is_in_faction_with = GER
+						}
+					SAF = {
+							is_in_faction_with = GER
+						}						
+				}		
 		x = 8
 		y = 5
 			completion_reward = {
@@ -924,7 +925,6 @@ focus_tree = {
 								}
 						}
 				}
-
 	}
 	focus = {
 		id = GER_third_boer_war
@@ -1276,7 +1276,15 @@ focus_tree = {
 		}
 		x = 11
 		y = 2
+		ai_will_do = {
+			factor = 1
+				modifier = {
+					date > 1941.1.1
+					factor = 20
+				}				
+		}		
 			available = {
+					date > 1941.1.1
 					is_puppet = no
 					has_army_manpower = {
 							size > 849999
@@ -4567,16 +4575,16 @@ focus_tree = {
 			available = {
 					OR = {
 							GER = {
-									owns_state = 7
+									controls_state = 7
 								}
 							any_other_country = {
-									owns_state = 7
+									controls_state = 7
 									is_in_faction_with = GER
 								}
 						}
 					OR = {
 							GER = {
-									owns_state = 6
+									controls_state = 6
 								}
 							any_other_country = {
 									owns_state = 6
@@ -4585,10 +4593,10 @@ focus_tree = {
 						}
 					OR = {
 							GER = {
-									owns_state = 743
+									controls_state = 743
 								}
 							any_other_country = {
-									owns_state = 743
+									controls_state = 743
 									is_in_faction_with = GER
 								}
 						}
@@ -4721,6 +4729,7 @@ focus_tree = {
 							has_government = neutrality
 						}	
 					}
+					ENG = { has_capitulated = yes }
 					GER = {
 							controls_state = 119
 						}
@@ -4742,6 +4751,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 4
+		available = {
+			ENG = { has_capitulated = yes }			
+		}
 			completion_reward = {
 					create_wargoal = {
 							type = puppet_wargoal_focus
@@ -6175,26 +6187,29 @@ focus_tree = {
 						}
 				}
 			completion_reward = {
-					if = {
-						all_allied_country = {
+						every_country = {
 								limit = {
-										is_on_continent = europe
-										NOT = {
-												tag = TUR
-											}
-										NOT = {
-												is_puppet_of = GER
-											}
-										is_in_faction_with = GER
+									OR = {
+										AND = {
+											any_state = { is_on_continent = europe }
+											NOT = {
+													tag = TUR
+												}
+											NOT = {
+													is_puppet_of = GER
+												}
+											is_in_faction_with = GER
+										}
+										tag = SWE
 									}
+								}	
 								country_event = {
 										hours = 6
 										id = DH_germany.30
-									}
-							}
-					}		
+									}						
+						}
 			}
-	}
+	}	
 	focus = {
 		id = GER_bolivar
 		icon = GFX_goal_generic_intelligence_exchange

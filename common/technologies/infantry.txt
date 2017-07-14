@@ -60,9 +60,9 @@ technologies = {
 		}	
 		
 		path = {
-			leads_to_tech = infantry_smg
+			leads_to_tech = infantry_smg1
 			research_cost_coeff = 1
-		}
+		}	
 		
 		research_cost = 1.5
 		start_year = 1936
@@ -259,33 +259,7 @@ technologies = {
 ###### SMGs --------------------------------------------------	
 
 
-# 1936 SMGs
-	infantry_smg = {
-	
-		enable_equipments = {
-			smg_equipment_0
-		}
-				
-		path = {
-			leads_to_tech = infantry_smg1
-			research_cost_coeff = 1
-		}		
 
-		research_cost = 1.5
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1936 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	
 # 1940 SMGs

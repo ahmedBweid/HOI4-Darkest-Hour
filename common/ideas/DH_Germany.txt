@@ -2,6 +2,45 @@ ideas = {
 
 	country = {
 
+		GER_kraft_durch_freude = {
+			modifier = {
+				production_factory_efficiency_gain_factor =0.055
+			}
+		}
+
+		GER_trade_union = {
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+
+		GER_org_todt = {
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+
+		GER_coal_liq = {
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.20
+			}
+		}
+
+		GER_spain_aid = {
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+		}
+
+		GER_german_aid = {
+			modifier = {
+				consumer_goods_factor = 0.10
+			}
+		}	
+	
 		GER_ikarus = {
 			allowed = {
 				always = no
