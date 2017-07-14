@@ -411,7 +411,6 @@ country_event = {
 				}
 			}
 			NOR = { exists = yes }
-		
         }
 
 	
@@ -1349,7 +1348,7 @@ country_event = {
         }
 
         option = {  # A  Fascist Regime
-			custom_effect_tooltip = dh.1.tt
+			#custom_effect_tooltip = dh.1.tt
             name = DH_germany.35.a
             hidden_effect = {
 				ENG = {
@@ -1394,7 +1393,7 @@ country_event = {
           
         option = { # Puppet the Isles
             name = DH_germany.35.b
-			custom_effect_tooltip = dh.2.tt
+			#custom_effect_tooltip = dh.2.tt
                hidden_effect = {
 					127 = { add_core_of = EGL }
 					123 = { add_core_of = EGL }

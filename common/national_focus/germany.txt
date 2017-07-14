@@ -1621,22 +1621,50 @@ focus_tree = {
 		x = 12
 		y = 4
 			available = {
-					is_puppet = no
-					GER = {
-							NOT = {
-									has_war_with = FIN
-								}
+				is_puppet = no
+				GER = {
+					NOT = {
+							has_war_with = FIN
+					}
+					OR = {
+						AND = {
 							owns_state = 215
 							owns_state = 216
 							owns_state = 213
 							owns_state = 146
 						}
-				}
-			bypass = {
-					FIN = {
-							is_in_faction_with = GER
+						AND = {
+							controls_state = 215
+							controls_state = 216
+							controls_state = 213
+							controls_state = 146
 						}
+					}
 				}
+			}
+			bypass = {
+				OR = {
+					FIN = {
+						is_in_faction_with = GER
+					}
+					FIN = {
+						OR = {
+							AND = {
+								owns_state = 215
+								owns_state = 216
+								owns_state = 213
+								owns_state = 146
+							}
+							AND = {
+								controls_state = 215
+								controls_state = 216
+								controls_state = 213
+								controls_state = 146
+							}
+						}
+					}
+				}
+			}
 			completion_reward = {
 					FIN = {
 							country_event = {
@@ -1644,8 +1672,7 @@ focus_tree = {
 									id = DH_finland.1
 								}
 						}
-				}
-
+			}
 	}
 	focus = {
 		id = GER_Osttrupen
@@ -1656,17 +1683,25 @@ focus_tree = {
 		}
 		x = 13
 		y = 5
-			available = {
-					GER = {
-							owns_state = 193
-							owns_state = 206
-							owns_state = 90
-						}
+		available = {
+			GER = {
+				OR = {
+					AND = {
+						owns_state = 193
+						owns_state = 206
+						owns_state = 90
+					}
+					AND = {
+						controls_state = 193
+						controls_state = 206
+						controls_state = 90
+					}
 				}
-			completion_reward = {
-					add_manpower = 400000
-				}
-
+			}
+		}
+		completion_reward = {
+				add_manpower = 400000
+		}
 	}
 	focus = {
 		id = GER_turkey_friend
@@ -4304,13 +4339,19 @@ focus_tree = {
 		x = 32
 		y = 5
 			available = {
-					120 = {
-							is_owned_by = GER
+				GER = {
+					OR = {
+						AND = {
+							owns_state = 120
+							owns_state = 99
 						}
-					99 = {
-							is_owned_by = GER
+						AND = {
+							controls_state = 120
+							controls_state = 99
 						}
+					}
 				}
+			}
 			completion_reward = {
 					add_tech_bonus = {
 							bonus = 0.5
@@ -4460,25 +4501,37 @@ focus_tree = {
 		y = 6
 			available = {
 					AND = {
-							OR = {
-									any_other_country = {
-											owns_state = 100
-											is_in_faction_with = GER
-										}
-									100 = {
-											is_owned_by = GER
-										}
+						OR = {
+							any_other_country = {
+								OR = {
+									owns_state = 100
+									controls_state = 100
 								}
-							OR = {
-									any_other_country = {
-											owns_state = 101
-											is_in_faction_with = GER
-										}
-									101 = {
-											is_owned_by = GER
-										}
+								is_in_faction_with = GER
+							}
+							100 = {
+								OR = {
+									is_owned_by = GER
+									is_controlled_by = GER
 								}
+							}
 						}
+						OR = {
+							any_other_country = {
+								OR = {
+									owns_state = 101
+									controls_state = 101
+								}
+								is_in_faction_with = GER
+							}
+							101 = {
+								OR = {
+									is_owned_by = GER
+									is_controlled_by = GER
+								}
+							}
+						}
+					}
 				}
 			completion_reward = {
 					100 = {
@@ -5975,35 +6028,35 @@ focus_tree = {
 					OR = {
 							1 = {
 									is_controlled_by = GER
-								}
+							}
 							1 = {
 									is_controlled_by = ITA
-								}
+							}
 							1 = {
 									is_controlled_by = RFA
-								}
+							}
 						}
 					OR = {
 							735 = {
 									is_controlled_by = GER
-								}
+							}
 							735 = {
 									is_controlled_by = ITA
-								}
+							}
 							735 = {
 									is_controlled_by = RFA
-								}
+							}
 						}
 					OR = {
 							21 = {
 									is_controlled_by = GER
-								}
+							}
 							21 = {
 									is_controlled_by = ITA
-								}
+							}
 							21 = {
 									is_controlled_by = RFA
-								}
+							}
 						}
 				}
 			completion_reward = {
