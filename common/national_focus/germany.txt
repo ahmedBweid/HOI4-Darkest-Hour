@@ -1545,11 +1545,14 @@ focus_tree = {
 		x = 13
 		y = 3
 			will_lead_to_war_with = SOV
-			cancel = {
+			bypass = {
+				OR = {
 					NOT = {
 							country_exists = SOV
 						}
+					has_war_with = SOV
 				}
+			}
 			historical_ai = {
 					NOT = {
 							any_home_area_neighbor_country = {
@@ -1557,9 +1560,14 @@ focus_tree = {
 								}
 						}
 				}
-			bypass = {
-					has_war_with = SOV
-				}
+			#cancel = {
+			#		NOT = {
+			#				country_exists = SOV
+			#			}
+			#	}
+			#bypass = {
+			#		has_war_with = SOV
+			#	}
 			ai_will_do = {
 					factor = 10
 					modifier = {
