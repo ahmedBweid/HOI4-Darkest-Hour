@@ -2782,7 +2782,6 @@ country_event = {
 		add_timed_idea = { idea = SOV_scientist_defect days = 365 }
 		ai_chance = { factor = 0 }
 		add_political_power = -10
-		add_opinion_modifier = { target = GER modifier = refused_MR_pact }# no pact 
 		GER = {
 			country_event = { days = 1 id = germany.77 }
 		}

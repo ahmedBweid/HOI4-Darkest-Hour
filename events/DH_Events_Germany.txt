@@ -1304,7 +1304,7 @@ country_event = { #Italy refused
 	option = {
 		name = DH_germany.33.a
 		set_cosmetic_tag = GER_GREATER
-		64 = { set_state_name = "Germania" }
+		set_province_name = { id = 6521 name = "Germania" }
 	}
 }
 
@@ -1348,7 +1348,7 @@ country_event = {
         }
 
         option = {  # A  Fascist Regime
-			#custom_effect_tooltip = dh.1.tt
+			custom_effect_tooltip =  "Install a friendly regime."
             name = DH_germany.35.a
             hidden_effect = {
 				ENG = {
@@ -1393,7 +1393,7 @@ country_event = {
           
         option = { # Puppet the Isles
             name = DH_germany.35.b
-			#custom_effect_tooltip = dh.2.tt
+			custom_effect_tooltip = "Establish the Reichsprotectorate in the Isles."
                hidden_effect = {
 					127 = { add_core_of = EGL }
 					123 = { add_core_of = EGL }
@@ -1454,7 +1454,7 @@ country_event = {
 		}
 }
 
-######JAP = { transfer_state = 755 }#######
+
 
 
 #########################################################################
@@ -1495,7 +1495,7 @@ country_event = {
 
         option = {
             name = DH_germany.36.b
-            custom_effect_tooltip = "The State of Malaysia will break free from their opressors. The Japanese will gain +100 political power"
+            custom_effect_tooltip = "The State of Malaysia will break free from their oppressors. The Japanese will gain +100 political power"
             hidden_effect = { 
                add_political_power = 100
                release_puppet = MAL

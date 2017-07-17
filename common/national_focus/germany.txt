@@ -1276,15 +1276,8 @@ focus_tree = {
 		}
 		x = 11
 		y = 2
-		ai_will_do = {
-			factor = 1
-				modifier = {
-					date > 1941.1.1
-					factor = 20
-				}				
-		}		
+	
 			available = {
-					date > 1941.1.1
 					is_puppet = no
 					has_army_manpower = {
 							size > 849999
@@ -1495,6 +1488,20 @@ focus_tree = {
 		}
 		x = 13
 		y = 2
+			available = {
+					date > 1940.1.1
+					is_puppet = no
+					has_army_manpower = {
+							size > 849999
+						}
+					#ca 90 div
+					SOV = {
+							NOT = {
+									has_war_with = GER
+								}
+							country_exists = SOV
+						}
+				}		
 			completion_reward = {
 					hidden_effect = {
 							SOV = {
@@ -1552,6 +1559,7 @@ focus_tree = {
 		}
 		x = 13
 		y = 3
+			
 			will_lead_to_war_with = SOV
 			bypass = {
 				OR = {
@@ -1567,17 +1575,13 @@ focus_tree = {
 									has_war_with = ROOT
 								}
 						}
-				}
-			#cancel = {
-			#		NOT = {
-			#				country_exists = SOV
-			#			}
-			#	}
-			#bypass = {
-			#		has_war_with = SOV
-			#	}
+			}
 			ai_will_do = {
 					factor = 10
+					modifier = {
+							date > 1941.1.1
+							factor = 20
+					}						
 					modifier = {
 							factor = 0
 							OR = {
@@ -1600,16 +1604,19 @@ focus_tree = {
 					modifier = {
 							factor = 0
 							is_historical_focus_on = yes
-							date < 1939.1.1
+							date < 1941.6.1
 						}
-				}
+			}
+			available = {
+				date < 1941.1.1				
+			}	
 			completion_reward = {
 					create_wargoal = {
 							type = annex_everything
 							target = SOV
 						}
 				}
-
+			
 	}
 	focus = {
 		id = GER_Finka

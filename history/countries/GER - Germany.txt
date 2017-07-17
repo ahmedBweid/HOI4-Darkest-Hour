@@ -4,10 +4,10 @@ oob = "GER_1936"
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_recon = 1
-	tech_support = 1
+	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
@@ -32,6 +32,7 @@ set_technology = {
 	basic_light_cruiser = 1
 	early_heavy_cruiser = 1
 	early_battleship = 1
+	basic_battleship = 1
 	early_battlecruiser = 1
 	mobile_warfare = 1
 	trade_interdiction = 1
@@ -39,8 +40,6 @@ set_technology = {
 	synth_oil_experiments = 1
 	transport = 1
 }
-
-
 
 
 
@@ -55,12 +54,11 @@ create_import = {
 		exporter = SWE
 }
 
-
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
-	set_cosmetic_tag = GER_BIG
-	add_political_power = 1197
 
+	add_political_power = 1197
+	
 	#adding ministers
 	add_ideas = {
 		henschel
@@ -74,14 +72,14 @@ create_import = {
 		war_economy
 		extensive_conscription
 	}
-
+	
 	oob = "GER_1939"
-
+	
 	set_autonomy = {
 		target = SLO
 		autonomous_state = autonomy_puppet
 	}
-
+	
 	give_military_access = SLO
 	create_wargoal = {
 		type = take_state_focus
@@ -100,7 +98,7 @@ create_import = {
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = fascism
+			has_government = fascism 
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -120,7 +118,7 @@ create_import = {
 		add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
 	}
 	#Soviet treaty end
-
+	
 	unlock_national_focus = GER_rhineland
 	unlock_national_focus = GER_anschluss
 	unlock_national_focus = GER_demand_sudetenland
@@ -136,24 +134,26 @@ create_import = {
 	complete_national_focus = GER_industrial_effort
 
 	#BUILDINGS
-
+	
 
 	set_technology = {
-		improved_light_tank = 1
-		basic_medium_tank = 1
+		improved_light_tank = 1 
+		basic_medium_tank = 1 
 		CAS2 = 1
 		heavy_fighter1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
-		infantry_rifle2 = 1
-		infantry_eq_up = 1
+		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		paratroopers = 1
 		basic_heavy_cruiser = 1
 		improved_heavy_cruiser = 1
-		basic_battleship = 1
 		improved_battleship = 1
+		early_carrier = 1
+		basic_carrier = 1
+		improved_carrier = 1
 
 		#doctrines
 		delay = 1
@@ -165,7 +165,7 @@ create_import = {
 		unrestricted_submarine_warfare = 1
 		raider_patrols = 1
 		#air
-		formation_flying = 1
+		formation_flying = 1		
 		dive_bombing = 1
 		direct_ground_support = 1
 
@@ -201,20 +201,20 @@ create_import = {
 set_politics = {
 
 	parties = {
-		democratic = {
+		democratic = { 
 			popularity = 20
 		}
 
 		fascism = {
 			popularity = 60
 		}
-
+		
 		communism = {
 			popularity = 20
 			banned = yes #default is no
 		}
 	}
-
+	
 	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
@@ -349,7 +349,7 @@ create_corps_commander = {
 	name = "Wilhelm List"
 	picture = "Portrait_Germany_Wilhelm_List.dds"
 	traits = {  }
-	skill = 1
+	skill = 2
 	id = 7
 }
 
@@ -358,23 +358,23 @@ create_corps_commander = {
 	desc = ""
 	picture = "Portrait_Germany_Ewald_von_Kleist.dds"
 	traits = {  }
-	skill = 1
+	skill = 2
 	id = 8
 }
 
 create_corps_commander = {
 	name = "Fedor von Bock"
-		picture = "Portrait_Germany_Fedor_von_Bock.dds"
+	picture = "Portrait_Germany_Fedor_von_Bock.dds"
 	traits = {  }
 	skill = 4
 	id = 9
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Walter Model"
 	picture = "Portrait_Germany_Walter_Model.dds"
-	traits = {  }
-	skill = 1
+	traits = { defensive_doctrine }
+	skill = 2
 	id = 10
 }
 
@@ -649,7 +649,7 @@ create_equipment_variant = {
 		type = fighter_equipment_1
 		upgrades = {
 			plane_gun_upgrade = 1
-			plane_range_upgrade = 1
+			plane_range_upgrade = 1  
 			plane_engine_upgrade = 0
 			plane_reliability_upgrade = 2
 		}
@@ -659,7 +659,7 @@ create_equipment_variant = {
 		type = fighter_equipment_1
 		upgrades = {
 			plane_gun_upgrade = 2
-			plane_range_upgrade = 1
+			plane_range_upgrade = 1  
 			plane_engine_upgrade = 2
 			plane_reliability_upgrade = 4
 		}

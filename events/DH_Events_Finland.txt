@@ -1,5 +1,5 @@
 ﻿###########################
-# Realism Overhaul Events : Spain
+# Darkest Hour  Events : Spain
 ###########################
 
 add_namespace = DH_finland
