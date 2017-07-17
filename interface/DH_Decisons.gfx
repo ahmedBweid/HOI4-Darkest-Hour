@@ -1,0 +1,115 @@
+spriteTypes = {	
+
+
+
+	SpriteType = {
+		name = "GFX_idea_anschluss"
+		texturefile = "gfx/interface/ideas/anschluss.dds"
+			
+	}
+    SpriteType = {
+		name = "GFX_idea_first_vienna_award"
+		texturefile = "gfx/interface/ideas/generic_military_deal.dds"
+		
+	}
+	SpriteType = {
+		name = "GFX_idea_first_ljubljana_award"
+		texturefile = "gfx/interface/ideas/generic_military_deal.dds"
+		
+	}
+	 SpriteType = {
+		name = "GFX_idea_second_vienna_award"
+		texturefile = "gfx/interface/ideas/generic_diplomatic_treaty.dds"
+			
+	} 
+	SpriteType = {
+		name = "GFX_idea_rhineland"
+		texturefile = "gfx/interface/ideas/generic_military_sphere.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_demand_sudetenland"
+		texturefile = "gfx/interface/ideas/demand_sudetenland.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_fate_of_greece"
+		texturefile = "gfx/interface/ideas/demand_sudetenland.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_end_of_czechoslovakia"
+		texturefile = "gfx/interface/ideas/generic_territory_or_war.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_danzig_vs_slovakia"
+		texturefile = "gfx/interface/ideas/generic_polish_deal.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_demand_memel"
+		texturefile = "gfx/interface/ideas/generic_forceful_treaty.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_fate_of_yugoslavia"
+		texturefile = "gfx/interface/ideas/generic_territory_or_war.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_demand_slovenia"
+		texturefile = "gfx/interface/ideas/generic_political_pressure.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_war_with_greece"
+		texturefile = "gfx/interface/ideas/generic_secret_weapon.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_around_maginot"
+		texturefile = "gfx/interface/ideas/Goal_generic_attack_allies.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_weserubung"
+		texturefile = "gfx/interface/ideas/generic_wess.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_second_ljubljana_award"
+		texturefile = "gfx/interface/ideas/generic_forceful_treaty.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_italy_ally"
+		texturefile = "gfx/interface/ideas/generic_major_alliance.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_nationalist_spain_ally"
+		texturefile = "gfx/interface/ideas/generic_major_alliance.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_danzig_or_war"
+		texturefile = "gfx/interface/ideas/generic_demand_territory.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_war_with_france"
+		texturefile = "gfx/interface/ideas/generic_major_war.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_mol_rib_pact"
+		texturefile = "gfx/interface/ideas/molotov_ribbentrop_pact.dds"
+			
+	}
+	SpriteType = {
+		name = "GFX_idea_ussr_war_goal"
+		texturefile = "gfx/interface/ideas/generic_war_with_comintern.dds"
+			
+	}
+}

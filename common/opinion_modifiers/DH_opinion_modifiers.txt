@@ -1,0 +1,14 @@
+opinion_modifiers = {
+	TUR_germany_pact = {
+		trade = yes
+		value = 20
+	}
+	TUR_anti_german_trade = {
+		trade = yes
+		value = -30
+	}
+	GER_anti_turkey_trade = {
+		trade = yes
+		value = -30
+	}
+}

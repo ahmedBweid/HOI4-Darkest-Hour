@@ -1230,13 +1230,14 @@ country_event = {
 				transfer_state = 728 # Guangzhouwan
 				transfer_state = 730 # St Pierre et Miquelon
 				transfer_state = 734 # Nendo
-				transfer_state = 735 # Savoy								
+				transfer_state = 735 # Savoy
+				transfer_state = 745 # Haute Savoie
 				every_owned_state = {
 					limit = {
 						is_core_of = VIC				
 					}
 					add_core_of = FRA
-				}							
+				}
 		}
 		FRA = {
 			transfer_state = 539 # Gabon				
@@ -2038,9 +2039,8 @@ country_event = {
 				transfer_state = 138
 				transfer_state = 124 	
 				
+				create_country_leader = { name = "Birger Furugård" desc = "POLITICS_ARNO_SCHICKEDANZ_DESC" picture = "Portrait_Germany_Arno_Schickedanz.dds" expire = "1963.2.19" ideology = nazism traits = { } }
 			}
-			
-			create_country_leader = { name = "Birger Furugård" desc = "POLITICS_ARNO_SCHICKEDANZ_DESC" picture = "Portrait_Germany_Arno_Schickedanz.dds" expire = "1963.2.19" ideology = nazism traits = { } }						
 		}
 		custom_effect_tooltip = germany_establish_rk_sweden
 	}
