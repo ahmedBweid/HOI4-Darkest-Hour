@@ -1,20 +1,22 @@
 ideas = {
 
+	country = {
 		IRE_ira = {
 			allowed = {
 				always = no
 			}
 
-		allowed_civil_war = {
-			always = yes
-		}
+			allowed_civil_war = {
+				always = yes
+			}
 
-		removal_cost = -1
+			removal_cost = -1
 
-		picture = generic_fascism_drift_bonus
+			picture = generic_fascism_drift_bonus
 
-		modifier = {
-			fascism_drift = 0.05
+			modifier = {
+				fascism_drift = 0.05
+			}
 		}
 	}
 }
