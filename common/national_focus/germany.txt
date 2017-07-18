@@ -3052,6 +3052,10 @@ focus_tree = {
 			NOT = {
 				has_war_with = CZE
 			}
+			GER = {
+				controls_state = 69
+				controls_state = 74
+			}
 		}
 		bypass = {
 			OR = {
@@ -3064,6 +3068,10 @@ focus_tree = {
 					CZE = {
 						is_puppet_of = PREV
 					}
+				}
+				GER = {
+					controls_state = 9
+					controls_state = 75
 				}
 			}
 		}
