@@ -50,6 +50,10 @@
  RTU_fascism_DEF:0 "Das Reichskommissariat Turkestan"
  RTU_fascism_ADJ:0 "German"
  
+ RFA_fascism:0 "Reichskommissariat France"
+ RFA_fascism_DEF:0 "Das Reichskommissariat France"
+ RFA_fascism_ADJ:0 "German"
+ 
  RUR_fascism:0 "Reichskommissariat Ural"
  RUR_fascism_DEF:0 "Das Reichskommissariat Ural"
  RUR_fascism_ADJ:0 "German"

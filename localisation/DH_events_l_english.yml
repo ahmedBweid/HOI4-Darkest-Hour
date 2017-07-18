@@ -271,6 +271,23 @@
  DH_turkey.2.a:0 "Cyprus belongs to Turkey"
  DH_turkey.2.b:0 "We cannot commit at this time"
  
+ DH_turkey.3.t:0 "[From.GetName] Trade Deal"
+ DH_turkey.3.d:0 "German negotiators have approached the Turkish forieng ministry with a potentially lucrative trade arrangement. Following the non-Agression Pact, and in return for developing Turkish armaments industry, Germany will receive substantial amounts of Chromite ore. The deal runs for approximately 3 years, after which Germany will have to purchase chromium for market prices."
+ DH_turkey.3.a:0 "Accept"
+ DH_turkey.3.b:0 "Decline"
+ 
+ DH_turkey.4.t:0 "[From.GetName] Accepted"
+ DH_turkey.4.d:0 "[From.GetName] has accepted our trade deal"
+ DH_turkey.4.a:0 "Good"
+ 
+ DH_turkey.5.t:0 "[From.GetName] Declines"
+ DH_turkey.5.d:0 "[From.GetName] has declined out trade deal"
+ DH_turkey.5.a:0 "Terrible"
+ 
+ DH_turkey.6.t:0 "Deals over"
+ DH_turkey.6.d:0 "Removes the chromium stuff due to the trukey trade deal"
+ DH_turkey.6.a:0 "Finally"
+ 
  ###### Italian events-------------------------------------
  DH_italy.1.t:0 "Fall of Fascist Italy"
  DH_italy.1.d:0 "Mussolini has been removed out of office by the Italian government, throwing Italy in turmoil. The defection of Rome presents us with a dilemma: we either fight on under German leadership, with only the north of Italy under our control, or we submit defeat and hope for lenient punishment from the western powers."
@@ -339,3 +356,17 @@
  DH_commonwealth.3.t:0 "[From.GetName] remains Loyal to London"
  DH_commonwealth.3.d:0 "Now that the transition of Britain is over, some of the fascist members of the British Empire have expressed their wish to remain a part of the new Britain, forsaking their old master."
  DH_commonwealth.3.a:0 "For the Empire!"
+ 
+ ###### German events-------------------------------------
+ DH_iran.1.t:0 "German-Iranian Treaty of Friendship"
+ DH_iran.1.d:0 "Berlin has approached us with a lucrative offer. By signing the German-Iranian Friendship Treaty the Germans offer us better research equipment and bring us up to speed on the latest scientific breakthroughs. Accepting such an offer however will bring us in a closer ambit of the Reich. Other major powers might see this foreign influence as a provocation."
+ DH_iran.1.a:0 "Accept"
+ DH_iran.1.b:0 "Decline"
+ 
+ DH_iran.2.t:0 "[From.GetName] has accepted the Treay"
+ DH_iran.2.d:0 "Our fellow Aryan friends of Iran have wisely accepted our generous offer. We have offered to bring them up to speed in the realm of science and technology, in return this will allow us to influence Iran's decisions in the long run."
+ DH_iran.2.a:0 "Excellent"
+ 
+ DH_iran.3.t:0 "[From.GetName] has decline the Treaty"
+ DH_iran.3.d:0 "It seems the Persians are not so keen on their Aryan kinship after all. They have rejected the German-Iranian Friendship Treaty, fearing that allowing Germany to influence their academia will bring harm to their international situation. Perhaps they will wake up to their geo-political reality some other time."
+ DH_iran.3.a:0 "Disappointing"

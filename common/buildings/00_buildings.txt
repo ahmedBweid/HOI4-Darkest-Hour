@@ -22,6 +22,7 @@ buildings = {
 		max_level = 20
 		shares_slots = yes
 		value = 8
+		infrastructure_construction_effect = yes
 	}
 
 	industrial_complex = {
@@ -33,6 +34,7 @@ buildings = {
 		max_level = 20
 		shares_slots = yes
 		value = 5
+		infrastructure_construction_effect = yes
 	}
 
 	air_base = {
@@ -95,6 +97,7 @@ buildings = {
 		max_level = 20
 		shares_slots = yes
 		value = 5
+		infrastructure_construction_effect = yes
 	}
 
 	
@@ -121,6 +124,7 @@ buildings = {
 		max_level = 4 # This is the max unlock level
 		shares_slots = yes
 		value = 5
+		infrastructure_construction_effect = yes
 	}
 
 	radar_station = {
@@ -143,6 +147,7 @@ buildings = {
 		max_level = 5
 		shares_slots = yes
 		value = 1
+		infrastructure_construction_effect = yes
 	}
 
 	nuclear_reactor = {
@@ -154,5 +159,6 @@ buildings = {
 		max_level = 5 # This is the max unlock level
 		shares_slots = yes
 		value = 10
+		infrastructure_construction_effect = yes
 	}
 }
