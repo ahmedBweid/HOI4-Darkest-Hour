@@ -3734,6 +3734,9 @@ country_event = {
 
 	option = { #take everything
 		name = germany.94.a
+		ai_chance = {
+			factor = 0
+		}
 		GER = {
 			transfer_state = 102
 			transfer_state = 751
@@ -3746,6 +3749,9 @@ country_event = {
 	}
 	option = { #partition
 		name = germany.94.b
+		ai_chance = {
+			factor = 100
+		}
 		GER = { transfer_state = 102 }
 		HUN = {
 			transfer_state = 751
