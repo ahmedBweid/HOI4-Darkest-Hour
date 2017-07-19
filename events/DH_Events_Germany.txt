@@ -482,7 +482,7 @@ country_event = {
 				has_government = fascism
 			}
 			NOR = {
-				is_puppet_of = GER
+				is_subject_of = GER
 				is_ai = yes
 			}
         }
@@ -514,7 +514,7 @@ country_event = {
 				has_government = fascism
 			}
 			DEN = {
-				is_puppet_of = GER
+				is_subject_of = GER
 				is_ai = yes
 			}
         }
@@ -546,7 +546,7 @@ country_event = {
 				has_government = fascism
 			}
 			ICE = {
-				is_puppet_of = GER
+				is_subject_of = GER
 				is_ai = yes
 			}
         }
@@ -578,7 +578,7 @@ country_event = {
 				has_government = fascism
 			}
 			SWE = {
-				is_puppet_of = GER
+				is_subject_of = GER
 				is_ai = yes
 			}
         }
@@ -815,7 +815,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = FRA
-							FRA = {  is_puppet_of = SOV }
+							FRA = {  is_subject_of = SOV }
 						}
 					}					
 				}	
@@ -827,7 +827,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = ENG
-							ENG = {  is_puppet_of = SOV }
+							ENG = {  is_subject_of = SOV }
 						}
 					}					
 				}	
@@ -839,7 +839,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = USA
-							USA = {  is_puppet_of = SOV }
+							USA = {  is_subject_of = SOV }
 						}
 					}					
 				}	
@@ -851,7 +851,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = JAP
-							JAP = {  is_puppet_of = SOV }
+							JAP = {  is_subject_of = SOV }
 						}
 					}						
 				}
@@ -863,7 +863,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = ITA
-							ITA = {  is_puppet_of = SOV }
+							ITA = {  is_subject_of = SOV }
 						}
 					}						
 				}	
@@ -875,7 +875,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = POL
-							POL = {  is_puppet_of = SOV }
+							POL = {  is_subject_of = SOV }
 
 						}
 					}						
@@ -892,7 +892,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = FRA
-							FRA = {  is_puppet_of = GER }
+							FRA = {  is_subject_of = GER }
 						}
 					}					
 				}	
@@ -904,7 +904,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = ENG
-							ENG = {  is_puppet_of = GER }
+							ENG = {  is_subject_of = GER }
 						}
 					}					
 				}	
@@ -916,7 +916,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = USA
-							USA = {  is_puppet_of = GER }
+							USA = {  is_subject_of = GER }
 						}
 					}					
 				}	
@@ -929,7 +929,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = ITA
-							ITA = {  is_puppet_of = GER }
+							ITA = {  is_subject_of = GER }
 						}
 					}						
 				}	
@@ -941,7 +941,7 @@ country_event = {
 					NOT = {
 						OR = {
 							is_in_faction_with = POL
-							POL = {  is_puppet_of = GER }
+							POL = {  is_subject_of = GER }
 
 						}
 					}						
@@ -1079,7 +1079,7 @@ country_event = {
 				has_government = fascism
 			}
 			AUS = {
-				is_puppet_of = GER
+				is_subject_of = GER
 				is_ai = yes
 			}
         }
