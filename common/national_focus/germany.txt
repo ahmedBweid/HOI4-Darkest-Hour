@@ -485,17 +485,71 @@ focus_tree = {
 			any_country = {
 				OR = {
 					tag = GER
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 				controls_state = 137
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 196
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 198
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 192
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 197
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 203
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 201
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 199
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 88
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
 				controls_state = 91
 			}
 		}
@@ -567,11 +621,21 @@ focus_tree = {
 		x = 3
 		y = 5
 		available = {
-			UKR = {
-				is_puppet_of = GER
+			OR = {
+				UKR = {
+					is_subject_of = GER
+				}
+				RUK = {
+					is_subject_of = GER
+				}
 			}
-			BLR = {
-				is_puppet_of = GER
+			OR = {
+				BLR = {
+					is_subject_of = GER
+				}
+				ROS = {
+					is_subject_of = GER
+				}
 			}
 			GER = {
 				has_war = no
@@ -834,10 +898,10 @@ focus_tree = {
 		y = 5
 		available = {
 			EGY = {
-				is_puppet_of = GER
+				is_subject_of = GER
 			}
 			SYR = {
-				is_puppet_of = GER
+				is_subject_of = GER
 			}
 		}
 		completion_reward = {
@@ -853,7 +917,7 @@ focus_tree = {
 			if = {
 				limit = {
 					LEB = {
-						is_puppet_of = GER
+						is_subject_of = GER
 					}
 				}
 				EGY = {
@@ -863,7 +927,7 @@ focus_tree = {
 			if = {
 				limit = {
 					JOR = {
-						is_puppet_of = GER
+						is_subject_of = GER
 					}
 				}
 				EGY = {
@@ -873,7 +937,7 @@ focus_tree = {
 			if = {
 				limit = {
 					PAL = {
-						is_puppet_of = GER
+						is_subject_of = GER
 					}
 				}
 				EGY = {
@@ -1241,6 +1305,12 @@ focus_tree = {
 			GER = {
 				has_war_with = ENG
 			}
+			SOV = {
+				NOT = {
+					has_war_with = GER
+				}
+			country_exists = SOV
+			}
 		}
 		completion_reward = {
 			SOV = {
@@ -1548,7 +1618,7 @@ focus_tree = {
 				}
 				has_war_with = SOV
 				SOV = {
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 			}
 		}
@@ -1612,20 +1682,34 @@ focus_tree = {
 				NOT = {
 					has_war_with = FIN
 				}
+			}
+			any_country = {
 				OR = {
-					AND = {
-						owns_state = 215
-						owns_state = 216
-						owns_state = 213
-						owns_state = 146
-					}
-					AND = {
-						controls_state = 215
-						controls_state = 216
-						controls_state = 213
-						controls_state = 146
-					}
+					tag = GER
+					is_subject_of = GER
 				}
+				controls_state = 215
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 216
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 213
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 146
 			}
 		}
 		bypass = {
@@ -1670,19 +1754,26 @@ focus_tree = {
 		x = 13
 		y = 5
 		available = {
-			GER = {
+			any_country = {
 				OR = {
-					AND = {
-						owns_state = 193
-						owns_state = 206
-						owns_state = 90
-					}
-					AND = {
-						controls_state = 193
-						controls_state = 206
-						controls_state = 90
-					}
+					tag = GER
+					is_subject_of = GER
 				}
+				controls_state = 193
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 206
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 90
 			}
 		}
 		completion_reward = {
@@ -1934,7 +2025,7 @@ focus_tree = {
 			}
 			NOT = {
 				YUG = {
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 			}
 		}
@@ -1948,7 +2039,7 @@ focus_tree = {
 				is_in_faction_with = YUG
 				has_war_with = YUG
 				YUG = {
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 				NOT = {
 					controls_state = 4
@@ -2060,7 +2151,7 @@ focus_tree = {
 					is_puppet = no
 				}
 				YUG = {
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 			}
 		}
@@ -2505,7 +2596,7 @@ focus_tree = {
 				any_other_country = {
 					is_in_faction_with = ROOT
 					YUG = {
-						is_puppet_of = PREV
+						is_subject_of = PREV
 					}
 				}
 			}
@@ -2530,7 +2621,7 @@ focus_tree = {
 		y = 4
 		available = {
 			CRO = {
-				is_puppet_of = GER
+				is_subject_of = GER
 			}
 			ROM = {
 				is_in_faction_with = GER
@@ -2576,7 +2667,7 @@ focus_tree = {
 				limit = {
 					SER = {
 						controls_state = 107
-						is_puppet_of = GER
+						is_subject_of = GER
 					}
 				}
 				107 = {
@@ -2919,7 +3010,7 @@ focus_tree = {
 		bypass = {
 			OR = {
 				CZE = {
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 				69 = {
 					CONTROLLER = {
@@ -3066,7 +3157,7 @@ focus_tree = {
 				any_other_country = {
 					is_in_faction_with = GER
 					CZE = {
-						is_puppet_of = PREV
+						is_subject_of = PREV
 					}
 				}
 				GER = {
@@ -3359,7 +3450,7 @@ focus_tree = {
 		available = {
 			date > 1942.7.1
 			VIC = {
-				is_puppet_of = GER
+				is_subject_of = GER
 			}
 			country_exists = VIC
 		}
@@ -3774,6 +3865,21 @@ focus_tree = {
 					modifier = ger_spa_alliance_focus
 				}
 			}
+			hidden_effect = {
+				random_other_country = {
+					limit = {
+						original_tag = SPR
+						has_government = fascism
+					}
+					remove_ideas = SPA_recovering_from_civil_war
+				}
+				random_other_country = {
+					limit = {
+						original_tag = D01
+					}
+					remove_ideas = SPA_recovering_from_civil_war
+				}
+			}
 		}
 	}
 	focus = {
@@ -4145,7 +4251,7 @@ focus_tree = {
 				NOT = {
 					country_exists = ENG
 				}
-				is_puppet_of = GER
+				is_subject_of = GER
 				is_in_faction_with = GER
 			}
 		}
@@ -4214,17 +4320,21 @@ focus_tree = {
 		x = 32
 		y = 5
 		available = {
-			GER = {
+			any_country = {
 				OR = {
-					AND = {
-						owns_state = 120
-						owns_state = 99
-					}
-					AND = {
-						controls_state = 120
-						controls_state = 99
-					}
+					tag = GER
+					is_in_faction_with = GER
+					is_subject_of = GER
 				}
+				controls_state = 120
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_in_faction_with = GER
+					is_subject_of = GER
+				}
+				controls_state = 99
 			}
 		}
 		completion_reward = {
@@ -4361,6 +4471,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			release_puppet = NOR
+			NOR = {
+				white_peace = GER
+				transfer_state = 110
+				transfer_state = 142
+				transfer_state = 143
+				transfer_state = 144
+				set_cosmetic_tag = NOR_GER_RP
+			}
 		}
 	}
 	focus = {
@@ -4672,8 +4790,16 @@ focus_tree = {
 					has_government = neutrality
 				}	
 			}
-			ENG = { has_capitulated = yes }
-			GER = {
+			OR = {
+				ENG = { has_capitulated = yes }
+				ENG = { exists = no }
+				ENG = { is_in_faction_with = GER }
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_in_faction_with = GER
+				}
 				controls_state = 119
 			}
 		}
@@ -5601,7 +5727,7 @@ focus_tree = {
 				}
 				GRE = {
 					controls_state = 731
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 			}
 			BUL = {
@@ -5872,7 +5998,7 @@ focus_tree = {
 					OR = {
 						tag = GER
 						tag = ITA
-						is_puppet_of = GER
+						is_subject_of = GER
 					}
 					controls_state = 1
 					controls_state = 735
@@ -5978,7 +6104,7 @@ focus_tree = {
 			any_country = {
 				OR = {
 					tag = GER
-					is_puppet_of = GER
+					is_subject_of = GER
 				}
 				controls_state = 745
 			}
@@ -6102,7 +6228,7 @@ focus_tree = {
 								tag = TUR
 							}
 							NOT = {
-								is_puppet_of = GER
+								is_subject_of = GER
 							}
 							is_in_faction_with = GER
 						}
