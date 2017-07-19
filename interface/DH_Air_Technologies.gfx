@@ -179,6 +179,11 @@ spriteTypes = {
 
 	###---------------------------------- Generic Aircrafts ----------------------------------###	
 
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
+	}
+	
 ## Tactical Bomber
 	SpriteType = {
 		name = "GFX_early_bomber_medium"
@@ -1110,6 +1115,7 @@ spriteTypes = {
 	#	name = "GFX_FRA_transport_plane_equipment_medium"
 	#	texturefile = "gfx/interface/technologies/Aircraft/FRA_transport_plane_equipment.dds"
 	#}
+	
 ## Tactical Bomber
 	SpriteType = {
 		name = "GFX_FRA_early_bomber_medium"
