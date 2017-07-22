@@ -3426,6 +3426,9 @@ focus_tree = {
 					country_exists = FRA
 				}
 				has_war_with = FRA
+				FRA = {
+					is_subject_of = GER
+				}
 			}
 		}
 		historical_ai = {
@@ -3757,6 +3760,13 @@ focus_tree = {
 		available = {
 			NOT = {
 				has_war_with = ITA
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 16
 			}
 		}
 		bypass = {
