@@ -5202,6 +5202,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 8
 		}
+		available = {
+			42 = {
+				is_demilitarized_zone = no
+			}
+			51 = {
+				is_demilitarized_zone = no
+			}
+		}
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = todt
