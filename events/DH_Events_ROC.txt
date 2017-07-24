@@ -17,6 +17,7 @@ country_event = {
 		JAP = {white_peace = PRC}
 		CHI = {annex_country = { target = MAN }}
 		CHI = {annex_country = { target = MEN }}
+		CHI = {transfer_state = { target = 609 }}
       
     }
 }
@@ -33,6 +34,7 @@ country_event = {
       name = DH_china.2.a
 		CHI = {annex_country = { target = MAN }}
 		CHI = {annex_country = { target = MEN }}
+		CHI = {transfer_state = { target = 609 }}
       
     }
 }
