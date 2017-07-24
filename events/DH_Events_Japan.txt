@@ -1,4 +1,4 @@
-add_namespace = DH_japan
+﻿add_namespace = DH_japan
 
 #Offer China peace?
 ##Japanese White Peace China

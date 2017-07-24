@@ -1,4 +1,4 @@
-add_namespace = DH_china
+﻿add_namespace = DH_china
 
 
 
@@ -12,13 +12,12 @@ country_event = {
 	
 	#Japan offers whitepeace
     option = {
-      name = DH_china.1.a
-		JAP = {white_peace = CHI}
-		JAP = {white_peace = PRC}
-		CHI = {annex_country = { target = MAN }}
-		CHI = {annex_country = { target = MEN }}
-		CHI = {transfer_state = { target = 609 }}
-      
+		name = DH_china.1.a
+		JAP = { white_peace = CHI }
+		JAP = { white_peace = PRC }
+		CHI = { annex_country = { target = MAN }}
+		CHI = { annex_country = { target = MEN }}
+		CHI = { transfer_state = 609 }
     }
 }
 ##Japanese refuses  surrender
@@ -31,11 +30,10 @@ country_event = {
 	
 	#Japan refuses surrender
     option = {
-      name = DH_china.2.a
+		name = DH_china.2.a
 		CHI = {annex_country = { target = MAN }}
 		CHI = {annex_country = { target = MEN }}
-		CHI = {transfer_state = { target = 609 }}
-      
+		CHI = {transfer_state = 609 }
     }
 }
 country_event = {
@@ -55,7 +53,6 @@ country_event = {
 			}
 		}
 		declare_war_on = { target = SIK type = annex_everything }
-		
 	}
 	# No, leave them be
 	option = { 
@@ -67,8 +64,5 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}
-		
-	}	
-      
-    }
+	}
 }
