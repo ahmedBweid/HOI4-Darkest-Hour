@@ -310,6 +310,11 @@
  DH_italy.3.a:0 "Mare Nostrum - Our Sea"
  DH_italy.3.b:0 "We have enough naval bases"
  
+ DH_italy.4.t:0 "Germany Takes Paris"
+ DH_italy.4.d:0 "With the fall of Paris to the German Forces perhaps it's time to look past our dislike for Hitler and join the axis"
+ DH_italy.4.a:0 "Indeed"
+ DH_italy.4.b:0 "Italy First!"
+ 
  ###### Norway's events-------------------------------------
  DH_norway.1.t:0 "Quisling's setting up a coup!"
  DH_norway.1.a:0 "Submit to the coup."
