@@ -120,13 +120,6 @@ country_event = {
 	# Nikita S. Khrushchev
 	option = { 
 		name = DH_soviet.4.a
-		ai_chance = {
-			factor = 80
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 100
-			}
-		}
 		create_country_leader = { 
 			name = "Nikita S. Khrushchev" 
 			desc = "POLITICS_PETER_II_DESC" 
@@ -136,16 +129,9 @@ country_event = {
 			traits = { } 
 		}			
 	}
-	# Georgy Malenkov10
+	# Georgy Malenkov
 	option = { 
 		name = DH_soviet.4.b
-		ai_chance = {
-			factor = 10
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
 		create_country_leader = { 
 			name = "Georgy Malenkov" 
 			desc = "POLITICS_PETER_II_DESC" 
@@ -155,23 +141,13 @@ country_event = {
 			traits = { } 
 		}	
 	}	
-	# Lavrenti P. Beria10
-	option = {
+	# Lavrenti P. Beria
+	option = { 
 		name = DH_soviet.4.c
-		ai_chance = {
-			factor  = 10
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-	}
+	}	
 	# Georgy Zhukov
 	option = { 
 		name = DH_soviet.4.d
-		ai_chance = {
-			factor  = 0
-		}
 		create_country_leader = { 
 			name = "Georgy Zhukov" 
 			desc = "POLITICS_PETER_II_DESC" 
@@ -198,47 +174,49 @@ country_event = {
 	# Let's bury the west
 	option = { 
 		name = DH_soviet.5.a
-		ai_chance = {
-			factor = 80
-			modifier = {
-				OR = {
-					has_idea = officers_purged
-					has_idea = officers_purged_2
-					has_idea = officers_purged_3
-					has_idea = officers_purged_4
-					has_idea = officers_purged_5
-					has_idea = officers_purged_6
-					has_idea = officers_purged_7
-					has_idea = officers_purged_8
-					has_idea = officers_purged_9
-					has_idea = officers_purged_10
-				}
-				factor = 0
-			}
-		}
 		country_event = { days = 31 id = DH_germany.25 }
 	}
 	# We need more time!
 	option = { 
 		name = DH_soviet.5.b
+		country_event = { days = 31 id = DH_germany.26 }
+	}	
+}
+#Intervene in Xinjiang
+country_event = {
+	id = DH_soviet.6
+	title = DH_soviet.6.t
+	desc = DH_soviet.6.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	
+	
+	# Yes, we intervene
+	option = { 
+		name = DH_soviet.6.a
 		ai_chance = {
-			factor = 20
+			factor = 70
 			modifier = {
-				OR = {
-					has_idea = officers_purged
-					has_idea = officers_purged_2
-					has_idea = officers_purged_3
-					has_idea = officers_purged_4
-					has_idea = officers_purged_5
-					has_idea = officers_purged_6
-					has_idea = officers_purged_7
-					has_idea = officers_purged_8
-					has_idea = officers_purged_9
-					has_idea = officers_purged_10
-				}
 				factor = 100
+				is_historical_focus_on = yes
+			}
+		}	
+		declare_war_on = { target = SIK type = puppet }
+		
+	}
+	# No, leave them be
+	option = { 
+	ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
 			}
 		}
-		country_event = { days = 31 id = DH_germany.26 }
+		name = DH_soviet.6.b
+		
 	}	
 }
