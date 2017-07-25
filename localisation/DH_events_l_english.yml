@@ -221,6 +221,7 @@
  DH_germany.36.t:0 "Fate of Malay"
  DH_germany.36.a:0 "It belongs to our sphere of influence."
  DH_germany.36.b:0 "Let it be Independent. An Asia for Asians!" 
+ 
  ###### Arab events----------------------------------------
  DH_arab.1.t:0 "Arab Union Accession"
  DH_arab.1.a:0 "Join"
@@ -379,7 +380,7 @@
  DH_commonwealth.3.d:0 "Now that the transition of Britain is over, some of the fascist members of the British Empire have expressed their wish to remain a part of the new Britain, forsaking their old master."
  DH_commonwealth.3.a:0 "For the Empire!"
  
- ###### German events-------------------------------------
+ ###### Iran events-------------------------------------
  DH_iran.1.t:0 "German-Iranian Treaty of Friendship"
  DH_iran.1.d:0 "Berlin has approached us with a lucrative offer. By signing the German-Iranian Friendship Treaty the Germans offer us better research equipment and bring us up to speed on the latest scientific breakthroughs. Accepting such an offer however will bring us in a closer ambit of the Reich. Other major powers might see this foreign influence as a provocation."
  DH_iran.1.a:0 "Accept"
@@ -392,6 +393,7 @@
  DH_iran.3.t:0 "[From.GetName] has decline the Treaty"
  DH_iran.3.d:0 "It seems the Persians are not so keen on their Aryan kinship after all. They have rejected the German-Iranian Friendship Treaty, fearing that allowing Germany to influence their academia will bring harm to their international situation. Perhaps they will wake up to their geo-political reality some other time."
  DH_iran.3.a:0 "Disappointing"
+ 
  ###### Chinese events----------------------------------
  DH_china.1.t:0 "Japan Offers Peace."
  DH_china.1.d:0 "With Japan defeated and kicked off the mainland, they have been shamed and dishonoured, and have decided to offer us peace."
@@ -415,3 +417,8 @@
  DH_prc.2.t:0 "Japan Refuses to Surrender"
  DH_prc.2.d:0 "Even though the Japanese have been driven off the mainland, they still want to continue the war. Their arrogance will be their end."
  DH_prc.2.a:0 "We will end them once and for all."
+
+ ###### Xinjiang events----------------------------------
+ DH_xinjiang.1.t:0 "Xinjiang Rebellion"
+ DH_xinjiang.1.d:0 "A Islamist rebellion has risen up in Xinjiang. We must crush these dissenters!"
+ DH_xinjiang.1.a:0 "For the Nation!"

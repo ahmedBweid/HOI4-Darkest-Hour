@@ -1,8 +1,14 @@
-﻿add_namespace = DH_china
+﻿#########################################################################
+# Darkest Hour Events : China
+#########################################################################
 
+add_namespace = DH_china
 
+### ------------------- China ---------------------------------------------
 
-##Japanese White Peace China
+#########################################################################
+#  Japanese White Peace China
+#########################################################################
 country_event = {
 	id = DH_china.1
 	title = DH_china.1.t
@@ -20,7 +26,10 @@ country_event = {
 		CHI = { transfer_state = 609 }
     }
 }
-##Japanese refuses  surrender
+
+#########################################################################
+#  Japanese refuses  surrender
+#########################################################################
 country_event = {
 	id = DH_china.2
 	title = DH_china.2.t
@@ -31,11 +40,15 @@ country_event = {
 	#Japan refuses surrender
     option = {
 		name = DH_china.2.a
-		CHI = {annex_country = { target = MAN }}
-		CHI = {annex_country = { target = MEN }}
-		CHI = {transfer_state = 609 }
+		#CHI = {annex_country = { target = MAN }}
+		#CHI = {annex_country = { target = MEN }}
+		#CHI = {transfer_state = 609 }
     }
 }
+
+#########################################################################
+#  Intervene in Xinjiang
+#########################################################################
 country_event = {
 	id = DH_china.3
 	title = DH_china.3.t
@@ -54,6 +67,7 @@ country_event = {
 		}
 		declare_war_on = { target = SIK type = annex_everything }
 	}
+	
 	# No, leave them be
 	option = { 
 		name = DH_china.3.b

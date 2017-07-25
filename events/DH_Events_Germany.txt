@@ -1,13 +1,9 @@
 ﻿###########################
-# Realism Overhaul Events : Germany
+# Darkest Hour Events : Germany
 ###########################
 
 add_namespace = DH_germany
 add_namespace = DH_germany_rk
-
-
-
-
 
 ### ---------------------------------------------------------------------------- Germany ---------------------------------------------
 

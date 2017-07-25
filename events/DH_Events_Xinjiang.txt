@@ -1,22 +1,33 @@
-﻿add_namespace = DH_xinjiang
+﻿#########################################################################
+# Darkest Hour Events : Sinkiang
+#########################################################################
 
+add_namespace = DH_xinjiang
 
-
+### ------------------- Sinkiang ---------------------------------------------
+#########################################################################
+#  Xinjiang Rebellion
+#########################################################################
 country_event = {
 	id = DH_xinjiang.1
 	title = DH_xinjiang.1.t
 	desc = DH_xinjiang.1.d
 	fire_only_once = yes
 	trigger = {
-	date > 1937.4.1 }
-	option = { 
-		name = DH_xinjiang.1.b
-		start_civil_war = {
-			ruling_party = neutrality			
-			ideology = neutrality
-			size = 0.5
-			capital = 287
-			states = { 287 }
+		date > 1937.4.1
+		tag = SIK
+	}
+
+	option = {
+		name = DH_xinjiang.1.a
+		SIK = {
+			start_civil_war = {
+				ruling_party = neutrality			
+				ideology = neutrality
+				size = 0.5
+				capital = 287
+				states = { 287 }
+			}
 		}
 		SOV = { country_event = { id = DH_soviet.6 } }
 		CHI = { country_event = { id = DH_china.3 } }
