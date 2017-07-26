@@ -21,15 +21,13 @@ country_event = {
 
 	option = {
 		name = DH_xinjiang.1.a
-		ETS = { add_core = 287 }
-		ETS = { add_core = 617 }
-		ETS = { add_core = 618 }
-		ETS = { add_core = 619 }
+		ETS = { add_state_core = 287 }
+		ETS = { add_state_core = 617 }
+		ETS = { add_state_core = 618 }
+		ETS = { add_state_core = 619 }
 		ETS = { transfer_state = 287 }
 		ETS = {division_template = { name = "Chinese Muslim Cavalry Division" regiments = { infantry = { x = 0 y = 0 } infantry = { x = 0 y = 1 } cavalry = { x = 1 y = 0 } cavalry = { x = 1 y = 1 } } } }
 		ETS = { create_unit = { division = "name = 1st Uyghur Division  division_template = Chinese Muslim Cavalry Division starting_experience_factor = 1.0" } }
-		ETS = { create_unit = { division = "name = 2nd Uyghur Division  division_template = Chinese Muslim Cavalry Division starting_experience_factor = 1.0" } }
-		ETS = { create_unit = { division = "name = 3rd Uyghur Division  division_template = Chinese Muslim Cavalry Division starting_experience_factor = 1.0" } }
 		SIK = {	declare_war_on = { target = ETS type = annex_everything } }
 		SOV = { country_event = { id = DH_soviet.6 } }
 		CHI = { country_event = { id = DH_china.3 } }
