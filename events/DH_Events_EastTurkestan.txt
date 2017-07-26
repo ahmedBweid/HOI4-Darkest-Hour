@@ -1,13 +1,13 @@
 #########################################################################
 # Darkest Hour Events : East Turkestan
 #########################################################################
-
+add_namespace = DH_eastturkestan
 ### ------------------- East Turkestan ---------------------------------------------
 #########################################################################
 #  Peace with Soviets
 #########################################################################
 country_event = {
-	id = DH_eastturkestan
+	id = DH_eastturkestan.1
 	title = DH_eastturkestan.1.t
 	desc = DH_eastturkestan.1.d
 	fire_only_once = yes
@@ -19,6 +19,6 @@ country_event = {
 	#make peace with Soviets
 	option = {
 		name = DH_eastturkestan.1.a
-		SOV = { country_event = { id = DH_soviet.9 }
+		SOV = { country_event = { id = DH_soviet.9 } }
     }
 }

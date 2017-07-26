@@ -93,7 +93,7 @@ country_event = {
 	option = { 
 		name = DH_china.4.a
 		ai_chance = {
-			factor = 30
+			factor = 70
 			modifier = {
 				factor = 100
 				is_historical_focus_on = yes
@@ -103,8 +103,7 @@ country_event = {
 		CHI = { white_peace = SOV }
 		SIK = { annex_country = ETS }
 	}
-	
-	# No, we must keep fighting
+		#Drive out communism
 	option = { 
 		name = DH_china.4.b
 		ai_chance = {
