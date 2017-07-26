@@ -16,6 +16,7 @@ country_event = {
 	trigger = {
 		date > 1937.4.1
 		tag = SIK
+		SOV = { has_idea = officers_purged }
 	}
 
 	option = {
