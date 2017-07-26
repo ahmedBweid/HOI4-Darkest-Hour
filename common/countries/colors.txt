@@ -570,7 +570,9 @@ SCO = {
 	color_ui = rgb { 47 172 255 }
 }
 
-
+ETS = {
+    color = rgb { 0 0 100 }
+    color_ui = rgb { 0 0 100 }
 
 
 D01 = {
