@@ -245,7 +245,7 @@ country_event = {
 #########################################################################
 #  Intervene in Xinjiang
 #########################################################################
-country_event = {
+#country_event = {
 	id = DH_soviet.6
 	title = DH_soviet.6.t
 	desc = DH_soviet.6.d
@@ -255,7 +255,7 @@ country_event = {
 	is_triggered_only = yes
 
 	# Yes, we intervene
-	option = { 
+	#option = { 
 		name = DH_soviet.6.a
 		ai_chance = {
 			factor = 70
@@ -268,7 +268,7 @@ country_event = {
 	}
 	
 	# No, leave them be
-	option = {
+	#option = {
 		name = DH_soviet.6.b
 		ai_chance = {
 			factor = 30
@@ -278,4 +278,4 @@ country_event = {
 			}
 		}
 	}	
-}
+#}
