@@ -69,3 +69,14 @@
  EGL_democratic_ADJ:0 "England"
  EGL_neutrality_ADJ:0 "England"
  EGL_communism_ADJ:0 "England"
+ 
+ ETS_fascism:0 "East Turkestan"
+ ETS_fascism_ADJ:0 "East Turkestan"
+ EGL_democratic:0 "East Turkestan"
+ ETS_democratic_ADJ:0 "East Turkestan"
+ ETS_neutrality:0 "East Turkestan"
+ ETS_neutrality_ADJ:0 "East Turkestan"
+ ETS_communism:0 "East Turkestan"
+ ETS_communism_ADJ:0 "East Turkestan"
+ 
+
