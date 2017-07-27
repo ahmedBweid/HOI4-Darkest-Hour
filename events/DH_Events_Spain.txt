@@ -71,11 +71,9 @@ country_event = {
 		option = {
 		name = DH_spain.2.a
 			}
-		}
 			#the national bloc wins!
 		option = {
 		name = DH_spain.2.b
-		retire_contry_leader = yes
 		create_country_leader = { name = "Jose Maria Quinones" desc = "POLITICS_JOSE_QUINONES_DESC" picture = "" expire = "1965.1.1" ideology = conservatism traits = { } }
 			}
 		}
