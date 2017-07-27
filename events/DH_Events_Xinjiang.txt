@@ -48,12 +48,9 @@ country_event = {
 	#make peace with China
 	option = {
 		name = DH_xinjiang.2.a
-		CHI = { country_event = { id = DH_china.4 }
-    }
-}
-option = {
+		CHI = { country_event = { id = DH_china.4 } }
+	}
+	option = {
 		name = DH_xinjiang.2.b
-    }
+ 	}
 }
-
-

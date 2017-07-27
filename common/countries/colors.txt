@@ -573,7 +573,7 @@ SCO = {
 ETS = {
     color = rgb { 0 0 100 }
     color_ui = rgb { 0 0 100 }
-
+}
 
 D01 = {
 	color = rgb { 200 100 31 }
