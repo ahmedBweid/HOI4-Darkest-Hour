@@ -1,0 +1,1323 @@
+technologies = {
+
+	@1885 = 0
+	@1895 = 2
+	@1900 = 4
+	@1906 = 6
+	@1912 = 8
+	@1916 = 10
+	@1922 = 12
+	@1930 = 14
+	@1933 = 16
+	@1936 = 18
+	@1940 = 20
+	@1943 = 22
+	@1948 = 24
+	@1950 = 26
+	@1954 = 28
+	@1958 = 30
+	@1962 = 32
+	
+	@BC_line = 0
+	@BB_line = 6
+	@SHBB_line = 12
+	@CVE_line = 18
+	@CVL_line = 23
+	@CV_line = 28
+	@CVN_line = 28
+
+
+### ------------------------- Battlecruisers -------------------------------------------------
+
+	# 1906 BC
+	battlecruiser_1906 = {
+
+		enable_equipments = { 
+			battle_cruiser_0
+		}
+		
+		path = {
+			leads_to_tech = battlecruiser_1912
+			research_cost_coeff = 1
+		}
+			
+		research_cost = 1.5
+
+		start_year = 1906
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BC_line y = @1906 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+	#	1912 BC
+	battlecruiser_1912 = {
+
+		enable_equipments = { 
+			battle_cruiser_1
+		}
+		
+		path = {
+			leads_to_tech = battlecruiser_1916
+			research_cost_coeff = 1.00
+		}
+		
+		research_cost = 2
+
+		start_year = 1912
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BC_line y = @1912 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+	
+	#	1916 BC
+	battlecruiser_1916 = {
+
+		enable_equipments = { 
+			battle_cruiser_2
+		}
+		
+		path = {
+			leads_to_tech = battlecruiser_1933
+			research_cost_coeff = 1.00
+		}
+		
+		research_cost = 2
+
+		start_year = 1916
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BC_line y = @1916 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+
+	#	1933 BC
+	battlecruiser_1933 = {
+
+		enable_equipments = { 
+			battle_cruiser_3
+		}
+		
+		path = {
+			leads_to_tech = battlecruiser_1940
+			research_cost_coeff = 1.00
+		}
+		
+		research_cost = 2
+
+		start_year = 1933
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BC_line y = @1933 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}	
+	
+	#	1940 BC
+	battlecruiser_1940 = {
+
+		enable_equipments = { 
+			battle_cruiser_4
+		}
+		
+		path = {
+			leads_to_tech = battlecruiser_1950
+			research_cost_coeff = 1.00
+		}
+		
+		research_cost = 2
+
+		start_year = 1940
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BC_line y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}	
+	
+	#	1950 BC
+	battlecruiser_1950 = {
+
+		enable_equipments = { 
+			battle_cruiser_5
+		}
+		
+		path = {
+			leads_to_tech = improved_battleship 
+			research_cost_coeff = 1.00
+		}
+		
+		research_cost = 2
+
+		start_year = 1950
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BC_line y = @1950 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bc_tech
+		}
+	}
+
+	
+### --------------------------- Battleships -----------------------------------
+	# 1885	BB
+	battleship_1885 = {
+
+		enable_equipments = { 
+			battleship_0
+		}
+		
+		path = {
+			leads_to_tech = battleship_1895
+			research_cost_coeff = 1
+		}
+		
+		
+		research_cost = 1.5
+		start_year = 1885
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1885 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+	
+	# 1895 BB	
+	battleship_1895 = {
+
+		enable_equipments = { 
+			battleship_1
+		}
+		
+		path = {
+			leads_to_tech = battleship_1900
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 2
+		start_year = 1895
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1895 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+
+	# 1900 BB	
+	battleship_1900 = {
+
+		enable_equipments = { 
+			battleship_2
+		}
+		
+		path = {
+			leads_to_tech = battleship_1906 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = battlecruiser_1906
+			research_cost_coeff = 1.00
+		}
+		
+		research_cost = 2
+		start_year = 1900
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1900 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+
+	# 1906 BB
+	battleship_1906 = {
+
+		enable_equipments = { 
+			battleship_3
+		}
+
+		path = {
+			leads_to_tech = battleship_1912
+			research_cost_coeff = 1.00
+		}		
+
+
+		research_cost = 2
+		start_year = 1906
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1906 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+
+	# 1912 BB
+	battleship_1912 = {
+
+		enable_equipments = { 
+			battleship_4
+		}
+
+		path = {
+			leads_to_tech = battleship_1916
+			research_cost_coeff = 1.00
+		}			
+		
+		research_cost = 2
+		start_year = 1912
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1912 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}	
+	
+	# 1916 BB
+	battleship_1916 = {
+
+		enable_equipments = { 
+			battleship_5
+		}
+
+		path = {
+			leads_to_tech = battleship_1922
+			research_cost_coeff = 1.00
+		}			
+		
+		research_cost = 2
+		start_year = 1916
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1916 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}	
+	
+	# 1922 BB
+	battleship_1922 = {
+
+		enable_equipments = { 
+			battleship_6
+		}
+
+		path = {
+			leads_to_tech = battleship_1933
+			research_cost_coeff = 1.00
+		}			
+		
+		research_cost = 2
+		start_year = 1922
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}	
+
+	# 1933 BB
+	battleship_1933 = {
+
+		enable_equipments = { 
+			battleship_7
+		}
+
+		path = {
+			leads_to_tech = battleship_1940
+			research_cost_coeff = 1
+		}			
+		path = {
+			leads_to_tech = heavy_battleship 
+			research_cost_coeff = 1.00
+		}		
+		research_cost = 2
+		start_year = 1933
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1933 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}		
+	
+
+
+	# 1940 BB
+	battleship_1940 = {
+
+		enable_equipments = { 
+			battleship_8
+		}
+
+		path = {
+			leads_to_tech = battleship_1948
+			research_cost_coeff = 1.00
+		}			
+		path = {
+			leads_to_tech = heavy_battleship2 
+			research_cost_coeff = 1.00
+		}		
+		research_cost = 2
+		start_year = 1940
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}
+
+	# 1948 BB
+	battleship_1948 = {
+
+		enable_equipments = { 
+			battleship_9
+		}
+
+		research_cost = 2
+		start_year = 1948
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @BB_line y = @1948 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			bb_tech
+		}
+	}	
+### ----------------------------- SH Battleships -----------------------------------------------
+	heavy_battleship = {
+
+		enable_equipments = { 
+			SH_battleship_1
+		}
+		
+		path = {
+			leads_to_tech = heavy_battleship2 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @SHBB_line y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			shbb_tech
+		}
+	}
+	
+	heavy_battleship2 = {
+
+		enable_equipments = { 
+			SH_battleship_2
+		}
+		
+		research_cost = 2
+
+		start_year = 1943
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @SHBB_line y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			shbb_tech
+		}
+	}
+
+#########################################################
+#### Aircraft Carriers 
+##########################################################
+#---------------------- Light Carriers CVLs -----------------------------------------------
+# 1912 CVL
+	light_carrier_1912 = {
+
+		enable_equipments = { 
+			light_carrier_0
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1916 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1912
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1912 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+# 1916 CVL	
+	light_carrier_1916 = {
+
+		enable_equipments = { 
+			light_carrier_1
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1922 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = carrier_1922
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 2
+		start_year = 1916
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1916 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+# 1922 CVL	
+	light_carrier_1922 = {
+
+		enable_equipments = { 
+			light_carrier_2
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1930
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1922
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+# 1930 CVL	
+	light_carrier_1930 = {
+
+		enable_equipments = { 
+			light_carrier_3
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1940
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = escort_carrier_1940
+			research_cost_coeff = 1
+		}		
+		research_cost = 2
+		start_year = 1930
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1930 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+# 1940 CVL	
+	light_carrier_1940 = {
+
+		enable_equipments = {
+			light_carrier_4
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1943
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	# 1943 CVL	
+	light_carrier_1943 = {
+
+		enable_equipments = {
+			light_carrier_5
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1948
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	# 1948 CVL	
+	light_carrier_1948 = {
+
+		enable_equipments = {
+			light_carrier_6
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1948
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1948
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 20.5 y = @1948 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+#--------------------------- Escort Carriers CVEs ----------------------------------------------------------------
+	
+# 1940 CVE
+	escort_carrier_1940 = {
+
+		enable_equipments = {
+			escort_carrier_0
+		}
+		
+		path = {
+			leads_to_tech = escort_carrier_1943
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVE_line y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+# 1943 CVE
+	escort_carrier_1943 = {
+
+		enable_equipments = {
+			escort_carrier_1
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1948
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVE_line y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+#--------------------------- Carriers CVs ----------------------------------------------------------------
+	
+# 1922 CV
+	carrier_1922 = {
+
+		enable_equipments = {
+			carrier_0
+		}
+		
+		path = {
+			leads_to_tech = carrier_1930
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1922
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CV_line y = @1922 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+# 1930 CV
+	carrier_1930 = {
+
+		enable_equipments = {
+			carrier_1
+		}
+		
+		path = {
+			leads_to_tech = carrier_1933
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1930
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CV_line y = @1930 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+# 1933 CV
+	carrier_1933 = {
+
+		enable_equipments = {
+			carrier_2
+		}
+		
+		path = {
+			leads_to_tech = carrier_1936
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CV_line y = @1933 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+# 1936 CV
+	carrier_1936 = {
+
+		enable_equipments = {
+			carrier_3
+		}
+		
+		path = {
+			leads_to_tech = carrier_1940
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CV_line y = @1936 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	# 1940 CV
+	carrier_1940 = {
+
+		enable_equipments = {
+			carrier_4
+		}
+		
+		path = {
+			leads_to_tech = carrier_1943
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CV_line y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	# 1943 CV
+	carrier_1943 = {
+
+		enable_equipments = {
+			carrier_5
+		}
+		
+		path = {
+			leads_to_tech = carrier_1948
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CV_line y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	# 1948 CV
+	carrier_1948 = {
+
+		enable_equipments = {
+			carrier_6
+		}
+		
+		path = {
+			leads_to_tech = carrier_1950
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1948
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVN_line y = @1948 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	
+	# 1950 CV (Supercarrier)
+	carrier_1950 = {
+
+		enable_equipments = {
+			carrier_7
+		}
+		
+		path = {
+			leads_to_tech = carrier_1958
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVN_line y = @1950 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	# 1958 CVN (Supercarrier)
+	carrier_1958 = {
+	
+		dependencies = {
+			nuclear_propulsion = 1
+		}
+		enable_equipments = {
+			nuclear_carrier_0
+		}
+		
+		path = {
+			leads_to_tech = carrier_1958
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1958
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVN_line y = @1958 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}	
+		
+}

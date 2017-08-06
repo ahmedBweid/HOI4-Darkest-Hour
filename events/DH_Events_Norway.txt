@@ -47,7 +47,7 @@ country_event = {
 			factor = 100
 		}
 		start_civil_war = {
-			ruling_party = democratic		
+			ruling_party = social_conservative		
 			ideology = fascism
 			size = 0.5
 			capital = 144

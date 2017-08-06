@@ -597,7 +597,7 @@ country_event = {
 				ruling_party = fascism
 				elections_allowed = no
 				parties = {
-					democratic = { 
+					social_conservative = { 
 						popularity = 22
 					}
 
@@ -605,7 +605,7 @@ country_event = {
 						popularity = 76
 					}
 					
-					communism = {
+					stalinist = {
 						popularity = 2
 					}
 				}
@@ -765,7 +765,7 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 	
 	trigger = {
-		NOT = { has_government = communism }
+		NOT = { has_government = stalinist }
 		tag = FRA
 		date > 1936.4.1
 		date < 1938.1.1
@@ -796,7 +796,7 @@ country_event = {
 			days = 365
 		}
 		add_popularity = {
-			ideology = communism
+			ideology = stalinist
 			popularity = 0.07
 		}		
 	}
@@ -809,7 +809,7 @@ country_event = {
 	picture = GFX_report_event_airplane_factory
 	
 	trigger = {
-		NOT = { has_government = communism }
+		NOT = { has_government = stalinist }
 		has_idea = FRA_matignon_agreements
 		date > 1936.7.1
 	}
@@ -830,12 +830,12 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				communism > 0.4
+				stalinist > 0.4
 			}
 		}
 		remove_ideas =  FRA_matignon_agreements
 		add_popularity = {
-			ideology = communism
+			ideology = stalinist
 			popularity = 0.05
 		}
 	}	
@@ -862,7 +862,7 @@ country_event = {
 	}
 }
 
-# French ban on communism
+# French ban on stalinist
 country_event = {
 	id = france.24
 	title = france.24.t
@@ -872,9 +872,9 @@ country_event = {
 
 	trigger = {
 		tag = FRA
-		SOV = { has_government = communism }
-		has_government = democratic
-		communism < 0.5
+		SOV = { has_government = stalinist }
+		has_government = social_conservative
+		stalinist < 0.5
 		has_global_flag = sov_yes_pact
 	}
 
@@ -887,7 +887,7 @@ country_event = {
 		add_political_power = -20
 		name = france.24.a
 		add_popularity = {
-			ideology = communism
+			ideology = stalinist
 			popularity = -0.3
 		}
 		add_ideas = FRA_communism_banned
@@ -899,7 +899,7 @@ country_event = {
 		
 		every_other_country = {
 			limit = { 
-				has_government = communism
+				has_government = stalinist
 			}
 			add_opinion_modifier = {
 				target = FRA
@@ -1161,7 +1161,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = FRA
-					has_government = democratic
+					has_government = social_conservative
 				}
 				if = {
 					limit = { ROOT = { owns_state = 554 } }
@@ -1236,7 +1236,7 @@ country_event = {
  
     trigger = {
         original_tag = FRA
-        has_government = democratic
+        has_government = social_conservative
         has_global_flag = fall_of_france
         NOT = { has_country_flag = france_de_gaulle }
     } 
@@ -1253,7 +1253,7 @@ country_event = {
         	desc = "POLITICS_PAUL_REYNAUD_DESC"
         	picture = "Portrait_France_Paul_Reynaud.dds"
         	expire = "1965.1.1"
-        	ideology = liberalism
+        	ideology = social_liberalism
         	traits = {
         	      }
             }

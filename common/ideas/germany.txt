@@ -112,7 +112,7 @@ ideas = {
 
 			removal_cost = -1
 			
-			picture = generic_democratic_drift_bonus
+			picture = generic_social_conservative_drift_bonus
 
 			modifier = {
 				unity_factor = -0.10
@@ -367,7 +367,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = stalinist
 				}
 			}
 			
@@ -391,7 +391,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = social_conservative
 				}
 			}
 			

@@ -24,43 +24,77 @@ set_technology = {
 	strategic_bomber1 = 1
 	CAS1 = 1
 	naval_bomber1 = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
+#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+	destroyer_1922 = 1
+	destroyer_1933 = 1	
+	
+	light_cruiser_1885 = 1
+	light_cruiser_1900 = 1
+	light_cruiser_1912 = 1
+	light_cruiser_1922 = 1
+	light_cruiser_1933 = 1	
+	light_cruiser_1936 = 1
+	
+	heavy_cruiser_1885 = 1
+	heavy_cruiser_1895 = 1
+	heavy_cruiser_1906 = 1
+	heavy_cruiser_1922 = 1
+	heavy_cruiser_1933 = 1	
+	heavy_cruiser_1936 = 1	
+	
+	submarine_1895 = 1
+	submarine_1912 = 1
+	submarine_1916 = 1
+	submarine_1922 = 1	
+	
+	battlecruiser_1906 = 1
+	battlecruiser_1912 = 1
+	battlecruiser_1916 = 1
+	battlecruiser_1933 = 1
+	
+	battleship_1885 = 1
+	battleship_1895 = 1
+	battleship_1900 = 1
+	battleship_1906 = 1
+	battleship_1912 = 1
+	battleship_1916 = 1
+	battleship_1922 = 1	
+	battleship_1933 = 1
+	
+	light_carrier_1912 = 1	
+	light_carrier_1916 = 1	
+	light_carrier_1922 = 1
+	
+	carrier_1922 = 1	
+	
+	transport = 1
+#
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
 	synth_oil_experiments = 1
-	transport = 1
 }
 
 set_politics = {
 
 		parties = {
-			neutrality = { 
-				popularity = 10
-			}
-
-			fascism = {
-				popularity = 80
-			}
-					
-			democratic = {
-				popularity = 5
-			}					
-										
-			communism = {
-				popularity = 5
-			}
+			national_socialist = { popularity = 0 }		
+			fascism = { popularity = 8 }		
+			paternal_autocrat = { popularity = 65 }		
+			social_conservative = { popularity = 18 }		
+			market_liberal = { popularity = 0 }		
+			social_liberal = { popularity = 4 }		
+			social_democrat = { popularity = 5 }		
+			left_wing_radical = { popularity = 0 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 0 }	
 		}
 	
-	ruling_party = fascism
+	ruling_party = paternal_autocrat
 	elections_allowed = no
 }
 

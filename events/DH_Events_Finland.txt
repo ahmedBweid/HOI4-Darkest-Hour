@@ -18,7 +18,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-
 	#Accept
 	option = {
 		name = DH_finland.1.a
@@ -26,7 +25,7 @@ country_event = {
 			factor = 100
 			modifier = {
 				FIN = {
-					has_government = democratic
+					has_government = social_conservative
 				}
 				factor = 0
 			}
@@ -38,6 +37,7 @@ country_event = {
 			set_state_owner = 213
 			set_state_owner = 146
 			set_cosmetic_tag = FIN_GREATER
+			set_province_name = { id = 11202 name = "Pleskau"}
 		}
 	}
 
@@ -48,7 +48,7 @@ country_event = {
 			factor = 0
 			modifier = {
 				FIN = {
-					has_government = democratic
+					has_government = social_conservative
 				}
 				factor = 100
 			}

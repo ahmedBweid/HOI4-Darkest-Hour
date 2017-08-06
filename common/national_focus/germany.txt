@@ -146,7 +146,7 @@ focus_tree = {
 	focus = {
 		id = GER_rhineland
 		icon = GFX_focus_generic_little_entente
-		cost = 12.85
+		cost = 9.43
 		x = 17
 		y = 0
 		available = {
@@ -357,7 +357,7 @@ focus_tree = {
 		completion_reward = {
 			every_other_country = {
 				limit = {
-					has_government = democratic
+					has_government = social_conservative
 					NOT = {
 						tag = GER
 						tag = CHI
@@ -373,8 +373,8 @@ focus_tree = {
 				limit = {
 					SOV = {
 						OR = {
-							has_government = democratic
-							has_government = communism
+							has_government = social_conservative
+							has_government = stalinist
 						}
 					}
 				}
@@ -402,6 +402,16 @@ focus_tree = {
 		}
 		x = 2
 		y = 3
+		available = {
+			OR = {
+				FRA = {
+					has_capitulated = yes
+				}
+				POL = {
+					has_capitulated = yes
+				}
+			}
+		}
 		completion_reward = {
 			GER = {
 				add_ideas = GER_work_camp
@@ -608,6 +618,9 @@ focus_tree = {
 				transfer_state = 192
 				add_state_core = 198
 				add_state_core = 192
+			}
+			hidden_effect = {
+				#GER = { country_event = { id = DH_cityname.3 } }
 			}
 		}
 	}
@@ -998,18 +1011,18 @@ focus_tree = {
 				}
 				AND = {
 					GER = {
-						has_government = communism
+						has_government = stalinist
 					}
 					SAF = {
-						has_government = communism
+						has_government = stalinist
 					}
 				}
 				AND = {
 					GER = {
-						has_government = democratic
+						has_government = social_conservative
 					}
 					SAF = {
-						has_government = democratic
+						has_government = social_conservative
 					}
 				}
 				SAF = {
@@ -1036,12 +1049,12 @@ focus_tree = {
 			if = {
 				limit = {
 					GER = {
-						has_government = democratic
+						has_government = social_conservative
 					}
 				}
 				SAF = {
 					start_civil_war = {
-						ideology = democratic
+						ideology = social_conservative
 						size = 0.35
 						capital = 275
 						states = { 275  541 }
@@ -1051,12 +1064,12 @@ focus_tree = {
 			if = {
 				limit = {
 					GER = {
-						has_government = communism
+						has_government = stalinist
 					}
 				}
 				SAF = {
 					start_civil_war = {
-						ideology = communism
+						ideology = stalinist
 						size = 0.35
 						capital = 275
 						states = { 275  541 }
@@ -1474,7 +1487,7 @@ focus_tree = {
 		available = {
 			is_puppet = no
 			NOT = {
-				has_government = communism
+				has_government = stalinist
 			}
 			NOT = {
 				is_in_faction_with = SOV
@@ -1519,7 +1532,7 @@ focus_tree = {
 						AND = {
 							is_neighbor_of = SOV
 							NOT = {
-								has_government = communism
+								has_government = stalinist
 							}
 						}
 					}
@@ -3520,7 +3533,7 @@ focus_tree = {
 			create_wargoal = {
 				type = take_state_focus
 				target = SWI
-				generator = { 28 }
+				generator = { 151 }
 			}
 			add_tech_bonus = {
 				bonus = 0.5
@@ -3562,6 +3575,7 @@ focus_tree = {
 					remove_state_core = 3
 					remove_state_core = 748
 				}
+				#GER = { country_event = { id = DH_cityname.13 } }
 			}
 			151 = {
 				add_core_of = GER
@@ -3880,27 +3894,32 @@ focus_tree = {
 					category = night_vision
 				}
 			}
-			if = {
-				limit = {
-					OR = { 
-						SPR = { NOT = { has_government = fascism } }
-						NOT = { country_exists = SPR }
-					}
-				}
-				custom_effect_tooltip = GER_nationalist_spain_ally_tt
-			}
-			random_other_country = {
-				limit = {
-					original_tag = SPR
-					has_government = fascism
-				}
+			SPR = {
 				add_tech_bonus = {
 					bonus = 0.5
 					uses = 1
 					category = night_vision
 				}
 				remove_ideas = SPA_recovering_from_civil_war
-				add_opinion_modifier = { target = GER modifier = ger_spa_alliance_focus }
+				add_opinion_modifier = {
+					target = GER
+					modifier = ger_spa_alliance_focus
+				}
+			}
+			hidden_effect = {
+				random_other_country = {
+					limit = {
+						original_tag = SPR
+						has_government = fascism
+					}
+					remove_ideas = SPA_recovering_from_civil_war
+				}
+				random_other_country = {
+					limit = {
+						original_tag = D01
+					}
+					remove_ideas = SPA_recovering_from_civil_war
+				}
 			}
 		}
 	}
@@ -3935,17 +3954,14 @@ focus_tree = {
 				name = dd_bonus
 				bonus = 0.5
 				uses = 1
-				technology = improved_destroyer
-				technology = advanced_destroyer
+				category = dd_tech
 			}
 			add_tech_bonus = {
 				name = cr_bonus
 				bonus = 0.5
 				uses = 1
-				technology = improved_light_cruiser
-				technology = advanced_light_cruiser
-				technology = improved_heavy_cruiser
-				technology = advanced_heavy_cruiser
+				category = cl_tech
+				category = ca_tech				
 			}
 		}
 		completion_reward = {
@@ -3971,17 +3987,14 @@ focus_tree = {
 				name = dd_bonus
 				bonus = 0.5
 				uses = 1
-				technology = improved_destroyer
-				technology = advanced_destroyer
+				category = dd_tech
 			}
 			add_tech_bonus = {
 				name = cr_bonus
 				bonus = 0.5
 				uses = 1
-				technology = improved_light_cruiser
-				technology = advanced_light_cruiser
-				technology = improved_heavy_cruiser
-				technology = advanced_heavy_cruiser
+				category = cl_tech
+				category = ca_tech		
 			}
 		}
 	}
@@ -4018,10 +4031,7 @@ focus_tree = {
 				name = GER_u_boat_effort
 				bonus = 0.5
 				uses = 1
-				technology = early_submarine
-				technology = basic_submarine
-				technology = improved_submarine
-				technology = advanced_submarine
+				category = ss_tech
 			}
 		}
 		completion_reward = {
@@ -4047,10 +4057,7 @@ focus_tree = {
 				name = GER_u_boat_effort
 				bonus = 0.5
 				uses = 1
-				technology = early_submarine
-				technology = basic_submarine
-				technology = improved_submarine
-				technology = advanced_submarine
+				category = ss_tech
 			}
 		}
 	}
@@ -4094,7 +4101,7 @@ focus_tree = {
 				name = GER_u_boat_effort
 				ahead_reduction = 1
 				uses = 1
-				technology = advanced_submarine
+				technology = submarine_1943
 			}
 		}
 	}
@@ -4116,14 +4123,13 @@ focus_tree = {
 				name = cruiser_bonus
 				bonus = 0.5
 				uses = 1
-				technology = basic_battlecruiser
+				category = bc_tech
 			}
 			add_tech_bonus = {
 				name = cruiser_bonus
 				bonus = 0.5
 				uses = 1
-				technology = basic_heavy_cruiser
-				technology = improved_heavy_cruiser
+				category = ca_tech
 			}
 		}
 	}
@@ -4146,8 +4152,7 @@ focus_tree = {
 				name = bb_bonus
 				bonus = 0.5
 				uses = 1
-				technology = basic_battleship
-				technology = improved_battleship
+				category = bb_tech			
 			}
 			add_tech_bonus = {
 				name = fb_bonus
@@ -4364,10 +4369,7 @@ focus_tree = {
 				bonus = 0.5
 				uses = 1
 				ahead_reduction = 1
-				technology = early_carrier
-				technology = basic_carrier
-				technology = improved_carrier
-				technology = advanced_carrier
+				category = cv_tech
 			}
 			add_ideas = GER_Ikarus
 		}
@@ -5802,6 +5804,7 @@ focus_tree = {
 				FRA = {
 					remove_state_core = 28
 				}
+				#GER = { country_event = { id = DH_cityname.5 } }
 			}
 		}
 	}
@@ -5833,6 +5836,7 @@ focus_tree = {
 					remove_state_core = 743
 					remove_state_core = 34
 				}
+				#GER = { country_event = { id = DH_cityname.11 } }
 			}
 			743 = {
 				add_core_of = GER
@@ -5895,6 +5899,7 @@ focus_tree = {
 					remove_state_core = 7
 					remove_state_core = 35
 				}
+				#GER = { country_event = { id = DH_cityname.9 } }
 			}
 			36 = {
 				add_core_of = GER
@@ -6217,6 +6222,7 @@ focus_tree = {
 						add_core_of = RFA
 					}
 				}
+				#GER = { country_event = { id = DH_cityname.7 } }
 			}
 			release_puppet = RFA
 			RFA = {

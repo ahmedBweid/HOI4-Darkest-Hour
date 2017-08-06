@@ -68,7 +68,7 @@ country_event = {
 		ai_chance = {
 			factor = 20
 			modifier = {
-				has_government = democratic
+				has_government = social_conservative
 				factor = 0
 			}
 		}
@@ -80,7 +80,7 @@ country_event = {
 		ai_chance = { factor = 160 }
 		trigger = {
 			OR = {
-				has_government = communism
+				has_government = stalinist
 				has_government = fascism
 			}
 		}
@@ -193,7 +193,7 @@ country_event = {
 			modifier = {
 				AUS = {
 					OR = {
-						has_government = communism
+						has_government = stalinist
 						has_government = fascism
 					}
 				}
@@ -392,10 +392,10 @@ country_event = {
 	
 	trigger = {
 		tag = SWE
-		NOT = { has_government = communism }
+		NOT = { has_government = stalinist }
 		HUN = {
 			has_war = yes
-			has_government = democratic
+			has_government = social_conservative
 			has_idea = HUN_dynastic_ties
 			NOT = { has_war_with = SWE }
 		}
@@ -553,10 +553,10 @@ country_event = {
 	trigger = {
 		tag = HUN
 		has_idea = HUN_dynastic_ties
-		NOT = { has_government = communism }
+		NOT = { has_government = stalinist }
 		SWE = {
 			has_war = yes
-			NOT = { has_government = communism } 
+			NOT = { has_government = stalinist } 
 			NOT = { has_war_with = HUN }
 		}
 	}
@@ -847,7 +847,7 @@ country_event = {
 
 }
 
-#Rearmament denied - appeal to major democratic nations?
+#Rearmament denied - appeal to major social_conservative nations?
 country_event = {
 	id = DOD_hungary.32
 	title = DOD_hungary.32.t
@@ -868,7 +868,7 @@ country_event = {
 		}
 		add_national_unity = -0.1
 		add_popularity = { ideology = fascism popularity = 0.1 }
-		add_popularity = { ideology = communism popularity = 0.1 }
+		add_popularity = { ideology = stalinist popularity = 0.1 }
 	}
 
 
@@ -881,7 +881,7 @@ country_event = {
 			FRA = {
 				NOT = { has_war_with = HUN }
 				NOT = { has_completed_focus = FRA_little_entente } #would be super awkward
-				has_government = democratic
+				has_government = social_conservative
 			}
 		}
 		FRA = { 
@@ -900,7 +900,7 @@ country_event = {
 		trigger = {
 			ENG = {
 				NOT = { has_war_with = HUN }
-				has_government = democratic
+				has_government = social_conservative
 			}
 		}
 		ENG = { 
@@ -1479,7 +1479,7 @@ country_event = {
 			limit = { 
 				FRA = {
 					has_war = no
-					has_government = democratic
+					has_government = social_conservative
 				}
 			}
 			FRA = { country_event = { id = DOD_hungary.60 } } #France given option to intervene, if they don't have bigger problems
@@ -1488,7 +1488,7 @@ country_event = {
 			limit = { 
 				ENG = {
 					has_war = no
-					has_government = democratic
+					has_government = social_conservative
 					has_completed_focus = uk_balkan_strategy
 				}
 			}
@@ -1790,7 +1790,7 @@ country_event = {
 					}
 				}
 			}
-			has_government = communism
+			has_government = stalinist
 		}
 		SOV = { 
 			country_event = { id = DOD_hungary.59 } 
@@ -1854,7 +1854,7 @@ country_event = {
 							has_country_flag = ROM_mediation_refused
 						}
 					}
-					has_government = communism
+					has_government = stalinist
 				}
 			}
 		}
@@ -3350,7 +3350,7 @@ country_event = {
 		ai_chance = {
 			factor = 10
 			modifier = {
-				has_government = democratic
+				has_government = social_conservative
 				factor = 10
 			}
 		}
@@ -3831,7 +3831,7 @@ country_event = {
 		ai_chance = {
 			factor = 75
 			modifier = {
-				has_government = democratic
+				has_government = social_conservative
 				factor = 0
 			}
 		}
@@ -4045,7 +4045,7 @@ country_event = {
 				factor = 0.25
 			}
 			modifier = {
-				has_government = democratic
+				has_government = social_conservative
 				factor = 0.25
 			}
 		}
@@ -4355,8 +4355,8 @@ country_event = {
 
 	option = {# okay
 		name = DOD_hungary.117.a
-		set_politics = { ruling_party = communism elections_allowed = no }
-		add_popularity = { ideology = communism popularity = 0.15 }
+		set_politics = { ruling_party = stalinist elections_allowed = no }
+		add_popularity = { ideology = stalinist popularity = 0.15 }
 	}
 }
 
@@ -4389,7 +4389,7 @@ country_event = {
 			factor = 80
 			modifier = {
 				CZE = {
-					has_government = communism
+					has_government = stalinist
 				}
 				factor = 4
 			}
@@ -4439,10 +4439,10 @@ country_event = {
 		if = {
 			limit = {
 				NOT = {
-					has_government = communism
+					has_government = stalinist
 				}
 			}
-			add_popularity = { ideology = communism popularity = 0.1 }
+			add_popularity = { ideology = stalinist popularity = 0.1 }
 		}
 	}
 	option = {# rather not
@@ -4506,7 +4506,7 @@ country_event = {
 		ai_chance = {
 			factor = 80
 			modifier = {
-				GER = { has_government = communism }
+				GER = { has_government = stalinist }
 				factor = 2
 			}
 		}
@@ -4569,7 +4569,7 @@ country_event = {
 		ai_chance = {
 			factor = 50
 			modifier = {
-				has_government = communism
+				has_government = stalinist
 				factor = 0
 			}
 		}
@@ -4789,7 +4789,7 @@ country_event = {
 			}
 			modifier = {
 				HUN = {
-					has_government = democratic
+					has_government = social_conservative
 				}
 				factor = 3
 			}
@@ -4971,7 +4971,7 @@ country_event = {
 			NOT = {
 				has_war_with = GER
 			}
-			NOT = { has_government = communism }
+			NOT = { has_government = stalinist }
 		}
 		GER = { country_event = DOD_hungary.146 }
 	}
@@ -4996,8 +4996,8 @@ country_event = {
 	option = {# appeal to Soviet Union
 		name = DOD_hungary.145.c
 		trigger = {
-			has_government = communism
-			SOV = { has_government = communism }
+			has_government = stalinist
+			SOV = { has_government = stalinist }
 		}
 		ai_chance = {
 			factor = 35

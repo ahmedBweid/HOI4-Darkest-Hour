@@ -41,5 +41,5 @@ create_country_leader = {
 	desc = "" 
 	picture = "Portrait_Germany_Oskar_Dirlewanger.dds" 
 	expire = "1964.2.26" 
-	ideology = nazism traits = { }
+	ideology = national_socialism traits = { }
 }	

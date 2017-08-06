@@ -48,14 +48,14 @@ equipments = {
 		manpower = 1200
 	}
 	
-	battle_cruiser_1 = {
+	battle_cruiser_0 = {
 		archetype = battle_cruiser
 		priority = 50
 	}
 	
-	battle_cruiser_2 = {
+	battle_cruiser_1 = {
 		archetype = battle_cruiser
-		parent = battle_cruiser_1
+		parent = battle_cruiser_0
 		priority = 50
 	
 		ap_attack = 37
@@ -90,6 +90,27 @@ equipments = {
 		manpower = 4000
 	}
 	
-
+	battle_cruiser_2 = {
+		archetype = battle_cruiser
+		parent = battle_cruiser_1	
+		priority = 50
+	}
 	
+	battle_cruiser_3 = {
+		archetype = battle_cruiser
+		parent = battle_cruiser_2
+		priority = 50
+	}	
+	
+	battle_cruiser_4 = {
+		archetype = battle_cruiser
+		parent = battle_cruiser_3	
+		priority = 50
+	}
+
+	battle_cruiser_5 = {
+		archetype = battle_cruiser
+		parent = battle_cruiser_4	
+		priority = 50
+	}	
 }

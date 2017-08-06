@@ -35,7 +35,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		build_cost_ic = 16.5
+		build_cost_ic = 18
 		resources = {
 			oil = 1
 			aluminium = 2
@@ -51,8 +51,8 @@ equipments = {
 		archetype = fighter_equipment
 		priority = 5
 		
-		air_range = 570
-		maximum_speed = 330
+		air_range = 400
+		maximum_speed = 350
 		air_agility = 45
 		air_attack = 9
 		air_defence = 6	
@@ -66,14 +66,14 @@ equipments = {
 		parent = fighter_equipment_0
 		priority = 10
 
-		air_range = 800
+		air_range = 475
 		maximum_speed = 500
 		air_agility = 50
-		air_attack = 18
-		air_defence = 10
+		air_attack = 15
+		air_defence = 9
 		
 				
-		build_cost_ic = 18
+		build_cost_ic = 19
 		resources = {
 			oil = 1
 			aluminium = 3
@@ -89,14 +89,14 @@ equipments = {
 		parent = fighter_equipment_1
 		priority = 10
 
-		air_range = 900
-		maximum_speed = 650
+		air_range = 550
+		maximum_speed = 600
 		air_agility = 65
-		air_attack = 27
-		air_defence = 16		
+		air_attack = 18
+		air_defence = 11		
 
 				
-		build_cost_ic = 19.5
+		build_cost_ic = 20
 		resources = {
 			oil = 2
 			aluminium = 3
@@ -111,11 +111,11 @@ equipments = {
 		parent = fighter_equipment_2
 		priority = 10
 	
-		air_range = 1200
-		maximum_speed = 720
+		air_range = 750
+		maximum_speed = 650
 		air_agility = 80
-		air_attack = 32
-		air_defence = 20	
+		air_attack = 18
+		air_defence = 11	
 		
 				
 		build_cost_ic = 21
@@ -159,7 +159,7 @@ equipments = {
 		naval_strike_attack = 0.5
 		naval_strike_targetting = 1.0
 		
-		build_cost_ic = 23
+		build_cost_ic = 22
 		resources = {
 			aluminium = 2
 			tungsten = 3
@@ -175,13 +175,13 @@ equipments = {
 		archetype = jet_fighter_equipment
 		priority = 20
 		
-		air_range = 800
-		maximum_speed = 900
+		air_range = 650
+		maximum_speed = 650
 		air_agility = 72
-		air_attack = 36
-		air_defence = 20
+		air_attack = 21
+		air_defence = 13
 
-		build_cost_ic = 23
+		build_cost_ic = 22
 	}
 
 	# Improved Jet Fighter
@@ -191,13 +191,13 @@ equipments = {
 		parent = jet_fighter_equipment_1
 		priority = 20
 		
-		air_range = 1200
-		maximum_speed = 1000
+		air_range = 700
+		maximum_speed = 850
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 18
+		air_defence = 11
 
-		build_cost_ic = 24.5
+		build_cost_ic = 24
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -211,13 +211,13 @@ equipments = {
 		parent = jet_fighter_equipment_2
 		priority = 20
 		
-		air_range = 1600
-		maximum_speed = 1100
+		air_range = 850
+		maximum_speed = 950
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 21
+		air_defence = 13
 
-		build_cost_ic = 26
+		build_cost_ic = 25
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -231,13 +231,13 @@ equipments = {
 		parent = jet_fighter_equipment_3
 		priority = 20
 		
-		air_range = 2000
-		maximum_speed = 1500
+		air_range = 1000
+		maximum_speed = 1100
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 18
+		air_defence = 11
 
-		build_cost_ic = 27.5
+		build_cost_ic = 26
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -246,18 +246,37 @@ equipments = {
 	}
 	
 	jet_fighter_equipment_5 = {
-		year = 1960
+		year = 1958
 		archetype = jet_fighter_equipment
 		parent = jet_fighter_equipment_4
 		priority = 20
 		
-		air_range = 1800
-		maximum_speed = 2000
+		air_range = 1100
+		maximum_speed = 1600
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 21
+		air_defence = 13
 
-		build_cost_ic = 29
+		build_cost_ic = 27
+		resources = {
+			aluminium = 3
+			tungsten = 3
+			rubber = 1
+		}
+	}
+	jet_fighter_equipment_6 = {
+		year = 1962
+		archetype = jet_fighter_equipment
+		parent = jet_fighter_equipment_5
+		priority = 20
+		
+		air_range = 1200
+		maximum_speed = 1900
+		air_agility = 72
+		air_attack = 24
+		air_defence = 15
+
+		build_cost_ic = 28
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -299,7 +318,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		build_cost_ic = 18.5
+		build_cost_ic = 17
 		resources = {
 			oil = 1
 			aluminium = 2
@@ -308,22 +327,36 @@ equipments = {
 		
 		manpower = 20
 	}
-
+	
+	# Early Fighter
+	interceptor_equipment_0 = {
+		year = 1933
+		archetype = interceptor_equipment
+		priority = 5
+		
+		air_range = 350
+		maximum_speed = 350
+		air_agility = 45
+		air_attack = 12
+		air_defence = 5	
+	}
+	
 	# Basic interceptor
 	interceptor_equipment_1 = {
 		year = 1936		
 		
 		archetype = interceptor_equipment
+		parent = interceptor_equipment_0
 		priority = 10
 
-		air_range = 700
+		air_range = 400
 		maximum_speed = 500
 		air_agility = 50
 		air_attack = 18
-		air_defence = 10
+		air_defence = 8
 		
 				
-		build_cost_ic = 18.5
+		build_cost_ic = 18
 		resources = {
 			oil = 1
 			aluminium = 3
@@ -340,14 +373,14 @@ equipments = {
 		parent = interceptor_equipment_1
 		priority = 10
 
-		air_range = 1000
-		maximum_speed = 650
+		air_range = 450
+		maximum_speed = 600
 		air_agility = 65
-		air_attack = 27
-		air_defence = 16		
+		air_attack = 21
+		air_defence = 10		
 
 				
-		build_cost_ic = 20
+		build_cost_ic = 19
 		resources = {
 			oil = 2
 			aluminium = 3
@@ -363,14 +396,14 @@ equipments = {
 		parent = interceptor_equipment_2
 		priority = 10
 	
-		air_range = 1200
-		maximum_speed = 720
+		air_range = 600
+		maximum_speed = 650
 		air_agility = 80
-		air_attack = 32
-		air_defence = 20	
+		air_attack = 21
+		air_defence = 10	
 		
 				
-		build_cost_ic = 21.5
+		build_cost_ic = 20
 		resources = {
 			oil = 2
 			aluminium = 4
@@ -410,7 +443,7 @@ equipments = {
 		naval_strike_attack = 0.5
 		naval_strike_targetting = 1.0
 		
-		build_cost_ic = 24
+		build_cost_ic = 22
 		resources = {
 			aluminium = 2
 			tungsten = 3
@@ -427,11 +460,11 @@ equipments = {
 		archetype = jet_interceptor_equipment
 		priority = 20
 		
-		air_range = 1200
-		maximum_speed = 950
+		air_range = 550
+		maximum_speed = 850
 		air_agility = 72
-		air_attack = 36
-		air_defence = 20
+		air_attack = 24
+		air_defence = 10
 		
 	}
 
@@ -443,13 +476,13 @@ equipments = {
 		parent = jet_interceptor_equipment_1
 		priority = 20
 		
-		air_range = 2200
-		maximum_speed = 1100
+		air_range = 600
+		maximum_speed = 900
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 24
+		air_defence = 12
 
-		build_cost_ic = 25.5
+		build_cost_ic = 23
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -464,13 +497,13 @@ equipments = {
 		parent = jet_interceptor_equipment_2
 		priority = 20
 		
-		air_range = 2200
+		air_range = 650
 		maximum_speed = 1100
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 18
+		air_defence = 12
 
-		build_cost_ic = 27
+		build_cost_ic = 24
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -485,13 +518,13 @@ equipments = {
 		parent = jet_interceptor_equipment_3
 		priority = 20
 		
-		air_range = 2200
-		maximum_speed = 1100
+		air_range = 800
+		maximum_speed = 1300
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 24
+		air_defence = 12
 
-		build_cost_ic = 28.5
+		build_cost_ic = 25
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -500,19 +533,40 @@ equipments = {
 	}
 
 	jet_interceptor_equipment_5 = {
-		year = 1960	
+		year = 1958
 		
 		archetype = jet_interceptor_equipment
 		parent = jet_interceptor_equipment_4
 		priority = 20
 		
-		air_range = 2200
-		maximum_speed = 1100
+		air_range = 900
+		maximum_speed = 1500
 		air_agility = 72
-		air_attack = 40
-		air_defence = 26
+		air_attack = 27
+		air_defence = 12
 
-		build_cost_ic = 31
+		build_cost_ic = 26
+		resources = {
+			aluminium = 3
+			tungsten = 3
+			rubber = 1
+		}
+	}	
+	
+	jet_interceptor_equipment_6 = {
+		year = 1962
+		
+		archetype = jet_interceptor_equipment
+		parent = jet_interceptor_equipment_5
+		priority = 20
+		
+		air_range = 1000
+		maximum_speed = 1700
+		air_agility = 72
+		air_attack = 30
+		air_defence = 14
+
+		build_cost_ic = 27
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -660,9 +714,83 @@ equipments = {
 		naval_strike_attack = 8
 		naval_strike_targetting = 10
 	}
+	# Advanced Carrier Fighter
+	cv_fighter_equipment_4= {
+		year = 1947
 
+		archetype = cv_fighter_equipment
+		parent = cv_fighter_equipment_3
+		carrier_capable = yes
+		priority = 30
+		
+		air_range = 960
+		maximum_speed =	648
+		air_agility = 80
+		air_attack = 32
+		air_defence = 15
+		
+		build_cost_ic = 25.3 # cv_version costs 20% more of base archetype
+		resources = {
+			oil = 2
+			aluminium = 3
+			rubber = 1
+		}
 
-	# ROCKET INTERCEPTORS ###############
+		naval_strike_attack = 8
+		naval_strike_targetting = 10
+	}
+	# Advanced Carrier Fighter
+	cv_fighter_equipment_5= {
+		year = 1951
+
+		archetype = cv_fighter_equipment
+		parent = cv_fighter_equipment_4
+		carrier_capable = yes
+		priority = 30
+		
+		air_range = 960
+		maximum_speed =	648
+		air_agility = 80
+		air_attack = 32
+		air_defence = 15
+		
+		build_cost_ic = 25.3 # cv_version costs 20% more of base archetype
+		resources = {
+			oil = 2
+			aluminium = 3
+			rubber = 1
+		}
+
+		naval_strike_attack = 8
+		naval_strike_targetting = 10
+	}
+	# Advanced Carrier Fighter
+	cv_fighter_equipment_6 = {
+		year = 1956
+
+		archetype = cv_fighter_equipment
+		parent = cv_fighter_equipment_5
+		carrier_capable = yes
+		priority = 30
+		
+		air_range = 960
+		maximum_speed =	648
+		air_agility = 80
+		air_attack = 32
+		air_defence = 15
+		
+		build_cost_ic = 25.3 # cv_version costs 20% more of base archetype
+		resources = {
+			oil = 2
+			aluminium = 3
+			rubber = 1
+		}
+
+		naval_strike_attack = 8
+		naval_strike_targetting = 10
+	}
+################################################################################	
+# ROCKET INTERCEPTORS ###########################################################
 	rocket_interceptor_equipment = {
 		year = 1936
 
@@ -700,7 +828,7 @@ equipments = {
 	
 	# Basic Rocket Interceptor
 	rocket_interceptor_equipment_1 = {
-		year = 1944
+		year = 1941
 
 		archetype = rocket_interceptor_equipment
 		priority = 80
@@ -722,7 +850,7 @@ equipments = {
 
 	# Improved Rocket Interceptor
 	rocket_interceptor_equipment_2 = {
-		year = 1945
+		year = 1943
 
 		archetype = rocket_interceptor_equipment
 		parent = rocket_interceptor_equipment_1

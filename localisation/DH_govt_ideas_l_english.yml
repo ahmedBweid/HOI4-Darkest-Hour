@@ -1,8 +1,36 @@
 ﻿l_english:
+###############################################
+## Laws and Policies 
+##############################################
+
+##### Civil Laws #####################################
+ idea_group_civil_laws:0 "Civil Laws"
+ civil_laws:0 "Civil Laws"
+ open_society:0 "Open Society	"
+ limited_restrictions:0 "Limited Restrictions"
+ legalisic_restrictions:0 "Legalisic Restrictions"
+ repression:0 "Repression"
+ totalitarian_system:0 "Totalitarian System"
+##### Foreign Policy ###################################
+ idea_group_foreign_policy:0 "Foreign Policy"
+ foreign_policy:0 "Foreign Policy"
+ isolationism:0 "Neutrality"
+ dove_policy:0 "Dove Policy"
+ detente:0 "Détente" 
+ containment:0 "Containment"
+ hardline:0 "Hardline"
+ interventionsm:0 "Interventionsm"
+ 
+###############################################
+## Cabinet
+##############################################
+ cabinet:0 "Cabinet"
  head_of_govt:0 "Head of Government"
  foreign_minister:0 "Foreign Minister"
  security_minister:0 "Minister of Security"
  armaments_minister:0 "Armaments Minister"
+ 
+ 
  ##### Germany ####################################################
  GER_HoG_rudolf_hess:0 "Rudolf Hess"
  GER_HoG_martin_bormann:0 "Martin Bormann"

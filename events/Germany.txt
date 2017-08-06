@@ -973,8 +973,8 @@ country_event = {
 			factor = 90 
 			modifier = {
 				factor = 0.3
-				has_government = communism
-				CZE = { has_government = communism }
+				has_government = stalinist
+				CZE = { has_government = stalinist }
 			}
 			modifier = {
 				has_global_flag = GER_has_started_war
@@ -1022,8 +1022,8 @@ country_event = {
 			}				
 			modifier = {
 				factor = 3
-				has_government = communism
-				CZE = { has_government = communism }
+				has_government = stalinist
+				CZE = { has_government = stalinist }
 			}
 		}
 		if = {
@@ -1095,8 +1095,8 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.3
-				has_government = communism
-				CZE = { has_government = communism }
+				has_government = stalinist
+				CZE = { has_government = stalinist }
 			}
 			modifier = {
 				has_global_flag = GER_has_started_war
@@ -1163,8 +1163,8 @@ country_event = {
 			}
 			modifier = {
 				factor = 6
-				has_government = communism
-				CZE = { has_government = communism }
+				has_government = stalinist
+				CZE = { has_government = stalinist }
 			}
 		}
 		if = {
@@ -1652,6 +1652,7 @@ country_event = {
 					}
 				}
 			}
+			74 = { set_state_name = "Ostsudetenland" }
 		}
 	}
 }
@@ -1963,7 +1964,6 @@ country_event = {
 			limit = { has_global_flag = GER_HUN_CZE_split }
 			HUN = { country_event = DOD_hungary.106 }
 		}
-		
 		hidden_effect = {
 			country_event = { hours = 6 id = news.60 }
 			every_state = {
@@ -1976,6 +1976,17 @@ country_event = {
 				load_oob = SLO_1939
 				add_manpower = 9876
 			}
+			set_province_name = { id = 11542 name = "Prag"}
+			set_province_name = { id = 6418 name = "Pilsen"}
+			set_province_name = { id = 3569 name = "Brünn"}
+			set_province_name = { id = 9692 name = "Preßburg"}
+			set_province_name = { id = 6573 name = "Kaschau"}
+			9 = { set_state_name = "Böhmen" }
+			75 = { set_state_name = "Mähren" }
+			72 = { set_state_name = "Olsagebiet" }
+			70 = { set_state_name = "Westslowakei" }
+			664 = { set_state_name = "Südslowakei" }
+			71 = { set_state_name = "Ostslowakei" }
 		}
 	}
 	option = {
@@ -2007,6 +2018,11 @@ country_event = {
 			}
 			POL = { transfer_state = 72 } # Give Poland Zaolzie
 		}
+		set_province_name = { id = 11542 name = "Prag"}
+		set_province_name = { id = 6418 name = "Pilsen"}
+		set_province_name = { id = 3569 name = "Brünn"}
+		9 = { set_state_name = "Böhmen" }
+		75 = { set_state_name = "Mähren" }
 	}
 	option = {
 		name = germany.55.c
@@ -2026,6 +2042,18 @@ country_event = {
 			limit = { has_global_flag = GER_HUN_CZE_split }
 			HUN = { country_event = DOD_hungary.106 }
 		}
+		set_province_name = { id = 11542 name = "Prag"}
+		set_province_name = { id = 6418 name = "Pilsen"}
+		set_province_name = { id = 3569 name = "Brünn"}
+		set_province_name = { id = 9692 name = "Preßburg"}
+		set_province_name = { id = 6573 name = "Kaschau"}
+		9 = { set_state_name = "Böhmen" }
+		75 = { set_state_name = "Mähren" }
+		72 = { set_state_name = "Olsagebiet" }
+		70 = { set_state_name = "Westslowakei" }
+		664 = { set_state_name = "Südslowakei" }
+		71 = { set_state_name = "Ostslowakei" }
+		73 = { set_state_name = "Transkarpatien" }
 		hidden_effect = {
 			country_event = { hours = 6 id = news.62 }
 		}
@@ -2072,7 +2100,7 @@ country_event = {
 		hidden_effect = {
 			GER = {
 				annex_country = { target = CZE }
-				add_to_faction = HUN				
+				add_to_faction = HUN
 			}
 			HUN = {
 				add_ai_strategy = {
@@ -2267,12 +2295,12 @@ country_event = {
 		if = {
 			limit = {
 				has_idea = FRA_disjointed_government
-				NOT = { has_government = communism }
+				NOT = { has_government = stalinist }
 			}
 			custom_effect_tooltip = germany.60.a.tt
 			effect_tooltip = {
 				start_civil_war = {
-					ideology = communism
+					ideology = stalinist
 					size = 0.2
 				}
 			}
@@ -2280,12 +2308,12 @@ country_event = {
 		if = { #you're not getting around that, comrade
 			limit = {
 				has_idea = FRA_disjointed_government
-				has_government = communism
+				has_government = stalinist
 			}
 			custom_effect_tooltip = germany.60.a.tt
 			effect_tooltip = {
 				start_civil_war = {
-					ideology = democratic
+					ideology = social_conservative
 					size = 0.3
 				}
 			}
@@ -2343,7 +2371,7 @@ country_event = {
 		add_political_power = -150
 		add_national_unity = -0.2
 		add_popularity = {
-			ideology = communism
+			ideology = stalinist
 			popularity = 0.25
 		}
 		if = {
@@ -2425,12 +2453,12 @@ country_event = {
 		if = {
 			limit = { 
 				has_idea = FRA_disjointed_government 
-				NOT = { has_government = communism }
+				NOT = { has_government = stalinist }
 				}
 			custom_effect_tooltip = germany.60.a.tt
 			effect_tooltip = {
 				start_civil_war = {
-					ideology = communism
+					ideology = stalinist
 					size = 0.2
 				}
 			}
@@ -2438,12 +2466,12 @@ country_event = {
 		if = {
 			limit = { 
 				has_idea = FRA_disjointed_government 
-				has_government = communism
+				has_government = stalinist
 				}
 			custom_effect_tooltip = germany.60.a.tt
 			effect_tooltip = {
 				start_civil_war = {
-					ideology = democratic
+					ideology = social_conservative
 					size = 0.3
 				}
 			}
@@ -2472,12 +2500,12 @@ country_event = {
 		if = {
 			limit = { 
 				has_idea = FRA_disjointed_government 
-				NOT = { has_government = communism }
+				NOT = { has_government = stalinist }
 			}
 			custom_effect_tooltip = germany.60.a.tt
 			effect_tooltip = {
 				start_civil_war = {
-					ideology = communism
+					ideology = stalinist
 					size = 0.2
 				}
 			}
@@ -2485,12 +2513,12 @@ country_event = {
 		if = {
 			limit = { 
 				has_idea = FRA_disjointed_government 
-				has_government = communism
+				has_government = stalinist
 			}
 			custom_effect_tooltip = germany.60.a.tt
 			effect_tooltip = {
 				start_civil_war = {
-					ideology = democratic
+					ideology = social_conservative
 					size = 0.3
 				}
 			}
@@ -2533,20 +2561,20 @@ country_event = {
 			if = {
 				limit = { 
 					has_idea = FRA_disjointed_government 
-					NOT = { has_government = communism }
+					NOT = { has_government = stalinist }
 				}
 				start_civil_war = {
-					ideology = communism
+					ideology = stalinist
 					size = 0.2
 				}
 			}
 			if = {
 				limit = { 
 					has_idea = FRA_disjointed_government 
-					has_government = communism
+					has_government = stalinist
 				}
 				start_civil_war = {
-					ideology = democratic
+					ideology = social_conservative
 					size = 0.3
 				}
 			}
@@ -2617,20 +2645,20 @@ country_event = {
 			if = {
 				limit = { 
 					has_idea = FRA_disjointed_government 
-					NOT = { has_government = communism }
+					NOT = { has_government = stalinist }
 				}
 				start_civil_war = {
-					ideology = communism
+					ideology = stalinist
 					size = 0.2
 				}
 			}
 			if = {
 				limit = { 
 					has_idea = FRA_disjointed_government 
-					has_government = communism
+					has_government = stalinist
 				}
 				start_civil_war = {
-					ideology = democratic
+					ideology = social_conservative
 					size = 0.3
 				}
 			}
@@ -2756,7 +2784,7 @@ country_event = {
 			desc = "POLITICS_HEINRICH_HIMMLER_DESC"
 			picture = "Portrait_Germany_Heinrich_Himmler.dds"
 			expire = "1965.1.1"
-			ideology = nazism
+			ideology = national_socialism
 			traits = {
 			}
 		}
@@ -2773,7 +2801,7 @@ country_event = {
 			desc = "POLITICS_HERMANN_GORING_DESC"
 			picture = "Portrait_Germany_Hermann_Goring.dds"
 			expire = "1965.1.1"
-			ideology = nazism
+			ideology = national_socialism
 			traits = {
 			}
 		}
@@ -2819,7 +2847,7 @@ country_event = {
 			desc = "POLITICS_HEINRICH_HIMMLER_DESC"
 			picture = "Portrait_Germany_Heinrich_Himmler.dds"
 			expire = "1965.1.1"
-			ideology = nazism
+			ideology = national_socialism
 			traits = {
 			}
 		}
@@ -2831,7 +2859,7 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ruling_party = democratic
+				ruling_party = social_conservative
 				ideology = fascism
 				size = 0.5
 			}
@@ -2844,7 +2872,7 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ruling_party = democratic
+				ruling_party = social_conservative
 				ideology = fascism
 				size = 0.7
 			}
@@ -2862,7 +2890,7 @@ country_event = {
 			desc = "POLITICS_HEINRICH_HIMMLER_DESC"
 			picture = "Portrait_Germany_Heinrich_Himmler.dds"
 			expire = "1965.1.1"
-			ideology = nazism
+			ideology = national_socialism
 			traits = {
 			}
 		}
@@ -2874,7 +2902,7 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ideology = democratic
+				ideology = social_conservative
 				size = 0.5
 			}
 		}
@@ -2886,7 +2914,7 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ideology = democratic
+				ideology = social_conservative
 				size = 0.3
 			}
 		}
@@ -2903,7 +2931,7 @@ country_event = {
 			desc = "POLITICS_HERMANN_GORING_DESC"
 			picture = "Portrait_Germany_Hermann_Goring.dds"
 			expire = "1965.1.1"
-			ideology = nazism
+			ideology = national_socialism
 			traits = {
 			}
 		}
@@ -2915,7 +2943,7 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ideology = democratic
+				ideology = social_conservative
 				size = 0.5
 			}
 		}
@@ -2927,7 +2955,7 @@ country_event = {
 				}
 			}
 			start_civil_war = {
-				ideology = democratic
+				ideology = social_conservative
 				size = 0.3
 			}
 		}
@@ -3521,7 +3549,7 @@ country_event = {
 				CZE = {
 					exists = yes
 					is_subject = no
-					has_government = democratic
+					has_government = social_conservative
 					NOT = { is_in_faction_with = GER }
 				}	
 			}	
@@ -3561,7 +3589,7 @@ country_event = {
 						NOT = { tag = GER }
 						has_government = fascism 
 					}
-					has_government = democratic 
+					has_government = social_conservative 
 				}
 			}
 			add_opinion_modifier = { target = SOV modifier = unholy_alliance }
@@ -3591,7 +3619,7 @@ country_event = {
 			}
 			every_other_country = {
 				limit = {
-					has_government = democratic 
+					has_government = social_conservative 
 				}
 				add_opinion_modifier = { target = GER modifier = unholy_alliance }
 			}
@@ -3601,7 +3629,7 @@ country_event = {
 			ENG = {
 				country_event = { days = 3 id = britain.11 }
 			}
-			# US drops communism/fascism
+			# US drops stalinist/fascism
 			USA = {
 				country_event = { id = usa.14 }
 				country_event = { id = usa.24 }
@@ -3747,6 +3775,9 @@ country_event = {
 			transfer_state = 102
 			transfer_state = 751
 			transfer_state = 746
+			102 = { set_state_name = "Nordslowenien" }
+			746 = { set_state_name = "Laibach" }
+			751 = { set_state_name = "Murinsel" }
 		 }
 		set_country_flag = slovenia_acquired
 		hidden_effect = {
@@ -3758,7 +3789,10 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		GER = { transfer_state = 102 }
+		GER = {
+			transfer_state = 102
+			102 = { set_state_name = "Nordslowenien" }
+		}
 		HUN = {
 			transfer_state = 751
 			add_opinion_modifier = {
@@ -4746,7 +4780,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		#A democratic faction leader whose faction holds at least one German core state while SOV holds another can get this.
+		#A social_conservative faction leader whose faction holds at least one German core state while SOV holds another can get this.
 		has_war_with = GER
 		GER = {
 			surrender_progress > 0.5
@@ -4758,7 +4792,7 @@ country_event = {
 				is_in_faction_with = ROOT
 			}
 		}
-		has_government = democratic
+		has_government = social_conservative
 		NOT = {
 			tag = SOV
 		}
@@ -5440,8 +5474,8 @@ country_event = {
 			modifier = {
 				add = 1
 				OR = {
-					has_government = communism
-					has_government = democratic
+					has_government = stalinist
+					has_government = social_conservative
 				}
 			}
 		}
@@ -5511,7 +5545,7 @@ country_event = {
 
 	trigger = {
 		SOV = {
-			has_government = communism
+			has_government = stalinist
 			owns_state = 217 
 			owns_state = 195 
 		}

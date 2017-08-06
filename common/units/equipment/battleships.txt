@@ -47,15 +47,15 @@ equipments = {
 		manpower = 1750
 	}
 
-	battleship_1 = {
+	battleship_0 = {
 		archetype = battleship
 		priority = 60
 
 	}
 	
-	battleship_2 = {
+	battleship_1 = {
 		archetype = battleship
-		parent = battleship_1
+		parent = battleship_0
 		priority = 60
 		
 		ap_attack = 36
@@ -90,9 +90,9 @@ equipments = {
 		
 	}
 	
-	battleship_3 = {
+	battleship_2 = {
 		archetype = battleship
-		parent = battleship_2
+		parent = battleship_1
 		shore_bombardment = 12
 		priority = 60
 		
@@ -128,9 +128,9 @@ equipments = {
 
 	}
 	
-	battleship_4 = {
+	battleship_3 = {
 		archetype = battleship
-		parent = battleship_3
+		parent = battleship_2
 		priority = 60
 		
 		ap_attack = 43
@@ -166,9 +166,9 @@ equipments = {
 		
 	}
 	
-	battleship_5 = {
+	battleship_4 = {
 		archetype = battleship
-		parent = battleship_4
+		parent = battleship_3
 		priority = 60
 		
 		ap_attack = 50
@@ -203,6 +203,42 @@ equipments = {
 		manpower = 7400
 		
 	}
+	
+	battleship_5 = {
+		archetype = battleship
+		parent = battleship_4	
+		priority = 60
+	}
+
+	battleship_6 = {
+		archetype = battleship
+		parent = battleship_5
+		priority = 60
+	}
+	
+	battleship_7 = {
+		archetype = battleship
+		parent = battleship_6
+		priority = 60
+	}	
+	
+	battleship_8 = {
+		archetype = battleship
+		parent = battleship_7
+		priority = 60
+	}	
+	
+	battleship_9 = {
+		archetype = battleship
+		parent = battleship_8
+		priority = 60
+	}
+
+	battleship_10 = {
+		archetype = battleship
+		parent = battleship_9
+		priority = 60
+	}	
 ### ------------------------- SH Battleship -------------------------------------
 	SH_battleship_1 = {
 		archetype = battleship

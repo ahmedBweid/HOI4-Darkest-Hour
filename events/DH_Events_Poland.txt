@@ -64,7 +64,7 @@ country_event = {
 			factor = 70
 			modifier = {
 				POL = {
-					has_government = democratic
+					has_government = social_conservative
 				}
 				factor = 0.45
 			}

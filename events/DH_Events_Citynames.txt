@@ -1,0 +1,1150 @@
+﻿###########################
+# Darkest Hour Events : City Names
+###########################
+
+add_namespace = DH_cityname
+
+### ---------------------------------------------------------------------------- City Names ---------------------------------------------
+
+#########################################################################
+#  rename Grodno
+#########################################################################
+country_event = {
+	id = DH_cityname.1
+	title = DH_cityname.1.t
+	desc = DH_cityname.1.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			OR = {
+				tag = GER
+				is_subject_of = GER
+			}
+			has_government = fascism
+			owns_state = 97
+		}
+		NOT = {
+			has_global_flag = GER_DH_cities_renamed
+		}
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		set_province_name = { id = 3393 name = "Garten"}
+		set_global_flag = GER_DH_grodno_cities_renamed
+		97 = { set_state_name = "Neuostpreußen" }
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.1.a
+	}
+}
+
+#########################################################################
+#  reset Grodno name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.2
+	title = DH_cityname.2.t
+	desc = DH_cityname.2.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 97
+		}
+		has_global_flag = GER_DH_grodno_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 3393
+		97 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_grodno_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.2.a
+	}
+}
+
+#########################################################################
+#  rename Sevastopol
+#########################################################################
+country_event = {
+	id = DH_cityname.3
+	title = DH_cityname.3.t
+	desc = DH_cityname.3.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 3836 name = "Theodorichshafen"}
+		137 = { set_state_name = "Gotenland" }
+		196 = { set_state_name = "Gotenhalbinsel" }
+		set_global_flag = GER_DH_sevastopol_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.3.a
+	}
+}
+
+#########################################################################
+#  reset Sevastopol name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.4
+	title = DH_cityname.4.t
+	desc = DH_cityname.4.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 137
+			owns_state = 196
+		}
+		has_global_flag = GER_DH_sevastopol_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 3836
+		137 = { reset_state_name = yes }
+		196 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_sevastopol_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.4.a
+	}
+}
+
+#########################################################################
+#  rename Westmark Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.5
+	title = DH_cityname.5.t
+	desc = DH_cityname.5.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 678 name = "Mülhausen"}
+		set_province_name = { id = 9503 name = "Straßburg"}
+		28 = { set_state_name = "Elsaß" }
+		set_global_flag = GER_DH_westmark_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.5.a
+	}
+}
+
+#########################################################################
+#  reset Westmark Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.6
+	title = DH_cityname.6.t
+	desc = DH_cityname.6.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 28
+		}
+		has_global_flag = GER_DH_westmark_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 9503
+		reset_province_name = 678
+		28 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_westmark_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.6.a
+	}
+}
+
+#########################################################################
+#  rename Westraum Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.7
+	title = DH_cityname.7.t
+	desc = DH_cityname.7.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 11516 name = "Nanzig"}
+		set_province_name = { id = 9642 name = "Bisanz"}
+		set_province_name = { id = 778 name = "Annetz"}
+		17 = { set_state_name = "Freigrafschaft" }
+		744 = { set_state_name = "Lothringen" }
+		745 = { set_state_name = "Hochsavoyen" }
+		set_global_flag = GER_DH_westraum_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.7.a
+	}
+}
+
+#########################################################################
+#  reset Westraum Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.8
+	title = DH_cityname.8.t
+	desc = DH_cityname.8.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 17
+			owns_state = 744
+			owns_state = 745
+		}
+		has_global_flag = GER_DH_westraum_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 11516
+		reset_province_name = 9642
+		reset_province_name = 778
+		744 = { reset_state_name = yes }
+		17 = { reset_state_name = yes }
+		745 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_westraum_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.8.a
+	}
+}
+
+#########################################################################
+#  rename Westland Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.9
+	title = DH_cityname.9.t
+	desc = DH_cityname.9.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 6469 name = "Endhofen"}
+		set_province_name = { id = 3211 name = "Den Haag"}
+		set_global_flag = GER_DH_westland_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.9.a
+	}
+}
+
+#########################################################################
+#  reset Westland Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.10
+	title = DH_cityname.10.t
+	desc = DH_cityname.10.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 35
+			owns_state = 7
+			owns_state = 36
+		}
+		has_global_flag = GER_DH_westland_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 6469
+		reset_province_name = 3211
+		clr_global_flag = GER_DH_westland_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.10.a
+	}
+}
+
+
+#########################################################################
+#  rename Wallonien Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.11
+	title = DH_cityname.11.t
+	desc = DH_cityname.11.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 3516 name = "Namen"}
+		set_province_name = { id = 11519 name = "Lüttich"}
+		set_province_name = { id = 516 name = "Brüssel"}
+		set_province_name = { id = 11483 name = "Ryssel"}
+		set_province_name = { id = 11548 name = "Kalen"}
+		set_province_name = { id = 575 name = "Dünkirchen"}
+		34 = { set_state_name = "Wallonien" }
+		6 = { set_state_name = "Flandern" }
+		743 = { set_state_name = "Südniederlande" }
+		set_global_flag = GER_DH_wallonien_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.11.a
+	}
+}
+
+#########################################################################
+#  reset Wallonien Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.12
+	title = DH_cityname.12.t
+	desc = DH_cityname.12.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 743
+			owns_state = 6
+			owns_state = 34
+		}
+		has_global_flag = GER_DH_wallonien_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 3516
+		reset_province_name = 11519
+		reset_province_name = 11483
+		reset_province_name = 11548
+		reset_province_name = 575
+		34 = { reset_state_name = yes }
+		6 = { reset_state_name = yes }
+		743 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_wallonien_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.12.a
+	}
+}
+
+
+#########################################################################
+#  rename Aktion-S Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.13
+	title = DH_cityname.13.t
+	desc = DH_cityname.13.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 9620 name = "Bern" }
+		3 = { set_state_name = "Westschweiz" }
+		if = {
+			limit = {
+				GER = {
+					has_full_control_of_state = 748
+				}
+			}
+			748 = { set_state_name = "Tessin-Graubünden" }
+		}
+		set_global_flag = GER_DH_aktion_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.13.a
+	}
+}
+
+#########################################################################
+#  reset Aktion-S Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.14
+	title = DH_cityname.14.t
+	desc = DH_cityname.14.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 151
+			owns_state = 3
+		}
+		has_global_flag = GER_DH_aktion_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 9620
+		3 = { reset_state_name = yes }
+		748 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_aktion_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.14.a
+	}
+}
+
+#########################################################################
+#  rename Norwegian Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.15
+	title = DH_cityname.15.t
+	desc = DH_cityname.15.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 3022 name = "Trontheim" }
+		110 = { set_state_name = "Ostland" }
+		142 = { set_state_name = "Westland" }
+		#143 = { set_state_name = "Trondelag" }
+		144 = { set_state_name = "Finnmark" }
+		set_global_flag = GER_DH_NOR_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.15.a
+	}
+}
+
+#########################################################################
+#  reset Norwegian Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.16
+	title = DH_cityname.16.t
+	desc = DH_cityname.16.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 110
+			owns_state = 142
+			owns_state = 144
+		}
+		has_global_flag = GER_DH_NOR_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 3022
+		110 = { reset_state_name = yes }
+		142 = { reset_state_name = yes }
+		#143 = { reset_state_name = yes }
+		144 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_NOR_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.16.a
+	}
+}
+
+#########################################################################
+#  rename Denmark Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.17
+	title = DH_cityname.17.t
+	desc = DH_cityname.17.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 3325 name = "Ottensee" }
+		set_province_name = { id = 6287 name = "Kopenhagen" }
+		set_province_name = { id = 6364 name = "Arenhusen" }
+		99 = { set_state_name = "Jütland" }
+		37 = { set_state_name = "Seeland" }
+		set_global_flag = GER_DH_denmark_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.17.a
+	}
+}
+
+#########################################################################
+#  reset Denmark Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.18
+	title = DH_cityname.18.t
+	desc = DH_cityname.18.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 99
+			owns_state = 37
+		}
+		has_global_flag = GER_DH_denmark_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 3325
+		reset_province_name = 6287
+		reset_province_name = 6367
+		99 = { reset_state_name = yes }
+		37 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_denmark_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.18.a
+	}
+}
+
+#########################################################################
+#  rename Iceland Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.19
+	title = DH_cityname.19.t
+	desc = DH_cityname.19.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		100 = { set_state_name = "Eisland" }
+		set_global_flag = GER_DH_iceland_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.19.a
+	}
+}
+
+#########################################################################
+#  reset Iceland Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.20
+	title = DH_cityname.20.t
+	desc = DH_cityname.20.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 100
+		}
+		has_global_flag = GER_DH_iceland_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		100 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_iceland_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.20.a
+	}
+}
+
+#########################################################################
+#  rename Sweden Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.21
+	title = DH_cityname.21.t
+	desc = DH_cityname.21.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 383 name = "Gothenburg" }
+		set_province_name = { id = 11114 name = "Karlstadt" }
+		set_province_name = { id = 11380 name = "Nördkoping" }
+		138 = { set_state_name = "Schonen" }
+		139 = { set_state_name = "Schmalland" }
+		140 = { set_state_name = "Westgotland" }
+		38 = { set_state_name = "Nordland" }
+		141 = { set_state_name = "Schweland" }
+		set_global_flag = GER_DH_sweden_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.21.a
+	}
+}
+
+#########################################################################
+#  reset Sweden Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.22
+	title = DH_cityname.22.t
+	desc = DH_cityname.22.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 138
+			owns_state = 139
+			owns_state = 140
+			owns_state = 38
+			owns_state = 141
+		}
+		has_global_flag = GER_DH_sweden_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 383
+		reset_province_name = 11114
+		reset_province_name = 11380
+		138 = { reset_state_name = yes }
+		139 = { reset_state_name = yes }
+		140 = { reset_state_name = yes }
+		38 = { reset_state_name = yes }
+		141 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_sweden_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.22.a
+	}
+}
+
+#########################################################################
+#  rename Danzig Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.23
+	title = DH_cityname.23.t
+	desc = DH_cityname.23.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		85 = { set_state_name = "Westpreußen" }
+		set_global_flag = GER_DH_danzig_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.23.a
+	}
+}
+
+#########################################################################
+#  reset Danzig Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.24
+	title = DH_cityname.24.t
+	desc = DH_cityname.24.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 85
+		}
+		has_global_flag = GER_DH_danzig_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		85 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_danzig_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.24.a
+	}
+}
+
+#########################################################################
+#  rename Gau Oberschlesien Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.25
+	title = DH_cityname.25.t
+	desc = DH_cityname.25.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		747 = { set_state_name = "Ostschlesien" }
+		72 = { set_state_name = "Olsagebiet" }
+		set_global_flag = GER_DH_gau_oberschlesien_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.25.a
+	}
+}
+
+#########################################################################
+#  reset Gau Oberschlesien Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.26
+	title = DH_cityname.26.t
+	desc = DH_cityname.26.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 747
+			owns_state = 72
+		}
+		has_global_flag = GER_DH_gau_oberschlesien_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		747 = { reset_state_name = yes }
+		72 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_gau_oberschlesien_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.26.a
+	}
+}
+
+#########################################################################
+#  rename Gau Ostpreußen Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.27
+	title = DH_cityname.27.t
+	desc = DH_cityname.27.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		188 = { set_state_name = "Memelland" }
+		98 = { set_state_name = "Zichenau" }
+		set_global_flag = GER_DH_gau_ostpreußen_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.27.a
+	}
+}
+
+#########################################################################
+#  reset Gau Ostpreußen Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.28
+	title = DH_cityname.28.t
+	desc = DH_cityname.28.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 188
+			owns_state = 98
+		}
+		has_global_flag = GER_DH_gau_ostpreußen_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		188 = { reset_state_name = yes }
+		98 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_gau_ostpreußen_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.28.a
+	}
+}
+
+#########################################################################
+#  rename Reichsgau Wartheland Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.29
+	title = DH_cityname.29.t
+	desc = DH_cityname.29.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 6558 name = "Posen"}
+		set_province_name = { id = 9508 name = "Litzmannstadt"}
+		86 = { set_state_name = "Posen" }
+		87 = { set_state_name = "Wartheland" }
+		set_global_flag = GER_DH_reichsgau_wartheland_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.29.a
+	}
+}
+
+#########################################################################
+#  reset Reichsgau Wartheland Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.30
+	title = DH_cityname.30.t
+	desc = DH_cityname.30.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 86
+			owns_state = 87
+		}
+		has_global_flag = GER_DH_reichsgau_wartheland_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 10 }
+
+	immediate = {
+		reset_province_name = 6558
+		reset_province_name = 9508
+		86 = { reset_state_name = yes }
+		87 = { reset_state_name = yes }
+		clr_global_flag = GER_DH_reichsgau_wartheland_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.30.a
+	}
+}
+
+#########################################################################
+#  rename British Isle Cities
+#########################################################################
+country_event = {
+	id = DH_cityname.31
+	title = DH_cityname.31.t
+	desc = DH_cityname.31.d
+	picture = GFX_report_event_german_reichstag_gathering
+	#fire_only_once = yes
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		set_province_name = { id = 6103 name = "Lunden" }
+		set_province_name = { id = 9297 name = "Brummangen" }
+		set_province_name = { id = 322 name = "Noordwyk" }
+		set_province_name = { id = 3501 name = "Daveren" }
+		set_province_name = { id = 540 name = "Pleimuiden" }
+		set_province_name = { id = 9458 name = "Poortsmuiden" }
+		set_province_name = { id = 3369 name = "Breßstuhl" }
+		set_province_name = { id = 6384 name = "Löwerpul" }
+		set_province_name = { id = 9379 name = "Lüdschen" }
+		set_province_name = { id = 11297 name = "Kaiserzaun" }
+		set_province_name = { id = 377 name = "Kayerdorf" }
+		set_province_name = { id = 6318 name = "Mutterfestung" }
+		set_province_name = { id = 351 name = "Neukassel" }
+		set_province_name = { id = 9392 name = "Odinburg" }
+		set_province_name = { id = 3273 name = "Glaschau" }
+		set_province_name = { id = 6300 name = "Rositz" }
+		set_province_name = { id = 11064 name = "Skalpafloi" }
+		set_global_flag = GER_DH_british_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.31.a
+	}
+}
+
+#########################################################################
+#  reset British Isle Cities name if retaken
+#########################################################################
+country_event = {
+	id = DH_cityname.32
+	title = DH_cityname.32.t
+	desc = DH_cityname.32.d
+	picture = GFX_report_event_german_reichstag_gathering
+
+	hidden = yes
+
+	trigger = {
+		any_country = {
+			NOT = {
+				OR = {
+					original_tag = GER
+					is_subject_of = GER
+					is_in_faction_with = GER
+				}
+			}
+			owns_state = 120
+			owns_state = 136
+			owns_state = 133
+			owns_state = 121
+			owns_state = 131
+			owns_state = 130
+			owns_state = 132
+			owns_state = 122
+			owns_state = 128
+			owns_state = 129
+			owns_state = 125
+			owns_state = 126
+			owns_state = 127
+			owns_state = 338
+			owns_state = 123
+		}
+		has_global_flag = GER_DH_british_cities_renamed
+	}
+
+	mean_time_to_happen = { days = 2 }
+
+	immediate = {
+		reset_province_name = 6103
+		reset_province_name = 9297
+		reset_province_name = 322
+		reset_province_name = 3501
+		reset_province_name = 540
+		reset_province_name = 9458
+		reset_province_name = 3369
+		reset_province_name = 6384
+		reset_province_name = 9379
+		reset_province_name = 11297
+		reset_province_name = 377
+		reset_province_name = 6318
+		reset_province_name = 351
+		reset_province_name = 9392
+		reset_province_name = 3273
+		reset_province_name = 6300
+		reset_province_name = 11064
+		clr_global_flag = GER_DH_british_cities_renamed
+	}
+
+	option = { #a great idea!
+		name = DH_cityname.32.a
+	}
+}

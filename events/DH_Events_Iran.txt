@@ -9,7 +9,7 @@ add_namespace = DH_iran
 #########################################################################
 #  German-Iranian Treaty of Friendship
 #########################################################################
-country_event = { #Italy refused
+country_event = { 
 	id = DH_iran.1
 	title = DH_iran.1.t
 	desc = DH_iran.1.d
@@ -70,8 +70,8 @@ country_event = { #Italy refused
 			modifier = {
 				PER = {
 					OR = {
-						has_government = democratic
-						has_government = communism
+						has_government = social_conservative
+						has_government = stalinist
 					}
 				}
 				factor = 0

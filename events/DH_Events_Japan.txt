@@ -13,6 +13,7 @@ country_event = {
 	id = DH_japan.1
 	title = DH_japan.1.t
 	desc = DH_japan.1.d
+	picture = GFX_news_event_002
 	fire_only_once = yes
 	
 	trigger = {
@@ -96,4 +97,44 @@ country_event = {
 		name = DH_japan.2.b
 		PRC = { country_event = { id = DH_prc.2 } }
     }
+}
+
+#########################################################################
+#  The 2-26 incident
+#########################################################################
+country_event = {
+	id = DH_japan.3
+	title = DH_japan.3.t
+	desc = DH_japan.3.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	trigger = {
+		date > 1936.2.25
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}	
+		
+	#Crush them!
+	option = {
+		name = DH_japan.3.a		
+		ai_chance = {
+			factor = 85
+		}
+		add_political_power = -40
+	}
+	
+	#Let's listen to their demands
+	option = {
+		name = DH_japan.3.b		
+		ai_chance = {
+			factor = 15
+		}
+		add_political_power = -120		
+		#Change head of state and ministers
+		add_opinion_modifier = { target = SOV modifier = protest_action_light }
+		add_opinion_modifier = { target = CHI modifier = protest_action_light }
+	}
 }

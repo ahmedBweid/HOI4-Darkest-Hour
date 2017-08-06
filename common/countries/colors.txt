@@ -98,8 +98,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 170 0 30 }
-	color_ui = rgb { 170 0 30 }
+	color = rgb { 174 76 102 }
+	color_ui = rgb { 174 76 102 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -513,6 +513,10 @@ PAK = {
 }
 
 ####-------------------------------------- DH Colors ----------------------------------------------------
+GGP = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
 ROS = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }

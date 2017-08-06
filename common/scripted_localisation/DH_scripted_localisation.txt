@@ -9,7 +9,7 @@
 # that'll be used if trigger passes
 
 defined_text = { 
-	name = GetTestLoc
+	name = GetWW2Loc
 	text = {
 		trigger = {
 			tag = GER				
@@ -19,7 +19,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = GER
-			has_war_with = SOV
+			GER = { has_war_with = SOV}
 		}
 		localization_key = WAR_NAME_WW2
 	}

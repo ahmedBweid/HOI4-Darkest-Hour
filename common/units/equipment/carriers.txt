@@ -52,14 +52,14 @@ equipments = {
 		manpower = 1100
 	}
 
-	carrier_1 = {
+	carrier_0 = {
 		archetype = carrier
 		priority = 70
 	}
 
-	carrier_2 = {
+	carrier_1 = {
 		archetype = carrier
-		parent = carrier_1
+		parent = carrier_0
 		priority = 70
 		
 		ap_attack = 0
@@ -94,9 +94,9 @@ equipments = {
 		manpower = 5000
 	}
 
-	carrier_3 = {
+	carrier_2 = {
 		archetype = carrier
-		parent = carrier_2
+		parent = carrier_1
 		priority = 70
 		
 		ap_attack = 0
@@ -131,9 +131,9 @@ equipments = {
 		manpower = 5500
 	}
 
-	carrier_4 = {
+	carrier_3 = {
 		archetype = carrier
-		parent = carrier_3
+		parent = carrier_2
 		priority = 70
 		
 		ap_attack = 0
@@ -168,6 +168,43 @@ equipments = {
 		manpower = 6000
 	}
 	
+	carrier_4 = {
+		archetype = carrier
+		parent = carrier_3
+		priority = 70
+		
+		ap_attack = 0
+		attack = 3
+		fire_range = 19
+		torpedo_attack = 0
+		carrier_size = 90
+		
+		anti_air_attack = 16
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 11000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}		
+		manpower = 6000
+	}
+
 	carrier_5 = {
 		archetype = carrier
 		parent = carrier_4
@@ -203,8 +240,8 @@ equipments = {
 			chromium = 2
 		}		
 		manpower = 6000
-	}
-
+	}	
+	
 	carrier_6 = {
 		archetype = carrier
 		parent = carrier_5
@@ -240,9 +277,46 @@ equipments = {
 			chromium = 2
 		}		
 		manpower = 6000
-	}	
+	}
+
+	carrier_7 = {
+		archetype = carrier
+		parent = carrier_6
+		priority = 70
+		
+		ap_attack = 0
+		attack = 3
+		fire_range = 19
+		torpedo_attack = 0
+		carrier_size = 90
+		
+		anti_air_attack = 16
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 11000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}		
+		manpower = 6000
+	}
 	
-	nuclear_carrier_1 = {
+	nuclear_carrier_0 = {
 		archetype = carrier
 		parent = carrier_6
 		priority = 70

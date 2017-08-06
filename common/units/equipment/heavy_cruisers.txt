@@ -47,10 +47,20 @@ equipments = {
 		manpower = 800
 	}
 
+	heavy_cruiser_0 = {
+		archetype = heavy_cruiser
+		priority = 40	
+	}
+
 	heavy_cruiser_1 = {
 		archetype = heavy_cruiser
-		priority = 40
-		
+		parent = heavy_cruiser_0
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
 	}
 	
 	heavy_cruiser_2 = {
@@ -198,4 +208,38 @@ equipments = {
 		}		
 		manpower = 2200
 	}
+	
+	heavy_cruiser_6 = {
+		archetype = heavy_cruiser
+		parent = heavy_cruiser_5
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+	}	
+	
+	heavy_cruiser_7 = {
+		archetype = heavy_cruiser
+		parent = heavy_cruiser_6
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+	}	
+	
+	heavy_cruiser_8 = {
+		archetype = heavy_cruiser
+		parent = heavy_cruiser_7
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+	}	
+	
 }

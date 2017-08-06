@@ -1,4 +1,20 @@
 ﻿l_english:
+###### Austria events-------------------------------------
+ DH_austria.1.t:0 "German Anschluss"
+ DH_austria.1.d:0 "Germany demands we join them completely"
+ DH_austria.1.a:0 "Accept"
+ DH_austria.1.b:0 "Refuse"
+
+ DH_austria.2.t:0 "German Anschluss"
+ DH_austria.2.d:0 "Germany demand we become their puppet"
+ DH_austria.2.a:0 "Accept"
+ DH_austria.2.b:0 "Refuse"
+
+ DH_austria.3.t:0 "German Alliance"
+ DH_austria.3.d:0 "Germany has offered us a chance to join their Alliance"
+ DH_austria.3.a:0 "Accept"
+ DH_austria.3.b:0 "Refuse"
+
 ###### German RK events-------------------------------------
  germany_establish_rk_ostland:0 "The Baltic States and Belarus will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
  germany_establish_rk_ukraine:0 "The Ukraine will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
@@ -7,6 +23,7 @@
  germany_establish_rk_ural:0 "It will reach from the Ural in the west to the Yenisei river in the east."
  germany_establish_rk_siberien:0 "A loyal government that will watch over the people of Siberia."
  germany_rk_military_occupation:0 "Full control of the region is in our best interest."
+ germany_establish_generalgouvernement_polen:0 "Establish the closely integrated Generalgouvernement Polen in Poland."
 
  DH_germany_rk.1.t:0 "Reichskommissariat Ostland"
  DH_germany_rk.1.d:0 "The Baltics and Belarus have come under military jurisdication, prompting the question of what should be done with the region. Some argue for a Reichskommissariat Ostland to keep the populations in check so that the transition is smooth and economically vital sectors are not hindered in thei daily operations."
@@ -48,11 +65,15 @@
  DH_germany_rk.8.a:0 "Establish the Reichskommissariat."
  DH_germany_rk.8.b:0 "Continue Military Occupation."
  
- DH_germany_rk.8.t:0 "Reichskommissariat Siberien"
- DH_germany_rk.8.d:0 "The harsh weather and difficult terrain in Siberia as well as the mostly empty wilderness would make it very difficult to send an army to rule whatever is populated by humans. Let us establish a friendly government instead."
- DH_germany_rk.8.a:0 "Establish the Reichskommissariat."
- DH_germany_rk.8.b:0 "Continue Military Occupation."
- 
+ DH_germany_rk.9.t:0 "Reichskommissariat Siberien"
+ DH_germany_rk.9.d:0 "The harsh weather and difficult terrain in Siberia as well as the mostly empty wilderness would make it very difficult to send an army to rule whatever is populated by humans. Let us establish a friendly government instead."
+ DH_germany_rk.9.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.9.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.10.t:0 "Generalgouvernement Polen"
+ DH_germany_rk.10.d:0 "Placeholder."
+ DH_germany_rk.10.a:0 "Establish the Generalgouvernement Polen."
+ DH_germany_rk.10.b:0 "Continue Military Occupation."
  
  ###### German events-------------------------------------
  germany.94.b:0 "We should Partition this territory among our friends."
@@ -74,11 +95,6 @@
  DH_germany.4.t:0 "Telegram from Lisbon, they accept!"
  DH_germany.4.d:0 "Our demands have been approved by Lisbon and a handover of the Cape Verde and Azores will be arranged. Portugal has proven to be willing, but only time will determine their future destiny within the New Order of Europe."
  DH_germany.4.a:0 "Splendid!"
- 
- DH_germany.14.t:0 "Coup in Norway"
- DH_germany.14.d:0 "A small national socialist movement had been active politically in Norway under Quisling since 1933, only gaining a marginal percentage of the overall votes in elections. This time however, Quisling has organised a take over of the national radio broadcast in Oslo, proclaiming to be the new Prime Minister of Norway. This could be the opportunity that Germany had hoped for..."
- DH_germany.14.a:0 "Back up Quisling."
- DH_germany.14.b:0 "Germany doesn't need him."
  
  DH_germany.5.t:0 "Telegram from Lisbon, they reject!"
  DH_germany.5.d:0 "German attempts to attain foreward naval bases in the Atlantic have been met with stiff resistance from the Portuguese government, leaving us no option but to explore alternative ways to gain a hold on the shipping lanes to and from Europe. Perhaps Franco's Spain can be enticed to launch a frontal assault on Portugal..."
@@ -124,6 +140,11 @@
  DH_germany.13.a:0 "Keep Cyprus"
  DH_germany.13.b:0 "Give it to the Turks"
  DH_germany.13.c:0 "Give it to the Italians"
+
+ DH_germany.14.t:0 "Coup in Norway"
+ DH_germany.14.d:0 "A small national socialist movement had been active politically in Norway under Quisling since 1933, only gaining a marginal percentage of the overall votes in elections. This time however, Quisling has organised a take over of the national radio broadcast in Oslo, proclaiming to be the new Prime Minister of Norway. This could be the opportunity that Germany had hoped for..."
+ DH_germany.14.a:0 "Back up Quisling."
+ DH_germany.14.b:0 "Germany doesn't need him."
  
  DH_germany.15.t:0 "Norwegian Anschluss"
  DH_germany.15.d:0 "National-Socialism has proven to be successfully implemented in Norway, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Norwegian society, thereby turning Norway into a province of the Reich."
@@ -369,6 +390,11 @@
  DH_soviet.7.d:0 "We have failed in achieving our goal of protecting our Communist brothers in Xinjiang. We should make peace with our enemy and help fuel the revolution another time."
  DH_soviet.7.a:0 "We shall accept peace, for now."
  DH_soviet.7.b:0 "We will continue fighting to liberate our comrades!"
+
+ DH_soviet.8.t:0 "Move Industry to the Urals"
+ DH_soviet.8.d:0 "It would be smart of us to move our industry to the Urals as a war with germany seems inevitable."
+ DH_soviet.8.a:0 "Smart move."
+ DH_soviet.8.b:0 "Don't be ridiculous"
  
  ###### Commonwealth events-------------------------------------
  DH_commonwealth.1.t:0 "Commonwealth Membership Questioned"
@@ -428,6 +454,23 @@
  DH_prc.2.d:0 "Even though the Japanese have been driven off the mainland, they still want to continue the war. Their arrogance will be their end."
  DH_prc.2.a:0 "We will end them once and for all."
 
+  ###### Japanese events----------------------------------------
+ 
+ DH_japan.1.t:0 "Offer China Peace"
+ DH_japan.1.d:0 "China has pushed us back to our Korea holdings. Perhaps we should consider giving them a peace deal before we are pushed off the Mainland of Asia completely."
+ DH_japan.1.a:0 "We should offer peace."
+ DH_japan.1.b:0 "Never Give In!"
+
+ DH_japan.2.t:0 "Offer PRC Peace"
+ DH_japan.2.d:0 "The PRC has pushed us back to our Korea holdings. Perhaps we should consider giving them a peace deal before we are pushed off the Mainland of Asia completely."
+ DH_japan.2.a:0 "We should offer peace."
+ DH_japan.2.b:0 "Never Give In!"
+
+ DH_japan.3.t:0 "Coup attampt in Tokyo!"
+ DH_japan.3.d:0 "Today February 26th, 1936, Kodoha junior officers from units in the Tokyo area staged a coup d'état. In the early morning, 1,400 officers and men embarked on missions to eliminate the political leaders of Japan. Their victims included Lord Keeper of the Privy Seal Saito Makoto, Finance Minister Takahashi Korekiyo and Army Inspector General Watanabe Jotaro. Intended victims who escaped included Prime Minister Okada Keisuke, Grand Chamberlain Suzuki Kantaro, Prince Saionji Kinmochi and Count Makino Nobuaki. The Kodoha forces seized control of key communications and administrative facilities and for several days the outcome hung in the balance."
+ DH_japan.3.a:0 "Crush them!"
+ DH_japan.3.b:0 "Let's listen to their demands"
+
  ###### Xinjiang events----------------------------------
  DH_xinjiang.1.t:0 "Xinjiang Rebellion"
  DH_xinjiang.1.d:0 "A Islamist rebellion has risen up in Xinjiang. We must crush these dissenters!"
@@ -438,7 +481,7 @@
  DH_xinjiang.2.a:0 "They are defeated. We must focus on other matters."
  DH_xinjiang.2.b:0 "We must free the Chinese people from tyranny!"
  
-  ###### East Turkestan events----------------------------------
+ ###### East Turkestan events----------------------------------
  DH_eastturkestan.1.t:0 "Offer Soviets Peace"
  DH_eastturkestan.1.d:0 "We have achieved our goal and established our Islamic Republic, let us make peace with the Soviets before this ends"
  DH_eastturkestan.1.a:0 "Peace is our only option."

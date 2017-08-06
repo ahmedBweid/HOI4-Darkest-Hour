@@ -60,7 +60,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservative = { 
 			popularity = 20
 		}
 
@@ -68,7 +68,7 @@ set_politics = {
 			popularity = 60
 		}
 		
-		communism = {
+		stalinist = {
 			popularity = 20
 			banned = yes #default is no
 		}

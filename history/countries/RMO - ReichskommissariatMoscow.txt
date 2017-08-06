@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_SIEGFRIED_KASCHE_DESC" 
 	picture = "Portrait_Germany_Siegfried_Kasche.dds" 
 	expire = "1973.5.3" 
-	ideology = nazism 
+	ideology = national_socialism 
 	traits = { }
 }			
 

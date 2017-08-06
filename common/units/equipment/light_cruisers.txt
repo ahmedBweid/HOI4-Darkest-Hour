@@ -46,7 +46,7 @@ equipments = {
 		manpower = 350
 	}
 
-	light_cruiser_1 = {
+	light_cruiser_0 = {
 		archetype = light_cruiser
 		priority = 30
 
@@ -54,7 +54,17 @@ equipments = {
 			screen_ship
 			anti_air
 		}
+	}
+	
+	light_cruiser_1 = {
+		archetype = light_cruiser
+		parent = light_cruiser_0
+		priority = 30
 
+		type = { 
+			screen_ship
+			anti_air
+		}
 	}
 	
 	light_cruiser_2 = {
@@ -214,4 +224,38 @@ equipments = {
 		}
 		manpower = 1140
 	}
+	
+	light_cruiser_6 = {
+		archetype = light_cruiser
+		parent = light_cruiser_5
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+	}	
+	
+	light_cruiser_7 = {
+		archetype = light_cruiser
+		parent = light_cruiser_6
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+	}	
+	
+	light_cruiser_8 = {
+		archetype = light_cruiser
+		parent = light_cruiser_7
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+	}
+	
 }

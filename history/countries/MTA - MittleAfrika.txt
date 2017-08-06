@@ -62,7 +62,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservative = { 
 			popularity = 0
 		}
 
@@ -70,7 +70,7 @@ set_politics = {
 			popularity = 75
 		}
 		
-		communism = {
+		stalinist = {
 			popularity = 10
 			#banned = no #default is no
 		}
@@ -85,4 +85,3 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-

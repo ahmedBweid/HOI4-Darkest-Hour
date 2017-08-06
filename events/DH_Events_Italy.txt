@@ -39,15 +39,12 @@ country_event = {
 			ai_chance = { 
 				factor = 90
 			}
-			set_cosmetic_tag = ITA_GER_fascism
-			GER = {
-				puppet = ITA 
-				set_state_owner = 736
-				set_state_owner = 746
-				set_state_owner = 750
-				set_state_owner = 39				
-			}
-			
+			set_cosmetic_tag = ITA_GER_national_socialist
+			puppet = ITA 
+			set_state_owner = 736
+			set_state_owner = 746
+			set_state_owner = 750
+			set_state_owner = 39				
 		}
 		
 		# 
@@ -62,11 +59,11 @@ country_event = {
 			}
 			set_politics = { 
 				parties = {
-					democratic = { popularity = 60 }
+					social_conservative = { popularity = 60 }
 					fascism = { popularity = 29 }
-					communism = { popularity = 11 }
+					stalinist = { popularity = 11 }
 				} 
-				ruling_party = democratic elections_allowed = yes 
+				ruling_party = social_conservative elections_allowed = yes 
 			}
 			remove_ideas = vittoria_mutilata 
 			ENG = { add_to_faction = ITA }
@@ -78,14 +75,14 @@ country_event = {
 			}
 			USA = {
 				white_peace = {
-				tag = ITA
-				message = ITA_agree_peace 
+					tag = ITA
+					message = ITA_agree_peace 
 				}
 			}
 			FRA = { 
 				white_peace = {
-				tag = ITA
-				message = ITA_agree_peace 
+					tag = ITA
+					message = ITA_agree_peace 
 				}
 			}
 		}		
@@ -116,10 +113,12 @@ country_event = {
 			add_state_core = 39
 			transfer_state = 39
 			country_event = { hours = 6 id = DH_germany.8 }
+			39 = { set_state_name = "Südtirol" }
 		}
 		ITA = {
 			add_state_core = 748
 			transfer_state = 748
+			748 = { set_state_name = "Ticino-Grigioni" }
 		}
   }
 }

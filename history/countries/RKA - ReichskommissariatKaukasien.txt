@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_ARNO_SCHICKEDANZ_DESC" 
 	picture = "Portrait_Germany_Arno_Schickedanz.dds" 
 	expire = "1961.2.19" 
-	ideology = nazism
+	ideology = national_socialism
 	traits = { } 
 }			
 

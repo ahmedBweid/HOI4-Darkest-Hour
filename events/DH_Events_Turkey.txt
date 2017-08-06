@@ -24,8 +24,8 @@ country_event = {
 			modifier = {
 				TUR = {
 					OR = {
-						has_government = democratic
-						has_government = communism
+						has_government = social_conservative
+						has_government = stalinist
 					}
 				}
 				factor = 0.04
@@ -109,7 +109,7 @@ country_event = {
 			factor = 100
 			modifier = {
 				TUR = {
-					has_government = democratic
+					has_government = social_conservative
 				}
 			factor = 0
 			}
@@ -160,7 +160,7 @@ country_event = {
 			factor = 0
 			modifier = {
 				TUR = {
-					has_government = democratic
+					has_government = social_conservative
 				}
 			factor = 100
 			}

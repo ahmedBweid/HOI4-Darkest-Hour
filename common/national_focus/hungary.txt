@@ -773,7 +773,7 @@ focus_tree = {
 		}
 
 		available = {
-			democratic > 0.4
+			social_conservative > 0.4
 		}
 
 		bypass = {
@@ -1020,7 +1020,7 @@ focus_tree = {
 			is_in_faction_with = ENG
 			ENG = {
 				is_faction_leader = yes
-				has_government = democratic
+				has_government = social_conservative
 			}
 		}
 
@@ -1110,7 +1110,7 @@ focus_tree = {
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = national_socialism
 						traits = {
 						}
 						id = 502 #Nazi Franz
@@ -1122,7 +1122,7 @@ focus_tree = {
 						desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 						picture = GFX_Portrait_hungary_friedrich_franz
 						expire = "1965.1.1"
-						ideology = nazism
+						ideology = national_socialism
 						traits = {
 						}
 						id = 502 #Nazi Franz
@@ -2173,12 +2173,12 @@ focus_tree = {
 		}
 
 		available = {
-			communism > 0.3
+			stalinist > 0.3
 
 		}
 
 		bypass = {
-			has_government = communism
+			has_government = stalinist
 		}
 
 		cancel_if_invalid = yes
@@ -2195,7 +2195,7 @@ focus_tree = {
 				kill_country_leader = yes
 			}
 			set_politics = {
-				ruling_party = communism
+				ruling_party = stalinist
 				elections_allowed = no
 			}
 			news_event = { id = news.314 }
@@ -2304,7 +2304,7 @@ focus_tree = {
 			}
 			is_subject = no
 			SOV = { is_faction_leader = yes }
-			communism > 0.5
+			stalinist > 0.5
 		}
 
 		bypass = {
@@ -2337,7 +2337,7 @@ focus_tree = {
 							desc = "POLITICS_BELA_KUN_DESC"
 							picture = GFX_Portrait_hungary_bela_kun
 							expire = "1965.1.1"
-							ideology = marxism
+							ideology = leninism
 							traits = {
 							}
 						}

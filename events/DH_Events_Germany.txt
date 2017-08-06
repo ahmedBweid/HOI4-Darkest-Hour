@@ -413,8 +413,6 @@ country_event = {
 	}
 }
 
-
-
 #########################################################################
 #  Coup in Norway
 #########################################################################
@@ -428,7 +426,7 @@ country_event = {
         trigger = {
 			tag = GER
 			GER = { 
-				has_government = fascism 
+				has_government = national_socialist 
 				OR = {
 					divisions_in_state = { state = 144 size > 0 }
 					divisions_in_state = { state = 143 size > 0 }
@@ -459,9 +457,6 @@ country_event = {
 	}	
 }
 
-
-
-
 #########################################################################
 #  Norwegian Anschluss
 #########################################################################
@@ -472,16 +467,16 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_government = fascism
-			}
-			NOR = {
-				is_subject_of = GER
-				is_ai = yes
-			}
-        }
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+		}
+		NOR = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1460	
@@ -491,7 +486,10 @@ country_event = {
 	option = { 
 		name = DH_germany.15.a
 		annex_country = { target = NOR }
-	}	
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.15 } }
+		}
+	}
 }
 
 #########################################################################
@@ -504,16 +502,16 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_government = fascism
-			}
-			DEN = {
-				is_subject_of = GER
-				is_ai = yes
-			}
-        }
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+		}
+		DEN = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1095	
@@ -523,7 +521,10 @@ country_event = {
 	option = { 
 		name = DH_germany.16.a
 		annex_country = { target = DEN }
-	}	
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.17 } }
+		}
+	}
 }
 
 #########################################################################
@@ -539,7 +540,7 @@ country_event = {
         trigger = {
 			tag = GER
 			GER = { 
-				has_government = fascism
+				has_government = national_socialist
 			}
 			ICE = {
 				is_subject_of = GER
@@ -555,6 +556,9 @@ country_event = {
 	option = { 
 		name = DH_germany.17.a
 		annex_country = { target = ICE }
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.19 } }
+		}
 	}	
 }
 
@@ -571,7 +575,7 @@ country_event = {
         trigger = {
 			tag = GER
 			GER = { 
-				has_government = fascism
+				has_government = national_socialist
 			}
 			SWE = {
 				is_subject_of = GER
@@ -587,6 +591,9 @@ country_event = {
 	option = { 
 		name = DH_germany.18.a
 		annex_country = { target = SWE }
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.21 } }
+		}
 	}	
 }
 
@@ -608,7 +615,10 @@ country_event = {
 	option = { 
 		name = DH_germany.19.a
 		GER = {	
-			add_state_core = 85				
+			add_state_core = 85
+		}
+		hidden_effect = {
+			GER = { country_event = { id = DH_cityname.23 } }
 		}
 	}	
 }
@@ -627,7 +637,7 @@ country_event = {
 			tag = GER
 			GER = { 
 				has_completed_focus = GER_heim
-				has_government = fascism
+				has_government = national_socialist
 				has_full_control_of_state = 747
 				has_full_control_of_state = 72	
 				NOT = {
@@ -646,8 +656,11 @@ country_event = {
 	option = { 
 		name = DH_germany.20.a
 		GER = {
-			add_state_core = 747		
-			add_state_core = 72			
+			add_state_core = 747
+			add_state_core = 72
+		}
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.25 } }
 		}
 	}	
 }
@@ -666,7 +679,7 @@ country_event = {
 			tag = GER
 			GER = { 
 				has_completed_focus = GER_heim			
-				has_government = fascism
+				has_government = national_socialist
 				has_full_control_of_state = 188
 				has_full_control_of_state = 98	
 				NOT = {
@@ -685,8 +698,11 @@ country_event = {
 	option = { 
 		name = DH_germany.21.a
 		GER = {
-			add_state_core = 188		
-			add_state_core = 98			
+			add_state_core = 188
+			add_state_core = 98
+		}
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.27 } }
 		}
 	}	
 }
@@ -705,7 +721,7 @@ country_event = {
 			tag = GER
 			GER = { 
 				has_completed_focus = GER_heim			
-				has_government = fascism
+				has_government = national_socialist
 				has_full_control_of_state = 86
 				has_full_control_of_state = 87	
 				NOT = {
@@ -727,6 +743,9 @@ country_event = {
 			add_state_core = 86		
 			add_state_core = 87		
 		}
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.29 } }
+		}
 	}	
 }
 
@@ -745,7 +764,7 @@ country_event = {
 			tag = GER			
 			GER = { 
 				has_completed_focus = GER_heim			
-				has_government = fascism
+				has_government = national_socialist
 				has_full_control_of_state = 102
 				NOT = {
 					102 = { is_core_of = GER }
@@ -1073,7 +1092,7 @@ country_event = {
         trigger = {
 			tag = GER
 			GER = { 
-				has_government = fascism
+				has_government = national_socialist
 			}
 			AUS = {
 				is_subject_of = GER
@@ -1112,8 +1131,8 @@ country_event = {
 			modifier = {
 				SWE = {
 					OR = {
-					 has_government = communism
-					 has_government = democratic
+					 has_government = stalinist
+					 has_government = social_conservative
 					}
 				}
 				factor = 0.1
@@ -1229,7 +1248,47 @@ country_event = {
 
 		set_global_flag = vichy_established							
  
-		GER = { puppet = VIC }			
+		GER = {
+			if = {
+				limit = {
+						AND = {
+							NOT = { has_dlc = "Death or Dishonor" }
+							has_dlc = "Together for Victory"
+						}
+					}
+				set_autonomy = {
+					target = VIC
+					autonomous_state = autonomy_satellite
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = VIC
+					autonomous_state = autonomy_reichsprotectorate
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = VIC
+			}
+		}			
 		VIC = {
 				#annex_country =  { target = FRA transfer_troops = yes }  We need the Occupation zones to be done
 				set_equipment_fraction = 0.2				
@@ -1350,8 +1409,6 @@ country_event = { #Italy refused
 				}
 			}					
 	}
-	
-	
 
 	#Their loss ...
 	option = {
@@ -1441,8 +1498,8 @@ country_event = {
 				transfer_state = 338
 				transfer_state = 123
 			}
-			EGL = { set_political_party = { ideology = fascism popularity = 1 } }
-			EGL = { set_politics = { ruling_party = fascism elections_allowed = no } }
+			EGL = { set_political_party = { ideology = national_socialist popularity = 1 } }
+			EGL = { set_politics = { ruling_party = national_socialist elections_allowed = no } }
 			GER = { add_to_faction = EGL }
 			EGL = {
 				add_ai_strategy = {
@@ -1487,44 +1544,99 @@ country_event = {
 			120 = { add_core_of = SCO }
 			ENG = { release = SCO }
 			ENG = { release = EGL }
-			SCO = { set_political_party = { ideology = fascism popularity = 1 } }
-			EGL = { set_political_party = { ideology = fascism popularity = 1 } }              
-			SCO = { set_politics = { ruling_party = fascism elections_allowed = no } }
-			EGL = { set_politics = { ruling_party = fascism elections_allowed = no } }
+			SCO = { set_political_party = { ideology = national_socialist popularity = 1 } }
+			EGL = { set_political_party = { ideology = national_socialist popularity = 1 } }              
+			SCO = { set_politics = { ruling_party = national_socialist elections_allowed = no } }
+			EGL = { set_politics = { ruling_party = national_socialist elections_allowed = no } }
 			IRE = { transfer_state = 119 }
 			CAN = { transfer_state = 332 }
 			CAN = { transfer_state = 331 }
 			GER = {
 				if = {
 					limit = {
-						has_dlc = "Together for Victory"
+						OR = {
+							AND = {
+								has_dlc = "Death or Dishonor"
+								has_dlc = "Together for Victory"
+							}
+							AND ={
+								has_dlc = "Death or Dishonor"
+								NOT = { has_dlc = "Together for Victory" }
+							}
+						}
+					}
+					set_autonomy = {
+						target = SCO
+						autonomous_state = autonomy_reichskommissariat
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { has_dlc = "Death or Dishonor" }
+							has_dlc = "Together for Victory"
+						}
 					}
 					set_autonomy = {
 						target = SCO
 						autonomous_state = autonomy_satellite
 					}
-					else = {
-						puppet = SCO
-					}
 				}
-			}
-			GER = { 	
 				if = {
 					limit = {
-						has_dlc = "Together for Victory"
+						AND = {
+							NOT = { has_dlc = "Together for Victory" }
+							NOT = { has_dlc = "Death or Dishonor" }
+						}
+					}
+					puppet = SCO
+				}
+			}
+			GER = {
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								has_dlc = "Death or Dishonor"
+								has_dlc = "Together for Victory"
+							}
+							AND ={
+								has_dlc = "Death or Dishonor"
+								NOT = { has_dlc = "Together for Victory" }
+							}
+						}
+					}
+					set_autonomy = {
+						target = SCO
+						autonomous_state = autonomy_reichskommissariat
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { has_dlc = "Death or Dishonor" }
+							has_dlc = "Together for Victory"
+						}
 					}
 					set_autonomy = {
 						target = EGL
 						autonomous_state = autonomy_satellite
 					}
-					else = {
-						puppet = EGL
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { has_dlc = "Together for Victory" }
+							NOT = { has_dlc = "Death or Dishonor" }
+						}
 					}
+					puppet = EGL
 				}
 			}
 			EGL = { set_cosmetic_tag = EGL_GER_RP }
 			SCO = { set_cosmetic_tag = SCO_GER_RP }
 			EGL = { set_country_flag = friendly_regime }
+			#GER = { country_event = { id = DH_cityname.31 } }
 		}
 	}
 }
@@ -1541,23 +1653,23 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
+		GER = { has_government = national_socialist }
 		ROS = { exists = no }
 		LIT = { exists = no }
-		EST = { exists = no }		
-		LAT = { exists = no }	
-		GER = { 
-			has_full_control_of_state = 13 
+		EST = { exists = no }
+		LAT = { exists = no }
+		GER = {
+			has_full_control_of_state = 13
 			has_full_control_of_state = 12
 			has_full_control_of_state = 11
 			has_full_control_of_state = 96
-			has_full_control_of_state = 206		
+			has_full_control_of_state = 206
 			has_full_control_of_state = 191
 			has_full_control_of_state = 190			
 			has_full_control_of_state = 189
 			has_full_control_of_state = 95
 			has_full_control_of_state = 204				
-		}	
+		}
 	}
 	
 #Establish RK Ostland
@@ -1567,7 +1679,45 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			puppet = ROS
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = ROS
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = ROS
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = ROS
+			}
 			ROS = {
 				transfer_state = 13 
 				transfer_state = 12
@@ -1580,8 +1730,28 @@ country_event = {
 				transfer_state = 95
 				transfer_state = 204				
 			}	
+			set_province_name = { id = 3320 name = "Wilna"}
+			set_province_name = { id = 6296 name = "Kauen"}
+			set_province_name = { id = 9483 name = "Schaulen"}
+			set_province_name = { id = 310 name = "Dünaburg"}
+			set_province_name = { id = 9221 name = "Dorpat"}
+			set_province_name = { id = 3152 name = "Reval"}
+			set_province_name = { id = 11370 name = "Minden"}
+			set_province_name = { id = 11241 name = "Weißenbau"}
+			set_province_name = { id = 9288 name = "Homiel"}
+			set_province_name = { id = 306 name = "Schmölenz"}
+			13 = { set_state_name = "Harrien" }
+			12 = { set_state_name = "Livland" }
+			11 = { set_state_name = "Kauen" }
+			96 = { set_state_name = "Wilna" }
+			206 = { set_state_name = "Mindenland" }
+			191 = { set_state_name = "Dorpat" }
+			190 = { set_state_name = "Kurland" }
+			189 = { set_state_name = "Schaulen" }
+			95 = { set_state_name = "Neugraudenz" }
+			204 = { set_state_name = "Mogilau" }
 		}
-		custom_effect_tooltip = germany_establish_rk_ostland		
+		custom_effect_tooltip = germany_establish_rk_ostland
 	}
 	#Establish direct military occupation
 	option = { 
@@ -1605,21 +1775,22 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
+		GER = { has_government = national_socialist }
 		RUK = { exists = no }
-		GER = { 
-			has_full_control_of_state = 94 
+		GER = {
+			has_full_control_of_state = 94
 			has_full_control_of_state = 93
 			has_full_control_of_state = 199
 			has_full_control_of_state = 201
 			has_full_control_of_state = 194		
 			has_full_control_of_state = 202
-			has_full_control_of_state = 203			
+			has_full_control_of_state = 203
 			has_full_control_of_state = 197
 			has_full_control_of_state = 196
-			has_full_control_of_state = 200		
-			has_full_control_of_state = 226				
-		}	
+			has_full_control_of_state = 200
+			has_full_control_of_state = 226
+			has_full_control_of_state = 137
+		}
 	}
 	
 # Establish RK Ukraine
@@ -1629,7 +1800,45 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			puppet = RUK
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RUK
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = RUK
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = RUK
+			}
 			RUK = {
 				transfer_state = 94
 				transfer_state = 93
@@ -1665,6 +1874,19 @@ country_event = {
 				}
 			}
 #----------------------	
+			set_province_name = { id = 11405 name = "Alexanderstadt"}
+			set_province_name = { id = 3392 name = "Hindenburg"}
+			set_province_name = { id = 11437 name = "Katerinoslau"}
+			set_province_name = { id = 525 name = "Kiroffo"}
+			set_province_name = { id = 11561 name = "Siegen Rog" }
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 192
+					}
+				}
+				set_province_name = { id = 11670 name = "Gotenschau" }
+			}
 		}
 		custom_effect_tooltip = germany_establish_rk_ukraine
 	}
@@ -1690,10 +1912,10 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
+		GER = { has_government = national_socialist }
 		RMO = { exists = no }
-		ROS = { exists = yes has_government = fascism }	
-		RUK = { exists = yes has_government = fascism }			
+		ROS = { exists = yes has_government = national_socialist }	
+		RUK = { exists = yes has_government = national_socialist }			
 		GER = { 
 			has_full_control_of_state = 262
 			has_full_control_of_state = 581
@@ -1741,10 +1963,44 @@ country_event = {
 		}
 		hidden_effect = {
 			set_cosmetic_tag = GER_GREATER
-			puppet = RMO
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RMO
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Death or Dishonor" }
+					has_dlc = "Together for Victory"
+				}
+				set_autonomy = {
+					target = RMO
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = RMO
+			}
 			RMO = {
-				add_popularity = { ideology = fascism popularity = 0.1 }
-				set_politics = { ruling_party = fascism elections_allowed = no }
 				transfer_state = 262
 				transfer_state = 581
 				transfer_state = 573
@@ -1781,6 +2037,21 @@ country_event = {
 				transfer_state = 242	
 				transfer_state = 243			
 			}
+			set_province_name = { id = 1278 name = "Ufer"}
+			set_province_name = { id = 7375 name = "Dauerwelle"}
+			set_province_name = { id = 3338 name = "Erzengel"}
+			set_province_name = { id = 11349 name = "Rosau"}
+			set_province_name = { id = 6338 name = "Kosakenstadt"}
+			set_province_name = { id = 11225 name = "Festungrode"}
+			set_province_name = { id = 11375 name = "Neuholmgard"}
+			set_province_name = { id = 121 name = "Jarschlau"}
+			set_province_name = { id = 6245 name = "Königstein"}
+			set_province_name = { id = 3140 name = "Straßenmarkt"}
+			set_province_name = { id = 6380 name = "Moskau"}
+			set_province_name = { id = 3580 name = "Zitadellenfurt"}
+			set_province_name = { id = 6262 name = "Thulestadt"}
+			set_province_name = { id = 3335 name = "Waldemarstadt"}
+			set_province_name = { id = 306 name = "Schmölenz"}
 #Finland stuff
 			if = {
 				limit = {
@@ -1805,12 +2076,13 @@ country_event = {
 			if = {
 				limit = {
 					GER = {
-						has_full_control_of_state = 216
+						has_full_control_of_state = 2163
 					}
 				}
 				RMO = {
 					transfer_state = 216
 				}
+				set_province_name = { id = 11159 name = "Petroskoi"}
 			}
 #----
 #Expand RK Ostland
@@ -1823,6 +2095,17 @@ country_event = {
 				transfer_state = 207
 				transfer_state = 241
 			}
+			set_province_name = { id = 3151 name = "Wolfsburg"}
+			set_province_name = { id = 117 name = "Holmgard"}
+			set_province_name = { id = 11241 name = "Weißenbau"}
+			set_province_name = { id = 9288 name = "Homiel"}
+			195 = { set_state_name = "Wolfsburg" }
+			208 = { set_state_name = "Lüka" }
+			209 = { set_state_name = "Pleskau" }
+			263 = { set_state_name = "Holmgard" }
+			210 = { set_state_name = "Nebel" }
+			207 = { set_state_name = "Weißenbau" }
+			241 = { set_state_name = "Homiel" }
 #Expand  RK Ukraine		
 			RUK = {
 				transfer_state = 193
@@ -1839,6 +2122,13 @@ country_event = {
 				transfer_state = 217
 				transfer_state = 239
 			}
+			set_province_name = { id = 418 name = "Karkau"}
+			set_province_name = { id = 413 name = "Rabenblatt"}
+			set_province_name = { id = 9461 name = "Lübhain"}
+			set_province_name = { id = 6474 name = "Neukoblenz"}
+			set_province_name = { id = 9417 name = "Donnhafen"}
+			set_province_name = { id = 3529 name = "Wolfstadt"}
+			set_province_name = { id = 3578 name = "Saartau"}
 		}
 #---
 		custom_effect_tooltip = germany_establish_rk_moscow	
@@ -1865,8 +2155,8 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
-		RUK = { exists = yes has_government = fascism }
+		GER = { has_government = national_socialist }
+		RUK = { exists = yes has_government = national_socialist }
 		RKA = { exists = no }
 		GER = {
 			has_full_control_of_state = 236
@@ -1889,7 +2179,45 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			puppet = RKA
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RKA
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = RKA
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = RKA
+			}
 			RKA = {
 				transfer_state = 236
 				transfer_state = 237
@@ -1902,6 +2230,18 @@ country_event = {
 				transfer_state = 230
 				transfer_state = 229
 			}
+			set_province_name = { id = 3734 name = "Katerinastadt"}
+			set_province_name = { id = 3720 name = "Markopf"}
+			set_province_name = { id = 3672 name = "Großneu"}
+			set_province_name = { id = 7661 name = "Windestadt"}
+			set_province_name = { id = 9753 name = "Etil"}
+			set_province_name = { id = 418 name = "Karkau"}
+			set_province_name = { id = 418 name = "Karkau"}
+			set_province_name = { id = 418 name = "Karkau"}
+			set_province_name = { id = 418 name = "Karkau"}
+			set_province_name = { id = 418 name = "Karkau"}
+			set_province_name = { id = 418 name = "Karkau"}
+			set_province_name = { id = 418 name = "Karkau"}
 		}
 		custom_effect_tooltip = germany_establish_rk_kaukasus	
 	}
@@ -1927,9 +2267,9 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
-		RMO = { exists = yes has_government = fascism }
-		RKA = { exists = yes has_government = fascism }
+		GER = { has_government = national_socialist }
+		RMO = { exists = yes has_government = national_socialist }
+		RKA = { exists = yes has_government = national_socialist }
 		RTU = { exists = no }
 		GER = {
 			has_full_control_of_state = 407
@@ -1955,7 +2295,45 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			puppet = RTU
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RTU
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = RTU
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = RTU
+			}
 			RTU = {
 				transfer_state = 407
 				transfer_state = 406
@@ -1996,7 +2374,7 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
+		GER = { has_government = national_socialist }
 		ICE = { exists = no }
 		GER = {
 			has_full_control_of_state = 100
@@ -2010,10 +2388,48 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			puppet = ICE
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = ICE
+					autonomous_state = autonomy_reichsprotectorate
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = ICE
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = ICE
+			}
 			ICE = {
-				add_popularity = { ideology = fascism popularity = 0.1 }
-				set_politics = { ruling_party = fascism elections_allowed = no }
+				add_popularity = { ideology = national_socialist popularity = 0.1 }
+				set_politics = { ruling_party = national_socialist elections_allowed = no }
 				set_cosmetic_tag = ICE_GER_RK
 				set_state_controller = 100
 				transfer_state = 100
@@ -2043,7 +2459,7 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
+		GER = { has_government = national_socialist }
 		SWE = { exists = no }
 		GER = {
 			has_full_control_of_state = 666
@@ -2063,10 +2479,48 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			puppet = SWE
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = SWE
+					autonomous_state = autonomy_reichsprotectorate
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = SWE
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = SWE
+			}
 			SWE = {
-				add_popularity = { ideology = fascism popularity = 0.1 }
-				set_politics = { ruling_party = fascism elections_allowed = no }
+				add_popularity = { ideology = national_socialist popularity = 0.1 }
+				set_politics = { ruling_party = national_socialist elections_allowed = no }
 				set_cosmetic_tag = SWE_GER_RK
 				transfer_state = 666
 				transfer_state = 38
@@ -2075,7 +2529,7 @@ country_event = {
 				transfer_state = 139
 				transfer_state = 138
 				transfer_state = 124
-				create_country_leader = { name = "Birger Furugård" desc = "POLITICS_ARNO_SCHICKEDANZ_DESC" picture = "Portrait_Germany_Arno_Schickedanz.dds" expire = "1963.2.19" ideology = nazism traits = { } }
+				create_country_leader = { name = "Birger Furugård" desc = "POLITICS_ARNO_SCHICKEDANZ_DESC" picture = "Portrait_Germany_Arno_Schickedanz.dds" expire = "1963.2.19" ideology = national_socialism traits = { } }
 			}
 		}
 		custom_effect_tooltip = germany_establish_rk_sweden
@@ -2102,7 +2556,7 @@ country_event = {
 	
 	trigger = {
 		tag = GER
-		GER = { has_government = fascism }
+		GER = { has_government = national_socialist }
 		RUR = { exists = no }
 		RMO = { exists = yes }
 		GER = {
@@ -2132,7 +2586,45 @@ country_event = {
 			factor = 100
 		}
 		hidden_effect = {
-			puppet = RUR
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RUR
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = RUR
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = RUR
+			}
 			RUR = {
 				transfer_state = 579
 				transfer_state = 580
@@ -2176,7 +2668,7 @@ country_event = {
 	
         trigger = {
 			tag = GER
-			GER = { has_government = fascism }
+			GER = { has_government = national_socialist }
 			SOV = { exists = no }	
 			GER = { 
 				has_full_control_of_state = 567
@@ -2206,10 +2698,47 @@ country_event = {
 # Establish RK Siberien
 	option = { 
 		name = DH_germany_rk.9.a
-		hidden_effect = {		
-			puppet = RSB
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RSB
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = RSB
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = RSB
+			}
 			RSB = {
-			
 				transfer_state = 567
 				transfer_state = 576
 				transfer_state = 516
@@ -2233,6 +2762,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_establish_rk_siberien	
 	}
+
 	#Establish direct military occupation
 	option = { 
 		name = DH_germany_rk.9.b
@@ -2241,4 +2771,209 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_rk_military_occupation		
 	}	
+}
+
+#########################################################################
+#  Generalgouvernement Polen
+#########################################################################
+country_event = {
+	id = DH_germany_rk.10
+	title = DH_germany_rk.10.t
+	desc = DH_germany_rk.10.d
+	picture = GFX_report_event_001
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		any_country = {
+			OR = {
+				tag = GER
+				is_subject_of = GER
+				is_in_faction_with = GER
+			}
+			has_full_control_of_state = 88
+		}
+		OR = {
+			POL = { has_capitulated = yes }
+			POL = { exists = no }
+		}
+	}
+	
+# Establish Generalgouvernement Polen
+	option = {
+		name = DH_germany_rk.10.a
+		hidden_effect = {		
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = GGP
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
+					}
+				}
+				set_autonomy = {
+					target = GGP
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = GGP
+			}
+			GGP = {	
+				transfer_state = 88
+			}
+			88 = { set_state_name = "Beskidenland" }
+			set_province_name = { id = 9427 name = "Krakau"}
+			set_province_name = { id = 3544 name = "Warschau"}
+			if = {
+				limit = {
+					any_country = {
+						OR = {
+							tag = GER
+							is_subject_of = GER
+							is_in_faction_with = GER
+						}
+						has_full_control_of_state = 10
+					}
+				}
+				GGP = { transfer_state = 10 }
+				10 = { set_state_name = "Südpreußen" }
+			}
+			if = {
+				limit = {
+					any_country = {
+						OR = {
+							tag = GER
+							is_subject_of = GER
+							is_in_faction_with = GER
+						}
+						has_full_control_of_state = 90
+					}
+				}
+				GGP = { transfer_state = 90 }
+				90 = { set_state_name = "Weichselland" }
+			}
+			if = {
+				limit = {
+					any_country = {
+						OR = {
+							tag = GER
+							is_subject_of = GER
+							is_in_faction_with = GER
+						}
+						has_full_control_of_state = 92
+					}
+				}
+				GGP = { transfer_state = 92 }
+				92 = { set_state_name = "Vandalenland" }
+			}
+		}
+		custom_effect_tooltip = germany_establish_generalgouvernement_polen
+	}
+
+#Establish direct military occupation
+	option = {
+		name = DH_germany_rk.10.b
+		ai_chance = {
+			factor = 100
+		}
+		if = {
+			limit = {
+				GER = {
+					has_full_control_of_state = 88
+					has_full_control_of_state = 10
+				}
+			}
+			set_province_name = { id = 9427 name = "Krakau"}
+			set_province_name = { id = 3544 name = "Warschau"}
+		}
+		custom_effect_tooltip = germany_rk_military_occupation		
+	}
+}
+
+#########################################################################
+#  Generalgouvernement Polen - Add east states if owned
+#########################################################################
+country_event = {
+	id = DH_germany_rk.11
+	title = DH_germany_rk.11.t
+	desc = DH_germany_rk.11.d
+	picture = GFX_report_event_001
+	fire_only_once = yes
+
+	hidden = yes
+	
+	trigger = {
+		tag = GER
+		country_exists = GGP
+		any_country = {
+			OR = {
+				tag = GER
+				is_subject_of = GER
+				is_in_faction_with = GER
+			}
+			has_full_control_of_state = 88
+		}
+	}
+
+	mean_time_to_happen = { days = 20 }
+	
+	#Expand Generalgouvernement Polen
+	option = { 
+		name = DH_germany_rk.11.a
+		hidden_effect = {
+			if = {
+				limit = {
+					any_country = {
+						OR = {
+							tag = GER
+							is_subject_of = GER
+							is_in_faction_with = GER
+						}
+						has_full_control_of_state = 91
+					}
+				}
+				GGP = { transfer_state = 91 }
+				91 = { set_state_name = "Galizien" }
+			}
+			if = {
+				limit = {
+					any_country = {
+						OR = {
+							tag = GER
+							is_subject_of = GER
+							is_in_faction_with = GER
+						}
+						has_full_control_of_state = 89
+					}
+				}
+				GGP = { transfer_state = 89 }
+				89 = { set_state_name = "Karpathenland" }
+			}
+			set_province_name = { id = 11479 name = "Lemberg"}
+		}
+	}
 }
