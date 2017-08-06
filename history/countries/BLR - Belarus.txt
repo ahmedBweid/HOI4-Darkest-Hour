@@ -38,7 +38,7 @@ set_politics = {
 			popularity = 15
 		}
 
-		neutrality = {
+		paternal_autocrat = {
 			popularity = 20
 		}
 		
@@ -46,7 +46,7 @@ set_politics = {
 			popularity = 60
 		}
 
-		fascism = { 
+		fascistic = { 
 			popularity = 5
 		}
 	}
@@ -57,7 +57,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
     expire = "1965.1.1"
-    ideology = centrism
+    ideology = paternal_autocracy
     traits = {
         #
     }
@@ -68,7 +68,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
     expire = "1965.1.1"
-    ideology = fascism_ideology
+    ideology = fascistic_ideology
     traits = {
         #
     }

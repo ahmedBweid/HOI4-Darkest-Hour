@@ -4,7 +4,7 @@
 
 add_namespace = political
 
-# Communism on the Rise
+# stalinist on the Rise
 country_event = {
 	id = political.1
 	title = political.1.t
@@ -30,17 +30,17 @@ country_event = {
 			}
 		}
 		custom_effect_tooltip = political.1.a.tt
-		clr_country_flag = communism_popular_movement
-		set_country_flag = communism_political_movement
+		clr_country_flag = stalinist_popular_movement
+		set_country_flag = stalinist_political_movement
 	}
 
 	# Seek popular support
 	option = {
 		name = political.1.b
 		custom_effect_tooltip = political.1.b.tt
-		clr_country_flag = communism_political_movement
-		clr_country_flag = communism_government_support
-		set_country_flag = communism_popular_movement
+		clr_country_flag = stalinist_political_movement
+		clr_country_flag = stalinist_government_support
+		set_country_flag = stalinist_popular_movement
 	}
 }
 
@@ -52,24 +52,24 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 
 	trigger = {
-		has_idea_with_trait = communist_revolutionary
+		has_idea_with_trait = stalinist_revolutionary
 		NOT = { has_government = stalinist }
-		NOT = { has_country_flag = communism_government_support }
+		NOT = { has_country_flag = stalinist_government_support }
 	}
 	
 	mean_time_to_happen = {
 		days = 500
 		modifier = {
 			factor = 0.5
-			has_country_flag = communism_political_movement
+			has_country_flag = stalinist_political_movement
 		}
 	}
 	
 	option = {
 		name = political.2.a
 		custom_effect_tooltip = political.2.a.tt
-		clr_country_flag = communism_political_movement
-		set_country_flag = communism_government_support
+		clr_country_flag = stalinist_political_movement
+		set_country_flag = stalinist_government_support
 	}
 }
 
@@ -81,9 +81,9 @@ country_event = {
 	picture = GFX_report_event_gathering_protest
 	
 	trigger = {
-		has_idea_with_trait = communist_revolutionary
+		has_idea_with_trait = stalinist_revolutionary
 		NOT = { has_government = stalinist }
-		has_country_flag = communism_government_support
+		has_country_flag = stalinist_government_support
 		stalinist > 0.4
 		is_major = no
 		is_puppet = no
@@ -105,7 +105,7 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = { remove_ideas = communist_revolutionaries }
+		hidden_effect = { remove_ideas = stalinist_revolutionaries }
 	}
 	
 	option = {
@@ -126,7 +126,7 @@ country_event = {
 	picture = GFX_report_event_gathering_protest
 	
 	trigger = {
-		has_idea_with_trait = communist_revolutionary
+		has_idea_with_trait = stalinist_revolutionary
 		NOT = { has_government = stalinist }
 		stalinist > 0.2
 		if = {
@@ -147,7 +147,7 @@ country_event = {
 		days = 365
 		modifier = {
 			factor = 0.5
-			has_country_flag = communism_popular_movement
+			has_country_flag = stalinist_popular_movement
 		}
 	}
 	
@@ -169,10 +169,10 @@ country_event = {
 	picture = GFX_report_event_desertion_poster
 	
 	trigger = {
-		has_idea_with_trait = communist_revolutionary
+		has_idea_with_trait = stalinist_revolutionary
 		NOT = { has_government = stalinist }
 		stalinist > 0.3
-		NOT = { has_idea = communist_partisans_recruiting }
+		NOT = { has_idea = stalinist_partisans_recruiting }
 		if = {
 			limit = {
 				has_dlc = "Together for Victory"
@@ -191,7 +191,7 @@ country_event = {
 		days = 365
 		modifier = {
 			factor = 0.5
-			has_country_flag = communism_popular_movement
+			has_country_flag = stalinist_popular_movement
 		}
 	}
 	
@@ -201,7 +201,7 @@ country_event = {
 			ideology = stalinist
 			popularity = 0.15
 		}
-		add_ideas = communist_partisans_recruiting
+		add_ideas = stalinist_partisans_recruiting
 	}
 }
 
@@ -213,7 +213,7 @@ country_event = {
 	picture = GFX_report_event_gathering_protest
 	
 	trigger = {
-		has_idea_with_trait = communist_revolutionary
+		has_idea_with_trait = stalinist_revolutionary
 		NOT = { has_government = stalinist }
 		stalinist > 0.4
 		OR = {
@@ -241,7 +241,7 @@ country_event = {
 		days = 365
 		modifier = {
 			factor = 0.75
-			has_country_flag = communism_popular_movement
+			has_country_flag = stalinist_popular_movement
 		}
 	}
 	
@@ -259,33 +259,33 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			start_civil_war = {
 				ruling_party = stalinist
-				ideology = fascism
+				ideology = fascistic
 				size = 0.6
 			}
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			start_civil_war = {
 				ruling_party = stalinist
-				ideology = neutrality
+				ideology = paternal_autocrat
 				size = 0.6
 			}
 		}
 		add_timed_idea = { idea = reign_of_terror days = 730 }
-		remove_ideas = communist_revolutionaries
+		remove_ideas = stalinist_revolutionaries
 	}
 	option = {
 		name = political.6.b
 	}
 }
 
-# Fascism on the Rise
+# fascistic on the Rise
 country_event = {
 	id = political.7
 	title = political.7.t
@@ -295,24 +295,24 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { has_government = fascism }
+		NOT = { has_government = fascistic }
 	}
 	
 	# Seek government support
 	option = {
 		name = political.7.a
 		custom_effect_tooltip = political.7.a.tt
-		clr_country_flag = fascism_popular_movement
-		set_country_flag = fascism_political_movement
+		clr_country_flag = fascistic_popular_movement
+		set_country_flag = fascistic_political_movement
 	}
 
 	# Seek popular support
 	option = {
 		name = political.7.b
 		custom_effect_tooltip = political.7.b.tt
-		clr_country_flag = fascism_political_movement
-		clr_country_flag = fascism_government_support
-		set_country_flag = fascism_popular_movement
+		clr_country_flag = fascistic_political_movement
+		clr_country_flag = fascistic_government_support
+		set_country_flag = fascistic_popular_movement
 	}
 }
 
@@ -324,24 +324,24 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 	
 	trigger = {
-		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = fascism }
-		NOT = { has_country_flag = fascism_government_support }
+		has_idea_with_trait = fascistic_demagogue
+		NOT = { has_government = fascistic }
+		NOT = { has_country_flag = fascistic_government_support }
 	}
 	
 	mean_time_to_happen = {
 		days = 500
 		modifier = {
 			factor = 0.5
-			has_country_flag = fascism_political_movement
+			has_country_flag = fascistic_political_movement
 		}
 	}
 	
 	option = {
 		name = political.8.a
 		custom_effect_tooltip = political.2.a.tt
-		clr_country_flag = fascism_political_movement
-		set_country_flag = fascism_government_support
+		clr_country_flag = fascistic_political_movement
+		set_country_flag = fascistic_government_support
 	}
 }
 
@@ -353,10 +353,10 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 	
 	trigger = {
-		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = fascism }
-		has_country_flag = fascism_government_support
-		fascism > 0.3
+		has_idea_with_trait = fascistic_demagogue
+		NOT = { has_government = fascistic }
+		has_country_flag = fascistic_government_support
+		fascistic > 0.3
 		is_major = no
 		is_puppet = no
 	}
@@ -365,25 +365,25 @@ country_event = {
 		days = 100
 		modifier = {
 			factor = 0.5
-			fascism > 0.4
+			fascistic > 0.4
 		}
 	}
 
 	immediate = {
-		hidden_effect = { remove_ideas = fascist_revolutionaries }
+		hidden_effect = { remove_ideas = fascistic_revolutionaries }
 	}
 	
 	option = {
 		name = political.9.a
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = fascistic
 			elections_allowed = no
 		}
 		add_timed_idea = { idea = reign_of_terror days = 730 }
 	}
 }
 
-# Civil War for Fascism
+# Civil War for fascistic
 country_event = {
 	id = political.10
 	title = political.10.t
@@ -391,9 +391,9 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 	
 	trigger = {
-		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = fascism }
-		fascism > 0.25
+		has_idea_with_trait = fascistic_demagogue
+		NOT = { has_government = fascistic }
+		fascistic > 0.25
 		if = {
 			limit = {
 				has_dlc = "Together for Victory"
@@ -412,7 +412,7 @@ country_event = {
 		days = 365
 		modifier = {
 			factor = 0.75
-			has_country_flag = fascism_popular_movement
+			has_country_flag = fascistic_popular_movement
 		}
 	}
 	
@@ -423,17 +423,17 @@ country_event = {
 				has_government = social_conservative
 			}
 			if = {
-				limit = { fascism > 0.4 }
+				limit = { fascistic > 0.4 }
 				start_civil_war = {
-					ruling_party = fascism
+					ruling_party = fascistic
 					ideology = social_conservative
 					size = 0.6
 				}
 			}
 			if = {
-				limit = { NOT = { fascism > 0.4 } }
+				limit = { NOT = { fascistic > 0.4 } }
 				start_civil_war = {
-					ruling_party = fascism
+					ruling_party = fascistic
 					ideology = social_conservative
 					size = 0.7
 				}
@@ -444,17 +444,17 @@ country_event = {
 				has_government = stalinist
 			}
 			if = {
-				limit = { fascism > 0.4 }
+				limit = { fascistic > 0.4 }
 				start_civil_war = {
-					ruling_party = fascism
+					ruling_party = fascistic
 					ideology = stalinist
 					size = 0.6
 				}
 			}
 			if = {
-				limit = { NOT = { fascism > 0.4 } }
+				limit = { NOT = { fascistic > 0.4 } }
 				start_civil_war = {
-					ruling_party = fascism
+					ruling_party = fascistic
 					ideology = stalinist
 					size = 0.7
 				}
@@ -462,26 +462,26 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			if = {
-				limit = { fascism > 0.4 }
+				limit = { fascistic > 0.4 }
 				start_civil_war = {
-					ruling_party = fascism
-					ideology = neutrality
+					ruling_party = fascistic
+					ideology = paternal_autocrat
 					size = 0.6
 				}
 			}
 			if = {
-				limit = { NOT = { fascism > 0.4 } }
+				limit = { NOT = { fascistic > 0.4 } }
 				start_civil_war = {
-					ruling_party = fascism
-					ideology = neutrality
+					ruling_party = fascistic
+					ideology = paternal_autocrat
 					size = 0.7
 				}
 			}
 		}
-		remove_ideas = fascist_revolutionaries
+		remove_ideas = fascistic_revolutionaries
 		add_timed_idea = { idea = reign_of_terror days = 730 }
 	}
 	option = {
@@ -497,10 +497,10 @@ country_event = {
 	picture = GFX_report_event_fascist_militia
 	
 	trigger = {
-		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = fascism }
-		fascism > 0.3
-		NOT = { has_idea = fascist_assault_divisions }
+		has_idea_with_trait = fascistic_demagogue
+		NOT = { has_government = fascistic }
+		fascistic > 0.3
+		NOT = { has_idea = fascistic_assault_divisions }
 		if = {
 			limit = {
 				has_dlc = "Together for Victory"
@@ -519,21 +519,21 @@ country_event = {
 		days = 365
 		modifier = {
 			factor = 0.5
-			has_country_flag = fascism_popular_movement
+			has_country_flag = fascistic_popular_movement
 		}
 	}
 	
 	option = {
 		name = political.11.a
 		add_popularity = {
-			ideology = fascism
+			ideology = fascistic
 			popularity = 0.05
 		}
-		add_ideas = fascist_assault_divisions
+		add_ideas = fascistic_assault_divisions
 	}
 }
 
-# The Threat of Communism
+# The Threat of stalinist
 country_event = {
 	id = political.12
 	title = political.12.t
@@ -541,9 +541,9 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 	
 	trigger = {
-		has_idea_with_trait = fascist_demagogue
-		NOT = { has_government = fascism }
-		fascism > 0.25
+		has_idea_with_trait = fascistic_demagogue
+		NOT = { has_government = fascistic }
+		fascistic > 0.25
 		any_neighbor_country = {
 			has_government = stalinist
 		}
@@ -553,14 +553,14 @@ country_event = {
 		days = 365
 		modifier = {
 			factor = 0.5
-			has_country_flag = fascism_popular_movement
+			has_country_flag = fascistic_popular_movement
 		}
 	}
 	
 	option = {
 		name = political.12.a
 		add_popularity = {
-			ideology = fascism
+			ideology = fascistic
 			popularity = 0.2
 		}
 	}
@@ -606,7 +606,7 @@ country_event = {
 	picture = GFX_report_event_journalists_speech
 	
 	trigger = {
-		has_idea_with_trait = democratic_reformer
+		has_idea_with_trait = social_conservative_reformer
 		NOT = { has_government = social_conservative }
 		NOT = { has_country_flag = democracy_government_support }
 	}
@@ -631,7 +631,7 @@ country_event = {
 	}
 }
 
-# Democratic Opposition Forming
+# social_conservative Opposition Forming
 country_event = {
 	id = political.15
 	title = political.15.t
@@ -639,7 +639,7 @@ country_event = {
 	picture = GFX_report_event_journalists_speech
 	
 	trigger = {
-		has_idea_with_trait = democratic_reformer
+		has_idea_with_trait = social_conservative_reformer
 		NOT = { has_government = social_conservative }
 		NOT = { has_country_flag = democracy_opposition_formed }
 		is_puppet = no
@@ -672,10 +672,10 @@ country_event = {
 	picture = GFX_report_event_election_vote
 	
 	trigger = {
-		has_idea_with_trait = democratic_reformer
+		has_idea_with_trait = social_conservative_reformer
 		NOT = { has_government = social_conservative }
 		has_country_flag = democracy_opposition_formed
-		NOT = { has_idea = democratic_opposition_voicing_protests }
+		NOT = { has_idea = social_conservative_opposition_voicing_protests }
 	}
 	
 	mean_time_to_happen = {
@@ -689,7 +689,7 @@ country_event = {
 	option = {
 		name = political.16.b
 		add_political_power = -20
-		add_ideas = democratic_opposition_voicing_protests
+		add_ideas = social_conservative_opposition_voicing_protests
 	}
 }
 
@@ -700,7 +700,7 @@ country_event = {
 	picture = GFX_report_event_election_vote
 	
 	trigger = {
-		has_idea_with_trait = democratic_reformer
+		has_idea_with_trait = social_conservative_reformer
 		NOT = { has_government = social_conservative }
 		social_conservative > 0.5
 		has_country_flag = democracy_government_support
@@ -714,19 +714,19 @@ country_event = {
 	option = {
 		name = political.17.a
 		if = {
-			limit = { has_government = fascism }
-			add_timed_idea = { idea = fascism_defeated days = 730 }
+			limit = { has_government = fascistic }
+			add_timed_idea = { idea = fascistic_defeated days = 730 }
 		}
 		if = {
 			limit = { has_government = stalinist }
-			add_timed_idea = { idea = communism_defeated days = 730 }
+			add_timed_idea = { idea = stalinist_defeated days = 730 }
 		}
 		set_politics = {
 			ruling_party = social_conservative
 			elections_allowed = yes
 		}
 		hold_election = ROOT
-		remove_ideas = democratic_revolutionaries
+		remove_ideas = social_conservative_revolutionaries
 	}
 	option = {
 		name = political.17.b
@@ -743,9 +743,9 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 
 	trigger = {
-		fascism > 0.5
-		NOT = { has_government = fascism }
-		NOT = { has_idea = fascist_revolutionaries }
+		fascistic > 0.5
+		NOT = { has_government = fascistic }
+		NOT = { has_idea = fascistic_revolutionaries }
 		NOT = { has_idea = reign_of_terror }
 		is_puppet = no
 	}
@@ -758,11 +758,11 @@ country_event = {
 		name = political.18.a
 		add_political_power = -100
 		add_popularity = {
-			ideology = fascism
+			ideology = fascistic
 			popularity = -0.10
 		}
 		add_timed_idea = {
-			idea = fascist_revolutionaries
+			idea = fascistic_revolutionaries
 			days = 365
 		}
 	}
@@ -770,7 +770,7 @@ country_event = {
 	option = {
 		name = political.18.b
 		add_timed_idea = {
-			idea = fascist_revolutionaries
+			idea = fascistic_revolutionaries
 			days = 365
 		}
 	}
@@ -778,7 +778,7 @@ country_event = {
 	option = {
 		name = political.18.c
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = fascistic
 			elections_allowed = no
 		}
 		add_national_unity = -0.05
@@ -796,7 +796,7 @@ country_event = {
 	trigger = {
 		stalinist > 0.5
 		NOT = { has_government = stalinist }
-		NOT = { has_idea = communist_revolutionaries }
+		NOT = { has_idea = stalinist_revolutionaries }
 		NOT = { has_idea = reign_of_terror }
 		is_puppet = no
 	}
@@ -813,7 +813,7 @@ country_event = {
 			popularity = -0.10
 		}
 		add_timed_idea = {
-			idea = communist_revolutionaries
+			idea = stalinist_revolutionaries
 			days = 365
 		}
 	}
@@ -821,7 +821,7 @@ country_event = {
 	option = {
 		name = political.19.b
 		add_timed_idea = {
-			idea = communist_revolutionaries
+			idea = stalinist_revolutionaries
 			days = 365
 		}
 	}
@@ -846,7 +846,7 @@ country_event = {
 	}
 }
 
-# political.20 Democratic
+# political.20 social_conservative
 
 country_event = {
 	id = political.20
@@ -857,7 +857,7 @@ country_event = {
 	trigger = {
 		social_conservative > 0.5
 		NOT = { has_government = social_conservative }
-		NOT = { has_idea = democratic_revolutionaries }
+		NOT = { has_idea = social_conservative_revolutionaries }
 		NOT = { has_idea = reign_of_terror }
 		is_puppet = no
 	}
@@ -874,7 +874,7 @@ country_event = {
 			popularity = -0.10
 		}
 		add_timed_idea = {
-			idea = democratic_revolutionaries
+			idea = social_conservative_revolutionaries
 			days = 365
 		}
 	}
@@ -882,7 +882,7 @@ country_event = {
 	option = {
 		name = political.20.b
 		add_timed_idea = {
-			idea = democratic_revolutionaries
+			idea = social_conservative_revolutionaries
 			days = 365
 		}
 	}
@@ -890,12 +890,12 @@ country_event = {
 	option = {
 		name = political.20.c
 		if = {
-			limit = { has_government = fascism }
-			add_timed_idea = { idea = fascism_defeated days = 730 }
+			limit = { has_government = fascistic }
+			add_timed_idea = { idea = fascistic_defeated days = 730 }
 		}
 		if = {
 			limit = { has_government = stalinist }
-			add_timed_idea = { idea = communism_defeated days = 730 }
+			add_timed_idea = { idea = stalinist_defeated days = 730 }
 		}
 		set_politics = {
 			ruling_party = social_conservative
@@ -915,8 +915,8 @@ country_event = {
 	picture = GFX_report_event_fascist_militia
 
 	trigger = {
-		fascism > 0.7
-		has_idea = fascist_revolutionaries
+		fascistic > 0.7
+		has_idea = fascistic_revolutionaries
 	}
 
 	mean_time_to_happen = {
@@ -924,13 +924,13 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = { remove_ideas = fascist_revolutionaries }
+		hidden_effect = { remove_ideas = fascistic_revolutionaries }
 	}
 
 	option = {
 		name = political.21.a
 		start_civil_war = {
-			ideology = fascism
+			ideology = fascistic
 			size = 0.5
 		}
 	}
@@ -942,7 +942,7 @@ country_event = {
 				has_government = social_conservative
 			}
 			start_civil_war = {
-				ruling_party = fascism
+				ruling_party = fascistic
 				ideology = social_conservative
 				size = 0.5
 			}
@@ -952,18 +952,18 @@ country_event = {
 				has_government = stalinist
 			}
 			start_civil_war = {
-				ruling_party = fascism
+				ruling_party = fascistic
 				ideology = stalinist
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			start_civil_war = {
-				ruling_party = fascism
-				ideology = neutrality
+				ruling_party = fascistic
+				ideology = paternal_autocrat
 				size = 0.5
 			}
 		}
@@ -978,7 +978,7 @@ country_event = {
 
 	trigger = {
 		stalinist > 0.7
-		has_idea = communist_revolutionaries
+		has_idea = stalinist_revolutionaries
 		#Special case CHI PRC
 		OR = {
 			NOT = { tag = CHI }
@@ -994,7 +994,7 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = { remove_ideas = communist_revolutionaries }
+		hidden_effect = { remove_ideas = stalinist_revolutionaries }
 	}
 
 	option = {
@@ -1019,27 +1019,27 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			start_civil_war = {
 				ruling_party = stalinist
-				ideology = fascism
+				ideology = fascistic
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			start_civil_war = {
 				ruling_party = stalinist
-				ideology = neutrality
+				ideology = paternal_autocrat
 				size = 0.5
 			}
 		}
 	}
 }
-# political.23 Democratic
+# political.23 social_conservative
 country_event = {
 	id = political.23
 	title = political.23.t
@@ -1048,7 +1048,7 @@ country_event = {
 
 	trigger = {
 		social_conservative > 0.7
-		has_idea = democratic_revolutionaries
+		has_idea = social_conservative_revolutionaries
 		#Special case CHI PRC
 		OR = {
 			NOT = { tag = CHI }
@@ -1064,7 +1064,7 @@ country_event = {
 	}
 
 	immediate = {
-		hidden_effect = { remove_ideas = democratic_revolutionaries }
+		hidden_effect = { remove_ideas = social_conservative_revolutionaries }
 	}
 
 	option = {
@@ -1079,22 +1079,22 @@ country_event = {
 		name = political.23.b
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			start_civil_war = {
 				ruling_party = social_conservative
-				ideology = neutrality
+				ideology = paternal_autocrat
 				size = 0.5
 			}
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = fascistic
 			}
-			add_timed_idea = { idea = fascism_defeated days = 730 }			
+			add_timed_idea = { idea = fascistic_defeated days = 730 }			
 			start_civil_war = {
 				ruling_party = social_conservative
-				ideology = fascism
+				ideology = fascistic
 				size = 0.5
 			}
 		}
@@ -1102,7 +1102,7 @@ country_event = {
 			limit = {
 				has_government = stalinist
 			}
-			add_timed_idea = { idea = communism_defeated days = 730 }
+			add_timed_idea = { idea = stalinist_defeated days = 730 }
 			start_civil_war = {
 				ruling_party = social_conservative
 				ideology = stalinist
@@ -1121,8 +1121,8 @@ country_event = {
 	picture = GFX_report_event_fascists_posing
 
 	trigger = {
-		fascism < 0.3
-		has_idea = fascist_revolutionaries
+		fascistic < 0.3
+		has_idea = fascistic_revolutionaries
 	}
 
 	mean_time_to_happen = {
@@ -1131,7 +1131,7 @@ country_event = {
 
 	option = {
 		name = political.24.a
-		remove_ideas = fascist_revolutionaries
+		remove_ideas = fascistic_revolutionaries
 	}
 }
 # political.25 Communist
@@ -1143,7 +1143,7 @@ country_event = {
 
 	trigger = {
 		stalinist < 0.3
-		has_idea = communist_revolutionaries
+		has_idea = stalinist_revolutionaries
 	}
 
 	mean_time_to_happen = {
@@ -1152,10 +1152,10 @@ country_event = {
 
 	option = {
 		name = political.25.a
-		remove_ideas = communist_revolutionaries
+		remove_ideas = stalinist_revolutionaries
 	}
 }
-# political.26 Democratic
+# political.26 social_conservative
 country_event = {
 	id = political.26
 	title = political.26.t
@@ -1164,7 +1164,7 @@ country_event = {
 
 	trigger = {
 		social_conservative < 0.3
-		has_idea = democratic_revolutionaries
+		has_idea = social_conservative_revolutionaries
 	}
 
 	mean_time_to_happen = {
@@ -1173,7 +1173,7 @@ country_event = {
 
 	option = {
 		name = political.26.a
-		remove_ideas = democratic_revolutionaries
+		remove_ideas = social_conservative_revolutionaries
 	}
 }
 
@@ -1182,21 +1182,21 @@ country_event = {
 	id = political.27
 	title = political.27.t
 	desc = { 
-		text = political.27.d_fascism
-	 	trigger = { has_government = fascism }
+		text = political.27.d_fascistic
+	 	trigger = { has_government = fascistic }
 	}
 	desc = { 
-		text = political.27.d_communism
+		text = political.27.d_stalinist
 	 	trigger = { has_government = stalinist }
 	}
 	picture = GFX_report_event_journalists_speech
 
 	trigger = {
 		OR = {
-			has_government = fascism
+			has_government = fascistic
 			has_government = stalinist
 		}
-		has_idea = neutrality_idea
+		has_idea = paternal_autocrat_idea
 	}
 
 	mean_time_to_happen = {
@@ -1205,7 +1205,7 @@ country_event = {
 
 	option = {
 		name = political.27.a
-		remove_ideas = neutrality_idea
+		remove_ideas = paternal_autocrat_idea
 	}
 }
 

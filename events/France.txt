@@ -557,7 +557,7 @@ country_event = {
 					}
 			}
 			start_civil_war = {
-				ideology = fascism
+				ideology = fascistic
 				size = 0.5
 				capital = 26
 				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 }
@@ -590,18 +590,18 @@ country_event = {
 			}
 		}
 		random_other_country = {
-			limit = { original_tag = FRA has_government = fascism }
+			limit = { original_tag = FRA has_government = fascistic }
 			ROOT = { puppet = PREV }
 			set_capital = 26
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = fascistic
 				elections_allowed = no
 				parties = {
 					social_conservative = { 
 						popularity = 22
 					}
 
-					fascism = {
+					fascistic = {
 						popularity = 76
 					}
 					
@@ -890,11 +890,11 @@ country_event = {
 			ideology = stalinist
 			popularity = -0.3
 		}
-		add_ideas = FRA_communism_banned
+		add_ideas = FRA_stalinist_banned
 
 		add_opinion_modifier = {
 			target = SOV
-			modifier = FRA_ban_communism
+			modifier = FRA_ban_stalinist
 		}
 		
 		every_other_country = {
@@ -903,7 +903,7 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				target = FRA
-				modifier = FRA_ban_communism
+				modifier = FRA_ban_stalinist
 			}
 		}
 		hidden_effect = {

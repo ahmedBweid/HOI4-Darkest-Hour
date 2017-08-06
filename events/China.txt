@@ -1266,7 +1266,7 @@ country_event = {
 
 	trigger = {
 		original_tag = CHI
-		has_government = neutrality
+		has_government = paternal_autocrat
 		PRC = {
 			exists = yes
 			has_government = stalinist

@@ -113,13 +113,13 @@ political_advisor = {
 
 	POL_roman_dmowski = {
 
-		picture = generic_fascist_demagogue_eastern_european_2d
+		picture = generic_fascistic_demagogue_eastern_european_2d
 
 		allowed = {
 			original_tag = POL
 		}
 		
-		traits = { fascist_demagogue }
+		traits = { fascistic_demagogue }
 
 		ai_will_do = {
 			factor = 0
@@ -128,13 +128,13 @@ political_advisor = {
 
 	POL_stanislaw_radkiewicz = {
 	
-		picture = generic_communist_revolutionary_eastern_european_2d
+		picture = generic_stalinist_revolutionary_eastern_european_2d
 
 		allowed = {
 			original_tag = POL
 		}
 		
-		traits = { communist_revolutionary }
+		traits = { stalinist_revolutionary }
 
 		ai_will_do = {
 			factor = 0
@@ -143,13 +143,13 @@ political_advisor = {
 
 	POL_mieczyslaw_michalowicz = {
 
-		picture = generic_democratic_reformer_eastern_european_2d
+		picture = generic_social_conservative_reformer_eastern_european_2d
 
 		allowed = {
 			original_tag = POL
 		}
 		
-		traits = { democratic_reformer }
+		traits = { social_conservative_reformer }
 
 		ai_will_do = {
 			factor = 0

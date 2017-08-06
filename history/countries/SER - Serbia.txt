@@ -90,7 +90,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		fascism = {
+		fascistic = {
 			popularity = 30
 		}
 		
@@ -99,12 +99,12 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		paternal_autocrat = { 
 			popularity = 30
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = yes
@@ -118,7 +118,7 @@ set_politics = {
 				popularity = 20
 			}
 
-			fascism = {
+			fascistic = {
 				popularity = 30
 			}
 			
@@ -127,12 +127,12 @@ set_politics = {
 				#banned = no #default is no
 			}
 			
-			neutrality = { 
+			paternal_autocrat = { 
 				popularity = 30
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = paternal_autocrat
 		last_election = "1938.1.1"
 		election_frequency = 36
 		elections_allowed = yes
@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}
@@ -167,7 +167,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = Despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}

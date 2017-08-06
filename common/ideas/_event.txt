@@ -1,18 +1,18 @@
 ideas = {
 
 	country = {
-		fascist_assault_divisions = {
+		fascistic_assault_divisions = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascistic_drift_bonus
 			
 			modifier = {
 				unity_factor = -0.05
 				conscription = 0.002
-				fascism_drift = 0.05
+				fascistic_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -20,7 +20,7 @@ ideas = {
 			}
 		}
 	
-		communist_partisans_recruiting = {
+		stalinist_partisans_recruiting = {
 			
 			allowed = {
 				always = no # Triggered via event
@@ -38,13 +38,13 @@ ideas = {
 			}
 		}
 	
-		democratic_opposition_voicing_protests = {
+		social_conservative_opposition_voicing_protests = {
 			
 			allowed = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_social_conservative_drift_bonus
 			
 			modifier = {
 				political_power_factor = -0.5
@@ -56,7 +56,7 @@ ideas = {
 			}
 		}
 
-		fascist_revolutionaries = {
+		fascistic_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -64,14 +64,14 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascistic_drift_bonus
 			
 			modifier = {
 				unity_factor = -0.1
 			}
 		}
 
-		communist_revolutionaries = {
+		stalinist_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -86,7 +86,7 @@ ideas = {
 			}
 		}
 
-		democratic_revolutionaries = {
+		social_conservative_revolutionaries = {
 			
 			removal_cost = -1
 			
@@ -102,7 +102,7 @@ ideas = {
 		}
 
 
-		fascism_defeated = {
+		fascistic_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -116,7 +116,7 @@ ideas = {
 			}
 		}
 
-		communism_defeated = {
+		stalinist_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -187,7 +187,7 @@ ideas = {
 			picture = generic_social_conservative_drift_bonus
 			
 			modifier = {
-				fascism_acceptance = -50
+				fascistic_acceptance = -50
 			}
 		}
 		

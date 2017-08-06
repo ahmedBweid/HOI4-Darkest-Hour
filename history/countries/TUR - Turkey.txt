@@ -103,7 +103,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 40 }		
 		social_conservative = { popularity = 25 }		
 		market_liberal = { popularity = 0 }		
@@ -128,7 +128,7 @@ set_national_unity = 0.55
 
 		parties = {
 			national_socialist = { popularity = 0 }		
-			fascism = { popularity = 0 }		
+			fascistic = { popularity = 0 }		
 			paternal_autocrat = { popularity = 40 }		
 			social_conservative = { popularity = 25 }		
 			market_liberal = { popularity = 0 }		
@@ -150,7 +150,7 @@ set_national_unity = 0.55
 		desc = "POLITICS_ISMET_INÖNÜ_DESC"
 		picture = "Portrait_Turkey_Ismet_Inonu.dds"
 		expire = "1965.1.1"
-		ideology = despotism
+		ideology = paternal_autocracy
 		traits = {
 			#
 		}
@@ -164,7 +164,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -175,7 +175,7 @@ create_country_leader = {
 	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 	picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
 	expire = "1938.11.10"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -207,7 +207,7 @@ create_country_leader = {
 	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}

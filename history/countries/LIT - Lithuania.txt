@@ -74,7 +74,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 2 }		
+		fascistic = { popularity = 2 }		
 		paternal_autocrat = { popularity = 38 }		
 		social_conservative = { popularity = 25 }		
 		market_liberal = { popularity = 15 }		
@@ -99,7 +99,7 @@ set_politics = {
 				popularity = 30
 			}
 
-			fascism = {
+			fascistic = {
 				popularity = 15
 			}
 			
@@ -107,12 +107,12 @@ set_politics = {
 				popularity = 15
 			}
 			
-			neutrality = { 
+			paternal_autocrat = { 
 				popularity = 50
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = paternal_autocrat
 		last_election = "1936.6.10"
 		election_frequency = 120
 		elections_allowed = no
@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
 	picture = "GFX_Portrait_lithuania_antanas_smetona"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}

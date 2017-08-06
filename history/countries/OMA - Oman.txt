@@ -56,7 +56,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 78 }		
 		social_conservative = { popularity = 15 }		
 		market_liberal = { popularity = 0 }		
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
 	picture = "GFX_portrait_oman_said_bin_taimur"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -89,7 +89,7 @@ create_country_leader = {
 
 		parties = {
 			national_socialist = { popularity = 0 }		
-			fascism = { popularity = 0 }		
+			fascistic = { popularity = 0 }		
 			paternal_autocrat = { popularity = 78 }		
 			social_conservative = { popularity = 15 }		
 			market_liberal = { popularity = 0 }		

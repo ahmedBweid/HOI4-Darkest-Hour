@@ -1210,7 +1210,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_support_the_left
-		icon = GFX_goal_support_communism
+		icon = GFX_goal_support_stalinist
 	 	mutually_exclusive = {
 	 		focus = FRA_support_the_right
 	 	}
@@ -1260,7 +1260,7 @@ focus_tree = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = fascistic
 				}
 				add_opinion_modifier = {				
 					target = ROOT
@@ -1298,7 +1298,7 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier =  FRA_leftist_rhetoric_communism
+					modifier =  FRA_leftist_rhetoric_stalinist
 				}
 			}
 			every_other_country = {
@@ -1308,17 +1308,17 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT
-					modifier = FRA_leftist_rhetoric_democratic
+					modifier = FRA_leftist_rhetoric_social_conservative
 				}
 			}
 			every_other_country = {
 				limit = { 
-					has_government = fascism
+					has_government = fascistic
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier = FRA_leftist_rhetoric_fascism
+					modifier = FRA_leftist_rhetoric_fascistic
 				}
 			}
 		}
@@ -1352,7 +1352,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_join_comintern
-		icon = GFX_goal_support_communism
+		icon = GFX_goal_support_stalinist
 		mutually_exclusive = { focus = FRA_humanite_unie }
 	 	available = {
 	 		is_puppet = no
@@ -1743,7 +1743,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_support_the_right
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 	 	mutually_exclusive = {
 	 		focus = FRA_support_the_left
 	 	}
@@ -1787,7 +1787,7 @@ focus_tree = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = fascistic
 				}
 				add_opinion_modifier = {				
 					target = ROOT
@@ -1824,12 +1824,12 @@ focus_tree = {
 			add_ideas = marcel_bucard
 			every_other_country = {
 				limit = { 
-					has_government = fascism
+					has_government = fascistic
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier =  FRA_right_wing_rhetoric_fascism
+					modifier =  FRA_right_wing_rhetoric_fascistic
 				}
 			}
 			every_other_country = {
@@ -1839,7 +1839,7 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT
-					modifier = FRA_right_wing_rhetoric_democratic
+					modifier = FRA_right_wing_rhetoric_social_conservative
 				}
 			}
 			every_other_country = {
@@ -1849,7 +1849,7 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier = FRA_right_wing_rhetoric_communism
+					modifier = FRA_right_wing_rhetoric_stalinist
 				}
 			}			
 		}
@@ -1860,8 +1860,8 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 	 	available = {
 	 		OR = {
-	 			has_government = fascism
-	 			fascism > 0.4
+	 			has_government = fascistic
+	 			fascistic > 0.4
 	 		}
 		}
 	 	prerequisite = { focus = FRA_right_wing_rhetoric }
@@ -1917,8 +1917,8 @@ focus_tree = {
 	 		is_puppet = no
 	 		NOT = { has_war_with = ITA }
 	 		OR = {
-	 			has_government = fascism
-	 			fascism > 0.4
+	 			has_government = fascistic
+	 			fascistic > 0.4
 	 		}
 	 		OR = {
 	 			is_faction_leader = yes
@@ -1927,7 +1927,7 @@ focus_tree = {
 	 		ITA = {
 	 			exists = yes
 	 			is_in_faction = no
-	 			has_government = fascism
+	 			has_government = fascistic
 	 			is_puppet = no
 	 		}
 		}
@@ -1946,20 +1946,20 @@ focus_tree = {
 
 	focus = {
 		id = FRA_join_germany
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 	 	mutually_exclusive = { focus = FRA_woo_italy focus = FRA_france_first}
 	 	available = {
 	 		is_puppet = no
 			is_in_faction = no
 	 		NOT = { has_war_with = GER }
 	 		OR = {
-	 			has_government = fascism
-	 			fascism > 0.4
+	 			has_government = fascistic
+	 			fascistic > 0.4
 	 		}
 	 		
 	 		GER = {
 	 			exists = yes
-	 			has_government = fascism
+	 			has_government = fascistic
  				is_faction_leader = yes
 	 		}
 		}

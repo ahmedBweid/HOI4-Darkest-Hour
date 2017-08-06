@@ -52,7 +52,7 @@ bookmarks = {
 
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = national_socialist
 			ideas = {
 				sour_loser
 				general_staff
@@ -65,7 +65,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = fascistic
 			ideas = {
 				vittoria_mutilata
 				victor_emmanuel
@@ -78,7 +78,7 @@ bookmarks = {
 		}
 		"JAP"={
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascism
+			ideology = fascistic
 			ideas = {
 				state_shintoism
 			}	
@@ -111,7 +111,7 @@ bookmarks = {
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				
 			}
@@ -178,7 +178,7 @@ bookmarks = {
 		"RAJ"={
 			minor = yes
 			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				RAJ_agrarian_society
 				RAJ_princely_states
@@ -207,7 +207,7 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				HUN_treaty_of_triannon
 			}
@@ -221,10 +221,10 @@ bookmarks = {
 		"ROM"={
 			minor = yes
 			history = "ROM_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				ROM_king_carol_ii_hedonist
-				neutrality_idea
+				paternal_autocrat_idea
 			}
 			focuses = {
 				ROM_balkans_dominance
@@ -236,7 +236,7 @@ bookmarks = {
 		"YUG"={
 			minor = yes
 			history = "YUG_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				anti_german_military
 				YUG_idea_croatian_opposition

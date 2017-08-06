@@ -347,7 +347,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Jewis
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		cost = 10.00
 		prerequisite = {
 			focus = GER_Schut
@@ -996,17 +996,17 @@ focus_tree = {
 		y = 5
 		available = {
 			SAF = {
-				fascism > 0.39
+				fascistic > 0.39
 			}
 		}
 		bypass = {
 			OR = {
 				AND = {
 					GER = {
-						has_government = fascism
+						has_government = fascistic
 					}
 					SAF = {
-						has_government = fascism
+						has_government = fascistic
 					}
 				}
 				AND = {
@@ -1034,12 +1034,12 @@ focus_tree = {
 			if = {
 				limit = {
 					GER = {
-						has_government = fascism
+						has_government = fascistic
 					}
 				}
 				SAF = {
 					start_civil_war = {
-						ideology = fascism
+						ideology = fascistic
 						size = 0.35
 						capital = 275
 						states = { 275  541 }
@@ -1235,7 +1235,7 @@ focus_tree = {
 						limit = {
 							SAF = {
 								NOT = {
-									has_government = fascism
+									has_government = fascistic
 									is_in_faction_with = GER
 								}
 							}
@@ -1251,7 +1251,7 @@ focus_tree = {
 				If = {
 					limit = {
 						SAF = {
-							has_government = fascism
+							has_government = fascistic
 							is_in_faction_with = GER
 						}
 					}
@@ -1528,7 +1528,7 @@ focus_tree = {
 						num_of_factories > 30
 					}
 					OR = {
-						has_government = fascism
+						has_government = fascistic
 						AND = {
 							is_neighbor_of = SOV
 							NOT = {
@@ -1938,13 +1938,13 @@ focus_tree = {
 					limit = {
 						original_tag = AUS
 						OR = {
-							has_government = fascism
+							has_government = fascistic
 							AND = {
-								has_government = neutrality
+								has_government = paternal_autocrat
 								NOT = {
 									any_other_country = {
 										original_tag = AUS
-										has_government = fascism
+										has_government = fascistic
 									}
 								}
 							}
@@ -1952,8 +1952,8 @@ focus_tree = {
 								any_other_country = {
 									original_tag = AUS
 									OR = {
-										has_government = fascism
-										has_government = neutrality
+										has_government = fascistic
+										has_government = paternal_autocrat
 									}
 								}
 							}
@@ -2817,6 +2817,14 @@ focus_tree = {
 		y = 4
 		available = {
 			date > 1939.1.1
+		}
+		bypass = {
+			POL = {
+				OR = {
+					exists = no
+					is_subject_of = GER
+				}
+			}
 		}
 		will_lead_to_war_with = POL
 		available = {
@@ -3693,7 +3701,7 @@ focus_tree = {
 					OR = {
 						HUN = {
 							NOT = {
-								has_government = fascism
+								has_government = fascistic
 							}
 							is_friend_or_potential_friend_of_GER = no
 						}
@@ -3746,7 +3754,7 @@ focus_tree = {
 			if = {
 				limit = {
 					HUN = {
-						has_government = fascism
+						has_government = fascistic
 						is_friend_or_potential_friend_of_GER = yes
 					}
 					ROM = {
@@ -3820,7 +3828,7 @@ focus_tree = {
 			}
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = fascistic
 				NOT = {
 					has_war_with = GER
 				}
@@ -3834,14 +3842,14 @@ focus_tree = {
 						country_exists = THIS
 					}
 					has_capitulated = yes
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 		}
 		bypass = {
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = fascistic
 				is_in_faction_with = GER
 			}
 		}
@@ -3871,7 +3879,7 @@ focus_tree = {
 		y = 6
 		available = {
 			SPR = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			GER = {
 				has_war_with = ENG
@@ -3910,7 +3918,7 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = SPR
-						has_government = fascism
+						has_government = fascistic
 					}
 					remove_ideas = SPA_recovering_from_civil_war
 				}
@@ -4402,7 +4410,7 @@ focus_tree = {
 		completion_reward = {
 			CAN = {
 				start_civil_war = {
-					ideology = fascism
+					ideology = fascistic
 					size = 0.5
 				}
 			}
@@ -4712,7 +4720,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_improve_national_spirit
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		cost = 10.00
 		prerequisite = {
 			focus = GER_Sealowe
@@ -4790,9 +4798,9 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			IRE = {
-				add_ideas = fascist_influence
+				add_ideas = fascistic_influence
 				add_popularity = {
-					ideology = fascism
+					ideology = fascistic
 					popularity = 0.10
 				}
 			}
@@ -4810,8 +4818,8 @@ focus_tree = {
 		available = {
 			IRE = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					has_government = fascistic
+					has_government = paternal_autocrat
 				}	
 			}
 			OR = {
@@ -5763,7 +5771,7 @@ focus_tree = {
 				}
 			}
 			BUL = {
-				has_government = fascism
+				has_government = fascistic
 			}
 		}
 		completion_reward = {
@@ -6289,22 +6297,22 @@ focus_tree = {
 		y = 8
 		completion_reward = {
 			ARG = {
-				add_ideas = fascist_influence
+				add_ideas = fascistic_influence
 			}
 			PRU = {
-				add_ideas = fascist_influence
+				add_ideas = fascistic_influence
 			}
 			VEN = {
-				add_ideas = fascist_influence
+				add_ideas = fascistic_influence
 			}
 			GUA = {
-				add_ideas = fascist_influence
+				add_ideas = fascistic_influence
 			}
 			ELS = {
-				add_ideas = fascist_influence
+				add_ideas = fascistic_influence
 			}
 			DOM = {
-				add_ideas = fascist_influence
+				add_ideas = fascistic_influence
 			}
 		}
 	}
@@ -6544,7 +6552,7 @@ focus_tree = {
 		y = 9
 		available = {
 			ARG = {
-				has_government = fascism
+				has_government = fascistic
 			}
 		}
 		completion_reward = {

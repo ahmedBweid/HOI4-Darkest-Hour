@@ -25,6 +25,6 @@ can_lose_unity = {
 
 can_lose_democracy_support = {
 	stalinist < 0.18
-	fascism < 0.18
+	fascistic < 0.18
 	social_conservative > 0.65
 }

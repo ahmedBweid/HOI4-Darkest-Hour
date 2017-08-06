@@ -55,7 +55,7 @@ bookmarks = {
 		}
 		GER = {
 			history = GER_BLITZKRIEG_DESC
-			ideology = fascism
+			ideology = national_socialist
 			ideas = {
 				sour_loser
 				general_staff
@@ -68,7 +68,7 @@ bookmarks = {
 		}
 		ITA = {
 			history = ITA_BLITZKRIEG_DESC
-			ideology = fascism
+			ideology = fascistic
 			ideas={
 				vittoria_mutilata
 				victor_emmanuel
@@ -81,7 +81,7 @@ bookmarks = {
 		}
 		JAP = {
 			history = JAP_BLITZKRIEG_DESC
-			ideology = fascism
+			ideology = fascistic
 			ideas={
 				state_shintoism
 				the_long_lance
@@ -120,7 +120,7 @@ bookmarks = {
 		"POL"={
 			minor = yes
 			history = "POL_BLITZKRIEG_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				deterrence
 			}
@@ -187,7 +187,7 @@ bookmarks = {
 		"RAJ"={
 			minor = yes
 			history = "RAJ_BLITZKRIEG_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				RAJ_agrarian_society
 				RAJ_princely_states
@@ -201,7 +201,7 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_BLITZKRIEG_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				HUN_treaty_of_triannon_3
 				HUN_interventionism
@@ -217,7 +217,7 @@ bookmarks = {
 		"ROM"={
 			minor = yes
 			history = "ROM_BLITZKRIEG_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				ROM_king_carol_ii_hedonist
 				ROM_preserve_greater_romania
@@ -233,7 +233,7 @@ bookmarks = {
 		"YUG"={
 			minor = yes
 			history = "YUG_GATHERING_BLITZ_DESC"
-			ideology = neutrality
+			ideology = paternal_autocrat
 			ideas = {
 				anti_german_military
 				YUG_idea_croatian_opposition

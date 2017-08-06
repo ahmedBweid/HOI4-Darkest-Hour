@@ -105,7 +105,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 
 			removal_cost = -1
@@ -114,7 +114,7 @@ ideas = {
 
 			
 			modifier = {
-				fascism_drift = 0.1
+				fascistic_drift = 0.1
 			}
 		}
 
@@ -138,27 +138,27 @@ ideas = {
 			}
 		}
 
-		fascist_influence = {
+		fascistic_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascistic_drift_bonus
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 85
+				fascistic_drift = 0.1
+				fascistic_acceptance = 85
 			}
 		}
 		
-		communist_influence = {
+		stalinist_influence = {
 			
 			
 			allowed = {
@@ -171,14 +171,14 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = generic_stalinist_drift_bonus
 			
 			modifier = {
 				stalinist_drift = 0.1
 				stalinist_acceptance = 85
 			}
 		}
-		democratic_influence = {
+		social_conservative_influence = {
 			
 			
 			allowed = {
@@ -191,7 +191,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_social_conservative_drift_bonus
 			
 			modifier = {
 				social_conservative_drift = 0.1
@@ -208,7 +208,7 @@ ideas = {
 				OR = {
 					AND = {
 						tag = GER
-						has_government = fascism
+						has_government = fascistic
 						SOV = {
 							has_government = stalinist
 						}
@@ -217,7 +217,7 @@ ideas = {
 						tag = SOV
 						has_government = stalinist
 						GER = {
-							has_government = fascism
+							has_government = fascistic
 						}
 					}
 				}
@@ -227,11 +227,11 @@ ideas = {
 			
 			modifier = {
 				stalinist_acceptance = 100
-				fascism_acceptance = 100
+				fascistic_acceptance = 100
 			}
 		}
 		
-		communist_pressure = {
+		stalinist_pressure = {
 			
 			
 			allowed = {
@@ -244,7 +244,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = generic_stalinist_drift_bonus
 			
 			modifier = {
 				stalinist_drift = 0.1
@@ -289,7 +289,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_social_conservative_drift_bonus
 	
 			modifier = {
 				trade_opinion_factor = 0.2
@@ -304,7 +304,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			
 			removal_cost = -1
@@ -327,7 +327,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = stalinist
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 			
@@ -350,7 +350,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = stalinist
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 			
@@ -373,7 +373,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = stalinist
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 			
@@ -432,7 +432,7 @@ ideas = {
 			}
 		}
 	
-		neutrality_idea = {
+		paternal_autocrat_idea = {
 			
 			
 			allowed = {
@@ -440,7 +440,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = paternal_autocrat
 			}
 
 			cancel = {
@@ -555,7 +555,7 @@ ideas = {
 			}			
 		}
 
-		communism_banned = {
+		stalinist_banned = {
 			picture = anti_soviet_pact
 			allowed = {
 				always = no
@@ -572,9 +572,9 @@ ideas = {
 			}
 		}
 
-		fascism_banned = {
+		fascistic_banned = {
 
-			picture = generic_fascism_banned
+			picture = generic_fascistic_banned
 
 			allowed = {
 				always = no
@@ -582,24 +582,24 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 
 			modifier = {
-				fascism_drift = -0.05
+				fascistic_drift = -0.05
 			}
 		}
 	}
 	
 	political_advisor = {
 		# POLITICAL	
-		generic_communist_revolutionary = {
+		generic_stalinist_revolutionary = {
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = CHI tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE} }
 				NOT = {
-					has_available_idea_with_traits = { idea = communist_revolutionary limit = 1 }
+					has_available_idea_with_traits = { idea = stalinist_revolutionary limit = 1 }
 				}
 				
 			}
@@ -615,7 +615,7 @@ ideas = {
 				
 			}
 			
-			traits = { communist_revolutionary }
+			traits = { stalinist_revolutionary }
 	
 			on_add = {
 				country_event = political.1
@@ -632,12 +632,12 @@ ideas = {
 			}
 		}
 			
-		generic_democratic_reformer = {
+		generic_social_conservative_reformer = {
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE } }
 				NOT = {
-					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
+					has_available_idea_with_traits = { idea = social_conservative_reformer limit = 1 }
 				}
 				
 			}
@@ -656,7 +656,7 @@ ideas = {
 			}
 
 			
-			traits = { democratic_reformer }
+			traits = { social_conservative_reformer }
 	
 			on_add = {
 				country_event = political.13
@@ -673,12 +673,12 @@ ideas = {
 			}
 		}
 		
-		generic_fascist_demagogue = {
+		generic_fascistic_demagogue = {
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE } }
 				NOT = {
-					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
+					has_available_idea_with_traits = { idea = fascistic_demagogue limit = 1 }
 				}
 
 			}
@@ -694,7 +694,7 @@ ideas = {
 				
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { fascistic_demagogue }
 	
 			on_add = {
 				country_event = political.7
@@ -702,7 +702,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 	

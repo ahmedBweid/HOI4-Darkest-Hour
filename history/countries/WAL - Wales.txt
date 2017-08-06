@@ -64,7 +64,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		fascism = {
+		fascistic = {
 			popularity = 60
 		}
 		
@@ -74,7 +74,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = fascistic
 	election_frequency = 48
 	elections_allowed = no
 
@@ -91,7 +91,7 @@ create_country_leader = {
 	desc = "SAUNDER_LEWIS_DESC"
 	picture = "Portrait_WEL_Saunders_Lewis.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		
 	}

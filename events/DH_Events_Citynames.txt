@@ -23,7 +23,7 @@ country_event = {
 				tag = GER
 				is_subject_of = GER
 			}
-			has_government = fascism
+			has_government = fascistic
 			owns_state = 97
 		}
 		NOT = {

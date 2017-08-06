@@ -31,7 +31,7 @@ set_politics = {
 			popularity = 0
 		}
 
-		fascism = {
+		fascistic = {
 			popularity = 0
 		}
 		
@@ -40,11 +40,11 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		paternal_autocrat = { 
 			popularity = 100
 		}
 	}
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = "POLITICS_LI_ZONGREN_DESC"
 	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}

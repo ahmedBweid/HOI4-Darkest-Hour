@@ -119,7 +119,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 0 }		
 		social_conservative = { popularity = 10 }		
 		market_liberal = { popularity = 0 }		
@@ -141,7 +141,7 @@ create_country_leader = {
 	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		
 	}

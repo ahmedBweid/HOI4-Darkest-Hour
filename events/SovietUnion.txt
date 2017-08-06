@@ -1013,7 +1013,7 @@ country_event = {
 			country_event = { id = soviet.43 days = 146 }				
 		}
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.18
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 404 }
 		}
@@ -1021,7 +1021,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1029,7 +1029,7 @@ country_event = {
 					desc = "POLITICS_IVAN_KONEV_DESC"
 					picture = "Portrait_Soviet_Ivan_Konev.dds"
 					expire = "1965.1.1"
-					ideology = oligarchism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1770,7 +1770,7 @@ country_event = {
 	option = {
 		name = soviet.49.a
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.5
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1779,7 +1779,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1787,7 +1787,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1817,7 +1817,7 @@ country_event = {
 		name = soviet.50.a
 		remove_unit_leader = 412 #Remove Andrey Vlasov
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.3
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1825,7 +1825,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1833,7 +1833,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1863,7 +1863,7 @@ country_event = {
 		name = soviet.51.a
 		remove_unit_leader = 412 #Remove Andrey Vlasov
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.25
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1871,7 +1871,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1879,7 +1879,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1909,7 +1909,7 @@ country_event = {
 		name = soviet.52.a
 		remove_unit_leader = 412 #Remove Andrey Vlasov
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.2
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1917,7 +1917,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1925,7 +1925,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}

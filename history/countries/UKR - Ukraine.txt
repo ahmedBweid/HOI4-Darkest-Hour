@@ -38,7 +38,7 @@ set_politics = {
 			popularity = 15
 		}
 
-		fascism = {
+		fascistic = {
 			popularity = 30
 		}
 		
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		
 	}
@@ -86,7 +86,7 @@ create_country_leader = {
 #	desc = ""
 #	picture = ""
 #	expire = "1953.3.1"
-#	ideology = oligarchism
+#	ideology = paternal_autocracy
 #	traits = {
 #		
 #	}

@@ -18,8 +18,8 @@ ideas = {
 			}
 			
 			modifier = {
-				fascism_drift = 0.1
-				fascism_acceptance = 100
+				fascistic_drift = 0.1
+				fascistic_acceptance = 100
 			}
 		}
 	
@@ -35,7 +35,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 			
@@ -705,7 +705,7 @@ ideas = {
 				original_tag = ROM
 			}
 			
-			traits = { democratic_reformer }
+			traits = { social_conservative_reformer }
 		}
 
 		ROM_gheorghe_gheorghiu_dej = {
@@ -716,7 +716,7 @@ ideas = {
 				original_tag = ROM
 			}
 			
-			traits = { communist_revolutionary }
+			traits = { stalinist_revolutionary }
 		}
 
 		ROM_gheorghe_argeseanu = {
@@ -769,7 +769,7 @@ ideas = {
 
 		ROM_mihail_sturdza = {
 
-			picture = generic_fascist_demagogue_eastern_european_2d
+			picture = generic_fascistic_demagogue_eastern_european_2d
 
 			available = {
 				if = {
@@ -784,7 +784,7 @@ ideas = {
 				original_tag = ROM
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { fascistic_demagogue }
 			ai_will_do = {
 				factor = 0
 			}

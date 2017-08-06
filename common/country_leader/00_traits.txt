@@ -203,16 +203,16 @@ leader_traits = {
 		}
 	}
 
-	fascist_sympathies = {
+	fascistic_sympathies = {
 		random = no		
-		fascism_acceptance = 70
+		fascistic_acceptance = 70
 
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
-	anti_communist = {
+	anti_stalinist = {
 		random = no
 		stalinist_acceptance = -50
 		stalinist_drift = -0.01
@@ -250,7 +250,7 @@ leader_traits = {
 	### IDEA TRAITS ###
 	
 	# drift is a percent applied weekly
-	communist_revolutionary = {
+	stalinist_revolutionary = {
 		random = no
 		# Boosts Communism
 		sprite = 13
@@ -261,7 +261,7 @@ leader_traits = {
 		}
 	}
 	
-	democratic_reformer = {
+	social_conservative_reformer = {
 		random = no
 		# Boosts Democracy
 		sprite = 13
@@ -272,11 +272,11 @@ leader_traits = {
 		}
 	}
 	
-	fascist_demagogue = {
+	fascistic_demagogue = {
 		random = no
-		# Boosts Fascism
+		# Boosts fascistic
 		sprite = 13
-		fascism_drift = 0.1
+		fascistic_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0
@@ -286,7 +286,7 @@ leader_traits = {
 		random = no
 		# Boosts Unaligned
 		sprite = 13
-		neutrality_drift = 0.1
+		paternal_autocrat_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0

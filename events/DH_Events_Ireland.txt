@@ -26,8 +26,8 @@ country_event = {
 				IRE = {
 					NOT = {
 						OR = {
-							has_government = fascism 
-							has_government = neutrality 							
+							has_government = fascistic 
+							has_government = paternal_autocrat 							
 						}
 					}	
 				}

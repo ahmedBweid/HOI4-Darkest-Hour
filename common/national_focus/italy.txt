@@ -1474,13 +1474,13 @@ focus_tree = {
 				add_opinion_modifier = { target = ITA modifier = claimed_western_yugoslavia }
 				if = {
 					limit = {
-						ROOT = { has_government = fascism }
-						NOT = { has_government = fascism }
-						NOT = { has_idea_with_trait = fascist_demagogue }
-						fascism < 0.3
+						ROOT = { has_government = fascistic }
+						NOT = { has_government = fascistic }
+						NOT = { has_idea_with_trait = fascistic_demagogue }
+						fascistic < 0.3
 					}
 					add_popularity = {
-						ideology = fascism
+						ideology = fascistic
 						popularity = -0.07
 					}
 				}
@@ -1488,7 +1488,7 @@ focus_tree = {
 					limit = { 
 						ROOT = { has_government = stalinist }
 						NOT = { has_government = stalinist }
-						NOT = { has_idea_with_trait = communist_revolutionary }
+						NOT = { has_idea_with_trait = stalinist_revolutionary }
 						NOT = { has_completed_focus = YUG_recognize_the_soviet_union }
 						stalinist < 0.3
 					}
@@ -1501,7 +1501,7 @@ focus_tree = {
 					limit = {
 						ROOT = { has_government = social_conservative }
 						NOT = { has_government = social_conservative }
-						NOT = { has_idea_with_trait = democratic_reformer }
+						NOT = { has_idea_with_trait = social_conservative_reformer }
 						social_conservative < 0.3
 					}
 					add_popularity = {
@@ -1540,16 +1540,16 @@ focus_tree = {
 			YUG = {
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 				if = {
-					limit = { ROOT = { has_government = fascism } }
-					add_ideas = fascist_influence
+					limit = { ROOT = { has_government = fascistic } }
+					add_ideas = fascistic_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
-					add_ideas = democratic_influence
+					add_ideas = social_conservative_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = stalinist } }
-					add_ideas = communist_influence
+					add_ideas = stalinist_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -1566,7 +1566,7 @@ focus_tree = {
 		available = {
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = fascistic
 				has_volunteers_amount_from = {
 					tag = ITA
 					count > 1
@@ -1589,7 +1589,7 @@ focus_tree = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = fascistic
 				}
 				add_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
 			}
@@ -1604,7 +1604,7 @@ focus_tree = {
 		available = {
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = fascistic
 				has_war = no
 				owns_state = 177
 			}
@@ -1613,7 +1613,7 @@ focus_tree = {
 		cancel = {
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = fascistic
 				has_war_with = ROOT
 				owns_state = 177
 			}
@@ -1657,16 +1657,16 @@ focus_tree = {
 			BUL = {
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 				if = {
-					limit = { ROOT = { has_government = fascism } }
-					add_ideas = fascist_influence
+					limit = { ROOT = { has_government = fascistic } }
+					add_ideas = fascistic_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
-					add_ideas = democratic_influence
+					add_ideas = social_conservative_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = stalinist } }
-					add_ideas = communist_influence
+					add_ideas = stalinist_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -1704,10 +1704,10 @@ focus_tree = {
 		prerequisite = { focus = ITA_bulgaria_friend }
 		mutually_exclusive = { focus = ITA_italy_first }
 		available = {
-			has_government = fascism
+			has_government = fascistic
 			NOT = { has_war_with = GER }
 			GER = { 
-				has_government = fascism 
+				has_government = fascistic 
 				country_exists = GER
 			}
 		}
@@ -1766,7 +1766,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_italy_first
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		prerequisite = { focus = ITA_bulgaria_friend }
 		mutually_exclusive = { focus = ITA_pact_of_steel }
 		available = {
@@ -1910,16 +1910,16 @@ focus_tree = {
 			ROM = {
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 				if = {
-					limit = { ROOT = { has_government = fascism } }
-					add_ideas = fascist_influence
+					limit = { ROOT = { has_government = fascistic } }
+					add_ideas = fascistic_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
-					add_ideas = democratic_influence
+					add_ideas = social_conservative_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = stalinist } }
-					add_ideas = communist_influence
+					add_ideas = stalinist_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -1992,14 +1992,14 @@ focus_tree = {
 
 	focus = {
 		id = ITA_spanish_italian_faction
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		prerequisite = { focus = ITA_italy_first }
 		prerequisite = { focus = ITA_support_nationalist_spain }
 		mutually_exclusive = { focus = ITA_demand_balearic_islands }
 		available = {
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = fascistic
 				has_civil_war = no
 				NOT = { has_war_with = ROOT }
 				OR = {
@@ -2011,14 +2011,14 @@ focus_tree = {
 				OR = {
 					NOT = { country_exists = THIS }
 					has_capitulated = yes
-					has_government = fascism
+					has_government = fascistic
 				}
 			}			
 		}
 		bypass = {
 			any_other_country = {
 				original_tag = SPR
-				has_government = fascism
+				has_government = fascistic
 				is_in_faction_with = ROOT
 			}
 		}
@@ -2032,10 +2032,10 @@ focus_tree = {
 			random_other_country = {
 				limit = {
 					original_tag = SPR
-					has_government = fascism
+					has_government = fascistic
 				}
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
-				add_ideas = fascist_influence 
+				add_ideas = fascistic_influence 
 				country_event = { id = generic.1 }           
 			}
 		}
@@ -2063,16 +2063,16 @@ focus_tree = {
 			POR = {
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 				if = {
-					limit = { ROOT = { has_government = fascism } }
-					add_ideas = fascist_influence
+					limit = { ROOT = { has_government = fascistic } }
+					add_ideas = fascistic_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
-					add_ideas = democratic_influence
+					add_ideas = social_conservative_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = stalinist } }
-					add_ideas = communist_influence
+					add_ideas = stalinist_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -2136,16 +2136,16 @@ focus_tree = {
 			GRE = {
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 				if = {
-					limit = { ROOT = { has_government = fascism } }
-					add_ideas = fascist_influence
+					limit = { ROOT = { has_government = fascistic } }
+					add_ideas = fascistic_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
-					add_ideas = democratic_influence
+					add_ideas = social_conservative_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = stalinist } }
-					add_ideas = communist_influence
+					add_ideas = stalinist_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -2208,7 +2208,7 @@ focus_tree = {
 			 tooltip = ITA_claims_on_france_tt
 				any_other_country = {
 					original_tag = FRA
-					has_government = fascism
+					has_government = fascistic
 					owns_state = 735
 					controls_state = 735
 					owns_state = 1
@@ -2242,7 +2242,7 @@ focus_tree = {
 				limit = { 
 					any_other_country = {
 						original_tag = FRA
-						has_government = fascism
+						has_government = fascistic
 						owns_state = 735
 					}
 				}
@@ -2252,7 +2252,7 @@ focus_tree = {
 				limit = { 
 					any_other_country = {
 						original_tag = FRA
-						has_government = fascism
+						has_government = fascistic
 						owns_state = 1
 					}
 				}
@@ -2287,16 +2287,16 @@ focus_tree = {
 			TUR = {
 				add_opinion_modifier = { target = ITA modifier = ita_diplomacy_focus }
 				if = {
-					limit = { ROOT = { has_government = fascism } }
-					add_ideas = fascist_influence
+					limit = { ROOT = { has_government = fascistic } }
+					add_ideas = fascistic_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
-					add_ideas = democratic_influence
+					add_ideas = social_conservative_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = stalinist } }
-					add_ideas = communist_influence
+					add_ideas = stalinist_influence
 				}
 				country_event = { id = generic.1 }
 			}

@@ -30,7 +30,7 @@ country_event = {
 					tag = LBA
 				}
 			
-			has_government = fascism
+			has_government = fascistic
 			OR = {
 				is_puppet = no
 				is_puppet_of = GER

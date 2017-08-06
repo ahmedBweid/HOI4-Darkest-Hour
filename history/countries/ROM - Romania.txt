@@ -40,7 +40,7 @@ if = {
 	give_guarantee = GRE
 	give_guarantee = TUR
 }
-add_ideas = neutrality_idea
+add_ideas = paternal_autocrat_idea
 
 #Kick off kings crazy life
 if = {
@@ -59,7 +59,7 @@ if = {
 set_convoys = 10
 1939.1.1 = {
 	
-	remove_ideas = neutrality_idea
+	remove_ideas = paternal_autocrat_idea
 
 	add_political_power = 1198
 	if = {
@@ -98,7 +98,7 @@ set_convoys = 10
 			desc = "POLITICS_CAROL_II_DESC"
 			picture = GFX_Portrait_romania_Carol_II			
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = paternal_autocracy
 			traits = {
 				hedonist
 				camarilla_leader
@@ -176,7 +176,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 16 }		
+		fascistic = { popularity = 16 }		
 		paternal_autocrat = { popularity = 5 }		
 		social_conservative = { popularity = 14 }		
 		market_liberal = { popularity = 36 }		
@@ -198,7 +198,7 @@ set_politics = {
 
 		parties = {
 			national_socialist = { popularity = 0 }		
-			fascism = { popularity = 60 }		
+			fascistic = { popularity = 60 }		
 			paternal_autocrat = { popularity = 80 }		
 			social_conservative = { popularity = 40 }		
 			market_liberal = { popularity = 35 }		
@@ -221,7 +221,7 @@ create_country_leader = {
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -254,7 +254,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}
@@ -265,7 +265,7 @@ create_country_leader = {
 	desc = "POLITICS_ION_ANTONESCU_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}

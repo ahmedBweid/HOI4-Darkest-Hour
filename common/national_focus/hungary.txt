@@ -122,7 +122,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HUN_hungarian_monarchy
-			set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
+			set_party_name = { ideology = paternal_autocrat long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 		}
 	}
 
@@ -141,7 +141,7 @@ focus_tree = {
 		}
 
 		available = {
-			neutrality > 0.3
+			paternal_autocrat > 0.3
 		}
 
 		bypass = {
@@ -186,7 +186,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = neutrality
+			has_government = paternal_autocrat
 		}
 
 		bypass = {
@@ -214,7 +214,7 @@ focus_tree = {
 				desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
 				picture = GFX_Portrait_hungary_otto_von_hapsburg
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = paternal_autocracy
 				traits = {
 					
 				}
@@ -1065,8 +1065,8 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = fascism
-				has_government = neutrality				
+				has_government = fascistic
+				has_government = paternal_autocrat				
 			}
 		}
 
@@ -1084,23 +1084,23 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_idea = HUN_hungarian_monarchy_fascism
+				add_idea = HUN_hungarian_monarchy_fascistic
 				remove_idea = HUN_hungarian_monarchy_2
 			}
 			set_cosmetic_tag = HUN_MONARCHY
 			if = {
 				limit = {
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
-				add_popularity = { ideology = fascism popularity = 0.05 }
+				add_popularity = { ideology = fascistic popularity = 0.05 }
 				create_country_leader = {
 					name = "Friedrich Franz of Mecklenburg-Schwerin"
 					desc = "POLITICS_FRIEDRICH_FRANZ_OF_MECKLENBURG-SCHWERIN_DESC"
 					picture = GFX_Portrait_hungary_friedrich_franz
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = paternal_autocracy
 					traits = {
-						fascist_sympathies
+						fascistic_sympathies
 					}
 					id = 501 #Neutral Franz
 				}
@@ -1181,7 +1181,7 @@ focus_tree = {
 
 	focus = {
 		id = HUN_strengthen_fascists
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		prerequisite = { focus = HUN_economic_intervention }
 		mutually_exclusive = { focus = HUN_council_of_peoples_commissars }
 		x = -5
@@ -1212,17 +1212,17 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HUN_strengthen_fascists
-			add_popularity = { ideology = fascism popularity = 0.05 }
-			set_party_name = { ideology = fascism long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
+			add_popularity = { ideology = fascistic popularity = 0.05 }
+			set_party_name = { ideology = fascistic long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
 			hidden_effect = {
 				create_country_leader = {
 					name = "Miklós Horthy"
 					desc = "POLITICS_MIKLOS_HORTHY_DESC"
 					picture = "Portrait_Hungary_Miklos_Horthy.dds"
 					expire = "1965.1.1"
-					ideology = fascism_ideology
+					ideology = fascistic_ideology
 					traits = {
-						anti_communist
+						anti_stalinist
 					}
 					id = 503 #Horthy fascist
 				}
@@ -1246,8 +1246,8 @@ focus_tree = {
 
 		available = {
 			OR = {
-				has_government = fascism
-				fascism > 0.4
+				has_government = fascistic
+				fascistic > 0.4
 			}
 			is_subject = no
 		}
@@ -1334,10 +1334,10 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = fascism }
+					NOT = { has_government = fascistic }
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = fascistic
 					elections_allowed = no
 				}
 			}
@@ -1369,14 +1369,14 @@ focus_tree = {
 			ITA = {
 				NOT = { has_war_with = AUS }
 				OR = {
-					has_government = neutrality
-					has_government = fascism
+					has_government = paternal_autocrat
+					has_government = fascistic
 				}
 			}
 			AUS = {
 				OR = {
-					has_government = neutrality
-					has_government = fascism
+					has_government = paternal_autocrat
+					has_government = fascistic
 				}
 			}
 		}
@@ -1389,7 +1389,7 @@ focus_tree = {
 				OR = {
 					exists = no
 					NOT = {
-						has_government = fascism #historical AI should only pick this if Germany doesn't exist or isn't fascist
+						has_government = fascistic #historical AI should only pick this if Germany doesn't exist or isn't fascist
 					}
 				}
 			}
@@ -2115,7 +2115,7 @@ focus_tree = {
 
 
 	############################
-	#### COMMUNIST BRANCH ######
+	#### stalinist BRANCH ######
 	############################
 
 	focus = {

@@ -1169,7 +1169,7 @@ country_event = {
 			factor = 100
 			modifier = {
 				SWE = {
-					has_government = fascism
+					has_government = fascistic
 				}
 				factor = 0
 			}

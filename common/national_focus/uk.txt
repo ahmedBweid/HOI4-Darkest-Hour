@@ -1508,21 +1508,21 @@ focus_tree = {
 					exists = yes
 					OR = { 
 						stalinist > 0.1
-				 		fascism > 0.1
+				 		fascistic > 0.1
 				 	} 
 				}
 				NOR = { 
 					exists = yes
 					OR = { 
 						stalinist > 0.1
-				 		fascism > 0.1
+				 		fascistic > 0.1
 				 	} 
 				}
 				DEN = {
 					exists = yes
 					OR = { 
 						stalinist > 0.1
-				 		fascism > 0.1
+				 		fascistic > 0.1
 				 	} 
 				}				
 			}			
@@ -1579,7 +1579,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascism > 0.2
+					fascistic > 0.2
 				}
 			}		
 		}
@@ -1610,7 +1610,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascism > 0.2
+					fascistic > 0.2
 				}
 			}
 		}	
@@ -1641,7 +1641,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascism > 0.2
+					fascistic > 0.2
 				}
 			}
 		}		
@@ -1678,14 +1678,14 @@ focus_tree = {
 					exists = yes
 					OR = { 
 						stalinist > 0.15
-				 		fascism > 0.15
+				 		fascistic > 0.15
 				 	} 
 				}
 				HOL = { 
 					exists = yes
 					OR = { 
 						stalinist > 0.15
-				 		fascism > 0.15
+				 		fascistic > 0.15
 				 	} 
 				}								
 			}			
@@ -1722,7 +1722,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascism > 0.2
+					fascistic > 0.2
 				}
 			}
 		}		
@@ -1752,7 +1752,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascism > 0.2
+					fascistic > 0.2
 				}
 			}
 		}		
@@ -1902,15 +1902,15 @@ focus_tree = {
 				limit = {
 					original_tag = SPR
 				}
-				add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
-				add_ideas = democratic_influence
+				add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
+				add_ideas = social_conservative_influence
 				country_event = { id = generic.1 }
 				every_other_country = {
 					limit = { 
 						NOT = { has_government = social_conservative }
 						num_of_factories > 30
 					}
-					add_opinion_modifier = { target = PREV modifier = democratic_leanings_bad }
+					add_opinion_modifier = { target = PREV modifier = social_conservative_leanings_bad }
 				}
 			}
 			hidden_effect = {
@@ -2112,8 +2112,8 @@ focus_tree = {
 			if = {
 				limit = { has_government = social_conservative }
 				TUR = {
-					add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
-					add_ideas = democratic_influence
+					add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
+					add_ideas = social_conservative_influence
 					country_event = { id = generic.1 }
 				}
 				every_other_country = {
@@ -2121,14 +2121,14 @@ focus_tree = {
 						NOT = { has_government = social_conservative }
 						num_of_factories > 30
 					}
-					add_opinion_modifier = { target = TUR modifier = democratic_leanings_bad }
+					add_opinion_modifier = { target = TUR modifier = social_conservative_leanings_bad }
 				}
 			}
 			if = {
 				limit = { has_government = stalinist }
 				TUR = {
-					add_opinion_modifier = { target = ENG modifier = communism_leanings_good }
-					add_ideas = communist_influence
+					add_opinion_modifier = { target = ENG modifier = stalinist_leanings_good }
+					add_ideas = stalinist_influence
 					country_event = { id = generic.1 }
 				}
 				every_other_country = {
@@ -2136,22 +2136,22 @@ focus_tree = {
 						NOT = { has_government = stalinist }
 						num_of_factories > 30
 					}
-					add_opinion_modifier = { target = TUR modifier = communism_leanings_bad }
+					add_opinion_modifier = { target = TUR modifier = stalinist_leanings_bad }
 				}
 			}
 			if = {
-				limit = { has_government = fascism }
+				limit = { has_government = fascistic }
 				TUR = {
-					add_opinion_modifier = { target = ENG modifier = fascism_leanings_good }
-					add_ideas = fascist_influence
+					add_opinion_modifier = { target = ENG modifier = fascistic_leanings_good }
+					add_ideas = fascistic_influence
 					country_event = { id = generic.1 }
 				}
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = fascism }
+						NOT = { has_government = fascistic }
 						num_of_factories > 30
 					}
-					add_opinion_modifier = { target = TUR modifier = fascism_leanings_bad }
+					add_opinion_modifier = { target = TUR modifier = fascistic_leanings_bad }
 				}
 			}
 			hidden_effect = {
@@ -2176,8 +2176,8 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			GRE = {
-						add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
-						add_ideas = democratic_influence
+						add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
+						add_ideas = social_conservative_influence
 						country_event = { id = generic.1 }
 					}
 			every_other_country = {
@@ -2185,7 +2185,7 @@ focus_tree = {
 							NOT = { has_government = social_conservative }
 							num_of_factories > 30
 						}
-						add_opinion_modifier = { target = GRE modifier = democratic_leanings_bad }
+						add_opinion_modifier = { target = GRE modifier = social_conservative_leanings_bad }
 			}
 			hidden_effect = {
 				news_event = { hours = 6 id = news.226 }
@@ -2242,7 +2242,7 @@ focus_tree = {
 			IRQ = {
 				OR = { 
 					stalinist > 0.2
-			 		fascism > 0.2
+			 		fascistic > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iraq is fascist/commie
@@ -2275,7 +2275,7 @@ focus_tree = {
 				exists = yes
 				OR = { 
 					stalinist > 0.2
-			 		fascism > 0.2
+			 		fascistic > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iran is fascist/commie
@@ -2957,8 +2957,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			CHI = {
-						add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
-						add_ideas = democratic_influence
+						add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
+						add_ideas = social_conservative_influence
 						country_event = { id = generic.1 }
 					}
 			every_other_country = {
@@ -2966,7 +2966,7 @@ focus_tree = {
 							NOT = { has_government = social_conservative }
 							num_of_factories > 30
 						}
-						add_opinion_modifier = { target = CHI modifier = democratic_leanings_bad }
+						add_opinion_modifier = { target = CHI modifier = social_conservative_leanings_bad }
 			}
 		}
 	}
@@ -2988,31 +2988,31 @@ focus_tree = {
 			CAN = {
 				if = {
 					limit = { is_in_faction_with = ENG }
-					add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
+					add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
 				}
 			}
 			AST = {
 				if = {
 					limit = { is_in_faction_with = ENG }
-					add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
+					add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
 				}
 			}
 			RAJ = {
 				if = {
 					limit = { is_in_faction_with = ENG }
-					add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
+					add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
 				}
 			}
 			NZL = {
 				if = {
 					limit = { is_in_faction_with = ENG }
-					add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
+					add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
 				}
 			}
 			SAF = {
 				if = {
 					limit = { is_in_faction_with = ENG }
-					add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
+					add_opinion_modifier = { target = ENG modifier = social_conservative_leanings_good }
 				}
 			}
 		}

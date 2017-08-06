@@ -45,7 +45,7 @@ set_politics = {
 			popularity = 0
 		}
 
-		fascism = {
+		fascistic = {
 			popularity = 30
 		}
 

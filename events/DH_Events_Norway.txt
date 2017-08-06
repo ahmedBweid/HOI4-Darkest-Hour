@@ -35,8 +35,8 @@ country_event = {
 			}
 		}
 		NOR = { 
-			add_popularity = { ideology = fascism popularity = 0.1 }
-			set_politics = { ruling_party = fascism elections_allowed = no }		
+			add_popularity = { ideology = fascistic popularity = 0.1 }
+			set_politics = { ruling_party = fascistic elections_allowed = no }		
 		}	
 	}
 	
@@ -48,13 +48,13 @@ country_event = {
 		}
 		start_civil_war = {
 			ruling_party = social_conservative		
-			ideology = fascism
+			ideology = fascistic
 			size = 0.5
 			capital = 144
 			states = { 110 }
 		}
 		random_other_country = {
-			limit = { original_tag = NOR has_government = fascism }
+			limit = { original_tag = NOR has_government = fascistic }
 			GER = {
 				if = {
 					limit = { has_dlc = "Together for Victory" }

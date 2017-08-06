@@ -26,7 +26,7 @@ country_event = {
 			factor = 100
 			modifier = {
 				POL = {
-					has_government = fascism
+					has_government = fascistic
 				}
 				factor = 0.4
 			}

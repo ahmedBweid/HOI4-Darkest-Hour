@@ -31,7 +31,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		fascism = { 
+		fascistic = { 
 			popularity = 34
 		}	
 	
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		
 	}

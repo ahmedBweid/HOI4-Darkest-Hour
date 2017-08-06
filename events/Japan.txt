@@ -445,7 +445,7 @@ country_event = {
 			if = {
 				limit = { has_dlc = "Together for Victory" }
 				add_popularity = {
-					ideology = fascism
+					ideology = fascistic
 					popularity = 0.1
 				}
 				add_popularity = {

@@ -47,7 +47,7 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			
 			modifier = {
@@ -107,7 +107,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 
 			removal_cost = -1
@@ -126,7 +126,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 
 			removal_cost = -1
@@ -147,7 +147,7 @@ ideas = {
 			}
 			
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			 removal_cost = -1
 			 
@@ -175,7 +175,7 @@ ideas = {
 			}
 			
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			 removal_cost = -1
 			 
@@ -198,7 +198,7 @@ ideas = {
 			}
 			
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			 removal_cost = -1
 			 
@@ -223,7 +223,7 @@ ideas = {
 			}
 			
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			 removal_cost = -1
 			 
@@ -243,7 +243,7 @@ ideas = {
 			}
 			
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			removal_cost = -1
 			
@@ -270,7 +270,7 @@ ideas = {
 			}
 			
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 			removal_cost = -1
 			
@@ -359,7 +359,7 @@ ideas = {
 				original_tag = GER
 			}
 			
-			traits = { communist_revolutionary }
+			traits = { stalinist_revolutionary }
 	
 			on_add = {
 				country_event = political.1
@@ -383,7 +383,7 @@ ideas = {
 				original_tag = GER
 			}
 			
-			traits = { democratic_reformer }
+			traits = { social_conservative_reformer }
 	
 			on_add = {
 				country_event = political.13
@@ -407,7 +407,7 @@ ideas = {
 				original_tag = GER
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { fascistic_demagogue }
 	
 			on_add = {
 				country_event = political.7
@@ -415,7 +415,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 			

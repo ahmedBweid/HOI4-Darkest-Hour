@@ -83,7 +83,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 50 }		
 		social_conservative = { popularity = 20 }		
 		market_liberal = { popularity = 0 }		
@@ -108,7 +108,7 @@ set_politics = {
 			popularity = 5
 		}
 
-		fascism = {
+		fascistic = {
 			popularity = 35
 		}
 		
@@ -116,12 +116,12 @@ set_politics = {
 			popularity = 0
 			banned = yes
 		}
-		neutrality = { 
+		paternal_autocrat = { 
 			popularity = 60
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 	last_election = "1938.3.27"
 	election_frequency = 48
 	elections_allowed = no
@@ -133,7 +133,7 @@ create_country_leader = {
 	desc = "POLITICS_BORIS_III_DESC"
 	picture = "Portrait_Bulgaria_Boris_III.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -166,7 +166,7 @@ create_country_leader = {
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
 	picture = "GFX_Portrait_bulgaria_hristo_lukov"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}

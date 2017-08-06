@@ -50,13 +50,13 @@ set_politics = {
 			popularity = 33
 		}
 
-#		fascism = {
+#		fascistic = {
 #		}
 		
 		stalinist = {
 			popularity = 33
 		}
-		neutrality = {
+		paternal_autocrat = {
 			popularity = 34
 		}
 	}
@@ -98,9 +98,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ibrahim Hj Yaacob" #this guy supported Japanese during the war, and was imprisoned for it, could be made fascist?
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascistic.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = paternal_autocracy
 	traits = {
 		
 	}

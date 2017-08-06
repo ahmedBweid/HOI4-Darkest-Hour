@@ -125,7 +125,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 0 }		
 		social_conservative = { popularity = 33 }		
 		market_liberal = { popularity = 3 }		
@@ -158,7 +158,7 @@ create_country_leader = {
 	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
 	picture = "GFX_NZL_sidney_holland"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -169,7 +169,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_ORMOND_DESC"
 	picture = "GFX_NZL_john_ormond"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}
@@ -193,7 +193,7 @@ set_convoys = 70
 
 		parties = {
 			national_socialist = { popularity = 0 }		
-			fascism = { popularity = 0 }		
+			fascistic = { popularity = 0 }		
 			paternal_autocrat = { popularity = 0 }		
 			social_conservative = { popularity = 33 }		
 			market_liberal = { popularity = 3 }		

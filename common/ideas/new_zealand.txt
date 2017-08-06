@@ -258,16 +258,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascistic_drift_bonus
 			
 			modifier = {
 				autonomy_gain = 1
-				fascism_drift = 0.01
+				fascistic_drift = 0.01
 				production_speed_buildings_factor = 0.1
 			}
 		}

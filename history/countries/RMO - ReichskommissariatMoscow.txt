@@ -18,12 +18,12 @@ set_convoys = 50
 set_politics = {
 
 	parties = {		
-		fascism = {
+		fascistic = {
 			popularity =100
 		}				
 	}
 	
-	ruling_party = fascism
+	ruling_party = fascistic
 	last_election = "1935.6.9"
 	election_frequency = 0
 	elections_allowed = no

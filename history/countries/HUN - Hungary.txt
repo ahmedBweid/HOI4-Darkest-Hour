@@ -126,7 +126,7 @@ if = {
 set_politics = {
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 5 }		
+		fascistic = { popularity = 5 }		
 		paternal_autocrat = { popularity = 4 }		
 		social_conservative = { popularity = 52 }		
 		market_liberal = { popularity = 0 }		
@@ -153,10 +153,10 @@ if = {
 		desc = "POLITICS_MIKLOS_HORTHY_DESC"
 		picture = "Portrait_Hungary_Miklos_Horthy.dds"
 		expire = "1965.1.1"
-		ideology = oligarchism
+		ideology = paternal_autocracy
 		traits = {
-			fascist_sympathies
-			anti_communist
+			fascistic_sympathies
+			anti_stalinist
 		}
 		id = 500 #Horthy Neutral
 	}
@@ -166,14 +166,14 @@ if = {
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = paternal_autocracy
 		}
 		create_country_leader = {
 			name = "Miklós Horthy"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = fascistic_ideology
 		}
 	}
 }
@@ -212,9 +212,9 @@ create_country_leader = {
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = fascism_ideology
+			ideology = fascistic_ideology
 			traits = {
-				anti_communist
+				anti_stalinist
 			}
 			id = 503 #Horty fascist
 		}
@@ -227,7 +227,7 @@ create_country_leader = {
 				popularity = 27
 			}
 
-			fascism = {
+			fascistic = {
 				popularity = 70
 			}
 			
@@ -236,7 +236,7 @@ create_country_leader = {
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = fascistic
 		last_election = "1939.5.29"
 		election_frequency = 48
 		elections_allowed = yes

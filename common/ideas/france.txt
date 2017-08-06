@@ -68,9 +68,9 @@ ideas = {
 							}
 						}
 						AND = {	
-							has_government = fascism
+							has_government = fascistic
 							GER = {
-								has_government = fascism
+								has_government = fascistic
 							}
 						}
 					}
@@ -148,7 +148,7 @@ ideas = {
 			}
 		}
 		FRA_support_the_left_focus = {
-				picture = generic_communism_drift_bonus
+				picture = generic_stalinist_drift_bonus
 				allowed = {
 					always = no # Added via focus
 				}
@@ -156,7 +156,7 @@ ideas = {
 				allowed_civil_war = {
 					NOT = {
 						OR = {
-							has_government = fascism
+							has_government = fascistic
 							AND = {
 								NOT = { has_government = stalinist }
 								any_other_country = {
@@ -181,7 +181,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 
@@ -235,7 +235,7 @@ ideas = {
 				}
 		}		
 		FRA_support_the_right_focus = {
-				picture = generic_fascism_drift_bonus
+				picture = generic_fascistic_drift_bonus
 				allowed = {
 					always = no # Added via focus
 				}
@@ -244,17 +244,17 @@ ideas = {
 						OR = {
 							has_government = stalinist
 							AND = {
-								NOT = { has_government = fascism }
+								NOT = { has_government = fascistic }
 								any_other_country = {
 									original_tag = FRA
-									has_government = fascism
+									has_government = fascistic
 								}
 							}
 						}
 					}
 				}
 				modifier = {
-					fascism_drift = 0.2
+					fascistic_drift = 0.2
 				}
 		}
 
@@ -282,7 +282,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 
 			modifier = {
@@ -318,7 +318,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 
@@ -328,7 +328,7 @@ ideas = {
 			}
 		}
 
-		FRA_communism_banned = {
+		FRA_stalinist_banned = {
 			picture = anti_soviet_pact
 			allowed = {
 				always = no
@@ -359,7 +359,7 @@ ideas = {
 				has_completed_focus = FRA_leftist_rhetoric
 			}
 			
-			traits = { communist_revolutionary }
+			traits = { stalinist_revolutionary }
 	
 			on_add = {
 				country_event = political.1
@@ -385,7 +385,7 @@ ideas = {
 			
 
 			
-			traits = { democratic_reformer }
+			traits = { social_conservative_reformer }
 	
 			on_add = {
 				country_event = political.13
@@ -412,7 +412,7 @@ ideas = {
 				has_completed_focus = FRA_right_wing_rhetoric
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { fascistic_demagogue }
 	
 			on_add = {
 				country_event = political.7
@@ -420,7 +420,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 

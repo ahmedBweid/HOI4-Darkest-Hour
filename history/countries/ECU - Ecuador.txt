@@ -63,7 +63,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 35 }		
 		social_conservative = { popularity = 55 }		
 		market_liberal = { popularity = 0 }		
@@ -99,7 +99,7 @@ create_country_leader = {
 				popularity = 100
 			}
 
-			fascism = {
+			fascistic = {
 				popularity = 0
 			}
 			

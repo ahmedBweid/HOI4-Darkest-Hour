@@ -219,7 +219,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 2 }		
+		fascistic = { popularity = 2 }		
 		paternal_autocrat = { popularity = 4 }		
 		social_conservative = { popularity = 60 }		
 		market_liberal = { popularity = 26 }		
@@ -245,7 +245,7 @@ set_politics = {
 				popularity = 0
 			}
 
-			fascism = {
+			fascistic = {
 				popularity = 100
 			}
 			
@@ -255,7 +255,7 @@ set_politics = {
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = fascistic
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -267,7 +267,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_Japan_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		warrior_code
 	}

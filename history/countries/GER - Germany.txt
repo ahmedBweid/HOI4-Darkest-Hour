@@ -138,9 +138,9 @@ create_import = {
 	unlock_national_focus = GER_mol_rib_pact
 	every_other_country = {
 		limit = {
-			has_government = fascism 
+			has_government = fascistic 
 		}
-		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+		add_opinion_modifier = { target = GER modifier = MR_pact_fascistics }
 	}
 	diplomatic_relation = { country = SOV relation = non_aggression_pact }
 	add_opinion_modifier = { target = SOV modifier = MR_pact }
@@ -237,7 +237,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 65 }		
-		fascism = { popularity = 1 }		
+		fascistic = { popularity = 1 }		
 		paternal_autocrat = { popularity = 1 }		
 		social_conservative = { popularity = 10 }		
 		market_liberal = { popularity = 0 }		

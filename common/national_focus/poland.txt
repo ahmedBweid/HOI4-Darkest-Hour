@@ -1855,7 +1855,7 @@ focus_tree = {
 
 	focus = {
 		id = POL_go_right
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		prerequisite = { focus = POL_authoritarianism }
 		mutually_exclusive = { focus = POL_go_left }
 
@@ -1870,7 +1870,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = fascist_influence
+			add_ideas = fascistic_influence
 			#Increases Fascist Support
 		}
 	}
@@ -1938,7 +1938,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = communist_influence
+			add_ideas = stalinist_influence
 			#Increases Communist Support
 		}
 	}
@@ -2006,7 +2006,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = democratic_influence
+			add_ideas = social_conservative_influence
 			#Increase in Democratic Support
 		}
 	}

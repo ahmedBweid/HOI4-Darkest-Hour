@@ -2016,7 +2016,7 @@ focus_tree = {
 
 	focus = {
 		id = NZL_waitangi_tribunal
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_paternal_autocrat_focus
 		prerequisite = { focus = NZL_the_manpower_act }
 		mutually_exclusive = { focus = NZL_amend_the_maori_affairs_act }
 		x = 1
@@ -2514,7 +2514,7 @@ focus_tree = {
 
 	focus = {
 		id = NZL_in_the_darkness
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		prerequisite = { focus = NZL_statute_of_westminster }
 		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
 		x = -3
@@ -2570,7 +2570,7 @@ focus_tree = {
 			NOT = { has_war_with = JAP }
 			JAP = { has_government = ROOT }
 			is_subject = no
-			has_government = fascism			
+			has_government = fascistic			
 		}
 
 		bypass = {
@@ -2651,7 +2651,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = fascism
+			has_government = fascistic
 			is_in_faction_with = JAP
 		}
 

@@ -255,16 +255,16 @@ country_event = {
 	trigger = {
 		original_tag = MEX
 		has_defensive_war = no
-		NOT = { has_government = fascism }
+		NOT = { has_government = fascistic }
 		has_idea = synarchist_support_surge
-		fascism > 0.3
+		fascistic > 0.3
 	}
 
 	mean_time_to_happen = {
 		months = 4
 		modifier = {
 			factor = 0.5
-			fascism > 0.5			
+			fascistic > 0.5			
 		}
 	}
 	
@@ -273,14 +273,14 @@ country_event = {
 		trigger = { is_ai = no }
 		hidden_effect = {
 			start_civil_war = {
-				ruling_party = fascism
-				ideology = neutrality
+				ruling_party = fascistic
+				ideology = paternal_autocrat
 				size = 0.5
 			}
 			random_other_country = {
 				limit = {
 					original_tag = MEX
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				set_equipment_fraction = 0.3
 				set_national_unity = 0.9
@@ -295,7 +295,7 @@ country_event = {
 			set_national_unity = 0.9
 			
 			add_popularity = {
-				ideology = fascism
+				ideology = fascistic
 				popularity = 1
 			}
 			
@@ -307,13 +307,13 @@ country_event = {
 		name = tfv_canada.30.b
 		hidden_effect = {
 			start_civil_war = {
-				ideology = fascism
+				ideology = fascistic
 				size = 0.5
 			}
 			random_other_country = {
 				limit = {
 					original_tag = MEX
-					has_government = fascism
+					has_government = fascistic
 				}
 				set_equipment_fraction = 0.3
 				set_national_unity = 0.9
@@ -321,15 +321,15 @@ country_event = {
 			news_event = { hours = 6 id = news.250 }
 			
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = paternal_autocrat
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = neutrality
+				ideology = paternal_autocrat
 				popularity = 0.5
 			}
 			add_popularity = {
-				ideology = fascism
+				ideology = fascistic
 				popularity = -1
 			}
 			set_equipment_fraction = 0.3
@@ -344,7 +344,7 @@ country_event = {
 		name = tfv_canada.30.c # Peacefully let the fascists form the government
 		
 		trigger = {
-			fascism > 0.5
+			fascistic > 0.5
 		}
 		
 		ai_chance = {
@@ -352,7 +352,7 @@ country_event = {
 		}
 		
 		set_politics = {
-			ruling_party = fascism
+			ruling_party = fascistic
 			elections_allowed = no
 		}
 		remove_ideas = synarchist_support_surge
@@ -383,7 +383,7 @@ country_event = {
 				random_country = {
 					limit = {
 						original_tag = MEX
-						has_government = fascism
+						has_government = fascistic
 					}
 					CAN = { add_to_faction = PREV }
 				}
@@ -434,7 +434,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = MEX
-				has_government = fascism
+				has_government = fascistic
 			}
 			CAN = { add_to_faction = PREV }
 		}

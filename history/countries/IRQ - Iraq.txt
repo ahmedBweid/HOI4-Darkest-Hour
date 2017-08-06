@@ -73,7 +73,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 51 }		
 		social_conservative = { popularity = 35 }		
 		market_liberal = { popularity = 10 }		
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_GHAZI_I_DESC"
 	picture = "GFX_portrait_iraq_ghazi"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -104,9 +104,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Rashid Ali al-Gaylani"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascistic1.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascistic_ideology
 	traits = {
 		#
 	}
@@ -131,7 +131,7 @@ create_country_leader = {
 				popularity = 0
 			}
 
-			fascism = {
+			fascistic = {
 				popularity = 30
 			}
 			
@@ -140,12 +140,12 @@ create_country_leader = {
 				#banned = no #default is no
 			}
 
-			neutrality = { 
+			paternal_autocrat = { 
 				popularity = 70
 			}
 		}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -156,7 +156,7 @@ create_country_leader = {
 		desc = "POLITICS_FAISAL_II_DESC"
 		picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
 		expire = "1965.1.1"
-		ideology = despotism
+		ideology = paternal_autocracy
 		traits = {
 			#
 		}

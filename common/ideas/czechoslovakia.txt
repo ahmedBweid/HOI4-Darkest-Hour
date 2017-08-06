@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 	
-		CZE_democratic_bastion = {
+		CZE_social_conservative_bastion = {
 			
 			allowed = {
 				always = no
@@ -62,7 +62,7 @@ ideas = {
 			}			
 		}
 		
-		CZE_communism_with_a_human_face = {
+		CZE_stalinist_with_a_human_face = {
 			
 			
 			allowed = {
@@ -71,8 +71,8 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = stalinist
+					has_government = fascistic
 				}
 			}
 			
@@ -96,15 +96,15 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						has_government = fascism
+						has_government = fascistic
 						GER = {
-							has_government = fascism
+							has_government = fascistic
 						}
 					}
 					AND = {
-						has_government = communism
+						has_government = stalinist
 						GER = {
-							has_government = communism
+							has_government = stalinist
 						}
 					}
 					AND = {
@@ -396,9 +396,9 @@ ideas = {
 		}		
 		
 		
-		CZE_czech_fascism_idea = {
+		CZE_czech_fascistic_idea = {
 		
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascistic_drift_bonus
 
 			allowed = {
 				original_tag = CZE
@@ -417,9 +417,9 @@ ideas = {
 			}
 		}
 		
-		CZE_national_fascism_idea = {
+		CZE_national_fascistic_idea = {
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascistic_drift_bonus
 		
 			allowed = {
 				original_tag = CZE
@@ -532,11 +532,11 @@ ideas = {
 			available = {
 				if = { 
 					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_democratic_bastion
+					has_completed_focus = CZE_social_conservative_bastion
 				}
 			}
 			
-			traits = { democratic_reformer }
+			traits = { social_conservative_reformer }
 
 			ai_will_do = {
 				factor = 0
@@ -558,7 +558,7 @@ ideas = {
 				}
 			}
 			
-			traits = { communist_revolutionary }
+			traits = { stalinist_revolutionary }
 
 			ai_will_do = {
 				factor = 0
@@ -580,7 +580,7 @@ ideas = {
 				}
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { fascistic_demagogue }
 
 			ai_will_do = {
 				factor = 0

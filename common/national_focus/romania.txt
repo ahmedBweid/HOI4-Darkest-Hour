@@ -329,7 +329,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_popularity = { ideology = fascism popularity = 0.05 }
+			add_popularity = { ideology = fascistic popularity = 0.05 }
 			add_opinion_modifier = { target = GER modifier = ROM_trade_treaty_with_germany }
 			GER = { add_opinion_modifier = { target = ROOT modifier = ROM_trade_treaty_with_germany } }
 		}
@@ -426,7 +426,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_join_axis
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		prerequisite = { focus = ROM_invite_german_advisors }
 		x = 0
 		y = 4
@@ -1890,7 +1890,7 @@ focus_tree = {
 		available = {
 			is_subject = no
 			stalinist < 0.5
-			fascism < 0.5
+			fascistic < 0.5
 			social_conservative < 0.5
 		}
 
@@ -1913,13 +1913,13 @@ focus_tree = {
 				desc = "POLITICS_CAROL_II_DESC"
 				picture = GFX_Portrait_romania_Carol_II				
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = paternal_autocracy
 				traits = {
 					hedonist
 				}
 				id = 550
 			}
-			remove_ideas = neutrality_idea
+			remove_ideas = paternal_autocrat_idea
 		}
 	}
 
@@ -1967,7 +1967,7 @@ focus_tree = {
 				desc = "POLITICS_MICHAEL_I_DESC"
 				picture = GFX_Portrait_romania_michael_i				
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = paternal_autocracy
 				traits = {
 				}
 			}
@@ -2050,7 +2050,7 @@ focus_tree = {
 				}
 			}
 			is_subject = no
-			has_government = neutrality
+			has_government = paternal_autocrat
 			custom_trigger_tooltip = {
 				tooltip = ROM_carol_current_leader_trigger
 				has_country_leader = { id = 550 }
@@ -2090,7 +2090,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = neutrality
+			has_government = paternal_autocrat
 			custom_trigger_tooltip = {
 				tooltip = ROM_carol_current_leader_trigger
 				has_country_leader = { id = 550 }
@@ -2133,7 +2133,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = neutrality
+			has_government = paternal_autocrat
 			custom_trigger_tooltip = {
 				tooltip = ROM_carol_current_leader_trigger
 				has_country_leader = { id = 550 }
@@ -2197,7 +2197,7 @@ focus_tree = {
 		completion_reward = {
 			
 			set_politics = {
-				ruling_party = neutrality
+				ruling_party = paternal_autocrat
 				elections_allowed = no
 			}
 			add_country_leader_trait = camarilla_leader
@@ -2406,7 +2406,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_appoint_german_friendly_government
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_support_fascistic
 		prerequisite = { focus = ROM_flexible_foreign_policy }
 		x = 1
 		y = 1
@@ -2426,7 +2426,7 @@ focus_tree = {
 			is_subject = no
 			GER = {
 				is_faction_leader = yes
-				has_government = fascism
+				has_government = fascistic
 				NOT = { has_war_with = ROM }
 			}
 		}
@@ -2471,7 +2471,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				popularity = 0.35
-				ideology = fascism
+				ideology = fascistic
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ROM_mihail_sturdza
@@ -2586,7 +2586,7 @@ focus_tree = {
 			OR = {
 				social_conservative > 0.35
 				stalinist > 0.35
-				fascism > 0.35
+				fascistic > 0.35
 			}
 			is_subject = no
 		}
@@ -2625,10 +2625,10 @@ focus_tree = {
 					elections_allowed = no
 				}
 				limit = {
-					fascism > 0.35
+					fascistic > 0.35
 				}
 				set_politics = {
-					ruling_party = fascism
+					ruling_party = fascistic
 					elections_allowed = no
 				}
 			}
@@ -2734,7 +2734,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_constitutional_guarantees
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_paternal_autocrat_focus
 		prerequisite = { focus = ROM_appoint_allied_friendly_government }
 		x = 0
 		y = 1

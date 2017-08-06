@@ -365,24 +365,24 @@ ideas = {
 			}
 		}
 
-		AST_abandon_the_westminster_system_fascism = {
+		AST_abandon_the_westminster_system_fascistic = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = fascism
+				has_government = fascistic
 			}
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_fascism
+			picture = ast_abandon_the_westminster_system_fascistic
 
 			modifier = {
 				autonomy_gain = 1
 				social_conservative_drift = -0.1
-				fascism_drift = 0.2
+				fascistic_drift = 0.2
 			}
 		}
 
@@ -398,12 +398,12 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascism_drift_bonus
+			picture = generic_fascistic_drift_bonus
 
 			modifier = {
 				autonomy_gain = 1
 				social_conservative_drift = -0.1
-				fascism_drift = 0.2
+				fascistic_drift = 0.2
 			}
 		}
 
@@ -565,7 +565,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		AST_generic_fascist_demagogue = {
+		AST_generic_fascistic_demagogue = {
 			
 			allowed = {
 				original_tag = AST
@@ -580,7 +580,7 @@ ideas = {
 
 			picture = generic_political_advisor_europe_4
 			
-			traits = { fascist_demagogue }
+			traits = { fascistic_demagogue }
 		
 			on_add = {
 				country_event = political.7
@@ -588,7 +588,7 @@ ideas = {
 		
 			do_effect = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 		
@@ -610,9 +610,9 @@ ideas = {
 				}
 			}
 
-			picture = generic_communist_revolutionary_western_european_2d
+			picture = generic_stalinist_revolutionary_western_european_2d
 			
-			traits = { communist_revolutionary }
+			traits = { stalinist_revolutionary }
 		
 			on_add = {
 				country_event = political.1
@@ -645,9 +645,9 @@ ideas = {
 				}
 			}
 			
-			picture = generic_democratic_reformer_western_european_2d
+			picture = generic_social_conservative_reformer_western_european_2d
 			
-			traits = { democratic_reformer }
+			traits = { social_conservative_reformer }
 		
 			on_add = {
 				country_event = political.13

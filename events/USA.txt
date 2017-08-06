@@ -55,7 +55,7 @@ country_event = {
 		every_other_country = {
 			limit = {
 				OR = {
-					has_government = fascism
+					has_government = fascistic
 					has_government = communism
 				}
 			}
@@ -554,7 +554,7 @@ country_event = {
 
 	trigger = {
 		tag = USA
-		has_government = fascism
+		has_government = fascistic
 		is_puppet = no
 	}
 	
@@ -569,7 +569,7 @@ country_event = {
 			popularity = 0.5
 		}
 		remove_ideas = great_depression
-		add_timed_idea = { idea = fascism_defeated days = 730 }
+		add_timed_idea = { idea = fascistic_defeated days = 730 }
 		if = {
 			limit = {
 				ENG = {
@@ -800,7 +800,7 @@ country_event = {
 	}
 }
 
-# US supports fascism
+# US supports fascistic
 country_event = {
 	id = usa.22
 	title = usa.20.t
@@ -863,7 +863,7 @@ country_event = {
 			popularity = 0.5
 		}
 		remove_ideas = great_depression
-		add_timed_idea = { idea = communism_defeated days = 730 }
+		add_timed_idea = { idea = stalinist_defeated days = 730 }
 		if = {
 			limit = {
 				ENG = {

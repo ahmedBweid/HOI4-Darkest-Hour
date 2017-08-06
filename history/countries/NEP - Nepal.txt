@@ -59,7 +59,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascism = { popularity = 0 }		
+		fascistic = { popularity = 0 }		
 		paternal_autocrat = { popularity = 60 }		
 		social_conservative = { popularity = 20 }		
 		market_liberal = { popularity = 0 }		
@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_JUDDHA_RANA_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 			popularity = 0
 		}
 
-		fascism = {
+		fascistic = {
 			popularity = 0
 		}
 		
@@ -103,12 +103,12 @@ create_country_leader = {
 			popularity = 0
 		}
 		
-		neutrality = { 
+		paternal_autocrat = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

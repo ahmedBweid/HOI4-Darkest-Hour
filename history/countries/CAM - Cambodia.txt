@@ -38,14 +38,14 @@ set_politics = {
 			popularity = 40
 		}
 
-#		fascism = {
+#		fascistic = {
 #		
 #		}
 		
 		stalinist = {
 			popularity = 25
 		}
-		neutrality = {
+		paternal_autocrat = {
 			popularity = 35
 		}
 	}
@@ -90,5 +90,5 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything historical on fascism
+#couldnt find anything historical on fascistic
 

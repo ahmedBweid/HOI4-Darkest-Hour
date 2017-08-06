@@ -53,7 +53,7 @@ country_event = {
 			modifier = {
 				TUR = {
 					OR = {
-						has_government = fascism
+						has_government = fascistic
 						is_in_faction_with = GER
 					}
 				}
@@ -82,7 +82,7 @@ country_event = {
 			transfer_state = 183
 			add_state_core = 183
 		}
-		add_opinion_modifier = { target = GER modifier = fascism_leanings_good }			
+		add_opinion_modifier = { target = GER modifier = fascistic_leanings_good }			
 	}
 
 	option = { #refuse cyprus

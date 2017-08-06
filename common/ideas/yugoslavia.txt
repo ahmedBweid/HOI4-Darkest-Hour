@@ -4,7 +4,7 @@ ideas = {
 	
 		anti_german_military = {
 			
-			picture = generic_fascism_banned
+			picture = generic_fascistic_banned
 
 			allowed = {
 				always = no
@@ -12,7 +12,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascism
+					has_government = fascistic
 				}
 			}
 
@@ -618,7 +618,7 @@ ideas = {
 				original_tag = YUG
 			}
 			
-			traits = { communist_revolutionary }
+			traits = { stalinist_revolutionary }
 		}
 
 		YUG_milovan_djilas = {
@@ -629,7 +629,7 @@ ideas = {
 				original_tag = YUG
 			}
 			
-			traits = { democratic_reformer }
+			traits = { social_conservative_reformer }
 		}
 
 		YUG_dimitrije_ljotic = {
@@ -640,7 +640,7 @@ ideas = {
 				original_tag = YUG
 			}
 			
-			traits = { fascist_demagogue }
+			traits = { fascistic_demagogue }
 		}
 	}
 

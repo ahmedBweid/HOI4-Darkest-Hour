@@ -9,7 +9,7 @@ start_scaled_communist_civil_war_cap439 = {
 			limit = { compare_autonomy_progress_ratio > 0.9 }
 			start_civil_war = {
 				ruling_party = stalinist
-				ideology = neutrality
+				ideology = paternal_autocrat
 				size = 0.23
 				capital = 439
 			}
@@ -18,7 +18,7 @@ start_scaled_communist_civil_war_cap439 = {
 					limit = { compare_autonomy_progress_ratio > 0.77 }
 					start_civil_war = {
 						ruling_party = stalinist
-						ideology = neutrality
+						ideology = paternal_autocrat
 						size = 0.32
 						capital = 439
 					}
@@ -27,7 +27,7 @@ start_scaled_communist_civil_war_cap439 = {
 							limit = { compare_autonomy_progress_ratio > 0.65 }
 							start_civil_war = {
 								ruling_party = stalinist
-								ideology = neutrality
+								ideology = paternal_autocrat
 								size = 0.40
 								capital = 439
 							}
@@ -36,7 +36,7 @@ start_scaled_communist_civil_war_cap439 = {
 									limit = { compare_autonomy_progress_ratio > 0.53 }
 									start_civil_war = {
 										ruling_party = stalinist
-										ideology = neutrality
+										ideology = paternal_autocrat
 										size = 0.48
 										capital = 439
 									}
@@ -45,7 +45,7 @@ start_scaled_communist_civil_war_cap439 = {
 											limit = { compare_autonomy_progress_ratio > 0.40 }
 											start_civil_war = {
 												ruling_party = stalinist
-												ideology = neutrality
+												ideology = paternal_autocrat
 												size = 0.56
 												capital = 439
 											}
@@ -54,14 +54,14 @@ start_scaled_communist_civil_war_cap439 = {
 													limit = { compare_autonomy_progress_ratio > 0.28 }
 														start_civil_war = {
 															ruling_party = stalinist
-															ideology = neutrality
+															ideology = paternal_autocrat
 															size = 0.64
 															capital = 439
 														}
 													else = {
 														start_civil_war = {
 															ruling_party = stalinist
-															ideology = neutrality
+															ideology = paternal_autocrat
 															size = 0.72
 															capital = 439
 														}
@@ -86,7 +86,7 @@ start_scaled_communist_civil_war_cap439 = {
 					limit = { compare_autonomy_progress_ratio > 0.9 }
 					start_civil_war = {
 						ruling_party = stalinist
-						ideology = neutrality
+						ideology = paternal_autocrat
 						size = 0.30
 						capital = 439
 					}
@@ -95,7 +95,7 @@ start_scaled_communist_civil_war_cap439 = {
 							limit = { compare_autonomy_progress_ratio > 0.77 }
 							start_civil_war = {
 								ruling_party = stalinist
-								ideology = neutrality
+								ideology = paternal_autocrat
 								size = 0.39
 								capital = 439
 							}
@@ -104,7 +104,7 @@ start_scaled_communist_civil_war_cap439 = {
 									limit = { compare_autonomy_progress_ratio > 0.65 }
 									start_civil_war = {
 										ruling_party = stalinist
-										ideology = neutrality
+										ideology = paternal_autocrat
 										size = 0.47
 										capital = 439
 									}
@@ -113,7 +113,7 @@ start_scaled_communist_civil_war_cap439 = {
 											limit = { compare_autonomy_progress_ratio > 0.53 }
 											start_civil_war = {
 												ruling_party = stalinist
-												ideology = neutrality
+												ideology = paternal_autocrat
 												size = 0.55
 												capital = 439
 											}
@@ -122,7 +122,7 @@ start_scaled_communist_civil_war_cap439 = {
 													limit = { compare_autonomy_progress_ratio > 0.40 }
 													start_civil_war = {
 														ruling_party = stalinist
-														ideology = neutrality
+														ideology = paternal_autocrat
 														size = 0.63
 														capital = 439
 													}
@@ -131,14 +131,14 @@ start_scaled_communist_civil_war_cap439 = {
 															limit = { compare_autonomy_progress_ratio > 0.28 }
 																start_civil_war = {
 																	ruling_party = stalinist
-																	ideology = neutrality
+																	ideology = paternal_autocrat
 																	size = 0.71
 																	capital = 439
 																}
 															else = {
 																start_civil_war = {
 																	ruling_party = stalinist
-																	ideology = neutrality
+																	ideology = paternal_autocrat
 																	size = 0.79
 																	capital = 439
 																}
@@ -165,7 +165,7 @@ start_scaled_communist_civil_war_cap439 = {
 							limit = { compare_autonomy_progress_ratio > 0.9 }
 							start_civil_war = {
 								ruling_party = stalinist
-								ideology = neutrality
+								ideology = paternal_autocrat
 								size = 0.38
 								capital = 439
 							}
@@ -174,7 +174,7 @@ start_scaled_communist_civil_war_cap439 = {
 									limit = { compare_autonomy_progress_ratio > 0.77 }
 									start_civil_war = {
 										ruling_party = stalinist
-										ideology = neutrality
+										ideology = paternal_autocrat
 										size = 0.47
 										capital = 439
 									}
@@ -183,7 +183,7 @@ start_scaled_communist_civil_war_cap439 = {
 											limit = { compare_autonomy_progress_ratio > 0.65 }
 											start_civil_war = {
 												ruling_party = stalinist
-												ideology = neutrality
+												ideology = paternal_autocrat
 												size = 0.55
 												capital = 439
 											}
@@ -192,7 +192,7 @@ start_scaled_communist_civil_war_cap439 = {
 													limit = { compare_autonomy_progress_ratio > 0.53 }
 													start_civil_war = {
 														ruling_party = stalinist
-														ideology = neutrality
+														ideology = paternal_autocrat
 														size = 0.63
 														capital = 439
 													}
@@ -201,7 +201,7 @@ start_scaled_communist_civil_war_cap439 = {
 															limit = { compare_autonomy_progress_ratio > 0.40 }
 															start_civil_war = {
 																ruling_party = stalinist
-																ideology = neutrality
+																ideology = paternal_autocrat
 																size = 0.71
 																capital = 439
 															}
@@ -210,14 +210,14 @@ start_scaled_communist_civil_war_cap439 = {
 																	limit = { compare_autonomy_progress_ratio > 0.28 }
 																		start_civil_war = {
 																			ruling_party = stalinist
-																			ideology = neutrality
+																			ideology = paternal_autocrat
 																			size = 0.79
 																			capital = 439
 																		}
 																	else = {
 																		start_civil_war = {
 																			ruling_party = stalinist
-																			ideology = neutrality
+																			ideology = paternal_autocrat
 																			size = 0.87
 																			capital = 439
 																		}
@@ -242,7 +242,7 @@ start_scaled_communist_civil_war_cap439 = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
 								start_civil_war = {
 									ruling_party = stalinist
-									ideology = neutrality
+									ideology = paternal_autocrat
 									size = 0.46
 									capital = 439
 								}
@@ -251,7 +251,7 @@ start_scaled_communist_civil_war_cap439 = {
 										limit = { compare_autonomy_progress_ratio > 0.77 }
 										start_civil_war = {
 											ruling_party = stalinist
-											ideology = neutrality
+											ideology = paternal_autocrat
 											size = 0.54
 											capital = 439
 										}
@@ -260,7 +260,7 @@ start_scaled_communist_civil_war_cap439 = {
 												limit = { compare_autonomy_progress_ratio > 0.65 }
 												start_civil_war = {
 													ruling_party = stalinist
-													ideology = neutrality
+													ideology = paternal_autocrat
 													size = 0.62
 													capital = 439
 												}
@@ -269,7 +269,7 @@ start_scaled_communist_civil_war_cap439 = {
 														limit = { compare_autonomy_progress_ratio > 0.53 }
 														start_civil_war = {
 															ruling_party = stalinist
-															ideology = neutrality
+															ideology = paternal_autocrat
 															size = 0.70
 															capital = 439
 														}
@@ -278,7 +278,7 @@ start_scaled_communist_civil_war_cap439 = {
 																limit = { compare_autonomy_progress_ratio > 0.40 }
 																start_civil_war = {
 																	ruling_party = stalinist
-																	ideology = neutrality
+																	ideology = paternal_autocrat
 																	size = 0.78
 																	capital = 439
 																}
@@ -287,14 +287,14 @@ start_scaled_communist_civil_war_cap439 = {
 																		limit = { compare_autonomy_progress_ratio > 0.28 }
 																			start_civil_war = {
 																				ruling_party = stalinist
-																				ideology = neutrality
+																				ideology = paternal_autocrat
 																				size = 0.86
 																				capital = 439
 																			}
 																		else = {
 																			start_civil_war = {
 																				ruling_party = stalinist
-																				ideology = neutrality
+																				ideology = paternal_autocrat
 																				size = 0.94
 																				capital = 439
 																			}
@@ -325,13 +325,13 @@ start_scaled_communist_civil_war_cap439 = {
 ### It's not pretty, but that's how we like it
 start_scaled_fascist_civil_war_cap439 = {
 	if = {
-		limit = { fascism > 0.50 }
+		limit = { fascistic > 0.50 }
 		### SCALE BY AUTONOMY ####
 		if = {
 			limit = { compare_autonomy_progress_ratio > 0.9 }
 			start_civil_war = {
-				ruling_party = fascism
-				ideology = neutrality
+				ruling_party = fascistic
+				ideology = paternal_autocrat
 				size = 0.23
 				capital = 439
 			}
@@ -339,8 +339,8 @@ start_scaled_fascist_civil_war_cap439 = {
 				if = {
 					limit = { compare_autonomy_progress_ratio > 0.77 }
 					start_civil_war = {
-						ruling_party = fascism
-						ideology = neutrality
+						ruling_party = fascistic
+						ideology = paternal_autocrat
 						size = 0.32
 						capital = 439
 					}
@@ -348,8 +348,8 @@ start_scaled_fascist_civil_war_cap439 = {
 						if = {
 							limit = { compare_autonomy_progress_ratio > 0.65 }
 							start_civil_war = {
-								ruling_party = fascism
-								ideology = neutrality
+								ruling_party = fascistic
+								ideology = paternal_autocrat
 								size = 0.40
 								capital = 439
 							}
@@ -357,8 +357,8 @@ start_scaled_fascist_civil_war_cap439 = {
 								if = {
 									limit = { compare_autonomy_progress_ratio > 0.53 }
 									start_civil_war = {
-										ruling_party = fascism
-										ideology = neutrality
+										ruling_party = fascistic
+										ideology = paternal_autocrat
 										size = 0.48
 										capital = 439
 									}
@@ -366,8 +366,8 @@ start_scaled_fascist_civil_war_cap439 = {
 										if = {
 											limit = { compare_autonomy_progress_ratio > 0.40 }
 											start_civil_war = {
-												ruling_party = fascism
-												ideology = neutrality
+												ruling_party = fascistic
+												ideology = paternal_autocrat
 												size = 0.56
 												capital = 439
 											}
@@ -375,15 +375,15 @@ start_scaled_fascist_civil_war_cap439 = {
 												if = {
 													limit = { compare_autonomy_progress_ratio > 0.28 }
 														start_civil_war = {
-															ruling_party = fascism
-															ideology = neutrality
+															ruling_party = fascistic
+															ideology = paternal_autocrat
 															size = 0.64
 															capital = 439
 														}
 													else = {
 														start_civil_war = {
-															ruling_party = fascism
-															ideology = neutrality
+															ruling_party = fascistic
+															ideology = paternal_autocrat
 															size = 0.72
 															capital = 439
 														}
@@ -399,16 +399,16 @@ start_scaled_fascist_civil_war_cap439 = {
 				}				
 			}
 		}
-		### NEW FASCISM LEVEL BLOCK ####
+		### NEW fascistic LEVEL BLOCK ####
 		else = {
 			if = {
-				limit = { fascism > 0.35 }
+				limit = { fascistic > 0.35 }
 				### SCALE BY AUTONOMY ####
 				if = {
 					limit = { compare_autonomy_progress_ratio > 0.9 }
 					start_civil_war = {
-						ruling_party = fascism
-						ideology = neutrality
+						ruling_party = fascistic
+						ideology = paternal_autocrat
 						size = 0.30
 						capital = 439
 					}
@@ -416,8 +416,8 @@ start_scaled_fascist_civil_war_cap439 = {
 						if = {
 							limit = { compare_autonomy_progress_ratio > 0.77 }
 							start_civil_war = {
-								ruling_party = fascism
-								ideology = neutrality
+								ruling_party = fascistic
+								ideology = paternal_autocrat
 								size = 0.39
 								capital = 439
 							}
@@ -425,8 +425,8 @@ start_scaled_fascist_civil_war_cap439 = {
 								if = {
 									limit = { compare_autonomy_progress_ratio > 0.65 }
 									start_civil_war = {
-										ruling_party = fascism
-										ideology = neutrality
+										ruling_party = fascistic
+										ideology = paternal_autocrat
 										size = 0.47
 										capital = 439
 									}
@@ -434,8 +434,8 @@ start_scaled_fascist_civil_war_cap439 = {
 										if = {
 											limit = { compare_autonomy_progress_ratio > 0.53 }
 											start_civil_war = {
-												ruling_party = fascism
-												ideology = neutrality
+												ruling_party = fascistic
+												ideology = paternal_autocrat
 												size = 0.55
 												capital = 439
 											}
@@ -443,8 +443,8 @@ start_scaled_fascist_civil_war_cap439 = {
 												if = {
 													limit = { compare_autonomy_progress_ratio > 0.40 }
 													start_civil_war = {
-														ruling_party = fascism
-														ideology = neutrality
+														ruling_party = fascistic
+														ideology = paternal_autocrat
 														size = 0.63
 														capital = 439
 													}
@@ -452,15 +452,15 @@ start_scaled_fascist_civil_war_cap439 = {
 														if = {
 															limit = { compare_autonomy_progress_ratio > 0.28 }
 																start_civil_war = {
-																	ruling_party = fascism
-																	ideology = neutrality
+																	ruling_party = fascistic
+																	ideology = paternal_autocrat
 																	size = 0.71
 																	capital = 439
 																}
 															else = {
 																start_civil_war = {
-																	ruling_party = fascism
-																	ideology = neutrality
+																	ruling_party = fascistic
+																	ideology = paternal_autocrat
 																	size = 0.79
 																	capital = 439
 																}
@@ -478,16 +478,16 @@ start_scaled_fascist_civil_war_cap439 = {
 				}
 
 
-				### NEW FASCISM LEVEL BLOCK ####
+				### NEW fascistic LEVEL BLOCK ####
 				else = {
 					if = {
-						limit = { fascism > 0.2 }
+						limit = { fascistic > 0.2 }
 						### SCALE BY AUTONOMY ####
 						if = {
 							limit = { compare_autonomy_progress_ratio > 0.9 }
 							start_civil_war = {
-								ruling_party = fascism
-								ideology = neutrality
+								ruling_party = fascistic
+								ideology = paternal_autocrat
 								size = 0.38
 								capital = 439
 							}
@@ -495,8 +495,8 @@ start_scaled_fascist_civil_war_cap439 = {
 								if = {
 									limit = { compare_autonomy_progress_ratio > 0.77 }
 									start_civil_war = {
-										ruling_party = fascism
-										ideology = neutrality
+										ruling_party = fascistic
+										ideology = paternal_autocrat
 										size = 0.47
 										capital = 439
 									}
@@ -504,8 +504,8 @@ start_scaled_fascist_civil_war_cap439 = {
 										if = {
 											limit = { compare_autonomy_progress_ratio > 0.65 }
 											start_civil_war = {
-												ruling_party = fascism
-												ideology = neutrality
+												ruling_party = fascistic
+												ideology = paternal_autocrat
 												size = 0.55
 												capital = 439
 											}
@@ -513,8 +513,8 @@ start_scaled_fascist_civil_war_cap439 = {
 												if = {
 													limit = { compare_autonomy_progress_ratio > 0.53 }
 													start_civil_war = {
-														ruling_party = fascism
-														ideology = neutrality
+														ruling_party = fascistic
+														ideology = paternal_autocrat
 														size = 0.63
 														capital = 439
 													}
@@ -522,8 +522,8 @@ start_scaled_fascist_civil_war_cap439 = {
 														if = {
 															limit = { compare_autonomy_progress_ratio > 0.40 }
 															start_civil_war = {
-																ruling_party = fascism
-																ideology = neutrality
+																ruling_party = fascistic
+																ideology = paternal_autocrat
 																size = 0.71
 																capital = 439
 															}
@@ -531,15 +531,15 @@ start_scaled_fascist_civil_war_cap439 = {
 																if = {
 																	limit = { compare_autonomy_progress_ratio > 0.28 }
 																		start_civil_war = {
-																			ruling_party = fascism
-																			ideology = neutrality
+																			ruling_party = fascistic
+																			ideology = paternal_autocrat
 																			size = 0.79
 																			capital = 439
 																		}
 																	else = {
 																		start_civil_war = {
-																			ruling_party = fascism
-																			ideology = neutrality
+																			ruling_party = fascistic
+																			ideology = paternal_autocrat
 																			size = 0.87
 																			capital = 439
 																		}
@@ -557,14 +557,14 @@ start_scaled_fascist_civil_war_cap439 = {
 						}
 
 						else = {
-							### FINAL fascism LEVEL BLOCK ####
+							### FINAL fascistic LEVEL BLOCK ####
 						
 							### SCALE BY AUTONOMY ####
 							if = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
 								start_civil_war = {
-									ruling_party = fascism
-									ideology = neutrality
+									ruling_party = fascistic
+									ideology = paternal_autocrat
 									size = 0.46
 									capital = 439
 								}
@@ -572,8 +572,8 @@ start_scaled_fascist_civil_war_cap439 = {
 									if = {
 										limit = { compare_autonomy_progress_ratio > 0.77 }
 										start_civil_war = {
-											ruling_party = fascism
-											ideology = neutrality
+											ruling_party = fascistic
+											ideology = paternal_autocrat
 											size = 0.54
 											capital = 439
 										}
@@ -581,8 +581,8 @@ start_scaled_fascist_civil_war_cap439 = {
 											if = {
 												limit = { compare_autonomy_progress_ratio > 0.65 }
 												start_civil_war = {
-													ruling_party = fascism
-													ideology = neutrality
+													ruling_party = fascistic
+													ideology = paternal_autocrat
 													size = 0.62
 													capital = 439
 												}
@@ -590,8 +590,8 @@ start_scaled_fascist_civil_war_cap439 = {
 													if = {
 														limit = { compare_autonomy_progress_ratio > 0.53 }
 														start_civil_war = {
-															ruling_party = fascism
-															ideology = neutrality
+															ruling_party = fascistic
+															ideology = paternal_autocrat
 															size = 0.70
 															capital = 439
 														}
@@ -599,8 +599,8 @@ start_scaled_fascist_civil_war_cap439 = {
 															if = {
 																limit = { compare_autonomy_progress_ratio > 0.40 }
 																start_civil_war = {
-																	ruling_party = fascism
-																	ideology = neutrality
+																	ruling_party = fascistic
+																	ideology = paternal_autocrat
 																	size = 0.78
 																	capital = 439
 																}
@@ -608,15 +608,15 @@ start_scaled_fascist_civil_war_cap439 = {
 																	if = {
 																		limit = { compare_autonomy_progress_ratio > 0.28 }
 																			start_civil_war = {
-																				ruling_party = fascism
-																				ideology = neutrality
+																				ruling_party = fascistic
+																				ideology = paternal_autocrat
 																				size = 0.86
 																				capital = 439
 																			}
 																		else = {
 																			start_civil_war = {
-																				ruling_party = fascism
-																				ideology = neutrality
+																				ruling_party = fascistic
+																				ideology = paternal_autocrat
 																				size = 0.94
 																				capital = 439
 																			}
@@ -656,7 +656,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 			limit = { compare_autonomy_progress_ratio > 0.9 }
 			start_civil_war = {
 				ruling_party = stalinist
-				ideology = neutrality
+				ideology = paternal_autocrat
 				size = 0.38
 				capital = 439
 			}
@@ -665,7 +665,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 					limit = { compare_autonomy_progress_ratio > 0.77 }
 					start_civil_war = {
 						ruling_party = stalinist
-						ideology = neutrality
+						ideology = paternal_autocrat
 						size = 0.47
 						capital = 439
 					}
@@ -674,7 +674,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 							limit = { compare_autonomy_progress_ratio > 0.65 }
 							start_civil_war = {
 								ruling_party = stalinist
-								ideology = neutrality
+								ideology = paternal_autocrat
 								size = 0.550
 								capital = 439
 							}
@@ -683,7 +683,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 									limit = { compare_autonomy_progress_ratio > 0.53 }
 									start_civil_war = {
 										ruling_party = stalinist
-										ideology = neutrality
+										ideology = paternal_autocrat
 										size = 0.63
 										capital = 439
 									}
@@ -692,7 +692,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 											limit = { compare_autonomy_progress_ratio > 0.40 }
 											start_civil_war = {
 												ruling_party = stalinist
-												ideology = neutrality
+												ideology = paternal_autocrat
 												size = 0.71
 												capital = 439
 											}
@@ -701,14 +701,14 @@ start_scaled_communist_civil_war_cap439_puppet = {
 													limit = { compare_autonomy_progress_ratio > 0.28 }
 														start_civil_war = {
 															ruling_party = stalinist
-															ideology = neutrality
+															ideology = paternal_autocrat
 															size = 0.79
 															capital = 439
 														}
 													else = {
 														start_civil_war = {
 															ruling_party = stalinist
-															ideology = neutrality
+															ideology = paternal_autocrat
 															size = 0.87
 															capital = 439
 														}
@@ -733,7 +733,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 					limit = { compare_autonomy_progress_ratio > 0.9 }
 					start_civil_war = {
 						ruling_party = stalinist
-						ideology = neutrality
+						ideology = paternal_autocrat
 						size = 0.450
 						capital = 439
 					}
@@ -742,7 +742,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 							limit = { compare_autonomy_progress_ratio > 0.77 }
 							start_civil_war = {
 								ruling_party = stalinist
-								ideology = neutrality
+								ideology = paternal_autocrat
 								size = 0.54
 								capital = 439
 							}
@@ -751,7 +751,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 									limit = { compare_autonomy_progress_ratio > 0.65 }
 									start_civil_war = {
 										ruling_party = stalinist
-										ideology = neutrality
+										ideology = paternal_autocrat
 										size = 0.62
 										capital = 439
 									}
@@ -760,7 +760,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 											limit = { compare_autonomy_progress_ratio > 0.53 }
 											start_civil_war = {
 												ruling_party = stalinist
-												ideology = neutrality
+												ideology = paternal_autocrat
 												size = 0.7
 												capital = 439
 											}
@@ -769,7 +769,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 													limit = { compare_autonomy_progress_ratio > 0.40 }
 													start_civil_war = {
 														ruling_party = stalinist
-														ideology = neutrality
+														ideology = paternal_autocrat
 														size = 0.78
 														capital = 439
 													}
@@ -778,14 +778,14 @@ start_scaled_communist_civil_war_cap439_puppet = {
 															limit = { compare_autonomy_progress_ratio > 0.28 }
 																start_civil_war = {
 																	ruling_party = stalinist
-																	ideology = neutrality
+																	ideology = paternal_autocrat
 																	size = 0.86
 																	capital = 439
 																}
 															else = {
 																start_civil_war = {
 																	ruling_party = stalinist
-																	ideology = neutrality
+																	ideology = paternal_autocrat
 																	size = 0.94
 																	capital = 439
 																}
@@ -812,7 +812,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 							limit = { compare_autonomy_progress_ratio > 0.9 }
 							start_civil_war = {
 								ruling_party = stalinist
-								ideology = neutrality
+								ideology = paternal_autocrat
 								size = 0.53
 								capital = 439
 							}
@@ -821,7 +821,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 									limit = { compare_autonomy_progress_ratio > 0.77 }
 									start_civil_war = {
 										ruling_party = stalinist
-										ideology = neutrality
+										ideology = paternal_autocrat
 										size = 0.62
 										capital = 439
 									}
@@ -830,7 +830,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 											limit = { compare_autonomy_progress_ratio > 0.65 }
 											start_civil_war = {
 												ruling_party = stalinist
-												ideology = neutrality
+												ideology = paternal_autocrat
 												size = 0.7
 												capital = 439
 											}
@@ -839,7 +839,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 													limit = { compare_autonomy_progress_ratio > 0.53 }
 													start_civil_war = {
 														ruling_party = stalinist
-														ideology = neutrality
+														ideology = paternal_autocrat
 														size = 0.78
 														capital = 439
 													}
@@ -848,14 +848,14 @@ start_scaled_communist_civil_war_cap439_puppet = {
 															limit = { compare_autonomy_progress_ratio > 0.40 }
 															start_civil_war = {
 																ruling_party = stalinist
-																ideology = neutrality
+																ideology = paternal_autocrat
 																size = 0.86
 																capital = 439
 															}
 															else = {
 																start_civil_war = {
 																	ruling_party = stalinist
-																	ideology = neutrality
+																	ideology = paternal_autocrat
 																	size = 0.94
 																	capital = 439
 																}
@@ -878,7 +878,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
 								start_civil_war = {
 									ruling_party = stalinist
-									ideology = neutrality
+									ideology = paternal_autocrat
 									size = 0.61
 									capital = 439
 								}
@@ -887,7 +887,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 										limit = { compare_autonomy_progress_ratio > 0.77 }
 										start_civil_war = {
 											ruling_party = stalinist
-											ideology = neutrality
+											ideology = paternal_autocrat
 											size = 0.69
 											capital = 439
 										}
@@ -896,7 +896,7 @@ start_scaled_communist_civil_war_cap439_puppet = {
 												limit = { compare_autonomy_progress_ratio > 0.65 }
 												start_civil_war = {
 													ruling_party = stalinist
-													ideology = neutrality
+													ideology = paternal_autocrat
 													size = 0.77
 													capital = 439
 												}
@@ -905,14 +905,14 @@ start_scaled_communist_civil_war_cap439_puppet = {
 														limit = { compare_autonomy_progress_ratio > 0.53 }
 														start_civil_war = {
 															ruling_party = stalinist
-															ideology = neutrality
+															ideology = paternal_autocrat
 															size = 0.850
 															capital = 439
 														}
 														else = {
 															start_civil_war = {
 																ruling_party = stalinist
-																ideology = neutrality
+																ideology = paternal_autocrat
 																size = 0.93
 																capital = 439
 															}
@@ -939,13 +939,13 @@ start_scaled_communist_civil_war_cap439_puppet = {
 ### It's not pretty, but that's how we like it
 start_scaled_fascist_civil_war_cap439_puppet = {
 	if = {
-		limit = { fascism > 0.50 }
+		limit = { fascistic > 0.50 }
 		### SCALE BY AUTONOMY ####
 		if = {
 			limit = { compare_autonomy_progress_ratio > 0.9 }
 			start_civil_war = {
-				ruling_party = fascism
-				ideology = neutrality
+				ruling_party = fascistic
+				ideology = paternal_autocrat
 				size = 0.38
 				capital = 439
 			}
@@ -953,8 +953,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 				if = {
 					limit = { compare_autonomy_progress_ratio > 0.77 }
 					start_civil_war = {
-						ruling_party = fascism
-						ideology = neutrality
+						ruling_party = fascistic
+						ideology = paternal_autocrat
 						size = 0.47
 						capital = 439
 					}
@@ -962,8 +962,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 						if = {
 							limit = { compare_autonomy_progress_ratio > 0.65 }
 							start_civil_war = {
-								ruling_party = fascism
-								ideology = neutrality
+								ruling_party = fascistic
+								ideology = paternal_autocrat
 								size = 0.550
 								capital = 439
 							}
@@ -971,8 +971,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 								if = {
 									limit = { compare_autonomy_progress_ratio > 0.53 }
 									start_civil_war = {
-										ruling_party = fascism
-										ideology = neutrality
+										ruling_party = fascistic
+										ideology = paternal_autocrat
 										size = 0.63
 										capital = 439
 									}
@@ -980,8 +980,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 										if = {
 											limit = { compare_autonomy_progress_ratio > 0.40 }
 											start_civil_war = {
-												ruling_party = fascism
-												ideology = neutrality
+												ruling_party = fascistic
+												ideology = paternal_autocrat
 												size = 0.71
 												capital = 439
 											}
@@ -989,15 +989,15 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 												if = {
 													limit = { compare_autonomy_progress_ratio > 0.28 }
 														start_civil_war = {
-															ruling_party = fascism
-															ideology = neutrality
+															ruling_party = fascistic
+															ideology = paternal_autocrat
 															size = 0.79
 															capital = 439
 														}
 													else = {
 														start_civil_war = {
-															ruling_party = fascism
-															ideology = neutrality
+															ruling_party = fascistic
+															ideology = paternal_autocrat
 															size = 0.87
 															capital = 439
 														}
@@ -1013,16 +1013,16 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 				}				
 			}
 		}
-		### NEW FASCISM LEVEL BLOCK ####
+		### NEW fascistic LEVEL BLOCK ####
 		else = {
 			if = {
-				limit = { fascism > 0.35 }
+				limit = { fascistic > 0.35 }
 				### SCALE BY AUTONOMY ####
 				if = {
 					limit = { compare_autonomy_progress_ratio > 0.9 }
 					start_civil_war = {
-						ruling_party = fascism
-						ideology = neutrality
+						ruling_party = fascistic
+						ideology = paternal_autocrat
 						size = 0.450
 						capital = 439
 					}
@@ -1030,8 +1030,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 						if = {
 							limit = { compare_autonomy_progress_ratio > 0.77 }
 							start_civil_war = {
-								ruling_party = fascism
-								ideology = neutrality
+								ruling_party = fascistic
+								ideology = paternal_autocrat
 								size = 0.54
 								capital = 439
 							}
@@ -1039,8 +1039,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 								if = {
 									limit = { compare_autonomy_progress_ratio > 0.65 }
 									start_civil_war = {
-										ruling_party = fascism
-										ideology = neutrality
+										ruling_party = fascistic
+										ideology = paternal_autocrat
 										size = 0.62
 										capital = 439
 									}
@@ -1048,8 +1048,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 										if = {
 											limit = { compare_autonomy_progress_ratio > 0.53 }
 											start_civil_war = {
-												ruling_party = fascism
-												ideology = neutrality
+												ruling_party = fascistic
+												ideology = paternal_autocrat
 												size = 0.7
 												capital = 439
 											}
@@ -1057,8 +1057,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 												if = {
 													limit = { compare_autonomy_progress_ratio > 0.40 }
 													start_civil_war = {
-														ruling_party = fascism
-														ideology = neutrality
+														ruling_party = fascistic
+														ideology = paternal_autocrat
 														size = 0.78
 														capital = 439
 													}
@@ -1066,15 +1066,15 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 														if = {
 															limit = { compare_autonomy_progress_ratio > 0.28 }
 																start_civil_war = {
-																	ruling_party = fascism
-																	ideology = neutrality
+																	ruling_party = fascistic
+																	ideology = paternal_autocrat
 																	size = 0.86
 																	capital = 439
 																}
 															else = {
 																start_civil_war = {
-																	ruling_party = fascism
-																	ideology = neutrality
+																	ruling_party = fascistic
+																	ideology = paternal_autocrat
 																	size = 0.94
 																	capital = 439
 																}
@@ -1092,16 +1092,16 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 				}
 
 
-				### NEW FASCISM LEVEL BLOCK ####
+				### NEW fascistic LEVEL BLOCK ####
 				else = {
 					if = {
-						limit = { fascism > 0.2 }
+						limit = { fascistic > 0.2 }
 						### SCALE BY AUTONOMY ####
 						if = {
 							limit = { compare_autonomy_progress_ratio > 0.9 }
 							start_civil_war = {
-								ruling_party = fascism
-								ideology = neutrality
+								ruling_party = fascistic
+								ideology = paternal_autocrat
 								size = 0.53
 								capital = 439
 							}
@@ -1109,8 +1109,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 								if = {
 									limit = { compare_autonomy_progress_ratio > 0.77 }
 									start_civil_war = {
-										ruling_party = fascism
-										ideology = neutrality
+										ruling_party = fascistic
+										ideology = paternal_autocrat
 										size = 0.62
 										capital = 439
 									}
@@ -1118,8 +1118,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 										if = {
 											limit = { compare_autonomy_progress_ratio > 0.65 }
 											start_civil_war = {
-												ruling_party = fascism
-												ideology = neutrality
+												ruling_party = fascistic
+												ideology = paternal_autocrat
 												size = 0.7
 												capital = 439
 											}
@@ -1127,8 +1127,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 												if = {
 													limit = { compare_autonomy_progress_ratio > 0.53 }
 													start_civil_war = {
-														ruling_party = fascism
-														ideology = neutrality
+														ruling_party = fascistic
+														ideology = paternal_autocrat
 														size = 0.78
 														capital = 439
 													}
@@ -1136,15 +1136,15 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 														if = {
 															limit = { compare_autonomy_progress_ratio > 0.40 }
 															start_civil_war = {
-																ruling_party = fascism
-																ideology = neutrality
+																ruling_party = fascistic
+																ideology = paternal_autocrat
 																size = 0.86
 																capital = 439
 															}
 															else = {
 																start_civil_war = {
-																	ruling_party = fascism
-																	ideology = neutrality
+																	ruling_party = fascistic
+																	ideology = paternal_autocrat
 																	size = 0.94
 																	capital = 439
 																}
@@ -1160,14 +1160,14 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 						}
 
 						else = {
-							### FINAL fascism LEVEL BLOCK ####
+							### FINAL fascistic LEVEL BLOCK ####
 						
 							### SCALE BY AUTONOMY ####
 							if = {
 								limit = { compare_autonomy_progress_ratio > 0.9 }
 								start_civil_war = {
-									ruling_party = fascism
-									ideology = neutrality
+									ruling_party = fascistic
+									ideology = paternal_autocrat
 									size = 0.61
 									capital = 439
 								}
@@ -1175,8 +1175,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 									if = {
 										limit = { compare_autonomy_progress_ratio > 0.77 }
 										start_civil_war = {
-											ruling_party = fascism
-											ideology = neutrality
+											ruling_party = fascistic
+											ideology = paternal_autocrat
 											size = 0.69
 											capital = 439
 										}
@@ -1184,8 +1184,8 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 											if = {
 												limit = { compare_autonomy_progress_ratio > 0.65 }
 												start_civil_war = {
-													ruling_party = fascism
-													ideology = neutrality
+													ruling_party = fascistic
+													ideology = paternal_autocrat
 													size = 0.77
 													capital = 439
 												}
@@ -1193,15 +1193,15 @@ start_scaled_fascist_civil_war_cap439_puppet = {
 													if = {
 														limit = { compare_autonomy_progress_ratio > 0.53 }
 														start_civil_war = {
-															ruling_party = fascism
-															ideology = neutrality
+															ruling_party = fascistic
+															ideology = paternal_autocrat
 															size = 0.850
 															capital = 439
 														}
 														else = {
 															start_civil_war = {
-																ruling_party = fascism
-																ideology = neutrality
+																ruling_party = fascistic
+																ideology = paternal_autocrat
 																size = 0.93
 																capital = 439
 															}
