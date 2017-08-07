@@ -49,18 +49,14 @@
  paratroopers2:0 "Airborne Infantry '39"
  paratroopers3:0 "Airborne Infantry '43"
 
- 
  marines:0 "Naval Infantry '36"
  marines2:0 "Naval Infantry '39"
  marines3:0 "Naval Infantry '43"
 
- 
  tech_mountaineers:0 "Mountain Infantry '36"
  tech_mountaineers2:0 "Mountain Infantry '39"
  tech_mountaineers3:0 "Mountain Infantry '43"
 
-
- 
 #### Support Companies Technology ###########################################################################
  tech_recon:0 "Recon Company I"
  tech_recon2:0 "Recon Company II"
@@ -180,7 +176,8 @@
  nukes_desc:0 "A project to construct an atomic bomb will be one of the most secretive and difficult tasks a nation can undertake, but, if successful, may change not only the course of today's wars but of the future of the world."
  hydrogen_nukes:0 "Hydrogen Bomb"
  nuclear_propulsion:0 "Nuclear Propulsion"
- NUKE_NAVY_SPECIAL:0 "Nuclear marine propulsion is propulsion of a ship or submarine with heat provided by a nuclear power plant. The power plant heats water to produce steam and it is this steam that powers the steam turbines and turbo generators. The power is then transferred to a gearbox that reduces the ratio by around 50 to 1 and this powers the propulsor. Naval nuclear propulsion is used specifically within naval warships such as supercarriers and submarines."
+ 
+ NUKE_NAVY_SPECIAL:0 "/n Nuclear marine propulsion is propulsion of a ship or submarine with heat provided by a nuclear power plant. The power plant heats water to produce steam and it is this steam that powers the steam turbines and turbo generators. The power is then transferred to a gearbox that reduces the ratio by around 50 to 1 and this powers the propulsor. Naval nuclear propulsion is used specifically within naval warships such as supercarriers and submarines."
 
 ##### Categories #####################################################################
  dd_tech:0 "Destroyer models"
