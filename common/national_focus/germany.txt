@@ -357,12 +357,7 @@ focus_tree = {
 		completion_reward = {
 			every_other_country = {
 				limit = {
-					OR = {
-						has_government = social_conservative
-						has_government = market_liberal
-						has_government = social_liberal
-						has_government = social_democrat
-					}
+					has_government = social_conservative
 					NOT = {
 						tag = GER
 						tag = CHI
@@ -379,12 +374,7 @@ focus_tree = {
 					SOV = {
 						OR = {
 							has_government = social_conservative
-							has_government = market_liberal
-							has_government = social_liberal
-							has_government = social_democrat
 							has_government = stalinist
-							has_government = leninist
-							has_government = left_wing_radical
 						}
 					}
 				}
@@ -1006,10 +996,7 @@ focus_tree = {
 		y = 5
 		available = {
 			SAF = {
-				OR ={
-					fascistic > 0.39
-					national_socialist > 0.39
-				}
+				fascistic > 0.39
 			}
 		}
 		bypass = {
@@ -1024,14 +1011,6 @@ focus_tree = {
 				}
 				AND = {
 					GER = {
-						has_government = national_socialist
-					}
-					SAF = {
-						has_government = national_socialist
-					}
-				}
-				AND = {
-					GER = {
 						has_government = stalinist
 					}
 					SAF = {
@@ -1040,50 +1019,10 @@ focus_tree = {
 				}
 				AND = {
 					GER = {
-						has_government = leninist
-					}
-					SAF = {
-						has_government = leninist
-					}
-				}
-				AND = {
-					GER = {
-						has_government = left_wing_radical
-					}
-					SAF = {
-						has_government = left_wing_radical
-					}
-				}
-				AND = {
-					GER = {
 						has_government = social_conservative
 					}
 					SAF = {
 						has_government = social_conservative
-					}
-				}
-				AND = {
-					GER = {
-						has_government = market_liberal
-					}
-					SAF = {
-						has_government = market_liberal
-					}
-				}
-				AND = {
-					GER = {
-						has_government = social_liberal
-					}
-					SAF = {
-						has_government = social_liberal
-					}
-				}
-				AND = {
-					GER = {
-						has_government = social_democrat
-					}
-					SAF = {
-						has_government = social_democrat
 					}
 				}
 				SAF = {
@@ -1101,22 +1040,7 @@ focus_tree = {
 				SAF = {
 					start_civil_war = {
 						ideology = fascistic
-						size = 0.39
-						capital = 275
-						states = { 275  541 }
-					}
-				}		
-			}
-			if = {
-				limit = {
-					GER = {
-						has_government = national_socialist
-					}
-				}
-				SAF = {
-					start_civil_war = {
-						ideology = national_socialist
-						size = 0.39
+						size = 0.35
 						capital = 275
 						states = { 275  541 }
 					}
@@ -1131,52 +1055,7 @@ focus_tree = {
 				SAF = {
 					start_civil_war = {
 						ideology = social_conservative
-						size = 0.39
-						capital = 275
-						states = { 275  541 }
-					}
-				}
-			}
-			if = {
-				limit = {
-					GER = {
-						has_government = market_liberal
-					}
-				}
-				SAF = {
-					start_civil_war = {
-						ideology = market_liberal
-						size = 0.39
-						capital = 275
-						states = { 275  541 }
-					}
-				}
-			}
-			if = {
-				limit = {
-					GER = {
-						has_government = social_liberal
-					}
-				}
-				SAF = {
-					start_civil_war = {
-						ideology = social_liberal
-						size = 0.39
-						capital = 275
-						states = { 275  541 }
-					}
-				}
-			}
-			if = {
-				limit = {
-					GER = {
-						has_government = social_democrat
-					}
-				}
-				SAF = {
-					start_civil_war = {
-						ideology = social_democrat
-						size = 0.39
+						size = 0.35
 						capital = 275
 						states = { 275  541 }
 					}
@@ -1191,37 +1070,7 @@ focus_tree = {
 				SAF = {
 					start_civil_war = {
 						ideology = stalinist
-						size = 0.39
-						capital = 275
-						states = { 275  541 }
-					}
-				}
-			}
-			if = {
-				limit = {
-					GER = {
-						has_government = leninist
-					}
-				}
-				SAF = {
-					start_civil_war = {
-						ideology = leninist
-						size = 0.39
-						capital = 275
-						states = { 275  541 }
-					}
-				}
-			}
-			if = {
-				limit = {
-					GER = {
-						has_government = left_wing_radical
-					}
-				}
-				SAF = {
-					start_civil_war = {
-						ideology = left_wing_radical
-						size = 0.39
+						size = 0.35
 						capital = 275
 						states = { 275  541 }
 					}
@@ -1386,10 +1235,7 @@ focus_tree = {
 						limit = {
 							SAF = {
 								NOT = {
-									OR = {
-										has_government = fascistic
-										has_government = national_socialist
-									}
+									has_government = fascistic
 									is_in_faction_with = GER
 								}
 							}
@@ -1405,10 +1251,7 @@ focus_tree = {
 				If = {
 					limit = {
 						SAF = {
-							OR = {
-								has_government = fascistic
-								has_government = national_socialist
-							}
+							has_government = fascistic
 							is_in_faction_with = GER
 						}
 					}
@@ -1645,8 +1488,6 @@ focus_tree = {
 			is_puppet = no
 			NOT = {
 				has_government = stalinist
-				#has_government = leninist
-				#has_government = left_wing_radical
 			}
 			NOT = {
 				is_in_faction_with = SOV
@@ -1687,18 +1528,11 @@ focus_tree = {
 						num_of_factories > 30
 					}
 					OR = {
-						OR = {
-							has_government = fascistic
-							has_government = national_socialist
-						}
+						has_government = fascistic
 						AND = {
 							is_neighbor_of = SOV
 							NOT = {
-								OR = {
-									has_government = stalinist
-									#has_government = leninist
-									#has_government = left_wing_radical
-								}
+								has_government = stalinist
 							}
 						}
 					}
@@ -2104,19 +1938,13 @@ focus_tree = {
 					limit = {
 						original_tag = AUS
 						OR = {
-							OR = {
-								has_government = fascistic
-								has_government = national_socialist
-							}
+							has_government = fascistic
 							AND = {
 								has_government = paternal_autocrat
 								NOT = {
 									any_other_country = {
 										original_tag = AUS
-										OR = {
-											has_government = fascistic
-											has_government = national_socialist
-										}
+										has_government = fascistic
 									}
 								}
 							}
@@ -2125,7 +1953,6 @@ focus_tree = {
 									original_tag = AUS
 									OR = {
 										has_government = fascistic
-										has_government = national_socialist
 										has_government = paternal_autocrat
 									}
 								}
@@ -3874,7 +3701,6 @@ focus_tree = {
 					OR = {
 						HUN = {
 							NOT = {
-								has_government = national_socialist
 								has_government = fascistic
 							}
 							is_friend_or_potential_friend_of_GER = no
@@ -3928,10 +3754,7 @@ focus_tree = {
 			if = {
 				limit = {
 					HUN = {
-						OR = {
-							has_government = fascistic
-							has_government = national_socialist
-						}
+						has_government = fascistic
 						is_friend_or_potential_friend_of_GER = yes
 					}
 					ROM = {
@@ -4005,10 +3828,7 @@ focus_tree = {
 			}
 			any_other_country = {
 				original_tag = SPR
-				OR = {
-					has_government = fascistic
-					has_government = national_socialist
-				}
+				has_government = fascistic
 				NOT = {
 					has_war_with = GER
 				}
@@ -4022,20 +3842,14 @@ focus_tree = {
 						country_exists = THIS
 					}
 					has_capitulated = yes
-					OR = {
-						has_government = fascistic
-						has_government = national_socialist
-					}
+					has_government = fascistic
 				}
 			}
 		}
 		bypass = {
 			any_other_country = {
 				original_tag = SPR
-				OR = {
-					has_government = fascistic
-					has_government = national_socialist
-				}
+				has_government = fascistic
 				is_in_faction_with = GER
 			}
 		}
@@ -4065,10 +3879,7 @@ focus_tree = {
 		y = 6
 		available = {
 			SPR = {
-				OR = {
-					has_government = fascistic
-					has_government = national_socialist
-				}
+				has_government = fascistic
 			}
 			GER = {
 				has_war_with = ENG
@@ -4107,10 +3918,7 @@ focus_tree = {
 				random_other_country = {
 					limit = {
 						original_tag = SPR
-						OR = {
-							has_government = fascistic
-							has_government = national_socialist
-						}
+						has_government = fascistic
 					}
 					remove_ideas = SPA_recovering_from_civil_war
 				}
@@ -4602,7 +4410,7 @@ focus_tree = {
 		completion_reward = {
 			CAN = {
 				start_civil_war = {
-					ideology = national_socialist
+					ideology = fascistic
 					size = 0.5
 				}
 			}
@@ -5011,7 +4819,6 @@ focus_tree = {
 			IRE = {
 				OR = {
 					has_government = fascistic
-					has_government = national_socialist
 					has_government = paternal_autocrat
 				}	
 			}
@@ -5964,10 +5771,7 @@ focus_tree = {
 				}
 			}
 			BUL = {
-				OR = {
-					has_government = fascistic
-					has_government = national_socialist
-				}
+				has_government = fascistic
 			}
 		}
 		completion_reward = {
@@ -6748,10 +6552,7 @@ focus_tree = {
 		y = 9
 		available = {
 			ARG = {
-				OR = {
-					has_government = fascistic
-					has_government = national_socialist
-				}
+				has_government = fascistic
 			}
 		}
 		completion_reward = {

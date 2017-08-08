@@ -1397,7 +1397,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_abandon_westminster
-				add_idea = SAF_abandon_westminster_stalinist
+				add_idea = SAF_abandon_westminster_communism
 			}
 		}
 	}

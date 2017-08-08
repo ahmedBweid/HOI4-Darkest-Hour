@@ -4498,7 +4498,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = AST_abandon_the_westminster_system
-				add_idea = AST_abandon_the_westminster_system_stalinist			
+				add_idea = AST_abandon_the_westminster_system_communism			
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = AST_lance_sharkey

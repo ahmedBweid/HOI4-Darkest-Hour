@@ -14,7 +14,7 @@ defined_text = {
 		trigger = {
 			tag = GER				
 		}
-		localization_key = GER_fascistic
+		localization_key = GER_fascism
 	}
 	text = {
 		trigger = {
