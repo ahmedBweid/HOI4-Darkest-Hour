@@ -16,10 +16,10 @@
 		}
 	}
 #--- Fascist Ideology group
-	ideology_group_fascism = {
+	ideology_group_fascistic = {
 		OR = {
 			has_government = national_socialist
-			has_government = fascism		
+			has_government = fascistic		
 			has_government = paternal_autocrat
 		}
 	}
