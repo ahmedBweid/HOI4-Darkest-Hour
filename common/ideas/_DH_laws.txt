@@ -1,8 +1,9 @@
 ideas = {
+
 #######################################
 ## Civil Law 
 #######################################
-	civil_laws = { 
+	civil_laws = {
 		law = yes
 		
 		### Open Society		
@@ -21,6 +22,7 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
+
 		### Limited Restrictions
 		limited_restrictions = {
 	
@@ -45,6 +47,7 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
+
 		### Legalisic Restrictions
 		legalisic_restrictions = {					
 
@@ -72,6 +75,7 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
+
 		### Repression
 		repression = {
 			
@@ -102,6 +106,7 @@ ideas = {
    				factor = 1
    			}
 		}
+
 		### Totalitarian System
 		totalitarian_system = {
 	
@@ -133,10 +138,11 @@ ideas = {
    			}
 		}		
 	}
+
 #######################################
 ## Foreign Policy
 #######################################	
-	foreign_policy  = { 
+	foreign_policy  = {
 		law = yes
 		### Isolationism
 		isolationism = {
@@ -165,6 +171,7 @@ ideas = {
 			
 			cancel_if_invalid = yes
 		}
+
 		### Dove Policy
 		dove_policy = {
 		
@@ -190,8 +197,10 @@ ideas = {
 			
 			cancel_if_invalid = yes
 		}
+
 		### Detente
 		detente = {
+
 			allowed = {
 			}
 			removal_cost = -1
@@ -241,7 +250,7 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
-		
+
 		###Hardline
 		hardline = {
 			
@@ -296,6 +305,5 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
-	}	
-
+	}
 }

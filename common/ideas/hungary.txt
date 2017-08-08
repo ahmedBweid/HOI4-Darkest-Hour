@@ -183,7 +183,7 @@ ideas = {
 			}
 		}
 
-		HUN_interventionism_communism = {
+		HUN_interventionism_stalinist = {
 
 			picture = FRA_scw_intervention_nationalists_focus
 

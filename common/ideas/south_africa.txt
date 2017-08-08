@@ -141,7 +141,7 @@ ideas = {
 
 		}
 
-		SAF_abandon_westminster_communism = {
+		SAF_abandon_westminster_stalinist = {
 			allowed = {
 				always = no
 			}
