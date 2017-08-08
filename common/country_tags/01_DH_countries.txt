@@ -3,6 +3,7 @@ EGL = "countries/England.txt"
 WAL = "countries/Wales.txt"
 SCO = "countries/Scotland.txt"
 ETS = "countries/East Turkestan.txt"
+SPA = "countries/SPA - Nationalist Spain.txt"
 #### Reichskommissariat-----------------------------------------------------------
 ROS = "countries/ReichskommissariatOstland.txt"
 RUK = "countries/ReichskommissariatUkraine.txt"

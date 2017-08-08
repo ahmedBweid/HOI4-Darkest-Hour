@@ -62,25 +62,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservative = { 
-			popularity = 0
-		}
-
-		fascistic = {
-			popularity = 75
-		}
-		
-		stalinist = {
-			popularity = 10
-			#banned = no #default is no
-		}
-		
-		paternal_autocrat = { 
-			popularity = 75
-		}
+		national_socialist = { popularity = 75 }
+		fascistic = { popularity = 0 }
+		paternal_autocrat = { popularity = 15 }
+		social_conservative = { popularity = 0 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 10 }
 	}
 	
-	ruling_party = fascistic
+	ruling_party = national_socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

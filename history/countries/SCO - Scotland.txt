@@ -60,21 +60,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservative = { 
-			popularity = 20
-		}
-
-		fascistic = {
-			popularity = 60
-		}
-		
-		stalinist = {
-			popularity = 20
-			banned = yes #default is no
-		}
+		national_socialist = { popularity = 60 }
+		fascistic = { popularity = 0 }
+		paternal_autocrat = { popularity = 0 }
+		social_conservative = { popularity = 20 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 20 }
 	}
 	
-	ruling_party = fascistic
+	ruling_party = national_socialist
 	election_frequency = 48
 	elections_allowed = no
 

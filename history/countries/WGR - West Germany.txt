@@ -105,18 +105,16 @@ set_national_unity = 0.7
 set_politics = {
 
 	parties = {
-		social_conservative = { 
-			popularity = 80
-		}
-
-		fascistic = {
-			popularity = 10
-		}
-		
-		stalinist = {
-			popularity = 10
-			banned = no #default is no
-		}
+		national_socialist = { popularity = 2 }
+		fascistic = { popularity = 0 }
+		paternal_autocrat = { popularity = 9 }
+		social_conservative = { popularity = 47 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 3 }
+		social_democrat = { popularity = 33 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 6 }
+		stalinist = { popularity = 0 }
 	}
 	
 	ruling_party = social_conservative

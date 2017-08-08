@@ -192,7 +192,10 @@ set_convoys = 400
 
 if = {
 	limit = {
-		has_dlc = "Together for Victory"
+		AND = {
+			has_dlc = "Together for Victory"
+			NOT = { has_dlc = "Death or Dishonor" }
+		}
 	}
 	set_autonomy = {
 		target = MEN
@@ -213,7 +216,6 @@ if = {
 		}
 	}
 }
-
 
 set_politics = {
 

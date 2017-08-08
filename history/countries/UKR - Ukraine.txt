@@ -34,17 +34,16 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservative = { 
-			popularity = 15
-		}
-
-		fascistic = {
-			popularity = 30
-		}
-		
-		stalinist = {
-			popularity = 50
-		}
+		national_socialist = { popularity = 0 }
+		fascistic = { popularity = 30 }
+		paternal_autocrat = { popularity = 0 }
+		social_conservative = { popularity = 15 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 5 }
+		stalinist = { popularity = 50 }
 	}
 }
 

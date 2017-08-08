@@ -59,22 +59,19 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		social_conservative = { 
-			popularity = 0
-			banned = yes #default is no
-		}
-
-		fascistic = {
-			popularity = 100
-		}
-		
-		stalinist = {
-			popularity = 0
-			banned = yes #default is no
-		}
+		national_socialist = { popularity = 0 }
+		fascistic = { popularity = 7 }
+		paternal_autocrat = { popularity = 49 }
+		social_conservative = { popularity = 38 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 6 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 0 }
 	}
 	
-	ruling_party = fascistic
+	ruling_party = paternal_autocrat
 	last_election = "1935.1.15"
 	election_frequency = 48
 	elections_allowed = yes
@@ -85,7 +82,7 @@ create_country_leader = {
 	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}

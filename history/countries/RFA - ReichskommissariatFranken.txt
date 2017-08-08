@@ -18,12 +18,19 @@ set_convoys = 50
 set_politics = {
 
 	parties = {		
-		fascistic = {
-			popularity =100
-		}				
+		national_socialist = { popularity = 100 }
+		fascistic = { popularity = 0 }
+		paternal_autocrat = { popularity = 0 }
+		social_conservative = { popularity = 0 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 0 }				
 	}
 	
-	ruling_party = fascistic
+	ruling_party = national_socialist
 	last_election = "1935.6.9"
 	election_frequency = 0
 	elections_allowed = no
@@ -41,7 +48,7 @@ create_country_leader = {
 	desc = "ANTE_PAVELIC_DESC"
 	picture = "gfx/leaders/FRA/Portrait_Germany_Walter_Kruger.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = national_socialism
 	traits = {
 		#
 	}

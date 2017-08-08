@@ -60,21 +60,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservative = { 
-			popularity = 20
-		}
-
-		fascistic = {
-			popularity = 60
-		}
-		
-		stalinist = {
-			popularity = 20
-			banned = yes #default is no
-		}
+		national_socialist = { popularity = 80 }
+		fascistic = { popularity = 0 }
+		paternal_autocrat = { popularity = 0 }
+		social_conservative = { popularity = 10 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 10 banned = yes }
 	}
 	
-	ruling_party = fascistic
+	ruling_party = national_socialist
 	election_frequency = 48
 	elections_allowed = no
 
@@ -91,7 +89,7 @@ create_country_leader = {
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
 	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = national_socialism
 	traits = {
 		
 	}
