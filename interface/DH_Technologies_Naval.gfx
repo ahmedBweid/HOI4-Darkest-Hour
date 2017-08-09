@@ -232,29 +232,56 @@ spriteTypes = {
 	
 #Battleships
 	SpriteType = {
-		name = "GFX_early_battleship_medium"
+		name = "GFX_battleship_1885_medium"
 		texturefile = "gfx/interface/technologies/early_battleship.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_basic_battleship_medium"
+		name = "GFX_battleship_1895_medium"
 		texturefile = "gfx/interface/technologies/basic_battleship.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_battleship_medium"
+		name = "GFX_battleship_1900_medium"
 		texturefile = "gfx/interface/technologies/improved_battleship.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_advanced_battleship_medium"
+		name = "GFX_battleship_1906_medium"
 		texturefile = "gfx/interface/technologies/advanced_battleship.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_modern_battleship_medium"
+		name = "GFX_battleship_1912_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
 	}	
+	
+	SpriteType = {
+		name = "GFX_battleship_1916_medium"
+		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_battleship_1922_medium"
+		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_battleship_1933_medium"
+		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_battleship_1940_medium"
+		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_battleship_1948_medium"
+		texturefile = "gfx/interface/technologies/semi_modern_battleship.dds"
+	}	
+		
+	
 	
 #SH Battleships
 	SpriteType = {
@@ -267,37 +294,98 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/heavy_battleship2.dds"
 	}	
 	
-#Carriers
+# Aircraft Carriers
 	SpriteType = {
-		name = "GFX_early_carrier_medium"
+		name = "GFX_carrier_1922_medium"
 		texturefile = "gfx/interface/technologies/early_carrier.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_basic_carrier_medium"
+		name = "GFX_carrier_1930_medium"
 		texturefile = "gfx/interface/technologies/basic_carrier.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_improved_carrier_medium"
+		name = "GFX_carrier_1933_medium"
 		texturefile = "gfx/interface/technologies/improved_carrier.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_advanced_carrier_medium"
+		name = "GFX_carrier_1936_medium"
 		texturefile = "gfx/interface/technologies/advanced_carrier.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_modern_carrier_medium"
+		name = "GFX_carrier_1940_medium"
 		texturefile = "gfx/interface/technologies/semi_modern_carrier.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_super_carrier_medium"
+		name = "GFX_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/modern_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/modern_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_carrier_1950_medium"
+		texturefile = "gfx/interface/technologies/modern_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_carrier_1958_medium"
 		texturefile = "gfx/interface/technologies/modern_carrier.dds"
 	}	
 
+# Light Aircraft Carriers
+	SpriteType = {
+		name = "GFX_light_carrier_1912_medium"
+		texturefile = "gfx/interface/technologies/early_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_light_carrier_1916_medium"
+		texturefile = "gfx/interface/technologies/basic_carrier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_light_carrier_1922_medium"
+		texturefile = "gfx/interface/technologies/improved_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_light_carrier_1930_medium"
+		texturefile = "gfx/interface/technologies/advanced_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_light_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/semi_modern_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_light_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/modern_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_light_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/modern_carrier.dds"
+	}	
+	
+# Escort Aircraft Carriers
+	SpriteType = {
+		name = "GFX_escort_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/early_carrier.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_escort_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/basic_carrier.dds"
+	}	
 ###########################################################
 ######## US Navy Sprites 
 ############################################################	
@@ -449,4 +537,382 @@ spriteTypes = {
 		name = "GFX_USA_light_cruiser_1954_medium"
 		texturefile = "gfx/interface/technologies/ships/USA_CL_.dds"
 	}		
+	
+	
+###########################################################
+######## British Royal Navy Sprites 
+############################################################	
+	
+#Subs
+	SpriteType = {
+		name = "GFX_ENG_submarine_1895_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_Holland.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_submarine_1912_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_C-boat.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_submarine_1916_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_H-boat.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_submarine_1922_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_Odin.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_submarine_1933_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_S-boat.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_submarine_1936_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_T-boat.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_submarine_1940_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_U-boat.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_submarine_1943_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_Explorer.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_submarine_1950_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_Amphion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_submarine_1954_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_SS_Oberon.dds"
+	}	
+	
+### Destroyers
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1885_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_C.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1900_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_E.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1912_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_G.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1916_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_V.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1922_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_A.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1933_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_E.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1936_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_Tribal.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1940_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_L.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1943_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DD_Weapon.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_destroyer_1954_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_DDG_Daring.dds"
+	}		
+	
+### Light Cruisers
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1885_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1900_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_Sentinel.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1912_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_C.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1922_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_Emerald.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_Leander.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1936_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_Arethusa.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_Dido.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1943_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_Minotaur.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_ENG_light_cruiser_1954_medium"
+		texturefile = "gfx/interface/technologies/ships/ENG_CL_Tiger.dds"
+	}
+	
+		
+#Heavy Cruisers
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1885_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_Shannon.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1895_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_Drake.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_Duke-of-Edinburg.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_County.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_York.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1936_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_Surrey.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_Cumbria.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_heavy_cruiser_1954_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CA_St.Vincent.dds"
+	}	
+
+
+#Battlecruiser
+	SpriteType = {
+		name = "GFX_ENG_battlecruiser_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BC_Invincible.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_battlecruiser_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BC_Renown.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_battlecruiser_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BC_Admiral.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_battlecruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BC_G3.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_battlecruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BC_.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_battlecruiser_1950_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BC_.dds" 
+	}
+	
+	
+#Battleships
+	SpriteType = {
+		name = "GFX_ENG_battleship_1885_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_Monarch.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_battleship_1895_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_Canopus.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_battleship_1900_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_Dreadnought.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_battleship_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_Orion.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_battleship_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_Queen-Elizabeth.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_battleship_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_N3.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_battleship_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_Nelson.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_battleship_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_King-George-V.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_battleship_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_Vanguard.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_battleship_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_BB_X.dds"
+	}		
+	
+# Aircraft Carriers
+	SpriteType = {
+		name = "GFX_ENG_carrier_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Courageous.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_carrier_1930_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Furious.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_carrier_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Ark-Royal.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_carrier_1936_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Illustrious.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Implacable.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Audacious.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Malta.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_carrier_1950_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_CVA-01.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_carrier_1958_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CV_Victorious.dds"
+	}	
+
+# Light Aircraft Carriers
+	SpriteType = {
+		name = "GFX_ENG_light_carrier_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVL_Empress.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_light_carrier_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVL_Argus.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_light_carrier_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVL_Hermes.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_light_carrier_1930_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVL_Unicorn.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_light_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVL_Colossus.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_light_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVL_Majestic.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_light_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVL_Centaur.dds"
+	}	
+	
+# Escort Aircraft Carriers
+	SpriteType = {
+		name = "GFX_ENG_escort_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVE_Avenger.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_escort_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/ENG_CVE_Ruler.dds"
+	}
+	
 }

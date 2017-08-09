@@ -713,7 +713,7 @@ focus_tree = {
 					has_war_with = RAJ	
 				}
 			}
-			NOT = { RAJ = { has_government = fascistic } }
+			NOT = { RAJ = { has_government = fascist } }
 			OR = {
 				controls_state = 336
 				any_other_country = {

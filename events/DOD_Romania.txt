@@ -1303,7 +1303,7 @@ country_event = {
 			}
 		}
 		add_national_unity = -0.05
-		add_popularity = { ideology = fascistic popularity = 0.05 } #because she is Jewish
+		add_popularity = { ideology = fascist popularity = 0.05 } #because she is Jewish
 		add_popularity = { ideology = social_conservative popularity = 0.05 } #because Freedom of the Press
 		hidden_effect = {
 			country_event = { id = DOD_romania.80 }

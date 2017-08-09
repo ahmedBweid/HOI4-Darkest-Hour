@@ -2514,7 +2514,7 @@ focus_tree = {
 
 	focus = {
 		id = NZL_in_the_darkness
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = NZL_statute_of_westminster }
 		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
 		x = -3
@@ -2570,7 +2570,7 @@ focus_tree = {
 			NOT = { has_war_with = JAP }
 			JAP = { has_government = ROOT }
 			is_subject = no
-			has_government = fascistic			
+			has_government = fascist			
 		}
 
 		bypass = {
@@ -2651,7 +2651,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = fascistic
+			has_government = fascist
 			is_in_faction_with = JAP
 		}
 

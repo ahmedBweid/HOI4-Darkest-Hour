@@ -203,9 +203,9 @@ leader_traits = {
 		}
 	}
 
-	fascistic_sympathies = {
+	fascist_sympathies = {
 		random = no		
-		fascistic_acceptance = 70
+		fascist_acceptance = 70
 
 		ai_will_do = {
 			factor = 1
@@ -272,11 +272,11 @@ leader_traits = {
 		}
 	}
 	
-	fascistic_demagogue = {
+	fascist_demagogue = {
 		random = no
-		# Boosts fascistic
+		# Boosts fascist
 		sprite = 13
-		fascistic_drift = 0.1
+		fascist_drift = 0.1
 		
 		ai_will_do = {
 			factor = 0

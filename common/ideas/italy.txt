@@ -7,12 +7,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = stalinist
+					has_government = communism
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ITA
-						has_government = fascistic
+						has_government = fascist
 					}
 				}
 			}
@@ -32,7 +32,7 @@ ideas = {
 			allowed_civil_war = {
 				NOT = {
 					OR = {
-						has_government = stalinist
+						has_government = communism
 						has_government = social_conservative
 					}
 				}
@@ -43,7 +43,7 @@ ideas = {
 			modifier = {
 				stalinist_acceptance = -10
 				social_conservative_acceptance = -10
-				fascistic_acceptance = 10
+				fascist_acceptance = 10
 				ai_focus_aggressive_factor = 0.5
 				justify_war_goal_time = -0.05
 			}
@@ -60,9 +60,9 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					AND = {
-						has_government = fascistic
+						has_government = fascist
 						GER = {
-							has_government = fascistic
+							has_government = fascist
 						}
 					}
 					AND = {
@@ -109,7 +109,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = stalinist
+					has_government = communism
 				}
 			}
 			
@@ -153,7 +153,7 @@ ideas = {
 			
 
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 	
 			on_add = {
 				country_event = political.7
@@ -161,7 +161,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			

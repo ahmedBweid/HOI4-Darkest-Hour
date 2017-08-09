@@ -164,8 +164,8 @@ country_event = {
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = social_conservative
-		NOT = { has_idea = fascistic_defeated }
-		fascistic > 0.15
+		NOT = { has_idea = fascist_defeated }
+		fascist > 0.15
 	}
 	
 	option = {
@@ -182,7 +182,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = 0.1
 		}
 		set_country_flag = coalition_with_fascists
@@ -307,7 +307,7 @@ country_event = {
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = social_conservative
 		social_conservative < 0.5
-		fascistic < 0.5
+		fascist < 0.5
 		stalinist < 0.5
 	}
 	
@@ -321,7 +321,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = 0.1
 		}
 		set_country_flag = coalition_with_fascists
@@ -382,7 +382,7 @@ country_event = {
 		has_government = social_conservative
 		has_country_flag = coalition_with_fascists
 		any_other_country = {
-			has_government = fascistic
+			has_government = fascist
 			is_faction_leader = yes
 		}
 	}
@@ -402,16 +402,16 @@ country_event = {
 		}
 		random_other_country = {
 			limit = {
-				has_government = fascistic
+				has_government = fascist
 				is_faction_leader = yes
 			}
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = fascistics_in_government
+				modifier = fascists_in_government
 			}			
 		}
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = 0.05
 		}
 	}
@@ -518,7 +518,7 @@ country_event = {
 
 	trigger = {
 		has_government = social_conservative
-		fascistic > 0.5
+		fascist > 0.5
 		is_puppet = no
 	}
 	
@@ -528,7 +528,7 @@ country_event = {
 			base = 75			
 		}
 		set_politics = {
-			ruling_party = fascistic
+			ruling_party = fascist
 			elections_allowed = no
 		}
 	}
@@ -539,7 +539,7 @@ country_event = {
 			base = 35			
 		}
 		start_civil_war = {
-			ideology = fascistic
+			ideology = fascist
 			size = 0.5
 		}
 	}
@@ -584,7 +584,7 @@ country_event = {
 	}
 }
 
-# Magnate Favors fascistic
+# Magnate Favors fascist
 country_event = {
 	id = election.13
 	title = election.13.t
@@ -614,7 +614,7 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = 0.10
 		}
 	}
@@ -689,7 +689,7 @@ country_event = {
 			popularity = 0.05
 		}
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = 0.05
 		}
 	}
@@ -750,7 +750,7 @@ country_event = {
 			popularity = 0.07
 		}
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = 0.07
 		}
 	}
@@ -773,8 +773,8 @@ country_event = {
 			} 
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = fascistic
-		fascistic > 0.5
+		has_government = fascist
+		fascist > 0.5
 	}
 	
 	option = {
@@ -800,8 +800,8 @@ country_event = {
 			}
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = fascistic
-		NOT = { fascistic > 0.5 }
+		has_government = fascist
+		NOT = { fascist > 0.5 }
 	}
 	
 	option = {

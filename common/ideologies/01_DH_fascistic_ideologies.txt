@@ -33,10 +33,10 @@ ideologies = {
 	}
 
 ### Fascism
-	fascistic = {
+	fascist = {
 	
 		types = {			
-			fascistic_ideology = { }		
+			fascist_ideology = { }		
 			rexism = { }					
 			falangism = { }			
 		}

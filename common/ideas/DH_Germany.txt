@@ -267,7 +267,7 @@ ideas = {
 
 		modifier = {
 			political_power_gain = -0.15
-			fascistic_drift = 0.05
+			fascist_drift = 0.05
 		}
 	}
 
@@ -316,7 +316,7 @@ ideas = {
 		}
 
 		allowed_civil_war = {
-			has_government = fascistic
+			has_government = fascist
 		}
 
 		removal_cost = -1
@@ -370,7 +370,7 @@ ideas = {
 		
 
 			allowed_civil_war = {
-			has_government = fascistic
+			has_government = fascist
 			}
 			removal_cost = -1
 

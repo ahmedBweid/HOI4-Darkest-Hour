@@ -481,7 +481,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_join_axis
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = YUG_invite_german_military_mission }
 		x = 0
 		y = 5

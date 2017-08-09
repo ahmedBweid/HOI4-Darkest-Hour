@@ -550,15 +550,15 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = { has_government = social_conservative }
-				add_ideas = CAN_defence_of_canada_regulations_social_conservative
+				add_ideas = CAN_defence_of_canada_regulations_democratic
 			}
 			if = {
 				limit = { has_government = stalinist }
-				add_ideas = CAN_defence_of_canada_regulations_stalinist
+				add_ideas = CAN_defence_of_canada_regulations_communism
 			}
 			if = {
-				limit = { has_government = fascistic }
-				add_ideas = CAN_defence_of_canada_regulations_fascistic
+				limit = { has_government = fascist }
+				add_ideas = CAN_defence_of_canada_regulations_fascist
 			}
 		}
 	}
@@ -2885,7 +2885,7 @@ focus_tree = {
 			modifier = {
 				OR = {
 					stalinist > 0.15
-					fascistic > 0.15
+					fascist > 0.15
 					}
 				factor = 2.5
 			}
@@ -3109,7 +3109,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_swastika_clubs
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = CAN_patriation }
 		mutually_exclusive = { focus = CAN_burn_the_royal_portraits }
 		mutually_exclusive = { focus = CAN_permanent_joint_defense_board }
@@ -3122,11 +3122,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 25
 			modifier = {
-				fascistic > 0.25
+				fascist > 0.25
 				factor = 2
 			}
 			modifier = {
-				fascistic > 0.35
+				fascist > 0.35
 				factor = 4
 			}
 		}
@@ -3172,7 +3172,7 @@ focus_tree = {
 
 		available = {
 			is_subject = no
-			has_government = fascistic
+			has_government = fascist
 		}
 		
 		bypass = {
@@ -3215,8 +3215,8 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = fascistic
-			GER = { has_government = fascistic }
+			has_government = fascist
+			GER = { has_government = fascist }
 
 			NOT = {
 				has_war_with = GER
@@ -3368,10 +3368,10 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = fascistic
+			has_government = fascist
 			any_country = {
 				original_tag = MEX
-				has_government = fascistic
+				has_government = fascist
 				NOT = { has_war_with = ROOT }
 			}
 		}
@@ -3393,7 +3393,7 @@ focus_tree = {
 			random_country = {
 				limit = {
 					original_tag = MEX
-					has_government = fascistic
+					has_government = fascist
 				}
 				country_event = { id = tfv_canada.40 }
 			}

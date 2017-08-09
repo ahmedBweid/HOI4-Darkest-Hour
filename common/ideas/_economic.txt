@@ -81,7 +81,7 @@ ideas = {
 			
 			available = {
 				OR = {
-					has_government = fascistic
+					has_government = fascist
 					has_government = stalinist
 					has_war = yes
 					threat > 0.05
@@ -124,7 +124,7 @@ ideas = {
 			
 			available = {
 				OR = {
-					has_government = fascistic
+					has_government = fascist
 					has_government = stalinist
 					has_war = yes
 					threat > 0.15
@@ -172,7 +172,7 @@ ideas = {
 			available = {
 				threat > 0.15
 				OR = {
-					has_government = fascistic
+					has_government = fascist
 					has_government = stalinist
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
@@ -386,7 +386,7 @@ ideas = {
 			available = {
 				has_war = yes
 				OR = { 
-					has_government = fascistic
+					has_government = fascist
 					has_government = stalinist
 				}
 				OR = {

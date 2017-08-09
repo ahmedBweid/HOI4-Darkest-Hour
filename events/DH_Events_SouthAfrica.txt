@@ -18,7 +18,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	#Support fascistic
+	#Support fascist
 	option = { 
 		name = DH_southafrica.1.a
 		ai_chance = {
@@ -29,10 +29,10 @@ country_event = {
 			}
 		}		
 			add_popularity = {
-				ideology = fascistic
+				ideology = fascist
 				popularity = 0.05
 			}
-			add_ideas = fascistic_influence			
+			add_ideas = fascist_influence			
 			add_political_power = 50			
 	}
 	
@@ -42,15 +42,15 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		add_ideas = fascistic_influence
+		add_ideas = fascist_influence
 	}
 
-	#Fight fascistic	
+	#Fight fascist	
 	option = { 
 		name = DH_southafrica.1.c
 		add_political_power = -120			
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = -0.10
 		}	
 		add_opinion_modifier = {

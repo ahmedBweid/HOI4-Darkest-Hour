@@ -1508,21 +1508,21 @@ focus_tree = {
 					exists = yes
 					OR = { 
 						stalinist > 0.1
-				 		fascistic > 0.1
+				 		fascist > 0.1
 				 	} 
 				}
 				NOR = { 
 					exists = yes
 					OR = { 
 						stalinist > 0.1
-				 		fascistic > 0.1
+				 		fascist > 0.1
 				 	} 
 				}
 				DEN = {
 					exists = yes
 					OR = { 
 						stalinist > 0.1
-				 		fascistic > 0.1
+				 		fascist > 0.1
 				 	} 
 				}				
 			}			
@@ -1579,7 +1579,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascistic > 0.2
+					fascist > 0.2
 				}
 			}		
 		}
@@ -1610,7 +1610,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascistic > 0.2
+					fascist > 0.2
 				}
 			}
 		}	
@@ -1641,7 +1641,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascistic > 0.2
+					fascist > 0.2
 				}
 			}
 		}		
@@ -1678,14 +1678,14 @@ focus_tree = {
 					exists = yes
 					OR = { 
 						stalinist > 0.15
-				 		fascistic > 0.15
+				 		fascist > 0.15
 				 	} 
 				}
 				HOL = { 
 					exists = yes
 					OR = { 
 						stalinist > 0.15
-				 		fascistic > 0.15
+				 		fascist > 0.15
 				 	} 
 				}								
 			}			
@@ -1722,7 +1722,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascistic > 0.2
+					fascist > 0.2
 				}
 			}
 		}		
@@ -1752,7 +1752,7 @@ focus_tree = {
 				exists = yes
 				OR = {
 					stalinist > 0.2
-					fascistic > 0.2
+					fascist > 0.2
 				}
 			}
 		}		
@@ -2140,18 +2140,18 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				TUR = {
-					add_opinion_modifier = { target = ENG modifier = fascistic_leanings_good }
-					add_ideas = fascistic_influence
+					add_opinion_modifier = { target = ENG modifier = fascist_leanings_good }
+					add_ideas = fascist_influence
 					country_event = { id = generic.1 }
 				}
 				every_other_country = {
 					limit = { 
-						NOT = { has_government = fascistic }
+						NOT = { has_government = fascist }
 						num_of_factories > 30
 					}
-					add_opinion_modifier = { target = TUR modifier = fascistic_leanings_bad }
+					add_opinion_modifier = { target = TUR modifier = fascist_leanings_bad }
 				}
 			}
 			hidden_effect = {
@@ -2242,7 +2242,7 @@ focus_tree = {
 			IRQ = {
 				OR = { 
 					stalinist > 0.2
-			 		fascistic > 0.2
+			 		fascist > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iraq is fascist/commie
@@ -2275,7 +2275,7 @@ focus_tree = {
 				exists = yes
 				OR = { 
 					stalinist > 0.2
-			 		fascistic > 0.2
+			 		fascist > 0.2
 			 	} 
 			}
 		} #UK at war with fascist/commie. iran is fascist/commie

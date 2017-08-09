@@ -4,7 +4,7 @@ ideas = {
 	
 		anti_german_military = {
 			
-			picture = generic_fascistic_banned
+			picture = generic_fascist_banned
 
 			allowed = {
 				always = no
@@ -12,7 +12,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 
@@ -640,7 +640,7 @@ ideas = {
 				original_tag = YUG
 			}
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 		}
 	}
 

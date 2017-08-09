@@ -344,7 +344,7 @@ ideas = {
 			}
 		}
 
-		AST_abandon_the_westminster_system_stalinist = {
+		AST_abandon_the_westminster_system_communism = {
 
 			allowed = {
 				always = no
@@ -365,24 +365,24 @@ ideas = {
 			}
 		}
 
-		AST_abandon_the_westminster_system_fascistic = {
+		AST_abandon_the_westminster_system_fascist = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_fascistic
+			picture = ast_abandon_the_westminster_system_fascist
 
 			modifier = {
 				autonomy_gain = 1
 				social_conservative_drift = -0.1
-				fascistic_drift = 0.2
+				fascist_drift = 0.2
 			}
 		}
 
@@ -398,12 +398,12 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascistic_drift_bonus
+			picture = generic_fascist_drift_bonus
 
 			modifier = {
 				autonomy_gain = 1
 				social_conservative_drift = -0.1
-				fascistic_drift = 0.2
+				fascist_drift = 0.2
 			}
 		}
 
@@ -565,7 +565,7 @@ ideas = {
 			traits = { compassionate_gentleman }
 		}
 
-		AST_generic_fascistic_demagogue = {
+		AST_generic_fascist_demagogue = {
 			
 			allowed = {
 				original_tag = AST
@@ -580,7 +580,7 @@ ideas = {
 
 			picture = generic_political_advisor_europe_4
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 		
 			on_add = {
 				country_event = political.7
@@ -588,7 +588,7 @@ ideas = {
 		
 			do_effect = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 		

@@ -1415,12 +1415,12 @@ focus_tree = {
 			}
 			every_other_country = {
 				limit = { 
-					has_government = fascistic
+					has_government = fascist
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier = FRA_leftist_rhetoric_fascistic
+					modifier = FRA_leftist_rhetoric_fascist
 				}
 			}
 		}
@@ -1847,12 +1847,12 @@ focus_tree = {
 			#allow nazi leader
 			every_other_country = {
 				limit = { 
-					has_government = fascistic
+					has_government = fascist
 					num_of_factories > 30
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier =  FRA_right_wing_rhetoric_fascistic
+					modifier =  FRA_right_wing_rhetoric_fascist
 				}
 			}
 			every_other_country = {
@@ -1879,8 +1879,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CZE_czech_fascistic
-		icon = GFX_goal_support_fascistic
+		id = CZE_czech_fascist
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = CZE_go_right }
 		x = 0
 		y = 1
@@ -1893,7 +1893,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascistic > 0.35
+			fascist > 0.35
 		}
 
 		bypass = {
@@ -1909,14 +1909,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = fascistic_influence
+			add_ideas = fascist_influence
 		}
 	}
 
 	focus = {
 		id = CZE_aggressive_wars
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = CZE_czech_fascistic }
+		prerequisite = { focus = CZE_czech_fascist }
 		x = 0
 		y = 2
 		relative_position_id = CZE_go_right
@@ -1928,7 +1928,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascistic > 0.5
+			fascist > 0.5
 		}
 
 		bypass = {
@@ -1986,8 +1986,8 @@ focus_tree = {
 	focus = {
 		id = CZE_exclude_the_slovaks
 		icon = GFX_goal_generic_propaganda
-		mutually_exclusive = { focus = CZE_national_fascistic }
-		prerequisite = { focus = CZE_czech_fascistic }
+		mutually_exclusive = { focus = CZE_national_fascist }
+		prerequisite = { focus = CZE_czech_fascist }
 		x = 2
 		y = 2
 		relative_position_id = CZE_go_right
@@ -2003,7 +2003,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascistic > 0.6
+			fascist > 0.6
 		}
 
 		bypass = {
@@ -2023,23 +2023,23 @@ focus_tree = {
 				limit = {
 					has_idea = CZE_divided_nation
 				}
-				swap_ideas = { remove_idea = CZE_divided_nation add_idea = CZE_czech_fascistic_idea  }	
+				swap_ideas = { remove_idea = CZE_divided_nation add_idea = CZE_czech_fascist_idea  }	
 			}
 			if = {
 				limit = {
 					NOT = { has_idea = CZE_divided_nation }
 				}
-				add_ideas = CZE_czech_fascistic_idea	
+				add_ideas = CZE_czech_fascist_idea	
 			}
 			country_event = { days = 6 random = 120 id = czech.14 }			
 		}
 	}
 	
 	focus = {
-		id = CZE_national_fascistic
+		id = CZE_national_fascist
 		icon = GFX_goal_generic_propaganda
 		mutually_exclusive = { focus = CZE_exclude_the_slovaks }
-		prerequisite = { focus = CZE_czech_fascistic }
+		prerequisite = { focus = CZE_czech_fascist }
 		x = 4
 		y = 2
 		relative_position_id = CZE_go_right
@@ -2055,7 +2055,7 @@ focus_tree = {
 		}
 
 		available = {
-			fascistic > 0.6
+			fascist > 0.6
 			NOT = {
 				has_idea = CZE_divided_nation
 			}
@@ -2074,7 +2074,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = CZE_national_fascistic_idea
+			add_ideas = CZE_national_fascist_idea
 		}
 	}
 	
@@ -2082,7 +2082,7 @@ focus_tree = {
 		id = CZE_german_minor_ally
 		icon = GFX_goal_generic_dangerous_deal
 		mutually_exclusive = { focus = CZE_german_ally focus = CZE_german_puppet }
-		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascistic }
+		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascist }
 		x = 4
 		y = 3
 		relative_position_id = CZE_go_right
@@ -2099,7 +2099,7 @@ focus_tree = {
 
 		available = {
 			is_in_faction = no
-			GER = { has_government = fascistic }
+			GER = { has_government = fascist }
 			GER = { exists = yes }
 			GER = { is_subject = no }
 			has_army_manpower = { size > 249999 } 
@@ -2130,7 +2130,7 @@ focus_tree = {
 	focus = {
 		id = CZE_german_ally
 		icon = GFX_goal_generic_military_deal
-		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascistic }
+		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascist }
 		mutually_exclusive = { focus = CZE_german_puppet focus = CZE_german_minor_ally }
 		x = 2
 		y = 3
@@ -2144,7 +2144,7 @@ focus_tree = {
 
 		available = {
 			is_in_faction = no
-			GER = { has_government = fascistic }
+			GER = { has_government = fascist }
 			GER = { exists = yes }
 			GER = { is_subject = no }
 			has_army_manpower = { size > 299999 } 

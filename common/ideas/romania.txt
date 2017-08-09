@@ -18,8 +18,8 @@ ideas = {
 			}
 			
 			modifier = {
-				fascistic_drift = 0.1
-				fascistic_acceptance = 100
+				fascist_drift = 0.1
+				fascist_acceptance = 100
 			}
 		}
 	
@@ -35,7 +35,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			
@@ -769,7 +769,7 @@ ideas = {
 
 		ROM_mihail_sturdza = {
 
-			picture = generic_fascistic_demagogue_eastern_european_2d
+			picture = generic_fascist_demagogue_eastern_european_2d
 
 			available = {
 				if = {
@@ -784,7 +784,7 @@ ideas = {
 				original_tag = ROM
 			}
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 			ai_will_do = {
 				factor = 0
 			}

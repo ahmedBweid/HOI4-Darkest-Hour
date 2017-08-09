@@ -37,7 +37,7 @@ autonomy_state = {
 	allowed = {
 		has_dlc = "Death or Dishonor"
 		OR = {
-			has_government = fascistic
+			has_government = fascism
 			has_government = national_socialist
 		}
 	}

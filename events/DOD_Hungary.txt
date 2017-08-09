@@ -81,7 +81,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_government = stalinist
-				has_government = fascistic
+				has_government = fascist
 			}
 		}
 		add_threat = -2
@@ -194,7 +194,7 @@ country_event = {
 				AUS = {
 					OR = {
 						has_government = stalinist
-						has_government = fascistic
+						has_government = fascist
 					}
 				}
 				factor = 3
@@ -867,7 +867,7 @@ country_event = {
 			}
 		}
 		add_national_unity = -0.1
-		add_popularity = { ideology = fascistic popularity = 0.1 }
+		add_popularity = { ideology = fascist popularity = 0.1 }
 		add_popularity = { ideology = stalinist popularity = 0.1 }
 	}
 
@@ -3309,7 +3309,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 			modifier = {
-				NOT = { has_government = fascistic }
+				NOT = { has_government = fascist }
 				factor = 0.25
 			}
 		}
@@ -4838,7 +4838,7 @@ country_event = {
 		trigger = {
 			HUN = {
 				OR = {
-					has_government = fascistic
+					has_government = fascist
 					has_added_tension_amount > 0.05 #hungary has been bad
 				}
 			}
@@ -5144,7 +5144,7 @@ country_event = {
 		ai_chance = {
 			factor = 20
 			modifier = {
-				has_government = fascistic
+				has_government = fascist
 				factor = 0
 			}
 		}

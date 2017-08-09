@@ -329,7 +329,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_popularity = { ideology = fascistic popularity = 0.05 }
+			add_popularity = { ideology = fascist popularity = 0.05 }
 			add_opinion_modifier = { target = GER modifier = ROM_trade_treaty_with_germany }
 			GER = { add_opinion_modifier = { target = ROOT modifier = ROM_trade_treaty_with_germany } }
 		}
@@ -426,7 +426,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_join_axis
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = ROM_invite_german_advisors }
 		x = 0
 		y = 4
@@ -1890,7 +1890,7 @@ focus_tree = {
 		available = {
 			is_subject = no
 			stalinist < 0.5
-			fascistic < 0.5
+			fascist < 0.5
 			social_conservative < 0.5
 		}
 
@@ -2406,7 +2406,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_appoint_german_friendly_government
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = ROM_flexible_foreign_policy }
 		x = 1
 		y = 1
@@ -2426,7 +2426,7 @@ focus_tree = {
 			is_subject = no
 			GER = {
 				is_faction_leader = yes
-				has_government = fascistic
+				has_government = fascist
 				NOT = { has_war_with = ROM }
 			}
 		}
@@ -2471,7 +2471,7 @@ focus_tree = {
 			}
 			add_popularity = {
 				popularity = 0.35
-				ideology = fascistic
+				ideology = fascist
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ROM_mihail_sturdza
@@ -2586,7 +2586,7 @@ focus_tree = {
 			OR = {
 				social_conservative > 0.35
 				stalinist > 0.35
-				fascistic > 0.35
+				fascist > 0.35
 			}
 			is_subject = no
 		}
@@ -2625,10 +2625,10 @@ focus_tree = {
 					elections_allowed = no
 				}
 				limit = {
-					fascistic > 0.35
+					fascist > 0.35
 				}
 				set_politics = {
-					ruling_party = fascistic
+					ruling_party = fascist
 					elections_allowed = no
 				}
 			}

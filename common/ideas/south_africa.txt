@@ -9,7 +9,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
@@ -17,7 +17,7 @@ ideas = {
 			picture = saf_ossewabrandwag
 
 			modifier = {
-				fascistic_drift = 0.01
+				fascist_drift = 0.01
 				industrial_capacity_factory = -0.10
 				industrial_capacity_dockyard = -0.10
 			}
@@ -29,7 +29,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
@@ -42,21 +42,21 @@ ideas = {
 			}
 		}
 
-		SAF_ossewabrandwag_fascistic = {
+		SAF_ossewabrandwag_fascist = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = saf_ossewabrandwag_fascistic
+			picture = saf_ossewabrandwag_fascist
 
 			modifier = {
-				fascistic_drift = 0.01
+				fascist_drift = 0.01
 				enemy_partisan_effect = -0.1
 				foreign_subversive_activites = -0.4
 			}
@@ -120,28 +120,28 @@ ideas = {
 
 		}
 
-		SAF_abandon_westminster_fascistic = {
+		SAF_abandon_westminster_fascist = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_fascistic
+			picture = ast_abandon_the_westminster_system_fascist
 
 			modifier = {
 				autonomy_gain = 0.5
 				social_conservative_drift = -0.03
-				fascistic_drift = 0.03
+				fascist_drift = 0.03
 			}
 
 		}
 
-		SAF_abandon_westminster_stalinist = {
+		SAF_abandon_westminster_communism = {
 			allowed = {
 				always = no
 			}
@@ -254,7 +254,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
@@ -273,7 +273,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
@@ -428,7 +428,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
@@ -618,7 +618,7 @@ ideas = {
 
 			picture = generic_political_advisor_europe_4
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 		
 			on_add = {
 				country_event = political.7
@@ -626,7 +626,7 @@ ideas = {
 		
 			do_effect = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 		

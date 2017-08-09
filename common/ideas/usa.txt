@@ -465,37 +465,37 @@ ideas = {
 			}			
 		}
 			# idea for the protect Amercians focus - USA fascist
-		american_influence_defence_fascistic = {
+		american_influence_defence_fascist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
-			picture = generic_fascistic_drift_bonus
+			picture = generic_fascist_drift_bonus
 			modifier = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_influence_drift_fascistic = {
+		american_influence_drift_fascist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
-			picture = generic_fascistic_drift_bonus
+			picture = generic_fascist_drift_bonus
 			modifier = {
-				fascistic_drift = 0.05
+				fascist_drift = 0.05
 			}
 		} 
-		american_protection_defence_fascistic = {
+		american_protection_defence_fascist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
@@ -504,17 +504,17 @@ ideas = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_protection_drift_fascistic = {
+		american_protection_drift_fascist = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				fascistic_drift = 0.05
+				fascist_drift = 0.05
 			}			
 		}
 		USA_world_police = {
@@ -598,7 +598,7 @@ ideas = {
 			
 
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 	
 			on_add = {
 				country_event = political.7
@@ -606,7 +606,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			

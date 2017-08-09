@@ -5,11 +5,11 @@ on_actions = {
 				limit = {
 					ROOT = {
 						original_tag = INS
-						NOT = { has_government = fascistic }
+						NOT = { has_government = fascism }
 					}
 					FROM = {
 						original_tag = INS
-						has_government = fascistic
+						has_government = fascism
 						controls_state = 334
 						controls_state = 673
 						controls_state = 669

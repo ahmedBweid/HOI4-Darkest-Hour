@@ -135,7 +135,7 @@ country_event = {
 				}
 		}
 		AUS = {
-			set_cosmetic_tag = AUS_GER_fascistic
+			set_cosmetic_tag = AUS_GER_fascist
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
@@ -197,7 +197,7 @@ country_event = {
 			add_to_faction = AUS
 		}
 		AUS = {
-			set_cosmetic_tag = AUS_GER_AXIS_fascistic
+			set_cosmetic_tag = AUS_GER_AXIS_fascist
 		}		
 		custom_effect_tooltip = GAME_OVER_TT
 	}

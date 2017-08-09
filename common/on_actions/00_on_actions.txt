@@ -344,10 +344,10 @@ on_actions = {
 						OR = {
 							has_idea = american_protection_drift_social_conservative
 							has_idea = american_protection_drift_stalinist
-							has_idea = american_protection_drift_fascistic
+							has_idea = american_protection_drift_fascist
 							has_idea = american_protection_defence_social_conservative
 							has_idea = american_protection_defence_stalinist
-							has_idea = american_protection_defence_fascistic
+							has_idea = american_protection_defence_fascist
 						}
 					}
 					NOT = { 
@@ -359,10 +359,10 @@ on_actions = {
 					OR = {
 						has_idea = american_protection_drift_social_conservative
 						has_idea = american_protection_drift_stalinist
-						has_idea = american_protection_drift_fascistic
+						has_idea = american_protection_drift_fascist
 						has_idea = american_protection_defence_social_conservative
 						has_idea = american_protection_defence_stalinist
-						has_idea = american_protection_defence_fascistic
+						has_idea = american_protection_defence_fascist
 					}
 				}				
 				FROM = { country_event = { id = usa.16 days = 1 } }
@@ -549,18 +549,18 @@ on_actions = {
 				}
 			}
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				if = {
-					limit = { has_idea = fascistic_assault_divisions }
-					remove_ideas = fascistic_assault_divisions
+					limit = { has_idea = fascist_assault_divisions }
+					remove_ideas = fascist_assault_divisions
 				}
 				if = {
-					limit = { has_idea = fascistic_revolutionaries }
-					remove_ideas = fascistic_revolutionaries
+					limit = { has_idea = fascist_revolutionaries }
+					remove_ideas = fascist_revolutionaries
 				}
 				if = {
-					limit = { has_idea = fascistic_defeated }
-					remove_ideas = fascistic_defeated
+					limit = { has_idea = fascist_defeated }
+					remove_ideas = fascist_defeated
 				}
 				if = {
 					limit = { has_idea = anti_nazi_coup }
@@ -610,7 +610,7 @@ on_actions = {
 					}
 					ROOT = {
 						original_tag = SPR
-						has_government = fascistic
+						has_government = fascist
 					}
 				}
 				add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1825 }

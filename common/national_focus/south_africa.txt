@@ -701,7 +701,7 @@ focus_tree = {
 
 	focus = {
 		id = SAF_support_the_afrikaner_broederbond
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = SAF_abandon_westminster }
 		mutually_exclusive = { focus = SAF_empower_the_workers }
 		x = 0
@@ -713,11 +713,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				fascistic > 0.25
+				fascist > 0.25
 				factor = 10
 			}
 			modifier = {
-				fascistic > 0.45
+				fascist > 0.45
 				factor = 10
 			}
 		}
@@ -741,7 +741,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_abandon_westminster
-				add_idea = SAF_abandon_westminster_fascistic
+				add_idea = SAF_abandon_westminster_fascist
 			}
 		}
 	}
@@ -764,14 +764,14 @@ focus_tree = {
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascistic } }
+					limit = { NOT = { has_government = fascist } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.65
 					}
 				}
 				if = {
-					limit = { has_government = fascistic } 
+					limit = { has_government = fascist } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.65
@@ -796,7 +796,7 @@ focus_tree = {
 			army_experience = 15
 			swap_ideas = {
 				remove_idea = SAF_ossewabrandwag
-				add_idea = SAF_ossewabrandwag_fascistic
+				add_idea = SAF_ossewabrandwag_fascist
 			}
 		}
 	}
@@ -891,13 +891,13 @@ focus_tree = {
 		}
 
 		available = {
-			fascistic > 0.20
+			fascist > 0.20
 			if = {
-				limit = { not = { has_government = fascistic } }
+				limit = { not = { has_government = fascist } }
 				compare_autonomy_state > autonomy_colony
 			}
 			if = {
-				limit = { has_government = fascistic  }
+				limit = { has_government = fascist  }
 				compare_autonomy_state > autonomy_reichsprotectorate
 			}
 			controls_state = 541
@@ -990,14 +990,14 @@ focus_tree = {
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascistic } }
+					limit = { NOT = { has_government = fascist } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.75
 					}
 				}
 				if = {
-					limit = { has_government = fascistic } 
+					limit = { has_government = fascist } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.75
@@ -1051,19 +1051,19 @@ focus_tree = {
 		}
 
 		available = {
-			fascistic > 0.25
+			fascist > 0.25
 			controls_state = 541
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascistic } }
+					limit = { NOT = { has_government = fascist } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.80
 					}
 				}
 				if = {
-					limit = { has_government = fascistic } 
+					limit = { has_government = fascist } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.80
@@ -1073,7 +1073,7 @@ focus_tree = {
 		}
 		
 		bypass = {
-			has_government = fascistic
+			has_government = fascist
 		}
 
 		cancel_if_invalid = yes
@@ -1083,7 +1083,7 @@ focus_tree = {
 		complete_tooltip = {
 			set_capital = 541
 			start_civil_war = {
-				ruling_party = fascistic
+				ruling_party = fascist
 				ideology = social_conservative
 				size = 0.75
 				capital = 681
@@ -1097,7 +1097,7 @@ focus_tree = {
 			hidden_effect = {
 				set_capital = 541
 				start_civil_war = {
-					ruling_party = fascistic
+					ruling_party = fascist
 					ideology = social_conservative
 					size = 0.45
 					capital = 681
@@ -1121,13 +1121,13 @@ focus_tree = {
 				set_equipment_fraction = 0.8
 				
 				add_popularity = {
-					ideology = fascistic
+					ideology = fascist
 					popularity = 1
 				}
 				random_country = {
 					limit = {
 						original_tag = GER
-						has_government = fascistic
+						has_government = fascist
 					}
 					set_country_flag = saf_fascist_uprising # Affects GER ai_strategy
 				}
@@ -1269,7 +1269,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				NOT  = { ENG = { has_idea = ENG_king_edward } }
-				NOT = { ENG = { has_idea = ENG_king_edward_fascistic } }
+				NOT = { ENG = { has_idea = ENG_king_edward_fascist } }
 				ENG = { has_country_flag = ENG_king_died }
 				tooltip = SAF_a_king_for_our_people_trigger_tt					
 			}
@@ -1397,7 +1397,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_abandon_westminster
-				add_idea = SAF_abandon_westminster_stalinist
+				add_idea = SAF_abandon_westminster_communism
 			}
 		}
 	}
@@ -1431,14 +1431,14 @@ focus_tree = {
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascistic } }
+					limit = { NOT = { has_government = fascist } }
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.65
 					}
 				}
 				if = {
-					limit = { has_government = fascistic } 
+					limit = { has_government = fascist } 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.65

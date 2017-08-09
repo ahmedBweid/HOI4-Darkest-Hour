@@ -12,9 +12,9 @@ leader_traits = {
 
 	minister_of_propaganda = {
 		random = no
-		# Boosts fascistic
+		# Boosts fascist
 		sprite = 13
-		fascistic_drift = 0.1
+		fascist_drift = 0.1
 		unity_factor = 0.05
 
 		ai_will_do = {

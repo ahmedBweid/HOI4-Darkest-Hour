@@ -2875,7 +2875,7 @@ focus_tree = {
 					has_government = social_conservative
 				}
 				add_popularity = {
-					ideology = fascistic
+					ideology = fascist
 					popularity = -0.1
 				}
 				add_popularity = {
@@ -2885,7 +2885,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_government = fascistic
+					has_government = fascist
 				}
 				add_popularity = {
 					ideology = social_conservative
@@ -2905,7 +2905,7 @@ focus_tree = {
 					popularity = -0.1
 				}
 				add_popularity = {
-					ideology = fascistic
+					ideology = fascist
 					popularity = -0.1
 				}
 			}
@@ -2970,7 +2970,7 @@ focus_tree = {
 			modifier = {
 				OR = {
 					stalinist > 0.15
-					fascistic > 0.15
+					fascist > 0.15
 					}
 				factor = 0.2
 			}
@@ -3418,14 +3418,14 @@ focus_tree = {
 			factor = 0.5 
 			modifier = {
 				OR = {
-						fascistic > 0.25
+						fascist > 0.25
 						stalinist > 0.25
 					}
 				factor = 20
 			}
 			modifier = {
 				OR = {
-						fascistic > 0.45
+						fascist > 0.45
 						stalinist > 0.45
 					}
 				factor = 30
@@ -3627,11 +3627,11 @@ focus_tree = {
 
 		available = {
 			if = {
-				limit = { NOT = { has_government = fascistic } }
+				limit = { NOT = { has_government = fascist } }
 				has_autonomy_state = autonomy_dominion
 			}
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				has_autonomy_state = autonomy_satellite
 			}
 		}
@@ -3929,14 +3929,14 @@ focus_tree = {
 			modifier = {
 				OR = {
 					stalinist > 0.2
-					fascistic > 0.2
+					fascist > 0.2
 					}
 				factor = 20
 			}
 			modifier = {
 				OR = {
 					stalinist > 0.4
-					fascistic > 0.4
+					fascist > 0.4
 					}
 				factor = 20
 			}
@@ -3960,7 +3960,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = {
-				ideology = fascistic
+				ideology = fascist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -3977,7 +3977,7 @@ focus_tree = {
 
 	focus = {
 		id = AST_support_the_centre_party
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = AST_abandon_the_westminster_system }
 		mutually_exclusive = { focus = AST_empower_the_workers }
 		x = -2
@@ -3989,11 +3989,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = {
-				NOT = { JAP = { has_government = fascistic } }
+				NOT = { JAP = { has_government = fascist } }
 				factor = 0 #let's not go fascist if Japan isn't
 			}
 			modifier = {
-				fascistic > 0.3
+				fascist > 0.3
 				factor = 20
 			}
 		}
@@ -4001,11 +4001,11 @@ focus_tree = {
 		available = {
 			compare_autonomy_progress_ratio > 0.55
 			if = {
-				limit = { not = { has_government = fascistic } }
+				limit = { not = { has_government = fascist } }
 				has_autonomy_state = autonomy_dominion
 			}
 			if = {
-				limit = { has_government = fascistic } 
+				limit = { has_government = fascist } 
 				has_autonomy_state = autonomy_satellite
 			}
 		}
@@ -4025,10 +4025,10 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = AST_abandon_the_westminster_system
-				add_idea = AST_abandon_the_westminster_system_fascistic
+				add_idea = AST_abandon_the_westminster_system_fascist
 			}
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = AST_generic_fascistic_demagogue
+			show_ideas_tooltip = AST_generic_fascist_demagogue
 		}
 	}
 
@@ -4048,7 +4048,7 @@ focus_tree = {
 
 		available = {
 			ROOT = {
-				fascistic > 0.15
+				fascist > 0.15
 			}
 			has_equipment = {
 				infantry_equipment > 199
@@ -4075,7 +4075,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			#Boosts fascistic in Indonesia
+			#Boosts fascist in Indonesia
 			INS = {
 				add_timed_idea = { days = 730 idea = AST_indonesian_nationalists } 
 			}
@@ -4106,18 +4106,18 @@ focus_tree = {
 				AND = {
 					compare_autonomy_progress_ratio > 0.75
 					if = {
-						limit = { not = { has_government = fascistic } }
+						limit = { not = { has_government = fascist } }
 						has_autonomy_state = autonomy_dominion
 					}
 					if = {
-						limit = { has_government = fascistic } 
+						limit = { has_government = fascist } 
 						has_autonomy_state = autonomy_satellite
 					}
 				}
 			}
-			fascistic > 0.3
+			fascist > 0.3
 			INS = {
-				fascistic > 0.3
+				fascist > 0.3
 			}
 		}
 		
@@ -4158,7 +4158,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_government = fascistic
+			has_government = fascist
 			NOT = { has_war_together_with = ENG }
 			NOT = { is_in_faction_with = NZL }
 		}
@@ -4206,11 +4206,11 @@ focus_tree = {
 
 		available = {
 			if = {
-				limit = { not = { has_government = fascistic } }
+				limit = { not = { has_government = fascist } }
 				has_autonomy_state = autonomy_dominion
 			}
 			if = {
-				limit = { has_government = fascistic } 
+				limit = { has_government = fascist } 
 				has_autonomy_state = autonomy_satellite
 			}
 			MAL = {
@@ -4261,11 +4261,11 @@ focus_tree = {
 				is_subject = no
 				AND = {
 					if = {
-						limit = { not = { has_government = fascistic } }
+						limit = { not = { has_government = fascist } }
 						has_autonomy_state = autonomy_dominion
 					}
 					if = {
-						limit = { has_government = fascistic } 
+						limit = { has_government = fascist } 
 						has_autonomy_state = autonomy_satellite
 					}
 					compare_autonomy_progress_ratio > 0.8
@@ -4338,11 +4338,11 @@ focus_tree = {
 				is_subject = no
 				AND = {
 					if = {
-						limit = { not = { has_government = fascistic } }
+						limit = { not = { has_government = fascist } }
 						has_autonomy_state = autonomy_dominion
 					}
 					if = {
-						limit = { has_government = fascistic } 
+						limit = { has_government = fascist } 
 						has_autonomy_state = autonomy_satellite
 					}
 					compare_autonomy_progress_ratio > 0.8
@@ -4474,11 +4474,11 @@ focus_tree = {
 		available = {			
 			compare_autonomy_progress_ratio > 0.55
 			if = {
-				limit = { not = { has_government = fascistic } }
+				limit = { not = { has_government = fascist } }
 				has_autonomy_state = autonomy_dominion
 			}
 			if = {
-				limit = { has_government = fascistic } 
+				limit = { has_government = fascist } 
 				has_autonomy_state = autonomy_satellite
 			}
 		}
@@ -4498,7 +4498,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = AST_abandon_the_westminster_system
-				add_idea = AST_abandon_the_westminster_system_stalinist			
+				add_idea = AST_abandon_the_westminster_system_communism			
 			}
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = AST_lance_sharkey

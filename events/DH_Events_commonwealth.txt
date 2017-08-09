@@ -41,7 +41,7 @@ country_event = {
 			factor = 35
 			modifier = {
 				AND = {
-					ROOT = { has_government = fascistic }
+					ROOT = { has_government = fascist }
 					NOT = { original_tag = RAJ }
 				}
 				factor = 0
@@ -107,7 +107,7 @@ country_event = {
 			factor = 65
 			modifier = {
 				AND = {
-					ROOT = { has_government = fascistic }
+					ROOT = { has_government = fascist }
 					NOT = { original_tag = RAJ }
 				}
 				factor = 0
@@ -163,7 +163,7 @@ country_event = {
 		name = DH_commonwealth.1.c
 		trigger = {
 			AND = {
-				has_government = fascistic
+				has_government = fascist
 				NOT  = { original_tag = RAJ }
 			}
 			EGL = { has_country_flag = whole_friendly_regime }

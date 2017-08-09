@@ -182,7 +182,7 @@ country_event = {
 						}
 					}
 					NZL = { is_in_faction = no }
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			modifier = {
@@ -400,7 +400,7 @@ country_event = {
 		random_country = {
 			limit = {
 				original_tag = INS
-				has_government = fascistic
+				has_government = fascist
 			}
 			white_peace = HOL
 		}
@@ -496,7 +496,7 @@ country_event = {
 			base = 50
 			modifier = {
 				factor = 0
-				has_government = fascistic
+				has_government = fascist
 			}
 			modifier = {
 				add = -20
@@ -830,7 +830,7 @@ country_event = {
 	option = {
 		name = tfv_australia.96.a
 		start_civil_war = {
-			ideology = fascistic
+			ideology = fascist
 			size = 0.5
 			states = { 334 673 669 668 738 667 }
 		}
@@ -845,7 +845,7 @@ country_event = {
 				has_government = social_conservative
 			}
 			start_civil_war = {
-				ruling_party = fascistic
+				ruling_party = fascist
 				ideology = social_conservative
 				size = 0.5
 			}
@@ -855,7 +855,7 @@ country_event = {
 				has_government = stalinist
 			}
 			start_civil_war = {
-				ruling_party = fascistic
+				ruling_party = fascist
 				ideology = stalinist
 				size = 0.5
 			}
@@ -865,7 +865,7 @@ country_event = {
 				has_government = paternal_autocrat
 			}
 			start_civil_war = {
-				ruling_party = fascistic
+				ruling_party = fascist
 				ideology = paternal_autocrat
 				size = 0.5
 			}

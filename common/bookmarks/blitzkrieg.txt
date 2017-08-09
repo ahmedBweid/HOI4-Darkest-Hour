@@ -68,7 +68,7 @@ bookmarks = {
 		}
 		ITA = {
 			history = ITA_BLITZKRIEG_DESC
-			ideology = fascistic
+			ideology = fascist
 			ideas={
 				vittoria_mutilata
 				victor_emmanuel
@@ -81,7 +81,7 @@ bookmarks = {
 		}
 		JAP = {
 			history = JAP_BLITZKRIEG_DESC
-			ideology = fascistic
+			ideology = fascist
 			ideas={
 				state_shintoism
 				the_long_lance

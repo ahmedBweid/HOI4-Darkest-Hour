@@ -113,13 +113,13 @@ political_advisor = {
 
 	POL_roman_dmowski = {
 
-		picture = generic_fascistic_demagogue_eastern_european_2d
+		picture = generic_fascist_demagogue_eastern_european_2d
 
 		allowed = {
 			original_tag = POL
 		}
 		
-		traits = { fascistic_demagogue }
+		traits = { fascist_demagogue }
 
 		ai_will_do = {
 			factor = 0

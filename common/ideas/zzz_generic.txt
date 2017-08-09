@@ -105,7 +105,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
@@ -114,7 +114,7 @@ ideas = {
 
 			
 			modifier = {
-				fascistic_drift = 0.1
+				fascist_drift = 0.1
 			}
 		}
 
@@ -138,23 +138,23 @@ ideas = {
 			}
 		}
 
-		fascistic_influence = {
+		fascist_influence = {
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascistic_drift_bonus
+			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				fascistic_drift = 0.1
-				fascistic_acceptance = 85
+				fascist_drift = 0.1
+				fascist_acceptance = 85
 			}
 		}
 		
@@ -208,7 +208,7 @@ ideas = {
 				OR = {
 					AND = {
 						tag = GER
-						has_government = fascistic
+						has_government = fascist
 						SOV = {
 							has_government = stalinist
 						}
@@ -217,7 +217,7 @@ ideas = {
 						tag = SOV
 						has_government = stalinist
 						GER = {
-							has_government = fascistic
+							has_government = fascist
 						}
 					}
 				}
@@ -227,7 +227,7 @@ ideas = {
 			
 			modifier = {
 				stalinist_acceptance = 100
-				fascistic_acceptance = 100
+				fascist_acceptance = 100
 			}
 		}
 		
@@ -304,7 +304,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 			
 			removal_cost = -1
@@ -327,7 +327,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = stalinist
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			
@@ -350,7 +350,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = stalinist
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			
@@ -373,7 +373,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = stalinist
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			
@@ -572,9 +572,9 @@ ideas = {
 			}
 		}
 
-		fascistic_banned = {
+		fascist_banned = {
 
-			picture = generic_fascistic_banned
+			picture = generic_fascist_banned
 
 			allowed = {
 				always = no
@@ -582,12 +582,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 
 			modifier = {
-				fascistic_drift = -0.05
+				fascist_drift = -0.05
 			}
 		}
 	}
@@ -673,12 +673,12 @@ ideas = {
 			}
 		}
 		
-		generic_fascistic_demagogue = {
+		generic_fascist_demagogue = {
 			
 			allowed = {
 				NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = ROM tag = CZE } }
 				NOT = {
-					has_available_idea_with_traits = { idea = fascistic_demagogue limit = 1 }
+					has_available_idea_with_traits = { idea = fascist_demagogue limit = 1 }
 				}
 
 			}
@@ -694,7 +694,7 @@ ideas = {
 				
 			}
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 	
 			on_add = {
 				country_event = political.7
@@ -702,7 +702,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 	

@@ -23,7 +23,7 @@ country_event = {
 			factor = 80
 			modifier = {
 				PER = {
-					has_government = fascistic
+					has_government = fascist
 				}
 				factor = 10000
 			}
@@ -40,7 +40,7 @@ country_event = {
 				PER_german_academic_influence
 			}
 			add_ideas = {
-				fascistic_influence
+				fascist_influence
 			}
 			add_tech_bonus = {
 				bonus = 0.5

@@ -61,7 +61,7 @@ ideas = {
 
 		}
 
-		ENG_king_edward_fascistic = {
+		ENG_king_edward_fascist = {
 			
 			allowed = {
 				original_tag = ENG
@@ -72,7 +72,7 @@ ideas = {
 			removal_cost = -1
 			
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 
@@ -122,7 +122,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			
@@ -365,7 +365,7 @@ ideas = {
 			
 
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 	
 			on_add = {
 				country_event = political.7
@@ -373,7 +373,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			

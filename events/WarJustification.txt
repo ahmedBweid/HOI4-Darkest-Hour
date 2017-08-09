@@ -14,7 +14,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = fascistic
+		has_government = fascist
 		FROM = { has_government = paternal_autocrat }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -40,7 +40,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = fascistic
+		has_government = fascist
 		FROM = { has_government = social_conservative }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -66,7 +66,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = fascistic
+		has_government = fascist
 		FROM = { has_government = stalinist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -92,8 +92,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = fascistic
-		FROM = { has_government = fascistic }
+		has_government = fascist
+		FROM = { has_government = fascist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -197,7 +197,7 @@ country_event = {
 
 	trigger = {
 		has_government = stalinist
-		FROM = { has_government = fascistic }
+		FROM = { has_government = fascist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -301,7 +301,7 @@ country_event = {
 
 	trigger = {
 		has_government = social_conservative
-		FROM = { has_government = fascistic }
+		FROM = { has_government = fascist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -405,7 +405,7 @@ country_event = {
 
 	trigger = {
 		has_government = paternal_autocrat
-		FROM = { has_government = fascistic }
+		FROM = { has_government = fascist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -857,14 +857,14 @@ country_event = {
 		name = war_justification.301.c
 		trigger = {
 			OR = {
-				has_government = fascistic
+				has_government = fascist
 				has_government = paternal_autocrat
 			}
 		}
 		add_political_power = -30
 		add_national_unity = -0.03
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = -0.05
 		}
 	}

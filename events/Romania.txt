@@ -233,11 +233,11 @@ country_event = {
 	option = { # Seek german alliance
 		name = romania.6.a
 		set_politics = {
-			ruling_party = fascistic
+			ruling_party = fascist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = fascistic
+			ideology = fascist
 			popularity = 0.35
 		}
 		add_opinion_modifier = { target = GER modifier = ROM_seek_alliance_GER }

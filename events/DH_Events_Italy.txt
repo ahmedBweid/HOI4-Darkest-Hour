@@ -60,7 +60,7 @@ country_event = {
 			set_politics = { 
 				parties = {
 					social_conservative = { popularity = 60 }
-					fascistic = { popularity = 29 }
+					fascist = { popularity = 29 }
 					stalinist = { popularity = 11 }
 				} 
 				ruling_party = social_conservative elections_allowed = yes 
@@ -143,7 +143,7 @@ country_event = { #Cyprus offer
 		ITA = {
 			transfer_state = 183
 		}
-		add_opinion_modifier = { target = GER modifier = fascistic_leanings_good }		
+		add_opinion_modifier = { target = GER modifier = fascist_leanings_good }		
 	}
 
 	option = { #refuse cyprus

@@ -281,9 +281,9 @@ country_event = {
 		every_other_country = {
 			limit = {
 				NOT = { tag = GER }
-				has_government = fascistic 
+				has_government = fascist 
 			}
-			add_opinion_modifier = { target = GER modifier = MR_pact_fascistics }
+			add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 		}
 		diplomatic_relation = { country = SOV relation = non_aggression_pact }
 		add_opinion_modifier = { target = SOV modifier = MR_pact }# pact
@@ -2860,7 +2860,7 @@ country_event = {
 			}
 			start_civil_war = {
 				ruling_party = social_conservative
-				ideology = fascistic
+				ideology = fascist
 				size = 0.5
 			}
 		}
@@ -2873,7 +2873,7 @@ country_event = {
 			}
 			start_civil_war = {
 				ruling_party = social_conservative
-				ideology = fascistic
+				ideology = fascist
 				size = 0.7
 			}
 		}
@@ -3587,7 +3587,7 @@ country_event = {
 				OR = {
 					AND = {
 						NOT = { tag = GER }
-						has_government = fascistic 
+						has_government = fascist 
 					}
 					has_government = social_conservative 
 				}
@@ -3613,7 +3613,7 @@ country_event = {
 			add_named_threat = { threat = 10 name = germany.89.t }
 			every_other_country = {
 				limit = {
-					has_government = fascistic 
+					has_government = fascist 
 				}
 				add_opinion_modifier = { target = GER modifier = communist_collaborators }
 			}
@@ -3629,7 +3629,7 @@ country_event = {
 			ENG = {
 				country_event = { days = 3 id = britain.11 }
 			}
-			# US drops stalinist/fascistic
+			# US drops stalinist/fascist
 			USA = {
 				country_event = { id = usa.14 }
 				country_event = { id = usa.24 }
@@ -4346,7 +4346,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = FRA
-				has_government = fascistic
+				has_government = fascist
 			}
 			country_event = france.27
 		}
@@ -4364,7 +4364,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = FRA
-				has_government = fascistic
+				has_government = fascist
 			}
 			country_event = france.27
 		}		
@@ -4382,7 +4382,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = FRA
-				has_government = fascistic
+				has_government = fascist
 			}
 			country_event = france.27
 		}				
@@ -4400,7 +4400,7 @@ country_event = {
 		random_other_country = {
 			limit = {
 				original_tag = FRA
-				has_government = fascistic
+				has_government = fascist
 			}
 			country_event = france.27
 		}				
@@ -5447,7 +5447,7 @@ country_event = {
 				add = 1
 				OR = {
 					has_government = paternal_autocrat
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 		}
@@ -5508,7 +5508,7 @@ country_event = {
 	trigger = {
 		tag = GER
 		GER = {
-			has_government = fascistic
+			has_government = fascist
 			owns_state = 217 
 			owns_state = 195 
 		}

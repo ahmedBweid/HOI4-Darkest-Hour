@@ -118,15 +118,15 @@
  ENG_submarine_2:0 "H-boat-class"
  ENG_submarine_3:0 "Odin-class"
  ENG_submarine_4:0 "S-boat-class"
- ENG_submarine_5:0 "T-boat Group II-class"
- ENG_submarine_6:0 "Umpire-class"
+ ENG_submarine_5:0 "T-boat-class" # Group II
+ ENG_submarine_6:0 "U-boat-class"
  ENG_submarine_7:0 "Explorer-class"
  ENG_submarine_8:0 "Upgraded Amphion-class"
  ENG_submarine_9:0 "Oberon-class"
  
  ENG_destroyer_0:0 "C-class"
  ENG_destroyer_1:0 "E-class"
- ENG_destroyer_2:0 "Beagle-class"
+ ENG_destroyer_2:0 "G-class" #Beagle Class
  ENG_destroyer_3:0 "V-class"
  ENG_destroyer_4:0 "A-class"
  ENG_destroyer_5:0 "F-class"
@@ -155,7 +155,7 @@
  # ENG_heavy_cruiser_7:0 ""
  ENG_heavy_cruiser_8:0 "St. Vincent-class" 
  
- ENG_battle_cruiser_0:0 "Invicible-class"
+ ENG_battle_cruiser_0:0 "Invincible-class"
  ENG_battle_cruiser_1:0 "Renown-class"
  ENG_battle_cruiser_2:0 "Admiral-class"
  ENG_battle_cruiser_3:0 "G3-class"
@@ -669,7 +669,7 @@
  
  USA_heavy_cruiser_0:0 "Onondaga-class"
  USA_heavy_cruiser_1:0 "New York-class"
- USA_heavy_cruiser_2:0 "Tennessee-class-class"
+ USA_heavy_cruiser_2:0 "Tennessee-class"
  USA_heavy_cruiser_3:0 "Northampton-class"
  USA_heavy_cruiser_4:0 "New Orleans-class"
  USA_heavy_cruiser_5:0 "Wichita-class"

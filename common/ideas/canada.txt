@@ -102,7 +102,7 @@ ideas = {
 			}
 		}
 
-		CAN_defence_of_canada_regulations_social_conservative = {
+		CAN_defence_of_canada_regulations_democratic = {
 
 			allowed = {
 				always = no
@@ -118,24 +118,24 @@ ideas = {
 			
 			modifier = {
 				stalinist_drift = -0.01
-				fascistic_drift = -0.01
+				fascist_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
 
-		CAN_defence_of_canada_regulations_fascistic = {
+		CAN_defence_of_canada_regulations_fascist = {
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = fascistic
+				has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = can_defence_of_canada_regulations_fascistic
+			picture = can_defence_of_canada_regulations_fascist
 			
 			modifier = {
 				social_conservative_drift = -0.01
@@ -144,7 +144,7 @@ ideas = {
 			}
 		}
 
-		CAN_defence_of_canada_regulations_stalinist = {
+		CAN_defence_of_canada_regulations_communism = {
 
 			allowed = {
 				always = no
@@ -160,7 +160,7 @@ ideas = {
 			
 			modifier = {
 				social_conservative_drift = -0.01
-				fascistic_drift = -0.01
+				fascist_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
@@ -385,16 +385,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascistic_drift_bonus
+			picture = generic_fascist_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
-				fascistic_drift = 0.2
+				fascist_drift = 0.2
 			}
 		}
 
@@ -404,16 +404,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascistic_drift_bonus
+			picture = generic_fascist_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
-				fascistic_drift = 0.2
+				fascist_drift = 0.2
 				unity_factor = 0.05
 				conscription = 0.02
 			}
@@ -425,16 +425,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				 has_government = fascistic
+				 has_government = fascist
 			}
 
 			removal_cost = -1
 
-			picture = generic_fascistic_drift_bonus
+			picture = generic_fascist_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
-				fascistic_drift = 0.2
+				fascist_drift = 0.2
 				unity_factor = 0.05
 				conscription = 0.02
 				send_volunteer_divisions_required = -1
@@ -570,9 +570,9 @@ ideas = {
 				}
 			}
 
-			picture = generic_fascistic_demagogue_commonwealth_2d
+			picture = generic_fascist_demagogue_commonwealth_2d
 			
-			traits = { fascistic_demagogue }
+			traits = { fascist_demagogue }
 			
 			on_add = {
 				country_event = political.7
@@ -580,7 +580,7 @@ ideas = {
 			
 			do_effect = {
 				NOT = {
-					has_government = fascistic
+					has_government = fascist
 				}
 			}
 			

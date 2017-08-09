@@ -960,7 +960,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_anti_fascistic_diplomacy
+		id = SOV_anti_fascist_diplomacy
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = SOV_peoples_commissariat }
 		x = 11
@@ -969,7 +969,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_government = fascistic
+				has_government = fascist
 				factor = 0
 			}
 
@@ -994,25 +994,25 @@ focus_tree = {
 		completion_reward = {
 			USA = { 
 				if = {
-					limit = { NOT = { has_government = fascistic } }
-					add_opinion_modifier = { target = SOV modifier = anti_fascistic_diplomacy_focus } 
+					limit = { NOT = { has_government = fascist } }
+					add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } 
 				}
 			}
 			ENG = { 
 				if = {
-					limit = { NOT = { has_government = fascistic } }
-					add_opinion_modifier = { target = SOV modifier = anti_fascistic_diplomacy_focus } 
+					limit = { NOT = { has_government = fascist } }
+					add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } 
 				}
 			}
 			FRA = { 
 				if = {
-					limit = { NOT = { has_government = fascistic } }
-					add_opinion_modifier = { target = SOV modifier = anti_fascistic_diplomacy_focus } 
+					limit = { NOT = { has_government = fascist } }
+					add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_focus } 
 				}
 			}
 			every_other_country = {
-				limit = { has_government = fascisticic }
-				add_opinion_modifier = { target = SOV modifier = anti_fascistic_diplomacy_fascistics }
+				limit = { has_government = fascistic }
+				add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_fascists }
 			}
 		}
 	}
@@ -1020,7 +1020,7 @@ focus_tree = {
 #	focus = {
 #		id = SOV_xian_incident
 #		icon = GFX_goal_generic_political_pressure
-#		prerequisite = { focus = SOV_anti_fascistic_diplomacy }
+#		prerequisite = { focus = SOV_anti_fascist_diplomacy }
 #		x = 10
 #		y = 1
 #		cost = 10
@@ -1036,7 +1036,7 @@ focus_tree = {
 	focus = {
 		id = SOV_far_east_fortification
 		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = SOV_anti_fascistic_diplomacy }
+		prerequisite = { focus = SOV_anti_fascist_diplomacy }
 		x = 10
 		y = 3
 		cost = 10
@@ -1268,7 +1268,7 @@ focus_tree = {
 	focus = {
 		id = SOV_improve_stalin_line
 		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = SOV_anti_fascistic_diplomacy }
+		prerequisite = { focus = SOV_anti_fascist_diplomacy }
 		available = { has_offensive_war = no }
 		x = 12
 		y = 3
@@ -1920,7 +1920,7 @@ focus_tree = {
 
 		completion_reward = {
 			every_other_country = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				add_opinion_modifier = { target = SOV modifier = anti_capitalist_diplomacy_focus }
 			}
 			USA = { 

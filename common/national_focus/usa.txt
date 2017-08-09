@@ -790,7 +790,7 @@ focus_tree = {
 					has_added_tension_amount > 30
 				}
 			}
-			NOT = { has_government = fascistic }
+			NOT = { has_government = fascist }
 		}
 
 		continue_if_invalid = yes
@@ -1038,7 +1038,7 @@ focus_tree = {
 					has_added_tension_amount > 30
 				}
 			}
-			NOT = { has_government = fascistic }
+			NOT = { has_government = fascist }
 		}
 		continue_if_invalid = yes
 		available_if_capitulated = yes
@@ -1182,7 +1182,7 @@ focus_tree = {
 		prerequisite = { focus = USA_embargo_USSR }
 		available = {
 			GER = { has_war_with = SOV }
-			has_government = fascistic
+			has_government = fascist
 		}
 
 		x = 10
@@ -1348,7 +1348,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_crusade_against_stalinist
-		icon = GFX_goal_support_fascistic
+		icon = GFX_goal_support_fascist
 		prerequisite = { focus = USA_unholy_alliance }
 		prerequisite = { focus = USA_limited_intervention }
 		available = {
@@ -1957,43 +1957,43 @@ focus_tree = {
 			}			
 
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				CUB = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				HAI = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				DOM = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				every_other_country = {
 					limit = { 
 						NOT = { has_country_flag = usa_influence_fired }
 						OR = {
-							has_idea = american_influence_defence_fascistic
-							has_idea = american_influence_drift_fascistic
+							has_idea = american_influence_defence_fascist
+							has_idea = american_influence_drift_fascist
 						}
 					}
 					country_event = { id = usa.22 }
@@ -2163,73 +2163,73 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				GUA = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				} 
 				ELS = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				HON = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				NIC = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				COS = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				"PAN" = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				every_other_country = {
 					limit = { 
 						NOT = { has_country_flag = usa_influence_fired }
 						OR = {
-							has_idea = american_influence_defence_fascistic
-							has_idea = american_influence_drift_fascistic
+							has_idea = american_influence_defence_fascist
+							has_idea = american_influence_drift_fascist
 						}
 					}
 					country_event = { id = usa.22 }
@@ -2320,33 +2320,33 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				CAN =  {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				MEX =  {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				every_other_country = {
 					limit = { 
 						NOT = { has_country_flag = usa_influence_fired }
 						OR = {
-							has_idea = american_influence_defence_fascistic
-							has_idea = american_influence_drift_fascistic
+							has_idea = american_influence_defence_fascist
+							has_idea = american_influence_drift_fascist
 						}
 					}
 					country_event = { id = usa.22 }
@@ -2597,113 +2597,113 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				COL = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				VEN = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				ECU = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				PRU = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				BRA = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				BOL = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				PAR = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				URG = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				ARG = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				CHL = {
 					if = {
-						limit = { has_government = fascistic }
-						add_ideas = american_influence_defence_fascistic
+						limit = { has_government = fascist }
+						add_ideas = american_influence_defence_fascist
 					}
 					if = {
-						limit = { NOT = { has_government = fascistic } }
-						add_ideas = american_influence_drift_fascistic
+						limit = { NOT = { has_government = fascist } }
+						add_ideas = american_influence_drift_fascist
 					}				
 				}
 				every_other_country = {
 					limit = { 
 						NOT = { has_country_flag = usa_influence_fired }
 						OR = {
-							has_idea = american_influence_defence_fascistic
-							has_idea = american_influence_drift_fascistic
+							has_idea = american_influence_defence_fascist
+							has_idea = american_influence_drift_fascist
 						}
 					}
 					country_event = { id = usa.22 }
@@ -2768,21 +2768,21 @@ focus_tree = {
 				}
 
 				if = {
-					limit = { has_government = fascistic }
+					limit = { has_government = fascist }
 					every_other_country = {
 						limit = { 
 							has_country_flag = monroe_doctrine 
-							has_government = fascistic
+							has_government = fascist
 						}
-						add_ideas = american_protection_defence_fascistic
+						add_ideas = american_protection_defence_fascist
 						country_event = { id = usa.23 }
 					}
 					every_other_country = {
 						limit = { 
 							has_country_flag = monroe_doctrine 
-							NOT = { has_government = fascistic }
+							NOT = { has_government = fascist }
 						}
-						add_ideas = american_protection_drift_fascistic
+						add_ideas = american_protection_drift_fascist
 						country_event = { id = usa.23 }
 					}
 				}
@@ -2799,8 +2799,8 @@ focus_tree = {
 					remove_ideas = american_influence_drift_social_conservative
 					remove_ideas = american_influence_defence_stalinist
 					remove_ideas = american_influence_drift_stalinist
-					remove_ideas = american_influence_defence_fascistic
-					remove_ideas = american_influence_drift_fascistic
+					remove_ideas = american_influence_defence_fascist
+					remove_ideas = american_influence_drift_fascist
 				}
 				news_event = { hours = 6 id = news.205 }
 			}
@@ -2866,8 +2866,8 @@ focus_tree = {
 					if = {
 						limit = { social_conservative > 0.5 }
 						if = {
-							limit = { has_government = fascistic }
-							add_timed_idea = { idea = fascistic_defeated days = 540 }
+							limit = { has_government = fascist }
+							add_timed_idea = { idea = fascist_defeated days = 540 }
 						}
 						if = {
 							limit = { has_government = stalinist }
@@ -2902,8 +2902,8 @@ focus_tree = {
 					if = {
 						limit = { social_conservative > 0.5 }
 						if = {
-							limit = { has_government = fascistic }
-							add_timed_idea = { idea = fascistic_defeated days = 540 }
+							limit = { has_government = fascist }
+							add_timed_idea = { idea = fascist_defeated days = 540 }
 						}
 						if = {
 							limit = { has_government = stalinist }
@@ -2948,8 +2948,8 @@ focus_tree = {
 						if = {
 							limit = { social_conservative > 0.5 }
 							if = {
-								limit = { has_government = fascistic }
-								add_timed_idea = { idea = fascistic_defeated days = 540 }
+								limit = { has_government = fascist }
+								add_timed_idea = { idea = fascist_defeated days = 540 }
 							}
 							if = {
 								limit = { has_government = stalinist }
@@ -3075,7 +3075,7 @@ focus_tree = {
 
 		  #US Fascist
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				random_other_country = {
 					limit = {
 						has_government = paternal_autocrat
@@ -3086,19 +3086,19 @@ focus_tree = {
 					}
 
 					if = {
-						limit = { fascistic > 0.5 }
+						limit = { fascist > 0.5 }
 
 						add_timed_idea = { idea = reign_of_terror days = 540 }
-						remove_ideas = fascistic_revolutionaries
+						remove_ideas = fascist_revolutionaries
 						set_politics = {
-							ruling_party = fascistic
+							ruling_party = fascist
 							elections_allowed = no
 						}							
 					}
 					if = {
-						limit = { NOT = { fascistic > 0.5 } }
+						limit = { NOT = { fascist > 0.5 } }
 						start_civil_war = {
-							ideology = fascistic
+							ideology = fascist
 							size = 0.5
 						}
 					}
@@ -3115,19 +3115,19 @@ focus_tree = {
 					}
 					
 					if = {
-						limit = { fascistic > 0.5 }
+						limit = { fascist > 0.5 }
 
 						add_timed_idea = { idea = reign_of_terror days = 540 }
-						remove_ideas = fascistic_revolutionaries
+						remove_ideas = fascist_revolutionaries
 						set_politics = {
-							ruling_party = fascistic
+							ruling_party = fascist
 							elections_allowed = no
 						}							
 					}
 					if = {
-						limit = { NOT = { fascistic > 0.5 } }
+						limit = { NOT = { fascist > 0.5 } }
 						start_civil_war = {
-							ideology = fascistic
+							ideology = fascist
 							size = 0.5
 						}
 					}
@@ -3152,22 +3152,22 @@ focus_tree = {
 					random_other_country = {
 						limit = {
 							has_country_flag = monroe_doctrine 
-							NOT = { has_government = fascistic }
+							NOT = { has_government = fascist }
 						}
 						if = {
-							limit = { fascistic > 0.5 }
+							limit = { fascist > 0.5 }
 	
 							add_timed_idea = { idea = reign_of_terror days = 540 }
-							remove_ideas = fascistic_revolutionaries
+							remove_ideas = fascist_revolutionaries
 							set_politics = {
-								ruling_party = fascistic
+								ruling_party = fascist
 								elections_allowed = no
 							}							
 						}
 						if = {
-						limit = { NOT = { fascistic > 0.5 } }
+						limit = { NOT = { fascist > 0.5 } }
 							start_civil_war = {
-								ideology = fascistic
+								ideology = fascist
 								size = 0.5
 							}
 						}					
@@ -3199,7 +3199,7 @@ focus_tree = {
 					limit = {
 						VEN = {
 							OR = {
-								has_government = fascistic
+								has_government = fascist
 								has_government = stalinist
 							}
 						}
@@ -3220,7 +3220,7 @@ focus_tree = {
 						limit = {
 							has_country_flag = monroe_doctrine
 							OR = {
-								has_government = fascistic
+								has_government = fascist
 								has_government = stalinist
 							}
 						}
@@ -3238,7 +3238,7 @@ focus_tree = {
 						CHL = {
 							OR = {
 								has_government = social_conservative
-								has_government = fascistic
+								has_government = fascist
 							}
 						}
 					}
@@ -3259,7 +3259,7 @@ focus_tree = {
 							has_country_flag = monroe_doctrine
 							OR = {
 								has_government = social_conservative
-								has_government = fascistic
+								has_government = fascist
 							}
 						}
 						#event to create puppet wargoal
@@ -3270,7 +3270,7 @@ focus_tree = {
 
 			# US fascist
 			if = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				if = {
 					limit = {
 						CHL = {
@@ -3289,7 +3289,7 @@ focus_tree = {
 				if = {
 					limit = {
 						CHL = {
-							has_government = fascistic
+							has_government = fascist
 						}
 					}
 					random_other_country = {
