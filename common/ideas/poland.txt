@@ -113,7 +113,7 @@ political_advisor = {
 
 	POL_roman_dmowski = {
 
-		picture = generic_fascist_demagogue_eastern_european_2d
+		picture = generic_fascism_demagogue_eastern_european_2d
 
 		allowed = {
 			original_tag = POL

@@ -1766,7 +1766,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_italy_first
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = ITA_bulgaria_friend }
 		mutually_exclusive = { focus = ITA_pact_of_steel }
 		available = {
@@ -1992,7 +1992,7 @@ focus_tree = {
 
 	focus = {
 		id = ITA_spanish_italian_faction
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = ITA_italy_first }
 		prerequisite = { focus = ITA_support_nationalist_spain }
 		mutually_exclusive = { focus = ITA_demand_balearic_islands }

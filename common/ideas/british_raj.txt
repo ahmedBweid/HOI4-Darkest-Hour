@@ -334,7 +334,7 @@ ideas = {
 			}
 		}
 
-		RAJ_all_india_forward_bloc_communism = {
+		RAJ_all_india_forward_bloc_stalinist = {
 
 			picture = raj_all_india_forward_bloc_communism
 

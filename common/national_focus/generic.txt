@@ -1658,7 +1658,7 @@ focus_tree = {
 
 	focus = {
 		id = nationalism_focus
-		icon = GFX_goal_support_fascist #icon = GFX_goal_tripartite_pact
+		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = collectivist_ethos }
 		mutually_exclusive = { focus = internationalism_focus }
 		available = {

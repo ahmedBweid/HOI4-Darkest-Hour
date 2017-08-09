@@ -398,7 +398,7 @@ ideas = {
 		
 		CZE_czech_fascist_idea = {
 		
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			allowed = {
 				original_tag = CZE
@@ -419,7 +419,7 @@ ideas = {
 		
 		CZE_national_fascist_idea = {
 
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 		
 			allowed = {
 				original_tag = CZE

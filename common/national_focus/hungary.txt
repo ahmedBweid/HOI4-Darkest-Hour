@@ -1181,7 +1181,7 @@ focus_tree = {
 
 	focus = {
 		id = HUN_strengthen_fascists
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = HUN_economic_intervention }
 		mutually_exclusive = { focus = HUN_council_of_peoples_commissars }
 		x = -5
@@ -2151,7 +2151,7 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_idea = HUN_interventionism_communism
+				add_idea = HUN_interventionism_stalinist
 				remove_idea = HUN_interventionism
 			}
 		}

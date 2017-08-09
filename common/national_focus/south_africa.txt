@@ -701,7 +701,7 @@ focus_tree = {
 
 	focus = {
 		id = SAF_support_the_afrikaner_broederbond
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = SAF_abandon_westminster }
 		mutually_exclusive = { focus = SAF_empower_the_workers }
 		x = 0
@@ -1397,7 +1397,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_abandon_westminster
-				add_idea = SAF_abandon_westminster_communism
+				add_idea = SAF_abandon_westminster_stalinist
 			}
 		}
 	}

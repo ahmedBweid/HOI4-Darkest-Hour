@@ -1348,7 +1348,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_crusade_against_stalinist
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = USA_unholy_alliance }
 		prerequisite = { focus = USA_limited_intervention }
 		available = {

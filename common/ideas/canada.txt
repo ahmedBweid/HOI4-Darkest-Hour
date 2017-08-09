@@ -102,7 +102,7 @@ ideas = {
 			}
 		}
 
-		CAN_defence_of_canada_regulations_democratic = {
+		CAN_defence_of_canada_regulations_social_conservative = {
 
 			allowed = {
 				always = no
@@ -144,7 +144,7 @@ ideas = {
 			}
 		}
 
-		CAN_defence_of_canada_regulations_communism = {
+		CAN_defence_of_canada_regulations_stalinist = {
 
 			allowed = {
 				always = no
@@ -409,7 +409,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
@@ -430,7 +430,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
@@ -570,7 +570,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_fascist_demagogue_commonwealth_2d
+			picture = generic_fascism_demagogue_commonwealth_2d
 			
 			traits = { fascist_demagogue }
 			

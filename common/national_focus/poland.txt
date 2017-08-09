@@ -1855,7 +1855,7 @@ focus_tree = {
 
 	focus = {
 		id = POL_go_right
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = POL_authoritarianism }
 		mutually_exclusive = { focus = POL_go_left }
 

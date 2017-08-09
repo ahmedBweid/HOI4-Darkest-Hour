@@ -2514,7 +2514,7 @@ focus_tree = {
 
 	focus = {
 		id = NZL_in_the_darkness
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 		prerequisite = { focus = NZL_statute_of_westminster }
 		mutually_exclusive = { focus = NZL_the_lee_affair focus = NZL_constitution_amendment_act }
 		x = -3

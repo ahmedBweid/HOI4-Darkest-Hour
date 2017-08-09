@@ -344,12 +344,12 @@ focus_tree = {
 					has_idea = RAJ_all_india_forward_bloc_fascist
 				}
 				swap_ideas = {
-					add_idea = RAJ_all_india_forward_bloc_communism
+					add_idea = RAJ_all_india_forward_bloc_stalinist
 					remove_idea = RAJ_all_india_forward_bloc_fascist
 				}
 				else = {
 					swap_ideas = {
-						add_idea = RAJ_all_india_forward_bloc_communism
+						add_idea = RAJ_all_india_forward_bloc_stalinist
 						remove_idea = RAJ_all_india_forward_bloc
 					}
 				}
@@ -792,11 +792,11 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_idea = RAJ_all_india_forward_bloc_communism
+					has_idea = RAJ_all_india_forward_bloc_stalinist
 				}
 				swap_ideas = {
 					add_idea = RAJ_all_india_forward_bloc_fascist
-					remove_idea = RAJ_all_india_forward_bloc_communism
+					remove_idea = RAJ_all_india_forward_bloc_stalinist
 				}
 				else = {
 					swap_ideas = {

@@ -157,7 +157,7 @@ ideas = {
 
 		HUN_strengthen_fascists = {
 
-			picture = generic_fascist_drift_2
+			picture = generic_fascism_drift_2
 			
 			modifier = {
 				fascist_drift = 0.03
@@ -183,7 +183,7 @@ ideas = {
 			}
 		}
 
-		HUN_interventionism_communism = {
+		HUN_interventionism_stalinist = {
 
 			picture = FRA_scw_intervention_nationalists_focus
 

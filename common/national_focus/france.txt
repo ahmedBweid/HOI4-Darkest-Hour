@@ -1743,7 +1743,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_support_the_right
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 	 	mutually_exclusive = {
 	 		focus = FRA_support_the_left
 	 	}
@@ -1946,7 +1946,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_join_germany
-		icon = GFX_goal_support_fascist
+		icon = GFX_goal_support_fascism
 	 	mutually_exclusive = { focus = FRA_woo_italy focus = FRA_france_first}
 	 	available = {
 	 		is_puppet = no
