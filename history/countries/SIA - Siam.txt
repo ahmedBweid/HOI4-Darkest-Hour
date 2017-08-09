@@ -80,7 +80,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 0 }		
+		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 30 }		
 		social_conservative = { popularity = 70 }		
 		market_liberal = { popularity = 0 }		
@@ -116,7 +116,7 @@ create_country_leader = {
 				popularity = 0
 			}
 
-			fascistic = {
+			fascist = {
 				popularity = 100
 			}
 			
@@ -126,7 +126,7 @@ create_country_leader = {
 			}
 		}
 		
-		ruling_party = fascistic
+		ruling_party = fascist
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -137,7 +137,7 @@ create_country_leader = {
 		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
 		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
 		expire = "1965.1.1"
-		ideology = fascistic_ideology
+		ideology = fascist_ideology
 		traits = {
 			#
 		}

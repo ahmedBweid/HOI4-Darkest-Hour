@@ -176,7 +176,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 16 }		
+		fascist = { popularity = 16 }		
 		paternal_autocrat = { popularity = 5 }		
 		social_conservative = { popularity = 14 }		
 		market_liberal = { popularity = 36 }		
@@ -198,7 +198,7 @@ set_politics = {
 
 		parties = {
 			national_socialist = { popularity = 0 }		
-			fascistic = { popularity = 60 }		
+			fascist = { popularity = 60 }		
 			paternal_autocrat = { popularity = 80 }		
 			social_conservative = { popularity = 40 }		
 			market_liberal = { popularity = 35 }		
@@ -254,7 +254,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -265,7 +265,7 @@ create_country_leader = {
 	desc = "POLITICS_ION_ANTONESCU_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}

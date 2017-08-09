@@ -61,7 +61,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }
-		fascistic = { popularity = 60 }
+		fascist = { popularity = 60 }
 		paternal_autocrat = { popularity = 0 }
 		social_conservative = { popularity = 20 }
 		market_liberal = { popularity = 0 }
@@ -72,7 +72,7 @@ set_politics = {
 		stalinist = { popularity = 20 }
 	}
 	
-	ruling_party = fascistic
+	ruling_party = fascist
 	election_frequency = 48
 	elections_allowed = no
 
@@ -89,7 +89,7 @@ create_country_leader = {
 	desc = "SAUNDER_LEWIS_DESC"
 	picture = "Portrait_WEL_Saunders_Lewis.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		
 	}

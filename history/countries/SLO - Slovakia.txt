@@ -63,7 +63,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 60 }		
+		fascist = { popularity = 60 }		
 		paternal_autocrat = { popularity = 0 }		
 		social_conservative = { popularity = 15 }		
 		market_liberal = { popularity = 0 }		
@@ -74,7 +74,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = fascistic
+	ruling_party = fascist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_JOZEF_TISO_DESC"
 	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}

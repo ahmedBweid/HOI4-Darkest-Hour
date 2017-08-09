@@ -35,7 +35,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }
-		fascistic = { popularity = 15 }
+		fascist = { popularity = 15 }
 		paternal_autocrat = { popularity = 35 }
 		social_conservative = { popularity = 35 }
 		market_liberal = { popularity = 0 }
@@ -59,7 +59,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
 	expire = "1953.3.1"
-	ideology = fascistic_ideology 
+	ideology = fascist_ideology 
 	traits = {
 		
 	}

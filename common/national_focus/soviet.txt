@@ -1011,7 +1011,7 @@ focus_tree = {
 				}
 			}
 			every_other_country = {
-				limit = { has_government = fascistic }
+				limit = { has_government = fascist }
 				add_opinion_modifier = { target = SOV modifier = anti_fascist_diplomacy_fascists }
 			}
 		}

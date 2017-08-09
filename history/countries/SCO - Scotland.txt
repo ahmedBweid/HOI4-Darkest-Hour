@@ -61,7 +61,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 60 }
-		fascistic = { popularity = 0 }
+		fascist = { popularity = 0 }
 		paternal_autocrat = { popularity = 0 }
 		social_conservative = { popularity = 20 }
 		market_liberal = { popularity = 0 }
@@ -89,7 +89,7 @@ create_country_leader = {
 	desc = "ANDREW_DEWAR_GIBB_DESC"
 	picture = "Portrait_SCO_Andrew_Dewar_Gibb.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		
 	}

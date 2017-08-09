@@ -50,7 +50,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }
-		fascistic = { popularity = 0 }
+		fascist = { popularity = 0 }
 		paternal_autocrat = { popularity = 100 }
 		social_conservative = { popularity = 0 }
 		market_liberal = { popularity = 0 }
@@ -93,7 +93,7 @@ create_country_leader = {
 	name = "David Manera"
 	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_Land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		
 	}
@@ -109,7 +109,7 @@ create_country_leader = {
 			popularity = 0
 		}
 
-		fascistic = {
+		fascist = {
 			popularity = 0
 		}
 		

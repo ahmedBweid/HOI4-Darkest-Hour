@@ -139,7 +139,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 0 }		
+		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 8 }		
 		social_conservative = { popularity = 35 }		
 		market_liberal = { popularity = 45 }		
@@ -211,7 +211,7 @@ set_national_unity = 0.9
 				popularity = 98
 			}
 
-			fascistic = {
+			fascist = {
 				popularity = 1
 			}
 			

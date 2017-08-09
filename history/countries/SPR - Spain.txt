@@ -55,7 +55,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }
-		fascistic = { popularity = 0 }
+		fascist = { popularity = 0 }
 		paternal_autocrat = { popularity = 10 }
 		social_conservative = { popularity = 30 }
 		market_liberal = { popularity = 0 }
@@ -143,7 +143,7 @@ set_national_unity = 0.5
 				popularity = 22
 			}
 
-			fascistic = {
+			fascist = {
 				popularity = 76
 			}
 			
@@ -152,7 +152,7 @@ set_national_unity = 0.5
 			}
 		}
 		
-		ruling_party = fascistic
+		ruling_party = fascist
 		last_election = "1934.3.26"
 		election_frequency = 60
 		elections_allowed = no
@@ -189,7 +189,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 	picture = "Portrait_Spain_Francisco_Franco.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}

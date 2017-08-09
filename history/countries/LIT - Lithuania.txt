@@ -74,7 +74,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 2 }		
+		fascist = { popularity = 2 }		
 		paternal_autocrat = { popularity = 38 }		
 		social_conservative = { popularity = 25 }		
 		market_liberal = { popularity = 15 }		
@@ -99,7 +99,7 @@ set_politics = {
 				popularity = 30
 			}
 
-			fascistic = {
+			fascist = {
 				popularity = 15
 			}
 			
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}

@@ -207,7 +207,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 0 }		
+		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 0 }		
 		social_conservative = { popularity = 39 }		
 		market_liberal = { popularity = 0 }		
@@ -246,7 +246,7 @@ set_autonomy = {
 
 		parties = {
 			national_socialist = { popularity = 0 }		
-			fascistic = { popularity = 0 }		
+			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 0 }		
 			social_conservative = { popularity = 39 }		
 			market_liberal = { popularity = 0 }		
@@ -280,7 +280,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		
 	}

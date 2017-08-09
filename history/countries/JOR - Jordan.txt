@@ -63,7 +63,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 0 }		
+		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 55 }		
 		social_conservative = { popularity = 35 }		
 		market_liberal = { popularity = 5 }		
@@ -93,8 +93,8 @@ create_country_leader = {
 create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_fascistic1.dds"
-	ideology = fascistic_ideology
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_fascist1.dds"
+	ideology = fascist_ideology
 	traits = {
 		#
 	}

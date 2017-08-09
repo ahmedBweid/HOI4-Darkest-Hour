@@ -101,7 +101,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 15 }		
+		fascist = { popularity = 15 }		
 		paternal_autocrat = { popularity = 75 }		
 		social_conservative = { popularity = 0 }		
 		market_liberal = { popularity = 0 }		
@@ -134,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_PLINIO_SALGADO_DESC"
 	picture = "Portrait_Brazil_Plinio_Salgado.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -172,7 +172,7 @@ set_convoys = 40
 			popularity = 0
 		}
 
-		fascistic = {
+		fascist = {
 			popularity = 0
 		}
 		

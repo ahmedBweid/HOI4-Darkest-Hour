@@ -146,7 +146,7 @@ set_politics = {
 
 	parties = {
 		national_socialist = { popularity = 0 }		
-		fascistic = { popularity = 2 }		
+		fascist = { popularity = 2 }		
 		paternal_autocrat = { popularity = 2 }		
 		social_conservative = { popularity = 60 }		
 		market_liberal = { popularity = 0 }		
@@ -168,7 +168,7 @@ set_politics = {
 
 		parties = {
 			national_socialist = { popularity = 0 }		
-			fascistic = { popularity = 2 }		
+			fascist = { popularity = 2 }		
 			paternal_autocrat = { popularity = 2 }		
 			social_conservative = { popularity = 60 }		
 			market_liberal = { popularity = 0 }		
@@ -204,7 +204,7 @@ create_country_leader = {
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
 	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
 	expire = "1965.1.1"
-	ideology = fascistic_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
