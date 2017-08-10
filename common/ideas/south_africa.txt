@@ -53,7 +53,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = saf_ossewabrandwag_fascism
+			picture = saf_ossewabrandwag_fascist
 
 			modifier = {
 				fascist_drift = 0.01
@@ -131,7 +131,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_fascism
+			picture = ast_abandon_the_westminster_system_fascist
 
 			modifier = {
 				autonomy_gain = 0.5
@@ -141,7 +141,7 @@ ideas = {
 
 		}
 
-		SAF_abandon_westminster_stalinist = {
+		SAF_abandon_westminster_communism = {
 			allowed = {
 				always = no
 			}
