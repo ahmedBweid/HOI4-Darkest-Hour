@@ -344,12 +344,12 @@ focus_tree = {
 					has_idea = RAJ_all_india_forward_bloc_fascist
 				}
 				swap_ideas = {
-					add_idea = RAJ_all_india_forward_bloc_stalinist
+					add_idea = RAJ_all_india_forward_bloc_communism
 					remove_idea = RAJ_all_india_forward_bloc_fascist
 				}
 				else = {
 					swap_ideas = {
-						add_idea = RAJ_all_india_forward_bloc_stalinist
+						add_idea = RAJ_all_india_forward_bloc_communism
 						remove_idea = RAJ_all_india_forward_bloc
 					}
 				}
