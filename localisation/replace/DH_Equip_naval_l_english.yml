@@ -50,9 +50,9 @@
  heavy_cruiser_7:0 "Heavy Cruiser '43"
  heavy_cruiser_8:0 "Missile Heavy Cruiser '50" 
  
- ##############################################
+##############################################
 #### Capitals 
- #############################################
+#############################################
 
  #-- Battlecruisers BC
  battle_cruiser_0:0 "Battlecruiser '06"
@@ -81,7 +81,6 @@
  SH_battleship_1_desc:0 "The current state of the world no longer has any room for abiding by naval treaties. Without these limitations, we can focus entirely on creating the heaviest, most well-armed battleships of all time, able to engage multiple lesser vessels."
  SH_battleship_2_desc:0 "An improvement on our earlier super heavy design with stronger weapons and improved fire control systems."
 
- 
 # -- Aircraft Carriers CV
  carrier_0:0 "Converted Carrier '22"
  carrier_1:0 "Carrier '30"
@@ -92,7 +91,6 @@
  carrier_6:0 "Super-Carrier '48"
  carrier_7:0 "Super-Carrier '50"
  nuclear_carrier_0:0 "Nuclear Super-Carrier '58"
- 
  
 # -- Light Aircraft Carriers CVL
  light_carrier_0:0 "Seaplane Carrier '12"
@@ -361,8 +359,8 @@
  GER_carrier_3:0 "Siegfried-class"
  GER_carrier_4:0 "Europa-class"
  GER_carrier_5:0 "Baron von Richtofen-class" #fictional
- GER_carrier_6:0 "Vaterland-class" #fictional
- GER_nuclear_carrier_0:0 "Germania-class" #fictional
+ GER_carrier_6:0 "Friedrich der Große-class" #fictional
+ GER_nuclear_carrier_0:0 "Barbarossa-class" #fictional
  
  # GER_light_carrier_0:0 "Seaplane Carrier '12"
  GER_light_carrier_1:0 "Ausonia-class"
@@ -711,7 +709,7 @@
  USA_light_carrier_0:0 "Wright-class"
  USA_light_carrier_1:0 "Langley-class"
  USA_light_carrier_2:0 "Washington-class"
- USA_light_carrier_3:0 "Milwaukee (CVB)-class"
+ USA_light_carrier_3:0 "Milwaukee-class"
  USA_light_carrier_4:0 "Independence-class"
  USA_light_carrier_5:0 "Saipan-class"
  # light_carrier_6:0 "Light Carrier '48"

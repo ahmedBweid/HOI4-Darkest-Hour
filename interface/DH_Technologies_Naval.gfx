@@ -449,7 +449,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_USA_destroyer_1900_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_DD_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_DD_Truxton.dds"
 	}	
 
 	SpriteType = {
@@ -459,12 +459,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_USA_destroyer_1916_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_DD_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_DD_Wickes.dds"
 	}	
 
 	SpriteType = {
 		name = "GFX_USA_destroyer_1922_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_DD_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_DD_Clemson.dds"
 	}	
 
 	SpriteType = {
@@ -484,7 +484,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_USA_destroyer_1943_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_DD_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_DD_Gearing.dds"
 	}	
 
 	SpriteType = {
@@ -500,12 +500,12 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_USA_light_cruiser_1900_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_CL_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_CL_Chester.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_USA_light_cruiser_1912_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_CL_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_CL_Providence.dds"
 	}	
 		
 	SpriteType = {
@@ -515,7 +515,7 @@ spriteTypes = {
 		
 	SpriteType = {
 		name = "GFX_USA_light_cruiser_1933_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_CL_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_CL_Detroit.dds"
 	}	
 		
 	SpriteType = {
@@ -535,10 +535,231 @@ spriteTypes = {
 		
 	SpriteType = {
 		name = "GFX_USA_light_cruiser_1954_medium"
-		texturefile = "gfx/interface/technologies/ships/USA_CL_.dds"
+		texturefile = "gfx/interface/technologies/ships/USA_CL_Galveston.dds"
 	}		
 	
+#Heavy Cruisers
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1885_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_Onondaga.dds"
+	}	
 	
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1895_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_New-York.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_Tennessee.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_Northampton.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_New-Orleans.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1936_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_Wichita.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_Baltimore.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_Des-Moines.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_heavy_cruiser_1954_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CA_Albany.dds"
+	}	
+
+
+#Battlecruiser
+	SpriteType = {
+		name = "GFX_USA_battlecruiser_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BC_Bunker-Hill.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_USA_battlecruiser_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BC_Bunker Hill.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_USA_battlecruiser_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BC_Lexington.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_USA_battlecruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BC_Constellation.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_USA_battlecruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BC_Alaska.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_USA_battlecruiser_1950_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BC_Samoa.dds" 
+	}
+	
+	
+#Battleships
+	SpriteType = {
+		name = "GFX_USA_battleship_1885_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_Puritan.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_battleship_1895_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_Illinois.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_battleship_1900_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_South-Carolina.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_USA_battleship_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_New-York.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_battleship_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_Nevada.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_battleship_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_Tennessee.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_battleship_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_Colorado.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_battleship_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_North-Carolina.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_battleship_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_Iowa.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_battleship_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_BB_Montana.dds"
+	}		
+	
+# Aircraft Carriers
+	SpriteType = {
+		name = "GFX_USA_carrier_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Lexington.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_carrier_1930_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Ranger.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_carrier_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Yorktown.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_carrier_1936_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Wasp.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Essex.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Midway.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_United-States.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_carrier_1950_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Forrestal.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_carrier_1958_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CV_Enterprise.dds"
+	}	
+
+# Light Aircraft Carriers
+	SpriteType = {
+		name = "GFX_USA_light_carrier_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVL_Wright.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_light_carrier_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVL_Langley.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_USA_light_carrier_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVL_Washington.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_light_carrier_1930_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVL_Milwaukee.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_light_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVL_Independence.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_light_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVL_Saipan.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_light_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVL_.dds"
+	}	
+	
+# Escort Aircraft Carriers
+	SpriteType = {
+		name = "GFX_USA_escort_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVE_Long-Island.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_escort_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/USA_CVE_Casablanca.dds"
+	}	
 ###########################################################
 ######## British Royal Navy Sprites 
 ############################################################	
@@ -915,4 +1136,339 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Ships/ENG_CVE_Ruler.dds"
 	}
 	
+###########################################################
+######## Imperial Japanese Navy Sprites 
+############################################################	
+	
+### Destroyers
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1885_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Ikazuchi.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1900_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Asakaze.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1912_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Umikaze.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1916_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Momo.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1922_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Mutsuki.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1933_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Shiratsuyu.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1936_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Kagero.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1940_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Akizuki.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1943_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DD_Matsu.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_destroyer_1954_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_DDG_.dds"
+	}		
+	
+### Light Cruisers
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1885_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Naniwa.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1900_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Chitose.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1912_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Tenryu.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1922_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Sendai.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Mogami.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1936_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Agano.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Oyodo.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1943_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_Oyabe.dds"
+	}	
+		
+	SpriteType = {
+		name = "GFX_JAP_light_cruiser_1954_medium"
+		texturefile = "gfx/interface/technologies/ships/JAP_CL_.dds"
+	}
+	
+		
+#Heavy Cruisers
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1885_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Hiei.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1895_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Azuma.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Kasuga.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Furutaka.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Takao.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1936_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Tone.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Ibuki.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_Nantai.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_heavy_cruiser_1954_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CA_.dds"
+	}	
+
+
+#Battlecruiser
+	SpriteType = {
+		name = "GFX_JAP_battlecruiser_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BC_Tsukuba.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_battlecruiser_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BC_Kongo.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_battlecruiser_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BC_Amagi.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_battlecruiser_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BC_Tsushima.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_battlecruiser_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BC_B-65.dds" 
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_battlecruiser_1950_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BC_.dds" 
+	}
+	
+	
+#Battleships
+	SpriteType = {
+		name = "GFX_JAP_battleship_1885_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Fuji.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_battleship_1895_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Mikasa.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_battleship_1900_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Kawachi.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_JAP_battleship_1906_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Fuso.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_battleship_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Ise.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_battleship_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Nagato.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_battleship_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Kii.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_battleship_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_No.13.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_battleship_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Fujimoto.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_battleship_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_BB_Yokozuna.dds"
+	}		
+	
+#SH Battleships
+	SpriteType = {
+		name = "GFX_JAP_heavy_battleship_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_SHBB_Yamato.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_heavy_battleship2_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_SHBB_A-150.dds"
+	}	
+	
+# Aircraft Carriers
+	SpriteType = {
+		name = "GFX_JAP_carrier_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_Akagi.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_carrier_1930_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_G8.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_carrier_1933_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_Soryu.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_carrier_1936_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_Shokaku.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_Taiho.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_Unryu.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_Jinryu.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_carrier_1950_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_carrier_1958_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CV_.dds"
+	}	
+
+# Light Aircraft Carriers
+	SpriteType = {
+		name = "GFX_JAP_light_carrier_1912_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVL_Wakamiya.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_light_carrier_1916_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVL_.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_light_carrier_1922_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVL_Hosho.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_light_carrier_1930_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVL_Ryujo.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_light_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVL_Chitose.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_light_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVL_Ibuki.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_light_carrier_1948_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVL_.dds"
+	}	
+	
+# Escort Aircraft Carriers
+	SpriteType = {
+		name = "GFX_JAP_escort_carrier_1940_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVE_Akitsu-Maru.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_JAP_escort_carrier_1943_medium"
+		texturefile = "gfx/interface/technologies/Ships/JAP_CVE_Shimane-Maru.dds"
+	}	
 }

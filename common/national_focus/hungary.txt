@@ -1066,6 +1066,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = fascist
+				has_government = national_socialist
 				has_government = paternal_autocrat				
 			}
 		}
@@ -1084,7 +1085,7 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				add_idea = HUN_hungarian_monarchy_fascist
+				add_idea = HUN_hungarian_monarchy_fascism
 				remove_idea = HUN_hungarian_monarchy_2
 			}
 			set_cosmetic_tag = HUN_MONARCHY
@@ -1247,7 +1248,9 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = fascist
+				has_government = national_socialist
 				fascist > 0.4
+				national_socialist > 0.4
 			}
 			is_subject = no
 		}

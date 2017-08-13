@@ -14,7 +14,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 1
 		NOT = { has_country_flag = renamed_state_1 }
 	}
@@ -47,7 +47,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 2
 		NOT = { has_country_flag = renamed_state_2 }
 	}
@@ -67,7 +67,7 @@ country_event = {
 
 	option = {
 		name = ger_rename.2.a
-		set_province_name = { id = 9904 name = "Rom"}
+		set_province_name = { id = 9804 name = "Rom"}
 		set_country_flag = renamed_state_2
 		set_global_flag = renamed_state_2
 	}
@@ -79,7 +79,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 3
 		NOT = { has_country_flag = renamed_state_3 }
 	}
@@ -99,7 +99,7 @@ country_event = {
 
 	option = {
 		name = ger_rename.3.a
-		3 = { set_state_name = "Schweiz" } 
+		3 = { set_state_name = "Westschweiz" } 
 		set_province_name = { id = 9620 name = "Bern"}
 		set_country_flag = renamed_state_3
 		set_global_flag = renamed_state_3
@@ -112,7 +112,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 4
 		NOT = { has_country_flag = renamed_state_4 }
 	}
@@ -146,7 +146,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 5
 		NOT = { has_country_flag = renamed_state_5 }
 	}
@@ -178,7 +178,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 6
 		NOT = { has_country_flag = renamed_state_6 }
 	}
@@ -213,7 +213,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 7
 		NOT = { has_country_flag = renamed_state_7 }
 	}
@@ -248,7 +248,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 9
 		NOT = { has_country_flag = renamed_state_9 }
 	}
@@ -282,7 +282,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 10
 		NOT = { has_country_flag = renamed_state_10 }
 	}
@@ -315,7 +315,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 11
 		NOT = { has_country_flag = renamed_state_11 }
 	}
@@ -335,8 +335,8 @@ country_event = {
 
 	option = {
 		name = ger_rename.11.a
-		11 = { set_state_name = "Kaunen" } 
-		set_province_name = { id = 6296 name = "Kaunen"}
+		11 = { set_state_name = "Kauen" } 
+		set_province_name = { id = 6296 name = "Kauen"}
 		set_country_flag = renamed_state_11
 		set_global_flag = renamed_state_11
 	}
@@ -348,7 +348,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 12
 		NOT = { has_country_flag = renamed_state_12 }
 	}
@@ -368,6 +368,7 @@ country_event = {
 
 	option = {
 		name = ger_rename.12.a
+		12 = { set_state_name = "Livland" } 
 		set_province_name = { id = 9340 name = "Riga"}
 		set_province_name = { id = 310 name = "Dünaburg"}
 		set_country_flag = renamed_state_12
@@ -381,7 +382,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 13
 		NOT = { has_country_flag = renamed_state_13 }
 	}
@@ -401,7 +402,7 @@ country_event = {
 
 	option = {
 		name = ger_rename.13.a
-		13 = { set_state_name = "Reval" } 
+		13 = { set_state_name = "Harrien" } 
 		set_province_name = { id = 3152 name = "Reval"}
 		set_country_flag = renamed_state_13
 		set_global_flag = renamed_state_13
@@ -414,7 +415,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 14
 		NOT = { has_country_flag = renamed_state_14 }
 	}
@@ -449,7 +450,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 15
 		NOT = { has_country_flag = renamed_state_15 }
 	}
@@ -472,7 +473,7 @@ country_event = {
 		15 = { set_state_name = "Normandie" } 
 		set_province_name = { id = 9434 name = "Die Hafen"}
 		set_province_name = { id = 6449 name = "Cherburg"}
-		set_province_name = { id = 11563 name = "Rouen"}
+		set_province_name = { id = 11563 name = "Rowaan"}
 		set_country_flag = renamed_state_15
 		set_global_flag = renamed_state_15
 	}
@@ -484,7 +485,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 16
 		NOT = { has_country_flag = renamed_state_16 }
 	}
@@ -516,7 +517,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 17
 		NOT = { has_country_flag = renamed_state_17 }
 	}
@@ -536,9 +537,8 @@ country_event = {
 
 	option = {
 		name = ger_rename.17.a
-		17 = { set_state_name = "Lothringen" } 
-		set_province_name = { id = 9642 name = "Besancon"}
-		set_province_name = { id = 11516 name = "Nanzig"}
+		17 = { set_state_name = "Freigrafschaft" } 
+		set_province_name = { id = 9642 name = "Bisanz"}
 		set_country_flag = renamed_state_17
 		set_global_flag = renamed_state_17
 	}
@@ -550,7 +550,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 18
 		NOT = { has_country_flag = renamed_state_18 }
 	}
@@ -570,7 +570,7 @@ country_event = {
 
 	option = {
 		name = ger_rename.18.a
-		18 = { set_state_name = "Champagner" } 
+		18 = { set_state_name = "Kampen" } 
 		set_country_flag = renamed_state_18
 		set_global_flag = renamed_state_18
 	}
@@ -582,7 +582,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 19
 		NOT = { has_country_flag = renamed_state_19 }
 	}
@@ -614,7 +614,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 20
 		NOT = { has_country_flag = renamed_state_20 }
 	}
@@ -646,7 +646,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 21
 		NOT = { has_country_flag = renamed_state_21 }
 	}
@@ -680,7 +680,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 22
 		NOT = { has_country_flag = renamed_state_22 }
 	}
@@ -713,7 +713,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 23
 		NOT = { has_country_flag = renamed_state_23 }
 	}
@@ -745,7 +745,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 24
 		NOT = { has_country_flag = renamed_state_24 }
 	}
@@ -778,7 +778,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 26
 		NOT = { has_country_flag = renamed_state_26 }
 	}
@@ -810,7 +810,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 27
 		NOT = { has_country_flag = renamed_state_27 }
 	}
@@ -842,7 +842,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 28
 		NOT = { has_country_flag = renamed_state_28 }
 	}
@@ -876,7 +876,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 29
 		NOT = { has_country_flag = renamed_state_29 }
 	}
@@ -895,10 +895,7 @@ country_event = {
 	}
 
 	option = {
-		 29 = { set_state_name = "Kalais" } 
-		set_province_name = { id = 575 name = "Dünkirchen"}
-		set_province_name = { id = 11483 name = "Lille"}
-		set_province_name = { id = 11548 name = "Kalais"}
+		 29 = { set_state_name = "Picardie" } 
 		set_country_flag = renamed_state_29
 		set_global_flag = renamed_state_29
 	}
@@ -910,7 +907,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 30
 		NOT = { has_country_flag = renamed_state_30 }
 	}
@@ -942,7 +939,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 31
 		NOT = { has_country_flag = renamed_state_31 }
 	}
@@ -974,7 +971,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 32
 		NOT = { has_country_flag = renamed_state_32 }
 	}
@@ -1006,7 +1003,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 33
 		NOT = { has_country_flag = renamed_state_33 }
 	}
@@ -1037,7 +1034,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 34
 		NOT = { has_country_flag = renamed_state_34 }
 	}
@@ -1057,7 +1054,7 @@ country_event = {
 
 	option = {
 		34 = { set_state_name = "Wallonien" } 
-		set_province_name = { id = 3516 name = "Namur"}
+		set_province_name = { id = 3516 name = "Namen"}
 		set_province_name = { id = 11519 name = "Lüttich"}
 		set_country_flag = renamed_state_34
 		set_global_flag = renamed_state_34
@@ -1070,7 +1067,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 35
 		NOT = { has_country_flag = renamed_state_35 }
 	}
@@ -1090,7 +1087,7 @@ country_event = {
 
 	option = {
 		35 = { set_state_name = "Brabant" } 
-		set_province_name = { id = 6496 name = "Eindhoven"}
+		set_province_name = { id = 6496 name = "Endhofen"}
 		set_country_flag = renamed_state_35
 		set_global_flag = renamed_state_35
 	}
@@ -1102,7 +1099,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 36
 		NOT = { has_country_flag = renamed_state_36 }
 	}
@@ -1133,7 +1130,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 37
 		NOT = { has_country_flag = renamed_state_37 }
 	}
@@ -1154,7 +1151,7 @@ country_event = {
 	option = {
 		37 = { set_state_name = "Seeland" } 
 		set_province_name = { id = 6287 name = "Kopenhagen"}
-		set_province_name = { id = 3325 name = "Odinsbucht"}
+		set_province_name = { id = 3325 name = "Ottensee"}
 		set_country_flag = renamed_state_37
 		set_global_flag = renamed_state_37
 	}
@@ -1166,7 +1163,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 38
 		NOT = { has_country_flag = renamed_state_38 }
 	}
@@ -1185,7 +1182,7 @@ country_event = {
 	}
 
 	option = {
-		38 = { set_state_name = "Nordschweden" } 
+		38 = { set_state_name = "Schweland" } 
 		set_province_name = { id = 156 name = "Falun"}
 		set_country_flag = renamed_state_38
 		set_global_flag = renamed_state_38
@@ -1198,7 +1195,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 39
 		NOT = { has_country_flag = renamed_state_39 }
 	}
@@ -1229,7 +1226,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 40
 		NOT = { has_country_flag = renamed_state_40 }
 	}
@@ -1260,7 +1257,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 41
 		NOT = { has_country_flag = renamed_state_41 }
 	}
@@ -1292,7 +1289,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 43
 		NOT = { has_country_flag = renamed_state_43 }
 	}
@@ -1324,7 +1321,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 44
 		NOT = { has_country_flag = renamed_state_44 }
 	}
@@ -1344,7 +1341,7 @@ country_event = {
 
 	option = {
 		44 = { set_state_name = "Albanien" } 
-		set_province_name = { id = 9914 name = "Tirana"}
+		set_province_name = { id = 9814 name = "Tirana"}
 		set_country_flag = renamed_state_44
 		set_global_flag = renamed_state_44
 	}
@@ -1356,7 +1353,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 45
 		NOT = { has_country_flag = renamed_state_45 }
 	}
@@ -1387,7 +1384,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 46
 		NOT = { has_country_flag = renamed_state_46 }
 	}
@@ -1421,7 +1418,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 47
 		NOT = { has_country_flag = renamed_state_47 }
 	}
@@ -1453,7 +1450,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 52
 		NOT = { has_country_flag = renamed_state_52 }
 	}
@@ -1485,7 +1482,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 54
 		NOT = { has_country_flag = renamed_state_54 }
 	}
@@ -1517,7 +1514,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 70
 		NOT = { has_country_flag = renamed_state_70 }
 	}
@@ -1549,7 +1546,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 71
 		NOT = { has_country_flag = renamed_state_71 }
 	}
@@ -1580,7 +1577,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 72
 		NOT = { has_country_flag = renamed_state_72 }
 	}
@@ -1599,7 +1596,7 @@ country_event = {
 	}
 
 	option = {
-		72 = { set_state_name = "Zaolzien" } 
+		72 = { set_state_name = "Olsagebiet" } 
 		set_country_flag = renamed_state_72
 		set_global_flag = renamed_state_72
 	}
@@ -1611,7 +1608,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 73
 		NOT = { has_country_flag = renamed_state_73 }
 	}
@@ -1642,7 +1639,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 74
 		NOT = { has_country_flag = renamed_state_74 }
 	}
@@ -1673,7 +1670,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 75
 		NOT = { has_country_flag = renamed_state_75 }
 	}
@@ -1705,7 +1702,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 76
 		NOT = { has_country_flag = renamed_state_76 }
 	}
@@ -1737,7 +1734,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 78
 		NOT = { has_country_flag = renamed_state_78 }
 	}
@@ -1768,7 +1765,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 79
 		NOT = { has_country_flag = renamed_state_79 }
 	}
@@ -1800,7 +1797,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 80
 		NOT = { has_country_flag = renamed_state_80 }
 	}
@@ -1831,7 +1828,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 84
 		NOT = { has_country_flag = renamed_state_84 }
 	}
@@ -1857,13 +1854,44 @@ country_event = {
 	}
 }
 
+# GER - rename 85 
+country_event = {
+	id = ger_rename.85
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 85
+		NOT = { has_country_flag = renamed_state_85 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_85 }
+				clr_country_flag = renamed_state_85
+			}
+		}
+	}
+
+	option = {
+		85 = { set_state_name = "Westpreußen" } 
+		set_country_flag = renamed_state_85
+		set_global_flag = renamed_state_85
+	}
+}
+
 # GER - rename 86 
 country_event = {
 	id = ger_rename.86
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 86
 		NOT = { has_country_flag = renamed_state_86 }
 	}
@@ -1895,7 +1923,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 87
 		NOT = { has_country_flag = renamed_state_87 }
 	}
@@ -1914,7 +1942,7 @@ country_event = {
 	}
 
 	option = {
-		87 = { set_state_name = "Litzmannstadt" } 
+		87 = { set_state_name = "Wartheland" } 
 		set_province_name = { id = 9508 name = "Litzmannstadt"}
 		set_country_flag = renamed_state_87
 		set_global_flag = renamed_state_87
@@ -1927,7 +1955,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 88
 		NOT = { has_country_flag = renamed_state_88 }
 	}
@@ -1959,7 +1987,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 89
 		NOT = { has_country_flag = renamed_state_89 }
 	}
@@ -1978,9 +2006,40 @@ country_event = {
 	}
 
 	option = {
-		89 = { set_state_name = "Stanislau" } 
+		89 = { set_state_name = "Karpathenland" } 
 		set_country_flag = renamed_state_89
 		set_global_flag = renamed_state_89
+	}
+}
+
+# GER - rename 90 
+country_event = {
+	id = ger_rename.90
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 90
+		NOT = { has_country_flag = renamed_state_90 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_90 }
+				clr_country_flag = renamed_state_90
+			}
+		}
+	}
+
+	option = {
+		90 = { set_state_name = "Weichselland" } 
+		set_country_flag = renamed_state_90
+		set_global_flag = renamed_state_90
 	}
 }
 
@@ -1990,7 +2049,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 91
 		NOT = { has_country_flag = renamed_state_91 }
 	}
@@ -2009,10 +2068,103 @@ country_event = {
 	}
 
 	option = {
-		91 = { set_state_name = "Lemberg" } 
+		91 = { set_state_name = "Galizien" } 
 		set_province_name = { id = 11479 name = "Lemberg"}
 		set_country_flag = renamed_state_91
 		set_global_flag = renamed_state_91
+	}
+}
+
+# GER - rename 92 
+country_event = {
+	id = ger_rename.92
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 92
+		NOT = { has_country_flag = renamed_state_92 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_92 }
+				clr_country_flag = renamed_state_92
+			}
+		}
+	}
+
+	option = {
+		92 = { set_state_name = "Vandalenland" } 
+		set_country_flag = renamed_state_92
+		set_global_flag = renamed_state_92
+	}
+}
+
+# GER - rename 95 
+country_event = {
+	id = ger_rename.95
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 95
+		NOT = { has_country_flag = renamed_state_98 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_98 }
+				clr_country_flag = renamed_state_98
+			}
+		}
+	}
+
+	option = {
+		95 = { set_state_name = "Neugraudenz" }
+		set_country_flag = renamed_state_98
+		set_global_flag = renamed_state_98
+	}
+}
+
+# GER - rename 98 
+country_event = {
+	id = ger_rename.98
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 98
+		NOT = { has_country_flag = renamed_state_98 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_98 }
+				clr_country_flag = renamed_state_98
+			}
+		}
+	}
+
+	option = {
+		98 = { set_state_name = "Zichenau" }
+		set_country_flag = renamed_state_98
+		set_global_flag = renamed_state_98
 	}
 }
 
@@ -2022,7 +2174,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 99
 		NOT = { has_country_flag = renamed_state_99 }
 	}
@@ -2042,7 +2194,7 @@ country_event = {
 
 	option = {
 		99 = { set_state_name = "Jütland" } 
-		set_province_name = { id = 6364 name = " Arhaus"}
+		set_province_name = { id = 6364 name = "Arenhusen"}
 		set_country_flag = renamed_state_99
 		set_global_flag = renamed_state_99
 	}
@@ -2054,7 +2206,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 94
 		NOT = { has_country_flag = renamed_state_94 }
 	}
@@ -2074,7 +2226,7 @@ country_event = {
 
 	option = {
 		94 = { set_state_name = "Polesien" } 
-		set_province_name = { id = 3392 name = "Brest Litowsk"}
+		set_province_name = { id = 3392 name = "Hindenburg"}
 		set_country_flag = renamed_state_94
 		set_global_flag = renamed_state_94
 	}
@@ -2086,7 +2238,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 96
 		NOT = { has_country_flag = renamed_state_96 }
 	}
@@ -2112,13 +2264,76 @@ country_event = {
 	}
 }
 
+# GER - rename 97 
+country_event = {
+	id = ger_rename.97
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 97
+		NOT = { has_country_flag = renamed_state_97 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_97 }
+				clr_country_flag = renamed_state_97
+			}
+		}
+	}
+
+	option = {
+		97 = { set_state_name = "Neuostpreußen" } 
+		set_province_name = { id = 3393 name = "Garten"}
+		set_country_flag = renamed_state_97
+		set_global_flag = renamed_state_97
+	}
+}
+
+# GER - rename 100 
+country_event = {
+	id = ger_rename.100
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 100
+		NOT = { has_country_flag = renamed_state_100 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_100 }
+				clr_country_flag = renamed_state_100
+			}
+		}
+	}
+
+	option = {
+		100 = { set_state_name = "Eisland" } 
+		set_country_flag = renamed_state_100
+		set_global_flag = renamed_state_100
+	}
+}
+
 # GER - rename 102 
 country_event = {
 	id = ger_rename.102
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 102
 		NOT = { has_country_flag = renamed_state_102 }
 	}
@@ -2138,7 +2353,7 @@ country_event = {
 
 	option = {
 		102 = { set_state_name = "Krain" } 
-		set_province_name = { id = 9627 name = "Laibach"} 
+		set_province_name = { id = 10027 name = "Laibach"} 
 		set_country_flag = renamed_state_102
 		set_global_flag = renamed_state_102
 	}
@@ -2150,7 +2365,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 103
 		NOT = { has_country_flag = renamed_state_103 }
 	}
@@ -2182,7 +2397,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 104
 		NOT = { has_country_flag = renamed_state_104 }
 	}
@@ -2202,7 +2417,7 @@ country_event = {
 
 	option = {
 		 104 = { set_state_name = "Bosnien" } 
-		set_province_name = { id = 11899 name = "Sarajevo" } 
+		set_province_name = { id = 11909 name = "Sarajevo" } 
 		set_country_flag = renamed_state_104
 		set_global_flag = renamed_state_104
 	}
@@ -2214,7 +2429,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 106
 		NOT = { has_country_flag = renamed_state_106 }
 	}
@@ -2245,7 +2460,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 109
 		NOT = { has_country_flag = renamed_state_109 }
 	}
@@ -2270,13 +2485,44 @@ country_event = {
 	}
 }
 
+# GER - rename 110 
+country_event = {
+	id = ger_rename.110
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 110
+		NOT = { has_country_flag = renamed_state_110 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_110 }
+				clr_country_flag = renamed_state_110
+			}
+		}
+	}
+
+	option = {
+		110 = { set_state_name = "Ostland" }  
+		set_country_flag = renamed_state_110
+		set_global_flag = renamed_state_110
+	}
+}
+
 # GER - rename 112 
 country_event = {
 	id = ger_rename.112
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 112
 		NOT = { has_country_flag = renamed_state_112 }
 	}
@@ -2308,7 +2554,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 113
 		NOT = { has_country_flag = renamed_state_113 }
 	}
@@ -2339,7 +2585,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 114
 		NOT = { has_country_flag = renamed_state_114 }
 	}
@@ -2370,7 +2616,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 115
 		NOT = { has_country_flag = renamed_state_115 }
 	}
@@ -2402,7 +2648,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 117
 		NOT = { has_country_flag = renamed_state_117 }
 	}
@@ -2433,7 +2679,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 119
 		NOT = { has_country_flag = renamed_state_119 }
 	}
@@ -2464,7 +2710,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 120
 		NOT = { has_country_flag = renamed_state_120 }
 	}
@@ -2484,9 +2730,40 @@ country_event = {
 
 	option = {
 		120 = { set_state_name = "Schottisches Hochland" } 
-		set_province_name = { id = 11064 name = "Scapa Fließen"} 
+		set_province_name = { id = 11064 name = "Skalpafloi"} 
 		set_country_flag = renamed_state_120
 		set_global_flag = renamed_state_120
+	}
+}
+
+country_event = {
+	id = ger_rename.121
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 121
+		NOT = { has_country_flag = renamed_state_121 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_121 }
+				clr_country_flag = renamed_state_121
+			}
+		}
+	}
+
+	option = {
+		set_province_name = { id = 9392 name = "Odinburg" }
+		set_province_name = { id = 6300 name = "Rositz" }
+		set_country_flag = renamed_state_121
+		set_global_flag = renamed_state_121
 	}
 }
 
@@ -2495,7 +2772,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 123
 		NOT = { has_country_flag = renamed_state_123 }
 	}
@@ -2515,7 +2792,7 @@ country_event = {
 
 	option = {
 		123 = { set_state_name = "Cornwall" } 
-		set_province_name = { id = 540 name = "Plimund"} 
+		set_province_name = { id = 540 name = "Pleimuiden"} 
 		set_country_flag = renamed_state_123
 		set_global_flag = renamed_state_123
 	}
@@ -2526,7 +2803,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 125
 		NOT = { has_country_flag = renamed_state_125 }
 	}
@@ -2546,7 +2823,7 @@ country_event = {
 
 	option = {
 		125 = { set_state_name = "Ostanglien" } 
-		set_province_name = { id = 11253 name = "Nordwich"} 
+		set_province_name = { id = 322 name = "Noordwyk"} 
 		set_country_flag = renamed_state_125
 		set_global_flag = renamed_state_125
 	}
@@ -2557,7 +2834,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 126
 		NOT = { has_country_flag = renamed_state_126 }
 	}
@@ -2577,7 +2854,7 @@ country_event = {
 
 	option = {
 		126 = { set_state_name = "Grossraum London" } 
-		set_province_name = { id = 6103 name = "London"} 
+		set_province_name = { id = 6103 name = "Lunden"} 
 		set_country_flag = renamed_state_126
 		set_global_flag = renamed_state_126
 	}
@@ -2588,7 +2865,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 127
 		NOT = { has_country_flag = renamed_state_127 }
 	}
@@ -2608,10 +2885,40 @@ country_event = {
 
 	option = {
 		  127 = { set_state_name = "Sud Essex" } 
-		set_province_name = { id = 3501 name = "Dover"}
-		set_province_name = { id = 9458 name = "Häfensmund"}
+		set_province_name = { id = 3501 name = "Daveren"}
+		set_province_name = { id = 9458 name = "Poortsmuiden"}
 		set_country_flag = renamed_state_127
 		set_global_flag = renamed_state_127
+	}
+}
+
+country_event = {
+	id = ger_rename.128
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 128
+		NOT = { has_country_flag = renamed_state_128 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_128 }
+				clr_country_flag = renamed_state_128
+			}
+		}
+	}
+
+	option = { 
+		set_province_name = { id = 9297 name = "Brummangen" }
+		set_country_flag = renamed_state_128
+		set_global_flag = renamed_state_128
 	}
 }
 
@@ -2620,7 +2927,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 129
 		NOT = { has_country_flag = renamed_state_129 }
 	}
@@ -2650,7 +2957,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 130
 		NOT = { has_country_flag = renamed_state_130 }
 	}
@@ -2670,8 +2977,8 @@ country_event = {
 
 	option = {
 		130 = { set_state_name = "Yorkgrafschaft" } 
-		set_province_name = { id = 9379 name = "Leeds"}
-		set_province_name = { id = 11297 name = "Rumpf"}  
+		set_province_name = { id = 9379 name = "Lüdschen"}
+		set_province_name = { id = 11297 name = "Kaiserzaun" }
 		set_country_flag = renamed_state_130
 		set_global_flag = renamed_state_130
 	}
@@ -2682,7 +2989,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 131
 		NOT = { has_country_flag = renamed_state_131 }
 	}
@@ -2702,7 +3009,7 @@ country_event = {
 
 	option = {
 		131 = { set_state_name = "Nord-England" } 
-		set_province_name = { id = 351 name = "Neues-schloß"}  
+		set_province_name = { id = 351 name = "Neukassel"}  
 		set_country_flag = renamed_state_131
 		set_global_flag = renamed_state_131
 	}
@@ -2713,7 +3020,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 132
 		NOT = { has_country_flag = renamed_state_132 }
 	}
@@ -2733,10 +3040,40 @@ country_event = {
 
 	option = {
 		132 = { set_state_name = "Lancastergrafschaft" } 
-		set_province_name = { id = 6384 name = "Leberpool"}
-		set_province_name = { id = 6318 name = "Mannchester"}  
+		set_province_name = { id = 6384 name = "Löwerpul"}
+		set_province_name = { id = 6318 name = "Mutterfestung"}  
 		set_country_flag = renamed_state_132
 		set_global_flag = renamed_state_132
+	}
+}
+
+country_event = {
+	id = ger_rename.133
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 133
+		NOT = { has_country_flag = renamed_state_133 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_133 }
+				clr_country_flag = renamed_state_133
+			}
+		}
+	}
+
+	option = { 
+		set_province_name = { id = 3273 name = "Glaschau" }
+		set_country_flag = renamed_state_133
+		set_global_flag = renamed_state_133
 	}
 }
 
@@ -2745,7 +3082,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 135
 		NOT = { has_country_flag = renamed_state_135 }
 	}
@@ -2776,7 +3113,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 136
 		NOT = { has_country_flag = renamed_state_136 }
 	}
@@ -2806,7 +3143,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 137
 		NOT = { has_country_flag = renamed_state_137 }
 	}
@@ -2825,7 +3162,7 @@ country_event = {
 	}
 
 	option = {
-		137 = { set_state_name = "Krim" } 
+		137 = { set_state_name = "Gotenland" } 
 		set_province_name = { id = 3686 name = "Theodorichshafen"}
 		set_country_flag = renamed_state_137
 		set_global_flag = renamed_state_137
@@ -2837,7 +3174,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 138
 		NOT = { has_country_flag = renamed_state_138 }
 	}
@@ -2856,7 +3193,7 @@ country_event = {
 	}
 
 	option = {
-		138 = { set_state_name = "Scania" } 
+		138 = { set_state_name = "Schonen" } 
 		set_province_name = { id = 9279 name = "Malmo"}
 		set_province_name = { id = 11215 name = "Karlskrone"}
 		set_country_flag = renamed_state_138
@@ -2865,11 +3202,42 @@ country_event = {
 }
 
 country_event = {
+	id = ger_rename.139
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 139
+		NOT = { has_country_flag = renamed_state_139 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_139 }
+				clr_country_flag = renamed_state_139
+			}
+		}
+	}
+
+	option = {
+		139 = { set_state_name = "Schmalland" }
+		set_province_name = { id = 11380 name = "Nördkoping" }
+		set_country_flag = renamed_state_139
+		set_global_flag = renamed_state_139
+	}
+}
+
+country_event = {
 	id = ger_rename.140
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 140
 		NOT = { has_country_flag = renamed_state_140 }
 	}
@@ -2888,9 +3256,41 @@ country_event = {
 	}
 
 	option = {
+		140 = { set_state_name = "Westgotland" }
 		set_province_name = { id = 11114 name = "Karlstadt"}
+		set_province_name = { id = 383 name = "Gothenburg" }
 		set_country_flag = renamed_state_140
 		set_global_flag = renamed_state_140
+	}
+}
+
+country_event = {
+	id = ger_rename.141
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 141
+		NOT = { has_country_flag = renamed_state_141 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_141 }
+				clr_country_flag = renamed_state_141
+			}
+		}
+	}
+
+	option = {
+		141 = { set_state_name = "Schweland" }
+		set_country_flag = renamed_state_141
+		set_global_flag = renamed_state_141
 	}
 }
 
@@ -2899,7 +3299,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 142
 		NOT = { has_country_flag = renamed_state_142 }
 	}
@@ -2918,10 +3318,40 @@ country_event = {
 	}
 
 	option = {
-		142 = { set_state_name = "Westnorwgen" } 
-		set_province_name = { id = 122 name = "Bergen"}
+		142 = { set_state_name = "Westland" } 
+		set_province_name = { id = 377 name = "Kayerdorf" }
 		set_country_flag = renamed_state_142
 		set_global_flag = renamed_state_142
+	}
+}
+
+country_event = {
+	id = ger_rename.143
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 143
+		NOT = { has_country_flag = renamed_state_143 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_143 }
+				clr_country_flag = renamed_state_143
+			}
+		}
+	}
+
+	option = {
+		set_province_name = { id = 3022 name = "Trontheim" }
+		set_country_flag = renamed_state_143
+		set_global_flag = renamed_state_143
 	}
 }
 
@@ -2930,7 +3360,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 144
 		NOT = { has_country_flag = renamed_state_144 }
 	}
@@ -2949,7 +3379,7 @@ country_event = {
 	}
 
 	option = {
-		144 = { set_state_name = "Nord-Norwegen" }
+		144 = { set_state_name = "Finnmark" }
 		set_country_flag = renamed_state_144
 		set_global_flag = renamed_state_144
 	}
@@ -2960,7 +3390,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 146
 		NOT = { has_country_flag = renamed_state_146 }
 	}
@@ -2990,7 +3420,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 149
 		NOT = { has_country_flag = renamed_state_149 }
 	}
@@ -3020,7 +3450,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 150
 		NOT = { has_country_flag = renamed_state_150 }
 	}
@@ -3050,7 +3480,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 151
 		NOT = { has_country_flag = renamed_state_151 }
 	}
@@ -3069,7 +3499,7 @@ country_event = {
 	}
 
 	option = {
-		151 = { set_state_name = "Ostschweiz" } 
+		151 = { set_state_name = "Schweiz" } 
 		set_province_name = { id = 663 name = "Zürich"}
 		set_country_flag = renamed_state_151
 		set_global_flag = renamed_state_151
@@ -3081,7 +3511,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 152
 		NOT = { has_country_flag = renamed_state_152 }
 	}
@@ -3112,7 +3542,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 153
 		NOT = { has_country_flag = renamed_state_153 }
 	}
@@ -3142,7 +3572,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 154
 		NOT = { has_country_flag = renamed_state_154 }
 	}
@@ -3172,7 +3602,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 155
 		NOT = { has_country_flag = renamed_state_155 }
 	}
@@ -3203,7 +3633,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 156
 		NOT = { has_country_flag = renamed_state_156 }
 	}
@@ -3233,7 +3663,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 157
 		NOT = { has_country_flag = renamed_state_157 }
 	}
@@ -3263,7 +3693,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 158
 		NOT = { has_country_flag = renamed_state_158 }
 	}
@@ -3293,7 +3723,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 159
 		NOT = { has_country_flag = renamed_state_159 }
 	}
@@ -3324,7 +3754,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 160
 		NOT = { has_country_flag = renamed_state_160 }
 	}
@@ -3344,7 +3774,7 @@ country_event = {
 
 	option = {
 		160 = { set_state_name = "Venedig" } 
-		set_province_name = { id = 11584 name = "Venedig"} 
+		set_province_name = { id = 11585 name = "Venedig"} 
 		set_country_flag = renamed_state_160
 		set_global_flag = renamed_state_160
 	}
@@ -3355,7 +3785,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 161
 		NOT = { has_country_flag = renamed_state_161 }
 	}
@@ -3386,7 +3816,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 162
 		NOT = { has_country_flag = renamed_state_162 }
 	}
@@ -3407,7 +3837,7 @@ country_event = {
 	option = {
 		162 = { set_state_name = "Toskana" } 
 		set_province_name = { id = 9907 name = "Florenz"}
-		set_province_name = { id = 6973 name = "Gewürz"}
+		set_province_name = { id = 61003 name = "Gewürz"}
 		set_province_name = { id = 11833 name = "Livorno"}
 		set_country_flag = renamed_state_162
 		set_global_flag = renamed_state_162
@@ -3420,7 +3850,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 164
 		NOT = { has_country_flag = renamed_state_164 }
 	}
@@ -3451,7 +3881,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 165
 		NOT = { has_country_flag = renamed_state_165 }
 	}
@@ -3481,7 +3911,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 166
 		NOT = { has_country_flag = renamed_state_166 }
 	}
@@ -3511,7 +3941,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 167
 		NOT = { has_country_flag = renamed_state_167 }
 	}
@@ -3542,7 +3972,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 168
 		NOT = { has_country_flag = renamed_state_168 }
 	}
@@ -3573,7 +4003,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 169
 		NOT = { has_country_flag = renamed_state_169 }
 	}
@@ -3606,7 +4036,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 171
 		NOT = { has_country_flag = renamed_state_171 }
 	}
@@ -3637,7 +4067,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 174
 		NOT = { has_country_flag = renamed_state_174 }
 	}
@@ -3667,7 +4097,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 175
 		NOT = { has_country_flag = renamed_state_175 }
 	}
@@ -3697,7 +4127,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 176
 		NOT = { has_country_flag = renamed_state_176 }
 	}
@@ -3729,7 +4159,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 177
 		NOT = { has_country_flag = renamed_state_177 }
 	}
@@ -3759,7 +4189,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 178
 		NOT = { has_country_flag = renamed_state_178 }
 	}
@@ -3789,7 +4219,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 181
 		NOT = { has_country_flag = renamed_state_181 }
 	}
@@ -3819,7 +4249,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 182
 		NOT = { has_country_flag = renamed_state_182 }
 	}
@@ -3850,7 +4280,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 183
 		NOT = { has_country_flag = renamed_state_183 }
 	}
@@ -3881,7 +4311,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 187
 		NOT = { has_country_flag = renamed_state_187 }
 	}
@@ -3907,13 +4337,13 @@ country_event = {
   }
   
   country_event = {
-	id = ger_rename.189
+	id = ger_rename.188
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
-		controls_state = 189
-		NOT = { has_country_flag = renamed_state_189 }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 188
+		NOT = { has_country_flag = renamed_state_188 }
 	}
 
 	mean_time_to_happen = {
@@ -3923,26 +4353,25 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			every_country = {
-				limit = { has_country_flag = renamed_state_189 }
-				clr_country_flag = renamed_state_189
+				limit = { has_country_flag = renamed_state_188 }
+				clr_country_flag = renamed_state_188
 			}
 		}
 	}
 
 	option = {
-	    189 = { set_state_name = "Schaulen" } 
-		set_province_name = { id = 9483 name = "Schaulen"}  
-		set_country_flag = renamed_state_189
-		set_global_flag = renamed_state_189
+	    188 = { set_state_name = "Memelland" }  
+		set_country_flag = renamed_state_188
+		set_global_flag = renamed_state_188
 	}
   }
   
-   country_event = {
+  country_event = {
 	id = ger_rename.190
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 190
 		NOT = { has_country_flag = renamed_state_190 }
 	}
@@ -3961,20 +4390,51 @@ country_event = {
 	}
 
 	option = {
-	    190 = { set_state_name = "Kurland" }   
+	    190 = { set_state_name = "Schaulen" } 
+		set_province_name = { id = 9483 name = "Schaulen"}  
 		set_country_flag = renamed_state_190
 		set_global_flag = renamed_state_190
 	}
   }
+  
+#   country_event = {
+#	id = ger_rename.190
+#	hidden = yes
+#
+#	trigger = {
+#		OR = { tag = AUS tag = GER is_subject_of = GER }
+#		controls_state = 190
+#		NOT = { has_country_flag = renamed_state_190 }
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 3
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			every_country = {
+#				limit = { has_country_flag = renamed_state_190 }
+#				clr_country_flag = renamed_state_190
+#			}
+#		}
+#	}
+#
+#	option = {
+#	    190 = { set_state_name = "Kurland" }   
+#		set_country_flag = renamed_state_190
+#		set_global_flag = renamed_state_190
+#	}
+#  }
   
    country_event = {
 	id = ger_rename.191
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 191
-		NOT = { has_country_flag = renamed_state_191 }
+		NOT = { has_country_flag = renamed_state_192 }
 	}
 
 	mean_time_to_happen = {
@@ -3998,12 +4458,43 @@ country_event = {
 	}
   }
   
+    country_event = {
+	id = ger_rename.192
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 192
+		NOT = { has_country_flag = renamed_state_192 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_192 }
+				clr_country_flag = renamed_state_192
+			}
+		}
+	}
+
+	option = {
+	    192 = { set_state_name = "Gotenschau" } 
+		set_province_name = { id = 11670 name = "Gotenschau" }  
+		set_country_flag = renamed_state_192
+		set_global_flag = renamed_state_192
+	}
+  }
+  
    country_event = {
 	id = ger_rename.193
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 193
 		NOT = { has_country_flag = renamed_state_193 }
 	}
@@ -4033,7 +4524,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 195
 		NOT = { has_country_flag = renamed_state_195 }
 	}
@@ -4052,8 +4543,8 @@ country_event = {
 	}
 
 	option = {
-	    195 = { set_state_name = "Ludendorff" } 
-		set_province_name = { id = 3151 name = "Ludendorff"}  
+	    195 = { set_state_name = "Wolfsburg" } 
+		set_province_name = { id = 3151 name = "Wolfsburg"}  
 		set_country_flag = renamed_state_195
 		set_global_flag = renamed_state_195
 	}
@@ -4064,7 +4555,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 196
 		NOT = { has_country_flag = renamed_state_196 }
 	}
@@ -4083,20 +4574,20 @@ country_event = {
 	}
 
 	option = {
-	    196 = { set_state_name = "Herson" } 
+	    196 = { set_state_name = "Gotenhalbinsel" } 
 		set_country_flag = renamed_state_196
 		set_global_flag = renamed_state_196
 	}
   }
   
   country_event = {
-	id = ger_rename.197
+	id = ger_rename.1100
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
-		controls_state = 197
-		NOT = { has_country_flag = renamed_state_197 }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 1100
+		NOT = { has_country_flag = renamed_state_1100 }
 	}
 
 	mean_time_to_happen = {
@@ -4106,16 +4597,16 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			every_country = {
-				limit = { has_country_flag = renamed_state_197 }
-				clr_country_flag = renamed_state_197
+				limit = { has_country_flag = renamed_state_1100 }
+				clr_country_flag = renamed_state_1100
 			}
 		}
 	}
 
 	option = {
-	    197 = { set_state_name = "Nikolajew" } 
-		set_country_flag = renamed_state_197
-		set_global_flag = renamed_state_197
+	    1100 = { set_state_name = "Nikolajew" } 
+		set_country_flag = renamed_state_1100
+		set_global_flag = renamed_state_1100
 	}
   }
   
@@ -4124,7 +4615,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 200
 		NOT = { has_country_flag = renamed_state_200 }
 	}
@@ -4144,7 +4635,7 @@ country_event = {
 
 	option = {
 	    200 = { set_state_name = "Saporoschje" } 
-		set_province_name = { id = 11405 name = "Saporoschje"} 
+		set_province_name = { id = 11405 name = "Alexanderstadt"}
 		set_country_flag = renamed_state_200
 		set_global_flag = renamed_state_200
 	}
@@ -4155,7 +4646,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 201
 		NOT = { has_country_flag = renamed_state_201 }
 	}
@@ -4185,7 +4676,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 202
 		NOT = { has_country_flag = renamed_state_202 }
 	}
@@ -4204,10 +4695,71 @@ country_event = {
 	}
 
 	option = {
-	    202 = { set_state_name = "Kiew" } 
-		set_province_name = { id = 525 name = "Kiew"} 
+	    202 = { set_state_name = "Kiroffo" } 
+		set_province_name = { id = 525 name = "Kiroffo"} 
 		set_country_flag = renamed_state_202
 		set_global_flag = renamed_state_202
+	}
+  }
+  
+       country_event = {
+	id = ger_rename.204
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 204
+		NOT = { has_country_flag = renamed_state_204 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_204 }
+				clr_country_flag = renamed_state_204
+			}
+		}
+	}
+
+	option = {
+	    204 = { set_state_name = "Mogilau" } 
+		set_country_flag = renamed_state_204
+		set_global_flag = renamed_state_204
+	}
+  }
+  
+      country_event = {
+	id = ger_rename.206
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 206
+		NOT = { has_country_flag = renamed_state_206 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_206 }
+				clr_country_flag = renamed_state_206
+			}
+		}
+	}
+
+	option = {
+	    206 = { set_state_name = "Mindenland" }
+		set_province_name = { id = 11370 name = "Minden"}
+		set_country_flag = renamed_state_206
+		set_global_flag = renamed_state_206
 	}
   }
   
@@ -4216,7 +4768,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 207
 		NOT = { has_country_flag = renamed_state_207 }
 	}
@@ -4247,7 +4799,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 208
 		NOT = { has_country_flag = renamed_state_208 }
 	}
@@ -4266,7 +4818,7 @@ country_event = {
 	}
 
 	option = {
-	    208 = { set_state_name = "Wiesen" }  
+	    208 = { set_state_name = "Lüka" }  
 		set_country_flag = renamed_state_208
 		set_global_flag = renamed_state_208
 	}
@@ -4277,7 +4829,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 209
 		NOT = { has_country_flag = renamed_state_209 }
 	}
@@ -4304,11 +4856,41 @@ country_event = {
   }
   
      country_event = {
+	id = ger_rename.210
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 210
+		NOT = { has_country_flag = renamed_state_209 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_209 }
+				clr_country_flag = renamed_state_209
+			}
+		}
+	}
+
+	option = {
+	    210 = { set_state_name = "Nebel" }  
+		set_country_flag = renamed_state_209
+		set_global_flag = renamed_state_209
+	}
+  }
+  
+     country_event = {
 	id = ger_rename.212
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 212
 		NOT = { has_country_flag = renamed_state_212 }
 	}
@@ -4339,7 +4921,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 213
 		NOT = { has_country_flag = renamed_state_213 }
 	}
@@ -4370,7 +4952,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 214
 		NOT = { has_country_flag = renamed_state_214 }
 	}
@@ -4389,8 +4971,8 @@ country_event = {
 	}
 
 	option = {
-	      214 = { set_state_name = "Arkhangelsk" } 
-		set_province_name = { id = 3338 name = "Archangelberg"}
+	      214 = { set_state_name = "Erzengel" } 
+		set_province_name = { id = 3338 name = "Erzengel"}
 		set_country_flag = renamed_state_214
 		set_global_flag = renamed_state_214
 	}
@@ -4401,7 +4983,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 216
 		NOT = { has_country_flag = renamed_state_216 }
 	}
@@ -4432,7 +5014,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 217
 		NOT = { has_country_flag = renamed_state_217 }
 	}
@@ -4451,8 +5033,8 @@ country_event = {
 	}
 
 	option = {
-	    217 = { set_state_name = "Hindenburg" } 
-		set_province_name = { id = 3529 name = "Hindenburg"}
+	    217 = { set_state_name = "Wolfstadt" } 
+		set_province_name = { id = 3529 name = "Wolfstadt"}
 		set_country_flag = renamed_state_217
 		set_global_flag = renamed_state_217
 	}
@@ -4463,7 +5045,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 218
 		NOT = { has_country_flag = renamed_state_218 }
 	}
@@ -4483,7 +5065,7 @@ country_event = {
 
 	option = {
 	    218 = { set_state_name = "Rostow" } 
-		set_province_name = { id = 9417 name = "Rostow"}
+		set_province_name = { id = 9417 name = "Donnhafen"}
 		set_country_flag = renamed_state_218
 		set_global_flag = renamed_state_218
 	}
@@ -4494,7 +5076,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 219
 		NOT = { has_country_flag = renamed_state_219 }
 	}
@@ -4525,7 +5107,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 221
 		NOT = { has_country_flag = renamed_state_221 }
 	}
@@ -4544,8 +5126,8 @@ country_event = {
 	}
 
 	option = {
-	    221 = { set_state_name = "Charkow" } 
-		set_province_name = { id = 418 name = "Charkow"}
+	    221 = { set_state_name = "Karkau" } 
+		set_province_name = { id = 418 name = "Karkau"}
 		set_country_flag = renamed_state_221
 		set_global_flag = renamed_state_221
 	}
@@ -4556,7 +5138,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 222
 		NOT = { has_country_flag = renamed_state_222 }
 	}
@@ -4581,12 +5163,13 @@ country_event = {
 		set_global_flag = renamed_state_222
 	}
 }
+
 country_event = {
 	id = ger_rename.223
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 223
 		NOT = { has_country_flag = renamed_state_223 }
 	}
@@ -4605,10 +5188,41 @@ country_event = {
 	}
 
 	option = {
-	    223 = { set_state_name = "Tulau" } 
-		set_province_name = { id = 6262 name = "Tulau"}
+	    223 = { set_state_name = "Thulestadt" } 
+		set_province_name = { id = 6262 name = "Thulestadt"}
 		set_country_flag = renamed_state_223
 		set_global_flag = renamed_state_223
+	}
+}
+
+country_event = {
+	id = ger_rename.224
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 224
+		NOT = { has_country_flag = renamed_state_224 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_224 }
+				clr_country_flag = renamed_state_224
+			}
+		}
+	}
+
+	option = {
+	    224 = { set_state_name = "Waldemarstadt" } 
+		set_province_name = { id = 6262 name = "Waldemarstadt"}
+		set_country_flag = renamed_state_224
+		set_global_flag = renamed_state_224
 	}
 }
 
@@ -4617,7 +5231,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 226
 		NOT = { has_country_flag = renamed_state_226 }
 	}
@@ -4636,9 +5250,9 @@ country_event = {
 	}
 
 	option = {
-	     226 = { set_state_name = "Dnjepropetrowsk" } 
-		set_province_name = { id = 11437 name = "Dnjepropetrowsk"}
-		set_province_name = { id = 11561 name = "Kriwoi-Rog"}
+	     226 = { set_state_name = "Katerinoslau" } 
+		set_province_name = { id = 11437 name = "Katerinoslau"}
+		set_province_name = { id = 11561 name = "Siegen Rog"}
 		set_country_flag = renamed_state_226
 		set_global_flag = renamed_state_226
 	}
@@ -4649,7 +5263,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 227
 		NOT = { has_country_flag = renamed_state_227 }
 	}
@@ -4668,8 +5282,8 @@ country_event = {
 	}
 
 	option = {
-	    227 = { set_state_name = "Donezk" } 
-		set_province_name = { id = 6474 name = "Donezk"}
+	    227 = { set_state_name = "Neukoblenz" } 
+		set_province_name = { id = 6474 name = "Neukoblenz"}
 		set_country_flag = renamed_state_227
 		set_global_flag = renamed_state_227
 	}
@@ -4680,7 +5294,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 228
 		NOT = { has_country_flag = renamed_state_228 }
 	}
@@ -4699,8 +5313,8 @@ country_event = {
 	}
 
 	option = {
-	    228 = { set_state_name = "Luhanau" } 
-		set_province_name = { id = 9461 name = "Luhanau"}
+	    228 = { set_state_name = "Lübhain" } 
+		set_province_name = { id = 9461 name = "Lübhain"}
 		set_country_flag = renamed_state_228
 		set_global_flag = renamed_state_228
 	}
@@ -4711,7 +5325,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 229
 		NOT = { has_country_flag = renamed_state_229 }
 	}
@@ -4731,7 +5345,7 @@ country_event = {
 
 	option = {
 	    229 = { set_state_name = "Aserbaidschan" } 
-		set_province_name = { id = 7661 name = "Bakau"}
+		set_province_name = { id = 7661 name = "Windestadt"}
 		set_country_flag = renamed_state_229
 		set_global_flag = renamed_state_229
 	}
@@ -4742,7 +5356,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 230
 		NOT = { has_country_flag = renamed_state_230 }
 	}
@@ -4773,7 +5387,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 231
 		NOT = { has_country_flag = renamed_state_231 }
 	}
@@ -4801,13 +5415,44 @@ country_event = {
 }
 
 country_event = {
+	id = ger_rename.232
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 232
+		NOT = { has_country_flag = renamed_state_232 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_232 }
+				clr_country_flag = renamed_state_232
+			}
+		}
+	}
+
+	option = {
+	    232 = { set_state_name = "Großneu" } 
+		set_province_name = { id = 3672 name = "Großneu"}
+		set_country_flag = renamed_state_232
+		set_global_flag = renamed_state_232
+	}
+}
+
+country_event = {
 	id = ger_rename.233
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 233
-		NOT = { has_country_flag = renamed_state_231 }
+		NOT = { has_country_flag = renamed_state_232 }
 	}
 
 	mean_time_to_happen = {
@@ -4831,11 +5476,42 @@ country_event = {
 }
 
 country_event = {
+	id = ger_rename.234
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 234
+		NOT = { has_country_flag = renamed_state_232 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_234 }
+				clr_country_flag = renamed_state_234
+			}
+		}
+	}
+
+	option = {
+	    set_province_name = { id = 3734 name = "Katerinastadt"}
+		set_province_name = { id = 3720 name = "Markopf"}
+		set_country_flag = renamed_state_234
+		set_global_flag = renamed_state_234
+	}
+}
+
+country_event = {
 	id = ger_rename.236
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 236
 		NOT = { has_country_flag = renamed_state_236 }
 	}
@@ -4855,7 +5531,7 @@ country_event = {
 
 	option = {
 	    236 = { set_state_name = "Astrachan" } 
-		set_province_name = { id = 9753 name = "Astrachan"}
+		set_province_name = { id = 9753 name = "Etil"}
 		set_country_flag = renamed_state_236
 		set_global_flag = renamed_state_236
 	}
@@ -4866,7 +5542,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 238
 		NOT = { has_country_flag = renamed_state_238 }
 	}
@@ -4896,7 +5572,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 239
 		NOT = { has_country_flag = renamed_state_239 }
 	}
@@ -4915,8 +5591,8 @@ country_event = {
 	}
 
 	option = {
-	    239 = { set_state_name = "Saratau" } 
-		set_province_name = { id = 3578 name = "Saratau"}
+	    239 = { set_state_name = "Saartau" } 
+		set_province_name = { id = 3578 name = "Saartau"}
 		set_country_flag = renamed_state_239
 		set_global_flag = renamed_state_239
 	}
@@ -4927,7 +5603,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 241
 		NOT = { has_country_flag = renamed_state_241 }
 	}
@@ -4946,8 +5622,8 @@ country_event = {
 	}
 
 	option = {
-	    241 = { set_state_name = "Gomenaue" } 
-		set_province_name = { id = 9288 name = "Gomenaue"}
+	    241 = { set_state_name = "Homiel" } 
+		set_province_name = { id = 9288 name = "Homiel"}
 		set_country_flag = renamed_state_241
 		set_global_flag = renamed_state_241
 	}
@@ -4958,7 +5634,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 242
 		NOT = { has_country_flag = renamed_state_242 }
 	}
@@ -4989,7 +5665,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 243
 		NOT = { has_country_flag = renamed_state_243 }
 	}
@@ -5008,7 +5684,7 @@ country_event = {
 	}
 
 	option = {
-	    243 = { set_state_name = "Roslavau" } 
+	    243 = { set_state_name = "Roslawl" }
 		set_country_flag = renamed_state_243
 		set_global_flag = renamed_state_243
 	}
@@ -5019,7 +5695,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 246
 		NOT = { has_country_flag = renamed_state_246 }
 	}
@@ -5038,8 +5714,8 @@ country_event = {
 	}
 
 	option = {
-	    246 = { set_state_name = "Roshau" } 
-		set_province_name = { id = 11349 name = "Roshau"} 
+	    246 = { set_state_name = "Rosau" } 
+		set_province_name = { id = 11349 name = "Rosau"} 
 		set_country_flag = renamed_state_246
 		set_global_flag = renamed_state_246
 	}
@@ -5050,7 +5726,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 247
 		NOT = { has_country_flag = renamed_state_247 }
 	}
@@ -5069,10 +5745,134 @@ country_event = {
 	}
 
 	option = {
-	    247 = { set_state_name = "Hess" } 
-		set_province_name = { id = 6245 name = "Hess"} 
+	    247 = { set_state_name = "Königstein" } 
+		set_province_name = { id = 6245 name = "Königstein"} 
 		set_country_flag = renamed_state_247
 		set_global_flag = renamed_state_247
+	}
+}
+
+country_event = {
+	id = ger_rename.248
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 248
+		NOT = { has_country_flag = renamed_state_248 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_248 }
+				clr_country_flag = renamed_state_248
+			}
+		}
+	}
+
+	option = {
+	    248 = { set_state_name = "Jarschlau" } 
+		set_province_name = { id = 121 name = "Jarschlau"}
+		set_country_flag = renamed_state_248
+		set_global_flag = renamed_state_248
+	}
+}
+
+country_event = {
+	id = ger_rename.249
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 249
+		NOT = { has_country_flag = renamed_state_249 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_249 }
+				clr_country_flag = renamed_state_249
+			}
+		}
+	}
+
+	option = {
+	    249 = { set_state_name = "Koaskenstadt" } 
+		set_province_name = { id = 6338 name = "Kosakenstadt"}
+		set_country_flag = renamed_state_249
+		set_global_flag = renamed_state_249
+	}
+}
+
+country_event = {
+	id = ger_rename.251
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 251
+		NOT = { has_country_flag = renamed_state_251 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_251 }
+				clr_country_flag = renamed_state_251
+			}
+		}
+	}
+
+	option = {
+	    251 = { set_state_name = "Festungrode" } 
+		set_province_name = { id = 11225 name = "Festungrode"}
+		set_country_flag = renamed_state_251
+		set_global_flag = renamed_state_251
+	}
+}
+
+country_event = {
+	id = ger_rename.252
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 252
+		NOT = { has_country_flag = renamed_state_252 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_252 }
+				clr_country_flag = renamed_state_252
+			}
+		}
+	}
+
+	option = {
+	    252 = { set_state_name = "Neuholmgard" } 
+		set_province_name = { id = 11375 name = "Neuholmgard"}
+		set_country_flag = renamed_state_252
+		set_global_flag = renamed_state_252
 	}
 }
 
@@ -5081,7 +5881,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 253
 		NOT = { has_country_flag = renamed_state_253 }
 	}
@@ -5111,7 +5911,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 256
 		NOT = { has_country_flag = renamed_state_256 }
 	}
@@ -5141,7 +5941,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 258
 		NOT = { has_country_flag = renamed_state_258 }
 	}
@@ -5167,11 +5967,42 @@ country_event = {
 }
 
 country_event = {
+	id = ger_rename.260
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 260
+		NOT = { has_country_flag = renamed_state_260 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_260 }
+				clr_country_flag = renamed_state_260
+			}
+		}
+	}
+
+	option = {
+	    260 = { set_state_name = "Rabenblatt" } 
+		set_province_name = { id = 413 name = "Rabenblatt"}
+		set_country_flag = renamed_state_260
+		set_global_flag = renamed_state_260
+	}
+}
+
+country_event = {
 	id = ger_rename.262
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 262
 		NOT = { has_country_flag = renamed_state_262 }
 	}
@@ -5197,11 +6028,42 @@ country_event = {
 }
 
 country_event = {
+	id = ger_rename.263
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 263
+		NOT = { has_country_flag = renamed_state_263 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_263 }
+				clr_country_flag = renamed_state_263
+			}
+		}
+	}
+
+	option = {
+	    263 = { set_state_name = "Holmgard" } 
+		set_province_name = { id = 117 name = "Holmgard"} 
+		set_country_flag = renamed_state_263
+		set_global_flag = renamed_state_263
+	}
+}
+
+country_event = {
 	id = ger_rename.264
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 264
 		NOT = { has_country_flag = renamed_state_264 }
 	}
@@ -5220,8 +6082,8 @@ country_event = {
 	}
 
 	option = {
-	    264 = { set_state_name = "Tichwin" } 
-		set_province_name = { id = 3140 name = "Tichwin"} 
+	    264 = { set_state_name = "Straßenmarkt" } 
+		set_province_name = { id = 3140 name = "Straßenmarkt"}
 		set_country_flag = renamed_state_264
 		set_global_flag = renamed_state_264
 	}
@@ -5232,7 +6094,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 265
 		NOT = { has_country_flag = renamed_state_265 }
 	}
@@ -5258,11 +6120,135 @@ country_event = {
 }
 
 country_event = {
+	id = ger_rename.338
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 338
+		NOT = { has_country_flag = renamed_state_338 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_338 }
+				clr_country_flag = renamed_state_338
+			}
+		}
+	}
+
+	option = {
+		set_province_name = { id = 3369 name = "Breßstuhl" } 
+		set_country_flag = renamed_state_338
+		set_global_flag = renamed_state_338
+	}
+}
+
+country_event = {
+	id = ger_rename.220
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 220
+		NOT = { has_country_flag = renamed_state_220 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_220 }
+				clr_country_flag = renamed_state_220
+			}
+		}
+	}
+
+	option = {
+		220 = { set_state_name = "Zitadellenfurt" } 
+		set_province_name = { id = 3580 name = "Zitadellenfurt"} 
+		set_country_flag = renamed_state_220
+		set_global_flag = renamed_state_220
+	}
+}
+
+country_event = {
+	id = ger_rename.398
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 398
+		NOT = { has_country_flag = renamed_state_398 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_398 }
+				clr_country_flag = renamed_state_398
+			}
+		}
+	}
+
+	option = {
+	    398 = { set_state_name = "Dauerwelle" } 
+		set_province_name = { id = 7375 name = "Dauerwelle"}
+		set_country_flag = renamed_state_398
+		set_global_flag = renamed_state_398
+	}
+}
+
+country_event = {
+	id = ger_rename.651
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 651
+		NOT = { has_country_flag = renamed_state_651 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_651 }
+				clr_country_flag = renamed_state_651
+			}
+		}
+	}
+
+	option = {
+	    651 = { set_state_name = "Ufer" } 
+		set_province_name = { id = 1278 name = "Ufer"}
+		set_country_flag = renamed_state_651
+		set_global_flag = renamed_state_651
+	}
+}
+
+
+country_event = {
 	id = ger_rename.664
 	hidden = yes
 
 	trigger = {
-		OR = { tag = AUS tag = GER }
+		OR = { tag = AUS tag = GER is_subject_of = GER }
 		controls_state = 664
 		NOT = { has_country_flag = renamed_state_664 }
 	}
@@ -5285,5 +6271,265 @@ country_event = {
 		set_province_name = { id = 6573 name = "Kaschau"}
 		set_country_flag = renamed_state_664
 		set_global_flag = renamed_state_664
+	}
+}
+
+# GER - rename 743 
+country_event = {
+	id = ger_rename.743
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 743
+		NOT = { has_country_flag = renamed_state_743 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_743 }
+				clr_country_flag = renamed_state_743
+			}
+		}
+	}
+
+	option = {
+		set_province_name = { id = 11483 name = "Ryssel"}
+		set_province_name = { id = 11548 name = "Kalen"}
+		set_province_name = { id = 575 name = "Dünkirchen"}
+		743 = { set_state_name = "Südniederlande" }
+		set_country_flag = renamed_state_743
+		set_global_flag = renamed_state_743
+	}
+  }
+
+# GER - rename 744 
+country_event = {
+	id = ger_rename.744
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 744
+		NOT = { has_country_flag = renamed_state_744 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_744 }
+				clr_country_flag = renamed_state_744
+			}
+		}
+	}
+
+	option = {
+		name = ger_rename.744.a
+		744 = { set_state_name = "Lothringen" } 
+		set_province_name = { id = 11516 name = "Nanzig"}
+		set_country_flag = renamed_state_744
+		set_global_flag = renamed_state_744
+	}
+}
+
+# GER - rename 745 
+country_event = {
+	id = ger_rename.745
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 745
+		NOT = { has_country_flag = renamed_state_745 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_745 }
+				clr_country_flag = renamed_state_745
+			}
+		}
+	}
+
+	option = {
+		name = ger_rename.745.a
+		745 = { set_state_name = "Obersavoyen" } 
+		set_country_flag = renamed_state_745
+		set_global_flag = renamed_state_745
+	}
+}
+
+# GER - rename 746 
+country_event = {
+	id = ger_rename.746
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 746
+		NOT = { has_country_flag = renamed_state_746 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_746 }
+				clr_country_flag = renamed_state_746
+			}
+		}
+	}
+
+	option = {
+		name = ger_rename.746.a
+		746 = { set_state_name = "Laibach" } 
+		set_province_name = { id = 9627 name = "Laibach"}
+		set_country_flag = renamed_state_746
+		set_global_flag = renamed_state_746
+	}
+}
+
+# GER - rename 747 
+country_event = {
+	id = ger_rename.747
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 747
+		NOT = { has_country_flag = renamed_state_747 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_747 }
+				clr_country_flag = renamed_state_747
+			}
+		}
+	}
+
+	option = {
+		name = ger_rename.747.a
+		747 = { set_state_name = "Ostschlesien" } 
+		set_country_flag = renamed_state_747
+		set_global_flag = renamed_state_747
+	}
+}
+
+# GER - rename 748 
+country_event = {
+	id = ger_rename.748
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 748
+		NOT = { has_country_flag = renamed_state_748 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_748 }
+				clr_country_flag = renamed_state_748
+			}
+		}
+	}
+
+	option = {
+		name = ger_rename.748.a
+		748 = { set_state_name = "Tessin-Graubünden" } 
+		set_country_flag = renamed_state_748
+		set_global_flag = renamed_state_748
+	}
+}
+
+# GER - rename 750 
+country_event = {
+	id = ger_rename.750
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 750
+		NOT = { has_country_flag = renamed_state_750 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_750 }
+				clr_country_flag = renamed_state_750
+			}
+		}
+	}
+
+	option = {
+		name = ger_rename.750.a
+		750 = { set_state_name = "Trent" } 
+		set_country_flag = renamed_state_750
+		set_global_flag = renamed_state_750
+	}
+}
+
+# GER - rename 751 
+country_event = {
+	id = ger_rename.751
+	hidden = yes
+
+	trigger = {
+		OR = { tag = AUS tag = GER is_subject_of = GER }
+		controls_state = 751
+		NOT = { has_country_flag = renamed_state_751 }
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_751 }
+				clr_country_flag = renamed_state_751
+			}
+		}
+	}
+
+	option = {
+		name = ger_rename.751.a
+		751 = { set_state_name = "Übermurgebiet" } 
+		set_country_flag = renamed_state_751
+		set_global_flag = renamed_state_751
 	}
 }

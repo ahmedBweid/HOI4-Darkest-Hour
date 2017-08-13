@@ -3929,15 +3929,21 @@ focus_tree = {
 			modifier = {
 				OR = {
 					stalinist > 0.2
+					leninist > 0.2
+					left_wing_radical > 0.2
 					fascist > 0.2
-					}
+					national_socialist > 0.2
+				}
 				factor = 20
 			}
 			modifier = {
 				OR = {
 					stalinist > 0.4
+					leninist > 0.4
+					left_wing_radical > 0.4
 					fascist > 0.4
-					}
+					national_socialist > 0.4
+				}
 				factor = 20
 			}
 		}

@@ -164,7 +164,7 @@ country_event = {
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = social_conservative
-		NOT = { has_idea = fascist_defeated }
+		NOT = { has_idea = fascism_defeated }
 		fascist > 0.15
 	}
 	
@@ -224,7 +224,7 @@ country_event = {
 		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = social_conservative
-		NOT = { has_idea = stalinist_defeated }
+		NOT = { has_idea = communism_defeated }
 		stalinist > 0.15
 	}
 	

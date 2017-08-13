@@ -27,7 +27,7 @@ country_event = {
 			owns_state = 97
 		}
 		NOT = {
-			has_global_flag = GER_DH_cities_renamed
+			has_global_flag = GER_DH_grodno_cities_renamed
 		}
 	}
 

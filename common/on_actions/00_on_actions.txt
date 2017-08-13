@@ -344,10 +344,10 @@ on_actions = {
 						OR = {
 							has_idea = american_protection_drift_social_conservative
 							has_idea = american_protection_drift_stalinist
-							has_idea = american_protection_drift_fascist
+							has_idea = american_protection_drift_fascism
 							has_idea = american_protection_defence_social_conservative
 							has_idea = american_protection_defence_stalinist
-							has_idea = american_protection_defence_fascist
+							has_idea = american_protection_defence_fascism
 						}
 					}
 					NOT = { 
@@ -359,10 +359,10 @@ on_actions = {
 					OR = {
 						has_idea = american_protection_drift_social_conservative
 						has_idea = american_protection_drift_stalinist
-						has_idea = american_protection_drift_fascist
+						has_idea = american_protection_drift_fascism
 						has_idea = american_protection_defence_social_conservative
 						has_idea = american_protection_defence_stalinist
-						has_idea = american_protection_defence_fascist
+						has_idea = american_protection_defence_fascism
 					}
 				}				
 				FROM = { country_event = { id = usa.16 days = 1 } }
@@ -538,8 +538,8 @@ on_actions = {
 					remove_ideas = stalinist_revolutionaries
 				}
 				if = {
-					limit = { has_idea = stalinist_defeated }
-					remove_ideas = stalinist_defeated
+					limit = { has_idea = communism_defeated }
+					remove_ideas = communism_defeated
 				}
 
 				#Remove anti_soviet_pact
@@ -559,8 +559,8 @@ on_actions = {
 					remove_ideas = fascist_revolutionaries
 				}
 				if = {
-					limit = { has_idea = fascist_defeated }
-					remove_ideas = fascist_defeated
+					limit = { has_idea = fascism_defeated }
+					remove_ideas = fascism_defeated
 				}
 				if = {
 					limit = { has_idea = anti_nazi_coup }

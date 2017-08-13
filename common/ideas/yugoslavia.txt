@@ -4,7 +4,7 @@ ideas = {
 	
 		anti_german_military = {
 			
-			picture = generic_fascist_banned
+			picture = generic_fascism_banned
 
 			allowed = {
 				always = no

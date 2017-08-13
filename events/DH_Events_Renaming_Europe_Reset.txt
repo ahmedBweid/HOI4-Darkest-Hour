@@ -14,7 +14,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 1
 		NOT = { has_country_flag = renamed_state_1 }
 		# This state has been renamed by another country
@@ -50,7 +50,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 2
 		NOT = { has_country_flag = renamed_state_2 }
 		# This state has been renamed by another country
@@ -73,7 +73,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.2.a
 		2 = { reset_state_name = yes }
-		reset_province_name = 9904
+		reset_province_name = 9804
 		set_country_flag = renamed_state_2
 		clr_global_flag = renamed_state_2
 	}
@@ -85,7 +85,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 3
 		NOT = { has_country_flag = renamed_state_3 }
 		# This state has been renamed by another country
@@ -121,7 +121,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 4
 		NOT = { has_country_flag = renamed_state_3 }
 		# This state has been renamed by another country
@@ -158,7 +158,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 5
 		NOT = { has_country_flag = renamed_state_5 }
 		# This state has been renamed by another country
@@ -192,7 +192,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 6
 		NOT = { has_country_flag = renamed_state_6 }
 		# This state has been renamed by another country
@@ -230,7 +230,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 7
 		NOT = { has_country_flag = renamed_state_7 }
 		# This state has been renamed by another country
@@ -268,7 +268,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 9
 		NOT = { has_country_flag = renamed_state_9 }
 		# This state has been renamed by another country
@@ -305,7 +305,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 10
 		NOT = { has_country_flag = renamed_state_10 }
 		# This state has been renamed by another country
@@ -341,7 +341,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 11
 		NOT = { has_country_flag = renamed_state_11 }
 		# This state has been renamed by another country
@@ -377,7 +377,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 12
 		NOT = { has_country_flag = renamed_state_12 }
 		# This state has been renamed by another country
@@ -414,7 +414,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 13
 		NOT = { has_country_flag = renamed_state_13 }
 		# This state has been renamed by another country
@@ -450,7 +450,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 14
 		NOT = { has_country_flag = renamed_state_14 }
 		# This state has been renamed by another country
@@ -488,7 +488,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 15
 		NOT = { has_country_flag = renamed_state_15 }
 		# This state has been renamed by another country
@@ -526,7 +526,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 16
 		NOT = { has_country_flag = renamed_state_16 }
 		# This state has been renamed by another country
@@ -560,7 +560,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 17
 		NOT = { has_country_flag = renamed_state_17 }
 		# This state has been renamed by another country
@@ -583,7 +583,6 @@ country_event = {
 	option = {
 		name = europe_reset_rename.17.a
 		17 = { reset_state_name = yes }
-		reset_province_name = 11516
 		reset_province_name = 9642
 		set_country_flag = renamed_state_17
 		clr_global_flag = renamed_state_17
@@ -596,7 +595,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 18
 		NOT = { has_country_flag = renamed_state_18 }
 		# This state has been renamed by another country
@@ -630,7 +629,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 19
 		NOT = { has_country_flag = renamed_state_19 }
 		# This state has been renamed by another country
@@ -665,7 +664,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 20
 		NOT = { has_country_flag = renamed_state_20 }
 		# This state has been renamed by another country
@@ -698,7 +697,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 21
 		NOT = { has_country_flag = renamed_state_21 }
 		# This state has been renamed by another country
@@ -734,7 +733,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 22
 		NOT = { has_country_flag = renamed_state_22 }
 		# This state has been renamed by another country
@@ -769,7 +768,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 23
 		NOT = { has_country_flag = renamed_state_23 }
 		# This state has been renamed by another country
@@ -804,7 +803,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 24
 		NOT = { has_country_flag = renamed_state_24 }
 		# This state has been renamed by another country
@@ -839,7 +838,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 26
 		NOT = { has_country_flag = renamed_state_26 }
 		# This state has been renamed by another country
@@ -873,7 +872,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 27
 		NOT = { has_country_flag = renamed_state_27 }
 		# This state has been renamed by another country
@@ -907,7 +906,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 28
 		NOT = { has_country_flag = renamed_state_28 }
 		# This state has been renamed by another country
@@ -944,7 +943,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 29
 		NOT = { has_country_flag = renamed_state_29 }
 		# This state has been renamed by another country
@@ -967,9 +966,6 @@ country_event = {
 	option = {
 		name = europe_reset_rename.29.a
 		29 = { reset_state_name = yes }
-		reset_province_name = 575
-		reset_province_name = 11483
-		reset_province_name = 11548
 		set_country_flag = renamed_state_29
 		clr_global_flag = renamed_state_29
 	}
@@ -981,7 +977,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 30
 		NOT = { has_country_flag = renamed_state_30 }
 		# This state has been renamed by another country
@@ -1016,7 +1012,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 31
 		NOT = { has_country_flag = renamed_state_31 }
 		# This state has been renamed by another country
@@ -1051,7 +1047,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 32
 		NOT = { has_country_flag = renamed_state_32 }
 		# This state has been renamed by another country
@@ -1086,7 +1082,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 33
 		NOT = { has_country_flag = renamed_state_33 }
 		# This state has been renamed by another country
@@ -1114,13 +1110,49 @@ country_event = {
 	}
 }
 
+### Reset - rename 34
+country_event = {
+	id = europe_reset_rename.34
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 34
+		NOT = { has_country_flag = renamed_state_34 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_34
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_34 }
+				clr_country_flag = renamed_state_34
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.34.a
+		34 = { reset_state_name = yes }
+		reset_province_name = 11519
+		reset_province_name = 3516
+		set_country_flag = renamed_state_34
+		clr_global_flag = renamed_state_34
+	}
+}
+
 ### Reset - rename 35
 country_event = {
 	id = europe_reset_rename.35
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 35
 		NOT = { has_country_flag = renamed_state_35 }
 		# This state has been renamed by another country
@@ -1155,7 +1187,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 36
 		NOT = { has_country_flag = renamed_state_36 }
 		# This state has been renamed by another country
@@ -1189,7 +1221,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 37
 		NOT = { has_country_flag = renamed_state_37 }
 		# This state has been renamed by another country
@@ -1213,7 +1245,7 @@ country_event = {
 		name = europe_reset_rename.37.a
 		37 = { reset_state_name = yes }
 		reset_province_name = 6287
-		reset_province_name = 3325
+		reset_province_name = 3345
 		set_country_flag = renamed_state_37
 		clr_global_flag = renamed_state_37
 	}
@@ -1225,7 +1257,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 38
 		NOT = { has_country_flag = renamed_state_38 }
 		# This state has been renamed by another country
@@ -1260,7 +1292,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 39
 		NOT = { has_country_flag = renamed_state_39 }
 		# This state has been renamed by another country
@@ -1294,7 +1326,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 40
 		NOT = { has_country_flag = renamed_state_40 }
 		# This state has been renamed by another country
@@ -1328,7 +1360,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 41
 		NOT = { has_country_flag = renamed_state_41 }
 		# This state has been renamed by another country
@@ -1363,7 +1395,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 43
 		NOT = { has_country_flag = renamed_state_43 }
 		# This state has been renamed by another country
@@ -1398,7 +1430,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 44
 		NOT = { has_country_flag = renamed_state_44 }
 		# This state has been renamed by another country
@@ -1421,7 +1453,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.44.a
 		44 = { reset_state_name = yes }
-		reset_province_name = 9914
+		reset_province_name = 9814
 		set_country_flag = renamed_state_44
 		clr_global_flag = renamed_state_44
 	}
@@ -1433,7 +1465,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 45
 		NOT = { has_country_flag = renamed_state_45 }
 		# This state has been renamed by another country
@@ -1467,7 +1499,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 46
 		NOT = { has_country_flag = renamed_state_46 }
 		# This state has been renamed by another country
@@ -1504,7 +1536,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 47
 		NOT = { has_country_flag = renamed_state_47 }
 		# This state has been renamed by another country
@@ -1539,7 +1571,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 52
 		NOT = { has_country_flag = renamed_state_52 }
 		# This state has been renamed by another country
@@ -1574,7 +1606,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 54
 		NOT = { has_country_flag = renamed_state_54 }
 		# This state has been renamed by another country
@@ -1609,7 +1641,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 70
 		NOT = { has_country_flag = renamed_state_70 }
 		# This state has been renamed by another country
@@ -1643,7 +1675,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 71
 		NOT = { has_country_flag = renamed_state_71 }
 		# This state has been renamed by another country
@@ -1677,7 +1709,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 72
 		NOT = { has_country_flag = renamed_state_72 }
 		# This state has been renamed by another country
@@ -1711,7 +1743,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 73
 		NOT = { has_country_flag = renamed_state_73 }
 		# This state has been renamed by another country
@@ -1745,7 +1777,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 74
 		NOT = { has_country_flag = renamed_state_74 }
 		# This state has been renamed by another country
@@ -1779,7 +1811,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 75
 		NOT = { has_country_flag = renamed_state_75 }
 		# This state has been renamed by another country
@@ -1814,7 +1846,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 76
 		NOT = { has_country_flag = renamed_state_76 }
 		# This state has been renamed by another country
@@ -1849,7 +1881,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 78
 		NOT = { has_country_flag = renamed_state_78 }
 		# This state has been renamed by another country
@@ -1883,7 +1915,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 79
 		NOT = { has_country_flag = renamed_state_79 }
 		# This state has been renamed by another country
@@ -1918,7 +1950,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 80
 		NOT = { has_country_flag = renamed_state_80 }
 		# This state has been renamed by another country
@@ -1952,7 +1984,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 84
 		NOT = { has_country_flag = renamed_state_84 }
 		# This state has been renamed by another country
@@ -1981,13 +2013,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 85
+country_event = {
+	id = europe_reset_rename.85
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 85
+		NOT = { has_country_flag = renamed_state_85 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_85
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_85 }
+				clr_country_flag = renamed_state_85
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.85.a
+		85 = { reset_state_name = yes }
+		set_country_flag = renamed_state_85
+		clr_global_flag = renamed_state_85
+	}
+}
+
 ### Reset - rename 86
 country_event = {
 	id = europe_reset_rename.86
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 86
 		NOT = { has_country_flag = renamed_state_86 }
 		# This state has been renamed by another country
@@ -2022,7 +2088,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 87
 		NOT = { has_country_flag = renamed_state_87 }
 		# This state has been renamed by another country
@@ -2057,7 +2123,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 88
 		NOT = { has_country_flag = renamed_state_88 }
 		# This state has been renamed by another country
@@ -2092,7 +2158,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 89
 		NOT = { has_country_flag = renamed_state_89 }
 		# This state has been renamed by another country
@@ -2120,13 +2186,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 90
+country_event = {
+	id = europe_reset_rename.90
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 90
+		NOT = { has_country_flag = renamed_state_90 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_88
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_90 }
+				clr_country_flag = renamed_state_90
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.90.a
+		90 = { reset_state_name = yes }
+		set_country_flag = renamed_state_90
+		clr_global_flag = renamed_state_90
+	}
+}
+
 ### Reset - rename 91
 country_event = {
 	id = europe_reset_rename.91
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 91
 		NOT = { has_country_flag = renamed_state_91 }
 		# This state has been renamed by another country
@@ -2155,13 +2255,81 @@ country_event = {
 	}
 }
 
+### Reset - rename 92
+country_event = {
+	id = europe_reset_rename.92
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 92
+		NOT = { has_country_flag = renamed_state_92 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_92
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_92 }
+				clr_country_flag = renamed_state_92
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.92.a
+		92 = { reset_state_name = yes }
+		set_country_flag = renamed_state_92
+		clr_global_flag = renamed_state_92
+	}
+}
+
+### Reset - rename 95
+country_event = {
+	id = europe_reset_rename.95
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 95
+		NOT = { has_country_flag = renamed_state_95 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_95
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_95 }
+				clr_country_flag = renamed_state_95
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.95.a
+		95 = { reset_state_name = yes }
+		set_country_flag = renamed_state_95
+		clr_global_flag = renamed_state_95
+	}
+}
+
 ### Reset - rename 94
 country_event = {
 	id = europe_reset_rename.94
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 94
 		NOT = { has_country_flag = renamed_state_94 }
 		# This state has been renamed by another country
@@ -2196,7 +2364,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 96
 		NOT = { has_country_flag = renamed_state_96 }
 		# This state has been renamed by another country
@@ -2219,9 +2387,78 @@ country_event = {
 	option = {
 		name = europe_reset_rename.96.a
 		96 = { reset_state_name = yes }
-		reset_province_name = 3320
+		reset_province_name = 3340
 		set_country_flag = renamed_state_96
 		clr_global_flag = renamed_state_96
+	}
+}
+
+### Reset - rename 97
+country_event = {
+	id = europe_reset_rename.97
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 97
+		NOT = { has_country_flag = renamed_state_97 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_97
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_97 }
+				clr_country_flag = renamed_state_97
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.97.a
+		97 = { reset_state_name = yes }
+		reset_province_name = 3393
+		set_country_flag = renamed_state_97
+		clr_global_flag = renamed_state_97
+	}
+}
+
+### Reset - rename 98
+country_event = {
+	id = europe_reset_rename.98
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 98
+		NOT = { has_country_flag = renamed_state_98 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_98
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_98 }
+				clr_country_flag = renamed_state_98
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.98.a
+		98 = { reset_state_name = yes }
+		set_country_flag = renamed_state_98
+		clr_global_flag = renamed_state_98
 	}
 }
 
@@ -2231,7 +2468,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 99
 		NOT = { has_country_flag = renamed_state_99 }
 		# This state has been renamed by another country
@@ -2260,13 +2497,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 100
+country_event = {
+	id = europe_reset_rename.100
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 100
+		NOT = { has_country_flag = renamed_state_100 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_100
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_100 }
+				clr_country_flag = renamed_state_100
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.100.a
+		100 = { reset_state_name = yes }
+		set_country_flag = renamed_state_100
+		clr_global_flag = renamed_state_100
+	}
+}
+
 ### Reset - rename 102
 country_event = {
 	id = europe_reset_rename.102
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 102
 		NOT = { has_country_flag = renamed_state_102 }
 		# This state has been renamed by another country
@@ -2289,7 +2560,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.102.a
 		102 = { reset_state_name = yes }
-		reset_province_name = 9627
+		reset_province_name = 9727
 		set_country_flag = renamed_state_102
 		clr_global_flag = renamed_state_102
 	}
@@ -2301,7 +2572,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 103
 		NOT = { has_country_flag = renamed_state_103 }
 		# This state has been renamed by another country
@@ -2336,7 +2607,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 104
 		NOT = { has_country_flag = renamed_state_104 }
 		# This state has been renamed by another country
@@ -2359,7 +2630,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.104.a
 		104 = { reset_state_name = yes }
-		reset_province_name = 11899
+		reset_province_name = 118100
 		set_country_flag = renamed_state_104
 		clr_global_flag = renamed_state_104
 	}
@@ -2371,7 +2642,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 106
 		NOT = { has_country_flag = renamed_state_106 }
 		# This state has been renamed by another country
@@ -2405,7 +2676,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 109
 		NOT = { has_country_flag = renamed_state_109 }
 		# This state has been renamed by another country
@@ -2433,13 +2704,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 110
+country_event = {
+	id = europe_reset_rename.110
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 110
+		NOT = { has_country_flag = renamed_state_110 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_110
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_110 }
+				clr_country_flag = renamed_state_110
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.110.a
+		110 = { reset_state_name = yes }
+		set_country_flag = renamed_state_110
+		clr_global_flag = renamed_state_110
+	}
+}
+
 ### Reset - rename 112
 country_event = {
 	id = europe_reset_rename.112
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 112
 		NOT = { has_country_flag = renamed_state_112 }
 		# This state has been renamed by another country
@@ -2474,7 +2779,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 113
 		NOT = { has_country_flag = renamed_state_113 }
 		# This state has been renamed by another country
@@ -2509,7 +2814,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 114
 		NOT = { has_country_flag = renamed_state_114 }
 		# This state has been renamed by another country
@@ -2544,7 +2849,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 115
 		NOT = { has_country_flag = renamed_state_115 }
 		# This state has been renamed by another country
@@ -2580,7 +2885,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 117
 		NOT = { has_country_flag = renamed_state_117 }
 		# This state has been renamed by another country
@@ -2616,7 +2921,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 119
 		NOT = { has_country_flag = renamed_state_119 }
 		# This state has been renamed by another country
@@ -2651,7 +2956,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 120
 		NOT = { has_country_flag = renamed_state_120 }
 		# This state has been renamed by another country
@@ -2680,13 +2985,48 @@ country_event = {
 	}
 }
 
+### Reset - rename 121
+country_event = {
+	id = europe_reset_rename.121
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 121
+		NOT = { has_country_flag = renamed_state_121 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_121
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_121 }
+				clr_country_flag = renamed_state_121
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.121.a
+		reset_province_name = 9392
+		reset_province_name = 6300
+		set_country_flag = renamed_state_121
+		clr_global_flag = renamed_state_121
+	}
+}
+
 ### Reset - rename 123
 country_event = {
 	id = europe_reset_rename.123
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 123
 		NOT = { has_country_flag = renamed_state_123 }
 		# This state has been renamed by another country
@@ -2721,7 +3061,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 125
 		NOT = { has_country_flag = renamed_state_125 }
 		# This state has been renamed by another country
@@ -2744,7 +3084,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.125.a
 		125 = { reset_state_name = yes }
-		reset_province_name = 11253
+		reset_province_name = 322
 		set_country_flag = renamed_state_125
 		clr_global_flag = renamed_state_125
 	}
@@ -2756,7 +3096,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 126
 		NOT = { has_country_flag = renamed_state_126 }
 		# This state has been renamed by another country
@@ -2791,7 +3131,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 127
 		NOT = { has_country_flag = renamed_state_127 }
 		# This state has been renamed by another country
@@ -2821,13 +3161,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 128
+country_event = {
+	id = europe_reset_rename.128
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 128
+		NOT = { has_country_flag = renamed_state_128 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_128
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_128 }
+				clr_country_flag = renamed_state_128
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.128.a
+		reset_province_name = 9297
+		set_country_flag = renamed_state_128
+		clr_global_flag = renamed_state_128
+	}
+}
+
 ### Reset - rename 129
 country_event = {
 	id = europe_reset_rename.129
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 129
 		NOT = { has_country_flag = renamed_state_129 }
 		# This state has been renamed by another country
@@ -2861,7 +3235,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 130
 		NOT = { has_country_flag = renamed_state_130 }
 		# This state has been renamed by another country
@@ -2897,7 +3271,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 131
 		NOT = { has_country_flag = renamed_state_131 }
 		# This state has been renamed by another country
@@ -2926,17 +3300,17 @@ country_event = {
 	}
 }
 
-### Reset - rename 132
+### Reset - rename 133
 country_event = {
-	id = europe_reset_rename.132
+	id = europe_reset_rename.133
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
-		owns_state = 132
-		NOT = { has_country_flag = renamed_state_132 }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 133
+		NOT = { has_country_flag = renamed_state_133 }
 		# This state has been renamed by another country
-		has_global_flag = renamed_state_132
+		has_global_flag = renamed_state_133
 	}
 
 	mean_time_to_happen = {
@@ -2946,19 +3320,53 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			every_country = {
-				limit = { has_country_flag = renamed_state_132 }
-				clr_country_flag = renamed_state_132
+				limit = { has_country_flag = renamed_state_133 }
+				clr_country_flag = renamed_state_133
 			}
 		}
 	}
 
 	option = {
-		name = europe_reset_rename.132.a
-		132 = { reset_state_name = yes }
-		reset_province_name = 6384
+		name = europe_reset_rename.133.a
+		reset_province_name = 3273
+		set_country_flag = renamed_state_133
+		clr_global_flag = renamed_state_133
+	}
+}
+
+### Reset - rename 134
+country_event = {
+	id = europe_reset_rename.134
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 134
+		NOT = { has_country_flag = renamed_state_134 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_134
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_134 }
+				clr_country_flag = renamed_state_134
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.134.a
+		134 = { reset_state_name = yes }
+		reset_province_name = 6385
 		reset_province_name = 6318
-		set_country_flag = renamed_state_132
-		clr_global_flag = renamed_state_132
+		set_country_flag = renamed_state_134
+		clr_global_flag = renamed_state_134
 	}
 }
 
@@ -2968,7 +3376,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 135
 		NOT = { has_country_flag = renamed_state_135 }
 		# This state has been renamed by another country
@@ -3003,7 +3411,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 136
 		NOT = { has_country_flag = renamed_state_136 }
 		# This state has been renamed by another country
@@ -3037,7 +3445,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 137
 		NOT = { has_country_flag = renamed_state_137 }
 		# This state has been renamed by another country
@@ -3072,7 +3480,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 138
 		NOT = { has_country_flag = renamed_state_138 }
 		# This state has been renamed by another country
@@ -3102,13 +3510,48 @@ country_event = {
 	}
 }
 
+### Reset - rename 139
+country_event = {
+	id = europe_reset_rename.139
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 139
+		NOT = { has_country_flag = renamed_state_139 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_139
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_139 }
+				clr_country_flag = renamed_state_139
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.139.a
+		139 = { reset_state_name = yes }
+		reset_province_name = 11380
+		set_country_flag = renamed_state_139
+		clr_global_flag = renamed_state_139
+	}
+}
+
 ### Reset - rename 140
 country_event = {
 	id = europe_reset_rename.140
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 140
 		NOT = { has_country_flag = renamed_state_140 }
 		# This state has been renamed by another country
@@ -3131,9 +3574,44 @@ country_event = {
 	option = {
 		name = europe_reset_rename.140.a
 		140 = { reset_state_name = yes }
-		reset_province_name = 122
+		reset_province_name = 11114
+		reset_province_name = 383
 		set_country_flag = renamed_state_140
 		clr_global_flag = renamed_state_140
+	}
+}
+
+### Reset - rename 141
+country_event = {
+	id = europe_reset_rename.141
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 141
+		NOT = { has_country_flag = renamed_state_141 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_141
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_141 }
+				clr_country_flag = renamed_state_141
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.141.a
+		141 = { reset_state_name = yes }
+		set_country_flag = renamed_state_141
+		clr_global_flag = renamed_state_141
 	}
 }
 
@@ -3143,7 +3621,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 142
 		NOT = { has_country_flag = renamed_state_142 }
 		# This state has been renamed by another country
@@ -3171,13 +3649,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 143
+country_event = {
+	id = europe_reset_rename.143
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 143
+		NOT = { has_country_flag = renamed_state_143 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_143
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_143 }
+				clr_country_flag = renamed_state_143
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.143.a
+		reset_province_name = 3022
+		set_country_flag = renamed_state_143
+		clr_global_flag = renamed_state_143
+	}
+}
+
 ### Reset - rename 144
 country_event = {
 	id = europe_reset_rename.144
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 144
 		NOT = { has_country_flag = renamed_state_144 }
 		# This state has been renamed by another country
@@ -3211,7 +3723,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 146
 		NOT = { has_country_flag = renamed_state_146 }
 		# This state has been renamed by another country
@@ -3245,7 +3757,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 149
 		NOT = { has_country_flag = renamed_state_149 }
 		# This state has been renamed by another country
@@ -3279,7 +3791,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 150
 		NOT = { has_country_flag = renamed_state_150 }
 		# This state has been renamed by another country
@@ -3313,7 +3825,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 151
 		NOT = { has_country_flag = renamed_state_151 }
 		# This state has been renamed by another country
@@ -3348,7 +3860,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 152
 		NOT = { has_country_flag = renamed_state_152 }
 		# This state has been renamed by another country
@@ -3383,7 +3895,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 153
 		NOT = { has_country_flag = renamed_state_153 }
 		# This state has been renamed by another country
@@ -3417,7 +3929,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 154
 		NOT = { has_country_flag = renamed_state_154 }
 		# This state has been renamed by another country
@@ -3451,7 +3963,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 155
 		NOT = { has_country_flag = renamed_state_155 }
 		# This state has been renamed by another country
@@ -3486,7 +3998,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 156
 		NOT = { has_country_flag = renamed_state_156 }
 		# This state has been renamed by another country
@@ -3520,7 +4032,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 157
 		NOT = { has_country_flag = renamed_state_157 }
 		# This state has been renamed by another country
@@ -3555,7 +4067,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 158
 		NOT = { has_country_flag = renamed_state_158 }
 		# This state has been renamed by another country
@@ -3589,7 +4101,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 159
 		NOT = { has_country_flag = renamed_state_159 }
 		# This state has been renamed by another country
@@ -3624,7 +4136,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 160
 		NOT = { has_country_flag = renamed_state_160 }
 		# This state has been renamed by another country
@@ -3647,7 +4159,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.160.a
 		160 = { reset_state_name = yes }
-		reset_province_name = 11584
+		reset_province_name = 11585
 		set_country_flag = renamed_state_160
 		clr_global_flag = renamed_state_160
 	}
@@ -3659,7 +4171,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 161
 		NOT = { has_country_flag = renamed_state_161 }
 		# This state has been renamed by another country
@@ -3694,7 +4206,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 162
 		NOT = { has_country_flag = renamed_state_162 }
 		# This state has been renamed by another country
@@ -3717,7 +4229,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.162.a
 		162 = { reset_state_name = yes }
-		reset_province_name = 9907
+		reset_province_name = 10007
 		reset_province_name = 6973
 		reset_province_name = 11833
 		set_country_flag = renamed_state_162
@@ -3731,7 +4243,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 164
 		NOT = { has_country_flag = renamed_state_164 }
 		# This state has been renamed by another country
@@ -3766,7 +4278,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 165
 		NOT = { has_country_flag = renamed_state_165 }
 		# This state has been renamed by another country
@@ -3800,7 +4312,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 166
 		NOT = { has_country_flag = renamed_state_166 }
 		# This state has been renamed by another country
@@ -3834,7 +4346,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 167
 		NOT = { has_country_flag = renamed_state_167 }
 		# This state has been renamed by another country
@@ -3869,7 +4381,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 168
 		NOT = { has_country_flag = renamed_state_168 }
 		# This state has been renamed by another country
@@ -3904,7 +4416,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 169
 		NOT = { has_country_flag = renamed_state_169 }
 		# This state has been renamed by another country
@@ -3941,7 +4453,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 171
 		NOT = { has_country_flag = renamed_state_171 }
 		# This state has been renamed by another country
@@ -3976,7 +4488,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 174
 		NOT = { has_country_flag = renamed_state_174 }
 		# This state has been renamed by another country
@@ -4010,7 +4522,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 175
 		NOT = { has_country_flag = renamed_state_175 }
 		# This state has been renamed by another country
@@ -4044,7 +4556,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 176
 		NOT = { has_country_flag = renamed_state_176 }
 		# This state has been renamed by another country
@@ -4080,7 +4592,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 177
 		NOT = { has_country_flag = renamed_state_177 }
 		# This state has been renamed by another country
@@ -4114,7 +4626,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 178
 		NOT = { has_country_flag = renamed_state_178 }
 		# This state has been renamed by another country
@@ -4148,7 +4660,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 181
 		NOT = { has_country_flag = renamed_state_181 }
 		# This state has been renamed by another country
@@ -4182,7 +4694,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 182
 		NOT = { has_country_flag = renamed_state_182 }
 		# This state has been renamed by another country
@@ -4216,7 +4728,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 183
 		NOT = { has_country_flag = renamed_state_183 }
 		# This state has been renamed by another country
@@ -4250,7 +4762,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 187
 		NOT = { has_country_flag = renamed_state_187 }
 		# This state has been renamed by another country
@@ -4278,17 +4790,17 @@ country_event = {
 	}
 }
 
-### Reset - rename 189
+### Reset - rename 188
 country_event = {
-	id = europe_reset_rename.189
+	id = europe_reset_rename.188
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
-		owns_state = 189
-		NOT = { has_country_flag = renamed_state_189 }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 188
+		NOT = { has_country_flag = renamed_state_188 }
 		# This state has been renamed by another country
-		has_global_flag = renamed_state_189
+		has_global_flag = renamed_state_188
 	}
 
 	mean_time_to_happen = {
@@ -4298,18 +4810,17 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			every_country = {
-				limit = { has_country_flag = renamed_state_189 }
-				clr_country_flag = renamed_state_189
+				limit = { has_country_flag = renamed_state_188 }
+				clr_country_flag = renamed_state_188
 			}
 		}
 	}
 
 	option = {
-		name = europe_reset_rename.189.a
-		189 = { reset_state_name = yes }
-		reset_province_name = 9483
-		set_country_flag = renamed_state_189
-		clr_global_flag = renamed_state_189
+		name = europe_reset_rename.188.a
+		188 = { reset_state_name = yes }
+		set_country_flag = renamed_state_188
+		clr_global_flag = renamed_state_188
 	}
 }
 
@@ -4319,7 +4830,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 190
 		NOT = { has_country_flag = renamed_state_190 }
 		# This state has been renamed by another country
@@ -4342,10 +4853,45 @@ country_event = {
 	option = {
 		name = europe_reset_rename.190.a
 		190 = { reset_state_name = yes }
+		reset_province_name = 9483
 		set_country_flag = renamed_state_190
 		clr_global_flag = renamed_state_190
 	}
 }
+
+### Reset - rename 190
+#country_event = {
+#	id = europe_reset_rename.190
+#	hidden = yes
+#
+#	trigger = {
+#		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+#		owns_state = 190
+#		NOT = { has_country_flag = renamed_state_190 }
+#		# This state has been renamed by another country
+#		has_global_flag = renamed_state_190
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 3
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			every_country = {
+#				limit = { has_country_flag = renamed_state_190 }
+#				clr_country_flag = renamed_state_190
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = europe_reset_rename.190.a
+#		190 = { reset_state_name = yes }
+#		set_country_flag = renamed_state_190
+#		clr_global_flag = renamed_state_190
+#	}
+#}
 
 ### Reset - rename 191
 country_event = {
@@ -4353,9 +4899,9 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 191
-		NOT = { has_country_flag = renamed_state_191 }
+		NOT = { has_country_flag = renamed_state_195 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_191
 	}
@@ -4375,12 +4921,48 @@ country_event = {
 
 	option = {
 		name = europe_reset_rename.191.a
-		191 = { reset_state_name = yes }
+		195 = { reset_state_name = yes }
 		reset_province_name = 9221
 		set_country_flag = renamed_state_191
 		clr_global_flag = renamed_state_191
 	}
 }
+
+### Reset - rename 192
+country_event = {
+	id = europe_reset_rename.192
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 192
+		NOT = { has_country_flag = renamed_state_192 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_192
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_192 }
+				clr_country_flag = renamed_state_192
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.192.a
+		192 = { reset_state_name = yes }
+		reset_province_name = 11670
+		set_country_flag = renamed_state_192
+		clr_global_flag = renamed_state_192
+	}
+}
+
 
 ### Reset - rename 193
 country_event = {
@@ -4388,7 +4970,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 193
 		NOT = { has_country_flag = renamed_state_193 }
 		# This state has been renamed by another country
@@ -4422,7 +5004,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 195
 		NOT = { has_country_flag = renamed_state_195 }
 		# This state has been renamed by another country
@@ -4457,7 +5039,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 196
 		NOT = { has_country_flag = renamed_state_196 }
 		# This state has been renamed by another country
@@ -4491,7 +5073,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 197
 		NOT = { has_country_flag = renamed_state_197 }
 		# This state has been renamed by another country
@@ -4525,7 +5107,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 200
 		NOT = { has_country_flag = renamed_state_200 }
 		# This state has been renamed by another country
@@ -4560,7 +5142,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 201
 		NOT = { has_country_flag = renamed_state_201 }
 		# This state has been renamed by another country
@@ -4594,7 +5176,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 202
 		NOT = { has_country_flag = renamed_state_202 }
 		# This state has been renamed by another country
@@ -4623,13 +5205,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 204
+country_event = {
+	id = europe_reset_rename.204
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 204
+		NOT = { has_country_flag = renamed_state_204 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_204
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_204 }
+				clr_country_flag = renamed_state_204
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.204.a
+		204 = { reset_state_name = yes }
+		set_country_flag = renamed_state_204
+		clr_global_flag = renamed_state_204
+	}
+}
+
 ### Reset - rename 207
 country_event = {
 	id = europe_reset_rename.207
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 207
 		NOT = { has_country_flag = renamed_state_207 }
 		# This state has been renamed by another country
@@ -4664,7 +5280,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 208
 		NOT = { has_country_flag = renamed_state_208 }
 		# This state has been renamed by another country
@@ -4698,7 +5314,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 209
 		NOT = { has_country_flag = renamed_state_209 }
 		# This state has been renamed by another country
@@ -4727,13 +5343,47 @@ country_event = {
 	}
 }
 
+### Reset - rename 210
+country_event = {
+	id = europe_reset_rename.210
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 210
+		NOT = { has_country_flag = renamed_state_210 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_210
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_210 }
+				clr_country_flag = renamed_state_210
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.210.a
+		210 = { reset_state_name = yes }
+		set_country_flag = renamed_state_210
+		clr_global_flag = renamed_state_210
+	}
+}
+
 ### Reset - rename 212
 country_event = {
 	id = europe_reset_rename.212
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 212
 		NOT = { has_country_flag = renamed_state_212 }
 		# This state has been renamed by another country
@@ -4768,7 +5418,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 213
 		NOT = { has_country_flag = renamed_state_213 }
 		# This state has been renamed by another country
@@ -4803,7 +5453,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 214
 		NOT = { has_country_flag = renamed_state_214 }
 		# This state has been renamed by another country
@@ -4838,7 +5488,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 216
 		NOT = { has_country_flag = renamed_state_216 }
 		# This state has been renamed by another country
@@ -4873,7 +5523,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 217
 		NOT = { has_country_flag = renamed_state_217 }
 		# This state has been renamed by another country
@@ -4908,7 +5558,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 218
 		NOT = { has_country_flag = renamed_state_218 }
 		# This state has been renamed by another country
@@ -4943,7 +5593,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 219
 		NOT = { has_country_flag = renamed_state_219 }
 		# This state has been renamed by another country
@@ -4978,7 +5628,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 221
 		NOT = { has_country_flag = renamed_state_221 }
 		# This state has been renamed by another country
@@ -5013,7 +5663,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 222
 		NOT = { has_country_flag = renamed_state_222 }
 		# This state has been renamed by another country
@@ -5048,7 +5698,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 223
 		NOT = { has_country_flag = renamed_state_223 }
 		# This state has been renamed by another country
@@ -5077,13 +5727,48 @@ country_event = {
 	}
 }
 
+### Reset - rename 224
+country_event = {
+	id = europe_reset_rename.224
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 224
+		NOT = { has_country_flag = renamed_state_224 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_224
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_224 }
+				clr_country_flag = renamed_state_224
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.224.a
+		224 = { reset_state_name = yes }
+		reset_province_name = 3335
+		set_country_flag = renamed_state_224
+		clr_global_flag = renamed_state_224
+	}
+}
+
 ### Reset - rename 226
 country_event = {
 	id = europe_reset_rename.226
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 226
 		NOT = { has_country_flag = renamed_state_226 }
 		# This state has been renamed by another country
@@ -5119,7 +5804,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 227
 		NOT = { has_country_flag = renamed_state_227 }
 		# This state has been renamed by another country
@@ -5154,7 +5839,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 228
 		NOT = { has_country_flag = renamed_state_228 }
 		# This state has been renamed by another country
@@ -5189,7 +5874,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 229
 		NOT = { has_country_flag = renamed_state_229 }
 		# This state has been renamed by another country
@@ -5224,7 +5909,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 230
 		NOT = { has_country_flag = renamed_state_230 }
 		# This state has been renamed by another country
@@ -5247,7 +5932,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.230.a
 		230 = { reset_state_name = yes }
-		reset_province_name = 12320
+		reset_province_name = 12340
 		set_country_flag = renamed_state_230
 		clr_global_flag = renamed_state_230
 	}
@@ -5259,7 +5944,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 231
 		NOT = { has_country_flag = renamed_state_231 }
 		# This state has been renamed by another country
@@ -5282,10 +5967,45 @@ country_event = {
 	option = {
 		name = europe_reset_rename.231.a
 		231 = { reset_state_name = yes }
-		reset_province_name = 1599
+		reset_province_name = 15100
 		reset_province_name = 3653
 		set_country_flag = renamed_state_231
 		clr_global_flag = renamed_state_231
+	}
+}
+
+### Reset - rename 232
+country_event = {
+	id = europe_reset_rename.232
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 232
+		NOT = { has_country_flag = renamed_state_232 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_232
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_232 }
+				clr_country_flag = renamed_state_232
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.232.a
+		232 = { reset_state_name = yes }
+		reset_province_name = 3672
+		set_country_flag = renamed_state_232
+		clr_global_flag = renamed_state_232
 	}
 }
 
@@ -5295,7 +6015,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 233
 		NOT = { has_country_flag = renamed_state_233 }
 		# This state has been renamed by another country
@@ -5323,13 +6043,48 @@ country_event = {
 	}
 }
 
+### Reset - rename 234
+country_event = {
+	id = europe_reset_rename.234
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+		owns_state = 234
+		NOT = { has_country_flag = renamed_state_234 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_234
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_234 }
+				clr_country_flag = renamed_state_234
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.234.a
+		reset_province_name = 3734
+		reset_province_name = 3720
+		set_country_flag = renamed_state_234
+		clr_global_flag = renamed_state_234
+	}
+}
+
 ### Reset - rename 236
 country_event = {
 	id = europe_reset_rename.236
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 236
 		NOT = { has_country_flag = renamed_state_236 }
 		# This state has been renamed by another country
@@ -5364,7 +6119,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 238
 		NOT = { has_country_flag = renamed_state_238 }
 		# This state has been renamed by another country
@@ -5398,7 +6153,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 239
 		NOT = { has_country_flag = renamed_state_239 }
 		# This state has been renamed by another country
@@ -5433,7 +6188,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 241
 		NOT = { has_country_flag = renamed_state_241 }
 		# This state has been renamed by another country
@@ -5468,7 +6223,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 242
 		NOT = { has_country_flag = renamed_state_242 }
 		# This state has been renamed by another country
@@ -5503,7 +6258,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 243
 		NOT = { has_country_flag = renamed_state_243 }
 		# This state has been renamed by another country
@@ -5537,7 +6292,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 246
 		NOT = { has_country_flag = renamed_state_246 }
 		# This state has been renamed by another country
@@ -5572,7 +6327,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 247
 		NOT = { has_country_flag = renamed_state_247 }
 		# This state has been renamed by another country
@@ -5601,13 +6356,153 @@ country_event = {
 	}
 }
 
+### Reset - rename 248
+country_event = {
+	id = europe_reset_rename.248
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 248
+		NOT = { has_country_flag = renamed_state_248 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_248
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_248 }
+				clr_country_flag = renamed_state_248
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.248.a
+		248 = { reset_state_name = yes }
+		reset_province_name = 121
+		set_country_flag = renamed_state_248
+		clr_global_flag = renamed_state_248
+	}
+}
+
+### Reset - rename 249
+country_event = {
+	id = europe_reset_rename.249
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 249
+		NOT = { has_country_flag = renamed_state_249 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_249
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_249 }
+				clr_country_flag = renamed_state_249
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.249.a
+		249 = { reset_state_name = yes }
+		reset_province_name = 6338
+		set_country_flag = renamed_state_249
+		clr_global_flag = renamed_state_249
+	}
+}
+
+### Reset - rename 251
+country_event = {
+	id = europe_reset_rename.251
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 251
+		NOT = { has_country_flag = renamed_state_251 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_251
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_251 }
+				clr_country_flag = renamed_state_251
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.251.a
+		251 = { reset_state_name = yes }
+		reset_province_name = 11225
+		set_country_flag = renamed_state_251
+		clr_global_flag = renamed_state_251
+	}
+}
+
+### Reset - rename 252
+country_event = {
+	id = europe_reset_rename.252
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 252
+		NOT = { has_country_flag = renamed_state_252 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_252
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_252 }
+				clr_country_flag = renamed_state_252
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.252.a
+		252 = { reset_state_name = yes }
+		reset_province_name = 11375
+		set_country_flag = renamed_state_252
+		clr_global_flag = renamed_state_252
+	}
+}
+
 ### Reset - rename 253
 country_event = {
 	id = europe_reset_rename.253
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 253
 		NOT = { has_country_flag = renamed_state_253 }
 		# This state has been renamed by another country
@@ -5641,7 +6536,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 256
 		NOT = { has_country_flag = renamed_state_256 }
 		# This state has been renamed by another country
@@ -5675,7 +6570,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 258
 		NOT = { has_country_flag = renamed_state_258 }
 		# This state has been renamed by another country
@@ -5703,13 +6598,48 @@ country_event = {
 	}
 }
 
+### Reset - rename 260
+country_event = {
+	id = europe_reset_rename.260
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 260
+		NOT = { has_country_flag = renamed_state_260 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_260
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_260 }
+				clr_country_flag = renamed_state_260
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.260.a
+		260 = { reset_state_name = yes }
+		reset_province_name = 413
+		set_country_flag = renamed_state_260
+		clr_global_flag = renamed_state_260
+	}
+}
+
 ### Reset - rename 262
 country_event = {
 	id = europe_reset_rename.262
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 262
 		NOT = { has_country_flag = renamed_state_262 }
 		# This state has been renamed by another country
@@ -5737,13 +6667,48 @@ country_event = {
 	}
 }
 
+### Reset - rename 263
+country_event = {
+	id = europe_reset_rename.263
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 263
+		NOT = { has_country_flag = renamed_state_263 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_263
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_263 }
+				clr_country_flag = renamed_state_263
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.263.a
+		263 = { reset_state_name = yes }
+		reset_province_name = 117
+		set_country_flag = renamed_state_263
+		clr_global_flag = renamed_state_263
+	}
+}
+
 ### Reset - rename 264
 country_event = {
 	id = europe_reset_rename.264
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 264
 		NOT = { has_country_flag = renamed_state_264 }
 		# This state has been renamed by another country
@@ -5766,7 +6731,7 @@ country_event = {
 	option = {
 		name = europe_reset_rename.264.a
 		264 = { reset_state_name = yes }
-		reset_province_name = 3140
+		reset_province_name = 3141
 		set_country_flag = renamed_state_264
 		clr_global_flag = renamed_state_264
 	}
@@ -5778,7 +6743,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER } }
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
 		owns_state = 265
 		NOT = { has_country_flag = renamed_state_265 }
 		# This state has been renamed by another country
@@ -5806,13 +6771,48 @@ country_event = {
 	}
 }
 
+### Reset - rename 651
+country_event = {
+	id = europe_reset_rename.651
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER } }
+		owns_state = 651
+		NOT = { has_country_flag = renamed_state_651 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_651
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_651 }
+				clr_country_flag = renamed_state_651
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.651.a
+		651 = { reset_state_name = yes }
+		reset_province_name = 1278 
+		set_country_flag = renamed_state_651
+		clr_global_flag = renamed_state_651
+	}
+}
+
 ### Reset - rename 664
 country_event = {
 	id = europe_reset_rename.664
 	hidden = yes
 
 	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA } }
+		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
 		owns_state = 664
 		NOT = { has_country_flag = renamed_state_664 }
 		# This state has been renamed by another country
@@ -5838,5 +6838,351 @@ country_event = {
 		reset_province_name = 6573 
 		set_country_flag = renamed_state_664
 		clr_global_flag = renamed_state_664
+	}
+}
+
+### Reset - rename 338
+country_event = {
+	id = europe_reset_rename.338
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 338
+		NOT = { has_country_flag = renamed_state_338 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_338
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_338 }
+				clr_country_flag = renamed_state_338
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.338.a
+		reset_province_name = 3369
+		set_country_flag = renamed_state_338
+		clr_global_flag = renamed_state_338
+	}
+}
+
+### Reset - rename 220
+country_event = {
+	id = europe_reset_rename.220
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 220
+		NOT = { has_country_flag = renamed_state_220 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_220
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_220 }
+				clr_country_flag = renamed_state_220
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.220.a
+		220 = { reset_state_name = yes }
+		reset_province_name = 3580
+		set_country_flag = renamed_state_220
+		clr_global_flag = renamed_state_220
+	}
+}
+
+### Reset - rename 743
+country_event = {
+	id = europe_reset_rename.743
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 743
+		NOT = { has_country_flag = renamed_state_743 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_743
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_743 }
+				clr_country_flag = renamed_state_743
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.743.a
+		743 = { reset_state_name = yes }
+		reset_province_name = 575
+		reset_province_name = 11483
+		reset_province_name = 11548
+		set_country_flag = renamed_state_743
+		clr_global_flag = renamed_state_743
+	}
+}
+
+### Reset - rename 744
+country_event = {
+	id = europe_reset_rename.744
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 744
+		NOT = { has_country_flag = renamed_state_744 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_744
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_744 }
+				clr_country_flag = renamed_state_744
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.744.a
+		744 = { reset_state_name = yes }
+		reset_province_name = 11516
+		set_country_flag = renamed_state_744
+		clr_global_flag = renamed_state_744
+	}
+}
+
+### Reset - rename 745
+country_event = {
+	id = europe_reset_rename.745
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 745
+		NOT = { has_country_flag = renamed_state_745 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_745
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_745 }
+				clr_country_flag = renamed_state_745
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.745.a
+		745 = { reset_state_name = yes }
+		set_country_flag = renamed_state_745
+		clr_global_flag = renamed_state_745
+	}
+}
+
+### Reset - rename 746
+country_event = {
+	id = europe_reset_rename.746
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 746
+		NOT = { has_country_flag = renamed_state_746 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_746
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_746 }
+				clr_country_flag = renamed_state_746
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.746.a
+		746 = { reset_state_name = yes }
+		reset_province_name = 9627
+		set_country_flag = renamed_state_746
+		clr_global_flag = renamed_state_746
+	}
+}
+
+### Reset - rename 747
+country_event = {
+	id = europe_reset_rename.747
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 747
+		NOT = { has_country_flag = renamed_state_747 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_747
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_747 }
+				clr_country_flag = renamed_state_747
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.747.a
+		747 = { reset_state_name = yes }
+		set_country_flag = renamed_state_747
+		clr_global_flag = renamed_state_747
+	}
+}
+
+### Reset - rename 748
+country_event = {
+	id = europe_reset_rename.748
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 748
+		NOT = { has_country_flag = renamed_state_748 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_748
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_748 }
+				clr_country_flag = renamed_state_748
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.748.a
+		748 = { reset_state_name = yes }
+		set_country_flag = renamed_state_748
+		clr_global_flag = renamed_state_748
+	}
+}
+
+### Reset - rename 750
+country_event = {
+	id = europe_reset_rename.750
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 750
+		NOT = { has_country_flag = renamed_state_750 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_750
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_750 }
+				clr_country_flag = renamed_state_750
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.750.a
+		750 = { reset_state_name = yes }
+		set_country_flag = renamed_state_750
+		clr_global_flag = renamed_state_750
+	}
+}
+
+### Reset - rename 751
+country_event = {
+	id = europe_reset_rename.751
+	hidden = yes
+
+	trigger = {
+		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
+		owns_state = 751
+		NOT = { has_country_flag = renamed_state_751 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_751
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_751 }
+				clr_country_flag = renamed_state_751
+			}
+		}
+	}
+
+	option = {
+		name = europe_reset_rename.751.a
+		751 = { reset_state_name = yes }
+		set_country_flag = renamed_state_751
+		clr_global_flag = renamed_state_751
 	}
 }

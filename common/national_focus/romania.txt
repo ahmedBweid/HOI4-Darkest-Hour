@@ -1919,7 +1919,7 @@ focus_tree = {
 				}
 				id = 550
 			}
-			remove_ideas = paternal_autocrat_idea
+			remove_ideas = neutrality_idea
 		}
 	}
 
@@ -2585,8 +2585,14 @@ focus_tree = {
 			has_idea = ROM_king_carol_ii_hedonist
 			OR = {
 				social_conservative > 0.35
+				market_liberal > 0.35
+				social_liberal > 0.35
+				social_democrat > 0.35
 				stalinist > 0.35
+				leninist > 0.35
+				left_wing_radical > 0.35
 				fascist > 0.35
+				national_socialist > 0.35
 			}
 			is_subject = no
 		}
@@ -2618,10 +2624,45 @@ focus_tree = {
 					elections_allowed = yes
 				}
 				limit = {
+					market_liberal > 0.35
+				}
+				set_politics = {
+					ruling_party = market_liberal
+					elections_allowed = yes
+				}
+				limit = {
+					social_liberal > 0.35
+				}
+				set_politics = {
+					ruling_party = social_liberal
+					elections_allowed = yes
+				}
+				limit = {
+					social_democrat > 0.35
+				}
+				set_politics = {
+					ruling_party = social_democrat
+					elections_allowed = yes
+				}
+				limit = {
 					stalinist > 0.35
 				}
 				set_politics = {
 					ruling_party = stalinist
+					elections_allowed = no
+				}
+				limit = {
+					leninist > 0.35
+				}
+				set_politics = {
+					ruling_party = leninist
+					elections_allowed = no
+				}
+				limit = {
+					left_wing_radical > 0.35
+				}
+				set_politics = {
+					ruling_party = left_wing_radical
 					elections_allowed = no
 				}
 				limit = {
@@ -2631,6 +2672,14 @@ focus_tree = {
 					ruling_party = fascist
 					elections_allowed = no
 				}
+				limit = {
+					national_socialist > 0.35
+				}
+				set_politics = {
+					ruling_party = national_socialist
+					elections_allowed = no
+				}
+
 			}
 			if = {
 				limit = {
@@ -2734,7 +2783,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_constitutional_guarantees
-		icon = GFX_goal_generic_paternal_autocrat_focus
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = ROM_appoint_allied_friendly_government }
 		x = 0
 		y = 1
@@ -2807,7 +2856,12 @@ focus_tree = {
 					tooltip = ROM_carol_current_leader_trigger
 					has_country_leader = { id = 550 }
 				}
-				has_government = social_conservative
+				OR = {
+					has_government = social_conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+				}
 			}
 		}
 
@@ -2832,11 +2886,58 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = social_conservative }
+					AND = {
+						social_conservative > market_liberal
+						social_conservative > social_liberal
+						Social_conservative > social_democrat
+						NOT = { has_government = social_conservative }
+					}
 				}
 				set_politics = {
 					ruling_party = social_conservative
 					elections_allowed = yes
+				}
+				limit = {
+					AND = {
+						market_liberal > social_conservative
+						market_liberal > social_liberal
+						market_liberal > social_democrat
+						NOT = { has_government = market_liberal }
+					}
+				}
+				set_politics = {
+					ruling_party = market_liberal
+					elections_allowed = yes
+				}
+				limit = {
+					AND = {
+						social_liberal > market_liberal
+						social_liberal > social_conservative
+						social_liberal > social_democrat
+						NOT = { has_government = social_liberal }
+					}
+				}
+				set_politics = {
+					ruling_party = social_liberal
+					elections_allowed = yes
+				}
+				limit = {
+					AND = {
+						social_democrat > market_liberal
+						social_democrat > social_liberal
+						social_democrat > social_conservative
+						NOT = { has_government = social_democrat }
+					}
+				}
+				set_politics = {
+					ruling_party = social_democrat
+					elections_allowed = yes
+				}
+				else = {
+					set_politics = {
+						ruling_party = social_conservative
+						elections_allowed = yes
+					}
 				}
 			}
 			swap_ideas = {

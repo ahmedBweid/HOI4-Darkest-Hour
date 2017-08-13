@@ -394,6 +394,9 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
+				market_liberal_drift = -0.1
+				social_liberal_drift = -0.1
+				social_democrat_drift = -0.1
 				fascist_drift = 0.2
 			}
 		}
@@ -409,10 +412,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
+				market_liberal_drift = -0.1
+				social_liberal_drift = -0.1
+				social_democrat_drift = -0.1
 				fascist_drift = 0.2
 				unity_factor = 0.05
 				conscription = 0.02
@@ -430,10 +436,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
+				market_liberal_drift = -0.1
+				social_liberal_drift = -0.1
+				social_democrat_drift = -0.1
 				fascist_drift = 0.2
 				unity_factor = 0.05
 				conscription = 0.02
@@ -457,6 +466,9 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
+				market_liberal_drift = -0.1
+				social_liberal_drift = -0.1
+				social_democrat_drift = -0.1
 				stalinist_drift = 0.2
 			}
 		}
@@ -476,6 +488,9 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
+				market_liberal_drift = -0.1
+				social_liberal_drift = -0.1
+				social_democrat_drift = -0.1
 				stalinist_drift = 0.2
 				industrial_capacity_factory = 0.02
 				industrial_capacity_dockyard = 0.02
@@ -499,6 +514,9 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
+				market_liberal_drift = -0.1
+				social_liberal_drift = -0.1
+				social_democrat_drift = -0.1
 				stalinist_drift = 0.2
 				industrial_capacity_factory = 0.04
 				industrial_capacity_dockyard = 0.04
@@ -570,7 +588,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_fascist_demagogue_commonwealth_2d
+			picture = generic_fascism_demagogue_commonwealth_2d
 			
 			traits = { fascist_demagogue }
 			

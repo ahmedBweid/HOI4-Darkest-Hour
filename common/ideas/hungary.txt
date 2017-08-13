@@ -85,11 +85,14 @@ ideas = {
 			
 			modifier = {
 				social_conservative_drift = 0.02
+				market_liberal_drift = 0.02
+				social_liberal_drift = 0.02
+				social_democrat_drift = 0.02
 				unity_factor = 0.1
 			}
 		}
 
-		HUN_hungarian_monarchy_fascist = {			
+		HUN_hungarian_monarchy_fascism = {			
 
 			allowed_civil_war = {
 				has_government = fascist
@@ -157,7 +160,7 @@ ideas = {
 
 		HUN_strengthen_fascists = {
 
-			picture = generic_fascist_drift_2
+			picture = generic_fascism_drift_2
 			
 			modifier = {
 				fascist_drift = 0.03
