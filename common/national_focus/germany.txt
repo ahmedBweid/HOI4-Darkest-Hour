@@ -5319,7 +5319,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Amerika
-		icon = GFX_focus_YUG_rogozarski
+		icon = GFX_focus_GER_amerika_bomber
 		cost = 12.00
 		prerequisite = {
 			focus = GER_extra_tech_slot
@@ -5366,7 +5366,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_amerikaproject
-		icon = GFX_focus_generic_strike_at_democracy3
+		icon = GFX_focus_GER_project_amerika
 		cost = 12.00
 		prerequisite = {
 			focus = GER_extra_tech_slot
