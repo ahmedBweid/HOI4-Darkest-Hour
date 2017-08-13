@@ -1544,12 +1544,36 @@ focus_tree = {
 					add_ideas = fascist_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = national_socialist } }
+					add_ideas = national_socialist_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_liberal } }
+					add_ideas = social_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_democrat } }
+					add_ideas = social_democrat_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = stalinist } }
 					add_ideas = stalinist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = leninist } }
+					add_ideas = leninist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = left_wing_radical } }
+					add_ideas = left_wing_radical_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -1661,12 +1685,36 @@ focus_tree = {
 					add_ideas = fascist_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = national_socialist } }
+					add_ideas = national_socialist_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_liberal } }
+					add_ideas = social_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_democrat } }
+					add_ideas = social_democrat_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = stalinist } }
 					add_ideas = stalinist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = leninist } }
+					add_ideas = leninist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = left_wing_radical } }
+					add_ideas = left_wing_radical_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -1704,10 +1752,16 @@ focus_tree = {
 		prerequisite = { focus = ITA_bulgaria_friend }
 		mutually_exclusive = { focus = ITA_italy_first }
 		available = {
-			has_government = fascist
+			OR = {
+				has_government = fascist
+				has_government = national_socialist
+			}
 			NOT = { has_war_with = GER }
-			GER = { 
-				has_government = fascist 
+			GER = {
+				OR = {
+					has_government = fascist
+					has_government = national_socialist
+				}
 				country_exists = GER
 			}
 		}
@@ -1914,12 +1968,36 @@ focus_tree = {
 					add_ideas = fascist_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = national_socialist } }
+					add_ideas = national_socialist_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_liberal } }
+					add_ideas = social_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_democrat } }
+					add_ideas = social_democrat_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = stalinist } }
 					add_ideas = stalinist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = leninist } }
+					add_ideas = leninist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = left_wing_radical } }
+					add_ideas = left_wing_radical_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -2011,7 +2089,10 @@ focus_tree = {
 				OR = {
 					NOT = { country_exists = THIS }
 					has_capitulated = yes
-					has_government = fascist
+					OR = {
+						has_government = fascist
+						has_government = national_socialist
+					}
 				}
 			}			
 		}
@@ -2067,12 +2148,36 @@ focus_tree = {
 					add_ideas = fascist_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = national_socialist } }
+					add_ideas = national_socialist_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_liberal } }
+					add_ideas = social_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_democrat } }
+					add_ideas = social_democrat_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = stalinist } }
 					add_ideas = stalinist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = leninist } }
+					add_ideas = leninist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = left_wing_radical } }
+					add_ideas = left_wing_radical_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -2140,12 +2245,36 @@ focus_tree = {
 					add_ideas = fascist_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = national_socialist } }
+					add_ideas = national_socialist_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_liberal } }
+					add_ideas = social_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_democrat } }
+					add_ideas = social_democrat_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = stalinist } }
 					add_ideas = stalinist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = leninist } }
+					add_ideas = leninist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = left_wing_radical } }
+					add_ideas = left_wing_radical_influence
 				}
 				country_event = { id = generic.1 }
 			}
@@ -2291,12 +2420,36 @@ focus_tree = {
 					add_ideas = fascist_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = national_socialist } }
+					add_ideas = national_socialist_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_liberal } }
+					add_ideas = social_liberal_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = social_democrat } }
+					add_ideas = social_democrat_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = stalinist } }
 					add_ideas = stalinist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = leninist } }
+					add_ideas = leninist_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = left_wing_radical } }
+					add_ideas = left_wing_radical_influence
 				}
 				country_event = { id = generic.1 }
 			}

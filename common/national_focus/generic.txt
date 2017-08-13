@@ -1646,7 +1646,7 @@ focus_tree = {
 						is_historical_focus_on = yes
 						has_government = paternal_autocrat
 					}
-					has_idea = paternal_autocrat_idea
+					has_idea = neutrality_idea
 				}
 			}
 		}
@@ -1799,8 +1799,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = paternal_autocrat_idea }
-				remove_ideas = paternal_autocrat_idea
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
 			}
 			add_ideas = militarism_focus
 			army_experience = 20
@@ -1820,8 +1820,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = paternal_autocrat_idea }
-				remove_ideas = paternal_autocrat_idea
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
 			}		
 			add_political_power = 200
 			add_ideas = idea_political_correctness
@@ -1829,8 +1829,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = paternal_autocrat_focus
-		icon = GFX_goal_generic_paternal_autocrat_focus
+		id = neutrality_focus
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = liberty_ethos }
 		mutually_exclusive = { focus = interventionism_focus }
 		x = 20
@@ -1841,8 +1841,8 @@ focus_tree = {
 
 		completion_reward = {
 			if = {
-				limit = { NOT = { has_idea = paternal_autocrat_idea } }
-				add_ideas = paternal_autocrat_idea
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
 			}
 			add_political_power = 150
 		}
@@ -1852,7 +1852,7 @@ focus_tree = {
 		id = interventionism_focus
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = liberty_ethos }
-		mutually_exclusive = { focus = paternal_autocrat_focus }
+		mutually_exclusive = { focus = neutrality_focus }
 		x = 22
 		y = 2
 		cost = 10
@@ -1864,14 +1864,14 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_idea = paternal_autocrat_idea
+				has_idea = neutrality_idea
 			}
 		}
 
 		completion_reward = {
 			if = {
-				limit = { has_idea = paternal_autocrat_idea }
-				remove_ideas = paternal_autocrat_idea
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
 			}	
 			set_rule = { can_send_volunteers = yes }
 			add_political_power = 150
@@ -1910,7 +1910,7 @@ focus_tree = {
 	focus = {
 		id = deterrence
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = paternal_autocrat_focus }
+		prerequisite = { focus = neutrality_focus }
 		x = 20
 		y = 3
 		cost = 10
@@ -2007,7 +2007,7 @@ focus_tree = {
 			custom_effect_tooltip = why_we_fight_effect
 			hidden_effect = {
 				if = {
-					limit = { NOT = { has_idea = paternal_autocrat_idea } }
+					limit = { NOT = { has_idea = neutrality_idea } }
 					set_rule = { can_create_factions = yes }
 				}			
 			}

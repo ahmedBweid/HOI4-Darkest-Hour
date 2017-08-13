@@ -2016,7 +2016,7 @@ focus_tree = {
 
 	focus = {
 		id = NZL_waitangi_tribunal
-		icon = GFX_goal_generic_paternal_autocrat_focus
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = NZL_the_manpower_act }
 		mutually_exclusive = { focus = NZL_amend_the_maori_affairs_act }
 		x = 1

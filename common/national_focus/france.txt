@@ -1298,7 +1298,27 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier =  FRA_leftist_rhetoric_stalinist
+					modifier =  FRA_leftist_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = leninist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_leftist_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = left_wing_radical
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_leftist_rhetoric_communism
 				}
 			}
 			every_other_country = {
@@ -1308,7 +1328,37 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT
-					modifier = FRA_leftist_rhetoric_social_conservative
+					modifier = FRA_leftist_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = market_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_leftist_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_leftist_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_democrat
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_leftist_rhetoric_democratic
 				}
 			}
 			every_other_country = {
@@ -1318,7 +1368,17 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier = FRA_leftist_rhetoric_fascist
+					modifier = FRA_leftist_rhetoric_fascism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = national_socialist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_leftist_rhetoric_fascism
 				}
 			}
 		}
@@ -1352,7 +1412,7 @@ focus_tree = {
 
 	focus = {
 		id = FRA_join_comintern
-		icon = GFX_goal_support_stalinist
+		icon = GFX_goal_support_communism
 		mutually_exclusive = { focus = FRA_humanite_unie }
 	 	available = {
 	 		is_puppet = no
@@ -1829,7 +1889,17 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier =  FRA_right_wing_rhetoric_fascist
+					modifier =  FRA_right_wing_rhetoric_fascism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = national_socialist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_right_wing_rhetoric_fascism
 				}
 			}
 			every_other_country = {
@@ -1839,7 +1909,37 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT
-					modifier = FRA_right_wing_rhetoric_social_conservative
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = market_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_democrat
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
 				}
 			}
 			every_other_country = {
@@ -1849,9 +1949,29 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier = FRA_right_wing_rhetoric_stalinist
+					modifier = FRA_right_wing_rhetoric_communism
 				}
-			}			
+			}
+			every_other_country = {
+				limit = { 
+					has_government = leninist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_right_wing_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = left_wing_radical
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_right_wing_rhetoric_communism
+				}
+			}
 		}
 	}
 	
@@ -1918,7 +2038,9 @@ focus_tree = {
 	 		NOT = { has_war_with = ITA }
 	 		OR = {
 	 			has_government = fascist
+	 			has_government = national_socialist
 	 			fascist > 0.4
+	 			national_socialist > 0.4
 	 		}
 	 		OR = {
 	 			is_faction_leader = yes
@@ -1927,7 +2049,10 @@ focus_tree = {
 	 		ITA = {
 	 			exists = yes
 	 			is_in_faction = no
-	 			has_government = fascist
+	 			OR = {
+	 				has_government = fascist
+	 				has_government = national_socialist
+	 			}
 	 			is_puppet = no
 	 		}
 		}
@@ -1954,12 +2079,16 @@ focus_tree = {
 	 		NOT = { has_war_with = GER }
 	 		OR = {
 	 			has_government = fascist
+	 			has_government = national_socialist
 	 			fascist > 0.4
+	 			national_socialist > 0.4
 	 		}
-	 		
 	 		GER = {
 	 			exists = yes
-	 			has_government = fascist
+	 			OR = {
+	 				has_government = fascist
+	 				has_government = national_socialist
+	 			}
  				is_faction_leader = yes
 	 		}
 		}

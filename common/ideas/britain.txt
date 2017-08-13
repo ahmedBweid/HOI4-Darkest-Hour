@@ -61,7 +61,7 @@ ideas = {
 
 		}
 
-		ENG_king_edward_fascist = {
+		ENG_king_edward_fascism = {
 			
 			allowed = {
 				original_tag = ENG
