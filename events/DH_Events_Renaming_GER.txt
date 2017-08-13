@@ -4397,43 +4397,43 @@ country_event = {
 	}
   }
   
-   country_event = {
-	id = ger_rename.190
-	hidden = yes
-
-	trigger = {
-		OR = { tag = AUS tag = GER is_subject_of = GER }
-		controls_state = 190
-		NOT = { has_country_flag = renamed_state_190 }
-	}
-
-	mean_time_to_happen = {
-		days = 3
-	}
-
-	immediate = {
-		hidden_effect = {
-			every_country = {
-				limit = { has_country_flag = renamed_state_190 }
-				clr_country_flag = renamed_state_190
-			}
-		}
-	}
-
-	option = {
-	    190 = { set_state_name = "Kurland" }   
-		set_country_flag = renamed_state_190
-		set_global_flag = renamed_state_190
-	}
-  }
+#   country_event = {
+#	id = ger_rename.190
+#	hidden = yes
+#
+#	trigger = {
+#		OR = { tag = AUS tag = GER is_subject_of = GER }
+#		controls_state = 190
+#		NOT = { has_country_flag = renamed_state_190 }
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 3
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			every_country = {
+#				limit = { has_country_flag = renamed_state_190 }
+#				clr_country_flag = renamed_state_190
+#			}
+#		}
+#	}
+#
+#	option = {
+#	    190 = { set_state_name = "Kurland" }   
+#		set_country_flag = renamed_state_190
+#		set_global_flag = renamed_state_190
+#	}
+#  }
   
    country_event = {
-	id = ger_rename.192
+	id = ger_rename.191
 	hidden = yes
 
 	trigger = {
 		OR = { tag = AUS tag = GER is_subject_of = GER }
-		controls_state = 192
+		controls_state = 191
 		NOT = { has_country_flag = renamed_state_192 }
 	}
 
@@ -4444,17 +4444,17 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			every_country = {
-				limit = { has_country_flag = renamed_state_192 }
-				clr_country_flag = renamed_state_192
+				limit = { has_country_flag = renamed_state_191 }
+				clr_country_flag = renamed_state_191
 			}
 		}
 	}
 
 	option = {
-	    192 = { set_state_name = "Dorpat" } 
+	    191 = { set_state_name = "Dorpat" } 
 		set_province_name = { id = 9221 name = "Dorpat"}  
-		set_country_flag = renamed_state_192
-		set_global_flag = renamed_state_192
+		set_country_flag = renamed_state_191
+		set_global_flag = renamed_state_191
 	}
   }
   
@@ -6302,12 +6302,11 @@ country_event = {
 		set_province_name = { id = 11483 name = "Ryssel"}
 		set_province_name = { id = 11548 name = "Kalen"}
 		set_province_name = { id = 575 name = "Dünkirchen"}
-		743 = { set_state_name = "Südniederlande" 
+		743 = { set_state_name = "Südniederlande" }
 		set_country_flag = renamed_state_743
 		set_global_flag = renamed_state_743
 	}
   }
-}
 
 # GER - rename 744 
 country_event = {
