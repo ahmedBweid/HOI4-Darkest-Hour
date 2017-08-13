@@ -741,7 +741,7 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = SAF_abandon_westminster
-				add_idea = SAF_abandon_westminster_fascist
+				add_idea = SAF_abandon_westminster_fascism
 			}
 		}
 	}
@@ -764,14 +764,26 @@ focus_tree = {
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascist } }
+					limit = {
+						NOT = {
+							OR ={
+								has_government = fascist
+								has_government = national_socialist
+							}
+						}
+					}
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.65
 					}
 				}
 				if = {
-					limit = { has_government = fascist } 
+					limit = {
+						OR ={
+							has_government = fascist
+							has_government = national_socialist
+						}
+					} 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.65
@@ -796,7 +808,7 @@ focus_tree = {
 			army_experience = 15
 			swap_ideas = {
 				remove_idea = SAF_ossewabrandwag
-				add_idea = SAF_ossewabrandwag_fascist
+				add_idea = SAF_ossewabrandwag_fascism
 			}
 		}
 	}
@@ -1056,14 +1068,26 @@ focus_tree = {
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascist } }
+					limit = {
+						NOT = {
+							OR = {
+								has_government = fascist
+								has_government = national_socialist
+							}
+						}
+					}
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.80
 					}
 				}
 				if = {
-					limit = { has_government = fascist } 
+					limit = {
+						OR = {
+							has_government = fascist
+							has_government = national_socialist
+						}
+					} 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.80
@@ -1074,6 +1098,7 @@ focus_tree = {
 		
 		bypass = {
 			has_government = fascist
+			has_government = national_socialist
 		}
 
 		cancel_if_invalid = yes
@@ -1127,9 +1152,12 @@ focus_tree = {
 				random_country = {
 					limit = {
 						original_tag = GER
-						has_government = fascist
+						OR = {
+							has_government = fascist
+							has_government = national_socialist
+						}
 					}
-					set_country_flag = saf_fascist_uprising # Affects GER ai_strategy
+					set_country_flag = saf_fascism_uprising # Affects GER ai_strategy
 				}
 			}
 		}
@@ -1269,7 +1297,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				NOT  = { ENG = { has_idea = ENG_king_edward } }
-				NOT = { ENG = { has_idea = ENG_king_edward_fascist } }
+				NOT = { ENG = { has_idea = ENG_king_edward_fascism } }
 				ENG = { has_country_flag = ENG_king_died }
 				tooltip = SAF_a_king_for_our_people_trigger_tt					
 			}
@@ -1368,12 +1396,28 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 0.5
-			modifier = {	#will make country more likely to go down this path if player boosts stalinist support
+			modifier = {#will make country more likely to go down this path if player boosts stalinist support
 				stalinist > 0.1
 				factor = 10
 			}
 			modifier = {
 				stalinist > 0.2
+				factor = 10
+			}
+			modifier = {
+				leninist > 0.1
+				factor = 10
+			}
+			modifier = {
+				leninist > 0.2
+				factor = 10
+			}
+			modifier = {
+				left_wing_radical > 0.1
+				factor = 10
+			}
+			modifier = {
+				left_wing_radical > 0.2
 				factor = 10
 			}
 		}
@@ -1426,19 +1470,35 @@ focus_tree = {
 			}
 			OR = {
 				has_government = stalinist
+				has_government = leninist
+				has_government = left_wing_radical
 				stalinist > 0.1
+				leninist > 0.1
+				left_wing_radical > 0.1
 			}
 			OR = {
 				is_subject = no
 				if = {
-					limit = { NOT = { has_government = fascist } }
+					limit = {
+						NOT = {
+							OR ={
+								has_government = fascist
+								has_government = national_socialist
+							}
+						}
+					}
 					AND = {
 						has_autonomy_state = autonomy_dominion
 						compare_autonomy_progress_ratio > 0.65
 					}
 				}
 				if = {
-					limit = { has_government = fascist } 
+					limit = {
+						OR ={
+							has_government = fascist
+							has_government = national_socialist
+						}
+					} 
 					AND = {
 						has_autonomy_state = autonomy_satellite
 						compare_autonomy_progress_ratio > 0.65
@@ -1480,7 +1540,11 @@ focus_tree = {
 		}
 
 		available = {
-		stalinist > 0.1
+			OR = {
+				stalinist > 0.1
+				leninist > 0.1
+				left_wing_radical > 0.1
+			}
 		}
 		
 		bypass = {
@@ -1496,9 +1560,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-		add_political_power = 120
-		add_ideas =  SAF_black_volunteers
-		swap_ideas = {
+			add_political_power = 120
+			add_ideas =  SAF_black_volunteers
+			swap_ideas = {
 				remove_idea = SAF_ossewabrandwag
 				add_idea = SAF_ossewabrandwag_2
 			}
@@ -1555,7 +1619,11 @@ focus_tree = {
 		}
 
 		available = {
-			stalinist > 0.35
+			OR = {
+				stalinist > 0.35
+				leninist > 0.35
+				left_wing_radical > 0.35
+			}
 			OR = {
 				compare_autonomy_progress_ratio > 0.7
 				is_subject = no
@@ -1577,12 +1645,12 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 			add_popularity = {	
-						ideology = stalinist
-						popularity = 0.5
-					}
+				ideology = stalinist
+				popularity = 0.5
+			}
 			hidden_effect = {
-			news_event = { hours = 6 id = news.263 }
-					}
+				news_event = { hours = 6 id = news.263 }
+			}
 		}
 	}
 	focus = {
@@ -1626,18 +1694,18 @@ focus_tree = {
 
 		completion_reward = {
 			ENG = { 
-					remove_from_faction = SAF
-					add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders }
-			 }
+				remove_from_faction = SAF
+				add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders }
+			}
 			FRA = { 
-			 		add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders } 
-			 }
+				add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders } 
+			}
 			BEL = { 
-			 		add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders } 
-			 }
+				add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders } 
+			}
 			POR = { 
-			 		add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders } 
-			 }
+				add_opinion_modifier = { target = SAF modifier = SAF_anti_colonialist_crusaders } 
+			}
 		}
 	}
 
@@ -2003,7 +2071,13 @@ focus_tree = {
 			FRA = {
 				has_capitulated = yes
 				exists = yes #otherwise Franco-British union might screw things up
-				NOT = { has_government = stalinist }
+				NOT = {
+					AND = {
+						has_government = stalinist
+						has_government = leninist
+						has_government = left_wing_radical
+					}
+				}
 			}
 		}
 		
@@ -2022,7 +2096,7 @@ focus_tree = {
 		completion_reward = {
 			FRA = {
 				custom_effect_tooltip = needs_approval
-					country_event = { id = tfv_south_africa.30 hours = 12 }
+				country_event = { id = tfv_south_africa.30 hours = 12 }
 			}
 			hidden_effect = {
 				news_event = { id = news.265 }

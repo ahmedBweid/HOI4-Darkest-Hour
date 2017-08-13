@@ -150,11 +150,51 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 			
 			modifier = {
 				fascist_drift = 0.1
 				fascist_acceptance = 85
+			}
+		}
+
+		national_socialist_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = national_socialist
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				national_socialist_drift = 0.1
+				national_socialist_acceptance = 85
+			}
+		}
+
+		paternal_autocrat_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = paternal_autocrat
+			}
+
+			removal_cost = -1
+
+			picture = generic_fascism_drift_bonus
+			
+			modifier = {
+				paternal_autocrat_drift = 0.1
+				paternal_autocrat_acceptance = 85
 			}
 		}
 		
@@ -171,13 +211,56 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_stalinist_drift_bonus
+			picture = generic_communism_bonus
 			
 			modifier = {
 				stalinist_drift = 0.1
 				stalinist_acceptance = 85
 			}
 		}
+
+		leninist_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = leninist
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_bonus
+			
+			modifier = {
+				leninist_drift = 0.1
+				leninist_acceptance = 85
+			}
+		}
+
+		left_wing_radical_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = left_wing_radical
+			}
+
+			removal_cost = -1
+
+			picture = generic_communism_bonus
+			
+			modifier = {
+				left_wing_radical_drift = 0.1
+				left_wing_radical_acceptance = 85
+			}
+		}
+
 		social_conservative_influence = {
 			
 			
@@ -191,11 +274,74 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				social_conservative_drift = 0.1
 				social_conservative_acceptance = 85
+			}
+		}
+
+		market_liberal_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = market_liberal
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				market_liberal_drift = 0.1
+				market_liberal_acceptance = 85
+			}
+		}
+
+		social_liberal_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = social_liberal
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				social_liberal_drift = 0.1
+				social_liberal_acceptance = 85
+			}
+		}
+
+		social_democrat_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = social_democrat
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				social_democrat_drift = 0.1
+				social_democrat_acceptance = 85
 			}
 		}
 		
@@ -208,7 +354,10 @@ ideas = {
 				OR = {
 					AND = {
 						tag = GER
-						has_government = fascist
+						OR = {
+							has_government = fascist
+							has_government = national_socialist
+						}
 						SOV = {
 							has_government = stalinist
 						}
@@ -217,7 +366,10 @@ ideas = {
 						tag = SOV
 						has_government = stalinist
 						GER = {
-							has_government = fascist
+							OR = {
+								has_government = fascist
+								has_government = national_socialist
+							}
 						}
 					}
 				}
@@ -227,7 +379,7 @@ ideas = {
 			
 			modifier = {
 				stalinist_acceptance = 100
-				fascist_acceptance = 100
+				national_socialist_acceptance = 100
 			}
 		}
 		
@@ -273,6 +425,9 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.02
+				market_liberal_drift = -0.02
+				social_liberal_drift = -0.02
+				social_democrat_drift = -0.02
 			}
 		}
 	
@@ -289,7 +444,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 	
 			modifier = {
 				trade_opinion_factor = 0.2
@@ -432,16 +587,14 @@ ideas = {
 			}
 		}
 	
-		paternal_autocrat_idea = {
+		neutrality_idea = {
 			
 			
 			allowed = {
 				always = no
 			}
 
-			allowed_civil_war = {
-				has_government = paternal_autocrat
-			}
+			allowed_civil_war = { always = yes }
 
 			cancel = {
 				has_war = yes
@@ -574,7 +727,7 @@ ideas = {
 
 		fascist_banned = {
 
-			picture = generic_fascist_banned
+			picture = generic_fascism_banned
 
 			allowed = {
 				always = no

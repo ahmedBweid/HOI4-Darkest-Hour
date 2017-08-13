@@ -2448,7 +2448,76 @@ focus_tree = {
 		}
 
 		available = {
-			ENG = { has_government = ROOT }
+			OR = {
+				if = {
+					limit = {
+						CAN = {
+							OR = {
+								has_government = social_conservative
+								has_government = market_liberal
+								has_government = social_liberal
+								has_government = social_democrat
+							}
+						}
+					}
+					ENG = {
+						OR = {
+							has_government = social_conservative
+							has_government = market_liberal
+							has_government = social_liberal
+							has_government = social_democrat
+						}
+					}
+				}
+				if = {
+					limit = {
+						CAN = {
+							OR = {
+								has_government = national_socialist
+								has_government = fascist
+							}
+						}
+					}
+					ENG = {
+						OR = {
+							has_government = national_socialist
+							has_government = fascist
+						}
+					}
+				}
+				if = {
+					limit = {
+						CAN = {
+							OR = {
+								has_government = paternal_autocrat
+							}
+						}
+					}
+					ENG = {
+						OR = {
+							has_government = paternal_autocrat
+						}
+					}
+				}
+				if = {
+					limit = {
+						CAN = {
+							OR = {
+								has_government = stalinist
+								has_government = leninist
+								has_government = left_wing_radical
+							}
+						}
+					}
+					ENG = {
+						OR = {
+							has_government = stalinist
+							has_government = leninist
+							has_government = left_wing_radical
+						}
+					}
+				}
+			}
 			is_in_tech_sharing_group = commonwealth_research
 		}
 		
@@ -2885,8 +2954,11 @@ focus_tree = {
 			modifier = {
 				OR = {
 					stalinist > 0.15
+					leninist > 0.15
+					left_wing_radical > 0.15
 					fascist > 0.15
-					}
+					national_socialist > 0.15
+				}
 				factor = 2.5
 			}
 		}
@@ -2945,6 +3017,30 @@ focus_tree = {
 				social_conservative < 0.4
 				factor = 0.5
 			}
+			modifier = {
+				market_liberal > 0.6
+				factor = 2
+			}
+			modifier = {
+				market_liberal < 0.4
+				factor = 0.5
+			}
+			modifier = {
+				social_liberal > 0.6
+				factor = 2
+			}
+			modifier = {
+				social_liberal < 0.4
+				factor = 0.5
+			}
+			modifier = {
+				social_democrat > 0.6
+				factor = 2
+			}
+			modifier = {
+				social_democrat < 0.4
+				factor = 0.5
+			}
 		}
 
 		available = {
@@ -2955,7 +3051,26 @@ focus_tree = {
 				has_wargoal_against = USA
 				has_war_together_with = ENG
 			}
-			USA = { has_government = ROOT }			
+			if = {
+				limit = {
+					CAN = {
+						OR = {
+							has_government = social_conservative
+							has_government = market_liberal
+							has_government = social_liberal
+							has_government = social_democrat
+						}
+					}
+				}
+				USA = {
+					OR = {
+						has_government = social_conservative
+						has_government = market_liberal
+						has_government = social_liberal
+						has_government = social_democrat
+					}
+				}
+			}		
 		}
 		
 		bypass = {
@@ -3127,6 +3242,14 @@ focus_tree = {
 			}
 			modifier = {
 				fascist > 0.35
+				factor = 4
+			}
+			modifier = {
+				national_socialist > 0.25
+				factor = 2
+			}
+			modifier = {
+				national_socialist > 0.35
 				factor = 4
 			}
 		}
@@ -3501,6 +3624,14 @@ focus_tree = {
 			factor = 25
 			modifier = {
 				stalinist > 0.2
+				factor = 2
+			}
+			modifier = {
+				leninist > 0.2
+				factor = 2
+			}
+			modifier = {
+				left_wing_radical > 0.2
 				factor = 2
 			}
 		}

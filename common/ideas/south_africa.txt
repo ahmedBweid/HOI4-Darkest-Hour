@@ -42,7 +42,7 @@ ideas = {
 			}
 		}
 
-		SAF_ossewabrandwag_fascist = {
+		SAF_ossewabrandwag_fascism = {
 			allowed = {
 				always = no
 			}
@@ -53,7 +53,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = saf_ossewabrandwag_fascist
+			picture = saf_ossewabrandwag_fascism
 
 			modifier = {
 				fascist_drift = 0.01
@@ -116,11 +116,14 @@ ideas = {
 			modifier = {
 				autonomy_gain = 0.5
 				social_conservative_drift = -0.03
+				market_liberal_drift = -0.03
+				social_liberal_drift = -0.03
+				social_democrat_drift = -0.03
 			}
 
 		}
 
-		SAF_abandon_westminster_fascist = {
+		SAF_abandon_westminster_fascism = {
 			allowed = {
 				always = no
 			}
@@ -131,11 +134,14 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = ast_abandon_the_westminster_system_fascist
+			picture = ast_abandon_the_westminster_system_fascism
 
 			modifier = {
 				autonomy_gain = 0.5
 				social_conservative_drift = -0.03
+				market_liberal_drift = -0.03
+				social_liberal_drift = -0.03
+				social_democrat_drift = -0.03
 				fascist_drift = 0.03
 			}
 
@@ -157,6 +163,9 @@ ideas = {
 			modifier = {
 				autonomy_gain = 1
 				social_conservative_drift = -0.03
+				market_liberal_drift = -0.03
+				social_liberal_drift = -0.03
+				social_democrat_drift = -0.03
 				stalinist_drift = 0.03
 			}
 
@@ -602,7 +611,7 @@ ideas = {
 
 		}
 
-		SAF_j_f_van_rensburg_fascist = {
+		SAF_j_f_van_rensburg_fascism = {
 			
 			allowed = {
 				original_tag = SAF

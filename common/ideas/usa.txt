@@ -367,7 +367,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			modifier = {
 				drift_defence_factor = 0.5
 			}
@@ -380,7 +380,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			modifier = {
 				social_conservative_drift = 0.05
 			}
@@ -411,7 +411,170 @@ ideas = {
 				social_conservative_drift = 0.05
 			}			
 		}
-			# idea for the protect Amercians focus - USA communist
+
+		# idea for the protect Amercians focus - USA market_liberal
+		american_influence_defence_market_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = market_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_influence_drift_market_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = market_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				market_liberal_drift = 0.05
+			}
+		} 
+		american_protection_drift_market_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = market_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_protection_defence_market_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = market_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				market_liberal_drift = 0.05
+			}			
+		}
+
+		# idea for the protect Amercians focus - USA social_liberal
+		american_influence_defence_social_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_influence_drift_social_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				social_liberal_drift = 0.05
+			}
+		} 
+		american_protection_drift_social_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_protection_defence_social_liberal = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_liberal
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				social_liberal_drift = 0.05
+			}			
+		}
+
+		# idea for the protect Amercians focus - USA social_democrat
+		american_influence_defence_social_democrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_democrat
+			}
+
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_influence_drift_social_democrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_democrat
+			}
+
+			removal_cost = -1
+			picture = generic_democratic_drift_bonus
+			modifier = {
+				social_democrat_drift = 0.05
+			}
+		} 
+		american_protection_drift_social_democrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_democrat
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_protection_defence_social_democrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = social_democrat
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				social_democrat_drift = 0.05
+			}			
+		}
+
+		# idea for the protect Amercians focus - USA stalinist
 		american_influence_defence_stalinist = {
 			allowed = { always = no	}
 
@@ -420,7 +583,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_stalinist_drift_bonus
+			picture = generic_communism_drift_bonus
 			modifier = {
 				drift_defence_factor = 0.5
 			}
@@ -433,7 +596,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_stalinist_drift_bonus
+			picture = generic_communism_drift_bonus
 			modifier = {
 				stalinist_drift = 0.05
 			}
@@ -464,21 +627,117 @@ ideas = {
 				stalinist_drift = 0.05
 			}			
 		}
-			# idea for the protect Amercians focus - USA fascist
-		american_influence_defence_fascist = {
+
+		# idea for the protect Amercians focus - USA left_wing_radical
+		american_influence_defence_left_wing_radical = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = fascist
+				has_government = left_wing_radical
 			}
 
 			removal_cost = -1
-			picture = generic_fascist_drift_bonus
+			picture = generic_communism_drift_bonus
 			modifier = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_influence_drift_fascist = {
+		american_influence_drift_left_wing_radical = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = left_wing_radical
+			}
+
+			removal_cost = -1
+			picture = generic_communism_drift_bonus
+			modifier = {
+				left_wing_radical_drift = 0.05
+			}
+		} 
+		american_protection_defence_left_wing_radical = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = left_wing_radical
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_protection_drift_left_wing_radical = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = left_wing_radical
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				left_wing_radical_drift = 0.05
+			}			
+		}
+
+		# idea for the protect Amercians focus - USA leninist
+		american_influence_defence_leninist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = leninist
+			}
+
+			removal_cost = -1
+			picture = generic_communism_drift_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_influence_drift_leninist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = leninist
+			}
+
+			removal_cost = -1
+			picture = generic_communism_drift_bonus
+			modifier = {
+				leninist_drift = 0.05
+			}
+		} 
+		american_protection_defence_leninist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = leninist
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_protection_drift_leninist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = leninist
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				leninist_drift = 0.05
+			}			
+		}
+
+		# idea for the protect Amercians focus - USA fascist
+		american_influence_defence_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
@@ -486,12 +745,25 @@ ideas = {
 			}
 
 			removal_cost = -1
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_influence_drift_fascism = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = fascist
+			}
+
+			removal_cost = -1
+			picture = generic_fascism_drift_bonus
 			modifier = {
 				fascist_drift = 0.05
 			}
 		} 
-		american_protection_defence_fascist = {
+		american_protection_defence_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
@@ -504,7 +776,7 @@ ideas = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_protection_drift_fascist = {
+		american_protection_drift_fascism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
@@ -517,6 +789,115 @@ ideas = {
 				fascist_drift = 0.05
 			}			
 		}
+
+		# idea for the protect Amercians focus - USA national_socialist
+		american_influence_defence_national_socialist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = national_socialist
+			}
+
+			removal_cost = -1
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_influence_drift_national_socialist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = national_socialist
+			}
+
+			removal_cost = -1
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				national_socialist_drift = 0.05
+			}
+		} 
+		american_protection_defence_national_socialist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = national_socialist
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_protection_drift_national_socialist = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = national_socialist
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				national_socialist_drift = 0.05
+			}			
+		}
+
+		# idea for the protect Amercians focus - USA paternal_autocrat
+		american_influence_defence_paternal_autocrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = paternal_autocrat
+			}
+
+			removal_cost = -1
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_influence_drift_paternal_autocrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = paternal_autocrat
+			}
+
+			removal_cost = -1
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				paternal_autocrat_drift = 0.05
+			}
+		} 
+		american_protection_defence_paternal_autocrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = paternal_autocrat
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+		american_protection_drift_paternal_autocrat = {
+			allowed = { always = no	}
+
+			allowed_civil_war = {
+				has_government = paternal_autocrat
+			}
+
+			removal_cost = -1
+			picture = generic_intel_bonus
+			modifier = {
+				paternal_autocrat_drift = 0.05
+			}			
+		}
+
 		USA_world_police = {
 			allowed = { always = no	}
 

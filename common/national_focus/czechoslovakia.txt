@@ -1354,7 +1354,7 @@ focus_tree = {
 		id = CZE_go_left
 		icon = GFX_focus_generic_soviet_politics
 		prerequisite = { focus = CZE_political_direction }
-		mutually_exclusive = { focus = CZE_social_conservative_bastion focus = CZE_go_right }
+		mutually_exclusive = { focus = CZE_democratic_bastion focus = CZE_go_right }
 		x = -2
 		y = 1
 		relative_position_id = CZE_political_direction
@@ -1400,7 +1400,27 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier =  FRA_leftist_rhetoric_stalinist
+					modifier =  FRA_leftist_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = leninist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_leftist_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = left_wing_radical
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_leftist_rhetoric_communism
 				}
 			}
 			every_other_country = {
@@ -1410,7 +1430,37 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT
-					modifier = FRA_leftist_rhetoric_social_conservative
+					modifier = FRA_leftist_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = market_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_leftist_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_leftist_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_democrat
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_leftist_rhetoric_democratic
 				}
 			}
 			every_other_country = {
@@ -1420,7 +1470,17 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier = FRA_leftist_rhetoric_fascist
+					modifier = FRA_leftist_rhetoric_fascism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = national_socialist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_leftist_rhetoric_fascism
 				}
 			}
 		}
@@ -1468,7 +1528,7 @@ focus_tree = {
 
 	focus = {
 		id = CZE_stalinist_with_a_human_face
-		icon = GFX_goal_support_stalinist
+		icon = GFX_goal_support_communism
 		prerequisite = { focus = CZE_czech_socialism }
 		x = 0
 		y = 1
@@ -1497,7 +1557,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = CZE_stalinist_with_a_human_face
+			add_ideas = CZE_communism_with_a_human_face
 		}
 	}
 
@@ -1538,7 +1598,7 @@ focus_tree = {
 
 	focus = {
 		id = CZE_join_comintern
-		icon = GFX_goal_support_stalinist
+		icon = GFX_goal_support_communism
 		prerequisite = { focus = CZE_communist_support }
 		x = 0
 		y = 2
@@ -1652,7 +1712,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CZE_social_conservative_bastion
+		id = CZE_democratic_bastion
 		icon = GFX_focus_generic_the_giant_wakes
 		prerequisite = { focus = CZE_political_direction }
 		mutually_exclusive = { focus = CZE_go_right focus = CZE_go_left }
@@ -1688,17 +1748,17 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 200
-			add_ideas = CZE_social_conservative_bastion
+			add_ideas = CZE_democratic_bastion
 		}
 	}
 
 	focus = {
 		id = CZE_beacon_of_liberty
 		icon = GFX_goal_support_democracy
-		prerequisite = { focus = CZE_social_conservative_bastion }
+		prerequisite = { focus = CZE_democratic_bastion }
 		x = 0
 		y = 1
-		relative_position_id = CZE_social_conservative_bastion
+		relative_position_id = CZE_democratic_bastion
 
 		cost = 2
 
@@ -1723,7 +1783,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			swap_ideas = { remove_idea = CZE_social_conservative_bastion add_idea = CZE_beacon_of_liberty }
+			swap_ideas = { remove_idea = CZE_democratic_bastion add_idea = CZE_beacon_of_liberty }
 		}
 	}
 
@@ -1733,7 +1793,7 @@ focus_tree = {
 		prerequisite = { focus = CZE_beacon_of_liberty }
 		x = 0
 		y = 3
-		relative_position_id = CZE_social_conservative_bastion
+		relative_position_id = CZE_democratic_bastion
 
 		cost = 10
 
@@ -1773,7 +1833,7 @@ focus_tree = {
 		prerequisite = { focus = CZE_the_romanian_question focus = CZE_defensive_preparations focus = CZE_the_polish_question }
 		x = 0
 		y = 5
-		relative_position_id = CZE_social_conservative_bastion
+		relative_position_id = CZE_democratic_bastion
 
 		cost = 10
 
@@ -1808,7 +1868,7 @@ focus_tree = {
 		id = CZE_go_right
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = CZE_political_direction }
-		mutually_exclusive = { focus = CZE_social_conservative_bastion focus = CZE_go_left }
+		mutually_exclusive = { focus = CZE_democratic_bastion focus = CZE_go_left }
 		x = 2
 		y = 1
 		relative_position_id = CZE_political_direction
@@ -1852,7 +1912,17 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier =  FRA_right_wing_rhetoric_fascist
+					modifier =  FRA_right_wing_rhetoric_fascism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = national_socialist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier =  FRA_right_wing_rhetoric_fascism
 				}
 			}
 			every_other_country = {
@@ -1862,7 +1932,37 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT
-					modifier = FRA_right_wing_rhetoric_social_conservative
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = market_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_liberal
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = social_democrat
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT
+					modifier = FRA_right_wing_rhetoric_democratic
 				}
 			}
 			every_other_country = {
@@ -1872,14 +1972,34 @@ focus_tree = {
 				}
 				add_opinion_modifier = { 
 					target = ROOT 
-					modifier = FRA_right_wing_rhetoric_stalinist
+					modifier = FRA_right_wing_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = leninist
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_right_wing_rhetoric_communism
+				}
+			}
+			every_other_country = {
+				limit = { 
+					has_government = left_wing_radical
+					num_of_factories > 30
+				}
+				add_opinion_modifier = { 
+					target = ROOT 
+					modifier = FRA_right_wing_rhetoric_communism
 				}
 			}
 		}
 	}
 
 	focus = {
-		id = CZE_czech_fascist
+		id = CZE_czech_fascism
 		icon = GFX_goal_support_fascism
 		prerequisite = { focus = CZE_go_right }
 		x = 0
@@ -1893,7 +2013,10 @@ focus_tree = {
 		}
 
 		available = {
-			fascist > 0.35
+			OR = {
+				fascist > 0.35
+				national_socialist > 0.35
+			}
 		}
 
 		bypass = {
@@ -1916,7 +2039,7 @@ focus_tree = {
 	focus = {
 		id = CZE_aggressive_wars
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = CZE_czech_fascist }
+		prerequisite = { focus = CZE_czech_fascism }
 		x = 0
 		y = 2
 		relative_position_id = CZE_go_right
@@ -1986,8 +2109,8 @@ focus_tree = {
 	focus = {
 		id = CZE_exclude_the_slovaks
 		icon = GFX_goal_generic_propaganda
-		mutually_exclusive = { focus = CZE_national_fascist }
-		prerequisite = { focus = CZE_czech_fascist }
+		mutually_exclusive = { focus = CZE_national_fascism }
+		prerequisite = { focus = CZE_czech_fascism }
 		x = 2
 		y = 2
 		relative_position_id = CZE_go_right
@@ -2023,23 +2146,23 @@ focus_tree = {
 				limit = {
 					has_idea = CZE_divided_nation
 				}
-				swap_ideas = { remove_idea = CZE_divided_nation add_idea = CZE_czech_fascist_idea  }	
+				swap_ideas = { remove_idea = CZE_divided_nation add_idea = CZE_czech_fascism_idea  }	
 			}
 			if = {
 				limit = {
 					NOT = { has_idea = CZE_divided_nation }
 				}
-				add_ideas = CZE_czech_fascist_idea	
+				add_ideas = CZE_czech_fascism_idea	
 			}
 			country_event = { days = 6 random = 120 id = czech.14 }			
 		}
 	}
 	
 	focus = {
-		id = CZE_national_fascist
+		id = CZE_national_fascism
 		icon = GFX_goal_generic_propaganda
 		mutually_exclusive = { focus = CZE_exclude_the_slovaks }
-		prerequisite = { focus = CZE_czech_fascist }
+		prerequisite = { focus = CZE_czech_fascism }
 		x = 4
 		y = 2
 		relative_position_id = CZE_go_right
@@ -2074,7 +2197,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = CZE_national_fascist_idea
+			add_ideas = CZE_national_fascism_idea
 		}
 	}
 	
@@ -2082,7 +2205,7 @@ focus_tree = {
 		id = CZE_german_minor_ally
 		icon = GFX_goal_generic_dangerous_deal
 		mutually_exclusive = { focus = CZE_german_ally focus = CZE_german_puppet }
-		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascist }
+		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascism }
 		x = 4
 		y = 3
 		relative_position_id = CZE_go_right
@@ -2130,7 +2253,7 @@ focus_tree = {
 	focus = {
 		id = CZE_german_ally
 		icon = GFX_goal_generic_military_deal
-		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascist }
+		prerequisite = { focus = CZE_exclude_the_slovaks focus = CZE_national_fascism }
 		mutually_exclusive = { focus = CZE_german_puppet focus = CZE_german_minor_ally }
 		x = 2
 		y = 3
@@ -2230,7 +2353,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				has_completed_focus = CZE_social_conservative_bastion
+				has_completed_focus = CZE_democratic_bastion
 			}
 		}
 

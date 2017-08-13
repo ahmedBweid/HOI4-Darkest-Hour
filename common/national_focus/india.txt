@@ -154,7 +154,7 @@ focus_tree = {
 
 	focus = {
 		id = RAJ_indian_national_congress
-		icon = GFX_goal_generic_paternal_autocrat_focus
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = RAJ_provincial_elections }
 		mutually_exclusive = { focus = RAJ_swaraj }
 		x = 1
@@ -299,6 +299,9 @@ focus_tree = {
 			modifier = {
 				AND = {
 					stalinist > 0.25
+					leninist < 0.25
+					left_wing_radical < 0.25
+					national_socialist < 0.25
 					fascist < 0.25
 				}
 				factor = 3
@@ -308,13 +311,21 @@ focus_tree = {
 		available = {
 			if = {
 				limit = {
-					NOT = { has_government = fascist }
+					NOT = {
+						OR = {
+							has_government = fascist
+							has_government = national_socialist
+						}
+					}
 				}
 				compare_autonomy_state < autonomy_dominion
 			}
 			if = {
 				limit = {
-					has_government = fascist
+					OR = {
+						has_government = fascist
+						has_government = national_socialist
+					}
 				}
 				compare_autonomy_state < autonomy_satellite
 			}
@@ -341,11 +352,11 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_idea = RAJ_all_india_forward_bloc_fascist
+					has_idea = RAJ_all_india_forward_bloc_fascism
 				}
 				swap_ideas = {
 					add_idea = RAJ_all_india_forward_bloc_communism
-					remove_idea = RAJ_all_india_forward_bloc_fascist
+					remove_idea = RAJ_all_india_forward_bloc_fascism
 				}
 				else = {
 					swap_ideas = {
@@ -757,20 +768,33 @@ focus_tree = {
 
 		available = {
 			if = {
-				limit = { NOT = { has_government = fascist } }
+				limit = {
+					NOT = {
+						OR = {
+							has_government = fascist
+							has_government = national_socialist
+						}
+					}
+				}
 				compare_autonomy_state < autonomy_dominion
 			}
 			if = {
 				limit = {
-					has_government = fascist
+					OR = {
+						has_government = fascist
+						has_government = national_socialist
+					}
 				}
 				compare_autonomy_state < autonomy_satellite
 			}
 			has_civil_war = no
 			NOT = { has_global_flag = RAJ_seek_help_from_soviet_promised }
-			GER = {				
+			GER = {
 				exists = yes
-				has_government = fascist
+				OR ={
+					has_government = fascist
+					has_government = national_socialist
+				}
 			}
 		}
 
@@ -792,15 +816,15 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					has_idea = RAJ_all_india_forward_bloc_stalinist
+					has_idea = RAJ_all_india_forward_bloc_communism
 				}
 				swap_ideas = {
-					add_idea = RAJ_all_india_forward_bloc_fascist
-					remove_idea = RAJ_all_india_forward_bloc_stalinist
+					add_idea = RAJ_all_india_forward_bloc_fascism
+					remove_idea = RAJ_all_india_forward_bloc_communism
 				}
 				else = {
 					swap_ideas = {
-						add_idea = RAJ_all_india_forward_bloc_fascist
+						add_idea = RAJ_all_india_forward_bloc_fascism
 						remove_idea = RAJ_all_india_forward_bloc
 					}
 				}

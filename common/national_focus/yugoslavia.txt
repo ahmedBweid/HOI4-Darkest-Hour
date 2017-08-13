@@ -660,7 +660,7 @@ focus_tree = {
 
 	focus = {
 		id = YUG_guarantee_religious_liberties
-		icon = GFX_goal_generic_paternal_autocrat_focus
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = { focus = YUG_limited_self_government }
 		mutually_exclusive = { focus = YUG_traditional_values }
 		x = 0

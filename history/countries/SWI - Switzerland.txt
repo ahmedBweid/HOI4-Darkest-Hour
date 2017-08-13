@@ -112,7 +112,7 @@ set_politics = {
 }
 
 add_ideas = {
-	paternal_autocrat_idea	
+	neutrality_idea	
 	limited_conscription
 }
 

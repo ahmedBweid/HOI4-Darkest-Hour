@@ -715,11 +715,11 @@ country_event = {
 		name = political.17.a
 		if = {
 			limit = { has_government = fascist }
-			add_timed_idea = { idea = fascist_defeated days = 730 }
+			add_timed_idea = { idea = fascism_defeated days = 730 }
 		}
 		if = {
 			limit = { has_government = stalinist }
-			add_timed_idea = { idea = stalinist_defeated days = 730 }
+			add_timed_idea = { idea = communism_defeated days = 730 }
 		}
 		set_politics = {
 			ruling_party = social_conservative
@@ -891,11 +891,11 @@ country_event = {
 		name = political.20.c
 		if = {
 			limit = { has_government = fascist }
-			add_timed_idea = { idea = fascist_defeated days = 730 }
+			add_timed_idea = { idea = fascism_defeated days = 730 }
 		}
 		if = {
 			limit = { has_government = stalinist }
-			add_timed_idea = { idea = stalinist_defeated days = 730 }
+			add_timed_idea = { idea = communism_defeated days = 730 }
 		}
 		set_politics = {
 			ruling_party = social_conservative
@@ -1091,7 +1091,7 @@ country_event = {
 			limit = {
 				has_government = fascist
 			}
-			add_timed_idea = { idea = fascist_defeated days = 730 }			
+			add_timed_idea = { idea = fascism_defeated days = 730 }			
 			start_civil_war = {
 				ruling_party = social_conservative
 				ideology = fascist
@@ -1102,7 +1102,7 @@ country_event = {
 			limit = {
 				has_government = stalinist
 			}
-			add_timed_idea = { idea = stalinist_defeated days = 730 }
+			add_timed_idea = { idea = communism_defeated days = 730 }
 			start_civil_war = {
 				ruling_party = social_conservative
 				ideology = stalinist
@@ -1196,7 +1196,7 @@ country_event = {
 			has_government = fascist
 			has_government = stalinist
 		}
-		has_idea = paternal_autocrat_idea
+		has_idea = neutrality_idea
 	}
 
 	mean_time_to_happen = {
@@ -1205,7 +1205,7 @@ country_event = {
 
 	option = {
 		name = political.27.a
-		remove_ideas = paternal_autocrat_idea
+		remove_ideas = neutrality_idea
 	}
 }
 

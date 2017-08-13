@@ -62,7 +62,13 @@ country = {
 		
 		modifier = {
 			social_conservative_drift = -0.1
+			market_liberal_drift = -0.1
+			social_liberal_drift = -0.1
+			social_democrat_drift = -0.1
 			social_conservative_acceptance = -100
+			market_liberal_acceptance = -100
+			social_liberal_acceptance = -100
+			social_democrat_acceptance = -100
 		}
 	}
 
@@ -113,7 +119,7 @@ political_advisor = {
 
 	POL_roman_dmowski = {
 
-		picture = generic_fascist_demagogue_eastern_european_2d
+		picture = generic_fascism_demagogue_eastern_european_2d
 
 		allowed = {
 			original_tag = POL

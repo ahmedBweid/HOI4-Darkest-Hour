@@ -224,7 +224,7 @@ bookmarks = {
 			ideology = paternal_autocrat
 			ideas = {
 				ROM_king_carol_ii_hedonist
-				paternal_autocrat_idea
+				neutrality_idea
 			}
 			focuses = {
 				ROM_balkans_dominance
