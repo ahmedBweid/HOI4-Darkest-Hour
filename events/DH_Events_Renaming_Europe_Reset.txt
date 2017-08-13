@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # Darkest Hour: Europe reset rename Events
 ###########################
 
@@ -4860,50 +4860,50 @@ country_event = {
 }
 
 ### Reset - rename 190
+#country_event = {
+#	id = europe_reset_rename.190
+#	hidden = yes
+#
+#	trigger = {
+#		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
+#		owns_state = 190
+#		NOT = { has_country_flag = renamed_state_190 }
+#		# This state has been renamed by another country
+#		has_global_flag = renamed_state_190
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 3
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			every_country = {
+#				limit = { has_country_flag = renamed_state_190 }
+#				clr_country_flag = renamed_state_190
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = europe_reset_rename.190.a
+#		190 = { reset_state_name = yes }
+#		set_country_flag = renamed_state_190
+#		clr_global_flag = renamed_state_190
+#	}
+#}
+
+### Reset - rename 191
 country_event = {
-	id = europe_reset_rename.190
+	id = europe_reset_rename.191
 	hidden = yes
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		owns_state = 190
-		NOT = { has_country_flag = renamed_state_190 }
-		# This state has been renamed by another country
-		has_global_flag = renamed_state_190
-	}
-
-	mean_time_to_happen = {
-		days = 3
-	}
-
-	immediate = {
-		hidden_effect = {
-			every_country = {
-				limit = { has_country_flag = renamed_state_190 }
-				clr_country_flag = renamed_state_190
-			}
-		}
-	}
-
-	option = {
-		name = europe_reset_rename.190.a
-		190 = { reset_state_name = yes }
-		set_country_flag = renamed_state_190
-		clr_global_flag = renamed_state_190
-	}
-}
-
-### Reset - rename 195
-country_event = {
-	id = europe_reset_rename.195
-	hidden = yes
-
-	trigger = {
-		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		owns_state = 195
+		owns_state = 191
 		NOT = { has_country_flag = renamed_state_195 }
 		# This state has been renamed by another country
-		has_global_flag = renamed_state_195
+		has_global_flag = renamed_state_191
 	}
 
 	mean_time_to_happen = {
@@ -4913,18 +4913,18 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			every_country = {
-				limit = { has_country_flag = renamed_state_195 }
-				clr_country_flag = renamed_state_195
+				limit = { has_country_flag = renamed_state_191 }
+				clr_country_flag = renamed_state_191
 			}
 		}
 	}
 
 	option = {
-		name = europe_reset_rename.195.a
+		name = europe_reset_rename.191.a
 		195 = { reset_state_name = yes }
 		reset_province_name = 9221
-		set_country_flag = renamed_state_195
-		clr_global_flag = renamed_state_195
+		set_country_flag = renamed_state_191
+		clr_global_flag = renamed_state_191
 	}
 }
 
