@@ -88,14 +88,20 @@ units = {
 		name = "Den Danske Flåde"			
 		base = 6287
 		location = 6287  # Copenhagen			
-		ship = { name = "HDMS Niels Juel" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
+		ship = { name = "HDMS Niels Juel" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = DEN } } }
 		ship = { name = "HDMS Peder Skram" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = DEN } } }
+	}		
+
+	navy = {				
+		name = "I. KDM Flaadestyrke"			
+		base = 6287
+		location = 6287  # Copenhagen				
 		ship = { name = "HDMS Rota" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }			
 		ship = { name = "HDMS Bellona" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }		
 		ship = { name = "HDMS Flora" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 		ship = { name = "HDMS Daphne" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
 		ship = { name = "HDMS Dryaden" definition = submarine equipment = { submarine_1 = { amount = 1 owner = DEN } } }
-	}				
+	}		
 }
 
 air_wings = {
