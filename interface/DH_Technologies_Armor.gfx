@@ -26,82 +26,84 @@ spriteTypes = {
 		name = "GFX_modern_main_battle_tank_medium"
 		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
 	}	
-
-### Germany --------------------------------
-
+###########################################################
+### Germany 
+######################################################
+#Light Tanks
 	SpriteType = {
-		name = "GFX_GER_basic_light_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds"
+		name = "GFX_GER_light_tank_1934_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_LT_PanzerI.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_GER_improved_light_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_imp_light_tank.dds"
+		name = "GFX_GER_light_tank_1936_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_LT_PanzerII.dds"
 	}	
 
 	SpriteType = {
-		name = "GFX_gwtank_medium"
-		texturefile = "gfx/interface/technologies/gwtank.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_advanced_light_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_adv_light_tank.dds"
+		name = "GFX_light_tank_1938_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_LT_PanzerII.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_GER_basic_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_basic_main_tank.dds"
+		name = "GFX_GER_light_tank_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_LT_Panzer38.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_light_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_LT_Leopard.dds"
+	}
+#Medium Tanks	
+	SpriteType = {
+		name = "GFX_GER_medium_tank_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_MT_PanzerIII.dds"
 	}	
 	
 	SpriteType = {
-		name = "GFX_GER_improved_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_imp_main_tank.dds"
+		name = "GFX_GER_medium_tank_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_MT_PanzerIV.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_GER_advanced_medium_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_adv_main_tank.dds"
+		name = "GFX_GER_medium_tank_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_MT_PanzerV.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_GER_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_main_battle_tank.dds"
+		name = "GFX_GER_medium_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_MT_PanzerV_AusfD.dds"
 	}	
+#Heavy Tanks	
 
 	SpriteType = {
-		name = "GFX_GER_basic_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_improved_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_imp_heavy_tank.dds"
+		name = "GFX_GER_heavy_tank_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_HT_TigerI.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_GER_advanced_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_adv_heavy_tank.dds"
+		name = "GFX_GER_heavy_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_HT_TigerII.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_GER_super_heavy_tank_medium"
-		texturefile = "gfx/interface/technologies/ger_superheavy_tank.dds"
+		name = "GFX_GER_super_heavy_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_SHT_Maus.dds"
 	}
-
+#Main Battle Tanks	
 	SpriteType = {
 		name = "GFX_GER_improved_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_E-50.dds"	
+		texturefile = "gfx/interface/technologies/Armor/GER_MBT_E50.dds"	
 	}
 	
 	SpriteType = {
 		name = "GFX_GER_advanced_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_E-75.dds"	
+		texturefile = "gfx/interface/technologies/Armor/GER_MBT_E75.dds"	
 	}
 
 	SpriteType = {
 		name = "GFX_GER_semi_modern_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/GER_E-75.dds"	
+		texturefile = "gfx/interface/technologies/Armor/GER_MBT_E90.dds"	
 	}
 
 	SpriteType = {
