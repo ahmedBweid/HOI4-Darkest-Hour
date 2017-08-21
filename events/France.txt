@@ -894,7 +894,7 @@ country_event = {
 
 		add_opinion_modifier = {
 			target = SOV
-			modifier = FRA_ban_stalinist
+			modifier = FRA_ban_communism
 		}
 		
 		every_other_country = {
@@ -903,7 +903,7 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				target = FRA
-				modifier = FRA_ban_stalinist
+				modifier = FRA_ban_communism
 			}
 		}
 		hidden_effect = {

@@ -1527,7 +1527,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = CZE_stalinist_with_a_human_face
+		id = CZE_communism_with_a_human_face
 		icon = GFX_goal_support_communism
 		prerequisite = { focus = CZE_czech_socialism }
 		x = 0

@@ -82,7 +82,7 @@ set_politics = {
 create_country_leader = {
 	name = "Harmodio Arias Madrid"
 	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	picture = "GFX_portrait_panama_harmodio_arias_madrid"
 	expire = "1965.1.1"
 	ideology = social_liberalism
 	traits = {
@@ -106,7 +106,7 @@ create_country_leader = {
 			stalinist = { popularity = 0 }	
 		}
 		
-		ruling_party = market_liberal
+		ruling_party = paternal_autocrat
 		last_election = "1936.6.7"
 		election_frequency = 48
 		elections_allowed = yes

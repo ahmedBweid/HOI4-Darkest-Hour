@@ -44,7 +44,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				political_power_factor = -0.5
@@ -94,7 +94,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				unity_factor = -0.1
@@ -109,7 +109,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				unity_factor = 0.1
@@ -184,7 +184,7 @@ ideas = {
 			}
 			removal_cost = -1
 
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				fascist_acceptance = -50
@@ -198,7 +198,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 			
 			modifier = {
 				unity_factor = -0.1

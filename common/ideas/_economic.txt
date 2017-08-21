@@ -82,7 +82,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascist
+					has_government = national_socialist
 					has_government = stalinist
+					has_government = leninist
+					has_government = left_wing_radical
 					has_war = yes
 					threat > 0.05
 				}
@@ -125,7 +128,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascist
+					has_government = national_socialist
 					has_government = stalinist
+					has_government = leninist
+					has_government = left_wing_radical
 					has_war = yes
 					threat > 0.15
 				}
@@ -173,7 +179,10 @@ ideas = {
 				threat > 0.15
 				OR = {
 					has_government = fascist
+					has_government = national_socialist
 					has_government = stalinist
+					has_government = leninist
+					has_government = left_wing_radical
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -335,6 +344,9 @@ ideas = {
 				OR = {
 					AND = {
 						has_government = social_conservative
+						has_government = market_liberal
+						has_government = social_liberal
+						has_government = social_democrat
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -344,7 +356,12 @@ ideas = {
 						}
 					}
 					AND = {
-						NOT = { has_government = social_conservative }
+						NOT = {
+							has_government = social_conservative
+							has_government = market_liberal
+							has_government = social_liberal
+							has_government = social_democrat
+						}
 						OR = {
 							has_idea = partial_economic_mobilisation
 							has_idea = war_economy
@@ -387,7 +404,10 @@ ideas = {
 				has_war = yes
 				OR = { 
 					has_government = fascist
+					has_government = national_socialist
 					has_government = stalinist
+					has_government = leninist
+					has_government = left_wing_radical
 				}
 				OR = {
 					has_idea = war_economy

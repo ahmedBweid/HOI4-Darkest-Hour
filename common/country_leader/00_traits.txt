@@ -212,10 +212,14 @@ leader_traits = {
 		}
 	}
 
-	anti_stalinist = {
+	anti_communist = {
 		random = no
 		stalinist_acceptance = -50
 		stalinist_drift = -0.01
+		leninist_drift = -0.01
+		leninist_acceptance = -50
+		left_wing_radical_drift = -0.01
+		left_wing_radical_acceptance = -50
 
 		ai_will_do = {
 			factor = 1

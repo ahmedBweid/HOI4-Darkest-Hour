@@ -769,7 +769,7 @@ ideas = {
 
 		ROM_mihail_sturdza = {
 
-			picture = generic_fascism_demagogue_eastern_european_2d
+			picture = generic_fascist_demagogue_eastern_european_2d
 
 			available = {
 				if = {

@@ -785,7 +785,13 @@ focus_tree = {
 			GER = {
 				exists = yes
 				NOT = {
-					has_government = ROOT
+					has_government = social_conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+					has_government = stalinist
+					has_government = leninist
+					has_government = left_wing_radical
 				}
 				OR = { 
 					has_offensive_war = yes 

@@ -118,6 +118,9 @@ ideas = {
 			
 			modifier = {
 				stalinist_drift = -0.01
+				leninist_drift = -0.01
+				left_wing_radical_drift = -0.01
+				national_socialist_drift = -0.01
 				fascist_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
@@ -135,11 +138,16 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = can_defence_of_canada_regulations_fascist
+			picture = can_defence_of_canada_regulations_fascism
 			
 			modifier = {
 				social_conservative_drift = -0.01
+				market_liberal_drift = -0.01
+				social_liberal_drift = -0.01
+				social_democrat_drift = -0.01
 				stalinist_drift = -0.01
+				leninist_drift = -0.01
+				left_wing_radical_drift = 0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
@@ -160,7 +168,11 @@ ideas = {
 			
 			modifier = {
 				social_conservative_drift = -0.01
+				market_liberal_drift = -0.01
+				social_liberal_drift = -0.01
+				social_democrat_drift = -0.01
 				fascist_drift = -0.01
+				national_socialist_drift = -0.01
 				foreign_subversive_activites = -0.50
 			}
 		}
@@ -390,7 +402,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_fascist_drift_bonus
+			picture = generic_fascism_drift_bonus
 
 			modifier = {
 				social_conservative_drift = -0.1
@@ -588,7 +600,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_fascism_demagogue_commonwealth_2d
+			picture = generic_fascist_demagogue_commonwealth_2d
 			
 			traits = { fascist_demagogue }
 			
@@ -624,7 +636,7 @@ ideas = {
 				}
 			}
 			
-			picture = generic_social_conservative_reformer_commonwealth_2d
+			picture = generic_democratic_reformer_commonwealth_2d
 			
 			traits = { social_conservative_reformer }
 			
@@ -657,7 +669,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_stalinist_revolutionary_commonwealth_2d
+			picture = generic_communist_revolutionary_commonwealth_2d
 			
 			traits = { stalinist_revolutionary }
 			

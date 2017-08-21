@@ -2,7 +2,7 @@ ideas = {
 
 	hidden_ideas = {
 
-		idea_continuous_naval_production = {
+		continuous_naval_production = {
 			allowed = {
 				always = no
 			}
@@ -19,7 +19,7 @@ ideas = {
 		}
 
 
-		idea_continuous_air_production = {
+		continuous_air_production = {
 			allowed = {
 				always = no
 			}
@@ -211,7 +211,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_communism_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
 				stalinist_drift = 0.1
@@ -232,7 +232,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_communism_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
 				leninist_drift = 0.1
@@ -253,7 +253,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_communism_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
 				left_wing_radical_drift = 0.1
@@ -396,7 +396,7 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = generic_stalinist_drift_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
 				stalinist_drift = 0.1

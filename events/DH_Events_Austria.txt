@@ -231,3 +231,35 @@ country_event = {
 	}
 }
 
+#########################################################################
+# Political Crisis in Austria
+#########################################################################
+country_event = {
+	id = DH_austria.4
+	title = DH_austria.4.t
+	desc = DH_austria.4.d
+	picture = GFX_report_event_hitler_parade
+
+	trigger = {
+		tag = AUS
+		AND = {
+			date > 1938.1.1
+			date < 1939.1.1
+		}
+		AUS = {
+			NOT = {
+				has_country_flag = political_crisis_in_austria
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 31
+	}
+
+	option = {
+		name = DH_austria.4.a
+		add_national_unity = -0.10
+		set_country_flag = political_crisis_in_austria
+	}
+}
