@@ -45,6 +45,12 @@ equipments = {
 		
 	}
 
+	modern_tank_equipment_0 = {
+		archetype = modern_tank_equipment
+		priority = 170
+		visual_level = 0
+	}
+	
 	modern_tank_equipment_1 = {
 		archetype = modern_tank_equipment
 		priority = 170
@@ -58,12 +64,6 @@ equipments = {
 	}
 	
 	modern_tank_equipment_3 = {
-		archetype = modern_tank_equipment
-		priority = 170
-		visual_level = 0
-	}
-	
-	modern_tank_equipment_4 = {
 		archetype = modern_tank_equipment
 		priority = 170
 		visual_level = 0

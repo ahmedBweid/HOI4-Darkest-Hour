@@ -779,7 +779,7 @@
 ######################################################################
  
  AST_submarine_1:0 "E-boat-class"
- AST_submarine_2:0 'J-boat-class"
+ AST_submarine_2:0 "J-boat-class"
  AST_submarine_3:0 "O-boat-class"
  AST_submarine_5:0 "LPAS-class"
  AST_submarine_9:0 "Oberon-class"

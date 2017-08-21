@@ -57,6 +57,11 @@
  tech_mountaineers2:0 "Mountain Infantry '39"
  tech_mountaineers3:0 "Mountain Infantry '43"
 
+##### Tank Technology ##########################################################################################
+ 
+ EXPERIMENTAL_TANK:0 "Allows us to research §HArmoured Vehicles§!"
+ 
+ 
 #### Support Companies Technology ###########################################################################
  tech_recon:0 "Recon Company I"
  tech_recon2:0 "Recon Company II"
