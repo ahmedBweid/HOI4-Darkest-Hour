@@ -593,10 +593,6 @@ focus_tree = {
 				factor = 0
 				NOT = { has_war_with = ENG }
 			}
-			modifier = {
-				is_in_faction = yes
-				factor = 0
-			}
 
 			modifier = {
 				factor = 0.5

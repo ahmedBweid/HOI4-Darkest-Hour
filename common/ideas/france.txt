@@ -33,7 +33,12 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = social_conservative
+				OR = {
+					has_government = social_conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
+				}
 			}
 
 			removal_cost = -1
@@ -61,6 +66,24 @@ ideas = {
 								has_government = social_conservative
 							}
 						}
+						AND = {	
+							has_government = market_liberal
+							GER = {
+								has_government = market_liberal
+							}
+						}
+						AND = {	
+							has_government = social_liberal
+							GER = {
+								has_government = social_liberal
+							}
+						}
+						AND = {	
+							has_government = social_democrat
+							GER = {
+								has_government = social_democrat
+							}
+						}
 						AND = {
 							has_government = stalinist
 							GER = {
@@ -68,9 +91,27 @@ ideas = {
 							}
 						}
 						AND = {	
+							has_government = leninist
+							GER = {
+								has_government = leninist
+							}
+						}
+						AND = {	
+							has_government = left_wing_radical
+							GER = {
+								has_government = left_wing_radical
+							}
+						}
+						AND = {	
 							has_government = fascist
 							GER = {
 								has_government = fascist
+							}
+						}
+						AND = {	
+							has_government = national_socialist
+							GER = {
+								has_government = national_socialist
 							}
 						}
 					}
@@ -148,7 +189,7 @@ ideas = {
 			}
 		}
 		FRA_support_the_left_focus = {
-				picture = generic_stalinist_drift_bonus
+				picture = generic_communism_drift_bonus
 				allowed = {
 					always = no # Added via focus
 				}
@@ -156,12 +197,25 @@ ideas = {
 				allowed_civil_war = {
 					NOT = {
 						OR = {
-							has_government = fascist
+							OR = {
+								has_government = fascist
+								has_government = national_socialist
+							}
 							AND = {
-								NOT = { has_government = stalinist }
+								NOT = {
+									OR = {
+										has_government = stalinist
+										has_government = leninist
+										has_government = left_wing_radical
+									}
+								}
 								any_other_country = {
 									original_tag = FRA
-									has_government = stalinist
+									OR = {
+										has_government = stalinist
+										has_government = leninist
+										has_government = left_wing_radical
+									}
 								}
 							}
 						}
@@ -206,7 +260,7 @@ ideas = {
 			}
 		}		
 		FRA_support_the_centre_focus = {
-				picture = generic_social_conservative_drift_bonus				
+				picture = generic_democratic_drift_bonus				
 				allowed = {
 					always = no # Added via focus
 				}

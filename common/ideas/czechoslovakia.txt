@@ -12,7 +12,7 @@ ideas = {
 				always = yes
 			}
 			
-			picture = generic_social_conservative_drift_bonus
+			picture = generic_democratic_drift_bonus
 
 			removal_cost = -1
 			
@@ -22,6 +22,26 @@ ideas = {
 				social_liberal_drift = 0.1
 				social_democrat_drift = 0.1
 				drift_defence_factor = 0.3
+			}
+		}
+
+		CZE_czech_fascism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascist
+			}
+			
+			picture = generic_fascism_drift_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				fascist_drift = 0.05
+				
 			}
 		}
 		
@@ -111,15 +131,51 @@ ideas = {
 						}
 					}
 					AND = {
+						has_government = national_socialist
+						GER = {
+							has_government = national_socialist
+						}
+					}
+					AND = {
 						has_government = stalinist
 						GER = {
 							has_government = stalinist
 						}
 					}
 					AND = {
+						has_government = leninist
+						GER = {
+							has_government = leninist
+						}
+					}
+					AND = {
+						has_government = left_wing_radical
+						GER = {
+							has_government = left_wing_radical
+						}
+					}
+					AND = {
 						has_government = social_conservative
 						GER = {
 							has_government = social_conservative
+						}
+					}
+					AND = {
+						has_government = market_liberal
+						GER = {
+							has_government = market_liberal
+						}
+					}
+					AND = {
+						has_government = social_liberal
+						GER = {
+							has_government = social_liberal
+						}
+					}
+					AND = {
+						has_government = social_democrat
+						GER = {
+							has_government = social_democrat
 						}
 					}
 				}
@@ -541,7 +597,7 @@ ideas = {
 			available = {
 				if = { 
 					limit = { has_dlc = "Death or Dishonor" }
-					has_completed_focus = CZE_social_conservative_bastion
+					has_completed_focus = CZE_democratic_bastion
 				}
 			}
 			

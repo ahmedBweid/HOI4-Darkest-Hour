@@ -15,6 +15,11 @@
  DH_austria.3.a:0 "Accept"
  DH_austria.3.b:0 "Refuse"
 
+ DH_austria.4.t:0 "Politicial Crisis in Austria"
+ DH_austria.4.d:0 "The 1920s were a turbulent period for Austria. The clashes between left and right-wing forces became increasingly violent and eventually escalated into open revolt in July 1927. In 1932 Engelbert Dollfuss was elected chancellor and under his leadership Austria became increasingly centralized and the country began to move more and more towards fascism."
+ DH_austria.4.a:0 "This is unfortunate"
+ political_crisis_in_austria:0 "Politicial Crisis in Austria in 1938"
+
 ###### German RK events-------------------------------------
  germany_establish_rk_ostland:0 "The Baltic States and Belarus will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
  germany_establish_rk_ukraine:0 "The Ukraine will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
@@ -149,18 +154,22 @@
  DH_germany.15.t:0 "Norwegian Anschluss"
  DH_germany.15.d:0 "National-Socialism has proven to be successfully implemented in Norway, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Norwegian society, thereby turning Norway into a province of the Reich."
  DH_germany.15.a:0 "Welcome to the Reich"
+ DH_germany.15.b:0 "Keep it as a puppet"
  
  DH_germany.16.t:0 "Denmark Anschluss"
  DH_germany.16.d:0 "National-Socialism has proven to be successfully implemented in Denmark, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Norway into a province of the Reich."
  DH_germany.16.a:0 "Welcome to the Reich"
+ DH_germany.16.b:0 "Keep it as a puppet"
  
  DH_germany.17.t:0 "Iceland Anschluss"
  DH_germany.17.d:0 "National-Socialism has proven to be successfully implemented in Iceland, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Iceland into a province of the Reich."
  DH_germany.17.a:0 "Welcome to the Reich"
+ DH_germany.17.b:0 "Keep it as a puppet"
  
  DH_germany.18.t:0 "Sweden Anschluss"
  DH_germany.18.d:0 "National-Socialism has proven to be successfully implemented in Swedeb, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Sweden into a province of the Reich."
  DH_germany.18.a:0 "Welcome to the Reich"
+ DH_germany.18.b:0 "Keep it as a puppet"
  
  DH_germany.19.t:0 "Reichsgau Danzig-Westpreußen"
  DH_germany.19.d:0 "After the Great War Danzig became a Free City under international mandate, whereas the surrounding land was granted to Poland. These lands have been predominantly German and by reinstating Danzig-Westpreußen as an administrative unit of the Reich its nationality can be guaranteed."

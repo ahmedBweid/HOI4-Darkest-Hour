@@ -2045,6 +2045,9 @@ focus_tree = {
 			NOT = {
 				has_idea = rhineland_challenge_met
 			}
+			AUS = {
+				has_country_flag = political_crisis_in_austria
+			}
 		}
 		cancel = {
 			OR = {
@@ -2062,13 +2065,6 @@ focus_tree = {
 		}
 		completion_reward = {
 			army_experience = 10
-			if = {
-				limit = {
-					date < 1938.1.1
-				}
-				add_political_power = -300
-				custom_effect_tooltip = GER_austria_anschluss.tt
-			}
 			if = {
 				limit = {
 					country_exists = AUS
@@ -2262,13 +2258,6 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			if = {
-				limit = {
-					date < 1938.1.1
-				}
-				add_political_power = -250
-				custom_effect_tooltip = GER_slovenia_anschluss.tt
-			}
 			add_named_threat = {
 				threat = 2
 				name = GER_demand_slovenia_threat
@@ -3241,13 +3230,6 @@ focus_tree = {
 			factor = 10
 		}
 		completion_reward = {
-			if = {
-				limit = {
-					date < 1938.1.1
-				}
-				add_political_power = -350
-				custom_effect_tooltip = GER_czech_anschluss.tt
-			}
 			if = {
 				limit = {
 					OR = {

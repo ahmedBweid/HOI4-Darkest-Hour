@@ -156,7 +156,7 @@ if = {
 		ideology = paternal_autocracy
 		traits = {
 			fascist_sympathies
-			anti_stalinist
+			anti_communist
 		}
 		id = 500 #Horthy Neutral
 	}
@@ -214,7 +214,7 @@ create_country_leader = {
 			expire = "1965.1.1"
 			ideology = fascist_ideology
 			traits = {
-				anti_stalinist
+				anti_communist
 			}
 			id = 503 #Horty fascist
 		}

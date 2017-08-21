@@ -55,7 +55,7 @@ ideas = {
 		HUN_hungarian_monarchy = {
 
 			allowed_civil_war = {
-				#has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			
 			modifier = {
@@ -68,7 +68,7 @@ ideas = {
 			picture = HUN_hungarian_monarchy
 
 			allowed_civil_war = {
-				#has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			
 			modifier = {
@@ -125,7 +125,7 @@ ideas = {
 			picture = HUN_hungarian_monarchy_habsburg
 
 			allowed_civil_war = {
-				#has_government = neutrality
+				has_government = paternal_autocrat
 			}
 			
 			modifier = {

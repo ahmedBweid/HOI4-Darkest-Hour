@@ -558,7 +558,7 @@ ideas = {
 				}
 			}
 			
-			picture = generic_social_conservative_reformer_western_european_2d
+			picture = generic_democratic_reformer_western_european_2d
 			
 			traits = { social_conservative_reformer }
 		
@@ -591,7 +591,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_stalinist_revolutionary_western_european_2d
+			picture = generic_communist_revolutionary_western_european_2d
 			
 			traits = { stalinist_revolutionary }
 			

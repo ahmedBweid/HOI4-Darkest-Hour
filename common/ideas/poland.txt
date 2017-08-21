@@ -134,7 +134,7 @@ political_advisor = {
 
 	POL_stanislaw_radkiewicz = {
 	
-		picture = generic_stalinist_revolutionary_eastern_european_2d
+		picture = generic_communist_revolutionary_eastern_european_2d
 
 		allowed = {
 			original_tag = POL
@@ -149,7 +149,7 @@ political_advisor = {
 
 	POL_mieczyslaw_michalowicz = {
 
-		picture = generic_social_conservative_reformer_eastern_european_2d
+		picture = generic_democratic_reformer_eastern_european_2d
 
 		allowed = {
 			original_tag = POL

@@ -1210,7 +1210,7 @@ focus_tree = {
 	
 	focus = {
 		id = FRA_support_the_left
-		icon = GFX_goal_support_stalinist
+		icon = GFX_goal_support_communism
 	 	mutually_exclusive = {
 	 		focus = FRA_support_the_right
 	 	}

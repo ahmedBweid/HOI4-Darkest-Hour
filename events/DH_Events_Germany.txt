@@ -19,7 +19,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-
 	#Demand Cape Verde
     option = {
 		ai_chance = {
@@ -51,8 +50,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-
-	#
+	#Portugal accepts Verde
 	option = {
 		name = DH_germany.2.a
 		GER = { transfer_state = 702 }
@@ -72,7 +70,6 @@ country_event = {
 	fire_only_once = yes
 
 	is_triggered_only = yes
-
 
 	#call spain
 	option = {
@@ -96,6 +93,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_spain_operation_isabella
 	}
+
 	option = { #back off
 		name = DH_germany.3.b
 		ai_chance = {
@@ -119,14 +117,13 @@ country_event = {
 
 	is_triggered_only = yes
 
-
-	#
+	#Portugal Accepts both
 	option = {
 		name = DH_germany.4.a
 		GER = {
 			transfer_state = 702
 			transfer_state = 698
-			}
+		}
 		add_opinion_modifier = { target = POR modifier = offered_support }
 	}
 }
@@ -144,9 +141,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-
-	#
-	option = {	#call spain
+	option = {#call spain
 		name = DH_germany.5.a
 		ai_chance = {
 			factor = 80
@@ -168,7 +163,8 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_spain_operation_isabella		
 	}
-	option = { #back off
+
+	option = {#back off
 		name = DH_germany.5.b
 		ai_chance = {
 			factor = 20
@@ -191,6 +187,7 @@ country_event = {
 	fire_only_once = yes
 
 	is_triggered_only = yes
+
 	option = {
 		name = DH_germany.6.a
 		add_opinion_modifier = { target = SPR modifier = protest_action_light }		
@@ -241,6 +238,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		tag = GER
 		any_country = {
 			OR = {
 				is_in_faction_with = GER
@@ -260,6 +258,7 @@ country_event = {
 			controls_state = 231
 		}
 	}
+
 	option = { #establish turkish sphere of influence
 		name = DH_germany.9.a
 		ai_chance = { factor = 1 }
@@ -268,6 +267,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_caucasus_for_turkey
 	}
+
 	option = { #establish civil administration
 		name = DH_germany.9.b
 		ai_chance = { factor = 0 }
@@ -305,6 +305,7 @@ country_event = { #Turkish Refusal
 			release_puppet = ARM
 		}
 	}
+
 	option = { #status_quo
 		ai_chance = { factor = 1 }
 		name = DH_germany.10.b
@@ -343,6 +344,7 @@ country_event = { #Soviets cancel trade
 	mean_time_to_happen = { days = 1 }
 
 	trigger = {
+		tag = GER
 		GER = {
 			has_resources_amount = {
 				resource = chromium 
@@ -385,6 +387,7 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 
 	trigger = {
+		tag = GER
 		GER = {
 			controls_state = 183
 			has_war = no
@@ -399,12 +402,14 @@ country_event = {
 		name = DH_germany.13.a
 		ai_chance = { factor = 7 }
 	}
+
 	option = { #give it to the turks
 		name = DH_germany.13.b
 		trigger = { country_exists = TUR }
 		ai_chance = { factor = 7 }
 		TUR = { country_event = { hours = 6 id = DH_turkey.2 }}
 	}
+
 	option = { #give it to the italians
 		name = DH_germany.13.c
 		trigger = { country_exists = ITA }		
@@ -423,21 +428,20 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_government = national_socialist 
-				OR = {
-					divisions_in_state = { state = 144 size > 0 }
-					divisions_in_state = { state = 143 size > 0 }
-					divisions_in_state = { state = 142 size > 0 }
-					divisions_in_state = { state = 110 size > 0 }
-				}
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist 
+			OR = {
+				divisions_in_state = { state = 144 size > 0 }
+				divisions_in_state = { state = 143 size > 0 }
+				divisions_in_state = { state = 142 size > 0 }
+				divisions_in_state = { state = 110 size > 0 }
 			}
-			NOR = { exists = yes }
-        }
+		}
+		NOR = { exists = yes }
+	}
 
-	
 	# Back up Quisling
 	option = { 
 		name = DH_germany.14.a
@@ -471,11 +475,15 @@ country_event = {
 		tag = GER
 		GER = { 
 			has_government = national_socialist
+			NOT = {
+				has_country_flag = norwegian_anschluss
+			}
 		}
 		NOR = {
 			is_subject_of = GER
 			is_ai = yes
 		}
+
 	}
 
 	mean_time_to_happen = {
@@ -487,7 +495,16 @@ country_event = {
 		name = DH_germany.15.a
 		annex_country = { target = NOR }
 		hidden_effect = {
-			GER = { country_event = { id = DH_cityname.15 } }
+			#GER = { country_event = { id = DH_cityname.15 } }
+		}
+		set_country_flag = norwegian_anschluss
+	}
+
+	# Leave them as a Puppet
+	option = {
+		name = DH_germany.15.b
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.15 } }
 		}
 	}
 }
@@ -506,6 +523,9 @@ country_event = {
 		tag = GER
 		GER = { 
 			has_government = national_socialist
+			NOT = {
+				has_country_flag = denmark_anschluss
+			}
 		}
 		DEN = {
 			is_subject_of = GER
@@ -522,7 +542,16 @@ country_event = {
 		name = DH_germany.16.a
 		annex_country = { target = DEN }
 		hidden_effect = {
-			GER = { country_event = { id = DH_cityname.17 } }
+			#GER = { country_event = { id = DH_cityname.17 } }
+		}
+		set_country_flag = denmark_anschluss
+	}
+
+	#Leave them as a puppet
+	option = {
+		name = DH_germany.16.b
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.17 } }
 		}
 	}
 }
@@ -537,16 +566,19 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_government = national_socialist
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+			NOT = {
+				has_country_flag = iceland_anschluss
 			}
-			ICE = {
-				is_subject_of = GER
-				is_ai = yes
-			}
-        }
+		}
+		ICE = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 547	
@@ -559,7 +591,16 @@ country_event = {
 		hidden_effect = {
 			GER = { country_event = { id = DH_cityname.19 } }
 		}
-	}	
+		set_country_flag = iceland_anschluss
+	}
+
+	#leave them as a puppet
+	option = {
+		name = DH_germany.17.b
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.19 } }
+		}
+	}
 }
 
 #########################################################################
@@ -572,16 +613,19 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_government = national_socialist
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+			NOT = {
+				has_country_flag = sweden_anschluss
 			}
-			SWE = {
-				is_subject_of = GER
-				is_ai = yes
-			}
-        }
+		}
+		SWE = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 1400	
@@ -594,7 +638,16 @@ country_event = {
 		hidden_effect = {
 			GER = { country_event = { id = DH_cityname.21 } }
 		}
-	}	
+		set_country_flag = sweden_anschluss
+	}
+
+	#Leave them as a puppet
+	option = {
+		name = DH_germany.18.b
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.21 } }
+		}
+	}
 }
 
 
@@ -610,7 +663,6 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	
 	# Welcome to the Reich
 	option = { 
 		name = DH_germany.19.a
@@ -630,25 +682,24 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_completed_focus = GER_heim
-				has_government = national_socialist
-				has_full_control_of_state = 747
-				has_full_control_of_state = 72	
-				NOT = {
-					747 = { is_core_of = GER }
-					72 = { is_core_of = GER }
-				}		
-			}
-        }
-
-		mean_time_to_happen = {
-			days = 8	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_completed_focus = GER_heim
+			has_government = national_socialist
+			has_full_control_of_state = 747
+			has_full_control_of_state = 72	
+			NOT = {
+				747 = { is_core_of = GER }
+				72 = { is_core_of = GER }
+			}		
 		}
+	}
 
-	
+	mean_time_to_happen = {
+		days = 8	
+	}
+
 	# Welcome to the Reich
 	option = { 
 		name = DH_germany.20.a
@@ -669,25 +720,24 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_completed_focus = GER_heim			
-				has_government = national_socialist
-				has_full_control_of_state = 188
-				has_full_control_of_state = 98	
-				NOT = {
-					188 = { is_core_of = GER }
-					98 = { is_core_of = GER }
-				}		
-			}
-        }
-
-		mean_time_to_happen = {
-			days = 332	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_completed_focus = GER_heim			
+			has_government = national_socialist
+			has_full_control_of_state = 188
+			has_full_control_of_state = 98	
+			NOT = {
+				188 = { is_core_of = GER }
+				98 = { is_core_of = GER }
+			}		
 		}
+	}
 
-	
+	mean_time_to_happen = {
+		days = 332	
+	}
+
 	# Welcome to the Reich
 	option = { 
 		name = DH_germany.21.a
@@ -708,24 +758,23 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_completed_focus = GER_heim			
-				has_government = national_socialist
-				has_full_control_of_state = 86
-				has_full_control_of_state = 87	
-				NOT = {
-					86 = { is_core_of = GER }
-					87 = { is_core_of = GER }
-				}		
-			}
-        }
-
-		mean_time_to_happen = {
-			days = 652	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_completed_focus = GER_heim			
+			has_government = national_socialist
+			has_full_control_of_state = 86
+			has_full_control_of_state = 87	
+			NOT = {
+				86 = { is_core_of = GER }
+				87 = { is_core_of = GER }
+			}		
 		}
+	}
 
+	mean_time_to_happen = {
+		days = 652	
+	}
 	
 	# Welcome to the Reich
 	option = { 
@@ -748,23 +797,22 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER			
-			GER = { 
-				has_completed_focus = GER_heim			
-				has_government = national_socialist
-				has_full_control_of_state = 102
-				NOT = {
-					102 = { is_core_of = GER }
-				}		
-			}
-        }
-
-		mean_time_to_happen = {
-			days = 1052	
+	trigger = {
+		tag = GER			
+		GER = { 
+			has_completed_focus = GER_heim			
+			has_government = national_socialist
+			has_full_control_of_state = 102
+			NOT = {
+				102 = { is_core_of = GER }
+			}		
 		}
+	}
 
-	
+	mean_time_to_happen = {
+		days = 1052	
+	}
+
 	# Welcome to the Reich
 	option = { 
 		name = DH_germany.23.a
@@ -786,7 +834,6 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	
 	# Send the plan to Moscow
 	option = { 
 		name = DH_germany.24.a
@@ -808,7 +855,6 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	
 	# Sehr Gut, We may proceed.
 	option = { 
 		name = DH_germany.25.a
@@ -888,7 +934,6 @@ country_event = {
 			
 		}
 		
-		
 		GER = { ## German conditions and effects
 			if = {
 				limit = {
@@ -967,7 +1012,6 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	
 	# Give them 6 months
 	option = {
 		ai_chance = {
@@ -977,8 +1021,9 @@ country_event = {
 		SOV = {
 			country_event = { months = 6 id = DH_soviet.4 }	
 		}
-	}	
-	# Give them3 months
+	}
+
+	# Give them 3 months
 	option = {
 		ai_chance = {
 			factor = 100
@@ -988,6 +1033,7 @@ country_event = {
 			country_event = { months = 3 id = DH_soviet.4 }	
 		}
 	}
+
 	# This Alliance isn't working
 	option = {
 		ai_chance = {
@@ -1011,7 +1057,6 @@ country_event = {
 
 	is_triggered_only = yes
 
-
 	#Anschlusszeit!
     option = {
 		name = DH_germany.27.a
@@ -1021,6 +1066,7 @@ country_event = {
 		AUS = { country_event = { hours = 6 id = DH_austria.1 }}
 		custom_effect_tooltip = germany_anschluss	  
     }
+
     #Let's give them some freedom
     option = {
 		name = DH_germany.27.b 
@@ -1030,6 +1076,7 @@ country_event = {
 		AUS = { country_event = { hours = 6 id = DH_austria.2 }}	  
 		custom_effect_tooltip = germany_anschluss_puppet
     }
+
     #Propose an alliance
     option = {
 		name = DH_germany.27.c
@@ -1077,16 +1124,16 @@ country_event = {
 	picture = GFX_report_event_001
 	fire_only_once = no
 	
-        trigger = {
-			tag = GER
-			GER = { 
-				has_government = national_socialist
-			}
-			AUS = {
-				is_subject_of = GER
-				is_ai = yes
-			}
-        }
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+		}
+		AUS = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
 
 	mean_time_to_happen = {
 		days = 365	
@@ -1355,6 +1402,7 @@ country_event = {
 			FRA = { news_event = { id = france.20 hours = 1 } }
 		}
 	}
+
 	option = { # Conquer everything!
 		name = DH_germany.32.b
 		ai_chance = {
@@ -1372,7 +1420,7 @@ country_event = {
 
 
 #########################################################################
-#  GrossGermanish Reich event
+#  GroßGermanish Reich event
 #########################################################################
 country_event = { #Italy refused
 	id = DH_germany.33
@@ -1381,32 +1429,32 @@ country_event = { #Italy refused
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 	
-	
 	trigger = {
-			##### West
-			AND = {
-				36 = { is_core_of = GER } 
-				35 = { is_core_of = GER }
-				7 = { is_core_of = GER } 		
-				6 = { is_core_of = GER } 				
+		tag = GER
+		##### West
+		AND = {
+			36 = { is_core_of = GER } 
+			35 = { is_core_of = GER }
+			7 = { is_core_of = GER } 		
+			6 = { is_core_of = GER } 				
+		}
+		#### East
+		AND = {
+			OR = {
+				SOV = { exists = no }
+				SOV = { has_capitulated = yes }
+				AND = {
+					NOT = {
+						SOV = { controls_state = 195 }
+						SOV = { controls_state = 219 }							
+						SOV = { controls_state = 217 }							
+					}
+				}	
 			}
-			#### East
-			AND = {
-				OR = {
-					SOV = { exists = no }
-					SOV = { has_capitulated = yes }
-					AND = {
-						NOT = {
-							SOV = { controls_state = 195 }
-							SOV = { controls_state = 219 }							
-							SOV = { controls_state = 217 }							
-						}
-					}	
-				}
-			}					
+		}					
 	}
 
-	#Their loss ...
+	#Establish the GroßGermanish Reich
 	option = {
 		name = DH_germany.33.a
 		set_cosmetic_tag = GER_GREATER
@@ -1453,7 +1501,7 @@ country_event = {
 		days = 1
     }
 
-    option = {  # A  Fascist Regime
+    option = {  #A Friendly Regime
 		custom_effect_tooltip =  "Install a friendly regime."
         name = DH_germany.35.a
 		ai_chance = {
@@ -1565,8 +1613,6 @@ country_event = {
 						target = SCO
 						autonomous_state = autonomy_reichskommissariat
 					}
-				}
-				if = {
 					limit = {
 						AND = {
 							NOT = { has_dlc = "Death or Dishonor" }
@@ -1577,8 +1623,6 @@ country_event = {
 						target = SCO
 						autonomous_state = autonomy_satellite
 					}
-				}
-				if = {
 					limit = {
 						AND = {
 							NOT = { has_dlc = "Together for Victory" }
@@ -1606,8 +1650,6 @@ country_event = {
 						target = SCO
 						autonomous_state = autonomy_reichskommissariat
 					}
-				}
-				if = {
 					limit = {
 						AND = {
 							NOT = { has_dlc = "Death or Dishonor" }
@@ -1618,8 +1660,6 @@ country_event = {
 						target = EGL
 						autonomous_state = autonomy_satellite
 					}
-				}
-				if = {
 					limit = {
 						AND = {
 							NOT = { has_dlc = "Together for Victory" }
@@ -1668,7 +1708,7 @@ country_event = {
 		}
 	}
 	
-#Establish RK Ostland
+	#Establish RK Ostland
 	option = { 
 		name = DH_germany_rk.1.a
 		ai_chance = {
@@ -1692,8 +1732,6 @@ country_event = {
 					target = ROS
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -1704,8 +1742,6 @@ country_event = {
 					target = ROS
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -1729,6 +1765,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_establish_rk_ostland
 	}
+
 	#Establish direct military occupation
 	option = { 
 		name = DH_germany_rk.1.b
@@ -1769,7 +1806,7 @@ country_event = {
 		}
 	}
 	
-# Establish RK Ukraine
+	# Establish RK Ukraine
 	option = { 
 		name = DH_germany_rk.2.a
 		ai_chance = {
@@ -1793,8 +1830,6 @@ country_event = {
 					target = RUK
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -1805,8 +1840,6 @@ country_event = {
 					target = RUK
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -1828,7 +1861,7 @@ country_event = {
 				transfer_state = 200
 				transfer_state = 226
 			}
-#-------- Odessa
+			#-------- Odessa
 			if = {
 				limit = {
 					GER = {
@@ -1849,10 +1882,11 @@ country_event = {
 					transfer_state = 198
 				}
 			}
-#----------------------	
+			#----------------------	
 		}
 		custom_effect_tooltip = germany_establish_rk_ukraine
 	}
+
 	#Establish direct military occupation
 	option = {
 		name = DH_germany_rk.2.b
@@ -1918,7 +1952,7 @@ country_event = {
 		}	
 	}
 	
-# Establish RK Moskowien
+	# Establish RK Moskowien
 	option = { 
 		name = DH_germany_rk.3.a
 		ai_chance = {
@@ -1943,8 +1977,6 @@ country_event = {
 					target = RMO
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					NOT = { has_dlc = "Death or Dishonor" }
 					has_dlc = "Together for Victory"
@@ -1953,8 +1985,6 @@ country_event = {
 					target = RMO
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2000,7 +2030,7 @@ country_event = {
 				transfer_state = 242	
 				transfer_state = 243			
 			}
-#Finland stuff
+			#Finland stuff
 			if = {
 				limit = {
 					GER = {
@@ -2032,8 +2062,8 @@ country_event = {
 				}
 				set_province_name = { id = 11159 name = "Petroskoi"}
 			}
-#----
-#Expand RK Ostland
+
+			#Expand RK Ostland
 			ROS = {
 				transfer_state = 195
 				transfer_state = 208
@@ -2043,7 +2073,8 @@ country_event = {
 				transfer_state = 207
 				transfer_state = 241
 			}
-#Expand  RK Ukraine		
+
+			#Expand  RK Ukraine		
 			RUK = {
 				transfer_state = 193
 				transfer_state = 225
@@ -2060,9 +2091,9 @@ country_event = {
 				transfer_state = 239
 			}
 		}
-#---
 		custom_effect_tooltip = germany_establish_rk_moscow	
 	}
+
 	#Establish direct military occupation
 	option = {
 		name = DH_germany_rk.3.b
@@ -2102,7 +2133,7 @@ country_event = {
 		}
 	}
 	
-# Establish RK Kaukasien
+	# Establish RK Kaukasien
 	option = {
 		name = DH_germany_rk.4.a
 		ai_chance = {
@@ -2126,8 +2157,6 @@ country_event = {
 					target = RKA
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2138,8 +2167,6 @@ country_event = {
 					target = RKA
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2163,6 +2190,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_establish_rk_kaukasus	
 	}
+
 	#Establish direct military occupation
 	option = { 
 		name = DH_germany_rk.4.b
@@ -2206,7 +2234,7 @@ country_event = {
 		}
 	}
 	
-# Establish RK Turkestan
+	# Establish RK Turkestan
 	option = {
 		name = DH_germany_rk.5.a
 		ai_chance = {
@@ -2230,8 +2258,6 @@ country_event = {
 					target = RTU
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2242,8 +2268,6 @@ country_event = {
 					target = RTU
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2270,6 +2294,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_establish_rk_kaukasus
 	}
+
 	#Establish direct military occupation
 	option = {
 		name = DH_germany_rk.5.b
@@ -2299,7 +2324,7 @@ country_event = {
 		}
 	}
 	
-# Establish RK Iceland
+	# Establish RK Iceland
 	option = {
 		name = DH_germany_rk.6.a
 		ai_chance = {
@@ -2323,8 +2348,6 @@ country_event = {
 					target = ICE
 					autonomous_state = autonomy_reichsprotectorate
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2335,8 +2358,6 @@ country_event = {
 					target = ICE
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2355,6 +2376,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_establish_rk_iceland
 	}
+
 	#Establish direct military occupation
 	option = {
 		name = DH_germany_rk.6.b
@@ -2390,7 +2412,7 @@ country_event = {
 		}
 	}
 
-# Establish RK Schweland
+	# Establish RK Schweland
 	option = {
 		name = DH_germany_rk.7.a
 		ai_chance = {
@@ -2414,8 +2436,6 @@ country_event = {
 					target = SWE
 					autonomous_state = autonomy_reichsprotectorate
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2426,8 +2446,6 @@ country_event = {
 					target = SWE
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2452,6 +2470,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_establish_rk_sweden
 	}
+
 	#Establish direct military occupation
 	option = {
 		name = DH_germany_rk.7.b
@@ -2521,8 +2540,6 @@ country_event = {
 					target = RUR
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2533,8 +2550,6 @@ country_event = {
 					target = RUR
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2564,6 +2579,7 @@ country_event = {
 		}
 		custom_effect_tooltip = germany_establish_rk_ural
 	}
+
 	#Establish direct military occupation
 	option = {
 		name = DH_germany_rk.8.b
@@ -2613,7 +2629,7 @@ country_event = {
         }
 
 	
-# Establish RK Siberien
+	# Establish RK Siberien
 	option = { 
 		name = DH_germany_rk.9.a
 		hidden_effect = {
@@ -2634,8 +2650,6 @@ country_event = {
 					target = RSB
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2646,8 +2660,6 @@ country_event = {
 					target = RSB
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2717,7 +2729,7 @@ country_event = {
 		}
 	}
 	
-# Establish Generalgouvernement Polen
+	# Establish Generalgouvernement Polen
 	option = {
 		name = DH_germany_rk.10.a
 		hidden_effect = {		
@@ -2738,8 +2750,6 @@ country_event = {
 					target = GGP
 					autonomous_state = autonomy_reichskommissariat
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2750,8 +2760,6 @@ country_event = {
 					target = GGP
 					autonomous_state = autonomy_puppet
 				}
-			}
-			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2775,8 +2783,6 @@ country_event = {
 					}
 				}
 				GGP = { transfer_state = 10 }
-			}
-			if = {
 				limit = {
 					any_country = {
 						OR = {
@@ -2806,7 +2812,7 @@ country_event = {
 		custom_effect_tooltip = germany_establish_generalgouvernement_polen
 	}
 
-#Establish direct military occupation
+	#Establish direct military occupation
 	option = {
 		name = DH_germany_rk.10.b
 		ai_chance = {
