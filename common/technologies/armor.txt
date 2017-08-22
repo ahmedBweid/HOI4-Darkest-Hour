@@ -569,7 +569,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = main_battle_tank
+			leads_to_tech = main_battle_tank_1948
 			research_cost_coeff = 1
 		}
 		
@@ -709,7 +709,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = main_battle_tank
+			leads_to_tech = main_battle_tank_1948
 			research_cost_coeff = 1
 		}
 		path = {

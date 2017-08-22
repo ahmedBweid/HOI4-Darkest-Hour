@@ -47,8 +47,8 @@ equipments = {
 		}
 	}
 
-	super_heavy_tank_equipment_1 = {
-		year = 1943
+	super_heavy_tank_equipment_0 = {
+		year = 1944
 
 		archetype = super_heavy_tank_equipment
 		priority = 130
