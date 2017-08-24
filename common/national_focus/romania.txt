@@ -4059,7 +4059,7 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = {
-						has_tech = basic_medium_tank
+						has_tech = medium_tank_1939
 						has_tech = tech_recon
 					}
 					division_template = {
@@ -4088,7 +4088,7 @@ focus_tree = {
 					else = {
 						if = {
 							limit = {
-								has_tech = basic_medium_tank
+								has_tech = medium_tank_1939
 							}
 							division_template = {
 								name = "Armored Division"
