@@ -1091,7 +1091,7 @@ anti_armor_GER = {
 
 			modifier = {
 				factor = 50
-				has_tech = basic_light_td
+				#has_tech = basic_light_td
 				#has_war_with = SOV
 				any_enemy_country = {
 					ROOT = {
@@ -1176,7 +1176,7 @@ anti_armor_GER = {
 
 			modifier = {
 				factor = 60
-				has_tech = basic_medium_td
+				#has_tech = basic_medium_td
 				#has_war_with = SOV
 				any_enemy_country = {
 					ROOT = {
