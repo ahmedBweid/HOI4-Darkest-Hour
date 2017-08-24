@@ -12,7 +12,7 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
-	gwtank = 1
+	
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
@@ -20,6 +20,12 @@ set_technology = {
 	naval_bomber1 = 1
 	CAS1 = 1
 	early_bomber = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
 #Naval Stuff
 	destroyer_1885 = 1
 	destroyer_1900 = 1
@@ -66,6 +72,7 @@ set_technology = {
 	light_carrier_1922 = 1	
 	
 	carrier_1922 = 1	
+	carrier_1930 = 1
 	carrier_1933 = 1	
 	carrier_1936 = 1	
 	
@@ -143,7 +150,7 @@ give_guarantee = URG
 		tactical_bomber1 = 1
 		CAS2 = 1
 		strategic_bomber1 = 1
-		basic_light_tank = 1
+		
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1

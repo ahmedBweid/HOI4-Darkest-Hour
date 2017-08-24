@@ -1508,7 +1508,7 @@ focus_tree = {
 				name = NZL_bob_semple_tank
 				bonus = 0.5
 				uses = 1
-				technology = basic_light_tank
+				technology = light_tank_1936
 			}
 		}
 	}
@@ -1779,7 +1779,7 @@ focus_tree = {
 				ahead_reduction = 1
 				bonus = 0.5
 				uses = 1
-				technology = super_heavy_tank
+				technology = super_heavy_tank_1944
 			}
 		}
 	}

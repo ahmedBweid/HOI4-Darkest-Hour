@@ -9,9 +9,15 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
-	gwtank = 1
+	
 	early_fighter = 1
 	CAS1 = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
 #Naval stuff
 	destroyer_1885 = 1
 	destroyer_1900 = 1
@@ -38,8 +44,6 @@ set_technology = {
 	battleship_1912 = 1
 	battleship_1916 = 1
 	battleship_1922 = 1	
-	
-	
 #
 }
 set_country_flag = monroe_doctrine

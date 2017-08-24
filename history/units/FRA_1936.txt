@@ -132,7 +132,7 @@ units = {
 		location = 11502
 		division_template = "Brigade de Chars de Combat" 		# FT-17s
 		start_experience_factor = 0.2
-		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "FRA" } }
 	}
 
 	# Xe Corps d'Armée (Région Militaire in 1936) -- Strassbourg
@@ -187,7 +187,7 @@ units = {
 		location = 11516
 		division_template = "Brigade de Chars de Combat" 		# FT-17s
 		start_experience_factor = 0.2
-		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "FRA" } }
 	}
 
 	# Ie Corps d'Armée (Région Militaire in 1936) -- Lille
@@ -501,7 +501,7 @@ units = {
 		location = 6613
 		division_template = "Brigade de Chars de Combat" 			# FT-17s
 		start_experience_factor = 0.2
-		force_equipment_variants = { gw_tank_equipment = { owner = "FRA" } }
+		force_equipment_variants = { light_tank_equipment_2 = { owner = "FRA" } }
 	}
 
 
@@ -762,7 +762,7 @@ units = {
 		name = "2ème Région Navale"			
 		base = 3552 
 		location = 3552 # Brest			
-		ship = { name = "Béarn" definition = carrier equipment = { carrier_1 = { amount = 1 owner = FRA } } 
+		ship = { name = "Béarn" definition = carrier equipment = { carrier_0 = { amount = 1 owner = FRA } } 
 			air_wings = {
 				cv_fighter_equipment_0 =  { owner = "FRA" amount = 25 }
 				cv_nav_bomber_equipment_1 =  { owner = "FRA" amount = 20 }

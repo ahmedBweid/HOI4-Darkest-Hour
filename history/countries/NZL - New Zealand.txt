@@ -8,13 +8,19 @@ oob = "NZL_1936"
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	gwtank = 1
+	
 	gw_artillery = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	early_fighter = 1
 	naval_bomber1 = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1	
 #Naval Stuff
 	destroyer_1885 = 1
 	destroyer_1900 = 1
@@ -82,10 +88,10 @@ if = {
 		fighter1 = 1
 		early_bomber = 1
 		tactical_bomber1 = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
+		
+		
+		
+		
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1

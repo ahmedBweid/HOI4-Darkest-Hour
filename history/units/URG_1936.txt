@@ -31,10 +31,10 @@ units = {
 
 	##### Naval OOB #####
 	navy = {				
-		name = "Armada Nacional"			
+		name = "I Flotilla de la Armada"			
 		base = 10362 
 		location = 10362 # Montevideo
-		ship = { name = "ROU Uruguay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = URG } } }
+		ship = { name = "ROU Uruguay" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = URG } } }
 	}				
 }
 

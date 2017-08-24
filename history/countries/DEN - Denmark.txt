@@ -13,6 +13,11 @@ set_technology = {
 	gw_artillery = 1
 	early_fighter = 1
 	cv_early_fighter = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1	
 #Naval Stuff
 	destroyer_1885 = 1
 	destroyer_1900 = 1

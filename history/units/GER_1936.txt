@@ -121,21 +121,21 @@ units = {
 		location = 6521
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { light_tank_equipment_6 = { owner = "GER" } }
 	}
 	division= {
 		name = "2. Panzer-Division"
 		location = 6521
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { light_tank_equipment_6 = { owner = "GER" } }
 	}
 	division= {
 		name = "3. Panzer-Division"
 		location = 6521
 		division_template = "Panzer-Division"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
+		force_equipment_variants = { light_tank_equipment_6 = { owner = "GER" } }
 	}
 
 	division= {
@@ -362,13 +362,13 @@ units = {
 		location = 6389  # Kiel
 		
 		# 2. Unterseebootsflottille
-		ship = { name = "U-1" definition = submarine equipment = { submarine_5 = { amount = 1 owner = GER } } }
-		ship = { name = "U-2" definition = submarine equipment = { submarine_5 = { amount = 1 owner = GER } } }
-		ship = { name = "U-3" definition = submarine equipment = { submarine_5 = { amount = 1 owner = GER } } }
+		ship = { name = "U-1" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+		ship = { name = "U-2" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+		ship = { name = "U-3" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
 		# 3. Unterseebootsflottille
-		ship = { name = "U-4" definition = submarine equipment = { submarine_5 = { amount = 1 owner = GER } } }
-		ship = { name = "U-5" definition = submarine equipment = { submarine_5 = { amount = 1 owner = GER } } }
-		ship = { name = "U-6" definition = submarine equipment = { submarine_5 = { amount = 1 owner = GER } } }
+		ship = { name = "U-4" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+		ship = { name = "U-5" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+		ship = { name = "U-6" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
 	}
 }
 
@@ -586,7 +586,6 @@ instant_effect = {
 		equipment = {
 			type = heavy_cruiser_1
 			creator = "GER"
-			version_name = "Deutschland Class"
 		}
 		requested_factories = 1
 		progress = 0.95
