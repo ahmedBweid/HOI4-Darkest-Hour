@@ -1,0 +1,20 @@
+add_namespace = DH_rebellion
+
+### ---------------------------------------------------------------------------- Rebellions ---------------------------------------------
+
+#########################################################################
+#  Rebellion Chain
+#########################################################################
+country_event = {
+	id = DH_rebellion.1
+	title = DH_rebellion.1.t
+	desc = DH_rebellion.1.d
+	picture = GFX_report_event_german_speech
+
+	trigger = {
+		any_state = { resistance_strength = > 0.9}
+		}
+	mean_time_to_happen = { days = 15}
+    option = {
+    }
+}
