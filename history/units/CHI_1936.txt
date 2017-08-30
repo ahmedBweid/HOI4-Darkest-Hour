@@ -500,40 +500,23 @@ units = {
 		ship = { name = "Ninghai" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = CHI } } }
 		ship = { name = "Pinghai" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = CHI } } }
 		
-		ship = { name = "Datong" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Ziqiang" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
+		ship = { name = "Datong, Ziqiang" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 		
 		ship = { name = "Yixian" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CHI } } }
 		ship = { name = "Haichou" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CHI } } }
 
-		ship = { name = "Yongjian" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Yongji" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Zhongshan" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Jiankang" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
+		ship = { name = "Yongjian, Yongji, Zhongshan, Jiankang" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 	
-		ship = { name = "Dingan" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Kean" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
+		ship = { name = "Dingan, Kean" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 	
 		# 2nd Fleet
-		ship = { name = "Minquan" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Minsheng" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Xianning" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Chutong" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Chutai" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }		
+		ship = { name = "Minquan, Minsheng, Xianning, Chutong, Chutai" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 		
-		ship = { name = "Chuyou" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Chuguan" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Chuqian" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Jiangyuan" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Jiangzhen" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }		
+		ship = { name = "Chuyou, Chuguan, Chuqian, Jiangyuan, Jiangzhen" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 	
-		ship = { name = "Jiangkun" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Jiangxi" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }	
+		ship = { name = "Jiangkun, Jiangxi" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 	
-		ship = { name = "Hupeng" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Hue" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Huying" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Hucui" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
+		ship = { name = "Hupeng, Hue, Huying, Hucui" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 	
 		# Training Fleet
 		ship = { name = "Yingrui" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = CHI } } }
@@ -542,32 +525,17 @@ units = {
 		# 3rd Fleet
 		ship = { name = "Yingrui" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }
 
-		ship = { name = "Tongan" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Yongxiang" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Chuyu" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Jiangli" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }		
+		ship = { name = "Tongan, Yongxiang, Chuyu, Jiangli" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
+
+		ship = { name = "Dinghai" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = CHI } } }
 		
-		ship = { name = "Dinghai" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 		# RoC Naval Academy Fleet
-		ship = { name = "Wen-42" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Wen-88" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Wen-93" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Shi-34" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Shi-102" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }		
+		ship = { name = "Wen-42, Wen-88, Wen-93, Shi-34, Shi-102" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 		
-		ship = { name = "Shi-181" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Yue-22" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Yue-253" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Yue-371" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }		
+		ship = { name = "Shi-181, Yue-22, Yue-253, Yue-371" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
 		
-		ship = { name = "Haijing" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Junhe" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Cedian" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Boxian" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }		
-		
-		ship = { name = "Tongxin" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Tongde" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
-		ship = { name = "Ziyouzhongguo" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }		
+		ship = { name = "Haijing, Junhe, Cedian, Boxian" definition = destroyer equipment = { destroyer_0 = {amount = 1 owner = CHI } } }
+
 	}
 }
 

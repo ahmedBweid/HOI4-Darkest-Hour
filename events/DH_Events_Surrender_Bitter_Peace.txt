@@ -1,0 +1,9 @@
+﻿###########################
+# Darkest Hour Surrender Events : The Bitter Peace
+###########################
+
+add_namespace = DH_Surrender_SOV
+add_namespace = DH_Surrender_GER
+
+
+### -------------------  ---------------------------------------------

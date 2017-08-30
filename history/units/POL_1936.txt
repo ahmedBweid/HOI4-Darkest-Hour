@@ -408,17 +408,15 @@ units = {
 		name = "Flotylla Niszczycieli"
 		base = 362 
 		location = 362 # Danzig
-		ship = { name = "ORP Burza" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = POL } } }	
-		ship = { name = "ORP Wicher" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = POL } } }		
+		ship = { name = "Flotylla Niszczycieli" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = POL } } }	
+		ship = { name = "Flotylla Dozorowców" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = POL } } }		
 	}	
 
 	navy = {
 		name = "1 Flotylla Okretow Podwodnych"
 		base = 362 
 		location = 362 # Danzig
-		ship = { name = "ORP Rys" definition = submarine equipment = { submarine_3 = { amount = 1 owner = POL } } }					
-		ship = { name = "ORP Wilk" definition = submarine equipment = { submarine_3 = { amount = 1 owner = POL } } }					
-		ship = { name = "ORP Zbik" definition = submarine equipment = { submarine_3 = { amount = 1 owner = POL } } }			
+		ship = { name = "1 Flotylla Okretow Podwodnych" definition = submarine equipment = { submarine_3 = { amount = 1 owner = POL } } }					
 	}
 }
 

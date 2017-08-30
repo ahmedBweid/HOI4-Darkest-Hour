@@ -58,9 +58,8 @@ units = {
 		location = 7408 # Bangkok
 		ship = { name = "RTNS Sri Ayuthia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SIA } } }
 		ship = { name = "RTNS Dhonburi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SIA } } }
-		ship = { name = "RTNS Phra Ruang" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SIA } } }
 		
-		
+		ship = { name = "Phra Ruang Flotille" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SIA } } }	
 	}				
 }
 

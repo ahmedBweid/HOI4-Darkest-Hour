@@ -194,7 +194,7 @@ set_politics = {
 		stalinist = { popularity = 2 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = social_liberal
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -228,6 +228,17 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_conservatism
 	traits = {
+		stout_defender
+	}
+}
+
+create_country_leader = {
+	name = "Albert Lebrun"
+	desc = ""
+	picture = "Portrait_France_Albert_Lebrun.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {	
 		stout_defender
 	}
 }

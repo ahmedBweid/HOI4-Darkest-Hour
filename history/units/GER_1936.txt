@@ -300,21 +300,18 @@ units = {
 		base = 241
 		location = 241  # Wilhemshaven
 		
-		ship = { name = "KMS Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_5 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Admiral Scheer" definition = heavy_cruiser equipment = { heavy_cruiser_5 = { amount = 1 owner = GER } } }
+		ship = { name = "Deutschland" definition = heavy_cruiser  equipment = { heavy_cruiser_5 = { amount = 1 owner = GER } } }
+		ship = { name = "Admiral Scheer" definition = heavy_cruiser equipment = { heavy_cruiser_5 = { amount = 1 owner = GER } } }
 		
-		ship = { name = "KMS Nürnberg" definition = light_cruiser equipment = { light_cruiser_5 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Leipzig" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Königsberg" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Karlsruhe" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Köln" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Emden" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
+		ship = { name = "Nürnberg" definition = light_cruiser equipment = { light_cruiser_5 = { amount = 1 owner = GER } } }
+		ship = { name = "Leipzig" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
+		ship = { name = "Königsberg" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
+		ship = { name = "Karlsruhe" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
+		ship = { name = "Köln" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
+		ship = { name = "Emden" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = GER } } }
 		
-		# 1. Torpedobootflottille
-		ship = { name = "KMS Jaguar" definition = destroyer equipment = { destroyer_5 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Leopard" definition = destroyer equipment = { destroyer_5 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Luchs" definition = destroyer equipment = { destroyer_5 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Tiger" definition = destroyer equipment = { destroyer_5 = { amount = 1 owner = GER } } }
+		ship = { name = "3. Zerstörergeschwader" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = GER } } }
+		ship = { name = "4. Zerstörergeschwader" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = GER } } }
 	}
 
 	navy = {
@@ -322,38 +319,23 @@ units = {
 		base = 6332
 		location = 6332  # Konigsberg
 		
-		ship = { name = "KMS Schleswig-Holstein" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Schlesien" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Hannover" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+		ship = { name = "Schleswig-Holstein" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+		ship = { name = "Schlesien" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
+		ship = { name = "Hannover" definition = battleship equipment = { battleship_2 = { amount = 1 owner = GER } } }
 		
-		# 2. Torpedobootflottille
-		ship = { name = "KMS Möwe" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Albatros" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Seeadler" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Greif" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = GER } } }
-		
-		# 3. Torpedobootflottille
-		ship = { name = "KMS Falke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Kondor" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Wolf" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
-		ship = { name = "KMS Iltis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "1. Zerstörergeschwader" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "2. Zerstörergeschwader" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GER } } }
+		ship = { name = "5. Zerstörergeschwader" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GER } } }
+		ship = { name = "6. Zerstörergeschwader" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GER } } }
 	}
 
 	navy = {
 		name = "I. Unterseebootsflotte"
 		base = 6389
 		location = 241  # Wilhemshaven
-		
-		# 1. Unterseebootsflottille
-		ship = { name = "U-7" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-8" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-9" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-10" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		# 4. Unterseebootsflottille
-		ship = { name = "U-11" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-12" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-13" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-17" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+
+		ship = { name = "1. Unterseebootsflottille" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+		ship = { name = "4. Unterseebootsflottille" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
 	}
 
 	navy = {
@@ -361,14 +343,8 @@ units = {
 		base = 241
 		location = 6389  # Kiel
 		
-		# 2. Unterseebootsflottille
-		ship = { name = "U-1" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-2" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-3" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		# 3. Unterseebootsflottille
-		ship = { name = "U-4" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-5" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
-		ship = { name = "U-6" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+		ship = { name = "2. Unterseebootsflottille" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
+		ship = { name = "3. Unterseebootsflottille" definition = submarine equipment = { submarine_4 = { amount = 1 owner = GER } } }
 	}
 }
 

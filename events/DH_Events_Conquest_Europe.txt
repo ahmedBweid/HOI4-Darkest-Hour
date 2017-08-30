@@ -1,0 +1,66 @@
+﻿###########################
+# Darkest Hour Conquest Events : Europe
+###########################
+
+add_namespace = DH_Conquest_GER
+add_namespace = DH_Conquest_ENG
+add_namespace = DH_Conquest_SOV
+
+
+### -------------------  ---------------------------------------------
+# The Fall of London (Germany)
+news_event = {
+	id = DH_Conquest_ENG.1
+	title = DH_Conquest_ENG.1.t
+	desc = DH_Conquest_ENG.1.d
+	picture = News_Fall_of_London
+
+	major = yes
+
+	trigger = {
+		126 = { is_controlled_by = GER }
+		126 = { is_owned_by = ENG }
+		GER = { has_war_with = ENG }
+		NOT = { has_global_flag = fall_of_london }
+	}
+
+	immediate = {
+		set_global_flag = fall_of_london
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = { #This is only a temporary setback. We will reorganize and push the Germans back!
+		name = DH_Conquest_ENG.1.a
+		trigger = { 
+			TAG = ENG 
+		}
+	}
+	
+	option = { #This is the beginning of the end. We will set right what once went wrong.
+		name = DH_Conquest_ENG.1.b
+		trigger = { 
+			TAG = GER 
+		}
+	}
+	
+	option = { #With London in German hands, defeat of Britain is inevitable.
+		name = DH_Conquest_ENG.1.c
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = ENG
+				TAG = CAN
+			}
+		}
+	}
+
+	option = { #Germany now holds a very important bargaining chip for our return to the continent.
+		name = DH_Conquest_ENG.1.e
+		trigger = { 
+			TAG = CAN 
+		}
+	}
+}

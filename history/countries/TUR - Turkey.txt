@@ -40,6 +40,7 @@ set_technology = {
 	submarine_1895 = 1
 	submarine_1912 = 1
 	submarine_1916 = 1
+	submarine_1922 = 1	
 	
 	battlecruiser_1906 = 1
 	battlecruiser_1912 = 1

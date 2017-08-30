@@ -218,65 +218,52 @@ units = {
 
 
 	##### NAVAL UNITS #####
-	navy = {
-		name = "Base Naval El Ferrol"
-		base = 758
-		location = 758  # Ferrol/Coruna
-		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR version_name = "Príncipe Alfonso Class" } } }
-		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR version_name = "Príncipe Alfonso Class" } } }
-		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR version_name = "Príncipe Alfonso Class" } } }
-		# Flotilla de Destructores de El Ferrol
-		ship = { name = "ARE Alsedo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Velasco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Lazaga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SPR } } }
-	}
+
 	navy = {
 		name = "Base Naval Cádiz"
 		base = 1048
 		location = 1048  #Cádiz
-		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE República" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = SPR } } }
+		ship = { name = "Flotilla de Destructores No. 3" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = SPR } } }
 	}
 	navy = {
-		name = "Base Naval Cartagena"
-		base = 10024
-		location = 10024  #Cartagena/Murcia
-		# Flotilla de Destructores n.1
-		ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
-		# Flotilla de Destructores n.2
-		ship = { name = "ARE Churucca" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Lepanto" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
-		ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SPR } } }
+		name = "ARE Méndez Núñez"
+		base = 758
+		location = 758  #Coruna
+		ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = SPR } } }
+	}	
+	navy = {
+		name = "Escuadrón de Batalla"
+		base = 9764
+		location = 9764  #Tarragona
+		ship = { name = "Flotilla de Torpederas No. 1" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SPR } } }
+		ship = { name = "Flotilla de Torpederas No. 2" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SPR } } }
+	}		
+	navy = {
+		name = "Armada Colonial"
+		base = 13071
+		location = 13071  #Las Palmas de Gran Canaria
+		ship = { name = "Flotilla de Destructores No. 1" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = SPR } } }
+		ship = { name = "Flotilla de Destructores No. 2" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = SPR } } }
+	}		
+	navy = {
+		name = "Grupo C"
+		base = 6906
+		location = 6906  #Valencia
+		ship = { name = "S101 Flotilla" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SPR } } }
+		ship = { name = "S103 Flotilla" definition = submarine equipment = { submarine_3 = { amount = 1 owner = SPR } } }
 	}
 	navy = {
-		name = "Grupo de Cartagena"
-		base = 10024
-		location = 10024  #Cartagena/Murcia
-		# S101 Flotilla
-		ship = { name = "B5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "C1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C5" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-		ship = { name = "C6" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-	}
-	navy = {
-		name = "Grupo de Cádiz"
-		base = 1048
-		location = 1048  #Cádiz
-		# S103 Flotilla
-		ship = { name = "B1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B3" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
-		ship = { name = "B4" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SPR } } }
+		name = "I Flotilla de la Armada"
+		base = 9764
+		location = 9764  #Tarragona
+		ship = { name = "ARE Jaime I" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE España" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = SPR } } }		
+		ship = { name = "ARE Libertad" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = SPR } } }
+		ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = SPR } } }
+
+		ship = { name = "Flotilla de Destructores No. 4" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = SPR } } }
 	}
 }
 

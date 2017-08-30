@@ -325,10 +325,10 @@ units = {
 		name = "Flota Romania de Mare"			
 		base = 657 
 		location = 657 # Constanta
-		ship = { name = "NMS Marasti" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ROM } } }
-		ship = { name = "NMS Marasesti" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ROM } } }
-		ship = { name = "NMS Regele Ferdinand" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ROM } } }
-		ship = { name = "NMS Regina Maria" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ROM } } }
+		
+		ship = { name = "'NMS Regele Ferdinand' Flotila" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ROM } } }
+		
+		ship = { name = "'NMS Delfinul' Flotila" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ROM } } }
 	}
 }
 

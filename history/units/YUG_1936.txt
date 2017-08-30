@@ -259,13 +259,12 @@ units = {
 		name = "Kraljevska Jugoslavenska Ratna Mornarica"			
 		base = 3924
 		location = 3924 # Split
-		#ship = { name = "KB Dalmacija" definition = light_cruiser equipment = { light_cruiser_0 = { amount = 1 owner = GER } } }
-		ship = { name = "KB Dubrovnik" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = YUG } } }
-		# 1. Podmornicka Flotila
-		ship = { name = "KB Hrabri" definition = submarine equipment = { submarine_1 = { amount = 1 owner = YUG } } }				
-		ship = { name = "KB Nebojsa" definition = submarine equipment = { submarine_1 = { amount = 1 owner = YUG } } }				
-		ship = { name = "KB Smeli" definition = submarine equipment = { submarine_1 = { amount = 1 owner = YUG } } }				
-		ship = { name = "KB Osvetnik" definition = submarine equipment = { submarine_1 = { amount = 1 owner = YUG } } }				
+
+		ship = { name = "1. Razaracka Flotila" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = YUG } } }
+		ship = { name = "2. Razaracka Flotila" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = YUG } } }		
+		ship = { name = "3. Razaracka Flotila" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = YUG } } }		
+		# 1. Podmornicka Flotila		
+		ship = { name = "1. Podmornicka Flotila" definition = submarine equipment = { submarine_1 = { amount = 1 owner = YUG } } }				
 	}				
 
 }  # Neboja if we get font support

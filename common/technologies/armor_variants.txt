@@ -1,0 +1,1000 @@
+technologies = {
+	
+##########################################################################################################################	
+### -------------------------------------- Light Tank Destroyers-------------------------------------------------------	
+##########################################################################################################################	
+	
+### 1934 TD 
+	light_TD_1934 = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+			# modifier = {
+				# factor = 0
+				# can_research = improved_light_td
+			# }
+
+			# modifier = {
+				# factor = 0
+				# has_tech = improved_light_td
+			# }
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+### 1936 TD 
+	light_TD_1936 = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1938 TD 
+	light_TD_1938 = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1938
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1939 TD 
+	light_TD_1939 = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1944 TD 
+	light_TD_1944 = {
+
+		enable_equipments = {
+			light_tank_destroyer_equipment_4
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+##########################################################################################################################	
+### -------------------------------------- Light Self-Propelled Guns/Howitzers -------------------------------------------------------	
+##########################################################################################################################	
+
+### 1934 SPG 
+	light_SPG_1934 = {
+
+		enable_equipments = {
+			light_tank_artillery_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1936 SPG 
+	light_SPG_1936 = {
+
+		enable_equipments = {
+			light_tank_artillery_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1938 SPG 
+	light_SPG_1938 = {
+
+		enable_equipments = {
+			light_tank_artillery_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1938
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1939 SPG 
+	light_SPG_1939 = {
+
+		enable_equipments = {
+			light_tank_artillery_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1944 SPG 
+	light_SPG_1944 = {
+
+		enable_equipments = {
+			light_tank_artillery_equipment_4
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+##########################################################################################################################	
+### -------------------------------------- Light Self-Propelled Anti Air Guns -------------------------------------------------------	
+##########################################################################################################################	
+
+### 1934 SPG 
+	light_SPAA_1934 = {
+
+		enable_equipments = {
+			light_tank_aa_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1936 SPG 
+	light_SPAA_1936 = {
+
+		enable_equipments = {
+			light_tank_aa_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1936
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1938 SPG 
+	light_SPAA_1938 = {
+
+		enable_equipments = {
+			light_tank_aa_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1938
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1939 SPG 
+	light_SPAA_1939 = {
+
+		enable_equipments = {
+			light_tank_aa_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1944 SPG 
+	light_SPAA_1944 = {
+
+		enable_equipments = {
+			light_tank_aa_equipment_4
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+##########################################################################################################################	
+### -------------------------------------- Medium Tank Destroyers-------------------------------------------------------	
+##########################################################################################################################	
+	
+### 1939 TD 
+	medium_TD_1939 = {
+
+		enable_equipments = {
+			medium_tank_destroyer_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+			# modifier = {
+				# factor = 0
+				# can_research = improved_light_td
+			# }
+
+			# modifier = {
+				# factor = 0
+				# has_tech = improved_light_td
+			# }
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+### 1941 TD 
+	medium_TD_1941 = {
+
+		enable_equipments = {
+			medium_tank_destroyer_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1941
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1943 TD 
+	medium_TD_1943 = {
+
+		enable_equipments = {
+			medium_tank_destroyer_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1944 TD 
+	medium_TD_1944 = {
+
+		enable_equipments = {
+			medium_tank_destroyer_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+
+##########################################################################################################################	
+### -------------------------------------- Light Self-Propelled Guns/Howitzers -------------------------------------------------------	
+##########################################################################################################################	
+
+### 1939 SPG 
+	medium_SPG_1939 = {
+
+		enable_equipments = {
+			medium_tank_artillery_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1941 SPG 
+	medium_SPG_1941 = {
+
+		enable_equipments = {
+			medium_tank_artillery_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1941
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1943 SPG 
+	medium_SPG_1943 = {
+
+		enable_equipments = {
+			medium_tank_artillery_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1944 SPG 
+	medium_SPG_1944 = {
+
+		enable_equipments = {
+			medium_tank_artillery_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	
+##########################################################################################################################	
+### -------------------------------------- Light Self-Propelled Anti Air Guns -------------------------------------------------------	
+##########################################################################################################################	
+
+### 1939 SPG 
+	medium_SPAA_1939 = {
+
+		enable_equipments = {
+			medium_tank_aa_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1941 SPG 
+	medium_SPAA_1941 = {
+
+		enable_equipments = {
+			medium_tank_aa_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1941
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1943 SPG 
+	medium_SPAA_1943 = {
+
+		enable_equipments = {
+			medium_tank_aa_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1944 SPG 
+	medium_SPAA_1944 = {
+
+		enable_equipments = {
+			medium_tank_aa_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+##########################################################################################################################	
+### -------------------------------------- Medium Tank Destroyers-------------------------------------------------------	
+##########################################################################################################################	
+	
+### 1939 TD 
+	heavy_TD_1939 = {
+
+		enable_equipments = {
+			heavy_tank_destroyer_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+			# modifier = {
+				# factor = 0
+				# can_research = improved_light_td
+			# }
+
+			# modifier = {
+				# factor = 0
+				# has_tech = improved_light_td
+			# }
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+### 1941 TD 
+	heavy_TD_1941 = {
+
+		enable_equipments = {
+			heavy_tank_destroyer_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1941
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1943 TD 
+	heavy_TD_1943 = {
+
+		enable_equipments = {
+			heavy_tank_destroyer_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1944 TD 
+	heavy_TD_1944 = {
+
+		enable_equipments = {
+			heavy_tank_destroyer_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+
+##########################################################################################################################	
+### -------------------------------------- Light Self-Propelled Guns/Howitzers -------------------------------------------------------	
+##########################################################################################################################	
+
+### 1939 SPG 
+	heavy_SPG_1939 = {
+
+		enable_equipments = {
+			heavy_tank_artillery_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1941 SPG 
+	heavy_SPG_1941 = {
+
+		enable_equipments = {
+			heavy_tank_artillery_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1941
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1943 SPG 
+	heavy_SPG_1943 = {
+
+		enable_equipments = {
+			heavy_tank_artillery_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1944 SPG 
+	heavy_SPG_1944 = {
+
+		enable_equipments = {
+			heavy_tank_artillery_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	
+##########################################################################################################################	
+### -------------------------------------- Light Self-Propelled Anti Air Guns -------------------------------------------------------	
+##########################################################################################################################	
+
+### 1939 SPG 
+	heavy_SPAA_1939 = {
+
+		enable_equipments = {
+			heavy_tank_aa_equipment_0
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1939
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1941 SPG 
+	heavy_SPAA_1941 = {
+
+		enable_equipments = {
+			heavy_tank_aa_equipment_1
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1941
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+### 1943 SPG 
+	heavy_SPAA_1943 = {
+
+		enable_equipments = {
+			heavy_tank_aa_equipment_2
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1943
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+### 1944 SPG 
+	heavy_SPAA_1944 = {
+
+		enable_equipments = {
+			heavy_tank_aa_equipment_3
+		}
+	
+		dependencies = {
+
+		}
+	
+		research_cost = 0.5
+		start_year = 1944
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+}

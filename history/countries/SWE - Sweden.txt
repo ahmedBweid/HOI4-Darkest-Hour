@@ -41,6 +41,7 @@ set_technology = {
 	light_cruiser_1900 = 1
 	light_cruiser_1912 = 1
 	light_cruiser_1922 = 1
+	light_cruiser_1933 = 1	
 	
 	heavy_cruiser_1885 = 1
 	heavy_cruiser_1895 = 1
@@ -60,7 +61,9 @@ set_technology = {
 	battleship_1906 = 1
 	battleship_1912 = 1
 	battleship_1916 = 1
-	battleship_1922 = 1		
+	battleship_1922 = 1	
+	
+	light_carrier_1912 = 1	
 	
 	transport = 1
 #

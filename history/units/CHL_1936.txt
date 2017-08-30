@@ -69,40 +69,23 @@ units = {
 		name = "Armada de Chile"			
 		base = 8222 
 		location = 8222 # Valparaiso
+		ship = { name = "Flotilla des Torpideros nro. 1" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CHL } } }
+
+		ship = { name = "Flotilla des Torpideros nro. 2" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = CHL } } }
+
 		ship = { name = "BACH Almirante Latorre" definition = battleship equipment = { battleship_4 = { amount = 1 owner = CHL } } }
 		ship = { name = "BACH Almirante O'Higgins" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHL } } }
 		ship = { name = "BACH Blanco Encalada" definition = light_cruiser equipment = { light_cruiser_0 = { amount = 1 owner = CHL } } }
 		ship = { name = "BACH Chacabuco" definition = light_cruiser equipment = { light_cruiser_0 = { amount = 1 owner = CHL } } }
-		# Flotilla des Torpideros nro. 1
-		ship = { name = "BACH Almirante Lynch" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Almirante Condell" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Aldea" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Hyatt" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = CHL } } }
-		# Flotilla des Torpideros nro. 2
-		ship = { name = "BACH Orella" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Requelme" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Serrano" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Videla" definition = destroyer equipment = { destroyer_4 = { amount = 1 owner = CHL } } }
 	}				
 	navy = {				
-		name = "Flotilla de Submarinos nro. 1"			
+		name = "I Flotilla de la Armada"			
 		base = 8222 
 		location = 8222 # Valparaiso
-		ship = { name = "BACH Gualcolda" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Tegualda" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Rucumilla" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Quidora" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Fresia" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Guale" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHL } } }
+		ship = { name = "Flotilla des Submarinos nro. 2" definition = submarine equipment = { submarine_3 = { amount = 1 owner = CHL } } }
+		ship = { name = "Flotilla des Submarinos nro. 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CHL } } }
 	}				
-	navy = {				
-		name = "Flotilla de Submarinos nro. 2"			
-		base = 5228
-		location = 5228 # Coquimbo
-		ship = { name = "BACH Capitán O`Brien" definition = submarine equipment = { submarine_3 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Almirante Simpson" definition = submarine equipment = { submarine_3 = { amount = 1 owner = CHL } } }
-		ship = { name = "BACH Capitán Thomson" definition = submarine equipment = { submarine_3 = { amount = 1 owner = CHL } } }
-	}				
+			
 }
 
 

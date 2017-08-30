@@ -322,16 +322,16 @@ create_country_leader = {
 	}
 }
 
-#create_country_leader = {
-#	name = "Neville Chamberlain"
-#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-#	expire = "1965.1.1"
-#	ideology = social_liberalism
-#	traits = {
-#		
-#	}
-#}
+create_country_leader = {
+	name = "H.M. George V"
+	desc = ""
+	picture = "gfx//leaders//ENG//Portrait_Britain_George_V.dds"
+	expire = "1938.1.1"
+	ideology = social_conservatism
+	traits = {
+		
+	}
+}
 
 create_country_leader = {
 	name = "Oswald Mosley"

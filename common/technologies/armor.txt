@@ -295,6 +295,12 @@ technologies = {
 			position = { x = @light_tank_line y = @1934 }
 		}
 		
+		sub_technologies = {
+			light_TD_1934
+			light_SPG_1934
+			light_SPAA_1934
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -328,6 +334,12 @@ technologies = {
 			name = armour_folder
 			position = { x = @light_tank_line y = @1936 }
 		}
+
+		sub_technologies = {
+			light_TD_1936
+			light_SPG_1936
+			light_SPAA_1936
+		}	
 		
 		ai_will_do = {
 			factor = 1
@@ -364,6 +376,12 @@ technologies = {
 			position = { x = @light_tank_line y = @1938 }
 		}
 		
+		sub_technologies = {
+			light_TD_1938
+			light_SPG_1938
+			light_SPAA_1938
+		}
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -394,6 +412,12 @@ technologies = {
 			leads_to_tech = medium_tank_1939
 			research_cost_coeff = 1
 		}	
+		
+		sub_technologies = {
+			light_TD_1939
+			light_SPG_1939
+			light_SPAA_1939
+		}
 		
 		research_cost = 2
 		start_year = 1939
@@ -434,6 +458,12 @@ technologies = {
 		folder = {
 			name = armour_folder
 			position = { x = @light_tank_line y = @1944 }
+		}
+		
+		sub_technologies = {
+			light_TD_1944
+			light_SPG_1944
+			light_SPAA_1944
 		}
 		
 		ai_will_do = {
@@ -478,6 +508,12 @@ technologies = {
 			position = { x = @medium_tank_line y = @1939 }
 		}
 		
+		sub_technologies = {
+			medium_TD_1939
+			medium_SPG_1939
+			medium_SPAA_1939
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -511,7 +547,13 @@ technologies = {
 			name = armour_folder
 			position = { x = @medium_tank_line y = @1941 }
 		}
-		
+	
+		sub_technologies = {
+			medium_TD_1941
+			medium_SPG_1941
+			medium_SPAA_1941
+		}	
+	
 		ai_will_do = {
 			factor = 1
 			
@@ -546,6 +588,12 @@ technologies = {
 			position = { x = @medium_tank_line y = @1943 }
 		}
 		
+		sub_technologies = {
+			medium_TD_1943
+			medium_SPG_1943
+			medium_SPAA_1943
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -579,6 +627,12 @@ technologies = {
 			name = armour_folder
 			position = { x = @medium_tank_line y = @1944 }
 		}
+		
+		sub_technologies = {
+			medium_TD_1944
+			medium_SPG_1944
+			medium_SPAA_1944
+		}	
 		
 		ai_will_do = {
 			factor = 1
@@ -618,6 +672,11 @@ technologies = {
 			position = { x = @heavy_tank_line y = @1939 }
 		}
 		
+		sub_technologies = {
+			heavy_TD_1939
+			heavy_SPG_1939
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -651,7 +710,12 @@ technologies = {
 			name = armour_folder
 			position = { x = @heavy_tank_line y = @1941 }
 		}
-		
+	
+		sub_technologies = {
+			heavy_TD_1941
+			heavy_SPG_1941
+		}	
+	
 		ai_will_do = {
 			factor = 1
 			
@@ -685,6 +749,11 @@ technologies = {
 			name = armour_folder
 			position = { x = @heavy_tank_line y = @1943 }
 		}
+		
+		sub_technologies = {
+			heavy_TD_1943
+			heavy_SPG_1943
+		}	
 		
 		ai_will_do = {
 			factor = 1
@@ -724,6 +793,11 @@ technologies = {
 			position = { x = @heavy_tank_line y = @1944 }
 		}
 		
+		sub_technologies = {
+			heavy_TD_1944
+			heavy_SPG_1944
+		}	
+		
 		ai_will_do = {
 			factor = 1
 			
@@ -756,6 +830,11 @@ technologies = {
 		folder = {
 			name = armour_folder
 			position = { x = @super_heavy_tank_line y = @1944 }
+		}
+		
+		sub_technologies = {
+			super_heavy_TD_1944
+			super_heavy_SPG_1944
 		}
 		
 		ai_will_do = {

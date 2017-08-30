@@ -55,6 +55,37 @@ equipments = {
 	carrier_0 = {
 		archetype = carrier
 		priority = 70
+		
+		ap_attack = 0
+		attack = 1
+		fire_range = 15
+		torpedo_attack = 0
+		carrier_size = 55
+		
+		anti_air_attack = 10
+		
+		armor_value = 9
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 0.5
+		surface_visibility = 30
+		naval_speed = 28
+		reliability = 0.80
+
+		naval_range = 4000
+		
+		max_strength = 325
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 9500
+		resources = {
+			oil = 1
+			steel = 4
+			chromium = 1
+		}
+		manpower = 5000
 	}
 
 	carrier_1 = {

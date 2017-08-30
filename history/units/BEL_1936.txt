@@ -160,6 +160,17 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+	
+	
+	##### Naval OOB #####
+	navy = {				
+		name = "1ste Transportatie Smaldeel"			
+		base = 6560
+		location = 6560 # Bruges
+		ship = { name = "1ère Flottille de Contre-Torpilleur" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = BEL } } }
+		ship = { name = "2de Flotielje Torpedoboten" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = BEL } } }
+	}		
+	
 }
 
 air_wings = {
