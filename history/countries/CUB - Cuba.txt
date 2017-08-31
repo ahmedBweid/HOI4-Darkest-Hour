@@ -73,18 +73,18 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "José Agripino Barnet"
+	name = "José Barnet y Vinageras"
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
 	picture = "GFX_portrait_cuba_jose_barnet"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = market_liberalism
 	traits = {
 		#
 	}

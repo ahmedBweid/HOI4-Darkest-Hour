@@ -35,26 +35,26 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 5 }		
 		social_conservative = { popularity = 20 }		
-		market_liberal = { popularity = 0 }		
+		market_liberal = { popularity = 35 }		
 		social_liberal = { popularity = 18 }		
-		social_democrat = { popularity = 35 }		
+		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 9 }		
 		leninist = { popularity = 10 }		
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = market_liberal
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Edvard Beneš"
+	name = "Edouard Benes"
 	desc = "POLITICS_EDVARD_BENES_DESC"
 	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = market_liberalism
 	traits = {
 		#
 	}

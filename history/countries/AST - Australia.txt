@@ -166,6 +166,17 @@ set_politics = {
 }
 
 create_country_leader = {
+	name = "Isaac Alfred Isaacs"
+	desc = "POLITICS_ISAAC_ALFRED_ISAACS_DESC"
+	picture = "Portrait_Australia_Isaac_Alfred_Isaacs.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "John Curtin"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
 	picture = "Portrait_Australia_John_Curtin.dds"

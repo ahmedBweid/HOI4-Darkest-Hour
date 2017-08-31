@@ -174,6 +174,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Sir John Buchan"
+	desc = "POLITICS_JOHN_BUCHAN_DESC"
+	picture = "Portrait_Canada_John_Buchan.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Adrien Arcand"
 	desc = "POLITICS_ADRIEN_ARCAND_DESC"
 	picture = "GFX_CAN_adrien_arcand"

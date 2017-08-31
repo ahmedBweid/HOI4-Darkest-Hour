@@ -123,7 +123,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Arturo Alessandri"
+	name = "Arturo Alessandri Palma"
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "1965.1.1"
