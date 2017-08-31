@@ -87,7 +87,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "José Luis Tejada Sorzano"
+	name = "José Tejada Sorzano"
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
 	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
 	expire = "1965.1.1"

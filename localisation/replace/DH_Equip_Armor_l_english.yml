@@ -1,13 +1,15 @@
 ﻿l_english:
 
-### Tanks ---------------------------
 
+ ### ---------------------------------------- Light Tanks ------------------------------------
  gw_tank_equipment:0 "Great War Tank"
  gw_tank_equipment_short:0 "Great War Tank"
- gw_tank_equipment_desc:0 "Tanks in World War I were developed separately and simultaneously by the United Kingdom and France as a means to break the deadlock of trench warfare on the Western Front. The name Tank was adopted by the British during the early stages of their development, as a security measure to conceal their purpose. Early tanks were armed with machineguns and small cannons, moved slowly, and were armored only enough to stop small arms fire."
  
  light_tank_equipment:0 "Light Tank"
  light_tank_equipment_desc:0 "Light tanks are small, agile tanks which are able to both scout and fight lightly armored opponents."
+ 
+ experimental_tank_1916:0 "Experimental Tank '16"
+ experimental_tank_1916_short:0 "Experimental Tank '16"
  
  light_tank_equipment_0:0 "Light Tank '17"
  light_tank_equipment_0_short:0 "L. Tank '17"
@@ -95,9 +97,9 @@
  modern_tank_equipment_3_short:1 "MBT '62"
 
  
-########################################################
-# Germany
-#########################################################
+##########################################################################################################################	
+### -------------------------------------- Germany -------------------------------------------------------	
+##########################################################################################################################	
  GER_light_tank_equipment_0:0 "Sturmpanzerwagen A7V"
  GER_light_tank_equipment_0_short:0 "A7V"
  GER_light_tank_equipment_1:0 "Leichter Kampfwagen I"
@@ -113,7 +115,7 @@
  GER_light_tank_equipment_6:0 "Panzerkampfwagen II Ausf. A"
  GER_light_tank_equipment_6_short:0 "PzKpfw. II"
  GER_light_tank_equipment_7:0 "Panzerkampfwagen II Ausf. D"
- GER_light_tank_equipment_7:0 "PzKpfw. II Ausf. D"
+ GER_light_tank_equipment_7_short:0 "PzKpfw. II Ausf. D"
  GER_light_tank_equipment_8:0 "Panzerkampfwagen 38(t)"
  GER_light_tank_equipment_8_short:0 "PzKpfw. 38t"
  GER_light_tank_equipment_9:0 "Panzerkampfwagen Leopard"
@@ -123,10 +125,10 @@
  GER_medium_tank_equipment_0_short:0 "PzKpfw. III"
  GER_medium_tank_equipment_1:0 "Panzerkampfwagen. IV Ausf. F"
  GER_medium_tank_equipment_1_short:0 "PzKpfw. IV"
- GER_medium_tank_equipment_2:0 "Panzerkampfwagen. V Panther"
+ GER_medium_tank_equipment_2:0 "Panzerkampfwagen. V Panther Ausf. D"
  GER_medium_tank_equipment_2_short:0 "PzKpfw. V Panther"
- GER_medium_tank_equipment_3:0 "Panzerkampfwagen. V Panther Ausf. D"
- GER_medium_tank_equipment_3_short:0 "PzKpfw. V Panther Ausf. D"
+ GER_medium_tank_equipment_3:0 "Panzerkampfwagen. VF Panther II"
+ GER_medium_tank_equipment_3_short:0 "PzKpfw. VF Panther II"
   
  GER_modern_tank_equipment_0:0 "E-50 Standardpanzer"
  GER_modern_tank_equipment_0_short:0 "E-50"
@@ -141,8 +143,8 @@
  GER_heavy_tank_equipment_0_short:0 "A7V-U"
  GER_heavy_tank_equipment_1:0 "10.5 cm K gepanzerte Selbstfahrlafette 'Dicker Max'"
  GER_heavy_tank_equipment_1_short:0 "Dicker Max"
- GER_heavy_tank_equipment_2:0 "12.8 cm Selbstfahrlafette 'Sturer Emil'"
- GER_heavy_tank_equipment_2_short:0 "'Sturer Emil'"
+ GER_heavy_tank_equipment_2:0 "VK 36.01"
+ GER_heavy_tank_equipment_2_short:0 "VK 36.01"
  GER_heavy_tank_equipment_3:0 "Panzerkampfwagen VI Tiger I"
  GER_heavy_tank_equipment_3_short:0 "PzKpfw. VI Tiger I"
  GER_heavy_tank_equipment_4:0 "Panzerkampfwagen VI Tiger II"
@@ -153,9 +155,9 @@
  GER_super_heavy_tank_equipment_0:0 "Panzerkampfwagen VII Maus"
  GER_super_heavy_tank_equipment_0_short:0 "PzKpfw. VII Maus"
  
-########################################################
-# United Kingdom
-#########################################################
+##########################################################################################################################	
+### -------------------------------------- United Kingdom -------------------------------------------------------	
+##########################################################################################################################	
  ENG_light_tank_equipment_0:0 "Mark IV"
  ENG_light_tank_equipment_0_short:0 "Mark IV"
  ENG_light_tank_equipment_1:0 "Mark A Whippet"
@@ -211,9 +213,9 @@
  ENG_super_heavy_tank_equipment_0:0 "A43 Black Prince"
  ENG_super_heavy_tank_equipment_0_short:0 "A43 Black Prince"
  
-########################################################
-# United States
-#########################################################
+##########################################################################################################################	
+### -------------------------------------- United States -------------------------------------------------------	
+##########################################################################################################################	
  USA_light_tank_equipment_0:0 "Mark VII Liberty"
  USA_light_tank_equipment_0_short:0 "Mark VII Liberty"
  USA_light_tank_equipment_1:0 "Six-Ton Tank M1917"
@@ -267,10 +269,9 @@
  USA_super_heavy_tank_equipment_0:0 "T29"
  USA_super_heavy_tank_equipment_0_short:0 "T29"
  
-########################################################
-# Soviet Union
-#########################################################
-
+##########################################################################################################################	
+### -------------------------------------- Soviet Union -------------------------------------------------------	
+##########################################################################################################################	
  SOV_light_tank_equipment_0:0 "Mark V Rikardo"
  SOV_light_tank_equipment_0_short:0 "Mark V"
  SOV_light_tank_equipment_1:0 "Renault FT-17"
@@ -322,10 +323,9 @@
  SOV_super_heavy_tank_equipment_0:0 "IS-3"
  SOV_super_heavy_tank_equipment_0_short:0 "IS-3"
  
-########################################################
-# Japan
-#########################################################
-
+##########################################################################################################################	
+### -------------------------------------- Japan -------------------------------------------------------	
+##########################################################################################################################	
  JAP_light_tank_equipment_1:0 "Ko-Gata Sensha"
  JAP_light_tank_equipment_1_short:0 "Ko-Gata Sensha"
  JAP_light_tank_equipment_2:0 "Mark A Whippet"
@@ -374,18 +374,96 @@
  JAP_super_heavy_tank_equipment_0_short:0 "O-I"
  
 
-########################################################
-# Italy
-#########################################################
- ITA_modern_tank_equipment_0:0 "P45"
- ITA_modern_tank_equipment_0_short:0 "P45"
+##########################################################################################################################	
+### -------------------------------------- Italy -------------------------------------------------------	
+##########################################################################################################################	
+ ITA_light_tank_equipment_0:0 "FIAT 2000"
+ ITA_light_tank_equipment_0_short:0 "FIAT 2000"
+ ITA_light_tank_equipment_1:0 "Renault FT-17"
+ ITA_light_tank_equipment_1_short:0 "Renault FT-17"
+ ITA_light_tank_equipment_2:0 "Fiat 3000"
+ ITA_light_tank_equipment_2_short:0 "Fiat 3000"
+ ITA_light_tank_equipment_3:0 "Fiat 3000 M21"
+ ITA_light_tank_equipment_3_short:0 "Fiat 3000 M21"
+ ITA_light_tank_equipment_4:0 "Fiat 3000 M23"
+ ITA_light_tank_equipment_4_short:0 "Fiat 3000 M23"
+ ITA_light_tank_equipment_5:0 "Fiat 3000 M30"
+ ITA_light_tank_equipment_5_short:0 "Fiat 3000 M30"
+ ITA_light_tank_equipment_6:0 "CV-33"
+ ITA_light_tank_equipment_6_short:0 "CV-33"
+ ITA_light_tank_equipment_7:0 "CV-35"
+ ITA_light_tank_equipment_7_short:0 "CV-35"
+ ITA_light_tank_equipment_8:0 "M13/40"
+ ITA_light_tank_equipment_8_short:0 "M13/40"
+ ITA_light_tank_equipment_9:0 "L6/40"
+ ITA_light_tank_equipment_9_short:0 "L6/40"
+ 
+ ITA_medium_tank_equipment_0:0 "Fiat-Ansaldo M13/40"
+ ITA_medium_tank_equipment_0_short:0 "M13/40"
+ ITA_medium_tank_equipment_1:0 "Fiat-Ansaldo M14/41"
+ ITA_medium_tank_equipment_1_short:0 "M14/41"
+ ITA_medium_tank_equipment_2:0 "Fiat-Ansaldo M15/42"
+ ITA_medium_tank_equipment_2_short:0 "M15/42"
+ ITA_medium_tank_equipment_3:0 "Fiat-Ansaldo P23/40"
+ ITA_medium_tank_equipment_3_short:0 "P23/40"
+  
+ ITA_modern_tank_equipment_0:0 "M26 Pershing"
+ ITA_modern_tank_equipment_0_short:0 "M26 Pershing"
+ ITA_modern_tank_equipment_1:0 "Fiat-Ansaldo P30/43"
+ ITA_modern_tank_equipment_1_short:0 "P30/43"
+ ITA_modern_tank_equipment_2:0 "M47 Patton"
+ ITA_modern_tank_equipment_2_short:0 "M47 Patton"
+ ITA_modern_tank_equipment_3:0 "M48 Patton"
+ ITA_modern_tank_equipment_3_short:0 "M48 Patton"
 
-########################################################
-# France
-#########################################################
- FRA_modern_tank_equipment_0:0 "AMX 50t"
- FRA_modern_tank_equipment_0_short:0 "AMX 50t"
+ ITA_heavy_tank_equipment_3:0 "P40"
+ ITA_heavy_tank_equipment_3_short:0 "P40"
+ ITA_heavy_tank_equipment_4:0 "P43"
+ ITA_heavy_tank_equipment_4_short:0 "P43"
  
+ 
+##########################################################################################################################	
+### -------------------------------------- France -------------------------------------------------------	
+##########################################################################################################################	
+ FRA_light_tank_equipment_0:0 "Schneider CA1"
+ FRA_light_tank_equipment_0_short:0 "Schneider CA1"
+ FRA_light_tank_equipment_1:0 "Renault FT 17"
+ FRA_light_tank_equipment_1_short:0 "Renault FT 17"
+ FRA_light_tank_equipment_4:0 "Renault NC"
+ FRA_light_tank_equipment_4_short:0 "Renault NC"
+ FRA_light_tank_equipment_5:0 "AMR 33"
+ FRA_light_tank_equipment_5_short:0 "AMR 33"
+ FRA_light_tank_equipment_6:0 "Renault R35"
+ FRA_light_tank_equipment_6_short:0 "Renault R35"
+ FRA_light_tank_equipment_7:0 "Hotchkiss H-35"
+ FRA_light_tank_equipment_7_short:0 "Hotchkiss H-35"
+ FRA_light_tank_equipment_8:0 "Somua S35"
+ FRA_light_tank_equipment_8_short:0 "Somua S35"
+ FRA_light_tank_equipment_9:0 "Hotchkiss H-39"
+ FRA_light_tank_equipment_9_short:0 "Hotchkiss H-39"
+ 
+ FRA_medium_tank_equipment_0:0 "Char B1"
+ FRA_medium_tank_equipment_0_short:0 "Char B1"
+ FRA_medium_tank_equipment_1:0 "Char B1 bis"
+ FRA_medium_tank_equipment_1_short:0 "Char B1 bis"
+ FRA_medium_tank_equipment_2:0 "M4A2 Sherman"
+ FRA_medium_tank_equipment_2_short:0 "M4A2 Sherman"
+ FRA_medium_tank_equipment_3:0 "ARL-44"
+ FRA_medium_tank_equipment_3_short:0 "ARL-44"
+  
+ FRA_modern_tank_equipment_0:0 "AMX 50 100mm"
+ FRA_modern_tank_equipment_0_short:0 "AMX 50 100mm"
+ FRA_modern_tank_equipment_1:0 "AMX 50 120mm"
+ FRA_modern_tank_equipment_1_short:0 "AMX 50 120mm"
+ FRA_modern_tank_equipment_2:0 "Lorraine 40T"
+ FRA_modern_tank_equipment_2_short:0 "Lorraine 40T"
+ FRA_modern_tank_equipment_3:0 "AMX-30"
+ FRA_modern_tank_equipment_3_short:0 "AMX-30"
 
- 
- 
+ FRA_heavy_tank_equipment_0:0 "Frot-Laffy landship"
+ FRA_heavy_tank_equipment_0_short:0 "Frot-Laffy landship"
+ FRA_heavy_tank_equipment_1:0 "Schneider CA1"
+ FRA_heavy_tank_equipment_1_short:0 "Schneider CA1"
+ FRA_heavy_tank_equipment_2:0 "Char 2C"
+ FRA_heavy_tank_equipment_2_short:0 "Char 2C"
+

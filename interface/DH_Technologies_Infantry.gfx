@@ -4,25 +4,25 @@ spriteTypes = {
 # Rifles
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/Infantry/Gewehr 98.dds"
+		texturefile = "gfx/interface/technologies/Infantry/GER_Rifle_Gewehr 98.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/Infantry/Kar 98k.dds"
+		texturefile = "gfx/interface/technologies/Infantry/GER_Rifle_Kar 98k.dds"
 	}
 	SpriteType = {
 		name = "GFX_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/Infantry/Gewehr 43.dds"
+		texturefile = "gfx/interface/technologies/Infantry/GER_Rifle_Gewehr 43.dds"
 	}	
 	SpriteType = {
 		name = "GFX_infantry_weapons3_medium"
-		texturefile = "gfx/interface/technologies/Infantry/STG 44.dds"
+		texturefile = "gfx/interface/technologies/Infantry/GER_Rifle_StG 44.dds"
 	}	
 	
 #SMGs	
 	SpriteType = {
 		name = "GFX_infantry_weapons_smg_medium"
-		texturefile = "gfx/interface/technologies/Infantry/MP 40.dds"
+		texturefile = "gfx/interface/technologies/Infantry/GER_Rifle_Gewehr 41.dds"
 	}
 	
 #Infantry eq. upgrades

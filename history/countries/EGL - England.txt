@@ -75,6 +75,7 @@ set_politics = {
 	ruling_party = national_socialist
 	election_frequency = 48
 	elections_allowed = no
+
 }
 
 add_ideas = {
