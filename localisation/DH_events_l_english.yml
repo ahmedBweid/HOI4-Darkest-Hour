@@ -1,4 +1,5 @@
 ﻿l_english:
+ lag_warning:0 "§RWarning: This option will more then likely cause the game to lag and freeze. The time it takes is random. Please be patient when choosing this option.§!\n"
 ###### Austria events-------------------------------------
  DH_austria.1.t:0 "German Anschluss"
  DH_austria.1.d:0 "Germany demands we join them completely"
@@ -494,3 +495,19 @@
  DH_eastturkestan.1.t:0 "Offer Soviets Peace"
  DH_eastturkestan.1.d:0 "We have achieved our goal and established our Islamic Republic, let us make peace with the Soviets before this ends"
  DH_eastturkestan.1.a:0 "Peace is our only option."
+
+ ###### Surrender Events----------------------------------
+ DH_Surrender_SOV.1.t:0 "Bitter Peace - Soviet Surrender"
+ DH_Surrender_SOV.1.d:0 "Germany has pushed us far. What should we do?"
+ DH_Surrender_SOV.1.a:0 "Surrender to the Germans."
+ DH_Surrender_SOV.1.b:0 "We will never Surrender! For the Motherland!"
+
+ DH_Surrender_GER.1.t:0 "Bitter Peace - Soviet Surrender"
+ DH_Surrender_GER.1.d:0 "German Decision what to do with the Soviets."
+ DH_Surrender_GER.1.a:0 "Establish the RKs to the Urals."
+ DH_Surrender_GER.1.b:0 "Take everything to the Urals. Leave the rest to the Soviets."
+ DH_Surrender_GER.1.c:0 "Let them have their freedom. Take Ostland and Ukraine."
+ DH_Surrender_GER.1.e:0 "No deals with the Bolshoviks, Fight on!"
+ germany_soviet_freedom:0 "Only take the lands for RK Ostland and Ukraine, leaveing the Soviets most of their lands.\n"
+ germany_military_occupation_bitter_peace:0 "Take all the land up to the Urals and force the Soviets back to the Urals.\n"
+ germany_establish_rk_bitter_peace:0 "Establish the RK Ostland, RK Ukraine, RK Moscow, and RK Kaukasus. Pushing the Soviets back to the Urals.\n"

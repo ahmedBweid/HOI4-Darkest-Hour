@@ -1,3 +1,7 @@
+﻿###########################
+# Darkest Hour Events : Resistance
+###########################
+
 add_namespace = DH_rebellion
 
 ### ---------------------------------------------------------------------------- Rebellions ---------------------------------------------
@@ -12,9 +16,11 @@ country_event = {
 	picture = GFX_report_event_german_speech
 
 	trigger = {
-		any_state = { resistance_strength = > 0.9}
-		}
+		any_state = { resistance_strength > 0.9} #I can't find a way to reference the states resistance value.
+	}
+	
 	mean_time_to_happen = { days = 15}
-    option = {
-    }
+
+	option = {
+	}
 }
