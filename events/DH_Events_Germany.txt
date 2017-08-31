@@ -1613,6 +1613,12 @@ country_event = {
 						target = SCO
 						autonomous_state = autonomy_reichskommissariat
 					}
+					set_autonomy = {
+						target = EGL
+						autonomous_state = autonomy_reichskommissariat
+					}
+				}
+				if = {
 					limit = {
 						AND = {
 							NOT = { has_dlc = "Death or Dishonor" }
@@ -1623,6 +1629,12 @@ country_event = {
 						target = SCO
 						autonomous_state = autonomy_satellite
 					}
+					set_autonomy = {
+						target = EGL
+						autonomous_state = autonomy_satellite
+					}
+				}
+				if = {
 					limit = {
 						AND = {
 							NOT = { has_dlc = "Together for Victory" }
@@ -1630,42 +1642,6 @@ country_event = {
 						}
 					}
 					puppet = SCO
-				}
-			}
-			GER = {
-				if = {
-					limit = {
-						OR = {
-							AND = {
-								has_dlc = "Death or Dishonor"
-								has_dlc = "Together for Victory"
-							}
-							AND ={
-								has_dlc = "Death or Dishonor"
-								NOT = { has_dlc = "Together for Victory" }
-							}
-						}
-					}
-					set_autonomy = {
-						target = SCO
-						autonomous_state = autonomy_reichskommissariat
-					}
-					limit = {
-						AND = {
-							NOT = { has_dlc = "Death or Dishonor" }
-							has_dlc = "Together for Victory"
-						}
-					}
-					set_autonomy = {
-						target = EGL
-						autonomous_state = autonomy_satellite
-					}
-					limit = {
-						AND = {
-							NOT = { has_dlc = "Together for Victory" }
-							NOT = { has_dlc = "Death or Dishonor" }
-						}
-					}
 					puppet = EGL
 				}
 			}
@@ -1706,11 +1682,13 @@ country_event = {
 			has_full_control_of_state = 95
 			has_full_control_of_state = 204				
 		}
+		GER = { NOT = { has_country_flag = germany_bitter_peace_military_occupation } }
 	}
 	
 	#Establish RK Ostland
 	option = { 
 		name = DH_germany_rk.1.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -1732,6 +1710,8 @@ country_event = {
 					target = ROS
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -1742,6 +1722,8 @@ country_event = {
 					target = ROS
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -1755,12 +1737,12 @@ country_event = {
 				transfer_state = 12
 				transfer_state = 11
 				transfer_state = 96
-				transfer_state = 206		
+				transfer_state = 206
 				transfer_state = 191
-				transfer_state = 190			
+				transfer_state = 190
 				transfer_state = 189
 				transfer_state = 95
-				transfer_state = 204				
+				transfer_state = 204
 			}	
 		}
 		custom_effect_tooltip = germany_establish_rk_ostland
@@ -1773,7 +1755,7 @@ country_event = {
 			factor = 0
 		}
 		custom_effect_tooltip = germany_rk_military_occupation
-	}	
+	}
 }
 
 #########################################################################
@@ -1804,11 +1786,13 @@ country_event = {
 			has_full_control_of_state = 226
 			has_full_control_of_state = 137
 		}
+		GER = { NOT = { has_country_flag = germany_bitter_peace_military_occupation } }
 	}
 	
 	# Establish RK Ukraine
 	option = { 
 		name = DH_germany_rk.2.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -1830,6 +1814,8 @@ country_event = {
 					target = RUK
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -1840,6 +1826,8 @@ country_event = {
 					target = RUK
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -1918,13 +1906,13 @@ country_event = {
 			has_full_control_of_state = 581
 			has_full_control_of_state = 573
 			has_full_control_of_state = 582
-			has_full_control_of_state = 652		
+			has_full_control_of_state = 652
 			has_full_control_of_state = 651
-			has_full_control_of_state = 398			
+			has_full_control_of_state = 398
 			has_full_control_of_state = 397
 			has_full_control_of_state = 214
-			has_full_control_of_state = 351		
-			has_full_control_of_state = 400	
+			has_full_control_of_state = 351
+			has_full_control_of_state = 400
 			has_full_control_of_state = 399
 			has_full_control_of_state = 249
 			has_full_control_of_state = 251
@@ -1936,25 +1924,27 @@ country_event = {
 			has_full_control_of_state = 247
 			has_full_control_of_state = 264
 			has_full_control_of_state = 244
-			has_full_control_of_state = 246		
-			has_full_control_of_state = 219	
-			has_full_control_of_state = 254	
+			has_full_control_of_state = 246
+			has_full_control_of_state = 219
+			has_full_control_of_state = 254
 			has_full_control_of_state = 257
 			has_full_control_of_state = 255
-			has_full_control_of_state = 220		
+			has_full_control_of_state = 220
 			has_full_control_of_state = 222
 			has_full_control_of_state = 223
 			has_full_control_of_state = 258
 			has_full_control_of_state = 224
 			has_full_control_of_state = 205
-			has_full_control_of_state = 242	
-			has_full_control_of_state = 243				
-		}	
+			has_full_control_of_state = 242
+			has_full_control_of_state = 243
+		}
+		GER = { NOT = { has_country_flag = germany_bitter_peace_military_occupation } }
 	}
 	
 	# Establish RK Moskowien
 	option = { 
 		name = DH_germany_rk.3.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -1977,6 +1967,8 @@ country_event = {
 					target = RMO
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					NOT = { has_dlc = "Death or Dishonor" }
 					has_dlc = "Together for Victory"
@@ -1985,6 +1977,8 @@ country_event = {
 					target = RMO
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2054,7 +2048,7 @@ country_event = {
 			if = {
 				limit = {
 					GER = {
-						has_full_control_of_state = 2163
+						has_full_control_of_state = 216
 					}
 				}
 				RMO = {
@@ -2131,11 +2125,13 @@ country_event = {
 			has_full_control_of_state = 230
 			has_full_control_of_state = 229
 		}
+		GER = { NOT = { has_country_flag = germany_bitter_peace_military_occupation } }
 	}
 	
 	# Establish RK Kaukasien
 	option = {
 		name = DH_germany_rk.4.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -2157,6 +2153,8 @@ country_event = {
 					target = RKA
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2167,6 +2165,8 @@ country_event = {
 					target = RKA
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2237,6 +2237,7 @@ country_event = {
 	# Establish RK Turkestan
 	option = {
 		name = DH_germany_rk.5.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -2258,6 +2259,8 @@ country_event = {
 					target = RTU
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2268,6 +2271,8 @@ country_event = {
 					target = RTU
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2327,6 +2332,7 @@ country_event = {
 	# Establish RK Iceland
 	option = {
 		name = DH_germany_rk.6.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -2348,6 +2354,8 @@ country_event = {
 					target = ICE
 					autonomous_state = autonomy_reichsprotectorate
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2358,6 +2366,8 @@ country_event = {
 					target = ICE
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2415,6 +2425,7 @@ country_event = {
 	# Establish RK Schweland
 	option = {
 		name = DH_germany_rk.7.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -2436,6 +2447,8 @@ country_event = {
 					target = SWE
 					autonomous_state = autonomy_reichsprotectorate
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2446,6 +2459,8 @@ country_event = {
 					target = SWE
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2519,6 +2534,7 @@ country_event = {
 	#Establish RK Ural
 	option = {
 		name = DH_germany_rk.8.a
+		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
 		}
@@ -2540,6 +2556,8 @@ country_event = {
 					target = RUR
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2550,6 +2568,8 @@ country_event = {
 					target = RUR
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2632,6 +2652,7 @@ country_event = {
 	# Establish RK Siberien
 	option = { 
 		name = DH_germany_rk.9.a
+		custom_effect_tooltip = lag_warning
 		hidden_effect = {
 			if = {
 				limit = {
@@ -2650,6 +2671,8 @@ country_event = {
 					target = RSB
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2660,6 +2683,8 @@ country_event = {
 					target = RSB
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2750,6 +2775,8 @@ country_event = {
 					target = GGP
 					autonomous_state = autonomy_reichskommissariat
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Death or Dishonor" }
@@ -2760,6 +2787,8 @@ country_event = {
 					target = GGP
 					autonomous_state = autonomy_puppet
 				}
+			}
+			if = {
 				limit = {
 					AND = {
 						NOT = { has_dlc = "Together for Victory" }
@@ -2783,6 +2812,8 @@ country_event = {
 					}
 				}
 				GGP = { transfer_state = 10 }
+			}
+			if = {
 				limit = {
 					any_country = {
 						OR = {

@@ -358,8 +358,8 @@ ideas = {
 		modifier = {
 			enemy_partisan_effect = -0.25
 			resistance_tick = -0.25
-		}	
-	}	
+		}
+	}
 }
 	
 	hidden_ideas = {
