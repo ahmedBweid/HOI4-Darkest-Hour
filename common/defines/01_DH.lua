@@ -8,8 +8,8 @@ NDefines.NCountry.MAJOR_MIN_FACTORIES = 50
 NDefines.NMilitary.CORPS_COMMANDER_CAP = 20
 NDefines.NMilitary.FIELD_MARSHALL_CAP = 60
 NDefines.NMilitary.MIN_DIVISION_DEPLOYMENT_TRAINING = 0.3	
-NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 25
-NDefines.NProduction.MAX_NAV_FACTORIES_PER_LINE = 20
+--NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 25
+--NDefines.NProduction.MAX_NAV_FACTORIES_PER_LINE = 20
 --Opinion change from -100-100 to -200-200
 NDefines.NDiplomacy.MAX_OPINION_VALUE = 200
 NDefines.NDiplomacy.MIN_OPINION_VALUE = -200
