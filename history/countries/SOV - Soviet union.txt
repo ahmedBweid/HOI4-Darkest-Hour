@@ -282,7 +282,7 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Iosef Stalin"
+	name = "Iosef V. Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"

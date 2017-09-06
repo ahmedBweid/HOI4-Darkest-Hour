@@ -180,7 +180,7 @@ equipments = {
 	}
 	
 	light_tank_equipment_7 = {
-		year = 1939
+		year = 1938
 		
 		archetype = light_tank_equipment
 		parent = light_tank_equipment_6
@@ -190,7 +190,7 @@ equipments = {
 	}
 	
 	light_tank_equipment_8 = {
-		year = 1944
+		year = 1939
 		
 		archetype = light_tank_equipment
 		parent = light_tank_equipment_7
@@ -198,6 +198,16 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 	}
+	
+	light_tank_equipment_9 = {
+		year = 1944
+		
+		archetype = light_tank_equipment
+		parent = light_tank_equipment_8
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}	
 #######################################
 # Light SPH
 #######################################

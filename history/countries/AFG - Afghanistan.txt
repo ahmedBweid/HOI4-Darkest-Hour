@@ -80,9 +80,9 @@ set_politics = {
 
 # Mohammad Hashim Khan (Prime Minister) other potential candidate
 create_country_leader = {
-	name = "H.M. Muhammed Zahir"
+	name = "Muhammed Zahir"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	picture = "Portrait_Afghanistan_Muhammed_Zahir.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

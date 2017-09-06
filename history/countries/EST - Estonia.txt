@@ -94,7 +94,7 @@ set_politics = {
 		stalinist = { popularity = 1 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = paternal_autocrat
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
@@ -132,7 +132,7 @@ set_politics = {
 create_country_leader = {
 	name = "Konstantin Päts"
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "GFX_Portrait_estonia_konstantin_pats"
+	picture = "Portrait_Estonia_Konstantin_Pats.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

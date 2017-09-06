@@ -81,9 +81,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "David Ben-Gurion"
+	name = "Chaim Weizmann"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "Portrait_Israel_Chaim_Weizmann.dds"
 	ideology = social_liberalism
 	traits = {
 		#

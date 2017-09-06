@@ -144,9 +144,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "H.M. Leopold III"
+	name = "Leopold III"
 	desc = "POLITICS_LEOPOLD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "gfx/leaders/Europe/Portrait_Belgium_Leopold_III.dds"
 	expire = "1965.1.1"
 	ideology = market_liberalism
 	traits = {

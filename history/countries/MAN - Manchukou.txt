@@ -78,9 +78,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Aisin Gioro Puyi"
+	name = "Pu-Yi"
 	
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	picture = "Portrait_Manchuria_Pu_Yi.dds"
 	expire = "1960.1.1"
 	ideology = rexism
 	traits = {

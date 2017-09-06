@@ -86,9 +86,9 @@ set_politics = {
 create_country_leader = {
 	name = "Juan Bautista Sacasa"
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	picture = "Portrait_Nicaragua_Juan_Bautista_Sacasa.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
+	ideology = social_conservatism
 	traits = {
 		#
 	}

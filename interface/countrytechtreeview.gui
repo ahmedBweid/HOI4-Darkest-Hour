@@ -886,11 +886,24 @@ guiTypes = {
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
-				}				
-
+				}
+				
+				instantTextBoxType = {
+					name = "armour_subtitle_heavy_2"
+					position = { x = 755 y = 1215 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "ARMOUR_TITLE_HEAVY"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 207 y = 335 }
+					position = { x = 480 y = 1215 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -900,7 +913,20 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-
+				
+				instantTextBoxType = {
+					name = "armour_subtitle_mbt"
+					position = { x = 470 y = 1840 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "MBT"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
 				instantTextBoxType = {
 					name = "armour_subtitle_light"
 					position = { x = -84 y = 55  }
@@ -1309,7 +1335,7 @@ guiTypes = {
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
 			}
-			
+### Years			
 				instantTextBoxType = {
 					name = "naval_year2"
 					position = { x = 60 y = 140 }
@@ -1476,10 +1502,10 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
-			
+#####################################################			
 				instantTextBoxType = {
 					name = "naval_subtitle_destroyer"
-					position = { x = 230 y = 100 }
+					position = { x = 260 y = 100 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -1493,7 +1519,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_light_cruiser"
-					position = { x = 680 y = 100 }
+					position = { x = 655 y = 100 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -1507,7 +1533,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "naval_subtitle_heavy_cruiser"
-					position = { x = 1550 y = 100 }
+					position = { x = 1075 y = 100 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -1521,7 +1547,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_sub"
-					position = { x = 1450 y = 100 }
+					position = { x = 1527 y = 239 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -1535,7 +1561,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_transport"
-					position = { x = 230 y = 100 }
+					position = { x = 1950 y = 100 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}

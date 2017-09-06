@@ -162,6 +162,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Haakon VII"
+	desc = ""
+	picture = "Portrait_Norway_Haakon_VII.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Vidkun Quisling"
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling.dds"

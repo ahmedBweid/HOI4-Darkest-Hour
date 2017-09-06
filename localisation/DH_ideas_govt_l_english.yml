@@ -3,6 +3,12 @@
 ## Laws and Policies 
 ##############################################
 
+
+##### Governement Types #####################################
+ communist_govt:0 "Communist State"
+ fascist_govt:0 "Fascist State"
+ democratic_govt:0 "Democratic State	"
+
 ##### Civil Laws #####################################
  idea_group_civil_laws:0 "Civil Laws"
  civil_laws:0 "Civil Laws"

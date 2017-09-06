@@ -53,10 +53,10 @@ idea_categories = {
 	}
 	
 	military_staff = {
+		slot = staff_chief 
 		slot = army_chief 
-		slot = navy_chief 
+		slot = navy_chief
 		slot = air_chief
-		slot = high_command
 		slot = high_command
 		slot = high_command
 		

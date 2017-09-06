@@ -220,6 +220,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Gustav V"
+	desc = ""
+	picture = "Portrait_Sweden_Gustav_V.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+
 create_corps_commander = {
 	name = "Folke Högberg"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"

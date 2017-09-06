@@ -81,9 +81,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "M.M. Fuad I"
+	name = "Fuad I"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_social_conservative1.dds"
+	picture = "Portrait_Egypt_Fuad_I.dds"
 	ideology = social_conservatism
 	traits = {
 		#

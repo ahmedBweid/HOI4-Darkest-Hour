@@ -1,0 +1,78 @@
+ideas = {
+
+
+#########################################################################
+#  Governement Types (Used mainly for the AI and such)
+#########################################################################
+	country = {
+		
+### Communist State	
+		communist_govt = {
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				OR = {
+					has_government = stalinist
+					has_government =	leninist				
+					has_government = left_wing_radical
+				}
+			}
+
+			modifier = {
+				stalinist_acceptance = 85
+				leninist_acceptance = 85
+				left_wing_radical_acceptance = 85
+			}
+		}
+### Fascist State	
+		fascist_govt = {
+
+			allowed = {
+				always = no
+			}
+
+			available = {
+				OR = {
+					has_government = national_socialist
+					has_government =	fascist				
+					has_government = paternal_autocrat
+				}
+			}
+
+			modifier = {
+				national_socialist_acceptance = 85
+				fascist_acceptance = 85
+				paternal_autocrat_acceptance = 85
+			}
+
+		}
+### Democratic State	
+		democratic_govt = {
+
+			allowed = {
+				always = no				
+			}
+
+			available = {
+				OR = {
+					has_government = social_conservative
+					has_government =	market_liberal				
+					has_government = social_liberal
+					has_government = social_democrat					
+				}
+			}
+
+			modifier = {
+				social_conservative_acceptance = 85
+				market_liberal_acceptance = 85
+				social_liberal_acceptance = 85
+				social_democrat_acceptance = 85				
+			}
+		}		
+###########################################################		
+	}
+
+}

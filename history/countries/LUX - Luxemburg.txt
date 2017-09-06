@@ -106,9 +106,9 @@ set_politics = {
 	}
 
 	create_country_leader = {
-		name = "Pierre Dupong"
+		name = "Charlotte"
 		desc = "POLITICS_PIERRE_DUPONG_DESC"
-		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+		picture = "Portrait_Luxemburg_Charlotte.dds"
 		expire = "1965.1.1"
 		ideology = social_conservatism
 		traits = {

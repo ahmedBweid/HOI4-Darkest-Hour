@@ -80,9 +80,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Anandyn Amar"
+	name = "Agdanbuugiyn Amar"
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_stalinist.dds"
+	picture = "Portrait_Mongolia_Agdanbuugiyn_Amar.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
