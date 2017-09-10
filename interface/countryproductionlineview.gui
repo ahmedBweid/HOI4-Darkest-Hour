@@ -19,7 +19,7 @@ guiTypes = {
 
 		iconType ={
 			name ="production_header_bg"
-			spriteType = "GFX_header_bg"
+			spriteType = "GFX_header_prod_bg"
 			position = { x= 5 y = 07 }
 			Orientation = "UPPER_LEFT"
 		}	
@@ -82,7 +82,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "resources"
-					position = { x = 530 y = 15 } #x = 60 y = 15
+					position = { x = 577 y = 16 } #x = 60 y = 15
 					size = { width = 100% height = 60 }
 						
 					buttonType = {
@@ -322,7 +322,7 @@ guiTypes = {
 				#################################
 				buttonType = {
 					name = "infantry_button"
-					position = { x = 22 y = 80 } #x=22 y=122
+					position = { x = 22 y = 87 } #x=22 y=122
 					quadTextureSprite ="GFX_add_prod_inf_art_line"
 					#pdx_tooltip = "PRODUCTION_INFANTRY_BUTTON"
 					clicksound = click_checkbox
@@ -330,14 +330,14 @@ guiTypes = {
 
 				iconType = {
 					name = "infantry_button_glow"
-					position = { x = 25 y = 81 }
+					position = { x = 25 y = 88 }
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}
 				
 				buttonType = {
 					name = "tank_button"
-					position = { x=102 y=80 } #102 y=122
+					position = { x = 102 y = 87 } #102 y=122
 					quadTextureSprite ="GFX_add_prod_armour_line"
 					#pdx_tooltip = "PRODUCTION_VEHICLES_BUTTON"
 					clicksound = click_checkbox
@@ -345,14 +345,14 @@ guiTypes = {
 
 				iconType = {
 					name = "tank_button_glow"
-					position = { x = 105 y = 81 }
+					position = { x = 105 y = 88 }
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}
 				
 				buttonType = {
 					name = "aircraft_button"
-					position = { x=182 y=80 } #x=182 y=122
+					position = { x = 182 y = 87 } #x=182 y=122
 					quadTextureSprite ="GFX_add_prod_aircraft_line"
 					#pdx_tooltip = "PRODUCTION_AIRCRAFT_BUTTON"
 					clicksound = click_checkbox
@@ -360,14 +360,14 @@ guiTypes = {
 				
 				iconType = {
 					name = "aircraft_button_glow"
-					position = { x = 185 y = 81 }
+					position = { x = 185 y = 88 }
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}
 				
 				buttonType = {
 					name = "naval_button"
-					position = { x=356 y=80 } #x=356 y=122
+					position = { x = 356 y = 87 } #x=356 y=122
 					spriteType ="GFX_add_prod_naval_line"
 					#pdx_tooltip = "PRODUCTION_SHIPS_BUTTON"
 					clicksound = click_checkbox
@@ -375,21 +375,21 @@ guiTypes = {
 				
 				iconType = {
 					name = "naval_button_glow"
-					position = { x = 359 y = 81 }
+					position = { x = 359 y = 88 }
 					spriteType = "GFX_prod_new_equipment_glow"
 					alwaystransparent = yes
 				}	
 
 				iconType = {
 					name = "tutorial_glow"
-					position = { x = 20 y = 82 }
+					position = { x = 20 y = 89 }
 					spriteType = "GFX_production_lines_icon_glow"
 					hide = yes
 				}
 				
 				iconType = {
 					name = "tutorial_glow_2"
-					position = { x = 352 y = 82 }
+					position = { x = 352 y = 89 }
 					spriteType = "GFX_production_navy_icon_glow"
 					hide = yes
 				}				
@@ -450,7 +450,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "operational_naval_factories_value"
-					position = { x = 448 y = 23 } #x = 448 y = 93
+					position = { x = 446 y = 23 } #x = 448 y = 93
 					textureFile = ""
 					font = "hoi_18mbs"
 					borderSize = {x = 0 y = 0}
@@ -463,7 +463,7 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_equipment"
-					position = { x = 530 y = 85 } #x = 13 y = 179
+					position = { x = 13 y = 50 } #x = 13 y = 179
 					quadTextureSprite = "GFX_inf_art_checkbox"
 					clicksound = click_checkbox
 					pdx_tooltip = PRODUCTION_EQUIPMENT_FILTER
@@ -472,18 +472,18 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "factories_used_equipment"
-					position = { x = 569 y = 95 } #x = 52 y = 190
+					position = { x = 52 y = 61 } #x = 52 y = 190
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
 					format = right
-					pdx_tooltip = PRODUCTION_FILTER_ARMS_FACTORIES					
+					pdx_tooltip = PRODUCTION_FILTER_ARMS_FACTORIES
 				}
 				
 				checkBoxType = {
 					name = "show_armor"
-					position = { x = 615 y = 85 } #x = 98 y = 179
+					position = { x = 98 y = 50 } #x = 98 y = 179
 					quadTextureSprite = "GFX_armour_checkbox"
 					clicksound = click_checkbox
 					pdx_tooltip = PRODUCTION_ARMOR_FILTER
@@ -492,7 +492,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "factories_used_armor"
-					position = { x = 654 y = 95 } #x = 137 y = 190
+					position = { x = 137 y = 61 } #x = 137 y = 190
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -503,7 +503,7 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_air"
-					position = { x = 700 y = 85 } #x = 183 y = 179
+					position = { x = 183 y = 50 } #x = 183 y = 179
 					quadTextureSprite = "GFX_air_checkbox"
 					clicksound = click_checkbox
 					pdx_tooltip = PRODUCTION_AIR_FILTER
@@ -512,7 +512,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "factories_used_air"
-					position = { x = 739 y = 95 } #x = 222 y = 190
+					position = { x = 222 y = 61 } #x = 222 y = 190
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -523,7 +523,7 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_capital_ships"
-					position = { x = 785 y = 85 } #x = 268 y = 179
+					position = { x = 268 y = 50 } #x = 268 y = 179
 					quadTextureSprite = "GFX_capital_ships_checkbox"
 					clicksound = click_checkbox
 					pdx_tooltip = PRODUCTION_CAPITAL_SHIPS_FILTER
@@ -532,7 +532,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "factories_used_capital_ships"
-					position = { x = 824 y = 95 } #x = 307 y = 190
+					position = { x = 307 y = 61 } #x = 307 y = 190
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -543,7 +543,7 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_screen_ships"
-					position = { x = 870 y = 85 } #x = 353 y = 179
+					position = { x = 353 y = 50 } #x = 353 y = 179
 					quadTextureSprite = "GFX_screen_ships_checkbox"
 					clicksound = click_checkbox
 					pdx_tooltip = PRODUCTION_SCREEN_SHIPS_FILTER
@@ -552,7 +552,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "factories_used_screen_ships"
-					position = { x = 909 y = 95 } #x = 392 y = 190
+					position = { x = 392 y = 61 } #x = 392 y = 190
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
@@ -563,7 +563,7 @@ guiTypes = {
 				
 				checkBoxType = {
 					name = "show_other_ships"
-					position = { x = 955 y = 85 } #x = 438 y = 179
+					position = { x = 438 y = 50 } #x = 438 y = 179
 					quadTextureSprite = "GFX_other_ships_checkbox"
 					clicksound = click_checkbox
 					pdx_tooltip = PRODUCTION_OTHER_SHIPS_FILTER
@@ -572,7 +572,7 @@ guiTypes = {
 				
 				instantTextboxType = {
 					name = "factories_used_other_ships"
-					position = { x = 994 y = 95 } #x = 477 y = 190
+					position = { x = 477 y = 61 } #x = 477 y = 190
 					font = "hoi_18mbs"
 					text = "110"
 					maxWidth = 40
