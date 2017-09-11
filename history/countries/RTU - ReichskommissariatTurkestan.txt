@@ -44,9 +44,9 @@ set_politics = {
 	}
 
 create_country_leader = {
-	name = "Turkestan Council" 
-	desc = "POLITICS_TURKESTAN_COUNCIL_DESC" 
-	picture = "Portrait_Turkestan_council.dds"
+	name = "Oskar von Niedermayer" 
+	desc = "POLITICS_VON_NIEDERMAYER_DESC" 
+	picture = "Portrait_Germany_Oskar_von_Niedermayer.dds"
 	expire = "1973.5.3" 
 	ideology = national_socialism
 	traits = { }

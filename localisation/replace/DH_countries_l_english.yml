@@ -1,10 +1,12 @@
 ﻿l_english:
+#----------- Germany -----------------------------------------------
  GER_national_socialist:0 "Deutsches Reich"
  GER_national_socialist_DEF:0 "Deutsches Reich"
  GER_fascist:0 "Deutsches Reich"
  GER_fascist_DEF:0 "Das Deutsches Reich"
  GER_paternal_autocrat:0 "Deutsches Kaiserreich"
  GER_paternal_autocrat_DEF:0 "The Deutsches Kaiserreich" 
+ 
  GER_social_conservative:0 "Weimarer Republik"
  GER_social_conservative_DEF:0 "The Weimarer Republik"
  GER_market_liberal:0 "Weimarer Republik"
@@ -13,12 +15,14 @@
  GER_social_liberal_DEF:0 "The Weimarer Republik"
  GER_social_democrat:0 "Weimarer Republik"
  GER_social_democrat_DEF:0 "The Weimarer Republik" 
+ 
  GER_stalinist:0 "Democratic Republic of Germany"
  GER_stalinist_DEF:0 "The Democratic Republic of Germany"
  GER_leninist:0 "Democratic Republic of Germany"
  GER_leninist_DEF:0 "The Democratic Republic of Germany"
  GER_left_wing_radical:0 "Democratic Republic of Germany"
  GER_left_wing_radical_DEF:0 "The Democratic Republic of Germany"
+ 
  GER_national_socialist_ADJ:0 "German"
  GER_fascist_ADJ:0 "German"
  GER_paternal_autocrat_ADJ:0 "German"
@@ -29,13 +33,15 @@
  GER_stalinist_ADJ:0 "German"
  GER_leninist_ADJ:0 "German"
  GER_left_wing_radical_ADJ:0 "German"
- 
+
+#------------------- United Kingdom ------------------------------------
  ENG_national_socialist:0 "British Empire"
  ENG_national_socialist_DEF:0 "The British Empire"
  ENG_fascist:0 "British Empire"
  ENG_fascist_DEF:0 "The British Empire"
  ENG_paternal_autocrat:0 "Great Britain"
  ENG_paternal_autocrat_DEF:0 "Great Britain" 
+ 
  ENG_social_conservative:0 "United Kingdom"
  ENG_social_conservative_DEF:0 "The United Kingdom"
  ENG_market_liberal:0 "United Kingdom"
@@ -44,12 +50,14 @@
  ENG_social_liberal_DEF:0 "The United Kingdom"
  ENG_social_democrat:0 "United Kingdom"
  ENG_social_democrat_DEF:0 "The United Kingdom" 
+ 
  ENG_stalinist:0 "Union of Britain"
  ENG_stalinist_DEF:0 "The Union of Britain"
  ENG_leninist:0 "Union of Britain"
  ENG_leninist_DEF:0 "The Union of Britain"
  ENG_left_wing_radical:0 "Union of Britain"
  ENG_left_wing_radical_DEF:0 "The Union of Britain"
+ 
  ENG_national_socialist_ADJ:0 "British"
  ENG_fascist_ADJ:0 "British"
  ENG_paternal_autocrat_ADJ:0 "British"
@@ -60,13 +68,15 @@
  ENG_stalinist_ADJ:0 "British"
  ENG_leninist_ADJ:0 "British"
  ENG_left_wing_radical_ADJ:0 "British"
- 
+
+#------------------- Soviet Union ------------------------------------
  SOV_national_socialist:0 "Russian Empire"
  SOV_national_socialist_DEF:0 "The Russian Empire"
  SOV_fascist:0 "Russian Empire"
  SOV_fascist_DEF:0 "The Russian Empire"
  SOV_paternal_autocrat:0 "Russia"
  SOV_paternal_autocrat_DEF:0 "Russia" 
+ 
  SOV_social_conservative:0 "Russian Federation"
  SOV_social_conservative_DEF:0 "The Russian Federation"
  SOV_market_liberal:0 "Russian Federation"
@@ -75,12 +85,14 @@
  SOV_social_liberal_DEF:0 "The Russian Federation"
  SOV_social_democrat:0 "Russian Federation"
  SOV_social_democrat_DEF:0 "The Russian Federation" 
+ 
  SOV_stalinist:0 "Soviet Union"
  SOV_stalinist_DEF:0 "The Soviet Union"
  SOV_leninist:0 "Soviet Union"
  SOV_leninist_DEF:0 "The Soviet Union"
  SOV_left_wing_radical:0 "Soviet Union"
  SOV_left_wing_radical_DEF:0 "The Soviet Union"
+ 
  SOV_national_socialist_ADJ:0 "Russian"
  SOV_fascist_ADJ:0 "Russian"
  SOV_paternal_autocrat_ADJ:0 "Russian"
@@ -92,12 +104,14 @@
  SOV_leninist_ADJ:0 "Soviet"
  SOV_left_wing_radical_ADJ:0 "Soviet"
  
+#------------------- United States ------------------------------------
  USA_national_socialist:0 "Silver Legion America"
  USA_national_socialist_DEF:0 "Silver Legion America"
  USA_fascist:0 "Silver Legion America"
  USA_fascist_DEF:0 "Silver Legion America"
  USA_paternal_autocrat:0 "American Empire"
  USA_paternal_autocrat_DEF:0 "The American Empire" 
+ 
  USA_social_conservative:0 "United States of America"
  USA_social_conservative_DEF:0 "The United States of America"
  USA_market_liberal:0 "United States of America"
@@ -106,6 +120,7 @@
  USA_social_liberal_DEF:0 "The United States of America"
  USA_social_democrat:0 "United States of America"
  USA_social_democrat_DEF:0 "The United States of America" 
+ 
  USA_stalinist:0 "Communist States of America"
  USA_stalinist_DEF:0 "The Communist States of America"
  USA_leninist:0 "Communist States of America"
@@ -113,6 +128,7 @@
  USA_left_wing_radical:0 "Communist States of America"
  USA_left_wing_radical_DEF:0 "The Communist States of America"
  USA_national_socialist_ADJ:0 "American"
+ 
  USA_fascist_ADJ:0 "American"
  USA_paternal_autocrat_ADJ:0 "American"
  USA_social_conservative_ADJ:0 "American"
@@ -123,12 +139,14 @@
  USA_leninist_ADJ:0 "American"
  USA_left_wing_radical_ADJ:0 "American"
  
+#------------------- Sweden ------------------------------------
  SWE_national_socialist:0 "Svea Rike"
  SWE_national_socialist_DEF:0 "Svea Rike"
  SWE_fascist:0 "Svea Rike"
  SWE_fascist_DEF:0 "Svea Rike"
  SWE_paternal_autocrat:0 "The Kingdom of Sweden"
  SWE_paternal_autocrat_DEF:0 "The The Kingdom of Sweden" 
+
  SWE_social_conservative:0 "Sweden"
  SWE_social_conservative_DEF:0 "Sweden"
  SWE_market_liberal:0 "Sweden"
@@ -137,12 +155,14 @@
  SWE_social_liberal_DEF:0 "Sweden"
  SWE_social_democrat:0 "Sweden"
  SWE_social_democrat_DEF:0 "Sweden" 
+ 
  SWE_stalinist:0 "Folkhemmet"
  SWE_stalinist_DEF:0 "Folkhemmet"
  SWE_leninist:0 "Folkhemmet"
  SWE_leninist_DEF:0 "Folkhemmet"
  SWE_left_wing_radical:0 "Folkhemmet"
  SWE_left_wing_radical_DEF:0 "Folkhemmet"
+ 
  SWE_national_socialist_ADJ:0 "Swedish"
  SWE_fascist_ADJ:0 "Swedish"
  SWE_paternal_autocrat_ADJ:0 "Swedish"
@@ -154,12 +174,14 @@
  SWE_leninist_ADJ:0 "Swedish"
  SWE_left_wing_radical_ADJ:0 "Swedish"
  
+#------------------- France ------------------------------------
  FRA_national_socialist:0 "Nation Française"
  FRA_national_socialist_DEF:0 "Nation Française"
  FRA_fascist:0 "Nation Française"
  FRA_fascist_DEF:0 "Nation Française"
  FRA_paternal_autocrat:0 "Bourbon France"
  FRA_paternal_autocrat_DEF:0 "Bourbon France" 
+ 
  FRA_social_conservative:0 "French Republic"
  FRA_social_conservative_DEF:0 "The French Republic"
  FRA_market_liberal:0 "French Republic"
@@ -168,12 +190,14 @@
  FRA_social_liberal_DEF:0 "The French Republic"
  FRA_social_democrat:0 "French Republic"
  FRA_social_democrat_DEF:0 "The French Republic" 
+ 
  FRA_stalinist:0 "French Commune"
  FRA_stalinist_DEF:0 "The French Commune"
  FRA_leninist:0 "French Commune"
  FRA_leninist_DEF:0 "The French Commune"
  FRA_left_wing_radical:0 "French Commune"
  FRA_left_wing_radical_DEF:0 "The French Commune"
+ 
  FRA_national_socialist_ADJ:0 "French"
  FRA_fascist_ADJ:0 "French"
  FRA_paternal_autocrat_ADJ:0 "French"
@@ -185,12 +209,14 @@
  FRA_leninist_ADJ:0 "French"
  FRA_left_wing_radical_ADJ:0 "French"
  
+#------------------- Luxembourg ------------------------------------
  LUX_national_socialist:0 "Greater Luxembourg"
  LUX_national_socialist_DEF:0 "Greater Luxembourg"
  LUX_fascist:0 "Greater Luxembourg"
  LUX_fascist_DEF:0 "Greater Luxembourg"
  LUX_paternal_autocrat:0 "Royalist Luxembourg"
  LUX_paternal_autocrat_DEF:0 "Royalist Luxembourg" 
+
  LUX_social_conservative:0 "Luxembourg"
  LUX_social_conservative_DEF:0 "Luxembourg"
  LUX_market_liberal:0 "Luxembourg"
@@ -199,6 +225,7 @@
  LUX_social_liberal_DEF:0 "Luxembourg"
  LUX_social_democrat:0 "Luxembourg"
  LUX_social_democrat_DEF:0 "Luxembourg" 
+
  LUX_stalinist:0 "Rosa Luxembourg"
  LUX_stalinist_DEF:0 "Rosa Luxembourg"
  LUX_leninist:0 "Rosa Luxembourg"
@@ -206,6 +233,7 @@
  LUX_left_wing_radical:0 "Rosa Luxembourg"
  LUX_left_wing_radical_DEF:0 "Rosa Luxembourg"
  LUX_national_socialist_ADJ:0 "Luxembourg"
+ 
  LUX_fascist_ADJ:0 "Luxembourg"
  LUX_paternal_autocrat_ADJ:0 "Luxembourg"
  LUX_social_conservative_ADJ:0 "Luxembourg"
@@ -216,6 +244,7 @@
  LUX_leninist_ADJ:0 "Luxembourg"
  LUX_left_wing_radical_ADJ:0 "Luxembourg"
  
+#------------------- Belgium ------------------------------------
  BEL_national_socialist:0 "Rexist Belgium"
  BEL_national_socialist_DEF:0 "Rexist Belgium"
  BEL_fascist:0 "Rexist Belgium"
@@ -308,13 +337,15 @@
  CZE_stalinist_ADJ:0 "Czechoslovakian"
  CZE_leninist_ADJ:0 "Czechoslovakian"
  CZE_left_wing_radical_ADJ:0 "Czechoslovakian"
- 
+
+#------------------- Poland ------------------------------------
  POL_national_socialist:0 "Falangist Poland"
  POL_national_socialist_DEF:0 "Falangist Poland"
  POL_fascist:0 "Falangist Poland"
  POL_fascist_DEF:0 "Falangist Poland"
  POL_paternal_autocrat:0 "Poland"
  POL_paternal_autocrat_DEF:0 "Poland" 
+ 
  POL_social_conservative:0 "Republic of Poland"
  POL_social_conservative_DEF:0 "The Republic of Poland"
  POL_market_liberal:0 "Republic of Poland"
@@ -323,12 +354,14 @@
  POL_social_liberal_DEF:0 "The Republic of Poland"
  POL_social_democrat:0 "Republic of Poland"
  POL_social_democrat_DEF:0 "The Republic of Poland" 
+ 
  POL_stalinist:0 "Polish People's Republic"
  POL_stalinist_DEF:0 "The Polish People's Republic"
  POL_leninist:0 "Polish People's Republic"
  POL_leninist_DEF:0 "The Polish People's Republic"
  POL_left_wing_radical:0 "Polish People's Republic"
  POL_left_wing_radical_DEF:0 "The Polish People's Republic"
+ 
  POL_national_socialist_ADJ:0 "Polish"
  POL_fascist_ADJ:0 "Polish"
  POL_paternal_autocrat_ADJ:0 "Polish"
@@ -340,12 +373,14 @@
  POL_leninist_ADJ:0 "Polish"
  POL_left_wing_radical_ADJ:0 "Polish"
  
+#------------------- Austria ------------------------------------
  AUS_national_socialist:0 "Austrian Reich"
  AUS_national_socialist_DEF:0 "Austrian Reich"
- AUS_fascist:0 "Austrian Reich"
- AUS_fascist_DEF:0 "Austrian Reich"
+ AUS_fascist:0 "Federal State of Austria"
+ AUS_fascist_DEF:0 "The Federal State of Austria"
  AUS_paternal_autocrat:0 "Kingdom of Austria"
  AUS_paternal_autocrat_DEF:0 "Kingdom of Austria" 
+ 
  AUS_social_conservative:0 "Republic of Austria"
  AUS_social_conservative_DEF:0 "The Republic of Austria"
  AUS_market_liberal:0 "Republic of Austria"
@@ -354,12 +389,14 @@
  AUS_social_liberal_DEF:0 "The Republic of Austria"
  AUS_social_democrat:0 "Republic of Austria"
  AUS_social_democrat_DEF:0 "The Republic of Austria" 
- AUS_stalinist:0 "Austrian Soviet Republic"
- AUS_stalinist_DEF:0 "The Austrian Soviet Republic"
- AUS_leninist:0 "Austrian Soviet Republic"
- AUS_leninist_DEF:0 "The Austrian Soviet Republic"
- AUS_left_wing_radical:0 "Austrian Soviet Republic"
- AUS_left_wing_radical_DEF:0 "The Austrian Soviet Republic"
+ 
+ AUS_stalinist:0 "People's Republic of Austria"
+ AUS_stalinist_DEF:0 "The People's Republic of Austria"
+ AUS_leninist:0 "People's Republic of Austria"
+ AUS_leninist_DEF:0 "The People's Republic of Austria"
+ AUS_left_wing_radical:0 "People's Republic of Austria"
+ AUS_left_wing_radical_DEF:0 "The People's Republic of Austria"
+ 
  AUS_national_socialist_ADJ:0 "Austrian"
  AUS_fascist_ADJ:0 "Austrian"
  AUS_paternal_autocrat_ADJ:0 "Austrian"
@@ -371,6 +408,7 @@
  AUS_leninist_ADJ:0 "Austrian"
  AUS_left_wing_radical_ADJ:0 "Austrian"
  
+#------------------- Lithuania ------------------------------------
  LIT_national_socialist:0 "Iron Wolf Lithuania"
  LIT_national_socialist_DEF:0 "Iron Wolf Lithuania"
  LIT_fascist:0 "Iron Wolf Lithuania"
@@ -619,12 +657,14 @@
  SWI_leninist_ADJ:0 "Swiss"
  SWI_left_wing_radical_ADJ:0 "Swiss"
  
+#----------- Turkey -----------------------------------------------
  TUR_national_socialist:0 "Turkish Empire"
  TUR_national_socialist_DEF:0 "The Turkish Empire"
  TUR_fascist:0 "Turkish Empire"
  TUR_fascist_DEF:0 "The Turkish Empire"
  TUR_paternal_autocrat:0 "Turkey"
  TUR_paternal_autocrat_DEF:0 "Turkey" 
+ 
  TUR_social_conservative:0 "Republic of Turkey"
  TUR_social_conservative_DEF:0 "The Republic of Turkey"
  TUR_market_liberal:0 "Republic of Turkey"
@@ -633,12 +673,14 @@
  TUR_social_liberal_DEF:0 "The Republic of Turkey"
  TUR_social_democrat:0 "Republic of Turkey"
  TUR_social_democrat_DEF:0 "The Republic of Turkey" 
+ 
  TUR_stalinist:0 "People’s Republic of Turkey"
  TUR_stalinist_DEF:0 "The People’s Republic of Turkey"
  TUR_leninist:0 "Socialist Republic of Turkey"
  TUR_leninist_DEF:0 "The Socialist Republic of Turkey"
  TUR_left_wing_radical:0 "Union of Turkish Syndicates"
  TUR_left_wing_radical_DEF:0 "Union of Turkish Syndicates"
+ 
  TUR_national_socialist_ADJ:0 "Turkish"
  TUR_fascist_ADJ:0 "Turkish"
  TUR_paternal_autocrat_ADJ:0 "Turkish"
@@ -650,12 +692,14 @@
  TUR_leninist_ADJ:0 "Turkish"
  TUR_left_wing_radical_ADJ:0 "Turkish"
  
+#----------- Greece -----------------------------------------------
  GRE_national_socialist:0 "Hellenic Empire"
  GRE_national_socialist_DEF:0 "The Hellenic Empire"
  GRE_fascist:0 "Hellenic Empire"
  GRE_fascist_DEF:0 "The Hellenic Empire"
  GRE_paternal_autocrat:0 "Kingdom of Greece"
  GRE_paternal_autocrat_DEF:0 "The Kingdom of Greece" 
+ 
  GRE_social_conservative:0 "Kingdom of Greece"
  GRE_social_conservative_DEF:0 "The Kingdom of Greece"
  GRE_market_liberal:0 "Hellenic Republic"
@@ -664,12 +708,14 @@
  GRE_social_liberal_DEF:0 "The Hellenic Republic"
  GRE_social_democrat:0 "Hellenic Republic"
  GRE_social_democrat_DEF:0 "The Hellenic Republic" 
+ 
  GRE_stalinist:0 "People’s Republic of Greece"
  GRE_stalinist_DEF:0 "The People’s Republic of Greece"
  GRE_leninist:0 "Socialist Republic of Greece"
  GRE_leninist_DEF:0 "The Socialist Republic of Greece"
- GRE_left_wing_radical:0 "Union of Greek Syndicates"
- GRE_left_wing_radical_DEF:0 "The Union of Greek Syndicates"
+ GRE_left_wing_radical:0 "Socialist Republic of Greece"
+ GRE_left_wing_radical_DEF:0 "The Socialist Republic of Greece"
+ 
  GRE_national_socialist_ADJ:0 "Greek"
  GRE_fascist_ADJ:0 "Greek"
  GRE_paternal_autocrat_ADJ:0 "Greek"
@@ -681,12 +727,14 @@
  GRE_leninist_ADJ:0 "Greek"
  GRE_left_wing_radical_ADJ:0 "Greek"
 
+#----------- Albania -----------------------------------------------
  ALB_national_socialist:0 "Albanian Empire"
  ALB_national_socialist_DEF:0 "The Albanian Empire"
  ALB_fascist:0 "Albanian Empire"
  ALB_fascist_DEF:0 "The Albanian Empire"
  ALB_paternal_autocrat:0 "Kingdom of Albania"
  ALB_paternal_autocrat_DEF:0 "The Kingdom of Albania" 
+ 
  ALB_social_conservative:0 "Republic of Albania"
  ALB_social_conservative_DEF:0 "The Republic of Albania"
  ALB_market_liberal:0 "Republic of Albania"
@@ -695,12 +743,14 @@
  ALB_social_liberal_DEF:0 "The Republic of Albania"
  ALB_social_democrat:0 "Republic of Albania"
  ALB_social_democrat_DEF:0 "The Republic of Albania" 
+ 
  ALB_stalinist:0 "People’s Republic of Albania"
  ALB_stalinist_DEF:0 "The People’s Republic of Albania"
  ALB_leninist:0 "People's Republic of Albania"
  ALB_leninist_DEF:0 "The People's Republic of Albania"
  ALB_left_wing_radical:0 "Union of Albanian Syndicates"
  ALB_left_wing_radical_DEF:0 "The Union of Albanian Syndicates"
+ 
  ALB_national_socialist_ADJ:0 "Albanian"
  ALB_fascist_ADJ:0 "Albanian"
  ALB_paternal_autocrat_ADJ:0 "Albanian"
@@ -712,12 +762,14 @@
  ALB_leninist_ADJ:0 "Albanian"
  ALB_left_wing_radical_ADJ:0 "Albanian"
  
+#----------- Norway -----------------------------------------------
  NOR_national_socialist:0 "Nasjonal Samling"
  NOR_national_socialist_DEF:0 "Nasjonal Samling"
  NOR_fascist:0 "Nasjonal Samling"
  NOR_fascist_DEF:0 "Nasjonal Samling"
  NOR_paternal_autocrat:0 "Kingdom of Norway"
  NOR_paternal_autocrat_DEF:0 "The Kingdom of Norway" 
+ 
  NOR_social_conservative:0 "Norway"
  NOR_social_conservative_DEF:0 "Norway"
  NOR_market_liberal:0 "Norway"
@@ -726,12 +778,14 @@
  NOR_social_liberal_DEF:0 "Norway"
  NOR_social_democrat:0 "Norway"
  NOR_social_democrat_DEF:0 "Norway" 
+ 
  NOR_stalinist:0 "Soviet State of Norway"
  NOR_stalinist_DEF:0 "The Soviet State of Norway"
  NOR_leninist:0 "Soviet State of Norway"
  NOR_leninist_DEF:0 "The Soviet State of Norway"
  NOR_left_wing_radical:0 "Soviet State of Norway"
  NOR_left_wing_radical_DEF:0 "The Soviet State of Norway"
+ 
  NOR_national_socialist_ADJ:0 "Norwegian"
  NOR_fascist_ADJ:0 "Norwegian"
  NOR_paternal_autocrat_ADJ:0 "Norwegian"
@@ -743,12 +797,14 @@
  NOR_leninist_ADJ:0 "Norwegian"
  NOR_left_wing_radical_ADJ:0 "Norwegian"
  
+#----------- Denmark -----------------------------------------------
  DEN_national_socialist:0 "Danish Empire"
  DEN_national_socialist_DEF:0 "The Danish Empire"
  DEN_fascist:0 "Danish Empire"
  DEN_fascist_DEF:0 "The Danish Empire"
  DEN_paternal_autocrat:0 "Kingdom of Denmark"
  DEN_paternal_autocrat_DEF:0 "The Kingdom of Denmark" 
+ 
  DEN_social_conservative:0 "Denmark"
  DEN_social_conservative_DEF:0 "Denmark"
  DEN_market_liberal:0 "Denmark"
@@ -757,12 +813,14 @@
  DEN_social_liberal_DEF:0 "Denmark"
  DEN_social_democrat:0 "Denmark"
  DEN_social_democrat_DEF:0 "Denmark" 
+ 
  DEN_stalinist:0 "Danish Civil Union"
  DEN_stalinist_DEF:0 "The Danish Civil Union"
  DEN_leninist:0 "Danish Civil Union"
  DEN_leninist_DEF:0 "The Danish Civil Union"
  DEN_left_wing_radical:0 "Danish Civil Union"
  DEN_left_wing_radical_DEF:0 "The Danish Civil Union"
+ 
  DEN_national_socialist_ADJ:0 "Danish"
  DEN_fascist_ADJ:0 "Danish"
  DEN_paternal_autocrat_ADJ:0 "Danish"
@@ -774,12 +832,14 @@
  DEN_leninist_ADJ:0 "Danish"
  DEN_left_wing_radical_ADJ:0 "Danish"
  
+#----------- Bulgaria -----------------------------------------------
  BUL_national_socialist:0 "Bulgarian State"
  BUL_national_socialist_DEF:0 "The Bulgarian State"
  BUL_fascist:0 "Bulgarian State"
  BUL_fascist_DEF:0 "The Bulgarian State"
  BUL_paternal_autocrat:0 "Tsardom of Bulgaria"
  BUL_paternal_autocrat_DEF:0 "The Tsardom of Bulgaria" 
+ 
  BUL_social_conservative:0 "Tsardom of Bulgaria"
  BUL_social_conservative_DEF:0 "The Tsardom of Bulgaria"
  BUL_market_liberal:0 "Republic of Bulgaria"
@@ -788,12 +848,14 @@
  BUL_social_liberal_DEF:0 "The Republic of Bulgaria"
  BUL_social_democrat:0 "Republic of Bulgaria"
  BUL_social_democrat_DEF:0 "The Republic of Bulgaria" 
+ 
  BUL_stalinist:0 "People’s Republic of Bulgaria"
  BUL_stalinist_DEF:0 "The People’s Republic of Bulgaria"
  BUL_leninist:0 "Socialist Republic of Bulgaria"
  BUL_leninist_DEF:0 "The Socialist Republic of Bulgaria"
  BUL_left_wing_radical:0 "Union of Bulgarian Syndicates"
  BUL_left_wing_radical_DEF:0 "The Union of Bulgarian Syndicates"
+
  BUL_national_socialist_ADJ:0 "Bulgaria"
  BUL_fascist_ADJ:0 "Bulgaria"
  BUL_paternal_autocrat_ADJ:0 "Bulgaria"
@@ -805,12 +867,14 @@
  BUL_leninist_ADJ:0 "Bulgaria"
  BUL_left_wing_radical_ADJ:0 "Bulgaria"
  
+#----------- Portugal -----------------------------------------------
  POR_national_socialist:0 "Greater Portugal"
  POR_national_socialist_DEF:0 "Greater Portugal"
  POR_fascist:0 "Greater Portugal"
  POR_fascist_DEF:0 "Greater Portugal"
  POR_paternal_autocrat:0 "Portugal"
  POR_paternal_autocrat_DEF:0 "Portugal" 
+ 
  POR_social_conservative:0 "Portuguese Republic"
  POR_social_conservative_DEF:0 "The Portuguese Republic"
  POR_market_liberal:0 "Portuguese Republic"
@@ -819,12 +883,14 @@
  POR_social_liberal_DEF:0 "The Portuguese Republic"
  POR_social_democrat:0 "Portuguese Republic"
  POR_social_democrat_DEF:0 "The Portuguese Republic" 
+ 
  POR_stalinist:0 "Maximalist Portugal"
  POR_stalinist_DEF:0 "Maximalist Portugal"
  POR_leninist:0 "Maximalist Portugal"
  POR_leninist_DEF:0 "Maximalist Portugal"
  POR_left_wing_radical:0 "Maximalist Portugal"
  POR_left_wing_radical_DEF:0 "Maximalist Portugal"
+ 
  POR_national_socialist_ADJ:0 "Portuguese"
  POR_fascist_ADJ:0 "Portuguese"
  POR_paternal_autocrat_ADJ:0 "Portuguese"
@@ -835,13 +901,15 @@
  POR_stalinist_ADJ:0 "Portuguese"
  POR_leninist_ADJ:0 "Portuguese"
  POR_left_wing_radical_ADJ:0 "Portuguese"
+ 
+#----------- Ireland -----------------------------------------------
+ FIN_national_socialist:0 "State of Finland"
+ FIN_national_socialist_DEF:0 "The State of  Finland"
+ FIN_fascist:0 "State of  Finland"
+ FIN_fascist_DEF:0 "The State of  Finland"
+ FIN_paternal_autocrat:0 "Kingdom of Finland"
+ FIN_paternal_autocrat_DEF:0 "The Kingdom of Finland" 
 
- FIN_national_socialist:0 "Greater Finland"
- FIN_national_socialist_DEF:0 "Greater Finland"
- FIN_fascist:0 "Greater Finland"
- FIN_fascist_DEF:0 "Greater Finland"
- FIN_paternal_autocrat:0 "Finland"
- FIN_paternal_autocrat_DEF:0 "Finland" 
  FIN_social_conservative:0 "Republic of Finland"
  FIN_social_conservative_DEF:0 "The Republic of Finland"
  FIN_market_liberal:0 "Republic of Finland"
@@ -850,12 +918,14 @@
  FIN_social_liberal_DEF:0 "The Republic of Finland"
  FIN_social_democrat:0 "Republic of Finland"
  FIN_social_democrat_DEF:0 "The Republic of Finland" 
- FIN_stalinist:0 "Red Finland"
- FIN_stalinist_DEF:0 "Red Finland"
- FIN_leninist:0 "Red Finland"
- FIN_leninist_DEF:0 "Red Finland"
- FIN_left_wing_radical:0 "Red Finland"
- FIN_left_wing_radical_DEF:0 "Red Finland"
+
+ FIN_stalinist:0 "Democratic Republic of Finland"
+ FIN_stalinist_DEF:0 "The Democratic Republic of Finland"
+ FIN_leninist:0 "Democratic Republic of Finland"
+ FIN_leninist_DEF:0 "The Democratic Republic of Finland"
+ FIN_left_wing_radical:0 "Democratic Republic of Finland"
+ FIN_left_wing_radical_DEF:0 "The Democratic Republic of Finland"
+ 
  FIN_national_socialist_ADJ:0 "Finnish"
  FIN_fascist_ADJ:0 "Finnish"
  FIN_paternal_autocrat_ADJ:0 "Finnish"
@@ -867,12 +937,14 @@
  FIN_leninist_ADJ:0 "Finnish"
  FIN_left_wing_radical_ADJ:0 "Finnish"
  
+#----------- Ireland -----------------------------------------------
  IRE_national_socialist:0 "Resurrectionist Ireland"
  IRE_national_socialist_DEF:0 "Resurrectionist Ireland"
  IRE_fascist:0 "Resurrectionist Ireland"
  IRE_fascist_DEF:0 "Resurrectionist Ireland"
  IRE_paternal_autocrat:0 "Irish Free State"
  IRE_paternal_autocrat_DEF:0 "The Argentina" 
+ 
  IRE_social_conservative:0 "Ireland"
  IRE_social_conservative_DEF:0 "Ireland"
  IRE_market_liberal:0 "Ireland"
@@ -881,12 +953,14 @@
  IRE_social_liberal_DEF:0 "Ireland"
  IRE_social_democrat:0 "Ireland"
  IRE_social_democrat_DEF:0 "Ireland" 
+
  IRE_stalinist:0 "Irish People's Union"
  IRE_stalinist_DEF:0 "The Irish People's Union"
  IRE_leninist:0 "Irish People's Union"
  IRE_leninist_DEF:0 "The Irish People's Union"
  IRE_left_wing_radical:0 "Irish People's Union"
  IRE_left_wing_radical_DEF:0 "The Irish People's Union"
+ 
  IRE_national_socialist_ADJ:0 "Irish"
  IRE_fascist_ADJ:0 "Irish"
  IRE_paternal_autocrat_ADJ:0 "Irish"
@@ -898,12 +972,14 @@
  IRE_leninist_ADJ:0 "Irish"
  IRE_left_wing_radical_ADJ:0 "Irish"
  
+#----------- Hungary -----------------------------------------------
  HUN_national_socialist:0 "Hungary"
  HUN_national_socialist_DEF:0 "Hungary"
  HUN_fascist:0 "Hungary"
  HUN_fascist_DEF:0 "Hungary"
  HUN_paternal_autocrat:0 "Kingdom of Hungary"
  HUN_paternal_autocrat_DEF:0 "The Kingdom of Hungary" 
+ 
  HUN_social_conservative:0 "Republic of Hungary"
  HUN_social_conservative_DEF:0 "The Republic of Hungary"
  HUN_market_liberal:0 "Republic of Hungary"
@@ -912,12 +988,14 @@
  HUN_social_liberal_DEF:0 "The Republic of Hungary"
  HUN_social_democrat:0 "Republic of Hungary"
  HUN_social_democrat_DEF:0 "The Republic of Hungary" 
+ 
  HUN_stalinist:0 "Hungarian People's Republic"
  HUN_stalinist_DEF:0 "The Hungarian People's Republic"
  HUN_leninist:0 "Hungarian People's Republic"
  HUN_leninist_DEF:0 "The Hungarian People's Republic"
  HUN_left_wing_radical:0 "Hungarian People's Republic"
  HUN_left_wing_radical_DEF:0 "The Hungarian People's Republic"
+
  HUN_national_socialist_ADJ:0 "Hungarian"
  HUN_fascist_ADJ:0 "Hungarian"
  HUN_paternal_autocrat_ADJ:0 "Hungarian"
@@ -929,12 +1007,14 @@
  HUN_leninist_ADJ:0 "Hungarian"
  HUN_left_wing_radical_ADJ:0 "Hungarian"
  
- AFG_national_socialist:0 "New Afghan Khanate"
- AFG_national_socialist_DEF:0 "The New Afghan Khanate"
- AFG_fascist:0 "New Afghan Khanate"
- AFG_fascist_DEF:0 "The New Afghan Khanate"
+#----------- Afghanistan -----------------------------------------------
+ AFG_national_socialist:0 "Emirate of Afghanistan"
+ AFG_national_socialist_DEF:0 "The Emirate of Afghanistan"
+ AFG_fascist:0 "Emirate of Afghanistan"
+ AFG_fascist_DEF:0 "The Emirate of Afghanistan"
  AFG_paternal_autocrat:0 "Afghanistan"
  AFG_paternal_autocrat_DEF:0 "Afghanistan" 
+ 
  AFG_social_conservative:0 "Republic of Afghanistan"
  AFG_social_conservative_DEF:0 "The Republic of Afghanistan"
  AFG_market_liberal:0 "Republic of Afghanistan"
@@ -943,12 +1023,14 @@
  AFG_social_liberal_DEF:0 "The Republic of Afghanistan"
  AFG_social_democrat:0 "Republic of Afghanistan"
  AFG_social_democrat_DEF:0 "The Republic of Afghanistan" 
+ 
  AFG_stalinist:0 "Democratic Republic of Afghanistan"
  AFG_stalinist_DEF:0 "The Democratic Republic of Afghanistan"
  AFG_leninist:0 "Democratic Republic of Afghanistan"
  AFG_leninist_DEF:0 "The Democratic Republic of Afghanistan"
  AFG_left_wing_radical:0 "Democratic Republic of Afghanistan"
  AFG_left_wing_radical_DEF:0 "The Democratic Republic of Afghanistan"
+ 
  AFG_national_socialist_ADJ:0 "Afghan"
  AFG_fascist_ADJ:0 "Afghan"
  AFG_paternal_autocrat_ADJ:0 "Afghan"
@@ -960,6 +1042,7 @@
  AFG_leninist_ADJ:0 "Afghan"
  AFG_left_wing_radical_ADJ:0 "Afghan"
  
+#----------- Argentina -----------------------------------------------
  ARG_national_socialist:0 "Argentine League"
  ARG_national_socialist_DEF:0 "The Argentine League"
  ARG_fascist:0 "Argentine League"
@@ -1920,7 +2003,8 @@
  VEN_stalinist_ADJ:0 "Venezuelan"
  VEN_leninist_ADJ:0 "Venezuelan"
  VEN_left_wing_radical_ADJ:0 "Venezuelan"
- 
+
+ #----------- Yunan -----------------------------------------------
  YUN_national_socialist:0 "Yunan Free Empire"
  YUN_national_socialist_DEF:0 "The Yunan Free Empire"
  YUN_fascist:0 "Yunan Free Empire"
@@ -1952,26 +2036,30 @@
  YUN_leninist_ADJ:0 "Yunnanese"
  YUN_left_wing_radical_ADJ:0 "Yunnanese"
  
- AST_national_socialist:0 "Centralist Australia"
- AST_national_socialist_DEF:0 "Centralist Australia"
- AST_fascist:0 "Centralist Australia"
- AST_fascist_DEF:0 "Centralist Australia"
+#----------- Australia -----------------------------------------------
+ AST_national_socialist:0 "Australian Empire"
+ AST_national_socialist_DEF:0 "The Australian Empire"
+ AST_fascist:0 "Australian Empire"
+ AST_fascist_DEF:0 "The Australian Empire"
  AST_paternal_autocrat:0 "Australian Kingdom"
  AST_paternal_autocrat_DEF:0 "Australian Kingdom" 
- AST_social_conservative:0 "Australia"
- AST_social_conservative_DEF:0 "Australia"
- AST_market_liberal:0 "Australia"
- AST_market_liberal_DEF:0 "Australia"
- AST_social_liberal:0 "Australia"
- AST_social_liberal_DEF:0 "Australia"
- AST_social_democrat:0 "Australia"
- AST_social_democrat_DEF:0 "Australia" 
+ 
+ AST_social_conservative:0 "Repulic of Australia"
+ AST_social_conservative_DEF:0 "Repulic of Australia"
+ AST_market_liberal:0 "Repulic of Australia"
+ AST_market_liberal_DEF:0 "Repulic of Australia"
+ AST_social_liberal:0 "Repulic of Australia"
+ AST_social_liberal_DEF:0 "Repulic of Australia"
+ AST_social_democrat:0 "Repulic of Australia"
+ AST_social_democrat_DEF:0 "Repulic of Australia" 
+ 
  AST_stalinist:0 "Australian People's Republic"
  AST_stalinist_DEF:0 "The Australian People's Republic"
  AST_leninist:0 "Australian People's Republic"
  AST_leninist_DEF:0 "The Australian People's Republic"
  AST_left_wing_radical:0 "Australian People's Republic"
  AST_left_wing_radical_DEF:0 "The Australian People's Republic"
+ 
  AST_national_socialist_ADJ:0 "Australian"
  AST_fascist_ADJ:0 "Australian"
  AST_paternal_autocrat_ADJ:0 "Australian"
@@ -1982,13 +2070,15 @@
  AST_stalinist_ADJ:0 "Australian"
  AST_leninist_ADJ:0 "Australian"
  AST_left_wing_radical_ADJ:0 "Australian"
- 
+
+ #----------- New Zealand -----------------------------------------------
  NZL_national_socialist:0 "Greater New Zealand"
  NZL_national_socialist_DEF:0 "Greater New Zealand"
  NZL_fascist:0 "Greater New Zealand"
  NZL_fascist_DEF:0 "Greater New Zealand"
  NZL_paternal_autocrat:0 "Nova Zeelandia Republic"
  NZL_paternal_autocrat_DEF:0 "Nova Zeelandia Republic" 
+ 
  NZL_social_conservative:0 "New Zealand"
  NZL_social_conservative_DEF:0 "New Zealand"
  NZL_market_liberal:0 "New Zealand"
@@ -1997,6 +2087,7 @@
  NZL_social_liberal_DEF:0 "New Zealand"
  NZL_social_democrat:0 "New Zealand"
  NZL_social_democrat_DEF:0 "New Zealand" 
+ 
  NZL_stalinist:0 "People's Republic of Aotearoa"
  NZL_stalinist_DEF:0 "The People's Republic of Aotearoa"
  NZL_leninist:0 "People's Republic of Aotearoa"
@@ -2005,6 +2096,7 @@
  NZL_left_wing_radical_DEF:0 "The People's Republic of Aotearoa"
  NZL_national_socialist_ADJ:0 "New Zealand"
  NZL_fascist_ADJ:0 "New Zealand"
+ 
  NZL_paternal_autocrat_ADJ:0 "New Zealand"
  NZL_social_conservative_ADJ:0 "New Zealand"
  NZL_market_liberal_ADJ:0 "New Zealand"

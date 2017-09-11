@@ -44,9 +44,9 @@ set_politics = {
 	}
 	
 create_country_leader = {
-	name = "Oskar Dirlewanger" 
-	desc = "POLITICS_OSKAR_DIRLEWANGER_DESC" 
-	picture = "Portrait_Germany_Oskar_Dirlewanger.dds" 
+	name = "Ernst Kaltenbrunner" 
+	desc = "POLITICS_Ernst_Kaltenbrunner_DESC" 
+	picture = "Portrait_Germany_Ernst_Kaltenbrunner.dds" 
 	expire = "1964.2.26" 
 	ideology = national_socialism traits = { }
 }	
