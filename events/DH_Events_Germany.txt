@@ -1282,23 +1282,28 @@ country_event = {
 				is_historical_focus_on = yes
 			}			
 		}
+
+		hidden_effect = {
+			FRA = {
 				every_owned_state = {
 					limit = {
 						is_core_of = FRA				
 					}
 					add_core_of = VIC
 				}
+			}
+		}
 
 		set_global_flag = vichy_established							
  
 		GER = {
 			if = {
 				limit = {
-						AND = {
-							NOT = { has_dlc = "Death or Dishonor" }
-							has_dlc = "Together for Victory"
-						}
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
+						has_dlc = "Together for Victory"
 					}
+				}
 				set_autonomy = {
 					target = VIC
 					autonomous_state = autonomy_satellite
@@ -1486,7 +1491,7 @@ country_event = { #Ireland refused
 #########################################################################
 country_event = {
 	id = DH_germany.35
-    title = DH_germany.35.t
+	title = DH_germany.35.t
 	desc = DH_germany.35.d 
 	picture = GFX_report_event_german_troops
 
@@ -2920,6 +2925,13 @@ country_event = {
 				}
 				GGP = { transfer_state = 89 }
 			}
+		}
+	}
+
+	option = {
+		name = DH_germany_rk.11.b
+		GER = {
+			set_country_flag =  GER_not_extend_GGP
 		}
 	}
 }

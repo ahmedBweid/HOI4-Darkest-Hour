@@ -15,11 +15,13 @@ country_event = {
 	desc = DH_rebellion.1.d
 	picture = GFX_report_event_german_speech
 
-	trigger = {
-		#any_state = { resistance_strength > 0.9} #I can't find a way to reference the states resistance value.
-	}
+	is_triggered_only = yes
+
+	#trigger = {
+	#	any_state = { resistance_strength > 0.9} #I can't find a way to reference the states resistance value.
+	#}
 	
-	mean_time_to_happen = { days = 15}
+	#mean_time_to_happen = { days = 15}
 
 	option = {
 	}

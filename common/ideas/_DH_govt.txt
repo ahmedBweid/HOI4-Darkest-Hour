@@ -16,7 +16,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = stalinist
-					has_government =	leninist				
+					has_government = leninist				
 					has_government = left_wing_radical
 				}
 			}
@@ -27,7 +27,7 @@ ideas = {
 				left_wing_radical_acceptance = 85
 			}
 		}
-### Fascist State	
+		### Fascist State	
 		fascist_govt = {
 
 			allowed = {
@@ -37,7 +37,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = national_socialist
-					has_government =	fascist				
+					has_government = fascist				
 					has_government = paternal_autocrat
 				}
 			}
@@ -47,9 +47,8 @@ ideas = {
 				fascist_acceptance = 85
 				paternal_autocrat_acceptance = 85
 			}
-
 		}
-### Democratic State	
+		### Democratic State	
 		democratic_govt = {
 
 			allowed = {
@@ -59,7 +58,7 @@ ideas = {
 			available = {
 				OR = {
 					has_government = social_conservative
-					has_government =	market_liberal				
+					has_government = market_liberal				
 					has_government = social_liberal
 					has_government = social_democrat					
 				}
@@ -72,7 +71,6 @@ ideas = {
 				social_democrat_acceptance = 85				
 			}
 		}		
-###########################################################		
+	###########################################################		
 	}
-
 }
