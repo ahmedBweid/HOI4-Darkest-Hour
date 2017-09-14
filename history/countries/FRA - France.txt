@@ -248,9 +248,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Maurice Thorez"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "Portrait_France_Generic_3.dds"
+	picture = "Portrait_France_Maurice_Thorez.dds"
 	expire = "1965.1.1"
-	ideology = 	stalinism
+	ideology = stalinism
 	traits = {
 		
 	}

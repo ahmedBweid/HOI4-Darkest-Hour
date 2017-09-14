@@ -1,0 +1,115 @@
+﻿###########################
+# Darkest Hour Election Events : Canada
+###########################
+
+add_namespace = DH_election_canada
+
+#########################################################################
+#  Canada election 1940
+#########################################################################
+country_event = { 
+	id = DH_election_canada.1
+	title = DH_election_canada.1.t
+	desc = DH_election_canada.1.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = CAN
+		ideology_group_democracy = yes
+		date > 10.3.1940
+	}
+
+	# Elect Left (Market Liberal) : Augustus Earl of Athlone, HoG Mackenzie King
+	option = { 
+		name = DH_election_canada.1.a
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = market_liberal }		
+		create_country_leader = { 
+			name = "Augustus Earl of Athlone" 
+			desc = "" 
+			picture = "Portrait_Canada_Augustus_Earl.dds" 
+			expire = "1965.1.1" 
+			ideology = market_liberalism
+			traits = { } 
+		}		
+
+	}
+	
+	# Elect Right (Soc Cons) : Augustus Earl of Athlone, HoG Robert Manion
+	option = { 
+		name = DH_election_canada.1.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }		
+		create_country_leader = { 
+			name = "Augustus Earl of Athlone" 
+			desc = "" 
+			picture = "Portrait_Canada_Augustus_Earl.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}
+	}	
+
+	# Keep Current
+	option = { 
+		name = DH_election_canada.1.c
+		ai_chance = { factor = 10 }
+	}		
+}
+
+#########################################################################
+#  Canada election 1946
+#########################################################################
+country_event = { 
+	id = DH_election_canada.2
+	title = DH_election_canada.2.t
+	desc = DH_election_canada.2.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = CAN
+		ideology_group_democracy = yes
+		date > 10.3.1946
+	}
+
+	# Elect Left (Market Liberal) : Harold Viscount of Tunis, HoG Mackenzie King
+	option = { 
+		name = DH_election_canada.2.a
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = market_liberal }
+		create_country_leader = { 
+			name = "Harold Viscount of Tunis" 
+			desc = "" 
+			picture = "Portrait_Canada_Harold_Viscount.dds" 
+			expire = "1965.1.1" 
+			ideology = market_liberalism
+			traits = { } 
+		}		
+
+	}
+	
+	# Elect Right (Soc Cons) : Harold Viscount of Tunis, HoG John Bracken
+	option = { 
+		name = DH_election_canada.2.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }
+		create_country_leader = { 
+			name = "Harold Viscount of Tunis" 
+			desc = "" 
+			picture = "Portrait_Canada_Harold_Viscount.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}
+	}	
+
+	# Keep Current
+	option = { 
+		name = DH_election_canada.2.c
+		ai_chance = { factor = 10 }
+	}		
+}

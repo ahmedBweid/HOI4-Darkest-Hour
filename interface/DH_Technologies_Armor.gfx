@@ -378,11 +378,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_USA_main_battle_tank_1956_medium"
-		texturefile = "gfx/interface/technologies/Armor/United States/USA_MBT_E90.dds"	
+		texturefile = "gfx/interface/technologies/Armor/United States/USA_MBT_M48.dds"	
 	}
 
 	SpriteType = {
 		name = "GFX_USA_main_battle_tank_1962_medium"
-		texturefile = "gfx/interface/technologies/Armor/United States/USA_MBT_E125.dds"	
+		texturefile = "gfx/interface/technologies/Armor/United States/USA_MBT_M60.dds"	
 	}			
 }
