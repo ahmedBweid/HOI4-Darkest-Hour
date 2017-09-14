@@ -13,6 +13,9 @@ NDefines.NMilitary.MIN_DIVISION_DEPLOYMENT_TRAINING = 0.3
 --Opinion change from -100-100 to -200-200
 NDefines.NDiplomacy.MAX_OPINION_VALUE = 200
 NDefines.NDiplomacy.MIN_OPINION_VALUE = -200
+NDefines.NAI.DIPLOMACY_FACTION_WRONG_IDEOLOGY_PENALTY = 0 -- 60 default AI penalty for diplomatic faction acitons between nations of different ideologies
+NDefines.NAI.DIPLOMACY_FACTION_SAME_IDEOLOGY_MAJOR = 0 -- 10 default AI bonus acceptance when being asked about faction is a major of the same ideology
+NDefines.NAI.DIPLOMACY_FACTION_NEUTRALITY_PENALTY = 0	-- 50 default Neutral nations have a separate penalty, not wanting to get involved at all, rather than caring much about the difference in ideology
 --Unit rank changes
 NDefines.NMilitary.TRAINING_MAX_LEVEL = 10
 NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 5

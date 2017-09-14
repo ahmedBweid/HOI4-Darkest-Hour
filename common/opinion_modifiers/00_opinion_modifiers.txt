@@ -194,23 +194,22 @@ opinion_modifiers = {
 	}
 	
 	same_ruling_party = {
-		value = 20
+		value = 0
 	}
 	
 	similar_ruling_party = {
-		value = 10
+		value = 0
 	}
 	
 	different_party_types = {
-		value = -10
+		value = 0
 	}
 	
 	long_term_trade_partner = {
 		value = 1
 	}
 	
-	puppet_opinion = 
-	{
+	puppet_opinion = {
 		value = 200
 	}
 
