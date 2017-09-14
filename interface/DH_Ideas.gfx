@@ -35,7 +35,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_GER_nibelungenwerk"
 		texturefile = "gfx/interface/ideas/idea_generic_tanks.dds"		
-	}	
+	}
 	SpriteType = {
 		name = "GFX_idea_GER_ikarus"
 		texturefile = "gfx/interface/ideas/idea_generic_carrier.dds"		
@@ -43,11 +43,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_GER_retooling"
 		texturefile = "gfx/interface/ideas/idea_generic_tools.dds"		
-	}	
+	}
 	SpriteType = {
 		name = "GFX_idea_GER_panzer_production"
 		texturefile = "gfx/interface/ideas/idea_generic_tanks2.dds"		
-	}	
+	}
 	SpriteType = {
 		name = "GFX_idea_GER_reichsbahn"
 		texturefile = "gfx/interface/ideas/idea_generic_infra.dds"		

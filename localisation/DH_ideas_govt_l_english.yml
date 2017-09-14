@@ -7,7 +7,7 @@
 ##### Governement Types #####################################
  communist_govt:0 "Communist State"
  fascist_govt:0 "Fascist State"
- democratic_govt:0 "Democratic State	"
+ democratic_govt:0 "Democratic State"
 
 ##### Civil Laws #####################################
  idea_group_civil_laws:0 "Civil Laws"
@@ -17,6 +17,7 @@
  legalisic_restrictions:0 "Legalisic Restrictions"
  repression:0 "Repression"
  totalitarian_system:0 "Totalitarian System"
+
 ##### Foreign Policy ###################################
  idea_group_foreign_policy:0 "Foreign Policy"
  foreign_policy:0 "Foreign Policy"
@@ -35,7 +36,6 @@
  foreign_minister:0 "Foreign Minister"
  security_minister:0 "Minister of Security"
  armaments_minister:0 "Armaments Minister"
- 
  
  ##### Germany ####################################################
  GER_HoG_rudolf_hess:0 "Rudolf Hess"

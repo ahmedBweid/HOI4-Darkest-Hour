@@ -1,0 +1,67 @@
+﻿l_english:
+ lag_warning:0 "§RWarning: This option will more then likely cause the game to lag and freeze. The time it takes is random. Please be patient when choosing this option.§!\n"
+###### German RK events-------------------------------------
+ germany_establish_rk_ostland:0 "The Baltic States and Belarus will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
+ germany_establish_rk_ukraine:0 "The Ukraine will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
+ germany_establish_rk_moscow:0 "Russia shall be brought down to its historical size."
+ germany_establish_rk_kaukasus:0 "For the sake of stability the indeginous people of the Caucasus will be granted a limited form of self-rule."
+ germany_establish_rk_ural:0 "It will reach from the Ural in the west to the Yenisei river in the east."
+ germany_establish_rk_siberien:0 "A loyal government that will watch over the people of Siberia."
+ germany_establish_rk_france:0 "France will come under civil administration of the Reichskommissariat Westfranken.\n"
+ germany_rk_military_occupation:0 "Full control of the region is in our best interest."
+ germany_establish_generalgouvernement_polen:0 "Establish the closely integrated Generalgouvernement Polen in Poland."
+
+ DH_germany_rk.1.t:0 "Reichskommissariat Ostland"
+ DH_germany_rk.1.d:0 "The Baltics and Belarus have come under military jurisdication, prompting the question of what should be done with the region. Some argue for a Reichskommissariat Ostland to keep the populations in check so that the transition is smooth and economically vital sectors are not hindered in thei daily operations."
+ DH_germany_rk.1.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.1.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.2.t:0 "Reichskommissariat Ukraine"
+ DH_germany_rk.2.d:0 "Our military successes in the south need to be consolidated. Whereas some advocate direct military occupation, some advise to set up a German controlled civil administration in the Ukraine, to better quell any possible unrest while still benefitting from the raw material and industries captured."
+ DH_germany_rk.2.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.2.b:0 "Continue Military Occupation."
+ 
+ DH_germany_rk.3.t:0 "Reichskommissariat Moskowien"
+ DH_germany_rk.3.d:0 "The core lands of the Soviet Union are now under our control, and with a mostly Russian ethnic make up it could spell years of social unrest. Proposals put forward that a partition of Russia would not only prevent the revival of a Russian state, it would also increase the efficiency of our administration in the newly conquered lands."
+ DH_germany_rk.3.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.3.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.4.t:0 "Reichskommissariat Kaukasien"
+ DH_germany_rk.4.d:0 "Made up of many nations and ethnicities, the volatile region of the Caucasus must be brought to a long-lasting peace. For this end, the new Reichskommissariat Kaukasus plans to grant every people its own form of limited autonomy - under Berlin's supervision of course. As long as our military and industry retain access to the rich oil fields in the south."
+ DH_germany_rk.4.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.4.b:0 "Continue Military Occupation."
+ 
+ DH_germany_rk.5.t:0 "Reichskommissariat Turkestan"
+ DH_germany_rk.5.d:0 "Central Asia is home to the many Turkish peoples, awaiting national self-determination. We can partially fullfill this dream by forming a pro-National-Socialist government, which will be tightly linked to our policies and interests."
+ DH_germany_rk.5.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.5.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.6.t:0 "Reichsprotektorat Island"
+ DH_germany_rk.6.d:0 "Iceland has come under German military supervision, which has quickly assumed control of all civil administrative organs. Generals and Ministers believe that the Icelandic people can be entrusted running their own limited form of government, under Germany's watchful eyes of course."
+ DH_germany_rk.6.a:0 "Establish the Reichsprotektorat."
+ DH_germany_rk.6.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.7.t:0 "Reichsprotektorat Schweland"
+ DH_germany_rk.7.d:0 "The Swedes now find themselves under National-Socialist rule and have accomodated to the occupiers, having seemingly made peace with their fate. In the short run it would be wise to hand over the general affairs of the country from the army back to the administrators."
+ DH_germany_rk.7.a:0 "Establish the Reichsprotektorat."
+ DH_germany_rk.7.b:0 "Continue Military Occupation."
+ 
+ DH_germany_rk.8.t:0 "Reichskommissariat Ural"
+ DH_germany_rk.8.d:0 "Beyond the Ural Mountains lies the vast expanse of forests, rivers, and plains, filled with the riches of mother nature. A wilderness that stretches for thousands of kilometres, only to be sparsely interrupted by human activity. Ruling such an enormous region is difficult enough, let alone for the army. Perhaps it would be best to establish some form of government."
+ DH_germany_rk.8.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.8.b:0 "Continue Military Occupation."
+ 
+ DH_germany_rk.9.t:0 "Reichskommissariat Siberien"
+ DH_germany_rk.9.d:0 "The harsh weather and difficult terrain in Siberia as well as the mostly empty wilderness would make it very difficult to send an army to rule whatever is populated by humans. Let us establish a friendly government instead."
+ DH_germany_rk.9.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.9.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.10.t:0 "Generalgouvernement Polen"
+ DH_germany_rk.10.d:0 "Placeholder."
+ DH_germany_rk.10.a:0 "Establish the Generalgouvernement Polen."
+ DH_germany_rk.10.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.11.t:0 "Extend the Generalgouvernement Polen"
+ DH_germany_rk.11.d:0 "We control the states further to the east of the Generalgouvernement Polen and it might be a good idea to let them deal with those states. Shall we give them governence of the area?"
+ DH_germany_rk.11.a:0 "Extend it's sphere of governence"
+ DH_germany_rk.11.b:0 "We will occupy it"

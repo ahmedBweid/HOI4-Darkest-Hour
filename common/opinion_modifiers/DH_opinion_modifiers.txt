@@ -22,4 +22,22 @@ opinion_modifiers = {
 	GER_partitioned_yugoslavia_hun = { value = 10 }
 
 	GER_partitioned_yugoslavia_ita = { value = 15 }
+
+	strong_ideology_like = { value = 30 }
+
+	medium_ideology_like = { value = 20 }
+
+	weak_ideology_like = { value = 10 }
+
+	strong_ideology_dislike = { value = -30 }
+
+	medium_ideology_dislike = { value = -20 }
+
+	weak_ideology_dislike = { value = -10 }
+
+	DH_similar_ideologies = { value = 10 }
+
+	DH_different_ideologies = { value = -10 }
+
+	DH_same_ideologies = { value = 40 }
 }

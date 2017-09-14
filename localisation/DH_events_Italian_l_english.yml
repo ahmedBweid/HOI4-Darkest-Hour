@@ -1,0 +1,21 @@
+﻿l_english:
+###### Italian events-------------------------------------
+ DH_italy.1.t:0 "Fall of Fascist Italy"
+ DH_italy.1.d:0 "Mussolini has been removed out of office by the Italian government, throwing Italy in turmoil. The defection of Rome presents us with a dilemma: we either fight on under German leadership, with only the north of Italy under our control, or we submit defeat and hope for lenient punishment from the western powers."
+ DH_italy.1.a:0 "Death before Dishonour!"
+ DH_italy.1.b:0 "Down with Fascism!" 
+ 
+ DH_italy.2.t:0 "Alpine Territorial Exchange"
+ DH_italy.2.d:0 "It appears that Germany's ambitions regarding the Tyrol have not died just yet. One of their diplomats have come to propose an exchange of territory: the Italian speaking parts of Switzerland shall be ceded in return for the hand over of South Tyrol. On its face the trade seems reasonable since it would adhere more closely to the language border."
+ DH_italy.2.a:0 "No, South Tyrol is Italian."
+ DH_italy.2.b:0 "We agree to the exchange"
+ 
+ DH_italy.3.t:0 "The Cyprus Offer"
+ DH_italy.3.d:0 "Germany has approached us with a lucrative offer of occupying the island of Cyprus. By turning the island into a naval base, Italy's dominance in the eastern Mediterranean will surely grow. However, the large Turkish population might cause trouble administering the region."
+ DH_italy.3.a:0 "Mare Nostrum - Our Sea"
+ DH_italy.3.b:0 "We have enough naval bases"
+ 
+ DH_italy.4.t:0 "Germany Takes Paris"
+ DH_italy.4.d:0 "With the fall of Paris to the German Forces perhaps it's time to look past our dislike for Hitler and join the axis"
+ DH_italy.4.a:0 "Indeed"
+ DH_italy.4.b:0 "Italy First!"

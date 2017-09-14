@@ -5,8 +5,8 @@ on_actions = {
 			every_country = {
 				country_event = { id = DH_core.1 }
 				country_event = { id = DH_core.2 }
+				country_event = { id = DH_gov_opinion.1 }
 			}
 		}
 	 }
-}
-
+}

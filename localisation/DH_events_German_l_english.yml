@@ -1,0 +1,168 @@
+﻿l_english:
+##### German events-------------------------------------
+ germany.94.b:0 "We should Partition this territory among our friends."
+ 
+ DH_germany.1.t:0 "Operation Isabella"
+ DH_germany.1.a:0 "Demand only Cape Verde"
+ DH_germany.1.b:0 "Demand both archipelagoes"
+ DH_germany.1.d:0 "Germany has long sought to secure bases of operation in the Atlantic. A thorough study has found the Portuguese islands of the Azores and those of the Cape Verde to be the prime targets of such a geo-political move. However, the Portuguese are closely tied to their historical allies in Britain. Demanding too much might backfire..."
+
+ DH_germany.2.t:0 "Telegram from Lisbon, they accept!"
+ DH_germany.2.d:0 "Our demands have been approved by Lisbon and a handover of the Cape Verde will be arranged. Portugal has proven to be willing, but only time will determine their future destiny within the New Order of Europe."
+ DH_germany.2.a:0 "Excellent!"
+
+ DH_germany.3.t:0 "Telegram from Lisbon, they reject!"
+ DH_germany.3.d:0 "German attempts to attain foreward naval bases in the Atlantic have been met with stiff resistance from the Portuguese government, leaving us no option but to explore alternative ways to gain a hold on the shipping lanes to and from Europe. Perhaps Franco's Spain can be enticed to launch a frontal assault on Portugal..."
+ DH_germany.3.a:0 "Send a telegram to Madrid"
+ DH_germany.3.b:0 "Another day perhaps"
+ 
+ DH_germany.4.t:0 "Telegram from Lisbon, they accept!"
+ DH_germany.4.d:0 "Our demands have been approved by Lisbon and a handover of the Cape Verde and Azores will be arranged. Portugal has proven to be willing, but only time will determine their future destiny within the New Order of Europe."
+ DH_germany.4.a:0 "Splendid!"
+ 
+ DH_germany.5.t:0 "Telegram from Lisbon, they reject!"
+ DH_germany.5.d:0 "German attempts to attain foreward naval bases in the Atlantic have been met with stiff resistance from the Portuguese government, leaving us no option but to explore alternative ways to gain a hold on the shipping lanes to and from Europe. Perhaps Franco's Spain can be enticed to launch a frontal assault on Portugal..."
+ DH_germany.5.a:0 "Send a telegram to Madrid"
+ DH_germany.5.b:0 "Another day perhaps"
+ germany_spain_operation_isabella:0 "Convince Spain to declare war on Portugal"
+ 
+ DH_germany.6.t:0 "Spain refuses war with Portugal"
+ DH_germany.6.d:0 "Our offer to help Spain conquer Portugal has been met with refusal from Madrid. This proves once more that Franco's aim is to sit out the war until it's won, thereby infuriating the Führer. Ah well, Spain does not seem so keen on uniting the Iberian peninsula after all."
+ DH_germany.6.a:0 "Franco's loyalty means nothing!"
+ 
+ DH_germany.7.a:0 "There's little we can do about it"
+ DH_germany.7.t:0 "Tyrol remains divided"
+ DH_germany.7.d:0 "The Italians have reiterated that South Tyrol remains an Italian province, thereby maintaining the status quo established since the aftermath of the First World War. It is clear that Tyrol will never be united, and the Volksdeutsche in the region will have to be resettled in the Empire, with possible locations in the Crimea or in Franche Comté."
+ 
+ DH_germany.8.t:0 "Tyrol has been united"
+ DH_germany.8.d:0 "Since South Tyrol is predominantly German it belongs in the Empire, united with their fellow brethren in Innsbruck. This finally settles any conflicts Germany has in the region. In return, Germany has ceded the Italian speaking regions of Switzerland, thereby fullfilling Italian dreams of unison."
+ DH_germany.8.a:0 "Süd-Tiroler Heimkehr!"
+ 
+ DH_germany.9.t:0 "Kars Convention on the Subdivision of Transcaucasia"
+ DH_germany.9.d:0 "Historically the lands of Georgia and Armenia have been under Ottoman influence, and being south of the Caucasus mountains, it would be wise to hand over these regions to Turkey to limit our administrative burden. On the other hand, it could bolster Turkish ambitions and lead to unfounded future expectations."
+ DH_germany.9.a:0 "Approach Ankara with a proposal"
+ DH_germany.9.b:0 "Establish Civil Administration"
+ DH_germany.9.c:0 "The Status Quo suffices"
+ germany_caucasus_for_turkey:0 "Offer The Turks Armenia and Georgia as puppet states"
+ germany_caucasus_for_germany:0 "The Reich incorporates Georgia and Armenia"
+ 
+ DH_germany.10.t:0 "Turkish Refusal"
+ DH_germany.10.d:0 "Ankara has refused our proposal for closer cooperation in the Caucasus region, thus isolating themselves further. It seems the Turkish government does not understand the gravity of their mistake. Subsequently, the Reich will incorporate these regions into its periphery."
+ DH_germany.10.b:0 "The Status Quo suffices"
+ DH_germany.10.a:0 "Establish Georgia and Armenia as puppets"
+ 
+ DH_germany.11.t:0 "Soviets Refuse Commercial Treaty"
+ DH_germany.11.d:0 "Our advances to strenghten economic ties with Moscow have been denied, leaving our industry to seek for raw material elsewhere. All must be done to prevent a British blockade from turning the people against the regime, lest history repeat iself..."
+ DH_germany.11.a:0 "Alas!"
+ 
+ DH_germany.12.t:0 "Commercial Agreement Cancelled"
+ DH_germany.12.d:0 "Time has come to cancel our agreement with the Soviets regarding the trade of our commercial goods for their raw materials. The treaty was disadvantageous to Germany in the long run anyway."
+ DH_germany.12.a:0 "Alas!"
+ 
+ DH_germany.13.t:0 "The Cyprus Question"
+ DH_germany.13.d:0 "The British naval base in the eastern Mediterranean has now fallen in German hands, and since Cyprus is home to a considereable population of Turks, it has sparked Ankara's interest in what has been called the Question of Cyprus. Turkish claims on the island are strong, but the Italians have styled themselves as the masters of the Mediterranean. Other than that it can always serve as a base for the Kriegsmarine."
+ DH_germany.13.a:0 "Keep Cyprus"
+ DH_germany.13.b:0 "Give it to the Turks"
+ DH_germany.13.c:0 "Give it to the Italians"
+
+ DH_germany.14.t:0 "Coup in Norway"
+ DH_germany.14.d:0 "A small national socialist movement had been active politically in Norway under Quisling since 1933, only gaining a marginal percentage of the overall votes in elections. This time however, Quisling has organised a take over of the national radio broadcast in Oslo, proclaiming to be the new Prime Minister of Norway. This could be the opportunity that Germany had hoped for..."
+ DH_germany.14.a:0 "Back up Quisling."
+ DH_germany.14.b:0 "Germany doesn't need him."
+ 
+ DH_germany.15.t:0 "Norwegian Anschluss"
+ DH_germany.15.d:0 "National-Socialism has proven to be successfully implemented in Norway, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Norwegian society, thereby turning Norway into a province of the Reich."
+ DH_germany.15.a:0 "Welcome to the Reich"
+ DH_germany.15.b:0 "Keep it as a puppet"
+ 
+ DH_germany.16.t:0 "Denmark Anschluss"
+ DH_germany.16.d:0 "National-Socialism has proven to be successfully implemented in Denmark, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Norway into a province of the Reich."
+ DH_germany.16.a:0 "Welcome to the Reich"
+ DH_germany.16.b:0 "Keep it as a puppet"
+ 
+ DH_germany.17.t:0 "Iceland Anschluss"
+ DH_germany.17.d:0 "National-Socialism has proven to be successfully implemented in Iceland, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Iceland into a province of the Reich."
+ DH_germany.17.a:0 "Welcome to the Reich"
+ DH_germany.17.b:0 "Keep it as a puppet"
+ 
+ DH_germany.18.t:0 "Sweden Anschluss"
+ DH_germany.18.d:0 "National-Socialism has proven to be successfully implemented in Swedeb, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Sweden into a province of the Reich."
+ DH_germany.18.a:0 "Welcome to the Reich"
+ DH_germany.18.b:0 "Keep it as a puppet"
+ 
+ DH_germany.19.t:0 "Reichsgau Danzig-Westpreußen"
+ DH_germany.19.d:0 "After the Great War Danzig became a Free City under international mandate, whereas the surrounding land was granted to Poland. These lands have been predominantly German and by reinstating Danzig-Westpreußen as an administrative unit of the Reich its nationality can be guaranteed."
+ DH_germany.19.a:0 "Welcome Home"
+  
+ DH_germany.20.t:0 "(Ausdehnung) Gau Oberschlesien"
+ DH_germany.20.d:0 "Eastern Silesia was lost to Poland after the First World War, even though the plebiscite showed that a majority voted to remain with Germany. This lost region is once again incorporated into Upper Silesia, adding also the Olsagebiet, a historical part of Silesia proper. By settling Volksdeutsche in the areas through the Heim ins Reich program it will prove to be a valuable asset to the new Reich."
+ DH_germany.20.a:0 "Welcome Home"
+ 
+ DH_germany.21.t:0 "(Ausdehnung) Gau Ostpreußen"
+ DH_germany.21.d:0 "When the Memelland was forcefully annexed by Lithuania it was destined to return under Prussian administration, which will undo the Lithuanisation of the region in the past decades. Futhermore, the region to the south up to the Weichsel river will be adminstered by Königsberg. This land was held by Prussia for a brieg period during the Napoleonic era, but will see itself integrated into the new Reich by German settlers from all over Europe."
+ DH_germany.21.a:0 "Welcome Home"
+ 
+ DH_germany.22.t:0 "Reichsgau Wartheland"
+ DH_germany.22.d:0 "This new Reichsgau will be made up of the lost parts of Posen and the region around Lodz. By attracting and resettling Germans from Eastern and South-eastern Europe we can strive towards full Germanisication of the Warthe basin."
+ DH_germany.22.a:0 "Welcome Home"
+ 
+ DH_germany.23.t:0 "Untersteiermark & Oberkrain"
+ DH_germany.23.d:0 "Northern Slovenia, belonged to the Austrian monarchy as crownlands, namely Styria and Krain. Since these lands have fallen back into German hands the Führer has stated that 'these lands were to become German once more'. Volksdeutsche from South-east Germany are being hauled in to change the character of the region."
+ DH_germany.23.a:0 "Welcome Home"
+ 
+ DH_germany.24.t:0 "Crusade Against the West"
+ DH_germany.24.d:0 "By joining forces the Fascist and Comintern can destroy the West for once and for all. For this however, the Soviet will first have to be convinced. By stressing the similarities of criticism of both our ideologies Germany and the Soviet Union could embark on a Crusade against the West."
+ DH_germany.24.a:0 "Send the plan to Moscow"
+ 
+ DH_germany.25.t:0 "The Soviets Accept"
+ DH_germany.25.d:0 "Our new friends in the Kremlin have gratefully accepted the offer to launch a combined attack on the Western Powers. Sharing the same enemies creates a bond after all..."
+ DH_germany.25.a:0 "Sehr Gut, We may proceed."
+ 
+ DH_germany.26.t:0 "The Soviets need more time"
+ DH_germany.26.d:0 "Word has reached us that the Soviet Union is not ready yet. Perhaps we should try again in some time. However, the cleansening of the world must wait. For now at least."
+ DH_germany.26.a:0 "Give them 6 months"
+ DH_germany.26.b:0 "Give them 3 months"
+ DH_germany.26.c:0 "This alliance isn't working"
+ 
+ DH_germany.27.t:0 "Austrian Question"
+ DH_germany.27.d:0 "Ever since Austria lost its Empire it has been seeking a new destiny. Many turned to Germany for guidance, and after witnessing the progress made by National-Socialism it increased the desire of the Austrians to merge with their bretheren in the west. However, not everybody in Austria thinks the same and some of Germany's leadership advise a cautious approach to the Austrian Question."
+ DH_germany.27.a:0 "Anschlusszeit!"
+ DH_germany.27.b:0 "Turn it into a March, for now"
+ DH_germany.27.c:0 "Propose an alliance"
+ germany_anschluss:0 "Push for annexation of Austria"
+ germany_anschluss_puppet:0 "An Austrian puppet state is preferred"
+ 
+ DH_germany.28.t:0 "Austria refuses Anschluss" 
+ DH_germany.28.d:0 "Attempts of unification have been turned down by Vienna. Politicians have argued that it is against the stipulations of the Saint-Germain treaty and breaching international law would only anger neighbouring countries. Berlin on the other hand, is determined to unite Austria with Germany. Another Brother's war looms on the horizon..."
+ DH_germany.28.a:0 "Eisen und Blut!"
+ 
+ DH_germany.29.t:0 "Ostmarkanschluss"
+ DH_germany.29.d:0 "Calls for unification can no longer be ignored; in the past few months people have become uneasy with the current status of Austria as a mere puppet of Germany. By reorganising the Ostmark in several Reichsgau it can easily be absorbed by Germany."
+ DH_germany.29.a:0 "Finally together!"
+ 
+ DH_germany.30.t:0 "European Confederation"
+ DH_germany.30.d:0 "Calls for unification can no longer be ignored; in the past few months people have become uneasy with the current status of Austria as a mere puppet of Germany. By reorganising the Ostmark in several Reichsgau it can easily be absorbed by Germany."
+ DH_germany.30.a:0 "Accede the Bund"
+ DH_germany.30.b:0 "We're not interested"
+ 
+ DH_germany.31.t:0 "Poland refuses alliance"
+ DH_germany.31.d:0 "These fools in Warsaw apparently have no understanding of their precarious geo-political situation. Locked in by two major powers it thinks standing alone would be the best course of action. If talking sense into them doesn't help, something else will..."
+ DH_germany.31.a:0 "Their loss."
+
+ DH_germany.32.t:0 "Triumph in France"
+ DH_germany.32.d:0 "Our victory in France is nearly complete. The French government has asked for an armistice, and our diplomats have prepared terms which they have agreed to. They will retain control of southern France, while we are free to occupy the rest."
+ DH_germany.32.a:0 "Establish Vichy France."
+ DH_germany.32.b:0 "No, Germany will conquer all!"
+ 
+ DH_germany.33.t:0 "Großgermanisches Reich"
+ DH_germany.33.d:0 "In one of his speeches the Führer has proclaimed a new phase in the thousand year Reich. Not only has Bolshevism been defeated, also the last of the continental Germanics - Festlandgermanen -, in the Netherlands and Flanders, have rejoined the Reich. With the new direction of empire-building, the Großgermanisches Reich proclaims to be the home of all of Germanen."
+ DH_germany.33.a:0 "Heil Germanien!"
+ 
+ DH_germany.34.t:0 "Ireland remains neutral"
+ DH_germany.34.d:0 "It seems the desire to unite Ireland isn't that strong to begin with. Not our problem."
+ DH_germany.34.a:0 "No Loss." 
+ 
+ DH_germany.35.t:0 "Fate of the British Empire"
+ DH_germany.35.d:0 "Albion has fallen, and the breakup of the British Empire is almost a reality. Through the centuries the Anglo-Saxons have built up an impressive Imperium, spanning to all four corners of the globe. Preserving it would most likely turn the British into a valuable ally, still ruling the waves."
+ DH_germany.35.a:0 "Preserve the Empire" 
+ DH_germany.35.b:0 "Establish an occupation policy" 
