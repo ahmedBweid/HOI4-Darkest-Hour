@@ -106,7 +106,7 @@
  USA_stalinist_party:0 "CP"
  USA_stalinist_party_long:0 "Communist Party"
 
- CAN_national_socialist_party:0 "PNSC
+ CAN_national_socialist_party:0 "PNSC"
  CAN_national_socialist_party_long:0 "Parti National Social Chrétien"
  CAN_fascist_party:0 "CUF"
  CAN_fascist_party_long:0 "Canadian Union of Fascists"
@@ -755,7 +755,7 @@
  BUL_national_socialist_party:0 "RNB"
  BUL_national_socialist_party_long:0 "Ratnitsi Napreduka na Bulgarshtinata"
  BUL_fascist_party:0 "UBNL"
- BUL_fascist_party_long:0 "The Union of Bulgarian National Legions
+ BUL_fascist_party_long:0 "The Union of Bulgarian National Legions"
  BUL_social_conservative_party:0 "BZNS"
  BUL_social_conservative_party_long:0 "Balgarski Zemedelski Naroden Sajuz"
  BUL_market_liberal_party:0 "DP"
