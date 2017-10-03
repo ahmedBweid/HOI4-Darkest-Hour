@@ -456,6 +456,7 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
+				NOT = { has_completed_focus = GER_ss_burgundy }
 				has_completed_focus = GER_Schut
 			}			
 			traits = { prince_of_terror }
@@ -1111,8 +1112,8 @@ ideas = {
 				original_tag = GER
 			}
 			available = {
-					has_completed_focus = GER_achtung_panzer
-				}
+				has_completed_focus = GER_achtung_panzer
+			}
 			
 			traits = { army_armored_3 }
 			

@@ -166,3 +166,15 @@
  DH_germany.35.d:0 "Albion has fallen, and the breakup of the British Empire is almost a reality. Through the centuries the Anglo-Saxons have built up an impressive Imperium, spanning to all four corners of the globe. Preserving it would most likely turn the British into a valuable ally, still ruling the waves."
  DH_germany.35.a:0 "Preserve the Empire" 
  DH_germany.35.b:0 "Establish an occupation policy" 
+ 
+ DH_germany.36.t:0 "The French Question"
+ DH_germany.36.d:0 "By establishing a buffer state on the Reich's western border and thereby pushing France back, the question of France has come to the fore. Some argue it is best to continue military occupation for the time being, and perhaps for the unforeseeable future. Others are in favour of re-establishing France under the Vichy regime by granting it territorial concessions. Ideologically speaking, others argue, the region must be put under a puppet regime for economical, cultural and geopolitical reasons."
+ DH_germany.36.a:0 "Grant Vichy France territorial concessions"
+ DH_germany.36.b:0 "Establish Civil Administration"
+ DH_germany.36.c:0 "Continue Military Occupation"
+ germany_vichy_french_occupation:0 "The rest of German controlled France will be handed over to Vichy."
+
+ DH_germany.37.t:0 "Cinematography from the Reich"
+ DH_germany.37.d:0 "Films from the Babelsberg Studio have been flooding our cinemas in the last few years, gaining ever more popularity. The youth have been seen taking over elements of the language and culture shown, but above all the idoleological undercurrents omnipresent in the cinematography are doing their intented purpose. Cultural ministers are posing the question whether Babelsberg films should be restricted and some of them even prohibited from being shown. Such a move would damage our relations however..."
+ DH_germany.37.a:0 "Accept the Films"
+ DH_germany.37.b:0 "Reject the Films"

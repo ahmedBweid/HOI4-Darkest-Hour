@@ -1,12 +1,10 @@
 ideas = {
 
-
-#########################################################################
-#  Governement Types (Used mainly for the AI and such)
-#########################################################################
-	country = {
-		
-### Communist State	
+	hidden_ideas = {
+	#########################################################################
+	#  Governement Types (Used mainly for the AI and such)
+	#########################################################################
+		### Communist State	
 		communist_govt = {
 
 			allowed = {
@@ -26,6 +24,8 @@ ideas = {
 				leninist_acceptance = 85
 				left_wing_radical_acceptance = 85
 			}
+
+			cancel_if_invalid = no
 		}
 		### Fascist State	
 		fascist_govt = {
@@ -47,6 +47,8 @@ ideas = {
 				fascist_acceptance = 85
 				paternal_autocrat_acceptance = 85
 			}
+
+			cancel_if_invalid = no
 		}
 		### Democratic State	
 		democratic_govt = {
@@ -70,6 +72,8 @@ ideas = {
 				social_liberal_acceptance = 85
 				social_democrat_acceptance = 85				
 			}
+
+			cancel_if_invalid = no
 		}		
 	###########################################################		
 	}

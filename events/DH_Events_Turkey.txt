@@ -25,7 +25,12 @@ country_event = {
 				TUR = {
 					OR = {
 						has_government = social_conservative
+						has_government = market_liberal
+						has_government = social_liberal
+						has_government = social_democrat
 						has_government = stalinist
+						has_government = leninist
+						has_government = left_wing_radical
 					}
 				}
 				factor = 0.04
@@ -54,6 +59,7 @@ country_event = {
 				TUR = {
 					OR = {
 						has_government = fascist
+						has_government = national_socialist
 						is_in_faction_with = GER
 					}
 				}
@@ -110,6 +116,9 @@ country_event = {
 			modifier = {
 				TUR = {
 					has_government = social_conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
 				}
 			factor = 0
 			}
@@ -161,6 +170,9 @@ country_event = {
 			modifier = {
 				TUR = {
 					has_government = social_conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
 				}
 			factor = 100
 			}
