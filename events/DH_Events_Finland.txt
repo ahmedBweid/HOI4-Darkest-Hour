@@ -25,17 +25,24 @@ country_event = {
 			factor = 100
 			modifier = {
 				FIN = {
-					has_government = social_conservative
+					OR = {
+						has_government = social_conservative
+						has_government = market_liberal
+						has_government = social_liberal
+						has_government = social_democrat
+					}
 				}
 				factor = 0
 			}
 		}
 		GER = { add_to_faction = FIN }
 		FIN = {
-			set_state_owner = 215
-			set_state_owner = 216
-			set_state_owner = 213
-			set_state_owner = 146
+			transfer_state = 215
+			transfer_state = 216
+			transfer_state = 213
+			transfer_state = 146
+			transfer_state = 147
+			transfer_state = 722
 			set_cosmetic_tag = FIN_GREATER
 			set_province_name = { id = 11202 name = "Pleskau"}
 		}

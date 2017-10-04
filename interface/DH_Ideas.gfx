@@ -34,6 +34,10 @@ spriteTypes = {
 	}	
 	SpriteType = {
 		name = "GFX_idea_GER_nibelungenwerk"
+		texturefile = "gfx/interface/ideas/idea_generic_tanks2.dds"		
+	}
+	SpriteType = {
+		name = "GFX_idea_GER_standard_panzer"
 		texturefile = "gfx/interface/ideas/idea_generic_tanks.dds"		
 	}
 	SpriteType = {
@@ -115,5 +119,29 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_PER_german_academic_influence"
 		texturefile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_babelsberg_films_germany"
+		texturefile = "gfx/interface/ideas/idea_generic_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_azad_hind_radio"
+		texturefile = "gfx/interface/ideas/idea_generic_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_babelsberg_films_allies"
+		texturefile = "gfx/interface/ideas/idea_generic_propaganda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_breitspurbahn_constructing"
+		texturefile = "gfx/interface/ideas/idea_generic_foreign_capital.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_gaufore"
+		texturefile = "gfx/interface/ideas/generic_pp_unity_bonus.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_volksprodulkte_spirit"
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
 	}
 }

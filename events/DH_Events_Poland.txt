@@ -55,9 +55,9 @@ country_event = {
 			}
 		}
 		GER = { country_event = { hours = 6 id = DH_germany.31 }}
-    }
-	
-    #Join Axis
+	}
+
+	#Join Axis
 	option = {
 		name = DH_poland.1.b
 		ai_chance = {
@@ -94,5 +94,5 @@ country_event = {
 		GER = {
 			add_to_faction = POL
 		}
-    }
+	}
 }

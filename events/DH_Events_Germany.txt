@@ -1659,6 +1659,449 @@ country_event = {
 }
 
 #########################################################################
+#  Give Vichy the rest of France
+#########################################################################
+country_event = {
+	id = DH_germany.36
+	title = DH_germany.36.t
+	desc = DH_germany.36.d 
+	picture = GFX_report_event_german_troops
+
+	fire_only_once = yes
+
+	trigger = {
+		country_exists = SSB
+	}
+
+	mean_time_to_happen = { days = 7 }
+
+	option = { #Grant remained of France to vichy
+		name = DH_germany.36.a
+		custom_effect_tooltip = germany_vichy_french_occupation
+		trigger = {
+			AND = {
+				country_exists = VIC
+				VIC = {
+					is_subject_of = GER
+				}
+			}
+		}
+		hidden_effect = {
+			VIC  = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 19
+						}
+					}
+					transfer_state = 19
+					19 = {
+						add_core_of = SSB
+					}
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 23
+						}
+					}
+					transfer_state = 23
+					23 = {
+						add_core_of = SSB
+					}
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 30
+						}
+					}
+					transfer_state = 30
+					30 = {
+						add_core_of = SSB
+					}
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 14
+						}
+					}
+					transfer_state = 14
+					14 = {
+						add_core_of = SSB
+					}
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 15
+						}
+					}
+					transfer_state = 15
+					15 = {
+						add_core_of = SSB
+					}
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 16
+						}
+					}
+					transfer_state = 16
+					16 = {
+						add_core_of = SSB
+					}
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 24
+						}
+					}
+					transfer_state = 24
+					24 = {
+						add_core_of = SSB
+					}
+				}
+			}
+		}
+	}
+
+	option = {#Release RK France
+		name = DH_germany.36.b
+		custom_effect_tooltip = germany_establish_rk_france
+		trigger = {
+			NOT = { country_exists = VIC }
+		}
+		release_puppet = RFA
+		hidden_effect = {
+			RFA = {
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 20
+						}
+					}
+					transfer_state = 20 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 21
+						}
+					}
+					transfer_state = 21 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 25
+						}
+					}
+					transfer_state = 25 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 26
+						}
+					}
+					transfer_state = 26 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 31
+						}
+					}
+					transfer_state = 31 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 32
+						}
+					}
+					transfer_state = 32 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 33
+						}
+					}
+					transfer_state = 33 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 22
+						}
+					}
+					transfer_state = 22 
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 19
+						}
+					}
+					transfer_state = 19
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 23
+						}
+					}
+					transfer_state = 23
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 30
+						}
+					}
+					transfer_state = 30
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 14
+						}
+					}
+					transfer_state = 14
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 15
+						}
+					}
+					transfer_state = 15
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 16
+						}
+					}
+					transfer_state = 16
+				}
+				if = {
+					limit = {
+						any_country = {
+							OR = {
+								tag = GER
+								is_subject_of = GER
+							}
+							controls_state = 24
+						}
+					}
+					transfer_state = 24
+				}
+			}
+		}
+	}
+
+	option = {#Continue Military Occupation
+		name = DH_germany.36.c
+		custom_effect_tooltip = germany_rk_military_occupation
+	}
+}
+
+#########################################################################
+#  Allies of Germany Choose to accept German Films
+#########################################################################
+country_event = {
+	id = DH_germany.37
+	title = DH_germany.37.t
+	desc = DH_germany.37.d 
+	picture = GFX_report_event_german_troops
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #Accept the Films
+		ai_chance = {
+			factor = 50
+			modifier = {
+				ROOT = {
+					is_in_faction_with = GER
+				}
+				factor = 20
+			}
+			modifier = {
+				ROOT = {
+					has_government = national_socialist
+				}
+				factor = 1000000
+			}
+			modifier = {
+				AND = {
+					tag = PER
+					OR = {
+						has_government = paternal_autocrat
+						has_government = fascist
+						has_government = national_socialist
+					}
+				}
+				factor = 1000000
+			}
+			modifier = {
+				OR = {
+					tag = ENG
+					tag = FRA
+					tag = NZL
+					tag = AST
+					tag = SAF
+					tag = CAN
+					tag = SWE
+					tag = DEN
+					tag = ICE
+					tag = NOR
+					tag = VIC
+					tag = HOL
+					tag = BEL
+					tag = LUX
+					tag = SWI
+					tag = AUS
+					tag = FIN
+				}
+				factor = 1000000
+			}
+			modifier = {
+				ROOT = {
+					has_government = fascist
+				}
+				factor = 10
+			}
+			modifier = {
+				ROOT = {
+					has_government = paternal_autocrat
+				}
+				factor = 5
+			}
+		}
+		name = DH_germany.37.a
+		add_ideas = GER_babelsberg_films_allies
+	}
+
+	option = { #Reject the Films
+		ai_chance = {
+			factor = 50
+			modifier = {
+				AND = {
+					tag = PER
+					NOT = {
+						OR = {
+							has_government = paternal_autocrat
+							has_government = fascist
+							has_government = national_socialist
+						}
+					}
+				}
+				factor = 0
+			}
+		}
+		name = DH_germany.37.b
+		GER = {
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = protest_action_strong
+			}
+		}
+	}
+}
+
+#########################################################################
 #  RK  Ostland
 #########################################################################
 country_event = {
@@ -2933,5 +3376,109 @@ country_event = {
 		GER = {
 			set_country_flag =  GER_not_extend_GGP
 		}
+	}
+}
+
+#########################################################################
+#  SS-Burgundy if GER owns south states ask for them
+#########################################################################
+country_event = {
+	id = DH_germany_rk.12
+	title = DH_germany_rk.12.t
+	desc = DH_germany_rk.12.d
+	picture = GFX_report_event_001
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 20
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 32
+			}
+			any_country = {
+				OR = {
+					tag = GER
+					is_subject_of = GER
+				}
+				controls_state = 21
+			}
+		}
+	}
+
+	mean_time_to_happen = { months = 60 }
+
+	option = {#Give them what you own
+		name = DH_germany_rk.12.a
+		if = {
+			limit = {
+				any_country = {
+					OR = {
+						tag = GER
+						is_subject_of = GER
+					}
+					controls_state = 20
+				}
+			}
+			SSB = {
+				transfer_state = 20
+			}
+			20 = {
+				add_core_of = SSB
+			}
+		}
+		if = {
+			limit = {
+				any_country = {
+					OR = {
+						tag = GER
+						is_subject_of = GER
+					}
+					controls_state = 32
+				}
+			}
+			SSB = {
+				transfer_state = 32
+			}
+			32 = {
+				add_core_of = SSB
+			}
+		}
+		if = {
+			limit = {
+				any_country = {
+					OR = {
+						tag = GER
+						is_subject_of = GER
+					}
+					controls_state = 21
+				}
+			}
+			SSB = {
+				transfer_state = 21
+			}
+			21 = {
+				add_core_of = SSB
+			}
+		}
+		ITA = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = protest_action
+			}
+		}
+	}
+
+	option = {#Don't give it to them
+		name = DH_germany_rk.12.b
 	}
 }
