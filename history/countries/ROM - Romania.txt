@@ -249,7 +249,7 @@ create_country_leader = {
 	desc = "POLITICS_Carol_II_DESC"
 	picture = "Portrait_Romania_Carol_II.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = market_liberalism
 	traits = {
 		#
 	}

@@ -1,5 +1,5 @@
 ideas = {
-	# MILITARY
+
 
 	country = {
 
@@ -681,100 +681,6 @@ ideas = {
 		}
 	}
 
-	army_chief = {
-
-		SAF_james_mitchell_baker = {
-			picture = generic_army_europe_3
-			
-			allowed = {
-				original_tag = SAF
-			}
-						
-			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SAF_leonard_beyers = {
-			picture = generic_army_europe_4
-			
-			allowed = {
-				original_tag = SAF
-			}
-			
-			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-	}
-
-	air_chief = {
-
-		SAF_adolf_malan = {
-			picture = generic_air_europe_3
-			
-			allowed = {
-				original_tag = SAF
-			}
-			
-			traits = { air_chief_all_weather_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SAF_pierre_van_ryneveld = {
-			picture = generic_air_europe_2
-			
-			allowed = {
-				original_tag = SAF
-			}
-			
-			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-	}
-
-	navy_chief = {
-
-		SAF_pierre_oliver_knoll = {
-			picture = generic_navy_europe_2
-			
-			allowed = {
-				original_tag = SAF
-			}
-			
-			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		SAF_cornelis_van_zuigenbrogge = {
-			picture = generic_navy_europe_1
-			
-			allowed = {
-				original_tag = SAF
-			}
-			
-			traits = { navy_chief_commerce_raiding_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
 
 	high_command = {
 

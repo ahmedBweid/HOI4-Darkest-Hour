@@ -114,14 +114,14 @@ set_politics = {
 		paternal_autocrat = { popularity = 3 }		
 		social_conservative = { popularity = 35 }		
 		market_liberal = { popularity = 0 }		
-		social_liberal = { popularity = 49 }		
-		social_democrat = { popularity = 9 }		
+		social_liberal = { popularity = 9 }		
+		social_democrat = { popularity = 49 }		
 		left_wing_radical = { popularity = 4 }		
 		leninist = { popularity = 0 }		
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = social_democrat
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -136,14 +136,14 @@ set_politics = {
 			paternal_autocrat = { popularity = 3 }		
 			social_conservative = { popularity = 35 }		
 			market_liberal = { popularity = 0 }		
-			social_liberal = { popularity = 49 }		
-			social_democrat = { popularity = 9 }		
+			social_liberal = { popularity = 9 }		
+			social_democrat = { popularity = 49 }		
 			left_wing_radical = { popularity = 4 }		
 			leninist = { popularity = 0 }		
 			stalinist = { popularity = 0 }		
 		}
 		
-		ruling_party = social_conservative
+		ruling_party = social_democrat
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
@@ -162,9 +162,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Haakon VII"
+	name = "Johan Nygaardsvold"
 	desc = ""
-	picture = "Portrait_Norway_Haakon_VII.dds"
+	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {

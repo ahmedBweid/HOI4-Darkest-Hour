@@ -583,16 +583,17 @@ technologies = {
 #########################################################
 #### Aircraft Carriers 
 ##########################################################
-#---------------------- Light Carriers CVLs -----------------------------------------------
-# 1912 CVL
-	light_carrier_1912 = {
+
+#--------------------------- Escort Carriers CVEs ----------------------------------------------------------------
+# 1912 CVE
+	escort_carrier_1912 = {
 
 		enable_equipments = { 
-			light_carrier_0
+			escort_carrier_0
 		}
 		
 		path = {
-			leads_to_tech = light_carrier_1916 
+			leads_to_tech = escort_carrier_1916 
 			research_cost_coeff = 1
 		}
 		
@@ -625,15 +626,15 @@ technologies = {
 		}
 	}
 
-# 1916 CVL	
-	light_carrier_1916 = {
+# 1916 CVE	
+	escort_carrier_1916 = {
 
 		enable_equipments = { 
-			light_carrier_1
+			escort_carrier_1
 		}
 		
 		path = {
-			leads_to_tech = light_carrier_1922 
+			leads_to_tech = escort_carrier_1922 
 			research_cost_coeff = 1
 		}
 		path = {
@@ -670,17 +671,20 @@ technologies = {
 	}
 	
 # 1922 CVL	
-	light_carrier_1922 = {
+	escort_carrier_1922 = {
 
 		enable_equipments = { 
-			light_carrier_2
+			escort_carrier_2
 		}
 		
+		path = {
+			leads_to_tech = escort_carrier_1940
+			research_cost_coeff = 1
+		}
 		path = {
 			leads_to_tech = light_carrier_1930
 			research_cost_coeff = 1
 		}
-
 		research_cost = 2
 		start_year = 1922
 		
@@ -708,177 +712,12 @@ technologies = {
 			cv_tech
 		}
 	}
-	
-# 1930 CVL	
-	light_carrier_1930 = {
-
-		enable_equipments = { 
-			light_carrier_3
-		}
 		
-		path = {
-			leads_to_tech = light_carrier_1940
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = escort_carrier_1940
-			research_cost_coeff = 1
-		}		
-		research_cost = 2
-		start_year = 1930
-		
-		folder = {
-			name = naval_capital_folder
-			position = { x = @CVL_line y = @1930 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			cv_tech
-		}
-	}
-	
-# 1940 CVL	
-	light_carrier_1940 = {
-
-		enable_equipments = {
-			light_carrier_4
-		}
-		
-		path = {
-			leads_to_tech = light_carrier_1943
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1940
-		
-		folder = {
-			name = naval_capital_folder
-			position = { x = @CVL_line y = @1940 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			cv_tech
-		}
-	}
-	
-	# 1943 CVL	
-	light_carrier_1943 = {
-
-		enable_equipments = {
-			light_carrier_5
-		}
-		
-		path = {
-			leads_to_tech = light_carrier_1948
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1943
-		
-		folder = {
-			name = naval_capital_folder
-			position = { x = @CVL_line y = @1943 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			cv_tech
-		}
-	}
-
-	# 1948 CVL	
-	light_carrier_1948 = {
-
-		enable_equipments = {
-			light_carrier_6
-		}
-		
-		path = {
-			leads_to_tech = light_carrier_1948
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1948
-		
-		folder = {
-			name = naval_capital_folder
-			position = { x = 20.5 y = @1948 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 5
-				tag = JAP
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			cv_tech
-		}
-	}
-	
-#--------------------------- Escort Carriers CVEs ----------------------------------------------------------------
-	
 # 1940 CVE
 	escort_carrier_1940 = {
 
 		enable_equipments = {
-			escort_carrier_0
+			escort_carrier_3
 		}
 		
 		path = {
@@ -918,7 +757,7 @@ technologies = {
 	escort_carrier_1943 = {
 
 		enable_equipments = {
-			escort_carrier_1
+			escort_carrier_4
 		}
 		
 		path = {
@@ -953,7 +792,169 @@ technologies = {
 			cv_tech
 		}
 	}
+#---------------------- Light Carriers CVLs -----------------------------------------------
+
 	
+# 1940 CVL	
+	light_carrier_1930 = {
+
+		enable_equipments = {
+			light_carrier_0
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1940
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1930
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1930 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+# 1940 CVL	
+	light_carrier_1940 = {
+
+		enable_equipments = {
+			light_carrier_1
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1943
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	# 1943 CVL	
+	light_carrier_1943 = {
+
+		enable_equipments = {
+			light_carrier_2
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1948
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = @CVL_line y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	# 1948 CVL	
+	light_carrier_1948 = {
+
+		enable_equipments = {
+			light_carrier_3
+		}
+		
+		path = {
+			leads_to_tech = light_carrier_1948
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1948
+		
+		folder = {
+			name = naval_capital_folder
+			position = { x = 20.5 y = @1948 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+		
 #--------------------------- Carriers CVs ----------------------------------------------------------------
 	
 # 1922 CV

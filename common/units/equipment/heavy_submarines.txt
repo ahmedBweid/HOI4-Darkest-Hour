@@ -1,0 +1,127 @@
+equipments = {
+
+	heavy_submarine = {
+		year = 1922
+
+		is_archetype = yes
+		is_buildable = no
+		type = submarine
+		group_by = archetype
+		
+		upgrades = {
+			ship_reliability_upgrade
+			sub_engine_upgrade
+			sub_stealth_upgrade
+			sub_torpedo_upgrade
+		}
+		
+		interface_category = interface_category_other_ships
+
+		ap_attack = 0
+		attack = 0 # Their main weapon is torpedo_attack.
+		fire_range = 6
+		torpedo_attack = 10
+		
+		anti_air_attack = 0.5
+		
+		armor_value = 0
+		evasion = 25
+		
+		surface_detection = 30
+		sub_detection = 0
+		surface_visibility = 10
+		sub_visibility = 30
+		naval_speed = 14
+		reliability = 0.60
+		
+		naval_range = 2500
+		
+		max_strength = 10
+		
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 450
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		
+		manpower = 200
+	}
+
+# 1933 Heavy Sub
+	heavy_submarine_0 = {
+		year = 1933
+
+		archetype = heavy_submarine
+		priority = 80
+
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		type = { 
+			submarine
+		}
+	}
+	
+# 1940 Heavy Sub
+	heavy_submarine_1 = {
+		year = 1940
+
+		archetype = heavy_submarine
+		parent = heavy_submarine_0
+		priority = 80
+
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		type = { 
+			submarine
+		}
+	}
+	
+# 1943 Heavy Sub
+	heavy_submarine_2 = {
+		year = 1943
+
+		archetype = heavy_submarine
+		parent = heavy_submarine_1
+		priority = 80
+		
+		ap_attack = 0
+		attack = 0
+		fire_range = 7
+		torpedo_attack = 16
+		
+		anti_air_attack = 1
+		
+		armor_value = 0
+		evasion = 35
+		
+		surface_detection = 40
+		sub_detection = 0
+		surface_visibility = 10
+		sub_visibility = 25
+		naval_speed = 14
+		reliability = 0.70
+
+		naval_range = 4000
+		
+		max_strength = 20
+		
+		port_capacity_usage = 0.5
+		
+		build_cost_ic = 500
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		type = { 
+			submarine
+		}		
+	}
+
+	
+}

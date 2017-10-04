@@ -166,7 +166,7 @@ units = {
 		ship = { name = "HMS Äran" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }	
 		ship = { name = "HMS Tapperheten" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }	
 		ship = { name = "HMS Wasa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }			
-		ship = { name = "HMS Dristigheten" definition = light_carrier equipment = { light_carrier_0 = { amount = 1 owner = SWE } } air_wings = {} }	
+		ship = { name = "HMS Dristigheten" definition = escort_carrier equipment = { escort_carrier_0 = { amount = 1 owner = SWE } } air_wings = {} }	
 	
 		ship = { name = "HMS Clas Fleming" definition = light_cruiser equipment = { light_cruiser_0 = { amount = 1 owner = SWE } } }	
 		ship = { name = "HMS Gotland" definition = light_cruiser equipment = { light_cruiser_4 = { amount = 1 owner = SWE } } }		

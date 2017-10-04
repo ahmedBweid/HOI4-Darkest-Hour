@@ -30,7 +30,7 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 50
 		surface_visibility = 10
-		naval_speed = 33
+		naval_speed = 22
 		reliability = 0.80
 		
 		naval_range = 1500
@@ -39,15 +39,15 @@ equipments = {
 		
 		port_capacity_usage = 1
 		
-		build_cost_ic = 900
+		build_cost_ic = 6750
 		resources = {
-			oil = 1
-			steel = 2
+			steel = 1
 		}
 		
-		manpower = 250
+		manpower = 200
 	}
 
+# 1885 DD	
 	destroyer_0 = {
 		year = 1885
 
@@ -60,12 +60,24 @@ equipments = {
 
 	}
 
+
+# 1900 DD	
 	destroyer_1 = {
 		year = 1900
 
 		archetype = destroyer
 		parent = destroyer_0
-		priority = 20
+		priority = 30
+
+		naval_speed = 24
+		manpower = 375		
+		naval_range = 2000
+		
+		build_cost_ic = 9750
+		resources = {
+			steel = 1
+		}		
+		
 		type = { 
 			screen_ship
 			anti_air
@@ -73,6 +85,7 @@ equipments = {
 
 	}
 	
+# 1912 DD	
 	destroyer_2 = {
 		year = 1912
 
@@ -94,10 +107,10 @@ equipments = {
 		surface_detection = 25
 		sub_detection = 60
 		surface_visibility = 10
-		naval_speed = 36
+		naval_speed = 28
 		reliability = 0.85
 
-		naval_range = 1800
+		naval_range = 2500
 		
 		max_strength = 40
 		
@@ -108,14 +121,14 @@ equipments = {
 			anti_air
 		}
 
-		build_cost_ic = 990
+		build_cost_ic = 10500
 		resources = {
-			oil = 1
-			steel = 3
+			steel = 2
 		}		
-		manpower = 325
+		manpower = 500
 	}
 	
+# 1916 DD	
 	destroyer_3 = {
 		year = 1916
 
@@ -137,10 +150,10 @@ equipments = {
 		surface_detection = 45
 		sub_detection = 100
 		surface_visibility = 10
-		naval_speed = 38
+		naval_speed = 28
 		reliability = 0.90
 
-		naval_range = 2000
+		naval_range = 5000
 		
 		max_strength = 50
 		
@@ -150,14 +163,15 @@ equipments = {
 			screen_ship
 			anti_air
 		}
-		build_cost_ic = 1080
+		build_cost_ic = 11250
 		resources = {
 			oil = 2
 			steel = 3
 		}
-		manpower = 400
+		manpower = 500
 	}
 	
+# 1922 DD	
 	destroyer_4 = {
 		year = 1922
 
@@ -179,10 +193,10 @@ equipments = {
 		surface_detection = 55
 		sub_detection = 140
 		surface_visibility = 10
-		naval_speed = 38
+		naval_speed = 28
 		reliability = 0.92
 
-		naval_range = 2500
+		naval_range = 7500
 		
 		max_strength = 60
 		
@@ -193,20 +207,27 @@ equipments = {
 			anti_air
 		}
 
-		build_cost_ic = 1200
+		build_cost_ic = 12000
 		resources = {
 			oil = 2
 			steel = 4
 			chromium = 1
 		}		
-		manpower = 500
+		manpower = 650
 	}
 	
+# 1933 DD	
 	destroyer_5 = {
 		year = 1933
 
 		archetype = destroyer
 		parent = destroyer_4
+		
+		naval_speed = 30
+		manpower = 800		
+		naval_range = 7500		
+		build_cost_ic = 12750
+		
 		priority = 20
 		type = { 
 			screen_ship
@@ -214,11 +235,18 @@ equipments = {
 		}
 	}	
 	
+# 1936 DD	
 	destroyer_6 = {
 		year = 1936
 
 		archetype = destroyer
 		parent = destroyer_5
+		
+		naval_speed = 33
+		manpower = 1250		
+		naval_range = 8000		
+		build_cost_ic = 13500
+		
 		priority = 20
 		type = { 
 			screen_ship
@@ -226,11 +254,18 @@ equipments = {
 		}
 	}
 	
+# 1940 DD	
 	destroyer_7 = {
 		year = 1940
 
 		archetype = destroyer
 		parent = destroyer_6
+		
+		naval_speed = 35
+		manpower = 1500		
+		naval_range = 8000	
+		build_cost_ic = 14250
+		
 		priority = 20
 		type = { 
 			screen_ship
@@ -238,11 +273,18 @@ equipments = {
 		}
 	}	
 	
+# 1943 DD	
 	destroyer_8 = {
 		year = 1943
 
 		archetype = destroyer
 		parent = destroyer_7
+		
+		naval_speed = 36
+		manpower = 1600		
+		naval_range = 9000	
+		build_cost_ic = 14250
+		
 		priority = 20
 		type = { 
 			screen_ship
@@ -250,16 +292,23 @@ equipments = {
 		}
 	}	
 	
+# 1954 DDG	
 	destroyer_9 = {
 		year = 1954
 
 		archetype = destroyer
 		parent = destroyer_8
+		
+		naval_speed = 38
+		manpower = 2000		
+		naval_range = 10000	
+		build_cost_ic = 20500
+		
 		priority = 20
 		type = { 
 			screen_ship
 			anti_air
 		}
-	}	
+	}
 	
 }

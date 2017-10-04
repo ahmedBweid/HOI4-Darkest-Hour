@@ -1,4 +1,16 @@
 ﻿l_english:
+###### Generic Elections-------------------------------------
+ DH_election.1.t:0 "General Elections"
+ DH_election.1.d:0 "Any Democratic country must hold elections to allow the population to express their views on the performance of the government. Incumbent governments are rarely popular after more than one term in office, and are regularly replaced by the party that opposes them."
+ DH_election.1.a:0 "Elect Social Conservatives (Right)"
+ DH_election.1.b:0 "Elect Market Liberals (Center-Right)"
+ DH_election.1.c:0 "Elect Social Liberals (Center-Left)"
+ DH_election.1.e:0 "Elect Social Democrats (Left)"
+ DH_election.1.f:0 "Keep Current Government"
+ 
+ keep_govt:0 "The current Government remains for a small loss of political power"
+ 
+ 
 ###### Australian Elections-------------------------------------
  DH_election_australia.1.t:0 "Australian elections 1937"
  DH_election_australia.1.d:0 "Any Democratic country must hold elections to allow the population to express their views on the performance of the government. Incumbent governments are rarely popular after more than one term in office, and are regularly replaced by the party that opposes them."

@@ -84,7 +84,19 @@ units = {
 
 	}
 
-	##### No Naval OOB #####
+	##### South African Navy #####
+	navy = {					
+		name = "South African Navy"				
+		base = 12589
+		location =  12589 #  Capetown
+		
+		ship = { name = "1st SAN Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SAF } } }
+		ship = { name = "2nd SAN Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SAF } } }
+		ship = { name = "3rd SAN Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SAF } } }
+		ship = { name = "4th SAN Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SAF } } }
+		ship = { name = "5th SAN Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SAF } } }		
+		ship = { name = "6th SAN Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = SAF } } }		
+	}
 }
 
 air_wings = {

@@ -106,9 +106,9 @@ set_politics = {
 	}
 
 	create_country_leader = {
-		name = "Charlotte"
+		name = "Joseph Bech"
 		desc = "POLITICS_PIERRE_DUPONG_DESC"
-		picture = "Portrait_Luxemburg_Charlotte.dds"
+		picture = "Portrait_Luxemburg_Joseph_Bech.dds"
 		expire = "1965.1.1"
 		ideology = social_conservatism
 		traits = {

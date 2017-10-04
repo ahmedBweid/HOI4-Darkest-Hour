@@ -96,9 +96,9 @@ bookmarks = {
 				home_of_revolution
 			}
 			focuses = {
-				#SOV_great_purge
-				#SOV_claims_on_baltic
-				#SOV_war_with_uk
+				# SOV_great_purge
+				# SOV_claims_on_baltic
+				# SOV_war_with_uk
 			}	
 		}
 
@@ -116,9 +116,9 @@ bookmarks = {
 				
 			}
 			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
+				# POL_the_baltic_alliance
+				# POL_draw_closer_to_britain
+				# POL_seek_accommodation_with_germany
 			}
 		}
 		"CAN"={
@@ -130,9 +130,9 @@ bookmarks = {
 				CAN_conscription_crisis
 			}
 			focuses = {
-				CAN_skewer_the_eagle
-				CAN_north_american_alliance
-				CAN_join_comintern
+				# CAN_skewer_the_eagle
+				# CAN_north_american_alliance
+				# CAN_join_comintern
 			}
 		}
 		"AST"={
@@ -143,9 +143,9 @@ bookmarks = {
 				AST_great_depression_1
 			}
 			focuses = {
-				AST_never_another_gallipoli
-				AST_support_indonesian_uprising
-				AST_delegation_to_china
+				# AST_never_another_gallipoli
+				# AST_support_indonesian_uprising
+				# AST_delegation_to_china
 			}
 		}
 		"NZL"={
@@ -156,9 +156,9 @@ bookmarks = {
 				
 			}
 			focuses = {
-				NZL_bob_semple_tank
-				NZL_independent_new_zealand
-				NZL_maori_volunteers
+				# NZL_bob_semple_tank
+				# NZL_independent_new_zealand
+				# NZL_maori_volunteers
 			}
 		}
 		"SAF"={
@@ -170,9 +170,9 @@ bookmarks = {
 				SAF_history_of_segregation
 			}
 			focuses = {
-				SAF_secure_interests_in_africa
-				SAF_support_the_german_coup
-				SAF_anti_colonialist_crusade
+				# SAF_secure_interests_in_africa
+				# SAF_support_the_german_coup
+				# SAF_anti_colonialist_crusade
 			}
 		}
 		"RAJ"={
@@ -184,9 +184,9 @@ bookmarks = {
 				RAJ_princely_states
 			}
 			focuses = {
-				RAJ_all_india_forward_bloc
-				RAJ_indian_gurkhas
-				RAJ_the_smiling_buddha
+				# RAJ_all_india_forward_bloc
+				# RAJ_indian_gurkhas
+				# RAJ_the_smiling_buddha
 			}
 		}
 		"CZE"={
@@ -198,9 +198,9 @@ bookmarks = {
 				CZE_divided_nation
 			}
 			focuses = {
-				CZE_sudeten_1
-				CZE_industrial_legacy
-				CZE_military_research_institute
+				# CZE_sudeten_1
+				# CZE_industrial_legacy
+				# CZE_military_research_institute
 			}
 		}
 
@@ -212,9 +212,9 @@ bookmarks = {
 				HUN_treaty_of_triannon
 			}
 			focuses = {
-				HUN_proclaim_the_restoration_of_austria_hungary
-				HUN_secret_rearmament
-				HUN_renounce_the_treaty_of_trianon
+				# HUN_proclaim_the_restoration_of_austria_hungary
+				# HUN_secret_rearmament
+				# HUN_renounce_the_treaty_of_trianon
 			}
 		}
 
@@ -227,9 +227,9 @@ bookmarks = {
 				neutrality_idea
 			}
 			focuses = {
-				ROM_balkans_dominance
-				ROM_institute_royal_dictatorship
-				ROM_preserve_greater_romania
+				# ROM_balkans_dominance
+				# ROM_institute_royal_dictatorship
+				# ROM_preserve_greater_romania
 			}
 		}
 		
@@ -243,9 +243,9 @@ bookmarks = {
 				YUG_idea_serbian_general_staff
 			}
 			focuses = {
-				YUG_western_focus
-				YUG_abolish_the_monarchy
-				YUG_establish_the_banovina_of_croatia
+				# YUG_western_focus
+				# YUG_abolish_the_monarchy
+				# YUG_establish_the_banovina_of_croatia
 			}
 		}
 

@@ -83,9 +83,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Abdulaziz Ibn Saud"
+	name = "Abdulaziz al Saud"
 	desc = "POLITICS_ABDULAZIZ_DESC"
-	picture = "Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
+	picture = "Portrait_Saudi_Arabia_Abdulaziz_Ibn_Saud.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

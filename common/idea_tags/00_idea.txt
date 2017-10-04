@@ -15,12 +15,12 @@ idea_categories = {
 	}
 	
 	cabinet = {
-		slot = head_of_govt
-		slot = foreign_minister
-		slot = security_minister
-		slot = armaments_minister
+		slot = Head_of_Government
+		slot = Foreign_Minister 
+		slot = Minister_of_Security
+		slot = Armaments_Minister
 		slot = political_advisor
-		slot = political_advisor
+		slot = political_agenda
 		
 		cost = 200
 		removal_cost = 0
@@ -52,10 +52,10 @@ idea_categories = {
 	}
 	
 	military_staff = {
-		slot = staff_chief 
-		slot = army_chief 
-		slot = navy_chief
-		slot = air_chief
+		slot = Chief_of_Staff 
+		slot = Chief_of_Army 
+		slot = Chief_of_Navy
+		slot = Chief_of_Airforce
 		slot = high_command
 		slot = high_command
 		

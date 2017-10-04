@@ -49,7 +49,19 @@ units = {
 
 	}
 
-	##### No Naval OOB (receives first RN ships in 1941) #####
+	##### NAVAL UNITS #####
+	navy = {					
+		name = "HM New Zealand Navy"				
+		base = 1814
+		location =  1814 #  Wellington
+		
+		ship = { name = "1st Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = NZL } } }
+		ship = { name = "2nd Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = NZL } } }
+		ship = { name = "3rd Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = NZL } } }
+		ship = { name = "4th Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = NZL } } }
+		ship = { name = "5th Destroyer Flotilla" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = NZL } } }		
+
+	}
 }
 
 air_wings = {

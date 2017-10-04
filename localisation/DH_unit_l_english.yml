@@ -30,3 +30,8 @@
  mountaineers_desc:0 "Combat in mountain ranges exposes troops to many perils, but sometimes cannot be avoided. Providing our soldiers with specialized training for this environment, we can minimize these risks."
  ss_hq:0 "Waffen-SS Headquarters Company"
  ss_hq_desc:0 "Waffen-SS divisions have increased defense, breakthrough and suppression, but are more prone to attrition and require more supplies while also being less organised."
+ 
+ FLOTILLA_NAME_GENERIC:0 "$NR$. $NAME$"
+ FLOTILLA_NAME_USA_GENERIC:0 "$NAME$ $NR$"
+ FLOTILLA_NAME_JAP_GENERIC:0 "Dai $NR$ $NAME$"
+ FLOTILLA_NAME_FRA_GENERIC:0 "$NR$ème $NAME$"

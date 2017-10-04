@@ -662,7 +662,7 @@ units = {
 		name = "Dai 2 Koku Sentai" 
 		base = 9998
 		location = 9998 #Tokyo
-		ship = { name = "Ryujo" definition = light_carrier equipment = { light_carrier_3 = {amount = 1 owner = JAP} } air_wings = {} }	
+		ship = { name = "Ryujo" definition = escort_carrier equipment = { escort_carrier_1 = {amount = 1 owner = JAP} } air_wings = {} }	
 
 		ship = { name = "Mikuma" definition = heavy_cruiser equipment = { heavy_cruiser_4 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Mogami" definition = heavy_cruiser equipment = { heavy_cruiser_4 = {amount = 1 owner = JAP } } }	
@@ -683,7 +683,7 @@ units = {
 
 		ship = { name = "Nagato" definition = battleship equipment = { battleship_5 = {amount = 1 owner = JAP } } }	
 		
-		ship = { name = "Hosho" definition = light_carrier equipment = { light_carrier_2 = {amount = 1 owner = JAP} } air_wings = {} }	
+		ship = { name = "Hosho" definition = escort_carrier equipment = { escort_carrier_2 = {amount = 1 owner = JAP} } air_wings = {} }	
 	
 		ship = { name = "Takao" definition = heavy_cruiser equipment = { heavy_cruiser_4 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Chokai" definition = heavy_cruiser equipment = { heavy_cruiser_4 = {amount = 1 owner = JAP } } }	
@@ -704,7 +704,7 @@ units = {
 		ship = { name = "Ise" definition = battleship equipment = { battleship_4 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Hyuga" definition = battleship equipment = { battleship_4 = {amount = 1 owner = JAP } } }	
 		
-		ship = { name = "Kamoi" definition = light_carrier equipment = { light_carrier_0 = {amount = 1 owner = JAP} } air_wings = {} }	
+		ship = { name = "Kamoi" definition = escort_carrier equipment = { escort_carrier_0 = {amount = 1 owner = JAP} } air_wings = {} }	
 	
 		ship = { name = "Kako" definition = heavy_cruiser equipment = { heavy_cruiser_3 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Furutaka" definition = heavy_cruiser equipment = { heavy_cruiser_3 = {amount = 1 owner = JAP } } }	
@@ -741,7 +741,7 @@ units = {
 		ship = { name = "Fuso" definition = battleship equipment = { battleship_3 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Yamashiro" definition = battleship equipment = { battleship_3 = {amount = 1 owner = JAP } } }	
 		
-		ship = { name = "Notoro" definition = light_carrier equipment = { light_carrier_0 = {amount = 1 owner = JAP} } air_wings = {} }	
+		ship = { name = "Notoro" definition = escort_carrier equipment = { escort_carrier_0 = {amount = 1 owner = JAP} } air_wings = {} }	
 	
 		ship = { name = "Aoba" definition = heavy_cruiser equipment = { heavy_cruiser_3 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Kinugasa" definition = heavy_cruiser equipment = { heavy_cruiser_3 = {amount = 1 owner = JAP } } }	
@@ -762,7 +762,7 @@ units = {
 		ship = { name = "Fuso" definition = battleship equipment = { battleship_3 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Yamashiro" definition = battleship equipment = { battleship_3 = {amount = 1 owner = JAP } } }	
 		
-		ship = { name = "Notoro" definition = light_carrier equipment = { light_carrier_0 = {amount = 1 owner = JAP} } air_wings = {} }	
+		ship = { name = "Notoro" definition = escort_carrier equipment = { escort_carrier_0 = {amount = 1 owner = JAP} } air_wings = {} }	
 	
 		ship = { name = "Aoba" definition = heavy_cruiser equipment = { heavy_cruiser_3 = {amount = 1 owner = JAP } } }	
 		ship = { name = "Kinugasa" definition = heavy_cruiser equipment = { heavy_cruiser_3 = {amount = 1 owner = JAP } } }	
@@ -865,11 +865,11 @@ units = {
 		base = 1092
 		location = 1092 #Hiroshima
 		
-		ship = { name = "I-5" definition = submarine equipment = { submarine_3 = { amount = 1 owner = JAP } } } # Heavy Subs, to be added later on
-		ship = { name = "I-6" definition = submarine equipment = { submarine_3 = { amount = 1 owner = JAP } } }
-		ship = { name = "I-7" definition = submarine equipment = { submarine_3 = { amount = 1 owner = JAP } } }
+		ship = { name = "I-5" definition = heavy_submarine equipment = { heavy_submarine_0 = { amount = 1 owner = JAP } } } 
+		ship = { name = "I-6" definition = heavy_submarine equipment = { heavy_submarine_0 = { amount = 1 owner = JAP } } }
+		ship = { name = "I-7" definition = heavy_submarine equipment = { heavy_submarine_0 = { amount = 1 owner = JAP } } }
 		ship = { name = "Dai 13 Sensuisentai" definition = submarine equipment = { submarine_4 = { amount = 1 owner = JAP } } }
-	}	
+	}
 #---------------------   Dai 1 Yuso Kantai- Osaka ------------------------------------------------
 	navy = {
 		name = "Dai 1 Yuso Kantai" 
@@ -1018,8 +1018,8 @@ air_wings = {
 #########################
 ## STARTING PRODUCTION ##
 #########################
-instant_effect = {
-
+instant_effect = 
+{
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1

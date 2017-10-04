@@ -63,7 +63,7 @@ set_technology = {
 	battleship_1916 = 1
 	battleship_1922 = 1	
 	
-	light_carrier_1912 = 1	
+	escort_carrier_1912 = 1
 	
 	transport = 1
 #
@@ -221,9 +221,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustav V"
+	name = "Per Albin Hansson"
 	desc = ""
-	picture = "Portrait_Sweden_Gustav_V.dds"
+	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {

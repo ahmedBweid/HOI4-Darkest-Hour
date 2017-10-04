@@ -142,7 +142,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = social_democrat
 	last_election = "1935.11.27"
 	election_frequency = 36
 	elections_allowed = yes

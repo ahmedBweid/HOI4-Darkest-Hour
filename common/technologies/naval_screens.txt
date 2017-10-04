@@ -21,7 +21,8 @@ technologies = {
 	@CL_line = 6 #Light Cruisers
 	@CA_line = 12 #Heavy Cruisers
 	@SS_line = 18
-	@Troopship_line = 24
+	@HSS_line = 24
+	@Troopship_line = 28
 
 #-------------------------- Destroyers DDs ---------------------------------------------------
 
@@ -1254,6 +1255,10 @@ technologies = {
 			leads_to_tech = submarine_1936
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = heavy_submarine_1933
+			research_cost_coeff = 0.5
+		}
 		
 		research_cost = 2
 
@@ -1299,6 +1304,7 @@ technologies = {
 			name = naval_screens_folder
 			position = { x = @SS_line y = @1936 }
 		}
+	
 		
 		ai_will_do = {
 			factor = 1
@@ -1326,6 +1332,10 @@ technologies = {
 			leads_to_tech = submarine_1943
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = heavy_submarine_1940
+			research_cost_coeff = 0.5
+		}	
 		
 		research_cost = 2
 
@@ -1362,7 +1372,10 @@ technologies = {
 			leads_to_tech = submarine_1950
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = heavy_submarine_1943
+			research_cost_coeff = 0.5
+		}		
 		research_cost = 2
 
 		start_year = 1943
@@ -1458,9 +1471,110 @@ technologies = {
 			ss_tech
 		}
 	}	
-	
+### -------------------------- Heavy Subs -------------------------------------
 
+	# 1933 HSS
+	heavy_submarine_1933 = {
+
+		enable_equipments = { 
+			heavy_submarine_0
+		}
+		
+		path = {
+			leads_to_tech = heavy_submarine_1940
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1933
+		
+		folder = {
+			name = naval_screens_folder
+			position = { x = @HSS_line y = @1933 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	# 1940 HSS
+	heavy_submarine_1940 = {
+
+		enable_equipments = { 
+			heavy_submarine_1
+		}
+		
+		path = {
+			leads_to_tech = heavy_submarine_1943
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1940
+		
+		folder = {
+			name = naval_screens_folder
+			position = { x = @HSS_line y = @1940 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}	
 	
+	# 1943 HSS
+	heavy_submarine_1943 = {
+
+		enable_equipments = { 
+			heavy_submarine_2
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1943
+		
+		folder = {
+			name = naval_screens_folder
+			position = { x = @HSS_line y = @1943 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}	
 ###------------------- Transport --------------------------------------
 	transport = {
 

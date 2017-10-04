@@ -48,8 +48,8 @@ set_technology = {
 	battlecruiser_1912 = 1
 	battlecruiser_1916 = 1
 	
-	light_carrier_1912 = 1
-#		
+	escort_carrier_1912 = 1
+#	
 	trench_warfare = 1
 
 	fleet_in_being = 1

@@ -1,0 +1,58 @@
+spriteTypes = {
+
+#-------------- National Socialism --------------------------------------------------
+	spriteType = {
+		name = "GFX_ideology_national_socialist_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+#-------------- Fascism --------------------------------------------------
+	spriteType = {
+		name = "GFX_ideology_fascist_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+#-------------- Paternal Autocrat --------------------------------------------------
+	spriteType = {
+		name = "GFX_ideology_paternal_autocrat_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+	
+	
+#-------------- Social Conservatism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_social_conservative_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+#-------------- Market Liberalism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+#-------------- Social Liberalism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_social_liberal_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+#-------------- Social Democracy --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_social_democratic_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}	
+	
+	
+#-------------- Stalinism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_stalinist_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}
+#-------------- Leninism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_leninist_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}	
+#-------------- Left Wing Radicalism --------------------------------------------------	
+	spriteType = {
+		name = "GFX_ideology_left_wing_radical_group"
+		texturefile = "gfx/interface/ideologies/communism_group.dds"
+	}	
+	
+}

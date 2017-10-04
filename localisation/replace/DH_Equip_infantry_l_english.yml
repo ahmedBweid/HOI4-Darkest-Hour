@@ -525,10 +525,6 @@
  infantry_equipment_2:0 "Service Rifle '42"
  infantry_equipment_2_short:0 "Rifles '42"
  infantry_equipment_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles."
- infantry_equipment_3:0 "Service Rifle '44"
- infantry_equipment_3_short:0 "Rifles '44"
- infantry_equipment_3_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles."
-
 
  
  infantry_equipment_3:0 "Assault Rifle '45"
