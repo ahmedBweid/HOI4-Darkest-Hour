@@ -56,6 +56,9 @@ country_event = {
 			modifier = {
 				FIN = {
 					has_government = social_conservative
+					has_government = market_liberal
+					has_government = social_liberal
+					has_government = social_democrat
 				}
 				factor = 100
 			}
