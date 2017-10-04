@@ -1,80 +1,165 @@
 ideas = {
 
-	hidden_ideas = {
-	#########################################################################
-	#  Governement Types (Used mainly for the AI and such)
-	#########################################################################
-		### Communist State	
-		communist_govt = {
+
+#########################################################################
+#  Political Agenda
+#########################################################################
+	political_agenda = {
+		
+### Drift towards NatSoc
+		drift_National_Socialist = {
 
 			allowed = {
-				always = no
+				always = yes
 			}
-
 			available = {
-				OR = {
-					has_government = stalinist
-					has_government = leninist				
-					has_government = left_wing_radical
-				}
+				NOT = { has_idea = drift_National_Socialist }
 			}
-
-			modifier = {
-				stalinist_acceptance = 85
-				leninist_acceptance = 85
-				left_wing_radical_acceptance = 85
+			on_add = {
+				add_popularity = { ideology = national_socialist popularity = 0.1 }
 			}
-
-			cancel_if_invalid = no
+			
+			cost = 100
 		}
-		### Fascist State	
-		fascist_govt = {
+### Drift towards Fascism
+		drift_Fascist = {
 
 			allowed = {
-				always = no
+				always = yes
 			}
-
 			available = {
-				OR = {
-					has_government = national_socialist
-					has_government = fascist				
-					has_government = paternal_autocrat
-				}
+				NOT = { has_idea = drift_Fascist }
 			}
-
-			modifier = {
-				national_socialist_acceptance = 85
-				fascist_acceptance = 85
-				paternal_autocrat_acceptance = 85
+			on_add = {
+				add_popularity = { ideology = fascist popularity = 0.1 }
 			}
-
-			cancel_if_invalid = no
-		}
-		### Democratic State	
-		democratic_govt = {
-
-			allowed = {
-				always = no				
-			}
-
-			available = {
-				OR = {
-					has_government = social_conservative
-					has_government = market_liberal				
-					has_government = social_liberal
-					has_government = social_democrat					
-				}
-			}
-
-			modifier = {
-				social_conservative_acceptance = 85
-				market_liberal_acceptance = 85
-				social_liberal_acceptance = 85
-				social_democrat_acceptance = 85				
-			}
-
-			cancel_if_invalid = no
+			
+			cost = 100
 		}		
-	###########################################################		
-	}
+### Drift towards Paternal Autocracy
+		drift_Paternal_Autocrat = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Paternal_Autocrat }
+			}
+			on_add = {
+				add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
+			}
+			
+			cost = 100
+		}		
+		
+### Drift towards Soc Cons
+		drift_Social_Conservative = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Social_Conservative }
+			}
+			on_add = {
+				add_popularity = { ideology = social_conservative popularity = 0.1 }
+			}
+			
+			cost = 100
+		}
+### Drift towards Market Lib
+		drift_Market_Liberal = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Market_Liberal }
+			}
+			on_add = {
+				add_popularity = { ideology = market_liberal popularity = 0.1 }
+			}
+			
+			cost = 100
+		}
+### Drift towards Soc Liberal
+		drift_Social_Liberal = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Social_Liberal }
+			}
+			on_add = {
+				add_popularity = { ideology = social_liberal popularity = 0.1 }
+			}
+			
+			cost = 100
+		}	
+### Drift towards Soc Democrat
+		drift_Social_Democrat = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Social_Democrat }
+			}
+			on_add = {
+				add_popularity = { ideology = social_democrat popularity = 0.1 }
+			}
+			
+			cost = 100
+		}		
+	
+### Drift towards Left Wing Radical
+		drift_Left_Wing_Radical = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Left_Wing_Radical }
+			}
+			on_add = {
+				add_popularity = { ideology = left_wing_radical popularity = 0.1 }
+			}
+			
+			cost = 100
+		}		
+### Drift towards Leninist
+		drift_Leninist = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Leninist }
+			}
+			on_add = {
+				add_popularity = { ideology = leninist popularity = 0.1 }
+			}
+			
+			cost = 100
+		}
+### Drift towards Stalinist
+		drift_Stalinist = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Stalinist }
+			}
+			on_add = {
+				add_popularity = { ideology = stalinist popularity = 0.1 }
+			}
+			
+			cost = 100
+		}	
+	
+	
+	
+	}	
 }

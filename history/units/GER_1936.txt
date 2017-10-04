@@ -348,26 +348,26 @@ units = {
 	}
 }
 
-###################################
 ### Air oob
-######################################
 air_wings = {
 	### I. Luftkreiskommando -- Konigsberg ###
-	749 = {
-		# Jagdgeschwader 232
+	5 = { 
+		# Jagdgeschwader 232 	
 		interceptor_equipment_0 =  {		# He 51
-			owner = "GER"
+			owner = "GER" 
 			amount = 40
 		}
+		name = "Jagdgeschwader 232"
 	}
 
 	### II. Luftkreiskommando -- Berlin ###
-	64 = {
-		# Jagdgeschwader 132 'Richtofen'
+	64 = { 
+		# Jagdgeschwader 132 'Richtofen'		
 		fighter_equipment_0 =  {		# Ar 68
-			owner = "GER"
+			owner = "GER" 
 			amount = 80
 		}
+		name = "Jagdgeschwader 132"
 		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
 			modifier="fighter_genius"
 			name="Erich"
@@ -375,77 +375,86 @@ air_wings = {
 			callsign="Bubi"
 			portrait=1 # Pick random index here, or make special GFX_GER_ace_Erich_Hartmann to override.
 		}
-		# Kampfgeschwader 153
+		# Kampfgeschwader 153		
 		tac_bomber_equipment_0 = {		# Do 23
-			owner = "GER"
+			owner = "GER" 
 			amount = 80
 		}
 		tac_bomber_equipment_0 = {		# Ju 86
-			owner = "GER"
+			owner = "GER" 
 			amount = 40
 			version_name = "Ju 86"
 		}
+		name = "Kampfgeschwader 153"
 		# TODO: REMOVE THIS LATER ???
 		transport_plane_equipment_1 = {
-			owner = "GER"
+			owner = "GER" 
 			amount = 4
 		}
 	}
 
 	### III. Luftkreiskommando -- Breslau ###
-	66 = {
-		# Kampfgeschwader 253 'General Wever'
+	66 = { 
+		# Kampfgeschwader 253 'General Wever'		
 		tac_bomber_equipment_0 = {		# He 45 or Do 23 ?
-			owner = "GER"
+			owner = "GER" 
 			amount = 120
 		}
-		# Sturzkampfgeschwader 162
+		name = "Kampfgeschwader 253"
+		# Sturzkampfgeschwader 162		
 		CAS_equipment_0 =  {			# Hs 123
-			owner = "GER"
+			owner = "GER" 
 			amount = 80
 		}
+		name = "Sturzkampfgeschwader 162"	
 	}
 
 	### IV. Luftkreiskommando -- Kassel ###
-	57 = {
-		# Jagdgeschwader 134 'Horst Wessel'
+	57 = { 
+		# Jagdgeschwader 134 'Horst Wessel'		
 		fighter_equipment_0 =  {		# He 51 # Ar 68
-			owner = "GER"
+			owner = "GER" 
 			amount = 120
 		}
-		# Kampfgeschwader 152 'Hindenburg'
-		tac_bomber_equipment_0 = {		# Do 23
-			owner = "GER"
+		name = "Jagdgeschwader 134"
+		# Kampfgeschwader 152 'Hindenburg'	
+		tac_bomber_equipment_1 = {		# Do 23
+			owner = "GER" 
 			amount = 80
 		}
-		# Kampfgeschwader 155
+		name = "Kampfgeschwader 152"
+		# Kampfgeschwader 155	
 		tac_bomber_equipment_0 = {		# He 45 or Do 23 ? (light bomber)
-			owner = "GER"
+			owner = "GER" 
 			amount = 80
 		}
+		name = "Kampfgeschwader 155"
 	}
 
 	### V. Luftkreiskommando -- Munich ###
-	52 = {
-		# Jagdgeschwader 136
+	52 = { 
+		# Jagdgeschwader 136		
 		fighter_equipment_0 =  {		# He 51
-			owner = "GER"
+			owner = "GER" 
 			amount = 40
 		}
-		# Kampfgeschwader 154
+		name = "Jagdgeschwader 136"
+		# Kampfgeschwader 154	
 		tac_bomber_equipment_0 = {		# Do 23
-			owner = "GER"
+			owner = "GER" 
 			amount = 80
 		}
+		name = "Kampfgeschwader 154"
 	}
 
 	### VI. Luftkreiskommando -- Kiel ###
-	58 = {
-		# Küstenfliegergruppe 106
+	58 = { 
+		# Küstenfliegergruppe 106		
 		nav_bomber_equipment_1 =  {		# He 59, Do 18
-			owner = "GER"
+			owner = "GER" 
 			amount = 72
 		}
+		name = "Küstenfliegergruppe 106"
 		# Küstenfliegergruppe 206
 	}
 }
@@ -488,7 +497,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_equipment_2
+			type = light_tank_equipment_6
 			creator = "GER"
 		}
 		requested_factories = 2
@@ -540,47 +549,47 @@ instant_effect = {
 	# SS: Type IIA (x2) ("U-25" "U-26"), Type IIB (x6) ("U-14" "U-16" "U-18" "U-15" "U-20" "U-19")
 	add_equipment_production = {
 		equipment = {
-			type = submarine_2
+			type = submarine_4
 			creator = "GER"
 		}
 		requested_factories = 5
 		progress = 0.75
-		amount = 8
+		amount = 2
 	}
 	# DD: 1934 class (x4) ("Z1" "Z2" "Z3" "Z4")
 	add_equipment_production = {
 		equipment = {
-			type = destroyer_2
+			type = destroyer_5
 			creator = "GER"
 		}
 		requested_factories = 3
 		progress = 0.75
-		amount = 4
+		amount = 1
 	}
 	# CA: "Graf Spee"
 	add_equipment_production = {
 		equipment = {
-			type = heavy_cruiser_1
+			type = heavy_cruiser_4
 			creator = "GER"
 		}
 		requested_factories = 1
 		progress = 0.95
 		amount = 1
 	}
-		# Scharnhorst
+	# BC:  Scharnhorst
 	add_equipment_production = {
 		equipment = {
-			type = battleship_2
+			type = battle_cruiser_3
 			creator = "GER"
 		}
 		requested_factories = 3
 		progress = 0.25
 		amount = 1
 	}
-		# Gneisenau
+	# BC : Gneisenau
 	add_equipment_production = {
 		equipment = {
-			type = battleship_2
+			type = battle_cruiser_3
 			creator = "GER"
 		}
 		requested_factories = 3

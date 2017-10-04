@@ -108,7 +108,7 @@ units = {
 		name = "HM Australian Fleet"			
 		base = 12406
 		location = 12406 # Sydney
-		ship = { name = "HMAS Albatross" definition = light_carrier equipment = { light_carrier_0 = { amount = 1 owner = AST } } air_wings = {} }	
+		ship = { name = "HMAS Albatross" definition = escort_carrier equipment = { escort_carrier_0 = { amount = 1 owner = AST } } air_wings = {} }	
 		ship = { name = "HMAS Australia" definition = heavy_cruiser equipment = { heavy_cruiser_4 = { amount = 1 owner = AST } } }
 		ship = { name = "HMAS Canberra" definition = heavy_cruiser equipment = { heavy_cruiser_4 = { amount = 1 owner = AST } } }
 		ship = { name = "HMAS Sydney" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = AST } } }

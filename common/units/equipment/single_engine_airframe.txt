@@ -789,6 +789,32 @@ equipments = {
 		naval_strike_attack = 8
 		naval_strike_targetting = 10
 	}
+	
+	# Advanced Carrier Fighter
+	cv_fighter_equipment_7 = {
+		year = 1962
+
+		archetype = cv_fighter_equipment
+		parent = cv_fighter_equipment_5
+		carrier_capable = yes
+		priority = 30
+		
+		air_range = 960
+		maximum_speed = 648
+		air_agility = 80
+		air_attack = 32
+		air_defence = 15
+		
+		build_cost_ic = 25.3 # cv_version costs 20% more of base archetype
+		resources = {
+			oil = 2
+			aluminium = 3
+			rubber = 1
+		}
+
+		naval_strike_attack = 8
+		naval_strike_targetting = 10
+	}	
 ################################################################################	
 # ROCKET INTERCEPTORS ###########################################################
 	rocket_interceptor_equipment = {

@@ -50,35 +50,40 @@
 #--- Democracy 
 ###########################################
  social_conservatism:0 "Social Conservatism"
-
+ social_conservatism_desc:0 "§CSocial Conservatism§! denotes an attitude that tends to favour beliefs seen as traditional in regard to social affairs. This can include moral issues."
+ 
  market_liberalism:0 "Market Liberalism"
+ market_liberalism_desc:0 "§CMarket Liberalism§!, also known as Classical liberalism is a political ideology, a branch of liberalism which advocates civil liberties under the rule of law with an emphasis on economic freedom."
  
  social_liberalism:0 "Social Liberalism"
+ social_liberalism_desc:0 "§CSocial Liberalism§! is a political ideology that believes individual liberty requires a level of social justice. Like classical liberalism, social liberalism endorses a market economy and the expansion of civil and political rights and liberties, but differs in that it believes the legitimate role of the government includes addressing economic and social issues such as poverty, health care and education."
  
  social_democracy:0 "Social Democracy"
-
+ social_democracy_desc:0 "§CSocial Democracy§! is a political, social and economic ideology that supports economic and social interventions to promote social justice within the framework of a capitalist economy."
+ 
  ###########################################
  #--- Communism 
 ###########################################
  left_wing_radicalism:0 "Left-Wing Radicalism"
+ left_wing_radicalism_desc:0 "§RLeft-Wing Radicalism§!, or leftist nationalism describes a form of nationalism based upon social equality, popular sovereignty, and national self-determination."
  
  leninism:0 "Leninism"
- leninism_desc:0 "A political ideology based in Marxist thought, Leninism seeks to establish a socialist state by a vanguard party leading a revolution overthrowing capitalist society. Once in power, the party rules through a system whereby policies are open for internal debate until a decision has been made."
+ leninism_desc:0 "§RLeninism§! is the political theory for the organisation of a revolutionary vanguard party and the achievement of a dictatorship of the proletariat, as political prelude to the establishment of socialism.[1] Developed by and named for the Russian revolutionary Lenin."
  
  stalinism:0 "Stalinism"
- stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
+ stalinism_desc:0 "§RStalinism§! is the means of governing and related policies implemented by Joseph Stalin. Stalinist policies in the Soviet Union included rapid industrialization, the theory of socialism in one country, a centralized state, collectivization of agriculture, cult of personality."
 
 ###########################################
  #--- Fascism 
 ###########################################
  national_socialism:0 "National Socialism"
- national_socialism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
+ national_socialism_desc:0 "§YNational Socialism§! more commonly known as Nazism, is the ideology and set of practices associated with the 20th-century German Nazi Party, Nazi Germany and other far-right groups. Usually characterized as a form of fascism that incorporates scientific racism and antisemitism."
  
  fascist_ideology:0 "Fascism"
- fascist_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader."
+ fascist_ideology_desc:0 "§YFascism§! is a form of radical authoritarian nationalism, characterized by dictatorial power, forcible suppression of opposition, and control of industry and commerce, that came to prominence in early 20th-century Europe."
 
  paternal_autocracy:0 "Paternal Autocracy"
-
+ paternal_autocracy_desc:0 "§YPaternal Autocracy§! is a system of government in which supreme power is concentrated in the hands of one person"
  
 ########################################################################################################
 ###################################### Parties ############################################################
@@ -93,8 +98,8 @@
  USA_paternal_autocrat_party_long:0 "America First Committee"
  USA_social_conservative_party:0 "RP"
  USA_social_conservative_party_long:0 "Republican Party"
- USA_market_liberal_party:0 "PP"
- USA_market_liberal_party_long:0 "Progressive Party"
+ USA_market_liberal_party:0 "RP"
+ USA_market_liberal_party_long:0 "Republican Party"
  USA_social_liberal_party:0 "DP"
  USA_social_liberal_party_long:0 "Democratic Party"
  USA_social_democrat_party:0 "DFLP"
@@ -106,7 +111,7 @@
  USA_stalinist_party:0 "CP"
  USA_stalinist_party_long:0 "Communist Party"
 
- CAN_national_socialist_party:0 "PNSC"
+ CAN_national_socialist_party:0 "PNSC
  CAN_national_socialist_party_long:0 "Parti National Social Chrétien"
  CAN_fascist_party:0 "CUF"
  CAN_fascist_party_long:0 "Canadian Union of Fascists"
@@ -276,7 +281,7 @@
  ENG_stalinist_party_long:0 "Communist Party"
  
  FRA_national_socialist_party:0 "PPF"
- FRA_national_socialist_party_long:0 "PPF"
+ FRA_national_socialist_party_long:0 "Parti Populaire Français"
  FRA_fascist_party:0 "MF"
  FRA_fascist_party_long:0 "Mouvement Franciste"
  FRA_paternal_autocrat_party:0 "AF"
@@ -284,17 +289,17 @@
  FRA_social_conservative_party:0 "FR"
  FRA_social_conservative_party_long:0 "FR"
  FRA_market_liberal_party:0 "MRP"
- FRA_market_liberal_party_long:0 "MRP"
+ FRA_market_liberal_party_long:0 "Mouvement Républicain Populaire"
  FRA_social_liberal_party:0 "ARV"
- FRA_social_liberal_party_long:0 "ARV"
+ FRA_social_liberal_party_long:0 "Alliance démocratique"
  FRA_social_democrat_party:0 "SFIO"
- FRA_social_democrat_party_long:0 "SFIO"
+ FRA_social_democrat_party_long:0 "Section Française de l'Internationale Ouvrière"
  FRA_left_wing_radical_party:0 "RAD"
- FRA_left_wing_radical_party_long:0 "RAD"
+ FRA_left_wing_radical_party_long:0 "Parti radical"
  FRA_leninist_party:0 "GBL"
- FRA_leninist_party_long:0 "GBL"
+ FRA_leninist_party_long:0 "Groupe Bolchevik-Leniniste"
  FRA_stalinist_party:0 "PCF"
- FRA_stalinist_party_long:0 "PCF"
+ FRA_stalinist_party_long:0 "Parti communiste français"
  
  ITA_national_socialist_party:0 "NSIWP"
  ITA_national_socialist_party_long:0 "NSIWP"
@@ -613,12 +618,12 @@
  NOR_stalinist_party_long:0 "NKP"
  
 #### Eastern Europe #################################
- SOV_national_socialist_party:0 "POA"
- SOV_national_socialist_party_long:0 "POA"
+ SOV_national_socialist_party:0 "RFP"
+ SOV_national_socialist_party_long:0 "Russian Fascist Party"
  SOV_fascist_party:0 "NTS"
- SOV_fascist_party_long:0 "NTS"
+ SOV_fascist_party_long:0 "National Alliance of Russian Solidarists"
  SOV_paternal_autocrat_party:0 "ROA"
- SOV_paternal_autocrat_party_long:0 "ROA"
+ SOV_paternal_autocrat_party_long:0 "Russian Liberation Army"
  SOV_social_conservative_party:0 "Octobrist"
  SOV_social_conservative_party_long:0 "Octobrist"
  SOV_market_liberal_party:0 "Kadets"
@@ -755,7 +760,7 @@
  BUL_national_socialist_party:0 "RNB"
  BUL_national_socialist_party_long:0 "Ratnitsi Napreduka na Bulgarshtinata"
  BUL_fascist_party:0 "UBNL"
- BUL_fascist_party_long:0 "The Union of Bulgarian National Legions"
+ BUL_fascist_party_long:0 "The Union of Bulgarian National Legions
  BUL_social_conservative_party:0 "BZNS"
  BUL_social_conservative_party_long:0 "Balgarski Zemedelski Naroden Sajuz"
  BUL_market_liberal_party:0 "DP"
@@ -903,8 +908,8 @@
 
  TUR_national_socialist_party:0 "UH"
  TUR_national_socialist_party_long:0 "Ülkücü Hareket"
- TUR_fascist_party:0 "BK"
- TUR_fascist_party_long:0 "Bozkurtlar"
+ TUR_fascist_party:0 "TH"
+ TUR_fascist_party_long:0 "Turan Hareketi"
  TUR_paternal_autocrat_party:0 "CHP"
  TUR_paternal_autocrat_party_long:0 "Cumhuriyet Halk Partisi"
  TUR_social_conservative_party:0 "MP"

@@ -1,6 +1,6 @@
 --End Date Changes
 NDefines.NGame.END_DATE = "1999.1.1.1"
-NDefines_Graphics.NFrontend.CAMERA_MIN_HEIGHT = 30.0
+NDefines_Graphics.NFrontend.CAMERA_MIN_HEIGHT = 25.0
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 50
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 5
 NDefines.NCountry.POLITICAL_POWER_CAP = 500.0
@@ -19,6 +19,11 @@ NDefines.NMilitary.DEPLOY_TRAINING_MAX_LEVEL = 5
 NDefines.NMilitary.UNIT_EXP_LEVELS = {0.02,	0.04,	0.06,	0.08,	0.1,	0.14,	0.18,	0.22,	0.26,	0.3,	0.39,	0.48,	0.57,	0.66,	0.75,	0.78,	0.81,	0.84,	0.87,	0.9}		-- Experience needed to progress to the next level
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.05
 NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 5
+-- AI Diplomacy related
+NDefines.NAI.DIPLOMACY_FACTION_WRONG_IDEOLOGY_PENALTY = 0 -- AI penalty for diplomatic faction acitons between nations of different ideologies
+NDefines.NAI.DIPLOMACY_FACTION_SAME_IDEOLOGY_MAJOR = 10 -- AI bonus acceptance when being asked about faction is a major of the same ideology(edited)
+NDefines.NAI.DIPLOMACY_FACTION_PATERNAL_AUTOCRAT_PENALTY = 50  -- Neutral nations have a separate penalty, not wanting to get involved at all, rather than caring much about the difference in ideology
+
 --Graphical Changes
 NDefines_Graphics.NMapIcons.STATES_PRIORITY_VICTORY_POINTS = 4
 NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 10.0 -- thickness in pixels -- 5

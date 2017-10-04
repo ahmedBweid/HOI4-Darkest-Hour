@@ -1195,7 +1195,7 @@ country_event = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
-					slots = { army_chief }
+					slots = { Chief_of_Army }
 				}
 			}
 
@@ -1288,7 +1288,7 @@ country_event = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
-					slots = { army_chief }
+					slots = { Chief_of_Army }
 				}
 			}			
 
@@ -1369,7 +1369,7 @@ country_event = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
-					slots = { army_chief }
+					slots = { Chief_of_Army }
 				}
 			}
 
@@ -1462,7 +1462,7 @@ country_event = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
-					slots = { army_chief }
+					slots = { Chief_of_Army }
 				}
 			}
 
@@ -1555,7 +1555,7 @@ country_event = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
-					slots = { army_chief }
+					slots = { Chief_of_Army }
 				}
 			}
 
@@ -1649,7 +1649,7 @@ country_event = {
 				add = 5
 				amount_taken_ideas = {
 					amount < 1
-					slots = { army_chief }
+					slots = { Chief_of_Army }
 				}
 			}
 

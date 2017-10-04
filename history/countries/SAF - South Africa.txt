@@ -139,7 +139,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
@@ -147,11 +147,11 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "J. B. M. Hertzog"
+	name = "Villiers Lord Clarendon"
 	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "GFX_SAF_james_hertzog"
+	picture = "Portrait_SouthAfrica_Villiers_Lord_Clarendon.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = market_liberalism
 	traits = {
 		#
 	}

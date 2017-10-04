@@ -42,7 +42,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 8750
+		build_cost_ic = 24000
 		resources = {
 			oil = 1
 			steel = 3
@@ -52,12 +52,19 @@ equipments = {
 		manpower = 1100
 	}
 
+	# 1912 CVE
 	escort_carrier_0 = {
+		year = 1912
+
 		archetype = escort_carrier
 		priority = 70
+		build_cost_ic = 24000
 	}
 
+	# 1916 CVE
 	escort_carrier_1 = {
+		year = 1916
+
 		archetype = escort_carrier
 		parent = escort_carrier_0
 		priority = 70
@@ -85,7 +92,8 @@ equipments = {
 		
 		port_capacity_usage = 2
 
-		build_cost_ic = 9500
+		build_cost_ic = 24000
+
 		resources = {
 			oil = 1
 			steel = 4
@@ -94,33 +102,34 @@ equipments = {
 		manpower = 5000
 	}
 
+	# 1922 CVE
 	escort_carrier_2 = {
+		year = 1922
+
 		archetype = escort_carrier
 		parent = escort_carrier_1
 		priority = 70
+		build_cost_ic = 27000
 	}
 	
+	# 1940 CVE
 	escort_carrier_3 = {
+		year = 1940
+
 		archetype = escort_carrier
 		parent = escort_carrier_2
 		priority = 70
+		build_cost_ic = 7500
 	}	
 	
+	# 1943 CVE
 	escort_carrier_4 = {
+		year = 1943
+
 		archetype = escort_carrier
 		parent = escort_carrier_3
 		priority = 70
+		build_cost_ic = 7500
 	}
 
-	escort_carrier_5 = {
-		archetype = escort_carrier
-		parent = escort_carrier_4
-		priority = 70
-	}	
-	
-	escort_carrier_6 = {
-		archetype = escort_carrier
-		parent = escort_carrier_5
-		priority = 70
-	}	
 }

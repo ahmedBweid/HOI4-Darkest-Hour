@@ -1,5 +1,25 @@
 spriteTypes = {	
-
+	spriteType = {
+		name = "GFX_idea_slot_Head_of_Government"
+		textureFile = "gfx/interface/idea_slot_Head_of_Government.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_Foreign_Minister"
+		textureFile = "gfx/interface/idea_slot_Foreign_Minister.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_Minister_of_Security"
+		textureFile = "gfx/interface/idea_slot_Minister_of_Security.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_Armaments_Minister"
+		textureFile = "gfx/interface/idea_slot_Armaments_Minister.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_political_agenda"
+		textureFile = "gfx/interface/idea_slot_political_agenda.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_idea_GER_org_todt"
 		texturefile = "gfx/interface/ideas/idea_ast_all_in.dds"		

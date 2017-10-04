@@ -75,8 +75,8 @@ set_technology = {
 	battleship_1922 = 1	
 	battleship_1933 = 1
 	
-	light_carrier_1912 = 1	
-	light_carrier_1916 = 1
+	escort_carrier_1912 = 1
+	escort_carrier_1916 = 1
 	
 	carrier_1922 = 1	
 
@@ -114,7 +114,7 @@ create_import = {
 		ig_faben
 		heinrich_himmler
 		rudolf_hess
-		ludwig_beck
+		#ludwig_beck
 		gerd_von_rundstedt
 
 		#laws

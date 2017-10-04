@@ -82,7 +82,7 @@ create_country_leader = {
 	
 	picture = "Portrait_Manchuria_Pu_Yi.dds"
 	expire = "1960.1.1"
-	ideology = rexism
+	ideology = paternal_autocracy
 	traits = {
 		warrior_code
 	}

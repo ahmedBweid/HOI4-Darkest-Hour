@@ -78,22 +78,22 @@
  
  ###### Versions ---------------------------------------------------------------------
  
- GER_EQUIPMENT_VERSION_1:0 "Ausf. A"
- GER_EQUIPMENT_VERSION_2:0 "Ausf. B"
- GER_EQUIPMENT_VERSION_3:0 "Ausf. C"
- GER_EQUIPMENT_VERSION_4:0 "Ausf. D"
- GER_EQUIPMENT_VERSION_5:0 "Ausf. E"
- GER_EQUIPMENT_VERSION_6:0 "Ausf. F"
- GER_EQUIPMENT_VERSION_7:0 "Ausf. G"
- GER_EQUIPMENT_VERSION_8:0 "Ausf. H"
- GER_EQUIPMENT_VERSION_9:0 "Ausf. I"
- GER_EQUIPMENT_VERSION_10:0 "Ausf. J"
- GER_EQUIPMENT_VERSION_11:0 "Ausf. K"
- GER_EQUIPMENT_VERSION_12:0 "Ausf. L"
- GER_EQUIPMENT_VERSION_13:0 "Ausf. M"
- GER_EQUIPMENT_VERSION_14:0 "Ausf. N"
- GER_EQUIPMENT_VERSION_15:0 "Ausf. O"
- GER_EQUIPMENT_VERSION_16:0 "Ausf. P"
+ GER_EQUIPMENT_VERSION_1:0 "A"
+ GER_EQUIPMENT_VERSION_2:0 "B"
+ GER_EQUIPMENT_VERSION_3:0 "C"
+ GER_EQUIPMENT_VERSION_4:0 "D"
+ GER_EQUIPMENT_VERSION_5:0 "E"
+ GER_EQUIPMENT_VERSION_6:0 "F"
+ GER_EQUIPMENT_VERSION_7:0 "G"
+ GER_EQUIPMENT_VERSION_8:0 "H"
+ GER_EQUIPMENT_VERSION_9:0 "I"
+ GER_EQUIPMENT_VERSION_10:0 "J"
+ GER_EQUIPMENT_VERSION_11:0 "K"
+ GER_EQUIPMENT_VERSION_12:0 "L"
+ GER_EQUIPMENT_VERSION_13:0 "M"
+ GER_EQUIPMENT_VERSION_14:0 "N"
+ GER_EQUIPMENT_VERSION_15:0 "O"
+ GER_EQUIPMENT_VERSION_16:0 "P"
  
  ROM_EQUIPMENT_VERSION_1:0 "A"
  ROM_EQUIPMENT_VERSION_2:0 "B"
@@ -295,7 +295,6 @@
  GER_cavalry:0 "Kavallerie battalion" 
  GER_militia:0 "Volksgrenadier battalion"
  
- 
  ENG_mountaineers:0 "Gurkhas battalion"
  ENG_marine:0 "Royal Marines battalion"
  ENG_militia:0 "Home Guard battalion"
@@ -315,7 +314,6 @@
  
  HOL_marine:0 "Mariners battalion"
  
-
  ROM_cavalry:0 "Cavalerie battalion" 
  ROM_mountaineers:0 "Alpinisti battalion"
  ROM_paratrooper:0 "Parasutisti battalion"
@@ -330,39 +328,49 @@
  
 
  
- ### --------------------------------------- Rockets and Missiles
+ ### --------------------------------------- Rockets and Missiles ----------------------------------------------
  guided_missile_equipment:0 "Guided Missile"
+ 
  guided_missile_equipment_1:0 "Flying Bomb"
  guided_missile_equipment_1_short:0 "Flying Bomb"
- guided_missile_equipment_1_desc:0 "Unmanned flying bomb"
+ guided_missile_equipment_1_desc:0 "The Flying Bomb is a pilotless aircraft powered by an early jet engine, designed to deliver a payload of explosives to an area target. It is slower than a rocket or missile, which means that it can be intercepted and shot down by enemy fighters."
+ 
  guided_missile_equipment_2:0 "Strategic Rockets"
  guided_missile_equipment_2_short:0 "Strategic Rockets"
  guided_missile_equipment_2_desc:0 "Decent unmanned flying bomb"
+ 
  guided_missile_equipment_3:0 "Ballistic Missiles"
  guided_missile_equipment_3_short:0 "Ballistic Missiles"
  guided_missile_equipment_3_desc:0 "Better unmanned flying bomb"
+ 
  guided_missile_equipment_4:0 "Intercontinental ballistic missile"
  guided_missile_equipment_4_short:0 "ICBM"
  guided_missile_equipment_4_desc:0 "Best unmanned flying bomb"
  
+#---- Germany -------------------------
  GER_guided_missile_equipment_1:0 "V-1"
  GER_guided_missile_equipment_2:0 "V-2"
  GER_guided_missile_equipment_3:0 "V-2A9"
- GER_guided_missile_equipment_4:0 "V-2A10"
+ GER_guided_missile_equipment_4:0 "V-12"
 
+#---- United States -------------------------
  USA_guided_missile_equipment_1:0 "Republic-Ford JB-2"
- USA_guided_missile_equipment_2:0 "Redstone"
- USA_guided_missile_equipment_3:0 "Thor"
- USA_guided_missile_equipment_4:0 "Atlas-D"
+ USA_guided_missile_equipment_2:0 "PGM-11 Redstone"
+ USA_guided_missile_equipment_3:0 "PGM-17 Thor"
+ USA_guided_missile_equipment_4:0 "SM-65 Atlas-D"
 
+#---- Soviet Union -------------------------
  SOV_guided_missile_equipment_1:0 "10Kh"
- SOV_guided_missile_equipment_2:0 "SS-1 Scunner"
- SOV_guided_missile_equipment_3:0 "SS-3 Shyster"
- SOV_guided_missile_equipment_4:0 "SS-6 Sapwood" 
+ SOV_guided_missile_equipment_2:0 "R-1"
+ SOV_guided_missile_equipment_3:0 "R-5 Pobeda"
+ SOV_guided_missile_equipment_4:0 "R-7 Semyorka" 
  
- ENG_guided_missile_equipment_2:0 "Thor"
- ENG_guided_missile_equipment_3:0 "Blue Streak"
+#---- United Kingdom -------------------------
+ ENG_guided_missile_equipment_3:0 "Thor"
+ ENG_guided_missile_equipment_4:0 "Blue Streak"
  
+#---- People's Republic of China -------------------------
+ PRC_guided_missile_equipment_2:0 "Dongfeng SS-1"
  PRC_guided_missile_equipment_2:0 "Dongfeng SS-2"
  PRC_guided_missile_equipment_3:0 "Dongfeng CSS-1"
  PRC_guided_missile_equipment_4:0 "Dongfeng CSS-3" 

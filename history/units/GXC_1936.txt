@@ -82,7 +82,25 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	
+### Guanxi Navy ###
+#---------------------   4th Fleet - Guangzhou ------------------------------------------------
+	navy = {				
+		name = "4th Fleet"			
+		base = 1047 
+		location = 1047 # Guangzhou		
+		
+		ship = { name = "Haizhou, Haihu" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }	
+		ship = { name = "Haiqiang, Haiji, Jiangda, Jianggong, Guangjin" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }		
+		ship = { name = "Guangcheng, Anbei, Fengwu, Jianru, Zhixin" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }		
+		ship = { name = "Hushan, Guanghua, Zhili, Jinma, Feipeng" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }		
+		ship = { name = "Jiangcheng, Jiangping, Pingxi, Jingdong, Guangan" definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }		
+		ship = { name = "Guangyuan, Lichen, Suijiang, Haiou, Zhujiang " definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }
+		ship = { name = "Xixing, Zhongyuan, Zhongkai, Xinsongjiang " definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }
+		ship = { name = "S-1, S-2, S-3, S-4 " definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }
+		ship = { name = "Guangyuan, Lichen, Suijiang, Haiou, Zhujiang " definition = destroyer equipment = { destroyer_0 = { amount = 1 owner = GXC } } }
+		
+		ship = { name = "Zhaohe" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GXC } } }  		
+	}	
 }
 
 ### STARTING PRODUCTION ###

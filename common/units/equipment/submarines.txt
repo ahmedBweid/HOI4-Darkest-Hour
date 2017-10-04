@@ -1,7 +1,7 @@
 equipments = {
 
 	submarine = {
-		year = 1922
+		year = 1895
 
 		is_archetype = yes
 		is_buildable = no
@@ -31,30 +31,35 @@ equipments = {
 		sub_detection = 0
 		surface_visibility = 10
 		sub_visibility = 30
-		naval_speed = 14
 		reliability = 0.60
-		
-		naval_range = 2500
+
+		naval_speed = 8		
+		naval_range = 500
+		manpower = 100	
 		
 		max_strength = 10
 		
 		port_capacity_usage = 0.5
 		
-		build_cost_ic = 450
+		build_cost_ic = 6750
 		resources = {
 			oil = 1
 			steel = 1
 		}
-		
-		manpower = 200
 	}
 
+#1895 Submarine	
 	submarine_0 = {
-		year = 1922
+		year = 1895
 
 		archetype = submarine
 		priority = 80
 
+		naval_speed = 8		
+		naval_range = 500
+		manpower = 100	
+		build_cost_ic = 6750
+		
 		resources = {
 			oil = 1
 			steel = 1
@@ -64,13 +69,19 @@ equipments = {
 		}
 	}
 	
+#1912 Submarine	
 	submarine_1 = {
-		year = 1922
+		year = 1912
 
 		archetype = submarine
 		parent = submarine_0
 		priority = 80
 
+		naval_speed = 12		
+		naval_range = 1500
+		manpower = 200	
+		build_cost_ic = 7500
+		
 		resources = {
 			oil = 1
 			steel = 1
@@ -81,8 +92,9 @@ equipments = {
 	}
 	
 	
+#1916 Submarine	
 	submarine_2 = {
-		year = 1936
+		year = 1916
 
 		archetype = submarine
 		parent = submarine_1
@@ -102,27 +114,30 @@ equipments = {
 		sub_detection = 0
 		surface_visibility = 10
 		sub_visibility = 25
-		naval_speed = 14
 		reliability = 0.70
 
-		naval_range = 4000
-		
 		max_strength = 20
 		
 		port_capacity_usage = 0.5
+
+		naval_speed = 15		
+		naval_range = 4000
+		manpower = 200	
 		
-		build_cost_ic = 500
+		
+		build_cost_ic = 8250
 		resources = {
 			oil = 1
-			steel = 2
+			steel = 1
 		}
 		type = { 
 			submarine
 		}		
 	}
 	
+#1922 Submarine	
 	submarine_3 = {
-		year = 1940
+		year = 1922
 
 		archetype = submarine
 		parent = submarine_2
@@ -142,27 +157,29 @@ equipments = {
 		sub_detection = 0
 		surface_visibility = 10
 		sub_visibility = 15
-		naval_speed = 16
 		reliability = 0.75
 		
-		naval_range = 5000
-		
+		naval_speed = 16		
+		naval_range = 7500
+		manpower = 250	
+				
 		max_strength = 30
 
 		port_capacity_usage = 0.5
 		
-		build_cost_ic = 550
+		build_cost_ic = 8250
 		resources = {
-			oil = 2
-			steel = 2
+			oil = 1
+			steel = 1
 		}
 		type = { 
 			submarine
 		}		
 	}
 	
+#1933 Submarine	
 	submarine_4 = {
-		year = 1944
+		year = 1933
 
 		archetype = submarine
 		parent = submarine_3
@@ -182,28 +199,29 @@ equipments = {
 		sub_detection = 0
 		surface_visibility = 8
 		sub_visibility = 10
-		naval_speed = 16
 		reliability = 0.80
 
-		naval_range = 6000
-		
+		naval_speed = 18		
+		naval_range = 9000
+		manpower = 250	
+				
 		max_strength = 35
 		
 		port_capacity_usage = 0.5
 		
-		build_cost_ic = 600
+		build_cost_ic = 9000
 		resources = {
-			oil = 2
-			steel = 3
-			chromium = 1
+			oil = 1
+			steel = 2
 		}
 		type = { 
 			submarine
 		}		
 	}
 
+#1936 Submarine	
 	submarine_5 = {
-		year = 1944
+		year = 1936
 
 		archetype = submarine
 		parent = submarine_4
@@ -223,28 +241,29 @@ equipments = {
 		sub_detection = 0
 		surface_visibility = 8
 		sub_visibility = 10
-		naval_speed = 16
 		reliability = 0.80
 
-		naval_range = 6000
-		
+		naval_speed = 18		
+		naval_range = 12000
+		manpower = 300	
+				
 		max_strength = 35
 		
 		port_capacity_usage = 0.5
 		
-		build_cost_ic = 600
+		build_cost_ic = 9000
 		resources = {
-			oil = 2
-			steel = 3
-			chromium = 1
+			oil = 1
+			steel = 2
 		}
 		type = { 
 			submarine
 		}		
 	}
 
+#1940 Submarine	
 	submarine_6 = {
-		year = 1944
+		year = 1940
 
 		archetype = submarine
 		parent = submarine_5
@@ -264,68 +283,88 @@ equipments = {
 		sub_detection = 0
 		surface_visibility = 8
 		sub_visibility = 10
-		naval_speed = 16
 		reliability = 0.80
 
-		naval_range = 6000
+		naval_speed = 18		
+		naval_range = 15000
+		manpower = 350		
 		
 		max_strength = 35
 		
 		port_capacity_usage = 0.5
 		
-		build_cost_ic = 600
+		build_cost_ic = 9000
 		resources = {
-			oil = 2
-			steel = 3
-			chromium = 1
+			oil = 1
+			steel = 2
 		}
 		type = { 
 			submarine
 		}		
 	}
 	
+#1943 Submarine	
 	submarine_7 = {
-		year = 1922
+		year = 1943
 
 		archetype = submarine
 		parent = submarine_6
 		priority = 80
 
+		naval_speed = 18		
+		naval_range = 15000
+		manpower = 400	
+		build_cost_ic = 10500
+		
 		resources = {
-			oil = 1
-			steel = 1
+			oil = 2
+			steel = 2
 		}
 		type = { 
 			submarine
 		}
 	}	
 	
+#1950 Submarine	
 	submarine_8 = {
-		year = 1922
+		year = 1950
 
 		archetype = submarine
 		parent = submarine_7
 		priority = 80
 
+		naval_speed = 21		
+		naval_range = 15000
+		manpower = 400	
+		build_cost_ic = 11250
+		
 		resources = {
-			oil = 1
-			steel = 1
+			oil = 2
+			steel = 2
+			chromium = 1
 		}
 		type = { 
 			submarine
 		}
 	}
 	
+#1954 Submarine	
 	submarine_9 = {
-		year = 1922
+		year = 1954
 
 		archetype = submarine
 		parent = submarine_8
 		priority = 80
 
+		naval_speed = 21		
+		naval_range = 15000
+		manpower = 450	
+		build_cost_ic = 11250
+		
 		resources = {
-			oil = 1
-			steel = 1
+			oil = 2
+			steel = 2
+			chromium = 1
 		}
 		type = { 
 			submarine

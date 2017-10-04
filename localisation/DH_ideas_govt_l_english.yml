@@ -32,34 +32,23 @@
 ## Cabinet
 ##############################################
  cabinet:0 "Cabinet"
- head_of_govt:0 "Head of Government"
- foreign_minister:0 "Foreign Minister"
- security_minister:0 "Minister of Security"
- armaments_minister:0 "Armaments Minister"
+ Head_of_Government:0 "Head of Government"
+ Foreign_Minister:0 "Foreign Minister"
+ Minister_of_Security:0 "Minister of Security"
+ Armaments_Minister:0 "Armaments Minister"
  
- ##### Germany ####################################################
- GER_HoG_rudolf_hess:0 "Rudolf Hess"
- GER_HoG_martin_bormann:0 "Martin Bormann"
- 
- GER_FM_von_ribbentrop:0 "J. von Ribbentrop"
- GER_FM_von_neurath:0 "K. von Neurath"
- 
- GER_SM_heinrich_himmler:0 "Heinrich Himmler" 
- GER_SM_wilhelm_frick:0 "Wilhelm Frick"
- 
- GER_AM_von_blomberg:0 "Werner von Blomberg"
- GER_AM_fritz_todt:0 "Fritz Todt"
- GER_AM_albert_speer:0 "Albert Speer"
- ##### United States ####################################################
- USA_HoG_harry_hopkins:0 "Harry l. Hopkins"
- 
- USA_FM_cordell_hull:0 "Cordell Hull"
- 
- USA_SM_edgar_hoover:0 "J. Edgar Hoover" 
- 
- USA_AM_henry_morgenthau:0 "Henry Morgenthau"
- 
- 
- 
- 
- 
+ ##### Political Agenda ####################################################
+ political_agenda:0 "Political Agenda"
+
+ drift_National_Socialist:0 "Drift to National Soc."
+ drift_Fascist:0 "Drift to Fascism"
+ drift_Paternal_Autocrat:0 "Drift to Pat. Autocracy."
+
+ drift_Social_Conservative:0 "Drift to Soc. Cons."
+ drift_Market_Liberal:0 "Drift to Market. Lib."
+ drift_Social_Liberal:0 "Drift to Social. Lib."
+ drift_Social_Democrat:0 "Drift to Soc. Dem."
+
+ drift_Left_Wing_Radical:0 "Drift to LWR"
+ drift_Leninist:0 "Drift to Leninism"
+ drift_Stalinist:0 "Drift to Stalinism"

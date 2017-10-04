@@ -204,6 +204,29 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 	}	
+	
+	# 1952 Light Tank
+	light_tank_equipment_10 = {
+		year = 1952
+		
+		archetype = light_tank_equipment
+		parent = light_tank_equipment_9
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}	
+
+	# 1962 Light Tank
+	light_tank_equipment_11 = {
+		year = 1962
+		
+		archetype = light_tank_equipment
+		parent = light_tank_equipment_10
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+	}		
+	
 ##############################################################################
 # -------------------------------------------------- Light SPH ----------------------------------------------------------------------------------------------
 ##############################################################################

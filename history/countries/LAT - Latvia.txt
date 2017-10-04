@@ -134,11 +134,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustavs Celmiņš"
+	name = "Alberts Kviesis"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "Portrait_Latvia_Alberts_Kviesis.dds"
 	expire = "1965.1.1"
-	ideology = fascist_ideology
+	ideology = social_liberalism
 	traits = {
 		#
 	}

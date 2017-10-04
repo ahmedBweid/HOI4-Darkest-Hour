@@ -47,7 +47,7 @@ focus_tree = {
 					}
 				}
 			custom_effect_tooltip = available_chief_of_airforce
-			show_ideas_tooltip = ritter_von_greim
+			#show_ideas_tooltip = ritter_von_greim
 		}
 		completion_reward = {
 			air_experience = 25
@@ -118,7 +118,7 @@ focus_tree = {
 				set_state_flag = GER_air_innovation_2air
 			}
 			custom_effect_tooltip = available_chief_of_airforce
-			show_ideas_tooltip = ritter_von_greim
+			#show_ideas_tooltip = ritter_von_greim
 		}
 	}
 	focus = {
@@ -140,7 +140,7 @@ focus_tree = {
 				category = land_doctrine
 			}
 			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = walther_von_brauchitsch
+			#show_ideas_tooltip = walther_von_brauchitsch
 		}
 	}
 	focus = {

@@ -77,7 +77,7 @@ set_technology = {
 	battleship_1922 = 1	
 	battleship_1933 = 1
 
-	light_carrier_1912 = 1
+	escort_carrier_1912 = 1
 	
 	transport = 1
 #
@@ -102,7 +102,7 @@ set_technology = {
 	add_ideas = {
 		ITA_giovanni_marinelli
 		ITA_giacomo_acerbo
-		emilio_de_bono
+		#emilio_de_bono
 		vittorio_ambrosio
 		fiat
 		beretta
@@ -208,9 +208,9 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Vittorio Emanuele III"
-	desc = "POLITICS_Emanuele_III_DESC"
-	picture = "Portrait_Italy_Emanuele_III.dds"
+	name = "Benito Mussolini"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
 	traits = {

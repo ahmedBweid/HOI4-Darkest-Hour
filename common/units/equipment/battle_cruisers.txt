@@ -38,7 +38,7 @@ equipments = {
 		
 		port_capacity_usage = 1.5
 		
-		build_cost_ic = 7500
+		build_cost_ic = 26250
 		resources = {
 			oil = 1
 			steel = 3
@@ -47,13 +47,19 @@ equipments = {
 		
 		manpower = 1200
 	}
-	
+
+#1906 Battlecruiser	
 	battle_cruiser_0 = {
+		year = 1906
+
 		archetype = battle_cruiser
 		priority = 50
 	}
 	
+#1912 Battlecruiser	
 	battle_cruiser_1 = {
+		year = 1912
+
 		archetype = battle_cruiser
 		parent = battle_cruiser_0
 		priority = 50
@@ -81,7 +87,7 @@ equipments = {
 		
 		port_capacity_usage = 1.5
 
-		build_cost_ic = 8000
+		build_cost_ic = 28750
 		resources = {
 			oil = 1
 			steel = 4
@@ -90,27 +96,42 @@ equipments = {
 		manpower = 4000
 	}
 	
+#1916 Battlecruiser	
 	battle_cruiser_2 = {
+		year = 1916
+		
 		archetype = battle_cruiser
 		parent = battle_cruiser_1	
 		priority = 50
+		build_cost_ic = 31250
 	}
 	
+#1933 Battlecruiser	
 	battle_cruiser_3 = {
+		year = 1933
+		
 		archetype = battle_cruiser
 		parent = battle_cruiser_2
 		priority = 50
+		build_cost_ic = 32500
 	}	
 	
+#1940 Battlecruiser	
 	battle_cruiser_4 = {
+		year = 1940
 		archetype = battle_cruiser
 		parent = battle_cruiser_3	
 		priority = 50
+		build_cost_ic = 33750
 	}
 
+#1950 Battlecruiser	
 	battle_cruiser_5 = {
+		year = 1950
+
 		archetype = battle_cruiser
 		parent = battle_cruiser_4	
 		priority = 50
+		build_cost_ic = 36250
 	}	
 }

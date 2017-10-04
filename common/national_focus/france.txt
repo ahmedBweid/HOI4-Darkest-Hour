@@ -964,7 +964,7 @@ focus_tree = {
 		completion_reward = {
 			#add_ideas = maxime_weygand
 			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = maxime_weygand
+			#show_ideas_tooltip = maxime_weygand
 		}
 	}
 
@@ -1101,7 +1101,7 @@ focus_tree = {
 		completion_reward = {
 			# add_ideas = maurice_gamelin
 			custom_effect_tooltip = available_chief_of_army
-			show_ideas_tooltip = maurice_gamelin
+			#show_ideas_tooltip = maurice_gamelin
 		}
 	}
 	focus = {

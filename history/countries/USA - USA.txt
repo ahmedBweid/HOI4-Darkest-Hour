@@ -67,9 +67,9 @@ set_technology = {
 	battleship_1922 = 1	
 	battleship_1933 = 1
 	
-	light_carrier_1912 = 1	
-	light_carrier_1916 = 1	
-	light_carrier_1922 = 1	
+	escort_carrier_1912 = 1
+	escort_carrier_1916 = 1
+	escort_carrier_1922 = 1
 	
 	carrier_1922 = 1	
 	carrier_1930 = 1
@@ -113,7 +113,7 @@ give_guarantee = URG
 	#adding ministers
 	add_ideas = {
 		USA_robert_taft
-		carl_spaatz
+		#carl_spaatz
 		jimmy_doolittle
 		army_ordnance_department
 		general_electric

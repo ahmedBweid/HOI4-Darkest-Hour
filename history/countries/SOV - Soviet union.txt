@@ -75,7 +75,7 @@ set_technology = {
 	battleship_1916 = 1
 	battleship_1922 = 1
 	
-	light_carrier_1912 = 1	
+	escort_carrier_1912 = 1
 	
 	transport = 1
 
@@ -92,7 +92,6 @@ set_technology = {
 		SOV_vyacheslav_molotov
 		stalingrad_tractor_factory
 		tula_arms_plant
-		vladimir_kasatonov
 
 		#laws
 		war_economy
@@ -110,19 +109,19 @@ set_technology = {
 	country_event = { id = soviet.42 days = 146 }
 	set_country_flag = purged_party_members
 	set_country_flag = purge_1_group_a
-	remove_ideas = mikhail_tukhachevsky
-	remove_unit_leader = 401
-	remove_ideas = alexander_yegorov
-	remove_ideas = vasily_blucher
-	remove_ideas = pyotr_smirnov
-	remove_ideas = mikhail_frinovsky
-	set_country_flag = purge_2_group_a
-	remove_ideas = SOV_nikolai_yezhov
-	remove_ideas = yakov_smushkevich
-	remove_ideas = pavel_rychagov
-	remove_ideas = gordey_levchenko
-	remove_unit_leader = 406
-	remove_ideas = alexander_novikov
+	# remove_ideas = mikhail_tukhachevsky
+	# remove_unit_leader = 401
+	# remove_ideas = alexander_yegorov
+	# remove_ideas = vasily_blucher
+	# remove_ideas = pyotr_smirnov
+	# remove_ideas = mikhail_frinovsky
+	# set_country_flag = purge_2_group_a
+	# remove_ideas = SOV_nikolai_yezhov
+	# remove_ideas = yakov_smushkevich
+	# remove_ideas = pavel_rychagov
+	# remove_ideas = gordey_levchenko
+	# remove_unit_leader = 406
+	# remove_ideas = alexander_novikov
 	set_global_flag = SOV_fourth_international_fired #news happened 1938
 	#purge stuff end
 

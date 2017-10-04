@@ -369,7 +369,7 @@ technologies = {
 	jet_fighter1 = {
 
 		enable_equipments = {
-				jet_fighter_equipment_1
+			jet_fighter_equipment_1
 		}
 			
 		path = {
@@ -397,40 +397,12 @@ technologies = {
 			light_air
 			jet_technology
 		}
-
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
-	cv_fighter4 = {
-
-		enable_equipments = {
-			cv_fighter_equipment_4
-		}
-	
-		research_cost = 1.0 #Carrier Variant
-		start_year = 1945
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = JAP
-			}
-		}
-	}
 # Jet Fighter '47
 	jet_fighter2 = {
 
@@ -460,12 +432,16 @@ technologies = {
 			jet_technology
 		}
 		
+		sub_technologies = {
+			cv_jet_fighter2
+		}
+				
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
-	cv_fighter4 = {
+	cv_jet_fighter2 = {
 
 		enable_equipments = {
 			cv_fighter_equipment_4
@@ -523,12 +499,16 @@ technologies = {
 			jet_technology
 		}
 		
+		sub_technologies = {
+			cv_jet_fighter3
+		}
+				
 		ai_will_do = {
 			factor = 1
 		}
 	}	
 
-	cv_fighter5 = {
+	cv_jet_fighter3 = {
 
 		enable_equipments = {
 			cv_fighter_equipment_5
@@ -584,12 +564,16 @@ technologies = {
 			jet_technology
 		}
 		
+		sub_technologies = {
+			cv_jet_fighter4
+		}
+						
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
-	cv_fighter6 = {
+	cv_jet_fighter4 = {
 
 		enable_equipments = {
 			cv_fighter_equipment_6
@@ -644,6 +628,8 @@ technologies = {
 			light_air
 			jet_technology
 		}
+
+
 		
 		ai_will_do = {
 			factor = 1
@@ -674,11 +660,44 @@ technologies = {
 			jet_technology
 		}
 		
+		sub_technologies = {
+			cv_jet_fighter6
+		}
+		
 		ai_will_do = {
 			factor = 1
 		}
 	}	
 
+	cv_jet_fighter6 = {
+
+		enable_equipments = {
+			cv_fighter_equipment_7
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1962
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+		}
+	}	
+	
 ### ----------------------------- Interceptors -----------------------------------
 # Interceptor '33
 	early_interceptor = {
@@ -1048,8 +1067,13 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = jet_fighter5
+			research_cost_coeff = 0.5
+		}
+		path = {
+			leads_to_tech = jet_interceptor6
 			research_cost_coeff = 1
-		}		
+		}
+		
 		research_cost = 2
 		start_year = 1958
 

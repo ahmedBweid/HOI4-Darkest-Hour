@@ -42,7 +42,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 8750
+		build_cost_ic = 24500
 		resources = {
 			oil = 1
 			steel = 3
@@ -52,11 +52,14 @@ equipments = {
 		manpower = 1100
 	}
 
+	# 1930 CVL
 	light_carrier_0 = {
 		archetype = light_carrier
 		priority = 70
+		build_cost_ic = 24500
 	}
 
+	# 1940 CVL
 	light_carrier_1 = {
 		archetype = light_carrier
 		parent = light_carrier_0
@@ -85,7 +88,7 @@ equipments = {
 		
 		port_capacity_usage = 2
 
-		build_cost_ic = 9500
+		build_cost_ic = 30000
 		resources = {
 			oil = 1
 			steel = 4
@@ -94,33 +97,20 @@ equipments = {
 		manpower = 5000
 	}
 
+	# 1943 CVL
 	light_carrier_2 = {
 		archetype = light_carrier
 		parent = light_carrier_1
 		priority = 70
+		build_cost_ic = 31000
 	}
-	
+
+	# 1948 CVL	
 	light_carrier_3 = {
 		archetype = light_carrier
 		parent = light_carrier_2
 		priority = 70
+		build_cost_ic = 32500
 	}	
-	
-	light_carrier_4 = {
-		archetype = light_carrier
-		parent = light_carrier_3
-		priority = 70
-	}
 
-	light_carrier_5 = {
-		archetype = light_carrier
-		parent = light_carrier_4
-		priority = 70
-	}	
-	
-	light_carrier_6 = {
-		archetype = light_carrier
-		parent = light_carrier_5
-		priority = 70
-	}	
 }

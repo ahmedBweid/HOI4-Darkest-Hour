@@ -78,32 +78,32 @@ spriteTypes = {
 #Heavy Tanks	
 	SpriteType = {
 		name = "GFX_heavy_tank_1917_medium"
-		texturefile = "gfx/interface/technologies/Armor/Generic/HT_A7VU.dds"
+		texturefile = "gfx/interface/technologies/Armor/Germany/HT_A7VU.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_heavy_tank_1939_medium"
-		texturefile = "gfx/interface/technologies/Armor/Generic/HT_Dicker_Max.dds"
+		texturefile = "gfx/interface/technologies/Armor/Germany/HT_Dicker_Max.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_heavy_tank_1941_medium"
-		texturefile = "gfx/interface/technologies/Armor/Generic/HT_VK3601.dds"
+		texturefile = "gfx/interface/technologies/Armor/Germany/HT_VK3601.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_heavy_tank_1943_medium"
-		texturefile = "gfx/interface/technologies/Armor/Generic/HT_TigerI.dds"
+		texturefile = "gfx/interface/technologies/Armor/Germany/HT_TigerI.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_heavy_tank_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/Generic/HT_TigerII.dds"
+		texturefile = "gfx/interface/technologies/Armor/Germany/HT_TigerII.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_super_heavy_tank_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/Generic/SHT_Maus.dds"
+		texturefile = "gfx/interface/technologies/Armor/Germany/SHT_Maus.dds"
 	}
 
 
@@ -234,6 +234,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_GER_heavy_tank_1956_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/GER_HT_E100.dds"
+	}	
+	
+	SpriteType = {
 		name = "GFX_GER_super_heavy_tank_1944_medium"
 		texturefile = "gfx/interface/technologies/Armor/Germany/GER_SHT_Maus.dds"
 	}
@@ -360,6 +365,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_T26E1.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_USA_heavy_tank_1956_medium"
+		texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_M103.dds"
+	}	
+	
 	SpriteType = {
 		name = "GFX_USA_super_heavy_tank_1944_medium"
 		texturefile = "gfx/interface/technologies/Armor/United States/USA_SHT_T29.dds"

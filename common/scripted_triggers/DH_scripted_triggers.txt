@@ -31,6 +31,38 @@
 			has_government = left_wing_radical
 		}
 	}
+############################################# Elections related ##################################	
+	is_ruling_party_stronk = {
+		OR = {
+			AND = {
+			    has_government = social_conservative
+				social_conservative > 0.25
+			}
+			AND = {
+			    has_government = market_liberal
+				market_liberal > 0.25
+			}
+			AND = {
+			    has_government = social_liberal
+				social_liberal > 0.25
+			}
+			AND = {
+			    has_government = social_democrat
+				social_democrat > 0.25
+			}
+
+			AND = {
+				social_conservative < 0.25
+				market_liberal < 0.25
+				social_liberal < 0.25
+				social_democrat < 0.25
+			}
+		}
+	}
+
+
+
+
 #################################################################################################
 
 

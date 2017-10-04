@@ -37,7 +37,7 @@ equipments = {
 		max_strength = 350
 		port_capacity_usage = 2
 		
-		build_cost_ic = 9600
+		build_cost_ic = 33000
 		resources = {
 			oil = 1
 			steel = 3
@@ -47,13 +47,20 @@ equipments = {
 		manpower = 1750
 	}
 
+#1885 Battleship
 	battleship_0 = {
+		year = 1885
+
 		archetype = battleship
 		priority = 60
+		build_cost_ic = 33000
 
 	}
 	
+#1895 Battleship
 	battleship_1 = {
+		year = 1895
+
 		archetype = battleship
 		parent = battleship_0
 		priority = 60
@@ -80,7 +87,7 @@ equipments = {
 		max_strength = 450		
 		port_capacity_usage = 2
 
-		build_cost_ic = 10400
+		build_cost_ic = 32250
 		resources = {
 			oil = 2
 			steel = 4
@@ -90,7 +97,10 @@ equipments = {
 		
 	}
 	
+#1900 Battleship
 	battleship_2 = {
+		year = 1900
+
 		archetype = battleship
 		parent = battleship_1
 		shore_bombardment = 12
@@ -118,7 +128,7 @@ equipments = {
 		
 		port_capacity_usage = 2
 		
-		build_cost_ic = 11200
+		build_cost_ic = 32500
 		resources = {
 			oil = 2
 			steel = 4
@@ -128,7 +138,10 @@ equipments = {
 
 	}
 	
+#1906 Battleship
 	battleship_3 = {
+		year = 1906
+
 		archetype = battleship
 		parent = battleship_2
 		priority = 60
@@ -156,7 +169,7 @@ equipments = {
 		
 		port_capacity_usage = 2
 		
-		build_cost_ic = 12000
+		build_cost_ic = 33250
 		resources = {
 			oil = 2
 			steel = 5
@@ -166,7 +179,10 @@ equipments = {
 		
 	}
 	
+#1912 Battleship
 	battleship_4 = {
+		year = 1912
+
 		archetype = battleship
 		parent = battleship_3
 		priority = 60
@@ -194,7 +210,7 @@ equipments = {
 		
 		port_capacity_usage = 2
 		
-		build_cost_ic = 13500
+		build_cost_ic = 34375
 		resources = {
 			oil = 2
 			steel = 5
@@ -204,41 +220,55 @@ equipments = {
 		
 	}
 	
+#1916 Battleship
 	battleship_5 = {
+		year = 1916
+
 		archetype = battleship
 		parent = battleship_4	
 		priority = 60
+		build_cost_ic = 36500
 	}
 
+#1922 Battleship
 	battleship_6 = {
+		year = 1922
+
 		archetype = battleship
 		parent = battleship_5
 		priority = 60
+		build_cost_ic = 36500
 	}
 	
+#1933 Battleship
 	battleship_7 = {
+		year = 1933
+
 		archetype = battleship
 		parent = battleship_6
 		priority = 60
+		build_cost_ic = 36875
 	}	
 	
+#1940 Battleship
 	battleship_8 = {
+		year = 1940
+
 		archetype = battleship
 		parent = battleship_7
 		priority = 60
+		build_cost_ic = 39375
 	}	
 	
+#1948 Battleship
 	battleship_9 = {
 		archetype = battleship
 		parent = battleship_8
 		priority = 60
+		build_cost_ic = 40625
 	}
 
-	battleship_10 = {
-		archetype = battleship
-		parent = battleship_9
-		priority = 60
-	}	
+
 ### ------------------------- SH Battleship -------------------------------------
 	SH_battleship_1 = {
 		archetype = battleship

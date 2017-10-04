@@ -1942,7 +1942,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "light_carrier_1912_tree"
+				name = "escort_carrier_1912_tree"
 				position = { x = 300 y = 140 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }

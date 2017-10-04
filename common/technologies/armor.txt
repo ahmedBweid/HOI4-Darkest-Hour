@@ -4,7 +4,8 @@ technologies = {
 	@light_tank_line = 0
 	@medium_tank_line = 4	
 	@main_battle_tank_line = 6
-	@heavy_tank_line = 8			
+	@heavy_tank_line = 8		
+	@modern_heavy_tank_line = 10
 	@super_heavy_tank_line = 12
 	
 	@1916 = 0
@@ -449,7 +450,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = light_tank_1938
+			leads_to_tech = light_tank_1952
 			research_cost_coeff = 1
 		}
 		
@@ -480,6 +481,71 @@ technologies = {
 			cat_light_armor
 		}
 	}
+	
+### 1952 Light Tank (M41 Walker Bulldog)
+	light_tank_1952 = { 
+
+		enable_equipments = {
+			light_tank_equipment_10
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1962
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1952
+		folder = {
+			name = armour_folder
+			position = { x = @light_tank_line y = @1952 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+### 1962 Light Tank (M551 Sheridan)
+	light_tank_1962 = { 
+
+		enable_equipments = {
+			light_tank_equipment_11
+		}
+		
+		research_cost = 2
+		start_year = 1962
+		folder = {
+			name = armour_folder
+			position = { x = @light_tank_line y = @1962 }
+		}
+		
+
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
 	
 ##########################################################################################################################	
 ### -------------------------------------- Medium Tank -------------------------------------------------------	
@@ -778,9 +844,13 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = main_battle_tank_1948
+			leads_to_tech = heavy_tank_1956
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = main_battle_tank_1956
+			research_cost_coeff = 1
+		}		
 		path = {
 			leads_to_tech = super_heavy_tank_1944
 			research_cost_coeff = 1
@@ -812,6 +882,41 @@ technologies = {
 			cat_heavy_armor
 		}
 	}	
+	
+### 1956 Heavy Tank (E-100)
+	heavy_tank_1956 = {
+
+		enable_equipments = {
+			heavy_tank_equipment_5
+		}
+		
+		
+		research_cost = 2
+		start_year = 1956
+		folder = {
+			name = armour_folder
+			position = { x = @modern_heavy_tank_line y = @1956 }
+		}
+		
+		sub_technologies = {
+			heavy_TD_1944
+			heavy_SPG_1944
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}		
 	
 ### 1944 Super Heavy Tank (Maus)
 	super_heavy_tank_1944 = {
