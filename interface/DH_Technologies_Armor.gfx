@@ -78,60 +78,41 @@ spriteTypes = {
 #Heavy Tanks	
 	SpriteType = {
 		name = "GFX_heavy_tank_1917_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/HT_A7VU.dds"
+		texturefile = "gfx/interface/technologies/Armor/Generic/HT_1.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_heavy_tank_1939_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/HT_Dicker_Max.dds"
+		texturefile = "gfx/interface/technologies/Armor/Generic/HT_2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_heavy_tank_1941_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/HT_VK3601.dds"
+		texturefile = "gfx/interface/technologies/Armor/Generic/HT_3.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_heavy_tank_1943_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/HT_TigerI.dds"
+		texturefile = "gfx/interface/technologies/Armor/Generic/HT_4.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_heavy_tank_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/HT_TigerII.dds"
+		texturefile = "gfx/interface/technologies/Armor/Generic/HT_5.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_super_heavy_tank_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/SHT_Maus.dds"
-	}
-
-
-	SpriteType = {
-		name = "GFX_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/modern_medium_tank.dds"	
-	}
-	
-	SpriteType = {
-		name = "GFX_improved_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_advanced_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
-	}
-
-	SpriteType = {
-		name = "GFX_semi_modern_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
-	}
-
-	SpriteType = {
-		name = "GFX_modern_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
+		name = "GFX_heavy_tank_1956_medium"
+		texturefile = "gfx/interface/technologies/Armor/Generic/HT_6.dds"
 	}	
 	
+	SpriteType = {
+		name = "GFX_super_heavy_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Generic/SHT_1.dds"
+	}
+
+
+
 ###########################################################
 ###--------------------------------------------- Germany ------------------------------------------------------
 ###########################################################
@@ -340,20 +321,20 @@ spriteTypes = {
 	}	
 	
 #Heavy Tanks	
-	SpriteType = {
-		name = "GFX_USA_heavy_tank_1917_medium"
-		texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_.dds"
-	}
+	# SpriteType = {
+		# name = "GFX_USA_heavy_tank_1917_medium"
+		# texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_.dds"
+	# }
 	
-	SpriteType = {
-		name = "GFX_USA_heavy_tank_1939_medium"
-		texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_Dicker_Max.dds"
-	}	
+	# SpriteType = {
+		# name = "GFX_USA_heavy_tank_1939_medium"
+		# texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_Dicker_Max.dds"
+	# }	
 	
-	SpriteType = {
-		name = "GFX_USA_heavy_tank_1941_medium"
-		texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_VK3601.dds"
-	}
+	# SpriteType = {
+		# name = "GFX_USA_heavy_tank_1941_medium"
+		# texturefile = "gfx/interface/technologies/Armor/United States/USA_HT_VK3601.dds"
+	# }
 
 	SpriteType = {
 		name = "GFX_USA_heavy_tank_1943_medium"

@@ -32,23 +32,20 @@ set_politics = {
 		leninist = { popularity = 0 }		
 		stalinist = { popularity = 0 }	
 	}
-}
+	
+	
+	ruling_party = social_conservative
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no	
+}	
 
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = leninism #Marhaenism his own unique mix of stuff
-	traits = {
-		
-	}
-}
+
 
 create_country_leader = {
 	name = "A. T. van Starkenborgh Stachouwer"
 	desc = ""
-	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
+	picture = "Portrait_Indonesia_At_Van_Starkenborgh.dds"
 	expire = "1953.3.1"
 	ideology = social_conservatism 
 	traits = {
@@ -68,26 +65,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Suharto"
+	name = "Sukarno"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = fascist_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	picture = "Portrait_Indonesia_Sukarno.dds"
 	expire = "1953.3.1"
 	ideology = paternal_autocracy
 	traits = {
 		
 	}
 }
+
 
 set_cosmetic_tag = INS_HOL # Netherlands East Indies
 

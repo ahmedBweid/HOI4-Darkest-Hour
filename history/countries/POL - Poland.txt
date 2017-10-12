@@ -164,7 +164,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -209,44 +209,12 @@ create_country_leader = {
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Władysław Gomułka"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wincenty Witos"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "GFX_POL_wincenty_witos"
-	expire = "1965.1.1"
 	ideology = social_conservatism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Bolesław Piasecki"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		#
-	}
-}
 
 create_field_marshal = {
 	name = "Władysław Sikorski"

@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
 	picture = "Portrait_Mengkukuo_De_Noyan.dds"
 	expire = "1965.1.1"
-	ideology = rexism
+	ideology = paternal_autocracy
 	traits = {
 		spirit_of_genghis
 	}

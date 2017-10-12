@@ -1408,7 +1408,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = submarine_1955
+			leads_to_tech = submarine_1954
 			research_cost_coeff = 1
 		}
 		

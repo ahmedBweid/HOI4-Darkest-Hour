@@ -23,7 +23,9 @@ NDefines.NMilitary.ARMY_EXP_BASE_LEVEL = 5
 NDefines.NAI.DIPLOMACY_FACTION_WRONG_IDEOLOGY_PENALTY = 0 -- AI penalty for diplomatic faction acitons between nations of different ideologies
 NDefines.NAI.DIPLOMACY_FACTION_SAME_IDEOLOGY_MAJOR = 10 -- AI bonus acceptance when being asked about faction is a major of the same ideology(edited)
 NDefines.NAI.DIPLOMACY_FACTION_PATERNAL_AUTOCRAT_PENALTY = 50  -- Neutral nations have a separate penalty, not wanting to get involved at all, rather than caring much about the difference in ideology
-
+-- Naval Invasion Stuff
+NDefines.NNavy.NAVAL_SUPREMACY_INTEL_LOW = 0.3						-- we need more intel than this to get any supremacy
+NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.8								-- required naval supremacy to perform invasions on an area. (Was 0.5)
 --Graphical Changes
 NDefines_Graphics.NMapIcons.STATES_PRIORITY_VICTORY_POINTS = 4
 NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 10.0 -- thickness in pixels -- 5

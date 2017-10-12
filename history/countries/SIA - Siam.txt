@@ -98,9 +98,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Phraya Phahon"
+	name = "Rama VIII"
 	desc = "POLITICS_PHRAYA_PHAHON_DESC"
-	picture = "Portrait_Siam_Phraya_Phahon.dds"
+	picture = "Portrait_Siam_Rama_VIII.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

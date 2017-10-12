@@ -77,9 +77,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Juddha Rana"
+	name = "Tribhuvana"
 	desc = "POLITICS_JUDDHA_RANA_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

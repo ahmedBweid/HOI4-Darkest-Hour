@@ -100,9 +100,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Óscar Benavides"
+	name = "Oscar Benavides Larrea"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "GFX_Portrait_peru_oscar_benavides"
+	picture = "Portrait_Peru_Oscar_Benavides.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
 	traits = {

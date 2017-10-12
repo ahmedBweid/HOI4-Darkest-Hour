@@ -1,5 +1,5 @@
 ﻿l_english:
-###### Surrender Events----------------------------------
+###### Bitter Peace Events----------------------------------
  DH_Surrender_SOV.1.t:0 "Bitter Peace - Soviet Surrender"
  DH_Surrender_SOV.1.d:0 "Germany has pushed us far. What should we do?"
  DH_Surrender_SOV.1.a:0 "Surrender to the Germans."
@@ -14,3 +14,78 @@
  germany_soviet_freedom:0 "Only take the lands for RK Ostland and Ukraine, leaveing the Soviets most of their lands.\n"
  germany_military_occupation_bitter_peace:0 "Take all the land up to the Urals and force the Soviets back to the Urals.\n"
  germany_establish_rk_bitter_peace:0 "Establish the RK Ostland, RK Ukraine, RK Moscow, and RK Kaukasus. Pushing the Soviets back to the Urals.\n"
+
+ ###### Der Untergang Events----------------------------------
+ DH_Surrender_ROM.1.t:0 "Switching sides"
+ DH_Surrender_ROM.1.d:0 "As the Soviet army advanced into Europe and the Wehrmacht increasingly fought for survival rather than victory Germany's allies sought new arrangements to guarantee their survival as somewhat independent states. Negotiations with the Soviet government are now at the stage where a decision must be taken - stay with the Axis or switch to the Comintern?"
+ DH_Surrender_ROM.1.a:0 "Abandon Germany and fight with the Soviets"
+ DH_Surrender_ROM.1.b:0 "Remain in the Axis" 
+ 
+ DH_Surrender_SOV_Response.1.t:0 "New allies - Romania"
+ DH_Surrender_SOV_Response.1.d:0 "The Axis minor state Romania is seeking to abandon Germany and join the Comintern for the final battle. They offer to fight under our banner and allow us considerable influence in the government, in return for a cessation of hostilities and their continued existence as an independent nation."
+ DH_Surrender_SOV_Response.1.a:0 "Accept this agreement and make them a satellite state."
+ DH_Surrender_SOV_Response.1.b:0 "Destroy the fascist puppets!"
+ 
+ DH_Surrender_HUN.1.t:0 "Switching sides"
+ DH_Surrender_HUN.1.d:0 "As the Soviet army advanced into Europe and the Wehrmacht increasingly fought for survival rather than victory Germany's allies sought new arrangements to guarantee their survival as somewhat independent states. Negotiations with the Soviet government are now at the stage where a decision must be taken - stay with the Axis or switch to the Comintern?"
+ DH_Surrender_HUN.1.a:0 "Abandon Germany and fight with the Soviets"
+ DH_Surrender_HUN.1.b:0 "Remain in the Axis"
+ 
+ DH_Surrender_SOV_Response.2.t:0 "New allies - Hungary"
+ DH_Surrender_SOV_Response.2.d:0 "The Axis minor state Hungary is seeking to abandon Germany and join the Comintern for the final battle. They offer to fight under our banner and allow us considerable influence in the government, in return for a cessation of hostilities and their continued existence as an independent nation."
+ DH_Surrender_SOV_Response.2.a:0 "Accept this agreement and make them a satellite state."
+ DH_Surrender_SOV_Response.2.b:0 "Destroy the fascist puppets!" 
+ 
+###### The Crumbling Empire Events----------------------------------
+ DH_Crumbling_Empire.X.t:0 "The Crumbling Empire"
+ DH_Crumbling_Empire.X.desc:0 ""
+ DH_Crumbling_Empire.X.A:0 "All is lost."
+ DH_Crumbling_Empire.X.B:0 "We fight on!"
+ 
+ DH_Crumbling_Empire.1.t:0 "The Crumbling Empire"
+ DH_Crumbling_Empire.1.desc:0 "Winston Churchill once said that we would defend our islands. We would face the enemy on our beaches, we would fight invaders on the streets, we would harrass them in the hills. We did fight valiantly, first in the skies, than on our beloved soil. But we were outnumbered and unmatched cooperation of Luftwaffe, small but quick Kriegsmarine and the rain of fire and steel that Wehrmacht brought on our lads was too much for us to oppose. The Axis advance was successful and with the Home Islands lost our struggle for freedom and democracy seems lost. Our imperial glory is gone and maybe it is time to ask for this peace that Hitler always wanted to offer to us?"
+ DH_Crumbling_Empire.1.A:0 "All is lost."
+ DH_Crumbling_Empire.1.B:0 "We fight on!"
+
+ DH_Crumbling_Empire_GER_Response.1.t:0 "The Empire Surrenders"
+ DH_Crumbling_Empire_GER_Response.1.desc:0 "Hitler envisioned peace and cooperation with the British nation and hoped for a quick reconciliation of two sides of the war. They started with the policy of appeasement but soon turned to military resolution seeing that the we show little moderation in our struggle for control over Europe. The war path did not bring them foreseen victory, rather resulted in our successful invasion and humiliating defeat.\n\nNow, as we are in control of the situation, we may shape the post-war Great Britain to our liking and even if our decisions may bring a considerable dissent in occupied territories there is no one to give our hands a slap."
+ DH_Crumbling_Empire_GER_Response.1.A:0 "Dismantle the Empire but leave the Isles alone."
+ DH_Crumbling_Empire_GER_Response.1.B:0 "Leave the Empire alone and press for territorial gains."
+ DH_Crumbling_Empire_GER_Response.1.C:0 "Press for total annexation!"
+ DH_Crumbling_Empire_GER_Response.1.D:0 "We are not interested in peace at all."
+ 
+ DH_Crumbling_Empire.2.t:0 "Fate of the United Kingdom"
+ DH_Crumbling_Empire.2.desc:0 "The heart of the Empire is already occupied by hostile forces and the symbol of unconditional struggle, Winston Churchill, is dismissed from his ministerial post amidst the notion of the total defeat of this policy. It is time for our occupants to decide who is going to receive the remnants of our glorious Commonwealth but even before the Nazi aggressors make their grabs, our protectorates and dominions break free with only silence answering their calls to London."
+ DH_Crumbling_Empire.2.A:0 "London answers in German."
+ 
+ DH_Crumbling_Empire.3.t:0 "The Defeated Empire"
+ DH_Crumbling_Empire.3.desc:0 "In London, under the heavy occupation of the German forces, rain seems even more intense than usual and dull weather strengthens the sense of helplessness. This floating carrier and arsenal of democracy in the Old World now swarms with German troopers looking for the slightest sign of resistance. The Westminster, standing as a symbol of centuries-long traditions of parliamentarism is now used by the military administration of Grossbritanien. Having acknowledged the bitter truth of the lost war, representatives of the British government meet with German occupational authorities today to sign the instrument of surrender laying the future of Britain irrevocably into German hands. Even if Hitler benevolently invites us back to London to form a government under his kind protection, the blemish on the honor of the Empire won't be erased forever."
+ DH_Crumbling_Empire.3.A:0 "Put the signatures."
+ 
+ DH_Crumbling_Empire.4.t:0 "Leadership for the United Kingdom"
+ DH_Crumbling_Empire.4.desc:0 "Having decided to leave the remnants of the Empire in place we can influence the decision of local politicians to shape the constitutional order of the country. The British would be most thankful if we let them retain their traditional system of rule, with a puppet figure of a King and a prime minister, even if in fact he would be subservient to our strategic plans. The most natural step, apart from letting an isolationist government form, would be to invite Edward VIII, whom we know for his postive attitude towards us, back and offer him the crown. We could try a harder task and reconcile old George VI, offering token guarantees of peace and order on the British Isles just like in the good old days.\n\nOur position empowers us to make a much larger stir in the British internal policy. We have our friend there, Oswald Mosley, who most willingly would mimic our regime to become the Great Leader of the British Republic. Even if it meant an outcry among the British who would openly step out and protest?"
+ DH_Crumbling_Empire.4.A:0 "Install an isolationist government with George VI in power."
+ DH_Crumbling_Empire.4.B:0 "Install an isolationist government and invite HRH Edward VIII."
+ DH_Crumbling_Empire.4.C:0 "Let Mosley's blackshirts install a Fascist government."
+ 
+ DH_Crumbling_Empire_Leadership.1.t:0 "Splendid isolation"
+ DH_Crumbling_Empire_Leadership.1.desc:0 "It turns out that we were spared by the Germans from the most bitter consequences of surrender and we were allowed to form an isolationist government to keep us with an illusion of self-governance. We will now hope that the new government will keep the defeated Empire out of any new problems better than the previous one did."
+ DH_Crumbling_Empire_Leadership.1.A:0 "We will behave well!"
+ 
+ DH_Crumbling_Empire_Leadership.2.t:0 "God Save King Edward VIII"
+ DH_Crumbling_Empire_Leadership.2.desc:0 "It turns out that we were spared by the Germans from the most bitter consequences of surrender and we were allowed to form an isolationist government to keep us with an illusion of self-governance. Just as the Germans proposed we invite back Edward VIII who once abdicated our throne but with his Nazi sympathies fits perfectly the current state of affairs. He will preside over our switch in politics to splendid isolation."
+ DH_Crumbling_Empire_Leadership.2.A:0 "We will behave well!"
+ 
+ DH_Crumbling_Empire_Leadership.3.t:0 "Blackshirts come to power"
+ DH_Crumbling_Empire_Leadership.3.desc:0 "Oswald Mosley, known to his followers as The Leader, modelled his leadership style on Benito Mussolini and his British Union of Fascists on Mussolini's National Fascist Party in Italy, including an imitation of the Italian Fascists' black uniforms for members, earning them the nickname "Blackshirts". The BUF was anti-communist and protectionist and proposed replacing parliamentary democracy with executives elected to represent specific industries, trades or other professional interest groups – a system similar to the corporatism of the Italian fascists. Unlike the Italian system, British fascist corporatism planned to replace the House of Lords with elected executives drawn from major industries, the clergy, and colonies. The House of Commons was to be reduced to allow for a faster, "less factionist" democracy.\n\nThe BUF's programme and ideology were outlined in Mosley's Great Britain (1932) and A. Raven Thompson's The Coming Corporate State (1938). Many BUF policies were built on isolationism, prohibiting trade outside an insulated British Empire. Mosley’s system aimed to protect the British economy from the fluctuations of the world market, especially during the Great Depression, and prevent "cheap slave competition from abroad." \n\nMosley's ideas had no serious chance of succeeding, specifically in the late 1930s and 1940s. The military victory of Nazi Germany in Britain put Mosley in a completely different situation, as a local leader of a strong fascist movement, and as it turns out, a new governor of the German protectorate."
+ DH_Crumbling_Empire_Leadership.3.A:0 "Hail Mosley!"
+
+ DH_Crumbling_Empire.5.t:0 "Dissolution of the United Kingdom"
+ DH_Crumbling_Empire.5.desc:0 "Initially, the aim of the Nazi foreign policy was to create an Anglo-German alliance, so before 1938, Nazi propaganda tended to glorify British institutions, and above all the British Empire. Even regarding it, along with France, as "decadent democracies", Goebbels set out to court them. Typical of the Nazi admiration for the British Empire was a lengthy series of articles in various German newspapers throughout the mid-1930s praising various aspects of British imperial history, with the clear implication that there were positive parallels to be drawn between British empire-building in the past and German empire-building in the future. Examples of Anglophilia in German media was a long article in the Berliner Illustriete Zeitung newspaper in 1936 extolling the British for "brutally" resolving the Fashoda crisis of 1898 in their favor or a series of widely promoted biographies and historical novels commemorating various prominent "Aryan" figures from British history such as Cromwell, Marlborough, Nelson, Rhodes, Wellington, and Raleigh.\n\nAs the war neared the English started to be denounced as "the Jew among the Aryan peoples" and as plutocrats, fighting for money. This was sometimes modified with the suggestion that it was the ruling class alone that was the problem. The change of emphasis was due to Hitler's changed view of Britain from a potential ally to an enemy that would have been destroyed. This emphasis increased as British resistance went on.\n\nNow, as this resistance is finally broken, there is no reason to court the British, no point in leaving them some remnants of their dreams of imperialism. Their United Kingdom will be gone, for good."
+ DH_Crumbling_Empire.5.A:0 "The sun set for the Empire."
+ 
+ DH_Crumbling_Empire.6.t:0 "New German sphere of influence"
+ DH_Crumbling_Empire.6.desc:0 "After defeating the British and releasing new independent nations across the world we count on special treatment of the Third Reich as a benevolent and just liberator among them. Especially the most pivotal ones, located in the Mediterranean will become our puppets and we will closely oversee their politics to ensure they will be acting in our favour."
+ DH_Crumbling_Empire.6.A:0 "All is lost."
+ DH_Crumbling_Empire.6.B:0 "We fight on!"
+ 

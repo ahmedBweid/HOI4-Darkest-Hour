@@ -276,6 +276,8 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
+
+#---- German Leaders ----------------------------------------------------
 create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
@@ -286,54 +288,81 @@ create_country_leader = {
 		dictator
 	}
 }
-
 create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
+	name = "Ludwig Beck"
+	desc = ""
+	picture = "Portrait_Germany_Ludwig_Beck.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {}
+}
+create_country_leader = {
+	name = "Wilhelm II"
+	desc = ""
+	picture = "Portrait_Germany_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
+}
+create_country_leader = {
+	name = "Theodor Heuss"
+	desc = ""
+	picture = "Portrait_Germany_Theodor_Heuss.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {
-	}
+	traits = {}
 }
-
 create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	name = "Theodor Heuss"
+	desc = ""
+	picture = "Portrait_Germany_Theodor_Heuss.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+create_country_leader = {
+	name = "Willy Hellpach"
+	desc = ""
+	picture = "Portrait_Germany_Willy_Hellpach.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {}
+}
+create_country_leader = {
+	name = "Otto Braun"
+	desc = ""
+	picture = "Portrait_Germany_Otto_Braun.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+create_country_leader = {
+	name = "Ernst Toller"
+	desc = ""
+	picture = "Portrait_Germany_Ernst_Toller.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+create_country_leader = {
+	name = "Robert Siewert"
+	desc = ""
+	picture = "Portrait_Germany_Robert_Siewert.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+create_country_leader = {
+	name = "Ludwig Renn"
+	desc = ""
+	picture = "Portrait_Germany_Ludwig_Renn.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
-	traits = {
-		stalins_puppet
-		exiled
-	}
+	traits = {}
 }
 
-#create_country_leader = {
-#	name = "Otto Wels"
-#	desc = "POLITICS_OTTO_WELS_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1939.1.16"
-#	ideology = leninism
-#	traits = {
-#		exiled
-#		union_man
-#	}
-#}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
-#}
 
+#---- German General staff ----------------------------------------------------
 add_namespace = {
 	name = "ger_unit_leader"
 	type = unit_leader

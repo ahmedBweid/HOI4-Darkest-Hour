@@ -80,16 +80,16 @@ set_politics = {
 	elections_allowed = yes
 }
 
-#create_country_leader = {
-#	name = "Eusebio Ayala"
-#	desc = "POLITICS_EUSEBIO_AYALA_DESC"
-#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = social_liberalism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Eusebio Ayala"
+	desc = "POLITICS_EUSEBIO_AYALA_DESC"
+	picture = "Portrait_Paraguay_Eusebio_Ayala.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
 
 # Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
 create_country_leader = {

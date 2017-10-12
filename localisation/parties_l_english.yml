@@ -50,16 +50,16 @@
 #--- Democracy 
 ###########################################
  social_conservatism:0 "Social Conservatism"
- social_conservatism_desc:0 "§CSocial Conservatism§! denotes an attitude that tends to favour beliefs seen as traditional in regard to social affairs. This can include moral issues."
+ social_conservatism_desc:0 "§YSocial Conservatism§! denotes an attitude that tends to favour beliefs seen as traditional in regard to social affairs. This can include moral issues."
  
  market_liberalism:0 "Market Liberalism"
- market_liberalism_desc:0 "§CMarket Liberalism§!, also known as Classical liberalism is a political ideology, a branch of liberalism which advocates civil liberties under the rule of law with an emphasis on economic freedom."
+ market_liberalism_desc:0 "§YMarket Liberalism§!, also known as Classical liberalism is a political ideology, a branch of liberalism which advocates civil liberties under the rule of law with an emphasis on economic freedom."
  
  social_liberalism:0 "Social Liberalism"
- social_liberalism_desc:0 "§CSocial Liberalism§! is a political ideology that believes individual liberty requires a level of social justice. Like classical liberalism, social liberalism endorses a market economy and the expansion of civil and political rights and liberties, but differs in that it believes the legitimate role of the government includes addressing economic and social issues such as poverty, health care and education."
+ social_liberalism_desc:0 "§YSocial Liberalism§! is a political ideology that believes individual liberty requires a level of social justice. Like classical liberalism, social liberalism endorses a market economy and the expansion of civil and political rights and liberties, but differs in that it believes the legitimate role of the government includes addressing economic and social issues such as poverty, health care and education."
  
  social_democracy:0 "Social Democracy"
- social_democracy_desc:0 "§CSocial Democracy§! is a political, social and economic ideology that supports economic and social interventions to promote social justice within the framework of a capitalist economy."
+ social_democracy_desc:0 "§YSocial Democracy§! is a political, social and economic ideology that supports economic and social interventions to promote social justice within the framework of a capitalist economy."
  
  ###########################################
  #--- Communism 
@@ -77,13 +77,13 @@
  #--- Fascism 
 ###########################################
  national_socialism:0 "National Socialism"
- national_socialism_desc:0 "§YNational Socialism§! more commonly known as Nazism, is the ideology and set of practices associated with the 20th-century German Nazi Party, Nazi Germany and other far-right groups. Usually characterized as a form of fascism that incorporates scientific racism and antisemitism."
+ national_socialism_desc:0 "§GNational Socialism§! more commonly known as Nazism, is the ideology and set of practices associated with the 20th-century German Nazi Party, Nazi Germany and other far-right groups. Usually characterized as a form of fascism that incorporates scientific racism and antisemitism."
  
  fascist_ideology:0 "Fascism"
- fascist_ideology_desc:0 "§YFascism§! is a form of radical authoritarian nationalism, characterized by dictatorial power, forcible suppression of opposition, and control of industry and commerce, that came to prominence in early 20th-century Europe."
+ fascist_ideology_desc:0 "§GFascism§! is a form of radical authoritarian nationalism, characterized by dictatorial power, forcible suppression of opposition, and control of industry and commerce, that came to prominence in early 20th-century Europe."
 
  paternal_autocracy:0 "Paternal Autocracy"
- paternal_autocracy_desc:0 "§YPaternal Autocracy§! is a system of government in which supreme power is concentrated in the hands of one person"
+ paternal_autocracy_desc:0 "§GPaternal Autocracy§! is a system of government in which supreme power is concentrated in the hands of one person"
  
 ########################################################################################################
 ###################################### Parties ############################################################

@@ -18,7 +18,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = national_socialist popularity = 0.1 }
 			}
-			
+			ai_will_do = { factor = 0 }				
 			cost = 100
 		}
 ### Drift towards Fascism
@@ -33,7 +33,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = fascist popularity = 0.1 }
 			}
-			
+			ai_will_do = { factor = 0 }			
 			cost = 100
 		}		
 ### Drift towards Paternal Autocracy
@@ -48,6 +48,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}		
@@ -64,6 +65,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = social_conservative popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}
@@ -79,6 +81,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = market_liberal popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}
@@ -94,6 +97,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = social_liberal popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}	
@@ -109,6 +113,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = social_democrat popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}		
@@ -125,6 +130,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = left_wing_radical popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}		
@@ -140,6 +146,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = leninist popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}
@@ -155,6 +162,7 @@ ideas = {
 			on_add = {
 				add_popularity = { ideology = stalinist popularity = 0.1 }
 			}
+			ai_will_do = { factor = 0 }			
 			
 			cost = 100
 		}	

@@ -108,32 +108,21 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 1 }		
 		paternal_autocrat = { popularity = 22 }		
-		social_conservative = { popularity = 5 }		
+		social_conservative = { popularity = 38 }		
 		market_liberal = { popularity = 4 }		
-		social_liberal = { popularity = 38 }		
+		social_liberal = { popularity = 5 }		
 		social_democrat = { popularity = 4 }		
 		left_wing_radical = { popularity = 20 }		
 		leninist = { popularity = 6 }		
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = social_conservative
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = yes # none after offset 1
 }
 set_national_unity = 0.9
-
-create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Markos Vafiadis"
@@ -158,11 +147,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Georgios II"
+	name = "Ioannis Metaxas"
 	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
-	picture = "Portrait_Greece_Georgios_II.dds"
+	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
+	ideology = social_conservatism
 	traits = {
 		#
 	}

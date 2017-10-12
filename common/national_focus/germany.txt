@@ -512,22 +512,22 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				543 = {
-					add_core_of = JEW
+					add_core_of = RMD
 				}
-				JEW = {
+				RMD = {
 					transfer_state = 543
 				}
 			}
-			GER = { puppet = JEW }
+			GER = { puppet = RMD }
 			GER = {
 				send_equipment = {
-					target = JEW
+					target = RMD
 					type = convoy
 					amount = 200
 				}
 			}
 			hidden_effect = {
-				JEW = {
+				RMD = {
 					add_timed_idea = {
 						idea = GER_jewland
 						days = 30

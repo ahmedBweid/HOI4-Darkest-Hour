@@ -70,9 +70,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jamphel Yeshe Gyaltsen"
+	name = "Dalai Lama Lhamo Tondup"
 	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
-	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+	picture = ""
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

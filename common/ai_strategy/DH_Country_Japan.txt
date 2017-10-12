@@ -1,0 +1,265 @@
+####################################################
+## Japan
+#####################################################
+
+# air_factory_balance
+# alliance
+# antagonize
+# area_priority
+# befriend
+# build_army
+# build_building
+# build_ship
+# conquer
+# contain
+# equipment_production_factor
+# equipment_stockpile
+# garrison
+# ignore
+# influence
+# invade
+# pp_spend_priority
+# protect
+# research_tech
+# role_ratio
+# send_volunteers_desire
+# support
+# template_prio
+# template_xp_reserve 
+# unit_ratio
+
+## ------------------ Foreign Relations -------------------------------------------------------------
+
+# Japanese-German Relations
+Japanese_German_Relations = {
+	enable = {
+		original_tag = JAP
+		JAP = { ideology_group_fascist = yes }
+		GER = { ideology_group_fascist = yes }		
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = befriend
+		id = "GER"
+		value = 50
+	}
+	ai_strategy = {
+		type = protect
+		id = "GER"
+		value = 25
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 10
+	}
+	ai_strategy = {
+		type = ignore
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "GER"
+		value = -200
+	}	
+}
+
+# Japanese-British Relations
+Japanese_British_Relations = {
+	enable = {
+		original_tag = JAP
+		JAP = { ideology_group_fascist = yes }
+		ENG = { ideology_group_democracy = yes }
+	}
+	abort = {
+		JAP = { ideology_group_fascist = yes }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "ENG"
+		value = -50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 100
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "ENG"
+		value = -200
+	}
+	ai_strategy = {
+		type = invade
+		id = "ENG"
+		value = 50
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 20
+	}	
+}
+
+# Japanese-French Relations
+German_French_Relations = {
+	enable = {
+		original_tag = JAP
+		JAP = { ideology_group_fascist = yes }
+		FRA = { ideology_group_fascist = no }
+	}
+	abort = {
+		FRA = { ideology_group_fascist = yes }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = -50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 100
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "FRA"
+		value = -200
+	}
+	ai_strategy = {
+		type = invade
+		id = "FRA"
+		value = 25
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 20
+	}	
+}
+
+# Japanese-US Relations
+Japanese_US_Relations = {
+	enable = {
+		original_tag = JAP
+		JAP = { ideology_group_fascist = yes }
+		USA = { ideology_group_democracy = yes }		
+	}
+	abort = {
+		USA = { ideology_group_fascist = yes }
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "USA"
+		value = -50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 80
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "USA"
+		value = -200
+	}
+	ai_strategy = {
+		type = invade
+		id = "USA"
+		value = 150
+	}	
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 150
+	}	
+}
+
+## ------------------ Region Priorities -------------------------------------------------------------
+## Japanese Region Priorities
+Japanese_area_priority = {
+	enable = {
+		original_tag = JAP
+	}
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 10
+	}
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 250
+	}
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 200
+	}
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 150
+	}
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 50
+	}
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 10
+	}
+}

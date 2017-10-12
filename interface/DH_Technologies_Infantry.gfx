@@ -92,10 +92,10 @@ spriteTypes = {
 		name = "GFX_USA_infantry_weapons2_medium"
 		texturefile = "gfx/interface/technologies/Infantry/M1 Carbine.dds"
 	}	
-	SpriteType = {
-		name = "GFX_USA_infantry_weapons3_medium"
-		texturefile = "gfx/interface/technologies/Infantry/STG 44.dds"
-	}	
+	# SpriteType = {
+		# name = "GFX_USA_infantry_weapons3_medium"
+		# texturefile = "gfx/interface/technologies/Infantry/STG 44.dds"
+	# }	
 	
 #SMGs	
 	SpriteType = {
