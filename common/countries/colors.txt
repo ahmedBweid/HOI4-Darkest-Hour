@@ -524,8 +524,8 @@ ROS = {
     color_ui = rgb { 185 170 167 }
 }
 RUK = {
-    color = rgb { 110 110 110 }
-    color_ui = rgb { 185 170 167 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
 }
 RMO = {
     color = rgb { 110 110 110 }
@@ -580,6 +580,12 @@ ETS = {
     color = rgb { 0 0 100 }
     color_ui = rgb { 0 0 100 }
 }
+SSB = {
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
+}
+
+###----- Civil War Colors ------
 
 D01 = {
 	color = rgb { 200 100 31 }

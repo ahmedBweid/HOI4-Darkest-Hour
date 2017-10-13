@@ -6630,13 +6630,14 @@ focus_tree = {
 					country_event = { id = DH_breitspurbahn.1 } #event to start the chain
 				}
 				GER = {
-					set_country_flag = GER_breitspurbahn_france
+					set_country_flag = GER_breitspurbahn_brest
 					set_country_flag = GER_breitspurbahn_balkian
 					set_country_flag = GER_breitspurbahn_moscow
 					set_country_flag = GER_breitspurbahn_leningrad
 					set_country_flag = GER_breitspurbahn_baku
 					set_country_flag = GER_breitspurbahn_vladivostock
 					set_country_flag = GER_breitspurbahn_rome
+					set_country_flag = GER_breitspurbahn_iberia
 				}
 			}
 		}
