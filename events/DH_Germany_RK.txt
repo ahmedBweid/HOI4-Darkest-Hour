@@ -1294,25 +1294,37 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
+		GER = {
+			has_completed_focus = GER_ss_burgundy
+		}
 		OR = {
 			any_country = {
-				OR = {
-					tag = GER
-					is_subject_of = GER
+				AND = {
+					OR = {
+						tag = GER
+						is_subject_of = GER
+					}
+					NOT = { tag = SSB }
 				}
 				controls_state = 20
 			}
 			any_country = {
-				OR = {
-					tag = GER
-					is_subject_of = GER
+				AND = {
+					OR = {
+						tag = GER
+						is_subject_of = GER
+					}
+					NOT = { tag = SSB }
 				}
 				controls_state = 32
 			}
 			any_country = {
-				OR = {
-					tag = GER
-					is_subject_of = GER
+				AND = {
+					OR = {
+						tag = GER
+						is_subject_of = GER
+					}
+					NOT = { tag = SSB }
 				}
 				controls_state = 21
 			}
@@ -1374,10 +1386,19 @@ country_event = {
 				add_core_of = SSB
 			}
 		}
-		ITA = {
-			add_opinion_modifier = {
-				target = GER
-				modifier = protest_action
+		if = {
+			limit = {
+				ITA = {
+					NOT = {
+						has_opinion_modifier = protest_action
+					}
+				}
+			}
+			ITA = {
+				add_opinion_modifier = {
+					target = GER
+					modifier = protest_action
+				}
 			}
 		}
 	}

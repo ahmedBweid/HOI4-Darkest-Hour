@@ -1287,14 +1287,24 @@ country_event = {
 			FRA = {
 				every_owned_state = {
 					limit = {
-						is_core_of = FRA				
+						is_core_of = FRA
 					}
 					add_core_of = VIC
 				}
+				start_civil_war = {
+					ideology = fascist
+					size = 0.5
+					capital = 26
+					states = { 20 21 22 25 26 31 32 33 268 272 286 310 320 458 459 460 461 462 513 514 515 543 556 557 635 641 665 670 671 695 706 708 713 728 730 734 735 745 }
+				}
+			}
+			random_other_country = {
+				limit = { original_tag = FRA has_government = fascist }
+				country_event = { id = DH_germany.39 }
 			}
 		}
 
-		set_global_flag = vichy_established							
+		set_global_flag = vichy_established
  
 		GER = {
 			if = {
@@ -1338,65 +1348,65 @@ country_event = {
 			}
 		}			
 		VIC = {
-				#annex_country =  { target = FRA transfer_troops = yes }  We need the Occupation zones to be done
-				set_equipment_fraction = 0.2				
+			set_equipment_fraction = 0.2				
 
-				add_ai_strategy = {							
-					type = alliance
-					id = "GER"
-					value = -300
+			add_ai_strategy = {							
+				type = alliance
+				id = "GER"
+				value = -300
+			}
+			add_ai_strategy = {							
+				type = befriend
+				id = "GER"
+				value = 200
+			}	
+
+			#transfer_state = 1   # Corse 
+			#transfer_state = 20  # Franche-comté
+			#transfer_state = 21  # Côte d'Azur
+			#transfer_state = 22  # Roussillon
+			#transfer_state = 25  # Limousin
+			#transfer_state = 26  # Auvergne
+			#transfer_state = 31  # Midi-Pyrénnées				 					 
+			#transfer_state = 32  # Alpes
+			#transfer_state = 33  # Centre Sud
+			#transfer_state = 268 # Djibouti
+			#transfer_state = 272 # French Africa
+			#transfer_state = 286 # Indochina
+			#transfer_state = 310 # Guinée
+			#transfer_state = 320 # French India
+			#transfer_state = 458 # Tunisia
+			#transfer_state = 459 # western Algeria
+			#transfer_state = 460 # eastern Algeria
+			#transfer_state = 461 # Northern Morocco
+			#transfer_state = 462 # Southern Morocco
+			#transfer_state = 513 # Southern Algeria
+			#transfer_state = 514 # North Africa
+			#transfer_state = 515 # Central Africa
+			#transfer_state = 543 # Madagascar				
+			#transfer_state = 556 # Ivory Coast
+			#transfer_state = 557 # Dakar
+			#transfer_state = 635 # Nouvelle Calédonie
+			#transfer_state = 641 # Tahiti
+			#transfer_state = 665 # Gabes
+			#transfer_state = 670 # Laos
+			#transfer_state = 671 # Annam
+			#transfer_state = 694 # French Caribbean
+			#transfer_state = 706 # Reunion
+			#transfer_state = 708 # Comoro Islands
+			#transfer_state = 713 # Kerguelen
+			#transfer_state = 728 # Guangzhouwan
+			#transfer_state = 730 # St Pierre et Miquelon
+			#transfer_state = 734 # Nendo
+			#transfer_state = 735 # Savoy
+			#transfer_state = 745 # Haute Savoie
+			every_owned_state = {
+				limit = {
+					is_core_of = VIC				
 				}
-				add_ai_strategy = {							
-					type = befriend
-					id = "GER"
-					value = 200
-				}				
-			
-				transfer_state = 1   # Corse 
-				transfer_state = 20  # Franche-comté
-				transfer_state = 21  # Côte d'Azur
-				transfer_state = 22  # Roussillon
-				transfer_state = 25  # Limousin
-				transfer_state = 26  # Auvergne
-				transfer_state = 31  # Midi-Pyrénnées				 					 
-				transfer_state = 32  # Alpes
-				transfer_state = 33  # Centre Sud
-				transfer_state = 268 # Djibouti
-				transfer_state = 272 # French Africa
-				transfer_state = 286 # Indochina
-				transfer_state = 310 # Guinée
-				transfer_state = 320 # French India
-				transfer_state = 458 # Tunisia
-				transfer_state = 459 # western Algeria
-				transfer_state = 460 # eastern Algeria
-				transfer_state = 461 # Northern Morocco
-				transfer_state = 462 # Southern Morocco
-				transfer_state = 513 # Southern Algeria
-				transfer_state = 514 # North Africa
-				transfer_state = 515 # Central Africa
-				transfer_state = 543 # Madagascar				
-				transfer_state = 556 # Ivory Coast
-				transfer_state = 557 # Dakar
-				transfer_state = 635 # Nouvelle Calédonie
-				transfer_state = 641 # Tahiti
-				transfer_state = 665 # Gabes
-				transfer_state = 670 # Laos
-				transfer_state = 671 # Annam
-				transfer_state = 694 # French Caribbean
-				transfer_state = 706 # Reunion
-				transfer_state = 708 # Comoro Islands
-				transfer_state = 713 # Kerguelen
-				transfer_state = 728 # Guangzhouwan
-				transfer_state = 730 # St Pierre et Miquelon
-				transfer_state = 734 # Nendo
-				transfer_state = 735 # Savoy
-				transfer_state = 745 # Haute Savoie
-				every_owned_state = {
-					limit = {
-						is_core_of = VIC				
-					}
-					add_core_of = FRA
-				}
+				add_core_of = FRA
+				add_core_of = VIC
+			}
 		}
 		FRA = {
 			transfer_state = 539 # Gabon				
@@ -2171,3 +2181,27 @@ country_event = {
 }
 
 
+#########################################################################
+#  Hidden event for Vichy France to exist
+#########################################################################
+country_event = {
+	id = DH_germany.39
+	title = DH_germany.39.t
+	desc = DH_germany.39.d
+	picture = GFX_report_event_german_troops
+	
+	fire_only_once = yes
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		VIC = {
+			annex_country =  { target = ROOT transfer_troops = yes }#annex facist civil war france
+		}
+	}
+
+	option = {
+		name = DH_germany.38.a
+	}
+}

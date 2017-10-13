@@ -1,0 +1,118 @@
+﻿Breitspurbahn lines
+
+Balkian line - Fires from Focus
+	schleswig holstein
+	saxony
+	oberbayern
+	upper austria
+	lower austria
+	western slovakia
+	southern slovakia
+	northern hungary
+	alföld
+	voijvodina
+	serbia
+	morava
+	oltenia
+	muntenia
+	burgas
+	istanbul
+
+Baku Line - Triggers at the end of the Balkian Line(Maybe from focus?)
+	Eastern Siliesia
+	Krakow
+	Lwow
+	Khmelnitskiy
+	zhytomyr
+	Kiev
+	chernihi
+	poltava
+	kharkov
+	stalino
+	rostov
+	volgodonsk
+	stravropol
+	grozny
+	azerbaijan
+	Gilan
+	Tehran
+
+Vladivostok Line - When Rostov gets done trigger these
+	millerovo
+	stalingrad
+	astrakhan
+	uralsk
+	akhtubinsk
+	kustanay
+	akmolinsk
+	semipalatinsk
+	barnaul
+	kemerovo
+	bratsk
+	irkutsk
+	ulan ude
+	chita
+	amur
+	birobidzhan
+	khaborovsk
+	vladivostok
+
+Moscow Line - When Ostmark gets done trigger these
+	hinterpommern
+	danzig
+	sudostpreussen
+	ostpreussen
+	kaunas
+	wilno
+	minsk
+	gomel
+	roslavl
+	kaluga
+	moscow
+	ivanovo
+	gorki
+	cheboksary
+	kazan
+
+Leningrad Line - When Kaunas gets done trigger these
+	vidzeme
+	pskov
+	luga
+	leningrad
+	karjala
+	uusima
+
+Rome Line - When Niederosterreich gets done trigger these
+	lower styria/nordslowenien
+	istria
+	veneto
+	emilia romagna
+	abruzzo
+	latium
+
+Iberia Line - Fires from Focus
+	wurttemberg
+	alsace
+	franche comte
+	rhone
+	alpes
+	provence
+	languedoc
+	midi pyrenees
+	catalonia
+	aragon
+	madrid
+	extremadura
+	beja
+	lisbon
+
+Brest Line - Fires from focus
+	westfalen
+	rhineland
+	brabant
+	vlaanderen
+	pas de calais
+	picardy
+	paris
+	loire
+	brittany
