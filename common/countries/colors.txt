@@ -580,16 +580,16 @@ ETS = {
     color = rgb { 0 0 100 }
     color_ui = rgb { 0 0 100 }
 }
-SSB = {
-	color = rgb { 110 110 110 }
-	color_ui = rgb { 185 170 167 }
+SPA = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
 }
 
 ###----- Civil War Colors ------
 
 D01 = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 245 123 38 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
 }
 D02 = {
 	color = rgb { 72 178 179 }

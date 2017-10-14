@@ -170,9 +170,29 @@ set_national_unity = 0.5
 }
 
 create_country_leader = {
+	name = "Francisco Franco"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "Portrait_Spain_Francisco_Franco.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jose Sanjurjo"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
 	name = "Niceto Alcalá-Zamora"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_Spain_Niceto_Alcala_Zamora.dds"
+	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
 	traits = {
@@ -181,33 +201,41 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "José Díaz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
+	name = "Manuel Azaña Díaz"
+	desc = "POLITICS_MANUEL_AZANA_DESC"
+	picture = "Portrait_Spain_Manuel_Azana.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = social_liberalism
 	traits = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Francisco Franco"
-	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		#
-	}
-}
-
 create_country_leader = {
 	name = "Alejandro Lerroux"
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
+	ideology = social_democracy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Andreu Nin i Pérez"
+	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Jose Díaz Ramos"
+	desc = "POLITICS_JOSE_DIAZ_DESC"
+	picture = "Portrait_Spain_Jose_Diaz.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
 	traits = {
 		#
 	}
