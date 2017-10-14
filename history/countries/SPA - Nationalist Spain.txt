@@ -1,4 +1,4 @@
-﻿capital = 41
+﻿capital = 176
 
 oob = "SPA_1936"
 
