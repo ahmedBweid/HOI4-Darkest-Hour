@@ -1198,7 +1198,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_SOV_naval_bomber6_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Soviet Union/SOV_Il-28.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/Soviet Union/SOV_Il28.dds"
 	}	
 
 	SpriteType = {

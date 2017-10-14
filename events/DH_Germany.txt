@@ -1272,8 +1272,9 @@ country_event = {
 	picture = GFX_report_event_german_parade_paris
 	
 	is_triggered_only = yes
-		
-	option = { # Agree
+
+# Establish Vichy France	
+	option = {
 		name = DH_germany.32.a
 		ai_chance = {
 			factor = 90
@@ -1346,72 +1347,7 @@ country_event = {
 				}
 				puppet = VIC
 			}
-		}			
-		VIC = {
-			set_equipment_fraction = 0.2				
-
-			add_ai_strategy = {							
-				type = alliance
-				id = "GER"
-				value = -300
-			}
-			add_ai_strategy = {							
-				type = befriend
-				id = "GER"
-				value = 200
-			}	
-
-			#transfer_state = 1   # Corse 
-			#transfer_state = 20  # Franche-comté
-			#transfer_state = 21  # Côte d'Azur
-			#transfer_state = 22  # Roussillon
-			#transfer_state = 25  # Limousin
-			#transfer_state = 26  # Auvergne
-			#transfer_state = 31  # Midi-Pyrénnées				 					 
-			#transfer_state = 32  # Alpes
-			#transfer_state = 33  # Centre Sud
-			#transfer_state = 268 # Djibouti
-			#transfer_state = 272 # French Africa
-			#transfer_state = 286 # Indochina
-			#transfer_state = 310 # Guinée
-			#transfer_state = 320 # French India
-			#transfer_state = 458 # Tunisia
-			#transfer_state = 459 # western Algeria
-			#transfer_state = 460 # eastern Algeria
-			#transfer_state = 461 # Northern Morocco
-			#transfer_state = 462 # Southern Morocco
-			#transfer_state = 513 # Southern Algeria
-			#transfer_state = 514 # North Africa
-			#transfer_state = 515 # Central Africa
-			#transfer_state = 543 # Madagascar				
-			#transfer_state = 556 # Ivory Coast
-			#transfer_state = 557 # Dakar
-			#transfer_state = 635 # Nouvelle Calédonie
-			#transfer_state = 641 # Tahiti
-			#transfer_state = 665 # Gabes
-			#transfer_state = 670 # Laos
-			#transfer_state = 671 # Annam
-			#transfer_state = 694 # French Caribbean
-			#transfer_state = 706 # Reunion
-			#transfer_state = 708 # Comoro Islands
-			#transfer_state = 713 # Kerguelen
-			#transfer_state = 728 # Guangzhouwan
-			#transfer_state = 730 # St Pierre et Miquelon
-			#transfer_state = 734 # Nendo
-			#transfer_state = 735 # Savoy
-			#transfer_state = 745 # Haute Savoie
-			every_owned_state = {
-				limit = {
-					is_core_of = VIC				
-				}
-				add_core_of = FRA
-				add_core_of = VIC
-			}
-		}
-		FRA = {
-			transfer_state = 539 # Gabon				
-			transfer_state = 660 # Equatorial Africa				
-		}		
+		}	
 		country_event = { hours = 6 id = news.34 }				
 		hidden_effect =  {
 			FRA = { news_event = { id = france.20 hours = 1 } }
@@ -2198,6 +2134,18 @@ country_event = {
 	immediate = {
 		VIC = {
 			annex_country =  { target = ROOT transfer_troops = yes }#annex facist civil war france
+			set_equipment_fraction = 0.2
+
+			add_ai_strategy = {
+				type = alliance
+				id = "GER"
+				value = -300
+			}
+			add_ai_strategy = {
+				type = befriend
+				id = "GER"
+				value = 200
+			}
 		}
 	}
 

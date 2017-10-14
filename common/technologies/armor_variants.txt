@@ -20,15 +20,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			# modifier = {
-				# factor = 0
-				# can_research = improved_light_td
-			# }
+			modifier = {
+				factor = 0
+				can_research = light_TD_1936
+			}
 
-			# modifier = {
-				# factor = 0
-				# has_tech = improved_light_td
-			# }
+			modifier = {
+				factor = 0
+				has_tech = light_TD_1936
+			}
 		}
 		
 		categories = {
@@ -52,7 +52,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_TD_1938
+			}
 
+			modifier = {
+				factor = 0
+				has_tech = light_TD_1938
+			}
 		}
 		
 		categories = {
@@ -76,7 +84,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_TD_1939
+			}
 
+			modifier = {
+				factor = 0
+				has_tech = light_TD_1939
+			}
 		}
 		
 		categories = {
@@ -98,9 +114,18 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1939
 		
+		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_TD_1944
+			}
 
+			modifier = {
+				factor = 0
+				has_tech = light_TD_1944
+			}
 		}
 		
 		categories = {
@@ -152,6 +177,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPG_1936
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPG_1936
+			}
 		}
 		
 		categories = {
@@ -175,6 +209,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPG_1938
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPG_1938
+			}
 		}
 		
 		categories = {
@@ -198,6 +241,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPG_1939
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPG_1939
+			}
 		}
 		
 		categories = {
@@ -221,6 +273,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPG_1944
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPG_1944
+			}
 		}
 		
 		categories = {
@@ -271,6 +332,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPAA_1936
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPAA_1936
+			}
 		}
 		
 		categories = {
@@ -294,6 +364,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPAA_1938
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPAA_1938
+			}
 		}
 		
 		categories = {
@@ -317,6 +396,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPAA_1939
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPAA_1939
+			}
 		}
 		
 		categories = {
@@ -340,6 +428,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = light_SPAA_1944
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = light_SPAA_1944
+			}
 		}
 		
 		categories = {
@@ -398,15 +495,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			# modifier = {
-				# factor = 0
-				# can_research = improved_light_td
-			# }
+			modifier = {
+				factor = 0
+				can_research = medium_TD_1941
+			}
 
-			# modifier = {
-				# factor = 0
-				# has_tech = improved_light_td
-			# }
+			modifier = {
+				factor = 0
+				has_tech = medium_TD_1941
+			}
 		}
 		
 		categories = {
@@ -430,7 +527,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_TD_1943
+			}
 
+			modifier = {
+				factor = 0
+				has_tech = medium_TD_1943
+			}
 		}
 		
 		categories = {
@@ -454,7 +559,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_TD_1944
+			}
 
+			modifier = {
+				factor = 0
+				has_tech = medium_TD_1944
+			}
 		}
 		
 		categories = {
@@ -507,6 +620,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_SPG_1941
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = medium_SPG_1941
+			}
 		}
 		
 		categories = {
@@ -530,6 +652,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_SPG_1943
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = medium_SPG_1943
+			}
 		}
 		
 		categories = {
@@ -553,6 +684,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_SPG_1944
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = medium_SPG_1944
+			}
 		}
 		
 		categories = {
@@ -585,7 +725,7 @@ technologies = {
 
 	
 ##########################################################################################################################	
-### -------------------------------------- Light Self-Propelled Anti Air Guns -------------------------------------------------------	
+### -------------------------------------- Medium Self-Propelled Anti Air Guns -------------------------------------------------------	
 ##########################################################################################################################	
 
 ### 1939 SPG 
@@ -604,6 +744,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_SPAA_1941
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = medium_SPAA_1941
+			}
 		}
 		
 		categories = {
@@ -627,6 +776,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_SPAA_1943
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = medium_SPAA_1943
+			}
 		}
 		
 		categories = {
@@ -650,6 +808,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = medium_SPAA_1944
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = medium_SPAA_1944
+			}
 		}
 		
 		categories = {
@@ -680,24 +847,9 @@ technologies = {
 		}
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 ##########################################################################################################################	
-### -------------------------------------- Medium Tank Destroyers-------------------------------------------------------	
+### -------------------------------------- Heavy Tank Destroyers-------------------------------------------------------	
 ##########################################################################################################################	
 	
 ### 1939 TD 
@@ -716,15 +868,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			# modifier = {
-				# factor = 0
-				# can_research = improved_light_td
-			# }
+			modifier = {
+				factor = 0
+				can_research = heavy_TD_1941
+			}
 
-			# modifier = {
-				# factor = 0
-				# has_tech = improved_light_td
-			# }
+			modifier = {
+				factor = 0
+				has_tech = heavy_TD_1941
+			}
 		}
 		
 		categories = {
@@ -748,7 +900,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = heavy_TD_1943
+			}
 
+			modifier = {
+				factor = 0
+				has_tech = heavy_TD_1943
+			}
 		}
 		
 		categories = {
@@ -772,7 +932,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = heavy_TD_1944
+			}
 
+			modifier = {
+				factor = 0
+				has_tech = heavy_TD_1944
+			}
 		}
 		
 		categories = {
@@ -806,7 +974,7 @@ technologies = {
 
 
 ##########################################################################################################################	
-### -------------------------------------- Light Self-Propelled Guns/Howitzers -------------------------------------------------------	
+### -------------------------------------- Heavy Self-Propelled Guns/Howitzers -------------------------------------------------------	
 ##########################################################################################################################	
 
 ### 1939 SPG 
@@ -825,6 +993,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = heavy_SPG_1941
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = heavy_SPG_1941
+			}
 		}
 		
 		categories = {
@@ -848,6 +1025,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = heavy_SPG_1943
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = heavy_SPG_1943
+			}
 		}
 		
 		categories = {
@@ -871,6 +1057,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				can_research = heavy_SPG_1944
+			}
+
+			modifier = {
+				factor = 0
+				has_tech = heavy_SPG_1944
+			}
 		}
 		
 		categories = {
@@ -900,101 +1095,3 @@ technologies = {
 			armor
 		}
 	}
-
-	
-##########################################################################################################################	
-### -------------------------------------- Light Self-Propelled Anti Air Guns -------------------------------------------------------	
-##########################################################################################################################	
-
-### 1939 SPG 
-	heavy_SPAA_1939 = {
-
-		enable_equipments = {
-			heavy_tank_aa_equipment_0
-		}
-	
-		dependencies = {
-
-		}
-	
-		research_cost = 0.5
-		start_year = 1939
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-	
-### 1941 SPG 
-	heavy_SPAA_1941 = {
-
-		enable_equipments = {
-			heavy_tank_aa_equipment_1
-		}
-	
-		dependencies = {
-
-		}
-	
-		research_cost = 0.5
-		start_year = 1941
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}	
-	
-### 1943 SPG 
-	heavy_SPAA_1943 = {
-
-		enable_equipments = {
-			heavy_tank_aa_equipment_2
-		}
-	
-		dependencies = {
-
-		}
-	
-		research_cost = 0.5
-		start_year = 1943
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-	
-### 1944 SPG 
-	heavy_SPAA_1944 = {
-
-		enable_equipments = {
-			heavy_tank_aa_equipment_3
-		}
-	
-		dependencies = {
-
-		}
-	
-		research_cost = 0.5
-		start_year = 1944
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			armor
-		}
-	}
-}

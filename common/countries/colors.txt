@@ -584,6 +584,10 @@ SPA = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
 }
+SSB = {
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
+}
 
 ###----- Civil War Colors ------
 

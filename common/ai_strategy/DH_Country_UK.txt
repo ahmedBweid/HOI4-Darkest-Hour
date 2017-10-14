@@ -215,6 +215,134 @@ British_French_Relations = {
 	}	
 }
 
+# British-Belge Relations
+British_Belge_Relations = {
+	enable = {
+		original_tag = ENG
+		ENG = { ideology_group_democracy = yes }
+		BEL = { ideology_group_democracy = yes }
+	}
+	abort = {
+		BEL = { ideology_group_democracy = no }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "BEL"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BEL"
+		value = 150
+	}		
+	ai_strategy = {
+		type = ignore
+		id = "BEL"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "BEL"
+		value = 150
+	}		
+	ai_strategy = {
+		type = support
+		id = "BEL"
+		value = 200
+	}
+	ai_strategy = {
+		type = protect
+		id = "BEL"
+		value = 200
+	}	
+}
+
+# British-Dutch Relations
+British_Dutch_Relations = {
+	enable = {
+		original_tag = ENG
+		ENG = { ideology_group_democracy = yes }
+		HOL = { ideology_group_democracy = yes }
+	}
+	abort = {
+		HOL = { ideology_group_democracy = no }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "HOL"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 150
+	}		
+	ai_strategy = {
+		type = ignore
+		id = "HOL"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "HOL"
+		value = 150
+	}		
+	ai_strategy = {
+		type = support
+		id = "HOL"
+		value = 200
+	}
+	ai_strategy = {
+		type = protect
+		id = "HOL"
+		value = 200
+	}	
+}
+
+# British-Lux Relations
+British_Lux_Relations = {
+	enable = {
+		original_tag = ENG
+		ENG = { ideology_group_democracy = yes }
+		LUX = { ideology_group_democracy = yes }
+	}
+	abort = {
+		LUX = { ideology_group_democracy = no }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "LUX"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "LUX"
+		value = 150
+	}		
+	ai_strategy = {
+		type = ignore
+		id = "LUX"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "LUX"
+		value = 150
+	}		
+	ai_strategy = {
+		type = support
+		id = "LUX"
+		value = 200
+	}
+	ai_strategy = {
+		type = protect
+		id = "LUX"
+		value = 200
+	}	
+}
 # British-US Relations
 British_US_Relations = {
 	enable = {

@@ -271,39 +271,105 @@ set_autonomy = {
 	}
 }
 
+####################################################
+## US Leaders
+####################################################
+#NS
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	name = "Fritz Julius Kuhn"
+	desc = ""
+	picture = "DH_Fritz_Julius_Kuhn.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = { }
+}
+#FA
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = ""
+	picture = "DH_William_Dudley_Pelley.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = { }
+}
+#PA
+create_country_leader = {
+	name = "Gerald L. K. Smith"
+	desc = ""
+	picture = "DH_Gerald_Smith.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = { }
+}
+#SC
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = ""
+	picture = "DH_Herbert_Hoover.dds"
+	expire = "1947.1.1"
+	ideology = social_conservatism
+	traits = { }
+}
+#ML
+create_country_leader = {
+	name = "Alf M. Landon"
+	desc = ""
+	picture = "DH_Alf_Landon.dds"
+	expire = "1947.1.1"
+	ideology = market_liberalism
+	traits = { }
+}
+#SL
+create_country_leader = {
+	name = "Franklin D. Roosevelt"
+	desc = ""
+	picture = "DH_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
 	ideology = social_liberalism
 	traits = {
 		dislikes_germany
 	}
 }
-
+#SD
 create_country_leader = {
-	name = "William Dudley Pelley"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		
-	}
+	name = "Allan L. Benson"
+	desc = ""
+	picture = "DH_Allan_Benson.dds"
+	expire = "1947.1.1"
+	ideology = social_democracy
+	traits = { }
 }
-
+#LWR
 create_country_leader = {
-	name = "Earl Browder"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "Portrait_USA_Generic_1.dds"
+	name = "Norman Thomas"
+	desc = ""
+	picture = "DH_Norman_Thomas.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = { }
+}
+#LE
+create_country_leader = {
+	name = "Joseph P. Lash"
+	desc = ""
+	picture = "DH_Joseph_Lash.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {
-		
-	}
+	traits = { }
+}
+#ST
+create_country_leader = {
+	name = "Earl Browder"
+	desc = ""
+	picture = "DH_Earl_Browder.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = { }
 }
 
+####################################################
+## US Generals
+####################################################
 create_corps_commander = {
 	name = "George S. Patton"
 		picture = "Portrait_USA_George_S_Patton.dds"
@@ -488,6 +554,9 @@ create_navy_leader = {
 	skill = 5
 }
 
+####################################################
+## US Admirals
+####################################################
 create_navy_leader = {
 	name = "William Halsey, Jr."
 		picture = "Portrait_USA_William_Halsey_Jr.dds"
@@ -530,8 +599,10 @@ create_navy_leader = {
 	skill = 2
 }
 
-### Ship Variants ###
 
+####################################################
+## US Variants
+####################################################
 create_equipment_variant = {
 	name = "Barracuda Class"
 	type = submarine_1

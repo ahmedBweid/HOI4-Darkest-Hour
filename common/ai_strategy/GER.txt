@@ -128,6 +128,12 @@ GER_unit_production = {
 
 	ai_strategy = {
 		type = unit_ratio
+		id = carrier
+		value = -50
+	}	
+	
+	ai_strategy = {
+		type = unit_ratio
 		id = convoy
 		value = 20
 	}
