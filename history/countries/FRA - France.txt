@@ -6,17 +6,15 @@ set_research_slots = 3
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_support = 1
 	tech_recon = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
+
 	early_fighter = 1
 	naval_bomber1 = 1
 	cv_early_fighter = 1
@@ -24,19 +22,70 @@ set_technology = {
 	early_bomber = 1
 	tactical_bomber1 = 1
 	CAS1 = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	basic_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	basic_battlecruiser = 1
-	early_carrier = 1
+
+	# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
+	light_tank_1924 = 1
+	light_tank_1928 = 1
+	light_tank_1934 = 1	
+
+	#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+	destroyer_1922 = 1
+	destroyer_1933 = 1	
+	
+	light_cruiser_1885 = 1
+	light_cruiser_1900 = 1
+	light_cruiser_1912 = 1
+	light_cruiser_1922 = 1
+	light_cruiser_1933 = 1	
+	light_cruiser_1936 = 1
+	
+	heavy_cruiser_1885 = 1
+	heavy_cruiser_1895 = 1
+	heavy_cruiser_1906 = 1
+	heavy_cruiser_1922 = 1
+	heavy_cruiser_1933 = 1	
+	heavy_cruiser_1936 = 1	
+	
+	submarine_1895 = 1
+	submarine_1912 = 1
+	submarine_1916 = 1
+	submarine_1922 = 1	
+	submarine_1933 = 1	
+	submarine_1936 = 1
+	
+	heavy_submarine_1933 = 1
+	
+	battlecruiser_1906 = 1
+	battlecruiser_1912 = 1
+	battlecruiser_1916 = 1
+	battlecruiser_1933 = 1
+	
+	battleship_1885 = 1
+	battleship_1895 = 1
+	battleship_1900 = 1
+	battleship_1906 = 1
+	battleship_1912 = 1
+	battleship_1916 = 1
+	battleship_1922 = 1	
+	battleship_1933 = 1
+	
+	escort_carrier_1912 = 1
+	escort_carrier_1916 = 1
+	escort_carrier_1922 = 1
+	
+	carrier_1922 = 1	
+	
 	transport = 1
+
 	trench_warfare = 1
 	fleet_in_being = 1
 }
@@ -48,8 +97,8 @@ set_technology = {
 	#adding ministers
 	add_ideas = {
 		FRA_charles_tillon
-		francois_darlan
-		philippe_fequant
+		#francois_darlan
+		#philippe_fequant
 		famh
 		jean_marie_bergeret
 		renault_fra
@@ -83,16 +132,14 @@ set_technology = {
 		strategic_bomber1 = 1
 		cv_fighter1 = 1
 		cv_CAS1 = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
+		
+		
+		
 		interwar_artillery = 1
 		interwar_antitank = 1
-		infantry_rifle2 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
 		support_weapons2 = 1
-		basic_battleship = 1
-		basic_battlecruiser = 1
 
 		#doctrines
 		#Air
@@ -141,20 +188,19 @@ set_national_unity = 0.4
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 69
-		}
-
-		fascism = {
-			popularity = 1
-		}
-		
-		communism = {
-			popularity = 30
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 10 }		
+		social_conservative = { popularity = 7 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 35 }		
+		social_democrat = { popularity = 26 }		
+		left_wing_radical = { popularity = 15 }		
+		leninist = { popularity = 5 }		
+		stalinist = { popularity = 2 }	
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_liberal
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -175,7 +221,7 @@ create_country_leader = {
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
 	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservatism
 	traits = {
 		
 	}
@@ -186,8 +232,19 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_conservatism
 	traits = {
+		stout_defender
+	}
+}
+
+create_country_leader = {
+	name = "Albert Lebrun"
+	desc = ""
+	picture = "Portrait_France_Albert_Lebrun.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {	
 		stout_defender
 	}
 }
@@ -195,9 +252,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Maurice Thorez"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "Portrait_France_Generic_3.dds"
+	picture = "Portrait_France_Maurice_Thorez.dds"
 	expire = "1965.1.1"
-	ideology = 	stalinism
+	ideology = stalinism
 	traits = {
 		
 	}
@@ -208,7 +265,7 @@ create_country_leader = {
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 	picture = "Portrait_France_Philippe_Petain.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		
 	}

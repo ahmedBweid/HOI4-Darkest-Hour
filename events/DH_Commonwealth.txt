@@ -1,0 +1,229 @@
+﻿###########################
+# Darkest Hour  Events : Commonwealth
+###########################
+
+add_namespace = DH_commonwealth
+
+### ------------------- Commonwealth ---------------------------------------------
+
+#########################################################################
+# Fate of the British Empire : Germany preserves the Regime in Britain
+#########################################################################
+country_event = {
+	id = DH_commonwealth.1
+	title = DH_commonwealth.1.t
+	desc = DH_commonwealth.1.d
+	picture = GFX_report_event_british_inspect_troops #placeholder
+	#fire_only_once = yes
+	
+	#is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			EGL = { has_country_flag = friendly_regime }
+			EGL = { has_country_flag = whole_friendly_regime }
+		}
+		NOT = {
+			has_country_flag = commonwealth_question
+		}
+		is_subject_of = ENG
+
+	}
+	
+	mean_time_to_happen = {
+		days = 90
+	}
+
+	#Leave the beaten british Empire
+	option = { 
+		name = DH_commonwealth.1.a
+		ai_chance = {
+			factor = 35
+			modifier = {
+				AND = {
+					ROOT = { has_government = fascist }
+					NOT = { original_tag = RAJ }
+				}
+				factor = 0
+			}
+			modifier = {
+				ROOT = {
+					has_army_manpower = { size > 500000 }
+				}
+				factor = 0.5
+			}
+			modifier = {
+				ROOT = {
+					AND = {
+						has_army_manpower = { size > 400000 }
+						has_army_manpower = { size < 500000 }
+					}
+				}
+				factor = 0.4
+			}
+			modifier = {
+				ROOT = {
+					AND = {
+						has_army_manpower = { size > 300000 }
+						has_army_manpower = { size < 400000 }
+					}
+				}
+				factor = 0.3
+			}
+			modifier = {
+				ROOT = {
+					AND = {
+						has_army_manpower = { size > 200000 }
+						has_army_manpower = { size < 300000 }
+					}
+				}
+				factor = 0.2
+			}
+			modifier = {
+				ROOT = {
+					AND = {
+						has_army_manpower = { size > 100000 }
+						has_army_manpower = { size < 200000 }
+					}
+				}
+				factor = 0.1
+			}
+			modifier = {
+				ROOT = {
+						has_army_manpower = { size < 100000 }
+				}
+				factor = 0
+			}
+		}
+		ENG = { end_puppet = ROOT }
+		ENG = { country_event = { hours = 6 id = DH_commonwealth.2 }}
+		set_country_flag = commonwealth_question
+	}
+
+	#Stay with the beaten british Empire	
+	option = {
+		name = DH_commonwealth.1.b
+		ai_chance = {
+			factor = 65
+			modifier = {
+				AND = {
+					ROOT = { has_government = fascist }
+					NOT = { original_tag = RAJ }
+				}
+				factor = 0
+			}
+			modifier = {
+				ENG = {
+					has_army_manpower = { size > 500000 }
+				}
+				factor = 0.5
+			}
+			modifier = {
+				ENG = {
+					AND = {
+						has_army_manpower = { size > 400000 }
+						has_army_manpower = { size < 500000 }
+					}
+				}
+				factor = 0.4
+			}
+			modifier = {
+				ENG = {
+					AND = {
+						has_army_manpower = { size > 300000 }
+						has_army_manpower = { size < 400000 }
+					}
+				}
+				factor = 0.3
+			}
+			modifier = {
+				ENG = {
+					AND = {
+						has_army_manpower = { size > 200000 }
+						has_army_manpower = { size < 300000 }
+					}
+				}
+				factor = 0.2
+			}
+			modifier = {
+				ENG = {
+					AND = {
+						has_army_manpower = { size > 100000 }
+						has_army_manpower = { size < 200000 }
+					}
+				}
+				factor = 0.1
+			}
+		}
+		set_country_flag = commonwealth_question
+	}
+
+	#join the new Fascist Britain	
+	option = {
+		name = DH_commonwealth.1.c
+		trigger = {
+			AND = {
+				has_government = fascist
+				NOT  = { original_tag = RAJ }
+			}
+			EGL = { has_country_flag = whole_friendly_regime }
+		}
+		ai_chance = { 
+			factor = 100
+		}
+		ENG = { end_puppet = ROOT }
+		if = {
+			limit = {
+				has_dlc = "Together for Victory"
+			}
+			EGL = {
+				set_autonomy = {
+					target = ROOT
+					autonomous_state = autonomy_satellite
+				}
+			}
+			else = {
+				EGL = { puppet = ROOT }
+			}
+		}
+		EGL = { country_event = { hours = 6 id = DH_commonwealth.3 }}
+		ENG = { country_event = { hours = 6 id = DH_commonwealth.2 }}
+		set_country_flag = commonwealth_question
+	}
+}
+
+
+#########################################################################
+# Puppets Leave the UK
+#########################################################################
+country_event = {
+	id = DH_commonwealth.2
+	title = DH_commonwealth.2.t
+	desc = DH_commonwealth.2.d
+	picture = GFX_report_event_british_inspect_troops 
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_commonwealth.2.a
+	}
+}
+
+
+#########################################################################
+# Puppets Join the Fascist!
+#########################################################################
+country_event = {
+	id = DH_commonwealth.3
+	title = DH_commonwealth.3.t
+	desc = DH_commonwealth.3.d
+	picture = GFX_report_event_british_inspect_troops 
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_commonwealth.3.a
+	}
+}

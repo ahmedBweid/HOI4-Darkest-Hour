@@ -6,8 +6,8 @@ set_research_slots = 3
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -16,22 +16,13 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	gwtank = 1
-	basic_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
+	
+	 
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
 	strategic_bomber1 = 1
 	naval_bomber1 = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
 	transport = 1
 	mass_assault = 1
 	fleet_in_being = 1
@@ -40,17 +31,16 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		fascism = { 
-			popularity = 34
-		}	
-	
-		democratic = { 
-			popularity = 30
-		}
-		
-		communism = {
-			popularity = 36
-		}	
+		national_socialist = { popularity = 0 }
+		fascist = { popularity = 34 }
+		paternal_autocrat = { popularity = 0 }
+		social_conservative = { popularity = 30 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 36 }
 	}
 }
 
@@ -59,7 +49,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		
 	}
@@ -70,7 +60,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = social_conservatism
 	traits = {
 		
 	}

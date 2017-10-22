@@ -6,19 +6,59 @@ set_research_slots = 3
 
 
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_support = 1		
 	tech_recon = 1
 	early_fighter = 1
 	early_bomber = 1
-	early_submarine = 1
-	basic_destroyer = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
+	light_tank_1924 = 1
+#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+	destroyer_1922 = 1
+	destroyer_1933 = 1	
+	
+	light_cruiser_1885 = 1
+	light_cruiser_1900 = 1
+	light_cruiser_1912 = 1
+	light_cruiser_1922 = 1
+	light_cruiser_1933 = 1
+	
+	heavy_cruiser_1885 = 1
+	heavy_cruiser_1895 = 1
+	heavy_cruiser_1906 = 1
+	heavy_cruiser_1922 = 1
+	heavy_cruiser_1933 = 1	
+	
+	submarine_1895 = 1
+	submarine_1912 = 1
+	submarine_1916 = 1
+	submarine_1922 = 1	
+	
+	battlecruiser_1906 = 1
+	battlecruiser_1912 = 1
+	battlecruiser_1916 = 1
+	battlecruiser_1933 = 1
+	
+	battleship_1885 = 1
+	battleship_1895 = 1
+	battleship_1900 = 1
+	battleship_1906 = 1
+	battleship_1912 = 1
+	battleship_1916 = 1
+	battleship_1922 = 1
+	
 	transport = 1
+#
 }
 
 # DIPLOMACY
@@ -65,10 +105,9 @@ if = {
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
-		infantry_rifle2 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
-		basic_submarine = 1
-		improved_light_cruiser = 1
+
 
 		#doctrines
 		air_superiority = 1
@@ -104,20 +143,19 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 93
-		}
-
-		fascism = {
-			popularity = 4
-		}
-		
-		communism = {
-			popularity = 3
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 1 }		
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 0 }		
+		market_liberal = { popularity = 50 }		
+		social_liberal = { popularity = 14 }		
+		social_democrat = { popularity = 27 }		
+		left_wing_radical = { popularity = 5 }		
+		leninist = { popularity = 3 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = democratic
+	ruling_party = market_liberal
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -127,11 +165,11 @@ set_convoys = 500
 set_national_unity = 0.75
 
 create_country_leader = {
-	name = "Dirk Jan de Geer"
-	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
-	picture = "Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+	name = "Hendricus Colijn"
+	desc = "POLITICS_Wilhelmina_DESC"
+	picture = "Portrait_Holland_Hendricu_Colijn.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = market_liberalism
 	traits = {
 		#
 	}
@@ -142,7 +180,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTON_MUSSERT_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -162,9 +200,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hendrikus Colijn"
 	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "GFX_portrait_holland_hendrikus_colijn"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}

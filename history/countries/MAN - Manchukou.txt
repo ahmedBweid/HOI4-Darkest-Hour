@@ -3,9 +3,13 @@
 oob = "MAN_1936"
 
 set_technology = {
-	infantry_rifle = 1
+	infantry_weapons = 1
 	gw_artillery = 1
-	
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
 }
 
 set_convoys = 5
@@ -26,6 +30,7 @@ set_convoys = 5
 	
 	oob = "MAN_1939"
 	set_technology = {
+		
 		#doctrines
 		grand_battle_plan = 1
 		trench_warfare = 1
@@ -54,37 +59,30 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
-			banned = yes
-		}
-
-		fascism = {
-			popularity = 80
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes
-		}
-
-		neutrality = {
-			popularity = 20
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 70 }		
+		social_conservative = { popularity = 30 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 0 }		
+		social_democrat = { popularity = 0 }		
+		left_wing_radical = { popularity = 0 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = fascism
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Aisin Gioro Puyi"
+	name = "Pu-Yi"
 	
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
+	picture = "Portrait_Manchuria_Pu_Yi.dds"
 	expire = "1960.1.1"
-	ideology = rexism
+	ideology = paternal_autocracy
 	traits = {
 		warrior_code
 	}

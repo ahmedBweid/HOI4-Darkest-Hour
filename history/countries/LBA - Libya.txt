@@ -2,8 +2,8 @@
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	gwtank = 1
+	infantry_weapons = 1
+	
 }
 
 set_convoys = 20
@@ -62,25 +62,19 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 50
-		}
+		national_socialist = { popularity = 0 }
+		fascist = { popularity = 20 }
+		paternal_autocrat = { popularity = 50 }
+		social_conservative = { popularity = 25 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 5 }
 	}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -89,8 +83,8 @@ set_politics = {
 create_country_leader = {
 	name = "Bashir es Sadawi"
 	desc = ""
-	picture = "Portrait_Arabia_Generic_democratic1.dds"
-	ideology = liberalism
+	picture = "Portrait_Arabia_Generic_social_conservative1.dds"
+	ideology = social_liberalism
 	traits = {
 		#
 	}
@@ -100,7 +94,7 @@ create_country_leader = {
 	name = "Ettore Bastico"
 	desc = ""
 	picture = "Portrait_Italy_Giuseppe_Fioravanzo.dds"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -110,7 +104,7 @@ create_country_leader = {
 	name = "Idris Senussi"
 	desc = ""
 	picture = "Portrait_Arabia_Generic_land_3.dds"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -119,7 +113,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hassan as-Senussi"
 	desc = ""
-	picture = "Portrait_Arabia_Generic_communism1.dds"
+	picture = "Portrait_Arabia_Generic_stalinist1.dds"
 	ideology = leninism
 	traits = {
 		#

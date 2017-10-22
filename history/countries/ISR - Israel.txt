@@ -2,8 +2,8 @@
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	gwtank = 1
+	infantry_weapons = 1
+	
 }
 
 set_convoys = 5
@@ -62,31 +62,29 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 80
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 20
-			#banned = no #default is no
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 34 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 9 }		
+		social_democrat = { popularity = 16 }		
+		left_wing_radical = { popularity = 37 }		
+		leninist = { popularity = 4 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "David Ben-Gurion"
+	name = "Chaim Weizmann"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = liberalism
+	picture = "Portrait_Israel_Chaim_Weizmann.dds"
+	ideology = social_liberalism
 	traits = {
 		#
 	}
@@ -96,7 +94,7 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -106,7 +104,7 @@ create_country_leader = {
 	name = "Rudolf Szabó"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}

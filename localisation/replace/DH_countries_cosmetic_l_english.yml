@@ -1,0 +1,73 @@
+﻿l_english:
+ 
+ GER_BIG_fascist:0 "Großdeutsches Reich"
+ GER_BIG_fascist_DEF:0 "Großdeutsches Reich"
+ GER_BIG_national_socialist:0 "Großdeutsches Reich"
+ GER_BIG_national_socialist_DEF:0 "Großdeutsches Reich"
+ GER_GREATER_fascist:0 "Großgermanisches Reich"
+ GER_GREATER_fascist_DEF:0 "Großgermanisches Reich"
+ GER_GREATER_national_socialist:0 "Großgermanisches Reich"
+ GER_GREATER_national_socialist_DEF:0 "Großgermanisches Reich"
+
+ ITA_GER_fascist:0 "Italian Reich"
+ ITA_GER_fascist_DEF:0 "Italian Reich"
+ ITA_GER_national_socialist:0 "Italian Reich"
+ ITA_GER_national_socialist_DEF:0 "Italian Reich"
+ 
+ FIN_GREATER_fascist:0 "Greater Finnish Empire"
+ FIN_GREATER_fascist_DEF:0 "Greater Finnish Empire"
+ FIN_GREATER_national_socialist:0 "Greater Finnish Empire"
+ FIN_GREATER_national_socialist_DEF:0 "Greater Finnish Empire"
+ 
+ DEN_GER_RP_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Nordmark"
+ DEN_GER_RP_fascist_autonomy_reichsprotectorate:0 "Reichsprotektorat Nordmark"
+ DEN_GER_RP_fascist_autonomy_satellite:0 "Nordmark"
+ DEN_GER_RP_national_socialist_autonomy_reichskommissariat:0 "Reichskommissariat Nordmark"
+ DEN_GER_RP_national_socialist_autonomy_reichsprotectorate:0 "Reichsprotektorat Nordmark"
+ DEN_GER_RP_national_socialist_autonomy_satellite:0 "Nordmark"
+
+ NOR_GER_RP_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Nordland"
+ NOR_GER_RP_fascist_autonomy_reichsprotectorate:0 "Reichsprotektorat Nordland"
+ NOR_GER_RP_fascist_autonomy_satellite:0 "Nasjonal Samling"
+ NOR_GER_RP_national_socialist_autonomy_reichskommissariat:0 "Reichskommissariat Nordland"
+ NOR_GER_RP_national_socialist_autonomy_reichsprotectorate:0 "Reichsprotektorat Nordland"
+ NOR_GER_RP_national_socialist_autonomy_satellite:0 "Nasjonal Samling"
+
+ EGL_GER_RP_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Engeland"
+ EGL_GER_RP_fascist_autonomy_reichsprotectorate:0 "Reichsprotektorat Engeland"
+ EGL_GER_RP_fascist_autonomy_satellite:0 "Engeland"
+ EGL_GER_RP_national_socialist_autonomy_reichskommissariat:0 "Reichskommissariat Engeland"
+ EGL_GER_RP_national_socialist_autonomy_reichsprotectorate:0 "Reichsprotektorat Engeland"
+ EGL_GER_RP_national_socialist_autonomy_satellite:0 "Engeland"
+
+ SCO_GER_RP_fascist_autonomy_reichskommissariat:0 "Reichskommissariat Schottland"
+ SCO_GER_RP_fascist_autonomy_reichsprotectorate:0 "Reichsprotektorat Schottland"
+ SCO_GER_RP_fascist_autonomy_satellite:0 "Schottland"
+ SCO_GER_RP_national_socialist_autonomy_reichskommissariat:0 "Reichskommissariat Schottland"
+ SCO_GER_RP_national_socialist_autonomy_reichsprotectorate:0 "Reichsprotektorat Schottland"
+ SCO_GER_RP_national_socialist_autonomy_satellite:0 "Schottland"
+ 
+ DEN_GER_RP_fascist:0 "Nordmark"
+ DEN_GER_RP_fascist_DEF:0 "Nordmark"
+ DEN_GER_RP_national_socialist:0 "Nordmark"
+ DEN_GER_RP_national_socialist_DEF:0 "Nordmark"
+ 
+ ICE_GER_RK_fascist:0 "Reichskommissariat Island"
+ ICE_GER_RK_fascist_DEF:0 "Das Reichskommissariat Island"
+ ICE_GER_RK_national_socialist:0 "Reichskommissariat Island"
+ ICE_GER_RK_national_socialist_DEF:0 "Das Reichskommissariat Island"
+
+ SWE_GER_RK_fascist:0 "Reichskommissariat Schweland"
+ SWE_GER_RK_fascist_DEF:0 "Das Reichskommissariat Schweland"
+ SWE_GER_RK_national_socialist:0 "Reichskommissariat Schweland"
+ SWE_GER_RK_national_socialist_DEF:0 "Das Reichskommissariat Schweland"
+ 
+ AUS_GER_fascist:0 "Ostmark"
+ AUS_GER_fascist_DEF:0 "Ostmark"
+ AUS_GER_national_socialist:0 "Ostmark"
+ AUS_GER_national_socialist_DEF:0 "Ostmark" 
+ 
+ AUS_GER_AXIS_fascist:0 "Deutschösterreich"
+ AUS_GER_AXIS_fascist_DEF:0 "Deutschösterreich"
+ AUS_GER_AXIS_national_socialist:0 "Deutschösterreich"
+ AUS_GER_AXIS_national_socialist_DEF:0 "Deutschösterreich" 

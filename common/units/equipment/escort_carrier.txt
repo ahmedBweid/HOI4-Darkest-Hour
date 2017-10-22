@@ -1,0 +1,177 @@
+equipments = {
+######################################################################
+###################### Escort Carriers  (CVE) ##################################
+######################################################################
+	escort_carrier = {
+		is_archetype = yes
+		is_buildable = no
+		type = carrier
+		sprite = carrier
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_deckspace_upgrade
+			carrier_armor_upgrade
+			ship_engine_upgrade
+			ship_reliability_upgrade			
+		}
+		
+		ap_attack = 0
+		attack = 1
+		fire_range = 14
+		torpedo_attack = 0
+		carrier_size = 45
+		
+		anti_air_attack = 8
+		
+		armor_value = 7
+		evasion = 8
+		
+		surface_detection = 10
+		sub_detection = 0.5
+		surface_visibility = 30
+		naval_speed = 26
+		reliability = 0.70
+		
+		naval_range = 3000
+		
+		max_strength = 250
+		
+		port_capacity_usage = 2
+
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 12000
+		resources = {
+			oil = 1
+			steel = 3
+			chromium = 1
+		}
+		
+		manpower = 1100
+	}
+
+################################
+# 1912 CVE
+################################
+	escort_carrier_0 = {
+		year = 1912
+
+		archetype = escort_carrier
+		priority = 10
+		build_cost_ic = 12000
+		
+		ap_attack = 1.5
+		attack = 0
+		fire_range = 0
+		torpedo_attack = 0
+		carrier_size = 2
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+		evasion = 5
+		
+		surface_detection = 20
+		sub_detection = 5
+		surface_visibility = 12
+		naval_speed = 15
+		reliability = 0.10
+		
+		naval_range = 5000
+		
+		max_strength = 30
+		
+		port_capacity_usage = 0.7
+		
+		resources = {
+		2 steel 
+		1 oil
+		}
+		
+		manpower = 400
+	}
+
+################################
+# 1916 CVE
+################################
+	escort_carrier_1 = {
+		year = 1916
+
+		archetype = escort_carrier
+		parent = escort_carrier_0
+		priority = 40
+		
+		ap_attack = 1.5
+		attack = 8
+		fire_range = 15.5
+		torpedo_attack = 0
+		carrier_size = 2
+		
+		anti_air_attack = 8
+		
+		armor_value = 1
+		evasion = 10
+		
+		surface_detection = 20
+		sub_detection = 15
+		surface_visibility = 12
+		naval_speed = 16
+		reliability = 0.40
+
+		naval_range = 7000
+		
+		max_strength = 50
+		
+		port_capacity_usage = 0.7
+
+		build_cost_ic = 12000
+
+		resources = {
+			oil = 1
+			steel = 4
+			chromium = 1
+		}
+		manpower = 5000
+	}
+
+################################
+# 1922 CVE
+################################
+	escort_carrier_2 = {
+		year = 1922
+
+		archetype = escort_carrier
+		parent = escort_carrier_1
+		priority = 70
+		build_cost_ic = 13500
+	}
+	
+################################
+# 1940 CVE
+################################
+	escort_carrier_3 = {
+		year = 1940
+
+		archetype = escort_carrier
+		parent = escort_carrier_2
+		priority = 70
+		build_cost_ic = 3750
+	}	
+	
+################################
+# 1943 CVE
+################################
+	escort_carrier_4 = {
+		year = 1943
+
+		archetype = escort_carrier
+		parent = escort_carrier_3
+		priority = 70
+		build_cost_ic = 3750
+	}
+
+}

@@ -98,8 +98,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 170 0 30 }
-	color_ui = rgb { 170 0 30 }
+	color = rgb { 174 76 102 }
+	color_ui = rgb { 174 76 102 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -216,9 +216,11 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = rgb { 205 212 228 }
-	#color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	# color = rgb { 205 212 228 }
+	# #color = hsv { 0.05 0.3 1 }
+	# color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
 }
 LIB = {
 	color = rgb { 152 130 191 }
@@ -513,13 +515,17 @@ PAK = {
 }
 
 ####-------------------------------------- DH Colors ----------------------------------------------------
+GGP = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
 ROS = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }
 }
 RUK = {
-    color = rgb { 110 110 110 }
-    color_ui = rgb { 185 170 167 }
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
 }
 RMO = {
     color = rgb { 110 110 110 }
@@ -537,11 +543,19 @@ RUR = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }
 }
+RSB = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
 RFA = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }
 }
-JEW = {
+RMD = {
+    color = rgb { 110 110 110 }
+    color_ui = rgb { 185 170 167 }
+}
+MTA = {
     color = rgb { 110 110 110 }
     color_ui = rgb { 185 170 167 }
 }
@@ -550,7 +564,7 @@ VIC = {
 	color_ui = rgb { 25 56 104 }
 }
 EGL = {
-	color = rgb { 201 56 93 }
+	color = rgb { 168 16 32 }
 	color_ui = rgb { 255 73 121 }
 }
 WAL = {
@@ -562,12 +576,24 @@ SCO = {
 	color_ui = rgb { 47 172 255 }
 }
 
-
-
-
-D01 = {
+ETS = {
+    color = rgb { 0 0 100 }
+    color_ui = rgb { 0 0 100 }
+}
+SPA = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
+}
+SSB = {
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
+}
+
+###----- Civil War Colors ------
+
+D01 = {
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 185 170 167 }
 }
 D02 = {
 	color = rgb { 72 178 179 }

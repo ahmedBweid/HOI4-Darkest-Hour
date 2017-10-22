@@ -178,7 +178,7 @@ opinion_modifiers = {
 		value = 30
 	}
 
-	communists_in_government = {
+	stalinists_in_government = {
 		value = 30
 	}
 
@@ -194,23 +194,22 @@ opinion_modifiers = {
 	}
 	
 	same_ruling_party = {
-		value = 20
+		value = 0
 	}
 	
 	similar_ruling_party = {
-		value = 10
+		value = 0
 	}
 	
 	different_party_types = {
-		value = -10
+		value = 0
 	}
 	
 	long_term_trade_partner = {
 		value = 1
 	}
 	
-	puppet_opinion = 
-	{
+	puppet_opinion = {
 		value = 200
 	}
 
@@ -717,17 +716,4 @@ opinion_modifiers = {
 	#Yugoslavian focus
 	YUG_sold_planes = { value = 50 months = 36 decay = 1}
 
-	
-	GER_refused_staatenbund = {
-		value = -15
-		months = 12
-		decay = 1
-	}
-	fascism_leanings_good = {
-		value = 30
-	}	
-	GER_partitioned_yugoslavia_hun = { value = 10 }
-
-	GER_partitioned_yugoslavia_ita = { value = 15 }
-	
 }	

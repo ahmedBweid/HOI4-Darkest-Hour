@@ -1,0 +1,41 @@
+﻿l_english:
+###### Soviet events-------------------------------------
+ DH_soviet.3.t:0 "Death of Joseph Stalin"
+ DH_soviet.3.d:0 "Our Great Leader Joseph Stalin has passed away, leaving behind a grateful people, happy to have experienced his light. On this we will make sure concensus is reached."
+ DH_soviet.3.a:0 "May he rest now."
+ 
+ DH_soviet.1.t:0 "German-Soviet Commercial Agreement"
+ DH_soviet.1.d:0 "It seems that the Germans have need of raw material from Mother Russia. In return for the supply of oil and chromium we are to be granted letters of credit, with which we can buy consumer goods. This will relieve our population's needs for everyday goods, thus strengthening our legitimacy. On the flipside, it will also improve Germany's capacity to produce war material."
+ DH_soviet.1.a:0 "Accept the offer"
+ DH_soviet.1.b:0 "It is too dangerous"
+ 
+ DH_soviet.2.t:0 "Commercial Agreement Annulled"
+ DH_soviet.2.d:0 "Our contracting party does not seem so trusthworthy afterall."
+ DH_soviet.2.a:0 "We will make do"
+ 
+ DH_soviet.4.t:0 "Succession of Stalin"
+ DH_soviet.4.d:0 "With the passing of Stalin the position of Chairman of the Council of Ministers has become vacant. Currently, 4 men seem to have come forth to claim new leadership. Comrade, who shall it be?"
+ DH_soviet.4.a:0 "Nikita S. Khrushchev."
+ DH_soviet.4.b:0 "Georgy Malenkov." 
+ DH_soviet.4.c:0 "Lavrenti P. Beria."
+ DH_soviet.4.d:0 "Georgy Zhukov." 
+ 
+ DH_soviet.5.t:0 "Proposition from Berlin"
+ DH_soviet.5.d:0 "It seems that Berlin has finally come around, and acknowledges our shared duty in spreading the world revolution to all four corners. Combined, Germany and the Soviet Union shall embark on a crusade against the west. It merely requries our pledge of allegiance."
+ DH_soviet.5.a:0 "Let's bury the West"
+ DH_soviet.5.b:0 "We need more time"
+ 
+ DH_soviet.6.t:0 "Xinjiang Rebellion"
+ DH_soviet.6.d:0 "A Islamist rebellion has risen up in Xinjiang. We could use this to justify a war and help our Communist brothers in the fight against this opiate of the masses"
+ DH_soviet.6.a:0 "Let's help our brothers."
+ DH_soviet.6.b:0 "They can handle themselves."
+ 
+ DH_soviet.7.t:0 "Xinjiang Surrenders"
+ DH_soviet.7.d:0 "We have failed in achieving our goal of protecting our Communist brothers in Xinjiang. We should make peace with our enemy and help fuel the revolution another time."
+ DH_soviet.7.a:0 "We shall accept peace, for now."
+ DH_soviet.7.b:0 "We will continue fighting to liberate our comrades!"
+
+ DH_soviet.8.t:0 "Move Industry to the Urals"
+ DH_soviet.8.d:0 "It would be smart of us to move our industry to the Urals as a war with germany seems inevitable."
+ DH_soviet.8.a:0 "Smart move."
+ DH_soviet.8.b:0 "Don't be ridiculous"
