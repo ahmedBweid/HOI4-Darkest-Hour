@@ -1,5 +1,7 @@
 equipments = {
-
+######################################################################
+###################### Heavy Submarine  (HSS) ##################################
+######################################################################
 	heavy_submarine = {
 		year = 1922
 
@@ -17,55 +19,78 @@ equipments = {
 		
 		interface_category = interface_category_other_ships
 
-		ap_attack = 0
-		attack = 0 # Their main weapon is torpedo_attack.
-		fire_range = 6
-		torpedo_attack = 10
-		
-		anti_air_attack = 0.5
-		
-		armor_value = 0
-		evasion = 25
-		
+#Misc Stats
+		build_cost_ic = 5000
+		manpower = 200
+		port_capacity_usage = 0.5
+		naval_range = 15000
+		naval_speed = 14
+#Detection Stats
 		surface_detection = 30
 		sub_detection = 0
 		surface_visibility = 10
 		sub_visibility = 30
-		naval_speed = 14
-		reliability = 0.60
-		
-		naval_range = 2500
-		
+#Defensive Stats
+		evasion = 25
 		max_strength = 10
-		
-		port_capacity_usage = 0.5
-		
-		build_cost_ic = 450
-		resources = {
-			oil = 1
-			steel = 1
-		}
-		
-		manpower = 200
+		reliability = 0.60
+#Offensive Stats
+		fire_range = 6
+		attack = 0
+		torpedo_attack = 10
+		anti_air_attack = 0.5
+		#sub_attack = 10	
+		#shore_bombardment = 10	
+		armor_value = 0
+		ap_attack = 0
+		#carrier_size = 45		
+#Resources
+		resources = { oil = 1 steel = 1 }
+#
 	}
 
+################################
 # 1933 Heavy Sub
+################################
 	heavy_submarine_0 = {
 		year = 1933
 
 		archetype = heavy_submarine
 		priority = 80
 
-		resources = {
-			oil = 1
-			steel = 1
-		}
-		type = { 
-			submarine
-		}
+#Misc Stats
+		build_cost_ic = 5000
+		manpower = 200
+		port_capacity_usage = 0.5
+		naval_range = 15000
+		naval_speed = 14
+#Detection Stats
+		surface_detection = 30
+		sub_detection = 0
+		surface_visibility = 10
+		sub_visibility = 30
+#Defensive Stats
+		evasion = 25
+		max_strength = 10
+		reliability = 0.60
+#Offensive Stats
+		fire_range = 6
+		attack = 0
+		torpedo_attack = 10
+		anti_air_attack = 0.5
+		#sub_attack = 10	
+		#shore_bombardment = 10	
+		armor_value = 0
+		ap_attack = 0
+		#carrier_size = 45		
+#Resources
+		resources = { oil = 1 steel = 1 }
+#
 	}
 	
+################################
 # 1940 Heavy Sub
+################################
 	heavy_submarine_1 = {
 		year = 1940
 
@@ -73,6 +98,10 @@ equipments = {
 		parent = heavy_submarine_0
 		priority = 80
 
+		naval_range = 20000
+
+		build_cost_ic = 5250		
+
 		resources = {
 			oil = 1
 			steel = 1
@@ -82,7 +111,9 @@ equipments = {
 		}
 	}
 	
-# 1943 Heavy Sub
+################################
+# 1943 SuperHeavy Sub
+################################
 	heavy_submarine_2 = {
 		year = 1943
 
@@ -107,13 +138,13 @@ equipments = {
 		naval_speed = 14
 		reliability = 0.70
 
-		naval_range = 4000
+		naval_range = 24000
 		
 		max_strength = 20
 		
 		port_capacity_usage = 0.5
 		
-		build_cost_ic = 500
+		build_cost_ic = 5500
 		resources = {
 			oil = 1
 			steel = 2
@@ -122,6 +153,5 @@ equipments = {
 			submarine
 		}		
 	}
-
-	
+################################	
 }

@@ -172,7 +172,7 @@
  escort_carrier_0_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
  escort_carrier_1:0 "Converted Experimental Carrier '16"
  escort_carrier_1_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
- escort_carrier_2:0 "Escort Carrier '22"
+ escort_carrier_2:0 "Experimental Light Carrier '22"
  escort_carrier_2_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
  escort_carrier_3:0 "Escort Carrier '40"
  escort_carrier_3_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
@@ -552,7 +552,7 @@
  JAP_destroyer_5:0 "Shiratsuyu-class"
  JAP_destroyer_6:0 "Kagero-class"
  JAP_destroyer_7:0 "Akizuki-class"
- JAP_destroyer_8:0 "Matsu-class"
+ JAP_destroyer_8:0 "Shimakaze-class"
  
  JAP_light_cruiser_0:0 "Naniwa-class"
  JAP_light_cruiser_1:0 "Chitose-class"
@@ -578,7 +578,6 @@
  JAP_battle_cruiser_3:0 "Tsushima-class"
  JAP_battle_cruiser_4:0 "B-65-class"
 
- 
  JAP_battleship_0:0 "Fuji-class"
  JAP_battleship_1:0 "Mikasa-class"
  JAP_battleship_2:0 "Kawachi-class"
@@ -586,25 +585,25 @@
  JAP_battleship_4:0 "Ise-class"
  JAP_battleship_5:0 "Nagato-class"
  JAP_battleship_6:0 "Kii-class"
- JAP_battleship_7:0 "No. 13-class"
+ JAP_battleship_7:0 "Kitami-class" #No. 13
  JAP_battleship_8:0 "Fujimoto-class"
  JAP_battleship_9:0 "Yokozuna-class"
  
  JAP_SH_battleship_1:0 "Yamato-class"
- JAP_SH_battleship_2:0 "A-150-class"
+ JAP_SH_battleship_2:0 "Super Yamato-class"
  
  JAP_carrier_0:0 "Akagi-class"
- JAP_carrier_1:0 "G8-class"
+ JAP_carrier_1:0 "Kaga-class"
  JAP_carrier_2:0 "Soryu-class"
  JAP_carrier_3:0 "Shokaku-class"
  JAP_carrier_4:0 "Taiho-class"
  JAP_carrier_5:0 "Unryu-class"
  JAP_carrier_6:0 "Jinryu-class"
 
- 
  JAP_escort_carrier_0:0 "Wakamiya-class"
- JAP_escort_carrier_2:0 "Akitsu Maru-class"
- JAP_escort_carrier_3:0 "Hosho-class"
+ JAP_escort_carrier_1:0 "Wakamiya-kan-class"
+ JAP_escort_carrier_2:0 "Hosho-class"
+ JAP_escort_carrier_3:0 "Taiyō-class"
  JAP_escort_carrier_4:0 "Shimane Maru-class"
 
  JAP_light_carrier_0:0 "Ryujo-class"
