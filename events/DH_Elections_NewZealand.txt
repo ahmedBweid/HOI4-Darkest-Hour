@@ -1,0 +1,115 @@
+﻿###########################
+# Darkest Hour Election Events : New Zealand
+###########################
+
+add_namespace = DH_election_newzealand
+
+#########################################################################
+#  New Zealand elections 1941
+#########################################################################
+country_event = { 
+	id = DH_election_newzealand.1
+	title = DH_election_newzealand.1.t
+	desc = DH_election_newzealand.1.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = NZL
+		ideology_group_democracy = yes
+		date > 10.6.1941
+	}
+
+	# Elect Left (Social Democrat) : Norton Louis Baron Newall, HoG Peter Fraser
+	option = { 
+		name = DH_election_newzealand.1.a
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = social_democrat }
+		create_country_leader = { 
+			name = "Norton Louis Baron Newall" 
+			desc = "" 
+			picture = "Portrait_NewZealand_Norton_Louis.dds" 
+			expire = "1965.1.1" 
+			ideology = social_liberalism
+			traits = { } 
+		}
+	}
+	
+	# Elect Right (Soc Conservative) : Norton Louis Baron Newall, HoG Adam Hamilton
+	option = {
+		name = DH_election_newzealand.1.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }
+		create_country_leader = { 
+			name = "Albert Lebrun" 
+			desc = "" 
+			picture = "Portrait_NewZealand_Norton_Louis.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}
+	}
+
+	# Keep Current
+	option = { 
+		name = DH_election_newzealand.1.c
+		ai_chance = { factor = 10 }
+	}	
+}
+
+#########################################################################
+#  New Zealand elections 1946
+#########################################################################
+country_event = { 
+	id = DH_election_newzealand.2
+	title = DH_election_newzealand.2.t
+	desc = DH_election_newzealand.2.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = NZL
+		ideology_group_democracy = yes
+		date > 10.6.1946
+	}
+
+	# Elect Left (Social Democrat) : Bernhard Baron Freyberg, HoG Peter Fraser
+	option = { 
+		name = DH_election_newzealand.2.a
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = social_democrat }
+		create_country_leader = { 
+			name = "Bernhard Baron Freyberg" 
+			desc = "" 
+			picture = "Portrait_NewZealand_Bernhard_Baron_Freyberg.dds" 
+			expire = "1965.1.1" 
+			ideology = social_democracy
+			traits = { } 
+		}
+	}
+	
+	# Elect Right (Soc Conservative) : Bernhard Baron Freyberg , HoG Sydney Holland
+	option = {
+		name = DH_election_newzealand.2.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }
+		create_country_leader = { 
+			name = "Bernhard Baron Freyberg" 
+			desc = "" 
+			picture = "Portrait_NewZealand_Bernhard_Baron_Freyberg.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}
+	}
+
+	# Keep Current
+	option = {
+		name = DH_election_newzealand.2.c
+		ai_chance = { factor = 10 }
+	}	
+}
+
+

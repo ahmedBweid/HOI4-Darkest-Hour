@@ -1,0 +1,54 @@
+﻿l_english:
+###############################################
+## Laws and Policies 
+##############################################
+
+
+##### Governement Types #####################################
+ communist_govt:0 "Communist State"
+ fascist_govt:0 "Fascist State"
+ democratic_govt:0 "Democratic State"
+
+##### Civil Laws #####################################
+ idea_group_civil_laws:0 "Civil Laws"
+ civil_laws:0 "Civil Laws"
+ open_society:0 "Open Society	"
+ limited_restrictions:0 "Limited Restrictions"
+ legalisic_restrictions:0 "Legalisic Restrictions"
+ repression:0 "Repression"
+ totalitarian_system:0 "Totalitarian System"
+
+##### Foreign Policy ###################################
+ idea_group_foreign_policy:0 "Foreign Policy"
+ foreign_policy:0 "Foreign Policy"
+ isolationism:0 "Neutrality"
+ dove_policy:0 "Dove Policy"
+ detente:0 "Détente" 
+ containment:0 "Containment"
+ hardline:0 "Hardline"
+ interventionsm:0 "Interventionsm"
+ 
+###############################################
+## Cabinet
+##############################################
+ cabinet:0 "Cabinet"
+ Head_of_Government:0 "Head of Government"
+ Foreign_Minister:0 "Foreign Minister"
+ Minister_of_Security:0 "Minister of Security"
+ Armaments_Minister:0 "Armaments Minister"
+ 
+ ##### Political Agenda ####################################################
+ political_agenda:0 "Political Agenda"
+
+ drift_National_Socialist:0 "Drift to National Soc."
+ drift_Fascist:0 "Drift to Fascism"
+ drift_Paternal_Autocrat:0 "Drift to Pat. Autocracy."
+
+ drift_Social_Conservative:0 "Drift to Soc. Cons."
+ drift_Market_Liberal:0 "Drift to Market. Lib."
+ drift_Social_Liberal:0 "Drift to Social. Lib."
+ drift_Social_Democrat:0 "Drift to Soc. Dem."
+
+ drift_Left_Wing_Radical:0 "Drift to LWR"
+ drift_Leninist:0 "Drift to Leninism"
+ drift_Stalinist:0 "Drift to Stalinism"

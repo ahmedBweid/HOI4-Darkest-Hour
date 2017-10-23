@@ -6,13 +6,13 @@ set_research_slots = 4
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
-	gwtank = 1
+	
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
@@ -20,17 +20,64 @@ set_technology = {
 	naval_bomber1 = 1
 	CAS1 = 1
 	early_bomber = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	basic_carrier = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
+#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+	destroyer_1922 = 1
+	destroyer_1933 = 1	
+	
+	light_cruiser_1885 = 1
+	light_cruiser_1900 = 1
+	light_cruiser_1912 = 1
+	light_cruiser_1922 = 1
+	light_cruiser_1933 = 1	
+	light_cruiser_1936 = 1
+	
+	heavy_cruiser_1885 = 1
+	heavy_cruiser_1895 = 1
+	heavy_cruiser_1906 = 1
+	heavy_cruiser_1922 = 1
+	heavy_cruiser_1933 = 1	
+	heavy_cruiser_1936 = 1
+	
+	submarine_1895 = 1
+	submarine_1912 = 1
+	submarine_1916 = 1
+	submarine_1922 = 1	
+	submarine_1933 = 1
+	
+	battlecruiser_1906 = 1
+	battlecruiser_1912 = 1
+	battlecruiser_1916 = 1
+	
+	battleship_1885 = 1
+	battleship_1895 = 1
+	battleship_1900 = 1
+	battleship_1906 = 1
+	battleship_1912 = 1
+	battleship_1916 = 1
+	battleship_1922 = 1	
+	battleship_1933 = 1
+	
+	escort_carrier_1912 = 1
+	escort_carrier_1916 = 1
+	escort_carrier_1922 = 1
+	
+	carrier_1922 = 1	
+	carrier_1930 = 1
+	carrier_1933 = 1	
+	carrier_1936 = 1	
+	
 	transport = 1
+#
 	superior_firepower = 1
 	base_strike = 1
 
@@ -66,7 +113,7 @@ give_guarantee = URG
 	#adding ministers
 	add_ideas = {
 		USA_robert_taft
-		carl_spaatz
+		#carl_spaatz
 		jimmy_doolittle
 		army_ordnance_department
 		general_electric
@@ -103,18 +150,14 @@ give_guarantee = URG
 		tactical_bomber1 = 1
 		CAS2 = 1
 		strategic_bomber1 = 1
-		basic_light_tank = 1
+		
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
-		infantry_rifle2 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		marines = 1
-		improved_submarine = 1
-		basic_destroyer = 1
-		basic_heavy_cruiser = 1
-		basic_battlecruiser = 1
 
 		#doctrines
 		#Air
@@ -170,21 +213,19 @@ set_national_unity = 0.6
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 1
-			#banned = no #default is no
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 39 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 61 }		
+		social_democrat = { popularity = 0 }		
+		left_wing_radical = { popularity = 0 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_liberal
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -211,60 +252,124 @@ set_autonomy = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 99
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
+			national_socialist = { popularity = 0 }		
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 0 }		
+			social_conservative = { popularity = 39 }		
+			market_liberal = { popularity = 0 }		
+			social_liberal = { popularity = 61 }		
+			social_democrat = { popularity = 0 }		
+			left_wing_radical = { popularity = 0 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 0 }	
 		}
 		
-		ruling_party = democratic
+		ruling_party = social_liberal
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 }
 
+####################################################
+## US Leaders
+####################################################
+#NS
 create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	name = "Fritz Julius Kuhn"
+	desc = ""
+	picture = "DH_Fritz_Julius_Kuhn.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = { }
+}
+#FA
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = ""
+	picture = "DH_William_Dudley_Pelley.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = { }
+}
+#PA
+create_country_leader = {
+	name = "Gerald L. K. Smith"
+	desc = ""
+	picture = "DH_Gerald_Smith.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = { }
+}
+#SC
+create_country_leader = {
+	name = "Herbert Hoover"
+	desc = ""
+	picture = "DH_Herbert_Hoover.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = social_conservatism
+	traits = { }
+}
+#ML
+create_country_leader = {
+	name = "Alf M. Landon"
+	desc = ""
+	picture = "DH_Alf_Landon.dds"
+	expire = "1947.1.1"
+	ideology = market_liberalism
+	traits = { }
+}
+#SL
+create_country_leader = {
+	name = "Franklin D. Roosevelt"
+	desc = ""
+	picture = "DH_Franklin_Roosevelt.dds"
+	expire = "1947.1.1"
+	ideology = social_liberalism
 	traits = {
 		dislikes_germany
 	}
 }
-
+#SD
 create_country_leader = {
-	name = "William Dudley Pelley"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
+	name = "Allan L. Benson"
+	desc = ""
+	picture = "DH_Allan_Benson.dds"
+	expire = "1947.1.1"
+	ideology = social_democracy
+	traits = { }
 }
-
+#LWR
+create_country_leader = {
+	name = "Norman Thomas"
+	desc = ""
+	picture = "DH_Norman_Thomas.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = { }
+}
+#LE
+create_country_leader = {
+	name = "Joseph P. Lash"
+	desc = ""
+	picture = "DH_Joseph_Lash.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = { }
+}
+#ST
 create_country_leader = {
 	name = "Earl Browder"
-	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "Portrait_USA_Generic_1.dds"
+	desc = ""
+	picture = "DH_Earl_Browder.dds"
 	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
+	ideology = stalinism
+	traits = { }
 }
 
+####################################################
+## US Generals
+####################################################
 create_corps_commander = {
 	name = "George S. Patton"
 		picture = "Portrait_USA_George_S_Patton.dds"
@@ -449,6 +554,9 @@ create_navy_leader = {
 	skill = 5
 }
 
+####################################################
+## US Admirals
+####################################################
 create_navy_leader = {
 	name = "William Halsey, Jr."
 		picture = "Portrait_USA_William_Halsey_Jr.dds"
@@ -491,8 +599,10 @@ create_navy_leader = {
 	skill = 2
 }
 
-### Ship Variants ###
 
+####################################################
+## US Variants
+####################################################
 create_equipment_variant = {
 	name = "Barracuda Class"
 	type = submarine_1

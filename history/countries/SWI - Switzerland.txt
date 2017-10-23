@@ -5,14 +5,21 @@ oob = "SWI_1936"
 set_research_slots = 3
 
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_mountaineers = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	early_fighter = 1
 	CAS1 = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
 }
 
 1939.1.1 = {
@@ -35,7 +42,7 @@ set_technology = {
 		gw_artillery = 1
 		interwar_artillery = 1
 		interwar_antiair = 1
-		infantry_eq_up = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
 
 		#doctrines
@@ -70,20 +77,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 96
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 2
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 24 }		
+		market_liberal = { popularity = 54 }		
+		social_liberal = { popularity = 16 }		
+		social_democrat = { popularity = 3 }		
+		left_wing_radical = { popularity = 2 }		
+		leninist = { popularity = 1 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = democratic
+	ruling_party = market_liberal
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
@@ -93,20 +99,19 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 95
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 3
-			}
+			national_socialist = { popularity = 0 }		
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 0 }		
+			social_conservative = { popularity = 24 }		
+			market_liberal = { popularity = 3 }		
+			social_liberal = { popularity = 16 }		
+			social_democrat = { popularity = 54 }		
+			left_wing_radical = { popularity = 2 }		
+			leninist = { popularity = 1 }		
+			stalinist = { popularity = 0 }	
 		}
 		
-		ruling_party = democratic
+		ruling_party = social_democrat
 		last_election = "1935.10.27"
 		election_frequency = 48
 		elections_allowed = yes
@@ -121,11 +126,11 @@ add_ideas = {
 set_national_unity = 0.85
 
 create_country_leader = {
-	name = "Federal Council"
+	name = "Albert Meyer"
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_democracy
 	traits = {
 		#
 	}
@@ -136,7 +141,7 @@ create_country_leader = {
 	desc = "POLITICS_ERNST_BEGUIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -147,7 +152,7 @@ create_country_leader = {
 	desc = "POLITICS_MAX_LEO_KELLER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_socialism
 	traits = {
 		#
 	}
@@ -158,7 +163,7 @@ create_country_leader = {
 	desc = "POLITICS_FRITZ_PLATTEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}

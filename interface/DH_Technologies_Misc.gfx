@@ -1,0 +1,36 @@
+spriteTypes = {	
+
+### Rocketry --------------------------------
+
+	SpriteType = {
+		name = "GFX_flying_bomb_medium"
+		texturefile = "gfx/interface/technologies/Misc/experimental_rockets.dds"	
+	}
+	SpriteType = {
+		name = "GFX_theoretical_jet_engines_medium"
+		texturefile = "gfx/interface/technologies/Misc/jet_engines.dds"	
+	}	
+	
+	
+### Nuclear Program --------------------------
+
+	SpriteType = {
+		name = "GFX_nuclear_research_medium"
+		texturefile = "gfx/interface/technologies/Misc/atomic_research.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_nuclear_fuel_medium"
+		texturefile = "gfx/interface/technologies/Misc/nuclear_reactor.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_hydrogen_nukes_medium"
+		texturefile = "gfx/interface/technologies/Misc/nukes.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_nuclear_propulsion_medium"
+		texturefile = "gfx/interface/technologies/Misc/nuclear_propulsion.dds"	
+	}
+}

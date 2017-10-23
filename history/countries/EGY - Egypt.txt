@@ -2,8 +2,8 @@
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	gwtank = 1
+	infantry_weapons = 1
+	
 }
 
 set_convoys = 20
@@ -62,35 +62,39 @@ set_convoys = 20
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 50
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 40 }		
+		social_conservative = { popularity = 60 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 0 }		
+		social_democrat = { popularity = 0 }		
+		left_wing_radical = { popularity = 0 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = neutrality
+	ruling_party = social_conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
+	name = "Fuad I"
+	desc = ""
+	picture = "Portrait_Egypt_Fuad_I.dds"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Muhammad Naguib"
 	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
-	ideology = liberalism
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_social_conservative1.dds"
+	ideology = social_liberalism
 	traits = {
 		#
 	}
@@ -100,7 +104,7 @@ create_country_leader = {
 	name = "Ahmed Husayn"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -110,7 +114,7 @@ create_country_leader = {
 	name = "Farouk Muhammad Ali"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}

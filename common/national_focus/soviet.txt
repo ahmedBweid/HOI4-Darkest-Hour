@@ -1,0 +1,1330 @@
+focus_tree = {
+	id = soviet_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	focus = {
+		id = SOV_glavit
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		cost = 10.00
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = SOV_new_constitution
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		x = 17
+		y = 0
+
+	}
+	focus = {
+		id = SOV_soviet_railways
+		icon = GFX_goal_continuous_non_factory_construct
+		cost = 10.00
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = SOV_the_five_year_plan
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = SOV_the_red_army
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 10.00
+		x = 32
+		y = 0
+
+	}
+	focus = {
+		id = SOV_the_red_fleet
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		x = 38
+		y = 0
+
+	}
+	focus = {
+		id = SOV_army_air_forces
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		x = 44
+		y = 0
+
+	}
+	focus = {
+		id = SOV_baikal_amur_mainline
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_soviet_railways
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = SOV_kolyma_road
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_baikal_amur_mainline
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = SOV_aeroflot
+		icon = GFX_focus_YUG_rogozarski
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_kolyma_road
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = SOV_move_industry_to_the_urals
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_baikal_amur_mainline
+		}
+		prerequisite = {
+			focus = SOV_the_five_year_plan
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = SOV_stakhanovite_movement
+		icon = GFX_focus_YUG_pan_slavic_congress
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_glavit
+		}
+		prerequisite = {
+			focus = SOV_the_five_year_plan
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = SOV_finish_collectivisation
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_stakhanovite_movement
+		}
+		mutually_exclusive = {
+			focus = SOV_restore_the_nep
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = SOV_restore_the_nep
+		icon = GFX_goal_generic_trade
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_stakhanovite_movement
+		}
+		mutually_exclusive = {
+			focus = SOV_finish_collectivisation
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = SOV_ural_mountains_mines
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_finish_collectivisation
+			focus = SOV_restore_the_nep
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = SOV_baku_oil_fields
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_ural_mountains_mines
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = SOV_transformation_of_nature
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_restore_the_nep
+			focus = SOV_finish_collectivisation
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = SOV_virgin_lands_campaign
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_transformation_of_nature
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = SOV_socialist_realism
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_glavit
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = SOV_positive_heroism
+		icon = GFX_goal_generic_cavalry
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_socialist_realism
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = SOV_new_soviet_man
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_positive_heroism
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = SOV_women_in_the_workforce
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_new_soviet_man
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = SOV_ussr_academy_of_sciences
+		icon = GFX_focus_generic_socialist_science
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_socialist_realism
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = SOV_peoples_commissariat_of_defense_industry
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_new_constitution
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = SOV_united_industrial_academy
+		icon = GFX_goal_generic_air_production
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_ussr_academy_of_sciences
+		}
+		prerequisite = {
+			focus = SOV_peoples_commissariat_of_defense_industry
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = SOV_experimental_design_bureau
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_united_industrial_academy
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = SOV_closed_cities
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_united_industrial_academy
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = SOV_rocket_program
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_closed_cities
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = SOV_space_program
+		icon = GFX_focus_rocketry
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_rocket_program
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = SOV_develope_siberia
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_peoples_commissariat_of_defense_industry
+		}
+		mutually_exclusive = {
+			focus = SOV_transfer_labour_force
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = SOV_transfer_labour_force
+		icon = GFX_goal_continuous_repairments
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_peoples_commissariat_of_defense_industry
+		}
+		mutually_exclusive = {
+			focus = SOV_develope_siberia
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = SOV_main_camps_administration
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_develope_siberia
+			focus = SOV_transfer_labour_force
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = SOV_decossackization
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_peoples_commissariat_of_defense_industry
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = SOV_supress_ukraine
+		icon = GFX_focus_rom_handle_king
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_decossackization
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = SOV_war_rationing
+		icon = GFX_focus_AST_rats_tobruk
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_supress_ukraine
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = SOV_commision_of_reparations
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_war_rationing
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = SOV_struggle_for_peace
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_commision_of_reparations
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = SOV_cult_of_personality
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_new_constitution
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = SOV_favour_trotskiism
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_cult_of_personality
+		}
+		mutually_exclusive = {
+			focus = SOV_favour_stalinism
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = SOV_permanent_revolution
+		icon = GFX_goal_support_fourth_int
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_favour_trotskiism
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = SOV_united_front
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_permanent_revolution
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = SOV_the_fourth_international
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_united_front
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = SOV_ash_heep_of_history
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_the_fourth_international
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = SOV_favour_stalinism
+		icon = GFX_goal_generic_attack_allies
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_cult_of_personality
+		}
+		mutually_exclusive = {
+			focus = SOV_favour_trotskiism
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = SOV_socialism_in_one_country
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_favour_stalinism
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = SOV_supress_kulaks
+		icon = GFX_focus_rom_abdicate
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_socialism_in_one_country
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = SOV_stalinist_comintern
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_supress_kulaks
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = SOV_the_great_purge
+		icon = GFX_focus_CZE_german_puppet
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_stalinist_comintern
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = SOV_ottopel
+		icon = GFX_goal_continuous_restrict_freedom
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_ash_heep_of_history
+			focus = SOV_the_great_purge
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = SOV_nkvd_primacy
+		icon = GFX_goal_generic_military_deal
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_new_constitution
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = SOV_home_of_the_revolution
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_nkvd_primacy
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = SOV_finnish_s.s.r
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_home_of_the_revolution
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = SOV_anti_fascist_diplomacy
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_home_of_the_revolution
+		}
+		mutually_exclusive = {
+			focus = SOV_soviet_german_collaboration
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = SOV_trans_iranian_railway
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_anti_fascist_diplomacy
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = SOV_iranian_s.s.r
+		icon = GFX_focus_generic_home_defense
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_trans_iranian_railway
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = SOV_mahabad
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_iranian_s.s.r
+		}
+		x = 23
+		y = 8
+
+	}
+	focus = {
+		id = SOV_soviet_german_collaboration
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_home_of_the_revolution
+		}
+		mutually_exclusive = {
+			focus = SOV_anti_fascist_diplomacy
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = SOV_claim_eastern_poland
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_anti_fascist_diplomacy
+			focus = SOV_soviet_german_collaboration
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = SOV_claim_the_straights
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_claim_eastern_poland
+		}
+		mutually_exclusive = {
+			focus = SOV_soviet_turkish_cooperation
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = SOV_soviet_turkish_cooperation
+		icon = GFX_goal_tripartite_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_claim_eastern_poland
+		}
+		mutually_exclusive = {
+			focus = SOV_claim_the_straights
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = SOV_anti_imperialist_policy
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_claim_the_straights
+			focus = SOV_soviet_turkish_cooperation
+		}
+		x = 25
+		y = 6
+	}
+	focus = {
+		id = SOV_support_ethiopian_independence
+		#icon
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_anti_imperialist_policy
+		}
+		x = 27
+		y = 7
+	}
+	focus = {
+		id = SOV_support_angolese_independence
+		#icon
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_support_ethiopian_independence
+		}
+		x = 27
+		y = 8
+	}
+	focus = {
+		id = SOV_establish_soviet_cuban_relations
+		#icon
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_support_angolese_independence
+		}
+		x = 27
+		y = 9
+	}
+	focus = {
+		id = SOV_support_algerian_independence
+		#icon
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_establish_soviet_cuban_relations
+		}
+		x = 27
+		y = 10
+	}
+	focus = {
+		id = SOV_cominform
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_anti_imperialist_policy
+		}
+		x = 25
+		y = 7
+
+	}
+	focus = {
+		id = SOV_comecon
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_cominform
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = SOV_iron_curtain
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_comecon
+		}
+		x = 26
+		y = 11
+
+	}
+	focus = {
+		id = SOV_military_reorginization
+		icon = GFX_goal_generic_build_tank
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_the_red_army
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = SOV_soviet_military_academies
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_military_reorginization
+		}
+		x = 30
+		y = 4
+
+	}
+	focus = {
+		id = SOV_smersh
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_soviet_military_academies
+		}
+		x = 29
+		y = 6
+
+	}
+	focus = {
+		id = SOV_shtrafbat
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_smersh
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = SOV_camapign_for_mass_mechanisation
+		icon = GFX_goal_generic_army_motorized
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_military_reorginization
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = SOV_is_tank
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_camapign_for_mass_mechanisation
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = SOV_the_red_guard
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_soviet_military_academies
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = SOV_deep_operations_doctrine
+		icon = GFX_goal_generic_military_sphere
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_camapign_for_mass_mechanisation
+		}
+		x = 32
+		y = 5
+
+	}
+	focus = {
+		id = SOV_signal_corps_administration
+		icon = GFX_goal_generic_special_forces
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_deep_operations_doctrine
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = SOV_scorched_earth_policy
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_deep_operations_doctrine
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = SOV_partisans
+		icon = GFX_goal_continuous_suppression
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_scorched_earth_policy
+		}
+		x = 31
+		y = 7
+
+	}
+	focus = {
+		id = SOV_pan_slavic_alliance
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_partisans
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = SOV_karelian_fortified_region
+		icon = GFX_goal_generic_fortify_city
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_military_reorginization
+		}
+		x = 34
+		y = 2
+
+	}
+	focus = {
+		id = SOV_molotov_line
+		icon = GFX_goal_continuous_def_against_influence
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_karelian_fortified_region
+		}
+		mutually_exclusive = {
+			focus = SOV_stalin_line
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = SOV_disband_political_commissars
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_scorched_earth_policy
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = SOV_mass_conscription
+		icon = GFX_focus_YUG_pan_slavic_congress
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_disband_political_commissars
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = SOV_stalin_line
+		icon = GFX_goal_generic_construct_military
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_karelian_fortified_region
+		}
+		mutually_exclusive = {
+			focus = SOV_molotov_line
+		}
+		x = 35
+		y = 3
+
+	}
+	focus = {
+		id = SOV_defense_of_moscow
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_molotov_line
+			focus = SOV_stalin_line
+		}
+		x = 34
+		y = 4
+
+	}
+	focus = {
+		id = SOV_soviet_naval_infantry_men
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_the_red_army
+		}
+		prerequisite = {
+			focus = SOV_the_red_fleet
+		}
+		x = 36
+		y = 1
+
+	}
+	focus = {
+		id = SOV_repurpose_naval
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_soviet_naval_infantry_men
+		}
+		x = 36
+		y = 2
+
+	}
+	focus = {
+		id = SOV_operational_readiness_system
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_the_red_fleet
+		}
+		x = 38
+		y = 1
+
+	}
+	focus = {
+		id = SOV_northern_sea_fleet
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_operational_readiness_system
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = SOV_defense_of_zapolyarye
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_northern_sea_fleet
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = SOV_northern_thrust
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_defense_of_zapolyarye
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = SOV_baltic_sea_fleet
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_operational_readiness_system
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = SOV_aviation_cult
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_army_air_forces
+		}
+		x = 44
+		y = 1
+
+	}
+	focus = {
+		id = SOV_soviet_naval_aviation
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_the_red_fleet
+		}
+		prerequisite = {
+			focus = SOV_army_air_forces
+		}
+		x = 40
+		y = 1
+
+	}
+	focus = {
+		id = SOV_black_sea_fleet
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_operational_readiness_system
+		}
+		x = 41
+		y = 3
+
+	}
+	focus = {
+		id = SOV_pacific_fleet
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_operational_readiness_system
+		}
+		x = 43
+		y = 3
+
+	}
+	focus = {
+		id = SOV_lend_lease_ships
+		icon = GFX_goal_continuous_naval_production
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_northern_sea_fleet
+			focus = SOV_baltic_sea_fleet
+			focus = SOV_black_sea_fleet
+			focus = SOV_pacific_fleet
+		}
+		x = 42
+		y = 4
+
+	}
+	focus = {
+		id = SOV_soviet_military_maritime_fleet
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_lend_lease_ships
+		}
+		x = 42
+		y = 5
+
+	}
+	focus = {
+		id = SOV_women_in_aviation
+		icon = GFX_focus_YUG_ikarus
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_army_air_forces
+		}
+		x = 42
+		y = 1
+
+	}
+	focus = {
+		id = SOV_central_aerohydrodynamic_institute
+		icon = GFX_focus_CZE_military_aeronautical_institute
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_aviation_cult
+		}
+		x = 44
+		y = 4
+
+	}
+	focus = {
+		id = SOV_lend_lease_aircraft
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_central_aerohydrodynamic_institute
+		}
+		x = 43
+		y = 5
+
+	}
+	focus = {
+		id = SOV_ministry_of_aviation_industry
+		icon = GFX_goal_generic_air_production
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_central_aerohydrodynamic_institute
+		}
+		x = 45
+		y = 5
+
+	}
+	focus = {
+		id = SOV_jet_engine_aircraft
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_lend_lease_aircraft
+			focus = SOV_ministry_of_aviation_industry
+		}
+		x = 44
+		y = 6
+
+	}
+	focus = {
+		id = SOV_operation_zet
+		icon = GFX_focus_YUG_zmaj
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_anti_fascist_diplomacy
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = SOV_invasion_of_manchuria
+		icon = GFX_focus_AST_war_japan
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_operation_zet
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = SOV_sino_soviet_treaty_of_friendship
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_invasion_of_manchuria
+		}
+		mutually_exclusive = {
+			focus = SOV_mongolian_s.s.r
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = SOV_afghan_s.s.r
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_mahabad
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = SOV_warsaw_pact
+		icon = GFX_focus_generic_polish_deal
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_comecon
+		}
+		x = 24
+		y = 11
+
+	}
+	focus = {
+		id = SOV_demand_aland_islands
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_finnish_s.s.r
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = SOV_mongolian_s.s.r
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_invasion_of_manchuria
+		}
+		mutually_exclusive = {
+			focus = SOV_sino_soviet_treaty_of_friendship
+		}
+		x = 19
+		y = 7
+
+	}
+	focus = {
+		id = SOV_sinkiang_s.s.r
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_mongolian_s.s.r
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = SOV_sino_soviet_alliance
+		icon = GFX_goal_generic_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_sinkiang_s.s.r
+		}
+		prerequisite = {
+			focus = SOV_sino_soviet_treaty_of_friendship
+		}
+		mutually_exclusive = {
+			focus = SOV_manchuria_s.s.r
+		}
+		x = 21
+		y = 9
+
+	}
+	focus = {
+		id = SOV_manchuria_s.s.r
+		icon = GFX_focus_generic_japanese_imperial_glory
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_sinkiang_s.s.r
+		}
+		mutually_exclusive = {
+			focus = SOV_sino_soviet_alliance
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = SOV_strike_the_west
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_warsaw_pact
+		}
+		prerequisite = {
+			focus = SOV_iron_curtain
+		}
+		x = 25
+		y = 12
+
+	}
+}

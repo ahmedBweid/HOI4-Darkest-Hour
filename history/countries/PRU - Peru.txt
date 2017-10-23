@@ -4,15 +4,26 @@ oob = "PRU_1936"
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
+	infantry_weapons = 1
 	gw_artillery = 1
 	early_fighter = 1
 	cv_early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
+#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+	
+	light_cruiser_1885 = 1
+	light_cruiser_1900 = 1
+	light_cruiser_1912 = 1
+	
+	submarine_1895 = 1
+	submarine_1912 = 1
+	submarine_1916 = 1
+#
 }
 set_country_flag = monroe_doctrine
 
@@ -37,8 +48,8 @@ set_convoys = 5
 	set_technology = {
 		tactical_bomber1 = 1
 		interwar_artillery = 1
-		infantry_rifle1 = 1
-		infantry_rifle2 = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
 
 		#doctrines
@@ -70,32 +81,30 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 49
-		}
-
-		fascism = {
-			popularity = 51
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 51 }		
+		social_conservative = { popularity = 28 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 8 }		
+		social_democrat = { popularity = 8 }		
+		left_wing_radical = { popularity = 5 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = fascism
+	ruling_party = paternal_autocrat
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Óscar Benavides"
+	name = "Oscar Benavides Larrea"
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	picture = "Portrait_Peru_Oscar_Benavides.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -105,21 +114,19 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 49
-			}
-
-			fascism = {
-				popularity = 51
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
+			national_socialist = { popularity = 0 }		
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 51 }		
+			social_conservative = { popularity = 28 }		
+			market_liberal = { popularity = 0 }		
+			social_liberal = { popularity = 8 }		
+			social_democrat = { popularity = 8 }		
+			left_wing_radical = { popularity = 5 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 0 }	
 		}
 		
-		ruling_party = fascism
+		ruling_party = paternal_autocrat
 		last_election = "1931.10.11"
 		election_frequency = 96
 		elections_allowed = yes
@@ -130,7 +137,7 @@ create_country_leader = {
 		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 		expire = "1965.1.1"
-		ideology = fascism_ideology
+		ideology = fascist_ideology
 		traits = {
 			#
 		}

@@ -10,14 +10,28 @@ set_technology = {
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
-	gwtank = 1
-	basic_light_tank = 1
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	gw_artillery = 1
 	early_fighter = 1
-	early_submarine = 1
-	early_destroyer = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
+	light_tank_1924 = 1
+#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+
+	submarine_1895 = 1
+	submarine_1912 = 1
+	submarine_1916 = 1
+#
 }
 
 #Ideas
@@ -90,7 +104,7 @@ set_convoys = 10
 			desc = "POLITICS_CAROL_II_DESC"
 			picture = GFX_Portrait_romania_Carol_II			
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = paternal_autocracy
 			traits = {
 				hedonist
 				camarilla_leader
@@ -123,14 +137,14 @@ set_convoys = 10
 		fighter1 = 1
 		early_bomber = 1
 		tactical_bomber1 = 1
-		basic_light_tank = 1
+		
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
 		tech_recon = 1
-		infantry_rifle2 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
-		basic_submarine = 1
+
 
 		#doctrines
 		#Air
@@ -167,86 +181,45 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 18
-		}
-		
-		communism = {
-			popularity = 2
-		}
-		
-		neutrality = { 
-			popularity = 60
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 16 }		
+		paternal_autocrat = { popularity = 5 }		
+		social_conservative = { popularity = 14 }		
+		market_liberal = { popularity = 36 }		
+		social_liberal = { popularity = 21 }		
+		social_democrat = { popularity = 3 }		
+		left_wing_radical = { popularity = 5 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = neutrality
+	ruling_party = market_liberal
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 1939.1.1 = {
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
 	set_politics = {
-		parties = {
-			democratic = { 
-				popularity = 20
-			}
 
-			fascism = {
-				popularity = 35
-			}
-		
-			communism = {
-				popularity = 2
-			}
-		
-			neutrality = { 
-				popularity = 43
-			}
+		parties = {
+			national_socialist = { popularity = 0 }		
+			fascist = { popularity = 60 }		
+			paternal_autocrat = { popularity = 80 }		
+			social_conservative = { popularity = 40 }		
+			market_liberal = { popularity = 35 }		
+			social_liberal = { popularity = 20 }		
+			social_democrat = { popularity = 20 }		
+			left_wing_radical = { popularity = 30 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 0 }	
 		}
-	
-		ruling_party = neutrality
+		
+		ruling_party = paternal_autocrat
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
-	else = {
-		set_politics = {
-
-			parties = {
-				democratic = { 
-					popularity = 48
-				}
-	
-				fascism = {
-					popularity = 30
-				}
-			
-				communism = {
-					popularity = 2
-				}
-				
-				neutrality = { 
-					popularity = 20
-				}
-			}
-		
-			ruling_party = democratic
-			last_election = "1939.7.15"
-			election_frequency = 48
-			elections_allowed = no
-		}
-	}
-}
 }
 
 create_country_leader = {
@@ -254,7 +227,7 @@ create_country_leader = {
 	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
 	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -272,11 +245,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Armand Calinescu"
-	desc = "POLITICS_ARMAND_CALINESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+	name = "Carol II"
+	desc = "POLITICS_Carol_II_DESC"
+	picture = "Portrait_Romania_Carol_II.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = market_liberalism
 	traits = {
 		#
 	}
@@ -287,7 +260,7 @@ create_country_leader = {
 	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
 	picture = "Portrait_Romania_Octavian_Goga.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -298,7 +271,7 @@ create_country_leader = {
 	desc = "POLITICS_ION_ANTONESCU_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}

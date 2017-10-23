@@ -4,7 +4,7 @@ oob = "MEX_1936"
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
+	infantry_weapons = 1
 	gw_artillery = 1
 	early_fighter = 1
 	early_bomber = 1
@@ -30,8 +30,8 @@ set_country_flag = monroe_doctrine
 	oob = "MEX_1939"
 	set_technology = {
 		interwar_artillery = 1
-		infantry_rifle1 = 1
-		infantry_rifle2 = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
 
 		#doctrines
@@ -70,24 +70,19 @@ set_convoys = 45
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 1
-		}
-		
-		neutrality = { 
-			popularity = 94
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 10 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 5 }		
+		social_democrat = { popularity = 70 }		
+		left_wing_radical = { popularity = 15 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
@@ -100,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_LAZARO_CARDENAS_DESC"
 	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -122,7 +117,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_GOMEZ_MORIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = social_conservatism
 	traits = {
 		#
 	}
@@ -133,7 +128,7 @@ create_country_leader = {
 	desc = "POLITICS_DIONISIO_ENCINA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}
@@ -143,24 +138,24 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
+		social_conservative = { 
 			popularity = 1
 		}
 
-		fascism = {
+		fascist = {
 			popularity = 0
 		}
 		
-		communism = {
+		stalinist = {
 			popularity = 1
 		}
 		
-		neutrality = { 
+		paternal_autocrat = { 
 			popularity = 98
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 		last_election = "1934.7.1"
 		election_frequency = 72
 		elections_allowed = yes
@@ -171,7 +166,7 @@ create_country_leader = {
 		desc = "POLITICS_LAZARO_CARDENAS_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 		expire = "1965.1.1"
-		ideology = despotism
+		ideology = paternal_autocracy
 		traits = {
 			#
 		}

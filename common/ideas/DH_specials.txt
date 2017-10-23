@@ -110,7 +110,7 @@ ideas = {
 		
 #### USSR -----------------------------------------
 		#Rodina
-		SOV_rodina = {
+		SOV_german_betrayal = {
 			
 			allowed = {
 				always = no

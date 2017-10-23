@@ -4,7 +4,7 @@ oob = "DOM_1936"
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
+	infantry_weapons = 1
 	gw_artillery = 1
 }
 set_country_flag = monroe_doctrine
@@ -28,7 +28,7 @@ set_convoys = 5
 	
 	oob = "DOM_1939"
 	set_technology = {
-		infantry_rifle1 = 1
+		infantry_weapons1 = 1
 
 		#doctrines
 		air_superiority = 1
@@ -61,21 +61,19 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 100
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 45 }		
+		social_conservative = { popularity = 20 }		
+		market_liberal = { popularity = 10 }		
+		social_liberal = { popularity = 10 }		
+		social_democrat = { popularity = 10 }		
+		left_wing_radical = { popularity = 5 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = fascism
+	ruling_party = paternal_autocrat
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
@@ -84,9 +82,9 @@ set_politics = {
 create_country_leader = {
 	name = "Rafael Trujillo"
 	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	picture = "Portrait_Domincan_Rafael_Trujillo.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -96,21 +94,21 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			social_conservative = { 
 				popularity = 0
 			}
 
-			fascism = {
+			fascist = {
 				popularity = 100
 			}
 			
-			communism = {
+			stalinist = {
 				popularity = 0
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = fascist
 		last_election = "1934.5.16"
 		election_frequency = 48
 		elections_allowed = no
@@ -121,7 +119,7 @@ create_country_leader = {
 		desc = "POLITICS_JACINTO_PEYNADO_DESC"
 		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 		expire = "1965.1.1"
-		ideology = fascism_ideology
+		ideology = fascist_ideology
 		traits = {
 			#
 		}

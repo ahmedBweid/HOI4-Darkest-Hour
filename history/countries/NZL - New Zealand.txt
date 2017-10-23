@@ -6,18 +6,36 @@ oob = "NZL_1936"
 
 
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
-	gwtank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	
 	gw_artillery = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	early_fighter = 1
 	naval_bomber1 = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1	
+#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+	destroyer_1922 = 1
+	destroyer_1933 = 1	
+	
+	light_cruiser_1885 = 1
+	light_cruiser_1900 = 1
+	light_cruiser_1912 = 1
+	light_cruiser_1922 = 1
+	
 	transport = 1
+#
 	trench_warfare = 1
 	fleet_in_being = 1
 }
@@ -70,16 +88,16 @@ if = {
 		fighter1 = 1
 		early_bomber = 1
 		tactical_bomber1 = 1
-		basic_light_tank = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
+		
+		
+		
+		
 		interwar_artillery = 1
 		interwar_antitank = 1
-		infantry_rifle2 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
 		support_weapons2 = 1
-		basic_destroyer = 1
+
 
 		#doctrines
 		air_superiority = 1
@@ -112,21 +130,19 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 100
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 33 }		
+		market_liberal = { popularity = 3 }		
+		social_liberal = { popularity = 10 }		
+		social_democrat = { popularity = 47 }		
+		left_wing_radical = { popularity = 7 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_democrat
 	last_election = "1935.11.27"
 	election_frequency = 36
 	elections_allowed = yes
@@ -137,7 +153,7 @@ create_country_leader = {
 	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
 	picture = "GFX_NZL_michael_joseph_savage"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = leninism
 	traits = {
 		#
 	}
@@ -148,7 +164,7 @@ create_country_leader = {
 	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
 	picture = "GFX_NZL_sidney_holland"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -159,7 +175,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_ORMOND_DESC"
 	picture = "GFX_NZL_john_ormond"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		#
 	}
@@ -170,7 +186,18 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_ORMOND_DESC"
 	picture = "GFX_NZL_elsie_farrelly"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George de Vere Viscount Galway"
+	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
+	picture = "Portrait_NewZealand_George_de_Vere.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
 	traits = {
 		#
 	}
@@ -182,21 +209,19 @@ set_convoys = 70
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 100
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
+			national_socialist = { popularity = 0 }		
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 0 }		
+			social_conservative = { popularity = 33 }		
+			market_liberal = { popularity = 3 }		
+			social_liberal = { popularity = 10 }		
+			social_democrat = { popularity = 47 }		
+			left_wing_radical = { popularity = 7 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 0 }	
 		}
 		
-		ruling_party = democratic
+		ruling_party = social_conservative
 		last_election = "1938.10.15"
 		election_frequency = 60
 		elections_allowed = yes
@@ -208,7 +233,7 @@ set_convoys = 70
 		desc = "POLITICS_PETER_FRASER_DESC"
 		picture = "Portrait_NewZealand_Peter_Fraser.dds"
 		expire = "1965.1.1"
-		ideology = socialism
+		ideology = leninism
 		traits = {
 			#
 		}

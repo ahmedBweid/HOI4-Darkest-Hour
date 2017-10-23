@@ -2,8 +2,8 @@
 
 # Starting tech
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -11,10 +11,7 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	improved_light_tank = 1
-	basic_heavy_tank = 1
+	
 	early_fighter = 1
 	fighter1 = 1
 	early_bomber = 1
@@ -22,15 +19,7 @@ set_technology = {
 	strategic_bomber1 = 1
 	CAS1 = 1
 	naval_bomber1 = 1
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
+
 	mobile_warfare = 1
 	trade_interdiction = 1
 	formation_flying = 1
@@ -55,21 +44,18 @@ set_national_unity = 0.7
 	
 
 	set_technology = {
-		improved_light_tank = 1 
-		basic_medium_tank = 1 
+		 
+		 
 		CAS2 = 1
 		heavy_fighter1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
-		infantry_rifle2 = 1
-		infantry_eq_up = 1
+		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		paratroopers = 1
-		basic_heavy_cruiser = 1
-		improved_heavy_cruiser = 1
-		basic_battleship = 1
-		improved_battleship = 1
+
 
 		#doctrines
 		delay = 1
@@ -117,21 +103,19 @@ set_national_unity = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 60
-			banned = no #default is no
-		}
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 2 }		
+		social_conservative = { popularity = 7 }		
+		market_liberal = { popularity = 10 }		
+		social_liberal = { popularity = 9 }		
+		social_democrat = { popularity = 54 }		
+		left_wing_radical = { popularity = 18 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = communism
+	ruling_party = social_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -147,7 +131,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = fascist_ideology
 	traits = {
 		political_dancer		
 	}
@@ -158,7 +142,7 @@ create_country_leader = {
 #	desc = ""
 #	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 #	expire = "1965.1.1"
-#	ideology = conservatism
+#	ideology = social_conservatism
 #	traits = {
 #	}
 #}
@@ -180,7 +164,7 @@ create_country_leader = {
 #	desc = "POLITICS_OTTO_WELS_DESC"
 #	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1939.1.16"
-#	ideology = socialism
+#	ideology = leninism
 #	traits = {
 #		exiled
 #		union_man
@@ -199,73 +183,3 @@ create_country_leader = {
 #		political_prisoner
 #	}
 #}
-
-
-### Ship Variants ###
-## 1936 Start ##
-# Light Cruisers #
-create_equipment_variant = {
-	name = "Königsberg Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-	obsolete = yes
-}
-# Heavy Cruisers #
-create_equipment_variant = {
-	name = "Deutschland Class"
-	type = heavy_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_armor_upgrade = 1
-		ship_gun_upgrade = 2
-	}
-}
-
-## 1939 Start ##
-1939.1.1 = {
-	# Submarines #
-	create_equipment_variant = {
-		name = "Type VIIA"
-		type = submarine_2
-		parent_version = 0
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-	}
-	# Destroyer #
-	create_equipment_variant = {
-		name = "Zerstörer 1936"
-		type = destroyer_2
-		parent_version = 0
-		upgrades = {
-			ship_torpedo_upgrade = 2
-			destroyer_engine_upgrade = 2
-			ship_ASW_upgrade = 2
-			ship_anti_air_upgrade = 2
-		}
-	}
-	# Heavy Cruisers #
-	#create_equipment_variant = {
-	#	name = "Deutschland Class"
-	#	type = heavy_cruiser_1
-	#	parent_version = 0
-	#	upgrades = {
-	#		ship_reliability_upgrade = 1
-	#		ship_engine_upgrade = 1
-	#		ship_armor_upgrade = 1
-	#		ship_gun_upgrade = 2
-	#	}
-	#	obsolete = yes
-	#}
-}

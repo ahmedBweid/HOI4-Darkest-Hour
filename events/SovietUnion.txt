@@ -801,21 +801,21 @@ country_event = {
 		name = soviet.26.a
 		set_country_flag = purge_1_group_a
 		custom_effect_tooltip = remove_theorist
-		show_ideas_tooltip = mikhail_tukhachevsky
-		custom_effect_tooltip = remove_chief_of_army
-		show_ideas_tooltip = alexander_yegorov
-		show_ideas_tooltip = vasily_blucher
-		custom_effect_tooltip = remove_chief_of_navy
-		show_ideas_tooltip = pyotr_smirnov
-		show_ideas_tooltip = mikhail_frinovsky
+		#show_ideas_tooltip = mikhail_tukhachevsky
+		# custom_effect_tooltip = remove_chief_of_army
+		# show_ideas_tooltip = alexander_yegorov
+		# show_ideas_tooltip = vasily_blucher
+		# custom_effect_tooltip = remove_chief_of_navy
+		# show_ideas_tooltip = pyotr_smirnov
+		# show_ideas_tooltip = mikhail_frinovsky
 		remove_unit_leader = 401 #mikhail_tukhachevsky, field marshal
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
-			remove_ideas = mikhail_tukhachevsky
-			remove_ideas = alexander_yegorov
-			remove_ideas = vasily_blucher
-			remove_ideas = pyotr_smirnov
-			remove_ideas = mikhail_frinovsky
+			#remove_ideas = mikhail_tukhachevsky
+			# remove_ideas = alexander_yegorov
+			# remove_ideas = vasily_blucher
+			# remove_ideas = pyotr_smirnov
+			# remove_ideas = mikhail_frinovsky
 		}
 	}
 	option = {
@@ -825,24 +825,24 @@ country_event = {
 		name = soviet.26.b
 		set_country_flag = purge_1_group_b
 		custom_effect_tooltip = remove_chief_of_army
-		show_ideas_tooltip = semyon_timoshenko
-		show_ideas_tooltip = kliment_voroshilov
+		# show_ideas_tooltip = semyon_timoshenko
+		# show_ideas_tooltip = kliment_voroshilov
 		custom_effect_tooltip = remove_chief_of_navy
-		show_ideas_tooltip = ivan_yumashev
+		# show_ideas_tooltip = ivan_yumashev
 		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = konstantin_rokossovsky
-		show_ideas_tooltip = vladimir_kasatonov
+		# show_ideas_tooltip = konstantin_rokossovsky
+		# show_ideas_tooltip = vladimir_kasatonov
 		remove_unit_leader = 405 #kliment_voroshilov, field marshal
 		remove_unit_leader = 402 #konstantin_rokossovsky, general
 		remove_unit_leader = 404 #semyon_timoshenko, general
 		remove_unit_leader = 403 #vladimir_kasatonov, naval commander
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
-			remove_ideas = semyon_timoshenko
-			remove_ideas = kliment_voroshilov
-			remove_ideas = ivan_yumashev
-			remove_ideas = konstantin_rokossovsky
-			remove_ideas = vladimir_kasatonov
+			# remove_ideas = semyon_timoshenko
+			# remove_ideas = kliment_voroshilov
+			# remove_ideas = ivan_yumashev
+			# remove_ideas = konstantin_rokossovsky
+			# remove_ideas = vladimir_kasatonov
 		}	
 	}
 	# REVISIT Balance, since the latter removes more unit leaders
@@ -889,21 +889,21 @@ country_event = {
 		name = soviet.27.a
 		set_country_flag = purge_2_group_a
 		custom_effect_tooltip = remove_political_advisor
-		show_ideas_tooltip = SOV_nikolai_yezhov
+		# show_ideas_tooltip = SOV_nikolai_yezhov
 		custom_effect_tooltip = remove_chief_of_airforce
-		show_ideas_tooltip = yakov_smushkevich
-		show_ideas_tooltip = pavel_rychagov
-		show_ideas_tooltip = alexander_novikov
+		# show_ideas_tooltip = yakov_smushkevich
+		# show_ideas_tooltip = pavel_rychagov
+		# show_ideas_tooltip = alexander_novikov
 		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = gordey_levchenko
+		# show_ideas_tooltip = gordey_levchenko
 		remove_unit_leader = 406 #gordey_levchenko, naval commander
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
-			remove_ideas = SOV_nikolai_yezhov
-			remove_ideas = yakov_smushkevich
-			remove_ideas = pavel_rychagov
-			remove_ideas = alexander_novikov
-			remove_ideas = gordey_levchenko
+			# remove_ideas = SOV_nikolai_yezhov
+			# remove_ideas = yakov_smushkevich
+			# remove_ideas = pavel_rychagov
+			# remove_ideas = alexander_novikov
+			# remove_ideas = gordey_levchenko
 		}
 	}
 	option = {
@@ -913,19 +913,19 @@ country_event = {
 		name = soviet.27.b
 		set_country_flag = purge_2_group_b
 		custom_effect_tooltip = remove_chief_of_navy
-		show_ideas_tooltip = nikolay_kuznetsov
+		# show_ideas_tooltip = nikolay_kuznetsov
 		custom_effect_tooltip = remove_chief_of_airforce
-		show_ideas_tooltip = konstantin_vershinin
+		# show_ideas_tooltip = konstantin_vershinin
 		custom_effect_tooltip = remove_military_high_command
-		show_ideas_tooltip = sergei_khudyakov
-		show_ideas_tooltip = aleksandr_vasilevsky
+		# show_ideas_tooltip = sergei_khudyakov
+		# show_ideas_tooltip = aleksandr_vasilevsky
 		remove_unit_leader = 407 #aleksandr_vasilevsky, general
 		custom_effect_tooltip = soviet.27_tt
 		hidden_effect = {
-			remove_ideas = nikolay_kuznetsov
-			remove_ideas = konstantin_vershinin
-			remove_ideas = sergei_khudyakov
-			remove_ideas = aleksandr_vasilevsky
+			# remove_ideas = nikolay_kuznetsov
+			# remove_ideas = konstantin_vershinin
+			# remove_ideas = sergei_khudyakov
+			# remove_ideas = aleksandr_vasilevsky
 		}
 	}
 	option = {
@@ -1013,7 +1013,7 @@ country_event = {
 			country_event = { id = soviet.43 days = 146 }				
 		}
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.18
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 404 }
 		}
@@ -1021,7 +1021,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1029,7 +1029,7 @@ country_event = {
 					desc = "POLITICS_IVAN_KONEV_DESC"
 					picture = "Portrait_Soviet_Ivan_Konev.dds"
 					expire = "1965.1.1"
-					ideology = oligarchism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1723,7 +1723,7 @@ country_event = {
 	picture = GFX_report_event_soviet_purge_politicians
 
 	trigger = {
-		has_government = communism
+		has_government = stalinist
 		tag = SOV
 		has_global_flag = SOV_fourth_international_fired
 		NOT = { has_completed_focus = SOV_great_purge }
@@ -1770,7 +1770,7 @@ country_event = {
 	option = {
 		name = soviet.49.a
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.5
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1779,7 +1779,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1787,7 +1787,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1817,7 +1817,7 @@ country_event = {
 		name = soviet.50.a
 		remove_unit_leader = 412 #Remove Andrey Vlasov
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.3
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1825,7 +1825,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1833,7 +1833,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1863,7 +1863,7 @@ country_event = {
 		name = soviet.51.a
 		remove_unit_leader = 412 #Remove Andrey Vlasov
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.25
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1871,7 +1871,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1879,7 +1879,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1909,7 +1909,7 @@ country_event = {
 		name = soviet.52.a
 		remove_unit_leader = 412 #Remove Andrey Vlasov
 		start_civil_war = {
-			ideology = neutrality
+			ideology = paternal_autocrat
 			size = 0.2
 			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
 		}
@@ -1917,7 +1917,7 @@ country_event = {
 			random_other_country = {
 				limit = {
 					original_tag = SOV
-					has_government = neutrality
+					has_government = paternal_autocrat
 				}
 				kill_country_leader = yes
 				create_country_leader = {
@@ -1925,7 +1925,7 @@ country_event = {
 					desc = "POLITICS_ANDREY_VLASOV_DESC"
 					picture = "Portrait_Soviet_Andrey_Vlasov.dds"
 					expire = "1965.1.1"
-					ideology = moderatism
+					ideology = paternal_autocracy
 					traits = {
 					}
 				}
@@ -1985,7 +1985,7 @@ country_event = {
 	trigger = {
 		tag = SOV
 		NOT = {
-			has_government = communism
+			has_government = stalinist
 		}
 		has_civil_war = no
 	}

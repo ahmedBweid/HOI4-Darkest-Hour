@@ -7,33 +7,26 @@ set_research_slots = 3
 # Starting tech
 # clone of UK
 set_technology = {
-	infantry_rifle = 1
-	infantry_rifle1 = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	#improved_light_tank = 1  # PLACEHOLDER
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
+	
+	
+	#  # PLACEHOLDER
+	#  # PLACEHOLDER
+	# # PLACEHOLDER
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
+
 	trench_warfare = 1
 
 	transport = 1
@@ -53,19 +46,16 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 33
-		}
-
-#		fascism = {
-#		}
-		
-		communism = {
-			popularity = 33
-		}
-		neutrality = {
-			popularity = 34
-		}
+		national_socialist = { popularity = 0 }
+		fascist = { popularity = 0 }
+		paternal_autocrat = { popularity = 34 }
+		social_conservative = { popularity = 33 }
+		market_liberal = { popularity = 0 }
+		social_liberal = { popularity = 0 }
+		social_democrat = { popularity = 0 }
+		left_wing_radical = { popularity = 0 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 33 }
 	}
 }
 
@@ -74,7 +64,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = social_conservatism
 	traits = {
 		
 	}
@@ -83,9 +73,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Shenton Thomas"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	picture = "GFX_portrait_malaya_shenton_thomas"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = social_conservatism
 	traits = {
 		
 	}
@@ -96,7 +86,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		
 	}
@@ -107,7 +97,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = paternal_autocracy
 	traits = {
 		
 	}
@@ -130,12 +120,12 @@ set_cosmetic_tag = MAL_UK # British Malaya
 	complete_national_focus = production_effort
 	
 	set_technology = {
-		gwtank = 1
-		basic_light_tank = 1
+		
+		
 		interwar_artillery = 1
 		interwar_antiair = 1
 		tech_recon = 1
-		infantry_rifle2 = 1
+		infantry_weapons2 = 1
 		support_weapons = 1
 
 		#doctrines
