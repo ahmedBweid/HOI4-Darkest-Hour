@@ -1,0 +1,327 @@
+﻿l_english:
+###### German RK events-------------------------------------
+ germany_establish_rk_ostland:0 "The Baltic States and Belarus will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
+ germany_establish_rk_ukraine:0 "The Ukraine will come under civil administration of a Reichskommissar accountable to the Minister of Foreign Affairs."
+ germany_establish_rk_moscow:0 "Russia shall be brought down to its historical size."
+ germany_establish_rk_kaukasus:0 "For the sake of stability the indeginous people of the Caucasus will be granted a limited form of self-rule."
+ germany_establish_rk_ural:0 "It will reach from the Ural in the west to the Yenisei river in the east."
+ germany_rk_military_occupation:0 "Full control of the region is in our best interest."
+
+ DH_germany_rk.1.t:0 "Reichskommissariat Ostland"
+ DH_germany_rk.1.d:0 "The Baltics and Belarus have come under military jurisdication, prompting the question of what should be done with the region. Some argue for a Reichskommissariat Ostland to keep the populations in check so that the transition is smooth and economically vital sectors are not hindered in thei daily operations."
+ DH_germany_rk.1.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.1.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.2.t:0 "Reichskommissariat Ukraine"
+ DH_germany_rk.2.d:0 "Our military successes in the south need to be consolidated. Whereas some advocate direct military occupation, some advise to set up a German controlled civil administration in the Ukraine, to better quell any possible unrest while still benefitting from the raw material and industries captured."
+ DH_germany_rk.2.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.2.b:0 "Continue Military Occupation."
+ 
+ DH_germany_rk.3.t:0 "Reichskommissariat Moskowien"
+ DH_germany_rk.3.d:0 "The core lands of the Soviet Union are now under our control, and with a mostly Russian ethnic make up it could spell years of social unrest. Proposals put forward that a partition of Russia would not only prevent the revival of a Russian state, it would also increase the efficiency of our administration in the newly conquered lands."
+ DH_germany_rk.3.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.3.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.4.t:0 "Reichskommissariat Kaukasien"
+ DH_germany_rk.4.d:0 "Made up of many nations and ethnicities, the volatile region of the Caucasus must be brought to a long-lasting peace. For this end, the new Reichskommissariat Kaukasus plans to grant every people its own form of limited autonomy - under Berlin's supervision of course. As long as our military and industry retain access to the rich oil fields in the south."
+ DH_germany_rk.4.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.4.b:0 "Continue Military Occupation."
+ 
+ DH_germany_rk.5.t:0 "Reichskommissariat Turkestan"
+ DH_germany_rk.5.d:0 "Central Asia is home to the many Turkish peoples, awaiting national self-determination. We can partially fullfill this dream by forming a pro-National-Socialist government, which will be tightly linked to our policies and interests."
+ DH_germany_rk.5.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.5.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.6.t:0 "Reichsprotektorat Island"
+ DH_germany_rk.6.d:0 "Iceland has come under German military supervision, which has quickly assumed control of all civil administrative organs. Generals and Ministers believe that the Icelandic people can be entrusted running their own limited form of government, under Germany's watchful eyes of course."
+ DH_germany_rk.6.a:0 "Establish the Reichsprotektorat."
+ DH_germany_rk.6.b:0 "Continue Military Occupation."
+
+ DH_germany_rk.7.t:0 "Reichsprotektorat Schweland"
+ DH_germany_rk.7.d:0 "The Swedes now find themselves under National-Socialist rule and have accomodated to the occupiers, having seemingly made peace with their fate. In the short run it would be wise to hand over the general affairs of the country from the army back to the administrators."
+ DH_germany_rk.7.a:0 "Establish the Reichsprotektorat."
+ DH_germany_rk.7.b:0 "Continue Military Occupation."
+ 
+ DH_germany_rk.8.t:0 "Reichskommissariat Ural"
+ DH_germany_rk.8.d:0 "Beyond the Ural Mountains lies the vast expanse of forests, rivers, and plains, filled with the riches of mother nature. A wilderness that stretches for thousands of kilometres, only to be sparsely interrupted by human activity. Ruling such an enormous region is difficult enough, let alone for the army. Perhaps it would be best to establish some form of government."
+ DH_germany_rk.8.a:0 "Establish the Reichskommissariat."
+ DH_germany_rk.8.b:0 "Continue Military Occupation."
+ 
+ 
+ ###### German events-------------------------------------
+ DH_germany.1.t:0 "Operation Isabella"
+ DH_germany.1.a:0 "Demand only Cape Verde"
+ DH_germany.1.b:0 "Demand both archipelagoes"
+ DH_germany.1.d:0 "Germany has long sought to secure bases of operation in the Atlantic. A thorough study has found the Portuguese islands of the Azores and those of the Cape Verde to be the prime targets of such a geo-political move. However, the Portuguese are closely tied to their historical allies in Britain. Demanding too much might backfire..."
+
+ DH_germany.2.t:0 "Telegram from Lisbon, they accept!"
+ DH_germany.2.d:0 "Our demands have been approved by Lisbon and a handover of the Cape Verde will be arranged. Portugal has proven to be willing, but only time will determine their future destiny within the New Order of Europe."
+ DH_germany.2.a:0 "Excellent!"
+
+ DH_germany.3.t:0 "Telegram from Lisbon, they reject!"
+ DH_germany.3.d:0 "German attempts to attain foreward naval bases in the Atlantic have been met with stiff resistance from the Portuguese government, leaving us no option but to explore alternative ways to gain a hold on the shipping lanes to and from Europe. Perhaps Franco's Spain can be enticed to launch a frontal assault on Portugal..."
+ DH_germany.3.a:0 "Send a telegram to Madrid"
+ DH_germany.3.b:0 "Another day perhaps"
+ 
+ DH_germany.4.t:0 "Telegram from Lisbon, they accept!"
+ DH_germany.4.d:0 "Our demands have been approved by Lisbon and a handover of the Cape Verde and Azores will be arranged. Portugal has proven to be willing, but only time will determine their future destiny within the New Order of Europe."
+ DH_germany.4.a:0 "Splendid!"
+ 
+ DH_germany.14.t:0 "Coup in Norway"
+ DH_germany.14.d:0 "A small national socialist movement had been active politically in Norway under Quisling since 1933, only gaining a marginal percentage of the overall votes in elections. This time however, Quisling has organised a take over of the national radio broadcast in Oslo, proclaiming to be the new Prime Minister of Norway. This could be the opportunity that Germany had hoped for..."
+ DH_germany.14.a:0 "Back up Quisling."
+ DH_germany.14.b:0 "Germany doesn't need him."
+ 
+ DH_germany.5.t:0 "Telegram from Lisbon, they reject!"
+ DH_germany.5.d:0 "German attempts to attain foreward naval bases in the Atlantic have been met with stiff resistance from the Portuguese government, leaving us no option but to explore alternative ways to gain a hold on the shipping lanes to and from Europe. Perhaps Franco's Spain can be enticed to launch a frontal assault on Portugal..."
+ DH_germany.5.a:0 "Send a telegram to Madrid"
+ DH_germany.5.b:0 "Another day perhaps"
+ germany_spain_operation_isabella:0 "Convince Spain to declare war on Portugal"
+ 
+ DH_germany.6.t:0 "Spain refuses war with Portugal"
+ DH_germany.6.d:0 "Our offer to help Spain conquer Portugal has been met with refusal from Madrid. This proves once more that Franco's aim is to sit out the war until it's won, thereby infuriating the Führer. Ah well, Spain does not seem so keen on uniting the Iberian peninsula after all."
+ DH_germany.6.a:0 "Franco's loyalty means nothing!"
+ 
+ DH_germany.7.a:0 "There's little we can do about it"
+ DH_germany.7.t:0 "Tyrol remains divided"
+ DH_germany.7.d:0 "The Italians have reiterated that South Tyrol remains an Italian province, thereby maintaining the status quo established since the aftermath of the First World War. It is clear that Tyrol will never be united, and the Volksdeutsche in the region will have to be resettled in the Empire, with possible locations in the Crimea or in Franche Comté."
+ 
+ DH_germany.8.t:0 "Tyrol has been united"
+ DH_germany.8.d:0 "Since South Tyrol is predominantly German it belongs in the Empire, united with their fellow brethren in Innsbruck. This finally settles any conflicts Germany has in the region. In return, Germany has ceded the Italian speaking regions of Switzerland, thereby fullfilling Italian dreams of unison."
+ DH_germany.8.a:0 "Süd-Tiroler Heimkehr!"
+ 
+ DH_germany.9.t:0 "Kars Convention on the Subdivision of Transcaucasia"
+ DH_germany.9.d:0 "Historically the lands of Georgia and Armenia have been under Ottoman influence, and being south of the Caucasus mountains, it would be wise to hand over these regions to Turkey to limit our administrative burden. On the other hand, it could bolster Turkish ambitions and lead to unfounded future expectations."
+ DH_germany.9.a:0 "Approach Ankara with a proposal"
+ DH_germany.9.b:0 "Establish Civil Administration"
+ DH_germany.9.c:0 "The Status Quo suffices"
+ germany_caucasus_for_turkey:0 "Offer The Turks Armenia and Georgia as puppet states"
+ germany_caucasus_for_germany:0 "The Reich incorporates Georgia and Armenia"
+ 
+ DH_germany.10.t:0 "Turkish Refusal"
+ DH_germany.10.d:0 "Ankara has refused our proposal for closer cooperation in the Caucasus region, thus isolating themselves further. It seems the Turkish government does not understand the gravity of their mistake. Subsequently, the Reich will incorporate these regions into its periphery."
+ DH_germany.10.b:0 "The Status Quo suffices"
+ DH_germany.10.a:0 "Establish Georgia and Armenia as puppets"
+ 
+ DH_germany.11.t:0 "Soviets Refuse Commercial Treaty"
+ DH_germany.11.d:0 "Our advances to strenghten economic ties with Moscow have been denied, leaving our industry to seek for raw material elsewhere. All must be done to prevent a British blockade from turning the people against the regime, lest history repeat iself..."
+ DH_germany.11.a:0 "Alas!"
+ 
+ DH_germany.12.t:0 "Commercial Agreement Cancelled"
+ DH_germany.12.d:0 "Time has come to cancel our agreement with the Soviets regarding the trade of our commercial goods for their raw materials. The treaty was disadvantageous to Germany in the long run anyway."
+ DH_germany.12.a:0 "Alas!"
+ 
+ DH_germany.13.t:0 "The Cyprus Question"
+ DH_germany.13.d:0 "The British naval base in the eastern Mediterranean has now fallen in German hands, and since Cyprus is home to a considereable population of Turks, it has sparked Ankara's interest in what has been called the Question of Cyprus. Turkish claims on the island are strong, but the Italians have styled themselves as the masters of the Mediterranean. Other than that it can always serve as a base for the Kriegsmarine."
+ DH_germany.13.a:0 "Keep Cyprus"
+ DH_germany.13.b:0 "Give it to the Turks"
+ DH_germany.13.c:0 "Give it to the Italians"
+ 
+ DH_germany.15.t:0 "Norwegian Anschluss"
+ DH_germany.15.d:0 "National-Socialism has proven to be successfully implemented in Norway, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Norwegian society, thereby turning Norway into a province of the Reich."
+ DH_germany.15.a:0 "Welcome to the Reich"
+ 
+ DH_germany.16.t:0 "Denmark Anschluss"
+ DH_germany.16.d:0 "National-Socialism has proven to be successfully implemented in Denmark, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Norway into a province of the Reich."
+ DH_germany.16.a:0 "Welcome to the Reich"
+ 
+ DH_germany.17.t:0 "Iceland Anschluss"
+ DH_germany.17.d:0 "National-Socialism has proven to be successfully implemented in Iceland, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Iceland into a province of the Reich."
+ DH_germany.17.a:0 "Welcome to the Reich"
+ 
+ DH_germany.18.t:0 "Sweden Anschluss"
+ DH_germany.18.d:0 "National-Socialism has proven to be successfully implemented in Swedeb, making its people aware of their pan-Germanic destiny. It is up to Berlin to implement a full annexation of Danish society, thereby turning Sweden into a province of the Reich."
+ DH_germany.18.a:0 "Welcome to the Reich"
+ 
+ DH_germany.19.t:0 "Reichsgau Danzig-Westpreußen"
+ DH_germany.19.d:0 "After the Great War Danzig became a Free City under international mandate, whereas the surrounding land was granted to Poland. These lands have been predominantly German and by reinstating Danzig-Westpreußen as an administrative unit of the Reich its nationality can be guaranteed."
+ DH_germany.19.a:0 "Welcome Home"
+  
+ DH_germany.20.t:0 "(Ausdehnung) Gau Oberschlesien"
+ DH_germany.20.d:0 "Eastern Silesia was lost to Poland after the First World War, even though the plebiscite showed that a majority voted to remain with Germany. This lost region is once again incorporated into Upper Silesia, adding also the Olsagebiet, a historical part of Silesia proper. By settling Volksdeutsche in the areas through the Heim ins Reich program it will prove to be a valuable asset to the new Reich."
+ DH_germany.20.a:0 "Welcome Home"
+ 
+ DH_germany.21.t:0 "(Ausdehnung) Gau Ostpreußen"
+ DH_germany.21.d:0 "When the Memelland was forcefully annexed by Lithuania it was destined to return under Prussian administration, which will undo the Lithuanisation of the region in the past decades. Futhermore, the region to the south up to the Weichsel river will be adminstered by Königsberg. This land was held by Prussia for a brieg period during the Napoleonic era, but will see itself integrated into the new Reich by German settlers from all over Europe."
+ DH_germany.21.a:0 "Welcome Home"
+ 
+ DH_germany.22.t:0 "Reichsgau Wartheland"
+ DH_germany.22.d:0 "This new Reichsgau will be made up of the lost parts of Posen and the region around Lodz. By attracting and resettling Germans from Eastern and South-eastern Europe we can strive towards full Germanisication of the Warthe basin."
+ DH_germany.22.a:0 "Welcome Home"
+ 
+ DH_germany.23.t:0 "Untersteiermark & Oberkrain"
+ DH_germany.23.d:0 "Northern Slovenia, belonged to the Austrian monarchy as crownlands, namely Styria and Krain. Since these lands have fallen back into German hands the Führer has stated that 'these lands were to become German once more'. Volksdeutsche from South-east Germany are being hauled in to change the character of the region."
+ DH_germany.23.a:0 "Welcome Home"
+ 
+ DH_germany.24.t:0 "Crusade Against the West"
+ DH_germany.24.d:0 "By joining forces the Fascist and Comintern can destroy the West for once and for all. For this however, the Soviet will first have to be convinced. By stressing the similarities of criticism of both our ideologies Germany and the Soviet Union could embark on a Crusade against the West."
+ DH_germany.24.a:0 "Send the plan to Moscow"
+ 
+ DH_germany.25.t:0 "The Soviets Accept"
+ DH_germany.25.d:0 "Our new friends in the Kremlin have gratefully accepted the offer to launch a combined attack on the Western Powers. Sharing the same enemies creates a bond after all..."
+ DH_germany.25.a:0 "Sehr Gut, We may proceed."
+ 
+ DH_germany.26.t:0 "The Soviets need more time"
+ DH_germany.26.d:0 "Word has reached us that the Soviet Union is not ready yet. Perhaps we should try again in some time. However, the cleansening of the world must wait. For now at least."
+ DH_germany.26.a:0 "Give them 6 months"
+ DH_germany.26.b:0 "Give them 3 months"
+ DH_germany.26.c:0 "This alliance isn't working"
+ 
+ DH_germany.27.t:0 "Austrian Question"
+ DH_germany.27.d:0 "Ever since Austria lost its Empire it has been seeking a new destiny. Many turned to Germany for guidance, and after witnessing the progress made by National-Socialism it increased the desire of the Austrians to merge with their bretheren in the west. However, not everybody in Austria thinks the same and some of Germany's leadership advise a cautious approach to the Austrian Question."
+ DH_germany.27.a:0 "Anschlusszeit!"
+ DH_germany.27.b:0 "Turn it into a March, for now"
+ DH_germany.27.c:0 "Propose an alliance"
+ germany_anschluss:0 "Push for annexation of Austria"
+ germany_anschluss_puppet:0 "An Austrian puppet state is preferred"
+ 
+ DH_germany.28.t:0 "Austria refuses Anschluss" 
+ DH_germany.28.d:0 "Attempts of unification have been turned down by Vienna. Politicians have argued that it is against the stipulations of the Saint-Germain treaty and breaching international law would only anger neighbouring countries. Berlin on the other hand, is determined to unite Austria with Germany. Another Brother's war looms on the horizon..."
+ DH_germany.28.a:0 "Eisen und Blut!"
+ 
+ DH_germany.29.t:0 "Ostmarkanschluss"
+ DH_germany.29.d:0 "Calls for unification can no longer be ignored; in the past few months people have become uneasy with the current status of Austria as a mere puppet of Germany. By reorganising the Ostmark in several Reichsgau it can easily be absorbed by Germany."
+ DH_germany.29.a:0 "Finally together!"
+ 
+ DH_germany.30.t:0 "European Confederation"
+ DH_germany.30.d:0 "Calls for unification can no longer be ignored; in the past few months people have become uneasy with the current status of Austria as a mere puppet of Germany. By reorganising the Ostmark in several Reichsgau it can easily be absorbed by Germany."
+ DH_germany.30.a:0 "Accede the Bund"
+ DH_germany.30.b:0 "We're not interested"
+ 
+ DH_germany.31.t:0 "Poland refuses alliance"
+ DH_germany.31.d:0 "These fools in Warsaw apparently have no understanding of their precarious geo-political situation. Locked in by two major powers it thinks standing alone would be the best course of action. If talking sense into them doesn't help, something else will..."
+ DH_germany.31.a:0 "Their loss."
+
+ DH_germany.32.t:0 "Triumph in France"
+ DH_germany.32.d:0 "Our victory in France is nearly complete. The French government has asked for an armistice, and our diplomats have prepared terms which they have agreed to. They will retain control of southern France, while we are free to occupy the rest."
+ DH_germany.32.a:0 "Establish Vichy France."
+ DH_germany.32.b:0 "No, Germany will conquer all!"
+ 
+ DH_germany.33.t:0 "Großgermanisches Reich"
+ DH_germany.33.d:0 "In one of his speeches the Führer has proclaimed a new phase in the thousand year Reich. Not only has Bolshevism been defeated, also the last of the continental Germanics - Festlandgermanen -, in the Netherlands and Flanders, have rejoined the Reich. With the new direction of empire-building, the Großgermanisches Reich proclaims to be the home of all of Germanen."
+ DH_germany.33.a:0 "Heil Germanien!"
+ 
+ DH_germany.34.t:0 "Ireland remains neutral"
+ DH_germany.34.d:0 "It seems the desire to unite Ireland isn't that strong to begin with. Not our problem."
+ DH_germany.34.a:0 "No Loss." 
+ 
+ DH_germany.35.t:0 "Fate of the British Empire"
+ DH_germany.35.d:0 "Albion has fallen, and the breakup of the British Empire is almost a reality. Through the centuries the Anglo-Saxons have built up an impressive Imperium, spanning to all four corners of the globe. Preserving it would most likely turn the British into a valuable ally, still ruling the waves."
+ DH_germany.35.a:0 "Preserve the Empire" 
+ DH_germany.35.b:0 "Establish an occupation policy" 
+ 
+ DH_germany.36.t:0 "Fate of Malay"
+ DH_germany.36.a:0 "It belongs to our sphere of influence."
+ DH_germany.36.b:0 "Let it be Independent. An Asia for Asians!" 
+ ###### Arab events----------------------------------------
+ DH_arab.1.t:0 "Arab Union Accession"
+ DH_arab.1.a:0 "Join"
+ DH_arab.1.b:0 "Refuse"
+ DH_arab.1.d:0 "Our government has been approached by an offer to join the Greater Arab Union, founded on pan-Arabism. This initiative strives for a confederation of Arab countries in the Middle East, to stabalise the region for centuries to come."
+
+ ###### South African events--------------------------------------
+ DH_southafrica.1.t:0 "Foreign Fascist Influence"
+ DH_southafrica.1.d:0 "Fascist ideologies are gaining ground in South Africa now the Boers are receiving diplomatic and political support from Europe. Through the use of extensive propaganda, Berlin seems adamant in growing a movement sympathetic towards its own ideology. Should we allow them operate under our liberties, or limit most of their operations?"
+ DH_southafrica.1.a:0 "Approve of the Afrikaner Support"
+ DH_southafrica.1.b:0 "Seriously?"
+ DH_southafrica.1.b:0 "Shut down most of the Fascist propaganda"
+ 
+ ###### Poland events--------------------------------------
+ DH_poland.1.t:0 "German-Polish Alliance"
+ DH_poland.1.d:0 "The German Führer has reiterated once more that an alliance between Germany and Poland is beneficial to both. It would create a strong coalition against the Soviets in the east, making another invasion from the east unlikely. On the other hand, going with Germany will bring us on a collision course with the Western Powers of France and Britain."
+ DH_poland.1.a:0 "Join, for a united Eire"
+ DH_poland.1.b:0 "Thank them for the offer"
+ 
+ ###### Ireland events--------------------------------------
+ DH_ireland.1.t:0 "Irish Axis Membership"
+ DH_ireland.1.d:0 "An interesting proposal came in this morning from the Axis. If Ireland is willing to join the Axis as an active member, it will be seceded Northern Ireland. This might indeed be our only chance to unite Ireland, but it could also mean we are dragged right into the middle of a world conflict.."
+ DH_ireland.1.a:0 "Thanks, but no thanks"
+ DH_ireland.1.b:0 "Join the Axis"
+ 
+ ###### Spanish events-------------------------------------
+ DH_spain.1.t:0 "Germany presses for military action"
+ DH_spain.1.a:0 "This is our chance to unite Iberia."
+ DH_spain.1.b:0 "War is not the answer." 
+ 
+ ###### Portugal events-------------------------------------
+ DH_portugal.1.t:0 "Outrageous Germand Territorial Demands"
+ DH_portugal.1.d:0 "A crisis in Lisbon has been sparked by the outrageous demands by Germany to concede the Cape Verde Islands. This is a clear breach of Portuguese sovereignty. Refusing concessions will threaten our long term existence as a state, while a peaceful transition could ensure our long-term neutrality."
+ DH_portugal.1.a:0 "Concede the Cape Verde"
+ DH_portugal.1.b:0 "Have they gone mad?!"
+ 
+ DH_portugal.2.t:0 "Outrageous Germand Territorial Demands"
+ DH_portugal.2.d:0 "A crisis in Lisbon has been sparked by the outrageous demands by Germany to concede Cape Verde and the Azures Islands. This is a clear breach of Portuguese sovereignty. Refusing concessions will threaten our long term existence as a state, while a peaceful transition could ensure our long-term neutrality."
+ DH_portugal.2.a:0 "Concede Both Islands"
+ DH_portugal.2.b:0 "Have they gone mad?!"
+ 
+ ###### Finland events-------------------------------------
+ DH_finland.1.t:0 "Northern Flank: Finland"
+ DH_finland.1.d:0 "German diplomats have approached us with the offer to take over rightfull Finnish territory. Karelia, the Kola peninsula and Olonetsk are offered for our unconditional membership to the Axis faction. Their reason for abondoning the lands seems to evolve around the harsh winter conditions. Ah well, their problem. If we accept we are expected to function as Germany's northern flank, safeguarding the north of their new possessions in the east."
+ DH_finland.1.a:0 "We Gladly Accept"
+ DH_finland.1.b:0 "We don't need Germany's help"
+ 
+ ###### Turkey events--------------------------------------
+ DH_turkey.1.t:0 "Kars Convention on the Subdivision of Transcaucasia"
+ DH_turkey.1.d:0 "After the Great war Turkey and the Soviet Union agreed on a Caucasian border, in which the new Turkish state acknowledged the territory belonging to the three Caucasian Soviet republic of Armenia, Georgia, and Azerbaijan. Now the Germans want to redraw these borders, even offering us to take control of 2 of the Caucasian republics, namely Armenia and Georgia."
+ DH_turkey.1.a:0 "Agree to the new sphere of influence"
+ DH_turkey.1.b:0 "Tell the Germans to keep it"
+ 
+ DH_turkey.2.t:0 "Cyprus Question"
+ DH_turkey.2.d:0 "The British naval base at Cyprus has fallen into German hands, and it happens that Berlin is seeking a new master for the island. Since they have already approached us with the offer to grant Cyprus to Turkey it merely needs approval. The only concession on Turkish side is to join the Axis."
+ DH_turkey.2.a:0 "Cyprus belongs to Turkey"
+ DH_turkey.2.b:0 "We cannot commit at this time"
+ 
+ ###### Italian events-------------------------------------
+ DH_italy.1.t:0 "Fall of Fascist Italy"
+ DH_italy.1.d:0 "Mussolini has been removed out of office by the Italian government, throwing Italy in turmoil. The defection of Rome presents us with a dilemma: we either fight on under German leadership, with only the north of Italy under our control, or we submit defeat and hope for lenient punishment from the western powers."
+ DH_italy.1.a:0 "Death before Dishonour!"
+ DH_italy.1.b:0 "Down with fascism!" 
+ 
+ DH_italy.2.t:0 "Alpine Territorial Exchange"
+ DH_italy.2.d:0 "It appears that Germany's ambitions regarding the Tyrol have not died just yet. One of their diplomats have come to propose an exchange of territory: the Italian speaking parts of Switzerland shall be ceded in return for the hand over of South Tyrol. On its face the trade seems reasonable since it would adhere more closely to the language border."
+ DH_italy.2.a:0 "No, South Tyrol is Italian."
+ DH_italy.2.b:0 "We agree to the exchange"
+ 
+ DH_italy.3.t:0 "The Cyprus Offer"
+ DH_italy.3.d:0 "Germany has approached us with a lucrative offer of occupying the island of Cyprus. By turning the island into a naval base, Italy's dominance in the eastern Mediterranean will surely grow. However, the large Turkish population might cause trouble administering the region."
+ DH_italy.3.a:0 "Mare Nostrum - Our Sea"
+ DH_italy.3.b:0 "We have enough naval bases"
+ 
+ ###### Norway's events-------------------------------------
+ DH_norway.1.t:0 "Quisling's setting up a coup!"
+ DH_norway.1.a:0 "Submit to the coup."
+ DH_norway.1.d:0 "Quisling thinks he now runs the place! He demands that the king appoints him the new Prime Minister, making him the most powerful man in Norway. This not only goes against against our constitution, it also means we are collaborating with the enemy. Yet, some dissenting voices utter that submitting is the only way to retain some of our influence, for otherwise the government will be abolished in its entirety."
+ DH_norway.1.b:0 "Who does he think he is!?" 
+
+ ###### Vichy France events -------------------------------------
+ DH_vichy.1.t:0 "Submit or Fight!"
+ DH_vichy.1.d:0 "This morning German officers have been demanding unconditional cooperation of the French State, in effect starting the occupation of all of France. The Vichy government is meeting to decide on the course of action. Some state that enough is enough and that Germany must abide by the armistice, while others argue that Germany will simply ignore any counter offer and demands total submission from France. Do we fight? Or do we submit?"
+ DH_vichy.1.a:0 "Submit to Germany."
+ DH_vichy.1.b:0 "Join Allies" 
+ 
+ ###### Soviet events-------------------------------------
+ DH_soviet.3.t:0 "Death of Joseph Stalin"
+ DH_soviet.3.d:0 "Our Great Leader Joseph Stalin has passed away, leaving behind a grateful people, happy to have experienced his light. On this we will make sure concensus is reached."
+ DH_soviet.1.a:0 "May he rest now."
+ 
+ DH_soviet.1.t:0 "German-Soviet Commercial Agreement"
+ DH_soviet.1.d:0 "It seems that the Germans have need of raw material from Mother Russia. In return for the supply of oil and chromium we are to be granted letters of credit, with which we can buy consumer goods. This will relieve our population's needs for everyday goods, thus strengthening our legitimacy. On the flipside, it will also improve Germany's capacity to produce war material."
+ DH_soviet.1.a:0 "Accept the offer"
+ DH_soviet.1.b:0 "It is too dangerous"
+ 
+ DH_soviet.2.t:0 "Commercial Agreement Annulled"
+ DH_soviet.2.d:0 "Our contracting party does not seem so trusthworthy afterall."
+ DH_soviet.2.a:0 "We will make do"
+ 
+ DH_soviet.4.t:0 "Succession of Stalin"
+ DH_soviet.4.d:0 "With the passing of Stalin the position of Chairman of the Council of Ministers has become vacant. Currently, 4 men seem to have come forth to claim new leadership. Comrade, who shall it be?"
+ DH_soviet.4.a:0 "Nikita S. Khrushchev."
+ DH_soviet.4.b:0 "Georgy Malenkov." 
+ DH_soviet.4.c:0 "Lavrenti P. Beria."
+ DH_soviet.4.d:0 "Georgy Zhukov." 
+ 
+ DH_soviet.5.t:0 "Proposition from Berlin"
+ DH_soviet.5.d:0 "It seems that Berlin has finally come around, and acknowledges our shared duty in spreading the world revolution to all four corners. Combined, Germany and the Soviet Union shall embark on a crusade against the west. It merely requries our pledge of allegiance."
+ DH_soviet.5.a:0 "Let's bury the West"
+ DH_soviet.5.b:0 "We need more time"
+ 

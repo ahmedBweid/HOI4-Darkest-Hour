@@ -4,26 +4,14 @@ oob = "CHI_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	
+	infantry_rifle = 1
+	gwtank = 1
 	early_fighter = 1
 	early_bomber = 1
 	mass_assault = 1
 	fleet_in_being = 1
-#Naval Stuff
-	destroyer_1885 = 1
-	
-	light_cruiser_1885 = 1
-	light_cruiser_1900 = 1
-	light_cruiser_1912 = 1
-	light_cruiser_1922 = 1
-	
-	heavy_cruiser_1885 = 1
-	heavy_cruiser_1895 = 1
-	
-	battleship_1885 = 1
-	battleship_1895 = 1
-#
+	early_destroyer = 1
+	early_light_cruiser = 1
 }
 
 add_ideas = {
@@ -113,30 +101,36 @@ set_convoys = 40
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 62 }		
-		social_conservative = { popularity = 27 }		
-		market_liberal = { popularity = 11 }		
-		social_liberal = { popularity = 0 }		
-		social_democrat = { popularity = 0 }		
-		left_wing_radical = { popularity = 0 }		
-		leninist = { popularity = 0 }		
-		stalinist = { popularity = 0 }	
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Lin Sen"
-	desc = "POLITICS_LIN_SEN_DESC"
-	picture = "Portrait_China_Lin_Sen.dds"
+	name = "Chiang Kai-shek"
+	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
+	ideology = despotism
 	traits = {
 		#
 	}
@@ -156,9 +150,9 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wang Jingwei"
 	desc = "POLITICS_WANG_JINGWEI_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascist.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1965.1.1"
-	ideology = fascist_ideology
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -169,7 +163,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_LAN_DESC"
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -181,25 +175,25 @@ add_opinion_modifier = { target = PRC modifier = hostile_status }
 	set_politics = {
 
 		parties = {
-		social_conservative = { 
+		democratic = { 
 			popularity = 0
 		}
 
-		fascist = {
+		fascism = {
 			popularity = 0
 		}
 		
-		stalinist = {
+		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
 		
-		paternal_autocrat = { 
+		neutrality = { 
 			popularity = 100
 		}
 	}
 		
-		ruling_party = paternal_autocrat
+		ruling_party = neutrality
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no

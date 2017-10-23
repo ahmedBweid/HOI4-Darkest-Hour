@@ -6,24 +6,15 @@ set_research_slots = 3
 
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
 	tech_support = 1		
 	tech_recon = 1
 	tech_engineers = 1
 	motorised_infantry = 1
 	early_fighter = 1
-	trench_warfare = 1
-# Armour Tech
-	experimental_tank_1916 = 1
-	light_tank_1917 = 1
-	heavy_tank_1917 = 1
-	light_tank_1918 = 1
-	light_tank_1919 = 1
-	light_tank_1924 = 1
-#Naval stuff
-	destroyer_1885 = 1
-#
+			trench_warfare = 1
+
 }
 
 1939.1.1 = {
@@ -51,7 +42,7 @@ set_technology = {
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
-		infantry_weapons2 = 1
+		infantry_rifle2 = 1
 		support_weapons = 1
 
 		#doctrines
@@ -87,19 +78,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 5 }		
-		paternal_autocrat = { popularity = 1 }		
-		social_conservative = { popularity = 1 }		
-		market_liberal = { popularity = 38 }		
-		social_liberal = { popularity = 14 }		
-		social_democrat = { popularity = 37 }		
-		left_wing_radical = { popularity = 1 }		
-		leninist = { popularity = 3 }		
-		stalinist = { popularity = 0 }	
+		democratic = { 
+			popularity = 83
+		}
+
+		fascism = {
+			popularity = 11
+		}
+		
+		communism = {
+			popularity = 6
+		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = democratic
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
@@ -109,20 +101,20 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			social_conservative = { 
+			democratic = { 
 				popularity = 87
 			}
 
-			fascist = {
+			fascism = {
 				popularity = 8
 			}
 			
-			stalinist = {
+			communism = {
 				popularity = 5
 			}
 		}
 		
-		ruling_party = social_conservative
+		ruling_party = democratic
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
@@ -137,18 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Paul Van Zeeland"
-	desc = "POLITICS_LEOPOLD_DESC"
-	picture = "Portrait_Belgium_Paul_Van_Zeeland.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -159,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = left_wing_radicalism
+	ideology = anarchist_communism
 	traits = {
 		#
 	}

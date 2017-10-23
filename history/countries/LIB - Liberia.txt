@@ -4,7 +4,7 @@ oob = "LIB_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	infantry_rifle = 1
 }
 
 set_convoys = 10
@@ -59,30 +59,32 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 20 }		
-		social_conservative = { popularity = 50 }		
-		market_liberal = { popularity = 10 }		
-		social_liberal = { popularity = 15 }		
-		social_democrat = { popularity = 0 }		
-		left_wing_radical = { popularity = 5 }		
-		leninist = { popularity = 0 }		
-		stalinist = { popularity = 0 }	
+		democratic = { 
+			popularity = 100
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = democratic
 	last_election = "1931.1.1"
 	election_frequency = 96
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Edwin J. Barclay"
+	name = "Edwin Barclay"
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
-	picture = "Portrait_Liberia_Edwin_Barclay.dds"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -92,21 +94,21 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			social_conservative = { 
+			democratic = { 
 				popularity = 100
 			}
 
-			fascist = {
+			fascism = {
 				popularity = 0
 			}
 			
-			stalinist = {
+			communism = {
 				popularity = 0
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = social_conservative
+		ruling_party = democratic
 		last_election = "1939.1.1"
 		election_frequency = 48
 		elections_allowed = yes

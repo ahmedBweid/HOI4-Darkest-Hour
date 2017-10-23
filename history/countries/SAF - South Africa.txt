@@ -4,34 +4,22 @@ oob = "SAF_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
-	
-	
+	gwtank = 1
+	basic_light_tank = 1
 	early_fighter = 1
 	cv_early_fighter = 1
 	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
-# Armour Tech
-	experimental_tank_1916 = 1
-	light_tank_1917 = 1
-	heavy_tank_1917 = 1
-	light_tank_1918 = 1
-	light_tank_1919 = 1
-#Naval Stuff
-	destroyer_1885 = 1
-	destroyer_1900 = 1
-	destroyer_1912 = 1
-	destroyer_1916 = 1
-	
+	early_destroyer = 1
 	transport = 1
-#
 	trench_warfare = 1
 	fleet_in_being = 1
 }
@@ -86,11 +74,11 @@ if = {
 	set_technology = {
 		fighter1 = 1
 		tactical_bomber1 = 1
-		
-		
-		
+		improved_light_tank = 1
+		basic_medium_tank = 1
+		basic_heavy_tank = 1
 		interwar_artillery = 1
-		infantry_weapons2 = 1
+		infantry_rifle2 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		
@@ -127,19 +115,20 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 50 }		
-		market_liberal = { popularity = 41 }		
-		social_liberal = { popularity = 0 }		
-		social_democrat = { popularity = 5 }		
-		left_wing_radical = { popularity = 4 }		
-		leninist = { popularity = 0 }		
-		stalinist = { popularity = 0 }	
+		democratic = { 
+			popularity = 75
+		}
+
+		fascism = {
+			popularity = 20
+		}
+		
+		communism = {
+			popularity = 5
+		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = democratic
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
@@ -147,11 +136,11 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Villiers Lord Clarendon"
+	name = "J. B. M. Hertzog"
 	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "Portrait_SouthAfrica_Villiers_Lord_Clarendon.dds"
+	picture = "GFX_SAF_james_hertzog"
 	expire = "1965.1.1"
-	ideology = market_liberalism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -161,19 +150,21 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-			national_socialist = { popularity = 0 }		
-			fascist = { popularity = 0 }		
-			paternal_autocrat = { popularity = 0 }		
-			social_conservative = { popularity = 50 }		
-			market_liberal = { popularity = 41 }		
-			social_liberal = { popularity = 0 }		
-			social_democrat = { popularity = 5 }		
-			left_wing_radical = { popularity = 4 }		
-			leninist = { popularity = 0 }		
-			stalinist = { popularity = 0 }	
+			democratic = { 
+				popularity = 100
+			}
+
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 0
+				#banned = no #default is no
+			}
 		}
 		
-		ruling_party = social_conservative
+		ruling_party = democratic
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
@@ -185,7 +176,7 @@ create_country_leader = {
 		desc = "POLITICS_JAN_SMUTS_DESC"
 		picture = "Portrait_SouthAfrica_Jan_Smuts.dds"
 		expire = "1965.1.1"
-		ideology = social_conservatism
+		ideology = conservatism
 		traits = {
 			#
 		}
@@ -197,7 +188,7 @@ create_country_leader = {
 	desc = "POLITICS_DF_MALAN_DESC"
 	picture = "GFX_SAF_daniel_malan"
 	expire = "1965.1.1"
-	ideology = fascist_ideology
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -208,7 +199,7 @@ create_country_leader = {
 	desc = "POLITICS_MOSES_KOTANE_DESC"
 	picture = "GFX_SAF_moses_kotane"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -219,7 +210,7 @@ create_country_leader = {
 	desc = "POLITICS_PIXLEY_SEME_DESC"
 	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
+	ideology = centrism
 	traits = {
 		#
 	}

@@ -1,0 +1,94 @@
+﻿###########################
+# Realism Overhaul Events : Spain
+###########################
+
+add_namespace = DH_turkey
+
+###------------------- Spain ----------------------------------------------
+### ----------------------- Arabs ---------------------------------------------
+
+#########################################################################
+#  The Kars Convention on the Subdivision of Transcaucasia
+#########################################################################
+country_event = { 
+	id = DH_turkey.1
+	title = DH_turkey.1.t
+	desc = DH_turkey.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #accept puppets
+		name = DH_turkey.1.a
+		ai_chance = {
+			factor = 75
+			modifier = {
+				TUR = {
+					OR = {
+						has_government = democratic
+						has_government = communism
+					}
+				}
+				factor = 0.04
+			}
+		}
+		TUR = {
+			release_puppet = GEO
+			release_puppet = ARM
+			if = {
+				limit = {
+					NOT = {
+						TUR = {
+							is_in_faction_with = GER
+						}
+					}
+				}	
+				GER = { add_to_faction = TUR }
+			}
+		}
+	}
+	option = { 
+		name = DH_turkey.1.b
+		ai_chance = {
+		factor = 25
+			modifier = {
+				TUR = {
+					OR = {
+						has_government = fascism
+						is_in_faction_with = GER
+					}
+				}
+				factor = 0
+			}
+		}
+		GER = { country_event = DH_germany.10 }
+	}
+}
+
+#########################################################################
+#  State of Cyprus
+#########################################################################
+country_event = {
+	id = DH_turkey.2
+	title = DH_turkey.2.t
+	desc = DH_turkey.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #accept cyprus
+		name = DH_turkey.2.a
+		TUR = {
+			transfer_state = 183
+			add_state_core = 183
+		}
+		add_opinion_modifier = { target = GER modifier = fascism_leanings_good }			
+	}
+
+	option = { #refuse cyprus
+		name = DH_turkey.2.b
+		ITA = { country_event = { hours = 6 id = DH_italy.3 }}
+	}
+}

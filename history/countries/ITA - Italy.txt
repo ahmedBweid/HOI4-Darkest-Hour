@@ -15,72 +15,29 @@ add_ideas = {
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
 	motorised_infantry = 1
 	gw_artillery = 1
-	
+	gwtank = 1
+	basic_light_tank = 1
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
 	early_bomber = 1
 	naval_bomber1 = 1
 	CAS1 = 1
-# Armour Tech
-	experimental_tank_1916 = 1
-	light_tank_1917 = 1
-	heavy_tank_1917 = 1
-	light_tank_1918 = 1
-	light_tank_1919 = 1
-	light_tank_1924 = 1
-	light_tank_1928 = 1
-	light_tank_1934 = 1
-# Naval stuff
-	destroyer_1885 = 1
-	destroyer_1900 = 1
-	destroyer_1912 = 1
-	destroyer_1916 = 1
-	destroyer_1922 = 1
-	destroyer_1933 = 1	
-	
-	light_cruiser_1885 = 1
-	light_cruiser_1900 = 1
-	light_cruiser_1912 = 1
-	light_cruiser_1922 = 1
-	light_cruiser_1933 = 1	
-	light_cruiser_1936 = 1
-	
-	heavy_cruiser_1885 = 1
-	heavy_cruiser_1895 = 1
-	heavy_cruiser_1906 = 1
-	heavy_cruiser_1922 = 1
-	heavy_cruiser_1933 = 1	
-	heavy_cruiser_1936 = 1	
-	
-	submarine_1895 = 1
-	submarine_1912 = 1
-	submarine_1916 = 1
-	submarine_1922 = 1	
-	submarine_1933 = 1
-
-	battlecruiser_1906 = 1
-	battlecruiser_1912 = 1
-	battlecruiser_1916 = 1
-	
-	battleship_1885 = 1
-	battleship_1895 = 1
-	battleship_1900 = 1
-	battleship_1906 = 1
-	battleship_1912 = 1
-	battleship_1916 = 1
-	battleship_1922 = 1	
-	battleship_1933 = 1
-
-	escort_carrier_1912 = 1
-	
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
 	transport = 1
-#
 	trench_warfare = 1
 	fleet_in_being = 1
 }
@@ -102,7 +59,7 @@ set_technology = {
 	add_ideas = {
 		ITA_giovanni_marinelli
 		ITA_giacomo_acerbo
-		#emilio_de_bono
+		emilio_de_bono
 		vittorio_ambrosio
 		fiat
 		beretta
@@ -123,19 +80,24 @@ set_technology = {
 	complete_national_focus = ITA_submarine_effort
 	complete_national_focus = ITA_bulgaria_friend
 	complete_national_focus = ITA_pact_of_steel
-	
 	oob = "ITA_1939"
 	set_technology = {
 		fighter1 = 1
 		fighter2 = 1
 		tactical_bomber1 = 1
 		tactical_bomber2 = 1
-		
+		improved_light_tank = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
-		infantry_weapons2 = 1
+		infantry_rifle2 = 1
 		support_weapons = 1
 		support_weapons2 = 1
+		basic_submarine = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		basic_light_cruiser = 1
+		basic_battleship = 1
+		improved_battleship = 1
 		tech_recon = 1
 
 		#doctrines
@@ -186,138 +148,56 @@ set_national_unity = 0.6
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 52 }		
-		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 28 }		
-		market_liberal = { popularity = 0 }		
-		social_liberal = { popularity = 10 }		
-		social_democrat = { popularity = 0 }		
-		left_wing_radical = { popularity = 10 }		
-		leninist = { popularity = 0 }		
-		stalinist = { popularity = 0 }	
+		democratic = { 
+			popularity = 22
+		}
+
+		fascism = {
+			popularity = 76
+		}
+		
+		communism = {
+			popularity = 2
+		}
 	}
 	
-	ruling_party = fascist
+	ruling_party = fascism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 
-#########################################################
-## Italian Leaders
-#########################################################
-#NS
+
+
+
 create_country_leader = {
 	name = "Benito Mussolini"
-	desc = ""
-	picture = "DH_Benito_Mussolini.dds"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Portrait_Italy_Benito_Mussolini.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FS
-create_country_leader = {
-	name = "Benito Mussolini"
-	desc = ""
-	picture = "DH_Benito_Mussolini.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Vittorio Emanuele III"
-	desc = ""
-	picture = "DH_Emanuele_III.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
-}
-#SC
-create_country_leader = {
-	name = "Alcide de Gasperi"
-	desc = ""
-	picture = "DH_Alcide_de_Gasperi.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Enrico De Nicola"
-	desc = ""
-	picture = "DH_Enrico_De_Nicola.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {}
-}
-#SL
-create_country_leader = {
-	name = "Ivanoe Bonomi"
-	desc = ""
-	picture = "DH_Ivanoe_Bonomi.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Giuseppe Saragat"
-	desc = ""
-	picture = "DH_Giuseppe_Saragat.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
-}
-#LWR
-create_country_leader = {
-	name = "Luigi Longo"
-	desc = ""
-	picture = "DH_Luigi_Longo.dds"
-	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = {}
-}
-#LE
-create_country_leader = {
-	name = "Palmiro Togliatti"
-	desc = ""
-	picture = "DH_Palmiro_Togliatti.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {}
-}
-#ST
-create_country_leader = {
-	name = "Olindo Vernocchi"
-	desc = ""
-	picture = "DH_Olindo_Vernocchi.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
+	ideology = fascism_ideology
+	traits = {
+		
+	}
 }
 
-#########################################################
-## Italian Generals
-#########################################################
 create_field_marshal = {
 	name = "Pietro Badoglio"
-	picture = "Generals/DH_Pietro_Badoglio.dds"
+	picture = "Portrait_Italy_Pietro_Badoglio.dds"
 	traits = { defensive_doctrine old_guard }
 	skill = 1
 }
 
 create_field_marshal = {
 	name = "Emilio De Bono"
-	picture = "Generals/DH_emilio_de_bono.dds"
+	picture = "portrait_italy_emilio_de_bono.dds"
 	traits = { defensive_doctrine old_guard }
 	skill = 1
 }
 
 create_corps_commander = {
 	name = "Ugo Cavallero"
-	picture = "Generals/DH_Ugo_Cavallero.dds"
+	picture = "Portrait_Italy_Ugo_Cavallero.dds"
 	traits = {  old_guard }
 	skill = 1
 	rank = 1
@@ -325,7 +205,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Giovanni Messe"
-	picture = "Generals/DH_Giovanni_Messe.dds"
+	picture = "Portrait_Italy_Giovanni_Messe.dds"
 	traits = {  panzer_leader }
 	skill = 4
 	rank = 1
@@ -333,34 +213,32 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Sebastiano Visconti Prasca"
-	picture = "Generals/DH_Sebastiano_Visconti_Prasca.dds" #No Portrait
+	picture = "Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
 	traits = {  }
 	skill = 1
 }
 
 create_corps_commander = {
 	name = "Ubaldo Soddu"
-	picture = "Generals/DH_Ubaldo_Soddu.dds" #No Portrait
+	picture = "Portrait_Italy_Ubaldo_Soddu.dds"
 	traits = {  }
 	skill = 1
 }
 
 create_corps_commander = {
 	name = "Italo Balbo"
-	picture = "Generals/DH_italo_balbo.dds"
+	picture = "portrait_italy_italo_balbo.dds"
 	traits = {  }
 	skill = 1
 }
 
 create_field_marshal = {
 	name = "Rodolfo Graziani"
-	picture = "Generals/DH_radolfo_graziani.dds"
+	picture = "portrait_italy_radolfo_graziani.dds"
 	traits = { offensive_doctrine }
 	skill = 2
 }
-#########################################################
-## Italian Admirals
-#########################################################
+
 create_navy_leader = {
 	name = "Inigo Campioni"
 		picture = "Portrait_Italy_Inigo_Campioni.dds"
@@ -396,9 +274,7 @@ create_navy_leader = {
 	skill = 2
 }
 
-#########################################################
-## Italian Variants
-#########################################################
+### Ship Variants ###
 
 create_equipment_variant = {
 	name = "Bandiera Class"

@@ -1,0 +1,138 @@
+spriteTypes = {	
+
+### Generic --------------------------------
+
+	SpriteType = {
+		name = "GFX_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/modern_medium_tank.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_improved_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_semi_modern_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_modern_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/main_battle_tank.dds"	
+	}	
+
+### Germany --------------------------------
+	SpriteType = {
+		name = "GFX_GER_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_I.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_II.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_gwtank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Leichte.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_II.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_IV.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_V.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Panther_II.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_GER_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Nbw.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_VI.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Pz_VII.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/ger_superheavy_tank.dds"
+	}
+
+	
+	SpriteType = {
+		name = "GFX_GER_improved_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_E-50.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_advanced_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_E-75.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_GER_semi_modern_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_E-75.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_GER_modern_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/GER_Leopard_I.dds"	
+	}		
+	
+### USSR --------------------------------
+
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/SOV_T-34-85.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_improved_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/SOV_T-44.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/SOV_T-54.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_semi_modern_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/SOV_T-55.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Armor/SOV_T-62.dds"	
+	}	
+}

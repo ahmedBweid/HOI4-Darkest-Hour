@@ -1,0 +1,65 @@
+﻿###########################
+# Realism Overhaul Events : Norway
+###########################
+
+add_namespace = DH_norway
+
+
+### ------------------- Norway ---------------------------------------------
+######  Norway's Reaction to the Quisling coup
+country_event = {
+	id = DH_norway.1
+	title = DH_norway.1.t
+	desc = DH_norway.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	# Submit to the coup
+	option = { 
+		name = DH_norway.1.a
+		GER = { puppet = NOR }
+		if = {
+			limit = { has_dlc = "Death or Dishonor" }
+			set_autonomy = { target = NOR autonomy_state = autonomy_puppet }
+		}	
+		NOR = { 
+			add_popularity = { ideology = fascism popularity = 0.1 }
+			set_politics = { ruling_party = fascism elections_allowed = no }		
+		}	
+	}
+	
+	# Death or Dishonor!
+	option = { 
+		name = DH_norway.1.b
+		start_civil_war = {
+			ruling_party = democratic		
+			ideology = fascism
+            size = 0.5
+            capital = 144
+            states = { 110 }
+        }
+		random_other_country = {
+			limit = { original_tag = NOR has_government = fascism }
+			GER = { puppet = PREV }		
+		}	
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 2
+					OR = {
+						is_guaranteed_by = ENG
+						is_guaranteed_by = USA
+						is_guaranteed_by = FRA
+						is_guaranteed_by = SOV						
+					}
+			}
+			modifier = {
+				factor = 5
+					is_in_faction = yes
+			}			
+		}	
+	}	
+}

@@ -13,13 +13,13 @@ set_technology = {
 	tech_engineers = 1
 	tech_mountaineers = 1
 	early_fighter = 1
-	
-	
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	
-	
-	
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
 }
 
 1939.1.1 = {
@@ -52,9 +52,9 @@ set_technology = {
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
-		infantry_weapons2 = 1
+		infantry_rifle2 = 1
 		support_weapons = 1
-		
+		basic_destroyer = 1
 
 		#doctrines
 		air_superiority = 1
@@ -86,19 +86,25 @@ set_convoys = 0
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }
-		fascist = { popularity = 30 }
-		paternal_autocrat = { popularity = 30 }
-		social_conservative = { popularity = 20 }
-		market_liberal = { popularity = 0 }
-		social_liberal = { popularity = 0 }
-		social_democrat = { popularity = 0 }
-		left_wing_radical = { popularity = 0 }
-		leninist = { popularity = 0 }
-		stalinist = { popularity = 20 }
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = {
+			popularity = 30
+		}
+		
+		communism = {
+			popularity = 20
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 30
+		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = yes
@@ -108,25 +114,25 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			social_conservative = { 
+			democratic = { 
 				popularity = 20
 			}
 
-			fascist = {
+			fascism = {
 				popularity = 30
 			}
 			
-			stalinist = {
+			communism = {
 				popularity = 20
 				#banned = no #default is no
 			}
 			
-			paternal_autocrat = { 
+			neutrality = { 
 				popularity = 30
 			}
 		}
 		
-		ruling_party = paternal_autocrat
+		ruling_party = neutrality
 		last_election = "1938.1.1"
 		election_frequency = 36
 		elections_allowed = yes
@@ -139,7 +145,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -150,7 +156,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascist_ideology
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
@@ -161,7 +167,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
+	ideology = Despotism
 	traits = {
 		#
 	}

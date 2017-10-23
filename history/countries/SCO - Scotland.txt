@@ -3,8 +3,8 @@
 oob = "empty"
 
 set_technology = {
-	 
-	 
+	improved_light_tank = 1 
+	basic_medium_tank = 1 
 	CAS2 = 1
 	heavy_fighter1 = 1
 	interwar_artillery = 1
@@ -60,19 +60,21 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 60 }
-		fascist = { popularity = 0 }
-		paternal_autocrat = { popularity = 0 }
-		social_conservative = { popularity = 20 }
-		market_liberal = { popularity = 0 }
-		social_liberal = { popularity = 0 }
-		social_democrat = { popularity = 0 }
-		left_wing_radical = { popularity = 0 }
-		leninist = { popularity = 0 }
-		stalinist = { popularity = 20 }
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = {
+			popularity = 60
+		}
+		
+		communism = {
+			popularity = 20
+			banned = yes #default is no
+		}
 	}
 	
-	ruling_party = national_socialist
+	ruling_party = fascism
 	election_frequency = 48
 	elections_allowed = no
 
@@ -89,7 +91,7 @@ create_country_leader = {
 	desc = "ANDREW_DEWAR_GIBB_DESC"
 	picture = "Portrait_SCO_Andrew_Dewar_Gibb.dds"
 	expire = "1965.1.1"
-	ideology = fascist_ideology
+	ideology = fascism_ideology
 	traits = {
 		
 	}

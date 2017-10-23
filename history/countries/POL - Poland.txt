@@ -6,41 +6,20 @@ set_research_slots = 3
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
 	tech_mountaineers = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	
+	gwtank = 1
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
-# Armour Tech
-	experimental_tank_1916 = 1
-	light_tank_1917 = 1
-	heavy_tank_1917 = 1
-	light_tank_1918 = 1
-	light_tank_1919 = 1
-	light_tank_1924 = 1
-#Naval Stuff
-	destroyer_1885 = 1
-	destroyer_1900 = 1
-	destroyer_1912 = 1
-	destroyer_1916 = 1
-	destroyer_1922 = 1
-	destroyer_1933 = 1	
-
-	heavy_cruiser_1885 = 1
-	heavy_cruiser_1895 = 1
-	
-	submarine_1895 = 1
-	submarine_1912 = 1
-	submarine_1916 = 1
-	submarine_1922 = 1
-#
+	early_destroyer = 1
+	early_submarine = 1	
 	trench_warfare = 1
 }
 
@@ -96,12 +75,13 @@ set_technology = {
 
 	oob = "POL_1939"
 	set_technology = {
-		
+		basic_light_tank = 1
 		tactical_bomber1 = 1
 		motorised_infantry = 1
 		support_weapons = 1
 		interwar_artillery = 1
-
+		basic_submarine = 1
+		basic_destroyer = 1
 
 		#doctrines
 		air_superiority = 1
@@ -152,19 +132,24 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 73 }		
-		market_liberal = { popularity = 25 }		
-		social_liberal = { popularity = 0 }		
-		social_democrat = { popularity = 2 }		
-		left_wing_radical = { popularity = 0 }		
-		leninist = { popularity = 0 }		
-		stalinist = { popularity = 0 }	
+		democratic = { 
+			popularity = 18
+		}
+
+		fascism = {
+			popularity = 15
+		}
+		
+		communism = {
+			popularity = 2
+		}
+		
+		neutrality = { 
+			popularity = 65
+		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = neutrality
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -174,19 +159,24 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			national_socialist = { popularity = 0 }		
-			fascist = { popularity = 0 }		
-			paternal_autocrat = { popularity = 0 }		
-			social_conservative = { popularity = 73 }		
-			market_liberal = { popularity = 25 }		
-			social_liberal = { popularity = 0 }		
-			social_democrat = { popularity = 2 }		
-			left_wing_radical = { popularity = 0 }		
-			leninist = { popularity = 0 }		
-			stalinist = { popularity = 0 }	
+			democratic = { 
+				popularity = 13
+			}
+
+			fascism = {
+				popularity = 7
+			}
+			
+			communism = {
+				popularity = 2
+			}
+			
+			neutrality = { 
+				popularity = 78
+			}
 		}
 		
-		ruling_party = paternal_autocrat
+		ruling_party = neutrality
 		last_election = "1935.9.8"
 		election_frequency = 36
 		elections_allowed = no
@@ -198,7 +188,7 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
+	ideology = oligarchism
 	traits = {
 		#
 	}
@@ -209,12 +199,44 @@ create_country_leader = {
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = oligarchism
 	traits = {
 		#
 	}
 }
 
+create_country_leader = {
+	name = "Władysław Gomułka"
+	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
+	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Wincenty Witos"
+	desc = "POLITICS_WINCENTY_WITOS_DESC"
+	picture = "GFX_POL_wincenty_witos"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Bolesław Piasecki"
+	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
+	picture = "GFX_POL_boleslaw_piasecki"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		#
+	}
+}
 
 create_field_marshal = {
 	name = "Władysław Sikorski"

@@ -4,8 +4,8 @@ set_research_slots = 1
 
 
 set_technology = {
-	infantry_weapons = 2
-	infantry_weapons1 = 2
+	infantry_rifle = 2
+	infantry_rifle1 = 2
 	tech_mountaineers = 2
 	tech_support = 1
 	tech_recon = 1
@@ -18,19 +18,12 @@ set_convoys = 50
 set_politics = {
 
 	parties = {		
-		national_socialist = { popularity = 100 }
-		fascist = { popularity = 0 }
-		paternal_autocrat = { popularity = 0 }
-		social_conservative = { popularity = 0 }
-		market_liberal = { popularity = 0 }
-		social_liberal = { popularity = 0 }
-		social_democrat = { popularity = 0 }
-		left_wing_radical = { popularity = 0 }
-		leninist = { popularity = 0 }
-		stalinist = { popularity = 0 }				
+		fascism = {
+			popularity =100
+		}				
 	}
 	
-	ruling_party = national_socialist
+	ruling_party = fascism
 	last_election = "1935.6.9"
 	election_frequency = 0
 	elections_allowed = no
@@ -42,12 +35,5 @@ set_politics = {
 		war_economy
 		GER_RK_repression
 	}
+	
 
-create_country_leader = {
-	name = "Oskar von Niedermayer" 
-	desc = "POLITICS_VON_NIEDERMAYER_DESC" 
-	picture = "Portrait_Germany_Oskar_von_Niedermayer.dds"
-	expire = "1973.5.3" 
-	ideology = national_socialism
-	traits = { }
-}

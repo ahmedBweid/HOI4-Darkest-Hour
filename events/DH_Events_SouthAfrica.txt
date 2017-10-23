@@ -1,0 +1,59 @@
+﻿###########################
+# Darkest Hour Events : South Africa
+###########################
+
+add_namespace = DH_southafrica
+
+#########################################################################
+# Germany is influencing our politics!
+#########################################################################
+country_event = { 
+	id = DH_southafrica.1
+	title = DH_southafrica.1.t
+	desc = DH_southafrica.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	#Support fascism
+	option = { 
+		name = DH_southafrica.1.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				SAF = { is_puppet_of = ENG }
+				factor = 0.1
+			}
+		}		
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_ideas = fascist_influence			
+			add_political_power = 50			
+	}
+	
+	#Seriously?
+	option = { 
+		name = DH_southafrica.1.b	
+		ai_chance = {
+			factor = 10
+		}
+		add_ideas = fascist_influence
+	}
+
+	#Fight fascism	
+	option = { 
+		name = DH_southafrica.1.c
+		add_political_power = -120			
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.10
+		}	
+		add_opinion_modifier = {
+			target = GER
+			modifier = protest_action
+		}		
+	}
+}

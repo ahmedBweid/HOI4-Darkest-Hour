@@ -579,11 +579,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = theoretical_jet_engines
-			research_cost_coeff = 1
-		}	
-		
 		research_cost = 1.5
 		start_year = 1939
 		
@@ -665,7 +660,11 @@ technologies = {
 			leads_to_tech = improved_rocket_engines 
 			research_cost_coeff = 1
 		}
-	
+		path = {
+			leads_to_tech = jet_engines 
+			research_cost_coeff = 1
+		}
+		
 		research_cost = 2
 		start_year = 1943
 		
@@ -768,37 +767,6 @@ technologies = {
 			rocketry
 		}
 	}
-
-	theoretical_jet_engines = {
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = -2 }
-		}
-		
-		start_year = 1939
-		research_cost = 1
-
-		path = {
-			leads_to_tech = jet_engines
-			research_cost_coeff = 1
-		}
-		
-		desc = "THEO_JET_ENGINES_SPECIAL"
-
-		on_research_complete = {
-			custom_effect_tooltip = JET_ENGINES_RESEARCHED
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			rocketry
-			jet_technology
-		}
-	}
 	
 	jet_engines = {
 	
@@ -807,8 +775,8 @@ technologies = {
 			position = { x = 2 y = 3 }
 		}
 		
-		start_year = 1943
-		research_cost = 1
+		start_year = 1944
+		research_cost = 2
 
 
 		
@@ -840,7 +808,7 @@ technologies = {
 		}
 		
 		start_year = 1936
-		research_cost = 1
+		research_cost = 2
 		
 		folder = {
 			name = electronics_folder
@@ -888,7 +856,7 @@ technologies = {
 		}
 		
 		start_year = 1939
-		research_cost = 2
+		research_cost = 3
 		
 		folder = {
 			name = electronics_folder
@@ -971,7 +939,10 @@ technologies = {
 		categories = {
 			nuclear
 		}
-	
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}	
 
 	}
 	
@@ -1002,7 +973,7 @@ technologies = {
 		
 		enable_building = {
 			building = nuclear_reactor
-			level = 1
+			level = 2
 		}
 	}
 
@@ -1050,15 +1021,13 @@ technologies = {
 			factor = 10
 		}
 		
-
+		enable_building = {
+			building = nuclear_reactor
+			level = 5
+		}	
 		categories = {
 			nuclear
 		}
-		
-		enable_building = {
-			building = nuclear_reactor
-			level = 2
-		}		
 	}	
 	
 	nuclear_propulsion = {

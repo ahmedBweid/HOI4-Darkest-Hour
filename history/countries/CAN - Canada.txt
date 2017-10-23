@@ -7,42 +7,20 @@ set_country_flag = monroe_doctrine
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_rifle = 1
+	infantry_rifle1 = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
-	
-	
+	gwtank = 1
+	basic_light_tank = 1
 	early_fighter = 1
 	naval_bomber1 = 1
 	early_bomber = 1
-# Armour Tech
-	experimental_tank_1916 = 1
-	light_tank_1917 = 1
-	heavy_tank_1917 = 1
-	light_tank_1918 = 1
-	light_tank_1919 = 1	
-#Naval Stuff	
-	destroyer_1885 = 1
-	destroyer_1900 = 1
-	destroyer_1912 = 1
-	destroyer_1916 = 1
-	destroyer_1922 = 1
-	destroyer_1933 = 1	
-	
-	light_cruiser_1885 = 1
-	light_cruiser_1900 = 1
-	light_cruiser_1912 = 1
-	
-	submarine_1895 = 1
-	submarine_1912 = 1
-	submarine_1916 = 1
-	submarine_1922 = 1	
-	
+	early_destroyer = 1
+	early_light_cruiser = 1
 	transport = 1
-#
 	trench_warfare = 1
 	fleet_in_being = 1
 }
@@ -102,7 +80,7 @@ if = {
 		fighter1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
-		infantry_weapons2 = 1
+		infantry_rifle2 = 1
 		support_weapons = 1
 		support_weapons2 = 1
 
@@ -144,19 +122,21 @@ if = {
 set_politics = {
 
 	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 8 }		
-		social_conservative = { popularity = 35 }		
-		market_liberal = { popularity = 45 }		
-		social_liberal = { popularity = 1 }		
-		social_democrat = { popularity = 10 }		
-		left_wing_radical = { popularity = 1 }		
-		leninist = { popularity = 0 }		
-		stalinist = { popularity = 0 }	
+		democratic = { 
+			popularity = 98
+		}
+
+		fascism = {
+			popularity = 1
+		}
+		
+		communism = {
+			popularity = 1
+			#banned = no #default is no
+		}
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = democratic
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
@@ -167,18 +147,7 @@ create_country_leader = {
 	desc = "POLITICS_MACKENZIE_KING_DESC"
 	picture = "Portrait_Canada_Mackenzie_King.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sir John Buchan"
-	desc = "POLITICS_JOHN_BUCHAN_DESC"
-	picture = "Portrait_Canada_John_Buchan.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
+	ideology = liberalism
 	traits = {
 		#
 	}
@@ -189,7 +158,7 @@ create_country_leader = {
 	desc = "POLITICS_ADRIEN_ARCAND_DESC"
 	picture = "GFX_CAN_adrien_arcand"
 	expire = "1965.1.1"
-	ideology = national_socialism
+	ideology = nazism
 	traits = {
 		#
 	}
@@ -200,7 +169,7 @@ create_country_leader = {
 	desc = "POLITICS_TIM_BUCK_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		#
 	}
@@ -211,7 +180,7 @@ create_country_leader = {
 	desc = "POLITICS_JS_WOODSWORTH_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
+	ideology = centrism
 	traits = {
 		#
 	}
@@ -224,21 +193,21 @@ set_national_unity = 0.9
 	set_politics = {
 
 		parties = {
-			social_conservative = { 
+			democratic = { 
 				popularity = 98
 			}
 
-			fascist = {
+			fascism = {
 				popularity = 1
 			}
 			
-			stalinist = {
+			communism = {
 				popularity = 1
 				#banned = no #default is no
 			}
 		}
 		
-		ruling_party = social_conservative
+		ruling_party = democratic
 		last_election = "1935.10.14"
 		election_frequency = 60
 		elections_allowed = yes
@@ -296,4 +265,30 @@ create_navy_leader = {
 	gfx = "GFX_CAN_harry_dewolf"
 	traits = { superior_tactician }
 	skill = 4
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Sanguenay Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}
+
+1939.1.1 = {
+	create_equipment_variant = {
+		name = "Athabaskan Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 2
+			destroyer_engine_upgrade = 2
+			ship_ASW_upgrade = 2
+			ship_anti_air_upgrade = 2
+		}
+	}
 }

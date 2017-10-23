@@ -2,45 +2,6 @@ ideas = {
 
 	country = {
 
-		GER_kraft_durch_freude = {
-			modifier = {
-				production_factory_efficiency_gain_factor =0.055
-			}
-		}
-
-		GER_trade_union = {
-			modifier = {
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
-			}
-		}
-
-		GER_org_todt = {
-			modifier = {
-				production_speed_arms_factory_factor = 0.05
-				production_speed_industrial_complex_factor = 0.05
-				production_speed_dockyard_factor = 0.05
-			}
-		}
-
-		GER_coal_liq = {
-			modifier = {
-				production_speed_synthetic_refinery_factor = 0.20
-			}
-		}
-
-		GER_spain_aid = {
-			modifier = {
-				consumer_goods_factor = -0.10
-			}
-		}
-
-		GER_german_aid = {
-			modifier = {
-				consumer_goods_factor = 0.10
-			}
-		}	
-	
 		GER_ikarus = {
 			allowed = {
 				always = no
@@ -84,28 +45,6 @@ ideas = {
 				}
 				heavy_tank_destroyer_equipment_3 = {
 					build_cost_ic = -0.05 instant = yes
-				}
-			}
-		}
-
-		GER_standard_panzer = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_production_bonus
-
-			equipment_bonus = {
-				modern_tank_equipment_0 = {
-					build_cost_ic = -0.1 instant = yes
-				}
-				modern_tank_equipment_1 = {
-					build_cost_ic = -0.1 instant = yes
-				}
-				modern_tank_equipment_2 = {
-					build_cost_ic = -0.1 instant = yes
 				}
 			}
 		}
@@ -194,279 +133,195 @@ ideas = {
 		}
 
 		GER_reinhardt = {
-			allowed = {
-				always = no
-			}
-
-
-			removal_cost = -1
-
-			picture = generic_manpower_bonus
-
-			modifier = {
-				industry_repair_factor = 0.15
-				production_speed_infrastructure_factor = 0.15
-			}
-		}
-
-		GER_amerikabomber = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_air_bonus
-
-			equipment_bonus = {
-				strat_bomber_equipment = {
-					air_range = 0.1 instant = yes
-				}
-			}
-		}
-
-		GER_u_boot_bunker = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-
-			equipment_bonus = {
-				submarine = {
-					evasion = 0.05 instant = yes
-					sub_visibility = -0.1 instant = yes
-				}
-			}
-
-		}
-
-		GER_planz = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-
-			equipment_bonus = {
-				battleships = {
-					armor_value = 0.05 instant = yes
-					ap_attack = 0.05 instant = yes
-				}
-			}
-		}
-
-		GER_staatenbund = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-
-			modifier = {
-				production_speed_industrial_complex_factor = 0.05
-				production_speed_infrastructure_factor = 0.05
-			}
-
-		}
-
-		GER_SS = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-
-			modifier = {
-				political_power_gain = -0.15
-				fascist_drift = 0.05
-			}
-		}
-
-		GER_knives = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-
-			modifier = {
-				political_power_factor = -0.5
-				unity_factor = -0.2
-			}
-		}
-
-		GER_work_camp = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			picture = generic_navy_bonus
-
-			modifier = {
-				industrial_capacity_factory = 0.07
-			}
-		}
-
-		GER_volks = {
-			allowed = {
-				always = no
-			}
-			removal_cost = -1
-			modifier = {
-				MONTHLY_POPULATION = 0.25
-			}
-		}
-		GER_synth_innovations = {
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = fascist
-			}
-
-			removal_cost = -1
-
-			picture = generic_refining_concern_1
-
-			modifier = {
-				production_speed_synthetic_refinery_factor = 0.10
-			}
+		allowed = {
+			always = no
 		}
 
 
-		GER_commercial = {
-			allowed = {
-				always = no
-			}
-			picture = generic_refining_concern_1
+		removal_cost = -1
 
-			cancel = {
-				SOV = {
-					has_war_with = GER
-				}
-			}
+		picture = generic_manpower_bonus
 
-			modifier = {
-				consumer_goods_factor = -0.04
-			}
+		modifier = {
+			industry_repair_factor = 0.15
+			production_speed_infrastructure_factor = 0.15
 		}
 
-		GER_RK_repression = {
-			allowed = {
-				always = no
-			}
 
-			removal_cost = -1
+	}
 
-			picture = generic_navy_bonus
-
-			modifier = {
-				enemy_partisan_effect = -0.25
-				resistance_tick = -0.25
-			}
+	GER_amerikabomber = {
+		allowed = {
+			always = no
 		}
 
-		GER_babelsberg_films_germany = {
-			allowed = {
-				always = no
-			}
+		removal_cost = -1
 
-			removal_cost = -1
+		picture = generic_air_bonus
 
-			modifier = {
-				political_power_gain = -0.15
-				subjects_autonomy_gain = -0.2
-			}
-		}
-
-		GER_babelsberg_films_allies = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				national_socialist_drift = 0.5
-			}
-		}
-
-		GER_azad_hind_radio = {
-			allowed = {
-				always = no
-			}
-
-			available = {
-				RAJ = {
-					is_subject = yes
-				}
-			}
-
-			cancel_if_invalid = yes
-
-			removal_cost = -1
-
-			modifier = {
-				autonomy_gain = 0.5
-			}
-		}
-
-		GER_breitspurbahn_constructing = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				production_speed_infrastructure_factor = -0.1
-			}
-		}
-
-		GER_gaufore = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				consumer_goods_factor = 0.03
-				conscription_factor = -0.10
-				army_attack_factor = -0.05
-				political_power_factor = 0.10
-				unity_weekly = 0.001	#Replace with the new 1.5 stuff when it happens
-			}
-		}
-
-		GER_volksprodulkte_spirit = {
-			allowed = {
-				always = no
-			}
-
-			removal_cost = -1
-
-			modifier = {#add war readiness when updated
-				consumer_goods_factor = 0.03
-				local_resources_factor = 0.10
+		equipment_bonus = {
+			strat_bomber_equipment = {
+				air_range = 0.1 instant = yes
 			}
 		}
 	}
+
+	GER_u_boot_bunker = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		equipment_bonus = {
+			submarine = {
+				evasion = 0.05 instant = yes
+				sub_visibility = -0.1 instant = yes
+			}
+		}
+
+	}
+
+	GER_planz = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		equipment_bonus = {
+			battleships = {
+				armor_value = 0.05 instant = yes
+				ap_attack = 0.05 instant = yes
+			}
+		}
+	}
+
+	GER_staatenbund = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			production_speed_industrial_complex_factor = 0.05
+			production_speed_infrastructure_factor = 0.05
+		}
+
+	}
+
+	GER_SS = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			political_power_gain = -0.15
+			fascism_drift = 0.05
+		}
+	}
+
+	GER_knives = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			political_power_factor = -0.5
+			unity_factor = -0.2
+		}
+	}
+
+	GER_work_camp = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			industrial_capacity_factory = 0.07
+		}
+	}
+
+	GER_volks = {
+		allowed = {
+			always = no
+		}
+		removal_cost = -1
+		modifier = {
+			MONTHLY_POPULATION = 0.25
+		}
+	}
+	GER_synth_innovations = {
+
+		allowed = {
+			always = no
+		}
+
+		allowed_civil_war = {
+			has_government = fascism
+		}
+
+		removal_cost = -1
+
+		picture = generic_refining_concern_1
+
+		modifier = {
+			production_speed_synthetic_refinery_factor = 0.10
+		}
+	}
+
+
+	GER_commercial = {
+		allowed = {
+			always = no
+		}
+		picture = generic_refining_concern_1
+
+		cancel = {
+			SOV = {
+				has_war_with = GER
+			}
+		}
+
+		modifier = {
+			consumer_goods_factor = -0.04
+		}
+	}
+
+	GER_RK_repression = {
+		allowed = {
+			always = no
+		}
+
+		removal_cost = -1
+
+		picture = generic_navy_bonus
+
+		modifier = {
+			enemy_partisan_effect = -0.25
+			resistance_tick = -0.25
+		}	
+	}	
+}
 	
 	hidden_ideas = {
 		GER_jewland = {
@@ -474,8 +329,9 @@ ideas = {
 				always = no
 			}
 		
+
 			allowed_civil_war = {
-			has_government = fascist
+			has_government = fascism
 			}
 			removal_cost = -1
 

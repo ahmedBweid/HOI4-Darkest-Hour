@@ -1,0 +1,184 @@
+﻿###########################
+# Realism Overhaul Events : USSR
+###########################
+
+add_namespace = DH_soviet
+
+### ------------------- USSR ---------------------------------------------
+
+
+#########################################################################
+#  Commercial Agreement
+#########################################################################
+country_event = {
+	id = DH_soviet.1
+	title = DH_soviet.1.t
+	desc = DH_soviet.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #accept deal
+		name = DH_soviet.1.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				SOV = { has_government = democratic }
+				factor = 0
+			}
+		}
+		GER = {
+			58 = {
+				add_resource = {
+						type = oil
+						amount = 12
+						state = 58
+				}
+				add_resource = {
+						type = chromium
+						amount = 6
+						state = 58
+				}
+			}
+		}
+		SOV = {
+			add_ideas = GER_commercial
+		}
+	}
+	option = { #refuse deal
+		ai_chance = { factor = 1 }
+		name = DH_soviet.1.b
+		GER = { country_event = { hours = 6 id = DH_germany.11 }}
+	}
+}
+
+#########################################################################
+#  Commercial agreement cancelled
+#########################################################################
+country_event = { #commercial agreement is over
+	id = DH_soviet.2
+	title = DH_soviet.2.t
+	desc = DH_soviet.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #remove idea
+		name = DH_soviet.2.a
+		SOV = {
+			remove_ideas = GER_commercial
+		}
+	}
+}
+
+#########################################################################
+#  Death of Stalin
+#########################################################################
+country_event = {
+	id = DH_soviet.3
+	title = DH_soviet.3.t
+	desc = DH_soviet.3.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1953.3.1	
+	}
+
+	
+	#
+	option = { 
+		name = DH_soviet.3.a
+		country_event = { days = 31 id = DH_soviet.4 }
+		create_country_leader = { 
+			name = "Lavrenti P. Beria" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Beria.dds" 
+			expire = "1967.1.1" 
+			ideology = stalinism 
+			traits = { } 
+		}
+	}
+}
+
+
+#########################################################################
+#  Death of Stalin : Succession after Stalin's death
+#########################################################################
+country_event = {
+	id = DH_soviet.4
+	title = DH_soviet.4.t
+	desc = DH_soviet.4.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	# Nikita S. Khrushchev
+	option = { 
+		name = DH_soviet.4.a
+		create_country_leader = { 
+			name = "Nikita S. Khrushchev" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Khrushchev.dds" 
+			expire = "1971.9.11" 
+			ideology = stalinism 
+			traits = { } 
+		}			
+	}
+	# Georgy Malenkov
+	option = { 
+		name = DH_soviet.4.b
+		create_country_leader = { 
+			name = "Georgy Malenkov" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Malenkov.dds" 
+			expire = "1988.1.14" 
+			ideology = stalinism 
+			traits = { } 
+		}	
+	}	
+	# Lavrenti P. Beria
+	option = { 
+		name = DH_soviet.4.c
+	}	
+	# Georgy Zhukov
+	option = { 
+		name = DH_soviet.4.d
+		create_country_leader = { 
+			name = "Georgy Zhukov" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Zhukov.dds" 
+			expire = "1974.6.18" 
+			ideology = stalinism 
+			traits = { } 
+		}			
+	}	
+}
+
+#########################################################################
+#  Crusade against the West : Proposition from Berlin
+#########################################################################
+country_event = {
+	id = DH_soviet.5
+	title = DH_soviet.5.t
+	desc = DH_soviet.5.d
+	picture = GFX_news_event_002
+	fire_only_once = no
+	
+	is_triggered_only = yes
+	
+	# Let's bury the west
+	option = { 
+		name = DH_soviet.5.a
+		country_event = { days = 31 id = DH_germany.25 }
+	}
+	# We need more time!
+	option = { 
+		name = DH_soviet.5.b
+		country_event = { days = 31 id = DH_germany.26 }
+	}	
+}

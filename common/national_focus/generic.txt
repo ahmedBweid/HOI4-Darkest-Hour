@@ -744,7 +744,10 @@ focus_tree = {
 				bonus = 0.5
 				ahead_reduction = 1
 				uses = 1
-				category = ss_tech
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
 			}
 		}
 	}
@@ -779,8 +782,10 @@ focus_tree = {
 				bonus = 0.5
 				ahead_reduction = 1
 				uses = 1
-				category = cl_tech
-				category = ca_tech
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
 			}
 		}
 	}
@@ -815,7 +820,10 @@ focus_tree = {
 				bonus = 0.5
 				ahead_reduction = 1
 				uses = 1
-				category = dd_tech
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
 			}
 		}
 	}
@@ -851,9 +859,16 @@ focus_tree = {
 				bonus = 0.5
 				ahead_reduction = 1
 				uses = 1
-				category = bc_tech
-				category = bb_tech
-				category = cv_tech				
+				technology = basic_battlecruiser
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+				technology = heavy_battleship
+				technology = heavy_battleship2
+				technology = early_carrier
+				technology = basic_carrier
+				technology = improved_carrier
+				technology = advanced_carrier
 			}
 		}
 	}
@@ -1625,12 +1640,9 @@ focus_tree = {
 		mutually_exclusive = { focus = liberty_ethos}
 		available = {
 			OR = {
-				has_government = fascist
-				has_government = national_socialist
-				has_government = leninist
-				has_government = left_wing_radical
-				has_government = stalinist
-				has_government = paternal_autocrat
+				has_government = fascism
+				has_government = communism
+				has_government = neutrality
 			}
 		}
 		x = 18
@@ -1647,7 +1659,7 @@ focus_tree = {
 				OR = {
 					AND = {
 						is_historical_focus_on = yes
-						has_government = paternal_autocrat
+						has_government = neutrality
 					}
 					has_idea = neutrality_idea
 				}
@@ -1666,9 +1678,8 @@ focus_tree = {
 		mutually_exclusive = { focus = internationalism_focus }
 		available = {
 			OR = {
-				has_government = fascist
-				has_government = national_socialist
-				has_government = paternal_autocrat
+				has_government = fascism
+				has_government = neutrality
 			}
 		}
 		x = 16
@@ -1684,22 +1695,14 @@ focus_tree = {
 				factor = 2
 				any_neighbor_country = {
 					is_major = yes
-					OR = {
-						has_government = fascist
-						has_government = national_socialist
-					}
+					has_government = fascism
 				}
 			}
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = {
-						OR = {
-							has_government = fascist
-							has_government = national_socialist
-						}
-					}
+					NOT = { has_government = fascism }
 				}
 			}
 		}
@@ -1717,17 +1720,11 @@ focus_tree = {
 		available = {
 			if = {
 				limit = { original_tag = CHI }
-				OR = {
-					has_government = stalinist
-					has_government = leninist
-					has_government = left_wing_radical
-				}
+				has_government = communism
 				else = {
 					OR = {
-						has_government = stalinist
-						has_government = leninist
-						has_government = left_wing_radical
-						has_government = paternal_autocrat
+						has_government = communism
+						has_government = neutrality
 					}
 				}
 			}
@@ -1745,24 +1742,14 @@ focus_tree = {
 				factor = 2
 				any_neighbor_country = {
 					is_major = yes
-					OR = {
-						has_government = stalinist
-						has_government = leninist
-						has_government = left_wing_radical
-					}
+					has_government = communism
 				}
 			}			
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = {
-						OR = {
-							has_government = stalinist
-							has_government = leninist
-							has_government = left_wing_radical
-						}
-					}
+					NOT = { has_government = communism }
 				}
 			}
 		}
@@ -1779,11 +1766,8 @@ focus_tree = {
 		mutually_exclusive = { focus = collectivist_ethos }
 		available = {
 			OR = {
-				has_government = social_conservative
-				has_government = market_liberal
-				has_government = social_liberal
-				has_government = social_democrat
-				has_government = paternal_autocrat
+				has_government = democratic
+				has_government = neutrality
 			}
 		}
 		x = 20
@@ -1800,22 +1784,14 @@ focus_tree = {
 				any_neighbor_country = {
 					is_major = yes
 					OR = {
-						has_government = stalinist
-						has_government = leninist
-						has_government = left_wing_radical
-						has_government = fascist
-						has_government = national_socialist
+						has_government = communism
+						has_government = fascism
 					}
 				}
 				NOT = {
 					any_neighbor_country = {
 						is_major = yes
-						OR = {
-							has_government = social_conservative
-							has_government = market_liberal
-							has_government = social_liberal
-							has_government = social_democrat
-						}
+						has_government = democratic
 					}
 				}
 			}
@@ -1840,7 +1816,7 @@ focus_tree = {
 			if = {
 				limit = { has_idea = neutrality_idea }
 				remove_ideas = neutrality_idea
-			}
+			}			
 			add_ideas = militarism_focus
 			army_experience = 20
 			set_rule = { can_send_volunteers = yes }
@@ -1930,29 +1906,16 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = military_youth_focus
 			if = {
-				limit = { has_government = fascist }
+				limit = { has_government = fascism }
 				add_popularity = {
-					ideology = fascist
+					ideology = fascism
 					popularity = 0.2
 				}
-				limit = { has_government = national_socialist }
+			}
+			if = {
+				limit = { has_government = communism }
 				add_popularity = {
-					ideology = national_socialist
-					popularity = 0.2
-				}
-				limit = { has_government = stalinist }
-				add_popularity = {
-					ideology = stalinist
-					popularity = 0.2
-				}
-				limit = { has_government = leninist }
-				add_popularity = {
-					ideology = leninist
-					popularity = 0.2
-				}
-				limit = { has_government = left_wing_radical }
-				add_popularity = {
-					ideology = stalinist
+					ideology = communism
 					popularity = 0.2
 				}
 			}
@@ -2081,29 +2044,16 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = political_commissars_focus
 			if = {
-				limit = { has_government = fascist }
+				limit = { has_government = fascism }
 				add_popularity = {
-					ideology = fascist
+					ideology = fascism
 					popularity = 0.2
 				}
-				limit = { has_government = national_socialist }
+			}
+			if = {
+				limit = { has_government = communism }
 				add_popularity = {
-					ideology = national_socialist
-					popularity = 0.2
-				}
-				limit = { has_government = stalinist }
-				add_popularity = {
-					ideology = stalinist
-					popularity = 0.2
-				}
-				limit = { has_government = leninist }
-				add_popularity = {
-					ideology = leninist
-					popularity = 0.2
-				}
-				limit = { has_government = left_wing_radical }
-				add_popularity = {
-					ideology = left_wing_radical
+					ideology = communism
 					popularity = 0.2
 				}
 			}
