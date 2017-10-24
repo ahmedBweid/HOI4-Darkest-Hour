@@ -1,13 +1,13 @@
 ﻿Breitspurbahn lines
 
 Balkian line - Fires from Focus
-	schleswig holstein
-	saxony
-	oberbayern
-	upper austria
-	lower austria
-	western slovakia
-	southern slovakia
+	-schleswig holstein
+	-saxony
+	-oberbayern
+	-upper austria
+	-lower austria
+	-western slovakia
+	-southern slovakia
 	northern hungary
 	alföld
 	voijvodina
