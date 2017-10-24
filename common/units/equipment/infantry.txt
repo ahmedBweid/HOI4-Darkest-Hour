@@ -73,15 +73,40 @@ equipments = {
 
 		build_cost_ic = 0.5
 	}
+	# Infantry Equipment ~1939
+	infantry_smg_equipment_0 = {
+		year = 1939
+	
+		archetype = infantry_equipment
+		parent = infantry_equipment_1
+		priority = 10
+		visual_level = 2
+		
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 7
 
-	# Improved weapons  ~1939
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 2
+		ap_attack = 10
+		air_attack = 0
+		
+		reliability = 0.8
+		build_cost_ic = 0.7
+		resources = {
+			steel = 4
+		}
+	}	
+	
+	# Improved weapons  ~1942
 	infantry_equipment_2 = {
 		year = 1942
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_1
 		priority = 10
-		visual_level = 2
+		visual_level = 3
 		
 		#Defensive Abilities
 		defense = 28
@@ -99,14 +124,14 @@ equipments = {
 		}
 	}
 	
-	# 1944 Assault Rifle/Battle Rifle
+	# Assault Rifle/Battle Rifle ~1945
 	infantry_equipment_3 = {
-		year = 1944
+		year = 1945
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_2
 		priority = 10
-		visual_level = 3
+		visual_level = 4
 		
 		#Defensive Abilities
 		defense = 34
@@ -125,29 +150,5 @@ equipments = {
 		}
 	}
 	
-	# Advanced weapons  
-	infantry_smg_equipment_0 = {
-		year = 1939
-	
-		archetype = infantry_equipment
-		parent = infantry_equipment_1
-		priority = 10
-		visual_level = 3
-		
-		#Defensive Abilities
-		defense = 10
-		breakthrough = 7
 
-		#Offensive Abilities
-		soft_attack = 12
-		hard_attack = 2
-		ap_attack = 10
-		air_attack = 0
-		
-		reliability = 0.8
-		build_cost_ic = 0.7
-		resources = {
-			steel = 4
-		}
-	}	
 }

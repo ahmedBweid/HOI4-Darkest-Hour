@@ -221,113 +221,180 @@ set_politics = {
 		elections_allowed = no
 	}
 }
-
+#########################################
+## Romanian Leaders
+#########################################
+#NS
 create_country_leader = {
-	name = "Gheorghe Tatarescu"
-	desc = "POLITICS_GHEORGHE_TATARESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	name = "Horia Sima"
+	desc = ""
+	picture = "DH_Horia_Sima.dds"
+	expire = "1956.1.1"
+	ideology = national_socialism
+	traits = {}
 }
-
 create_country_leader = {
-	name = "Constantin Ion Parhon"
-	desc = "POLITICS_CONSTANTIN_PARHON_DESC"
-	picture = "Portrait_Romania_Constantin_Parhon.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
+	name = "Corneliu Zelea Codreanu"
+	desc = ""
+	picture = "DH_Corneliu_Zelea_Codreanu.dds"
+	expire = "1940.1.1"
+	ideology = national_socialism
+	traits = {}
 }
-
-create_country_leader = {
-	name = "Carol II"
-	desc = "POLITICS_Carol_II_DESC"
-	picture = "Portrait_Romania_Carol_II.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Octavian Goga"
-	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
-	picture = "Portrait_Romania_Octavian_Goga.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		#
-	}
-}
-
+#FA
 create_country_leader = {
 	name = "Ion Antonescu"
-	desc = "POLITICS_ION_ANTONESCU_DESC"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	desc = ""
+	picture = "DH_Ion_Antonescu.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		#
-	}
+	traits = {}
+}
+#PA
+create_country_leader = {
+	name = "Carol II"
+	desc = ""
+	picture = "DH_Carol_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
+}
+#SC
+create_country_leader = {
+	name = "Armand Călinescu"
+	desc = ""
+	picture = "DH_Armand_Calinescu.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "Dinu Brătianu"
+	desc = ""
+	picture = "DH_Dinu_Bratianu.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+#SL
+create_country_leader = {
+	name = "Gheorghe Tătărescu"
+	desc = ""
+	picture = "DH_Gheorghe_Tatarescu.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {}
+}
+#SD
+create_country_leader = {
+	name = "Constantin Titel Petrescu"
+	desc = ""
+	picture = "DH_Constantin_Titel_Petrescu.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+#LWR
+
+#LE
+create_country_leader = {
+	name = "Lucretiu Patrascanu"
+	desc = ""
+	picture = "DH_Lucretiu_Patrascanu.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#ST
+create_country_leader = {
+	name = "Ion Parhon"
+	desc = ""
+	picture = "DH_Ion_Parhon.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
 }
 
+#########################################
+## Romanian Generals
+#########################################
 create_field_marshal = {
 	name = "Petre Dumitrescu"
-	gfx = GFX_Portrait_romania_petre_dumitrescu
+	gfx = "Generals/DH_Petre_Dumitrescu"
 	traits = { offensive_doctrine logistics_wizard }
 	skill = 4
 }
 
 create_field_marshal = {
 	name = "Ion Antonescu"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
+	picture = "Generals/DH_Ion_Antonescu.dds"
 	traits = { offensive_doctrine }
 	skill = 4
 }
 
 create_corps_commander = {
 	name = "Ioan Mihail Racovita"
-	gfx = GFX_Portrait_romania_ioan_mihail_racovita
-	traits = { hill_fighter }
+	gfx = "Generals/DH_Ioan_Mihail_Racovita"
+	traits = {  }
 	skill = 3
 }
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-
-	create_corps_commander = {
-		name = "Gheorghe Avramescu"
-		gfx = GFX_Portrait_romania_gheorghe_avramescu
-		traits = { }
-		skill = 3
-	}
-
-	create_navy_leader = {
-		name = "Horia Macellariu"
-		gfx = "GFX_Portrait_romania_horia_macellariu"
-		traits = { spotter }
-		skill = 2
-	}
+create_corps_commander = {
+	name = "Gheorghe Avramescu"
+	gfx = "Generals/DH_Gheorghe_Avramescu"
+	traits = { }
+	skill = 3
+}
+create_corps_commander = {
+	name = "Nicolae Ciupercă"
+	gfx = "Generals/DH_Nicolae_Ciuperca"
+	traits = { }
+	skill = 1
+}
+create_corps_commander = {
+	name = "Ion Glogojanu"
+	gfx = "Generals/DH_Ion_Glogojanu"
+	traits = { }
+	skill = 1
 }
 
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Regele Ferdinand Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
+create_corps_commander = {
+	name = "Constantin Tobescu"
+	gfx = "Generals/DH_Constantin_Tobescu"
+	traits = { }
+	skill = 2
 }
+
+create_corps_commander = {
+	name = "Constantin Pantazi"
+	gfx = "Generals/DH_Constantin_Pantazi"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Gheorghe Manoliu"
+	gfx = "Generals/DH_Gheorghe_Manoliu"
+	traits = { panzer_leader}
+	skill = 3
+}
+create_corps_commander = {
+	name = "Leonard Mociulschi"
+	gfx = "Generals/DH_Leonard_Mociulschi"
+	traits = { }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Corneliu Dragalina"
+	gfx = "Generals/DH_Corneliu_Dragalina"
+	traits = {hill_fighter }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Horia Macellariu"
+	gfx = "Generals/"
+	traits = { spotter }
+	skill = 2
+}
+

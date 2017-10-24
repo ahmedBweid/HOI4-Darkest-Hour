@@ -13,7 +13,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 283
+		controls_state = 283
 		NOT = { has_country_flag = renamed_state_283 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_283
@@ -46,7 +46,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 286
+		controls_state = 286
 		NOT = { has_country_flag = renamed_state_286 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_286
@@ -79,7 +79,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 287
+		controls_state = 287
 		NOT = { has_country_flag = renamed_state_287 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_287
@@ -112,7 +112,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 288
+		controls_state = 288
 		NOT = { has_country_flag = renamed_state_288 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_288
@@ -146,7 +146,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 326
+		controls_state = 326
 		NOT = { has_country_flag = renamed_state_326 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_326
@@ -180,7 +180,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 330
+		controls_state = 330
 		NOT = { has_country_flag = renamed_state_330 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_330
@@ -214,7 +214,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 333
+		controls_state = 333
 		NOT = { has_country_flag = renamed_state_333 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_333
@@ -248,7 +248,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 334
+		controls_state = 334
 		NOT = { has_country_flag = renamed_state_334 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_334
@@ -282,7 +282,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 335
+		controls_state = 335
 		NOT = { has_country_flag = renamed_state_335 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_335
@@ -317,7 +317,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 322
+		controls_state = 322
 		NOT = { has_country_flag = renamed_state_322 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_322
@@ -351,7 +351,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 325
+		controls_state = 325
 		NOT = { has_country_flag = renamed_state_325 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_325
@@ -386,7 +386,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 328
+		controls_state = 328
 		NOT = { has_country_flag = renamed_state_328 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_328
@@ -421,7 +421,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 336
+		controls_state = 336
 		NOT = { has_country_flag = renamed_state_336 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_336
@@ -455,7 +455,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 523
+		controls_state = 523
 		NOT = { has_country_flag = renamed_state_523 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_523
@@ -490,7 +490,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 524
+		controls_state = 524
 		NOT = { has_country_flag = renamed_state_524 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_524
@@ -525,7 +525,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 525
+		controls_state = 525
 		NOT = { has_country_flag = renamed_state_525 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_525
@@ -560,7 +560,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 527
+		controls_state = 527
 		NOT = { has_country_flag = renamed_state_527 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_527
@@ -594,7 +594,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 537
+		controls_state = 537
 		NOT = { has_country_flag = renamed_state_537 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_537
@@ -627,7 +627,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 591
+		controls_state = 591
 		NOT = { has_country_flag = renamed_state_591 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_591
@@ -661,7 +661,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 592
+		controls_state = 592
 		NOT = { has_country_flag = renamed_state_592 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_592
@@ -695,7 +695,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 593
+		controls_state = 593
 		NOT = { has_country_flag = renamed_state_593 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_593
@@ -728,7 +728,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 594
+		controls_state = 594
 		NOT = { has_country_flag = renamed_state_594 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_594
@@ -762,7 +762,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 595
+		controls_state = 595
 		NOT = { has_country_flag = renamed_state_595 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_595
@@ -797,7 +797,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 596
+		controls_state = 596
 		NOT = { has_country_flag = renamed_state_596 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_596
@@ -832,7 +832,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 597
+		controls_state = 597
 		NOT = { has_country_flag = renamed_state_597 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_597
@@ -867,7 +867,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 598
+		controls_state = 598
 		NOT = { has_country_flag = renamed_state_598 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_598
@@ -900,7 +900,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 599
+		controls_state = 599
 		NOT = { has_country_flag = renamed_state_599 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_599
@@ -934,7 +934,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 600
+		controls_state = 600
 		NOT = { has_country_flag = renamed_state_600 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_600
@@ -968,7 +968,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 602
+		controls_state = 602
 		NOT = { has_country_flag = renamed_state_602 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_602
@@ -1003,7 +1003,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 603
+		controls_state = 603
 		NOT = { has_country_flag = renamed_state_603 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_603
@@ -1037,7 +1037,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 604
+		controls_state = 604
 		NOT = { has_country_flag = renamed_state_604 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_604
@@ -1072,7 +1072,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 605
+		controls_state = 605
 		NOT = { has_country_flag = renamed_state_605 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_605
@@ -1108,7 +1108,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 606
+		controls_state = 606
 		NOT = { has_country_flag = renamed_state_606 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_606
@@ -1142,7 +1142,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 607
+		controls_state = 607
 		NOT = { has_country_flag = renamed_state_607 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_607
@@ -1176,7 +1176,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 608
+		controls_state = 608
 		NOT = { has_country_flag = renamed_state_608 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_608
@@ -1211,7 +1211,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 609
+		controls_state = 609
 		NOT = { has_country_flag = renamed_state_609 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_609
@@ -1244,7 +1244,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 610
+		controls_state = 610
 		NOT = { has_country_flag = renamed_state_610 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_610
@@ -1277,7 +1277,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 611
+		controls_state = 611
 		NOT = { has_country_flag = renamed_state_611 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_611
@@ -1311,7 +1311,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 612
+		controls_state = 612
 		NOT = { has_country_flag = renamed_state_612 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_612
@@ -1344,7 +1344,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 613
+		controls_state = 613
 		NOT = { has_country_flag = renamed_state_613 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_613
@@ -1379,7 +1379,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 614
+		controls_state = 614
 		NOT = { has_country_flag = renamed_state_614 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_614
@@ -1412,7 +1412,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 615
+		controls_state = 615
 		NOT = { has_country_flag = renamed_state_615 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_615
@@ -1446,7 +1446,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 616
+		controls_state = 616
 		NOT = { has_country_flag = renamed_state_616 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_616
@@ -1479,7 +1479,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 617
+		controls_state = 617
 		NOT = { has_country_flag = renamed_state_617 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_617
@@ -1513,7 +1513,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 619
+		controls_state = 619
 		NOT = { has_country_flag = renamed_state_619 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_619
@@ -1546,7 +1546,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 620
+		controls_state = 620
 		NOT = { has_country_flag = renamed_state_620 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_620
@@ -1580,7 +1580,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 621
+		controls_state = 621
 		NOT = { has_country_flag = renamed_state_621 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_621
@@ -1613,7 +1613,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 622
+		controls_state = 622
 		NOT = { has_country_flag = renamed_state_622 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_622
@@ -1647,7 +1647,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 655
+		controls_state = 655
 		NOT = { has_country_flag = renamed_state_655 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_655
@@ -1680,7 +1680,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 667
+		controls_state = 667
 		NOT = { has_country_flag = renamed_state_667 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_667
@@ -1713,7 +1713,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 668
+		controls_state = 668
 		NOT = { has_country_flag = renamed_state_668 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_668
@@ -1746,7 +1746,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 669
+		controls_state = 669
 		NOT = { has_country_flag = renamed_state_669 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_669
@@ -1780,7 +1780,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 670
+		controls_state = 670
 		NOT = { has_country_flag = renamed_state_670 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_670
@@ -1813,7 +1813,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 672
+		controls_state = 672
 		NOT = { has_country_flag = renamed_state_672 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_672
@@ -1847,7 +1847,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 673
+		controls_state = 673
 		NOT = { has_country_flag = renamed_state_673 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_673
@@ -1881,7 +1881,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 680
+		controls_state = 680
 		NOT = { has_country_flag = renamed_state_680 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_680
@@ -1915,7 +1915,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 714
+		controls_state = 714
 		NOT = { has_country_flag = renamed_state_714 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_714
@@ -1948,7 +1948,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 716
+		controls_state = 716
 		NOT = { has_country_flag = renamed_state_716 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_716
@@ -1983,7 +1983,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 721
+		controls_state = 721
 		NOT = { has_country_flag = renamed_state_721 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_721
@@ -2016,7 +2016,7 @@ country_event = {
 
 	trigger = {
 		NOT = { tag = JAP }
-		owns_state = 741
+		controls_state = 741
 		NOT = { has_country_flag = renamed_state_741 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_741
