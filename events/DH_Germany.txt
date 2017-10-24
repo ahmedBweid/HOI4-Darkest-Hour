@@ -1273,7 +1273,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-# Establish Vichy France	
+	# Establish Vichy France	
 	option = {
 		name = DH_germany.32.a
 		ai_chance = {
@@ -1446,6 +1446,11 @@ country_event = {
 
 	trigger = {
 		country_exists = SSB
+		SSB = {
+			controls_state = 20
+			controls_state = 32
+			controls_state = 21
+		}
 	}
 
 	mean_time_to_happen = { days = 7 }
@@ -1475,7 +1480,7 @@ country_event = {
 					}
 					transfer_state = 19
 					19 = {
-						add_core_of = SSB
+						add_core_of = VIC
 					}
 				}
 				if = {
@@ -1490,7 +1495,7 @@ country_event = {
 					}
 					transfer_state = 23
 					23 = {
-						add_core_of = SSB
+						add_core_of = VIC
 					}
 				}
 				if = {
@@ -1505,7 +1510,7 @@ country_event = {
 					}
 					transfer_state = 30
 					30 = {
-						add_core_of = SSB
+						add_core_of = VIC
 					}
 				}
 				if = {
@@ -1520,7 +1525,7 @@ country_event = {
 					}
 					transfer_state = 14
 					14 = {
-						add_core_of = SSB
+						add_core_of = VIC
 					}
 				}
 				if = {
@@ -1535,7 +1540,7 @@ country_event = {
 					}
 					transfer_state = 15
 					15 = {
-						add_core_of = SSB
+						add_core_of = VIC
 					}
 				}
 				if = {
@@ -1550,7 +1555,7 @@ country_event = {
 					}
 					transfer_state = 16
 					16 = {
-						add_core_of = SSB
+						add_core_of = VIC
 					}
 				}
 				if = {
@@ -1565,7 +1570,7 @@ country_event = {
 					}
 					transfer_state = 24
 					24 = {
-						add_core_of = SSB
+						add_core_of = VIC
 					}
 				}
 			}
@@ -1581,30 +1586,6 @@ country_event = {
 		release_puppet = RFA
 		hidden_effect = {
 			RFA = {
-				if = {
-					limit = {
-						any_country = {
-							OR = {
-								tag = GER
-								is_subject_of = GER
-							}
-							controls_state = 20
-						}
-					}
-					transfer_state = 20 
-				}
-				if = {
-					limit = {
-						any_country = {
-							OR = {
-								tag = GER
-								is_subject_of = GER
-							}
-							controls_state = 21
-						}
-					}
-					transfer_state = 21 
-				}
 				if = {
 					limit = {
 						any_country = {
@@ -1640,18 +1621,6 @@ country_event = {
 						}
 					}
 					transfer_state = 31 
-				}
-				if = {
-					limit = {
-						any_country = {
-							OR = {
-								tag = GER
-								is_subject_of = GER
-							}
-							controls_state = 32
-						}
-					}
-					transfer_state = 32 
 				}
 				if = {
 					limit = {
