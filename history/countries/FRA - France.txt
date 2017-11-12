@@ -192,15 +192,15 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 10 }		
 		social_conservative = { popularity = 7 }		
-		market_liberal = { popularity = 0 }		
-		social_liberal = { popularity = 35 }		
+		market_liberal = { popularity = 35 }		
+		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 26 }		
 		left_wing_radical = { popularity = 15 }		
 		leninist = { popularity = 5 }		
 		stalinist = { popularity = 2 }	
 	}
 	
-	ruling_party = social_liberal
+	ruling_party = market_liberal
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -232,7 +232,7 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = social_liberalism
 	traits = {
 		stout_defender
 	}
@@ -243,7 +243,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_France_Albert_Lebrun.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
+	ideology = market_liberalism
 	traits = {	
 		stout_defender
 	}
