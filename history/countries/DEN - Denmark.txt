@@ -39,7 +39,11 @@ set_technology = {
 	transport = 1
 #
 }
-
+set_autonomy = {
+	target = ICE
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.2
+}
 
 1939.1.1 = {
 
@@ -143,6 +147,17 @@ set_politics = {
 }
 
 set_convoys = 40
+
+create_country_leader = {
+	name = "Christian X"
+	desc = ""
+	picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "Thorvald Stauning"
