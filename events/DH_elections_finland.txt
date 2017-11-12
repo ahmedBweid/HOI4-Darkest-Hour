@@ -1,0 +1,37 @@
+###########################
+# Darkest Hour Election Events : Finland
+###########################
+
+add_namespace = DH_election_finland
+
+#########################################################################
+#  Finland election 1937
+#########################################################################
+
+country_event = { 
+	id = DH_election_finland.1
+	title = DH_election_finland.1.t
+	desc = DH_election_finland.1.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = FIN
+		ideology_group_democracy = yes
+		date > 16.1.1937
+	}
+
+	# Elect Left (Socail Liberal) : Kyösti Kallio
+	option = { 
+		name = DH_election_finland.1.a
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = social_liberal }
+	}
+	
+	# Elect Right (Soc Cons) : Pehr Evind Svinhufvud
+	option = { 
+		name = DH_election_finland.1.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }	
+}

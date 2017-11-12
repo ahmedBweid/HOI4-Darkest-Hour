@@ -95,18 +95,29 @@ set_politics = {
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 3 }		
 			social_conservative = { popularity = 35 }		
-			market_liberal = { popularity = 0 }		
-			social_liberal = { popularity = 49 }		
+			market_liberal = { popularity = 49 }		
+			social_liberal = { popularity = 0 }		
 			social_democrat = { popularity = 9 }		
 			left_wing_radical = { popularity = 4 }		
 			leninist = { popularity = 0 }		
 			stalinist = { popularity = 0 }	
 		}
 		
-		ruling_party = social_liberal
+		ruling_party = market_liberal
 		last_election = "1938.6.17"
 		election_frequency = 48
 		elections_allowed = yes
+	}
+}
+
+create_country_leader = {
+	name = "Edward VIII"
+	desc = ""
+	picture = "Portrait_Britain_Edward_VIII.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		
 	}
 }
 create_country_leader = {
@@ -115,6 +126,17 @@ create_country_leader = {
 	picture = "Portrait_Ireland_Donal_Buckley.dds"
 	expire = "1965.1.1"
 	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Terence Allan-Byrne"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
 	traits = {
 		#
 	}
@@ -142,16 +164,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "William Norton"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
 
 create_corps_commander = {
 	name = "Michael Costello"

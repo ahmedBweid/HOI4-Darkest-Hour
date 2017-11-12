@@ -127,3 +127,13 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Prince Félix"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}

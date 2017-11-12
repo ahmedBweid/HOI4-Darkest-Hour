@@ -1,6 +1,12 @@
 ﻿l_english:
 ###### Finland events-------------------------------------
- DH_finland.1.t:0 "Northern Flank: Finland"
+ DH_finland_1.t:0 "Northern Flank: Finland"
  DH_finland.1.d:0 "German diplomats have approached us with the offer to take over rightfull Finnish territory. Karelia, the Kola peninsula and Olonetsk are offered for our unconditional membership to the Axis faction. Their reason for abondoning the lands seems to evolve around the harsh winter conditions. Ah well, their problem. If we accept we are expected to function as Germany's northern flank, safeguarding the north of their new possessions in the east."
  DH_finland.1.a:0 "We Gladly Accept"
  DH_finland.1.b:0 "We don't need Germany's help"
+
+ DH_election_finland.1.t:0 "The Finnish Presidential Election of 1937"
+ DH_election_finland.1.d:0 "This year's elections have been hard-fought. Fighting for re-election is our current President Pehr Evind Svinhufvud who has led our country into a new era of economic prosperity however it seems that he has let his arrogance get the better of him as he has refused to allow the Social Democrats to enter government despite being the clear majority in the 1936 Parliamentery Elections. Fighting for them is Kyösti Kallio who has promised to continue to improve Finalnd's economic situation as well as distribute the nation's newfound wealth in a fair way. \n\nWho will it be?"
+ DH_election_finland.1.a:0 "Kallio can ensure fairer government"
+ DH_election_finland.1.b:0 "Pehr has led us to prosperity"
+

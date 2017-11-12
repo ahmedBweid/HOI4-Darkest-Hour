@@ -227,7 +227,26 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}		
-		set_party_name = { ideology = social_conservative long_name = USA_republican_party name = USA_republican_party }
+		set_politics = {
+
+			parties = {
+				national_socialist = { popularity = 0 }		
+				fascist = { popularity = 0 }		
+				paternal_autocrat = { popularity = 0 }		
+				social_conservative = { popularity = 61 }		
+				market_liberal = { popularity = 0 }		
+				social_liberal = { popularity = 39 }		
+				social_democrat = { popularity = 0 }		
+				left_wing_radical = { popularity = 0 }		
+				leninist = { popularity = 0 }		
+				stalinist = { popularity = 0 }	
+			}
+	
+			ruling_party = social_liberal
+			last_election = "1932.11.8"
+			election_frequency = 48
+			elections_allowed = yes
+		}
 		if = {
 			limit = {
 				has_idea = standard_oil_california
@@ -239,16 +258,6 @@ country_event = {
 				NOT = { has_idea = standard_oil_california }
 			}
 			add_ideas = standard_oil_california
-		}
-		create_country_leader = {
-			name = "Alf Landon"
-			desc = "POLITICS_ALF_LANDON_DESC"
-			picture = "Portrait_USA_Generic_2.dds"
-			expire = "1965.1.1"
-			ideology = social_conservatism
-			traits = {
-				staunch_constitutionalist
-			}
 		}
 	}
 }

@@ -82,7 +82,16 @@ set_technology = {
 	mass_assault = 1
 	fleet_in_being = 1
 }
-
+	set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = TAN
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.35
+	}
 1939.1.1 = {
 
 	add_political_power = 1198

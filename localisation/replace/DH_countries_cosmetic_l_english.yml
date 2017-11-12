@@ -71,3 +71,23 @@
  AUS_GER_AXIS_fascist_DEF:0 "The Republic of German-Austria"
  AUS_GER_AXIS_national_socialist:0 "Republic of German-Austria"
  AUS_GER_AXIS_national_socialist_DEF:0 "The Republic of German-Austria" 
+
+
+## BRITISH COLONIES ##
+
+ MAL_UK_:0 "British Malaya"
+ MAL_UK_DEF:0 "The British Malaya"
+ RAJ_UK:0 "British Raj"
+ RAJ_UK_DEF:0 "The British Raj"
+ RAJ_UK_subject:0 "$OVERLORDADJ$ Raj"
+ RAJ_UK_autonomy_dominion:0 "Dominion of India"
+ RAJ_UK_autonomy_dominion_DEF:0 "The Dominion of India"
+ CAN_UK_subject:0 "Dominion of Canada"
+ USA_ENG_subject:0 "Dominion of America"
+ AST_ENG_subject:0 "Dominion of Australia"
+ NZL_ENG_subject:0 "Dominion of New Zealand"
+ SAF_ENG_subject:0 "Union of South Africa"
+ 
+
+
+ ## GENERIC COLONIES ##
