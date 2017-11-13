@@ -172,7 +172,7 @@ equipments = {
 		manpower = 1800
 		port_capacity_usage = 1
 		naval_range = 16000
-		naval_speed - 32
+		naval_speed = 32
 		
 		surface_detection = 45
 		sub_detection = 15
