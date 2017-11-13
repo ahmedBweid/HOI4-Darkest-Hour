@@ -2266,6 +2266,16 @@ focus_tree = {
 				has_idea = rhineland_challenge_met
 			}
 		}
+		bypass = {
+			GER = {
+				AND = {
+					owns_state = 4
+					owns_state = 152
+					owns_state = 153
+					owns_state = 753
+				}
+			}
+		}
 		cancel_if_invalid = no
 		ai_will_do = {
 			factor = 10
