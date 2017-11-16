@@ -375,5 +375,142 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_main_battle_tank_1962_medium"
 		texturefile = "gfx/interface/technologies/Armor/United States/USA_MBT_M60.dds"	
+	}
+	
+###########################################################
+###--------------------------------------------- Soviet Union ------------------------------------------------------
+###########################################################
+#Light Tanks
+
+	# SpriteType = {
+		# name = "GFX_SOV_light_tank_1917_medium"
+		# texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_A7V.dds"
+	# }
+
+	# SpriteType = {
+		# name = "GFX_SOV_light_tank_1918_medium"
+		# texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_LKI.dds"
+	# }
+
+	# SpriteType = {
+		# name = "GFX_SOV_light_tank_1919_medium"
+		# texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_LKII.dds"
+	# }
+
+	SpriteType = {
+		name = "GFX_SOV_light_tank_1928_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_T-18.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_light_tank_1934_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_T-18M.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_light_tank_1936_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_BT-5.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_light_tank_1938_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_BT-7.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_light_tank_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_T-26.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_SOV_light_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_T-70.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_light_tank_1952_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_LT_PT-76.dds"
+	}
+
+#Medium Tanks	
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MT_T-28B.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MT_T-34-76mod41.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MT_T-34-76mod43.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_medium_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MT_T-34-85.dds"
+	}	
+	
+#Heavy Tanks	
+	# SpriteType = {
+		# name = "GFX_SOV_heavy_tank_1917_medium"
+		# texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_HT_.dds"
+	# }
+	
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_HT_T-35.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_HT_KV-1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_HT_KV-85.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_HT_IS-2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_heavy_tank_1956_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_HT_T-10.dds"
+	}	
+
+#Super Heavy Tanks	
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_tank_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_SHT_IS-3.dds"
+	}
+
+#Main Battle Tanks
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank_1948_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MBT_T-44.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank_1952_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MBT_T-54.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank_1956_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MBT_T-55.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_main_battle_tank_1962_medium"
+		texturefile = "gfx/interface/technologies/Armor/Soviet Union/SOV_MBT_T-64.dds"	
 	}			
+}	
+	
 }
+

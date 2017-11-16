@@ -193,50 +193,95 @@ set_politics = {
 }
 set_national_unity = 0.6
 
+####################################################
+# Yugoslav Leaders
+####################################################
+#NS
 create_country_leader = {
-	name = "Prince Paul"
-	desc = "POLITICS_PRINCE_PAUL_DESC"
-	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
+	name = "Milos Trifunovic"
+	desc = ""
+	picture = "Yugoslavia_NS_.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	ideology = national_socialism
+	traits = {}
 }
-
+#FA
 create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
+	name = "Slobodan Jovanovic"
+	desc = ""
+	picture = "Yugoslavia_NS_.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		#
-	}
+	traits = {}
 }
-
+#PA
 create_country_leader = {
-	name = "Milan Grol"
-	desc = "POLITICS_MILAN_GROL_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
+	name = "Pavle Karadjordjevic"
+	desc = ""
+	picture = "Yugoslavia_PA_Prince_Paul.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
+	ideology = paternal_autocracy
+	traits = {}
 }
-
+#SC
+create_country_leader = {
+	name = "Dusan Simovic"
+	desc = ""
+	picture = "Yugoslavia_NS_.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "Draza Mihailovic"
+	desc = ""
+	picture = "Yugoslavia_NS_.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+#SL (None found)
+#SD
+create_country_leader = {
+	name = "Vlatko Macek"
+	desc = ""
+	picture = "Yugoslavia_NS_.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+#LWR
 create_country_leader = {
 	name = "Josip Broz Tito"
-	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
-	picture = "Portrait_Yugoslavia_Josip_Broz_Tito.dds"
+	desc = ""
+	picture = "Yugoslavia_LWR_Josep_Broz_Tito.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+#LE
+create_country_leader = {
+	name = "Živko Topalović"
+	desc = ""
+	picture = "Yugoslavia_NS_.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {
-		#
-	}
+	traits = {}
+}
+#ST
+create_country_leader = {
+	name = "Milovan Djilas"
+	desc = ""
+	picture = "Yugoslavia_NS_.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
 }
 
+####################################################
+# Yugoslav General Staff
+####################################################
 create_corps_commander = {
 	name = "Vladimir Čukavac"
 	gfx = GFX_Portrait_yugoslavia_vladimir_cukavac

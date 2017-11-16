@@ -41,7 +41,7 @@ NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH_COMBAT = 0.6 --0.5, -- % of total Str
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW = 0.35 --0.2, -- % of total Strength. When below, navy will go to home base to repair.
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.50 --0.5, -- % of total Strength. When below, navy will go to home base to repair.
 NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.65 --0.9, -- % of total Strength. When below, navy will go to home base to repair.
-NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 1.3 --1.6, -- casting damage value to ship strength multiplier. Use it to balance the game difficulty.
+NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 1.0 --1.6, -- casting damage value to ship strength multiplier. Use it to balance the game difficulty.
 NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.9 --1.9, -- casting damage value to ship organisation multiplier. Use it to balance the game difficulty.
 
 

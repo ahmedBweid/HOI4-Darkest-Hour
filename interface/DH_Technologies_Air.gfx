@@ -340,6 +340,17 @@ spriteTypes = {
 		name = "GFX_GER_jet_tactical_bomber2_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He343.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Hs122.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Fw239.dds"
+	}
+
 ## Strategic Bomber
 	SpriteType = {
 		name = "GFX_GER_strategic_bomber1_medium"
@@ -359,18 +370,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_strategic_bomber4_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me264.dds"
-	}		
+	}
 
 	SpriteType = {
 		name = "GFX_GER_jet_strategic_bomber1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ju132.dds"
-	}	
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta400.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_GER_jet_strategic_bomber2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta400.dds"
-	}
-	
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ju132.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_GER_jet_strategic_bomber3_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_HoXVIII.dds"
@@ -397,11 +408,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Hs129.dds"
 	}		
 
-	# SpriteType = {
-		# name = "GFX_GER_CAS3_medium"
-		# texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Hs132.dds"
-	# }
-	
 	SpriteType = {
 		name = "GFX_GER_jet_CAS1_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_B&V178.dds"
@@ -430,12 +436,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_GER_jet_heavy_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me262.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta154.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_GER_jet_heavy_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_GoP60C.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me262HGV.dds"
 	}	
 
 	SpriteType = {
@@ -471,14 +477,14 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_GER_jet_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1101.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_jet_fighter3_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ho229.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1101.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_GER_jet_fighter4_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_FwSuperTL.dds"
@@ -493,8 +499,8 @@ spriteTypes = {
 		name = "GFX_GER_jet_fighter6_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He1079.dds"
 	}	
-### Interceptor	
 
+### Interceptor	
 	SpriteType = {
 		name = "GFX_GER_early_interceptor_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He51.dds"
@@ -566,7 +572,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_GER_naval_bomber5_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Breguet_Atlantic.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ar560.dds"
 	}
 	
 ## Rocket Interceptors

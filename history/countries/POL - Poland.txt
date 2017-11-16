@@ -193,29 +193,105 @@ set_politics = {
 	}
 }
 
+####################################################
+# Poland Leaders
+####################################################
+#NS
 create_country_leader = {
-	name = "Władysław Sikorski"
-	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	name = "Max Wambeck"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {}
+}
+#FA
+create_country_leader = {
+	name = "Roman Dmowski"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {}
+}
+#PA
+create_country_leader = {
+	name = "Ignacy Moscicki"
+	desc = ""
+	picture = "Poland_PA_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	traits = {}
 }
 
+#SC
 create_country_leader = {
-	name = "Ignacy Mościcki"
-	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
+	name = "Ignacy Jan Paderewski"
+	desc = ""
+	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {
-		#
-	}
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "Wladyslaw Raczkiewicz"
+	desc = ""
+	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+#SL 
+create_country_leader = {
+	name = "Bolesław Wieniawa-Długoszowski"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#SD
+create_country_leader = {
+	name = "Mieczysław Niedziałkowski"
+	desc = ""
+	picture = "Sweden_SD_Per_Albin_Hansson.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
 }
 
+#LWR
+create_country_leader = {
+	name = "Wladyslaw Gomulka"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+#LE
+create_country_leader = {
+	name = "Józef Unszlicht"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#ST
+create_country_leader = {
+	name = "Boleslaw Bierut"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
+}
 
+####################################################
+# Poland General Staff
+####################################################
 create_field_marshal = {
 	name = "Władysław Sikorski"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"

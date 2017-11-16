@@ -136,50 +136,89 @@ set_politics = {
 }
 }
 
+####################################################
+# Bulgarian Leaders
+####################################################
+#NS
 create_country_leader = {
-	name = "Boris III"
-	desc = "POLITICS_BORIS_III_DESC"
-	picture = "Portrait_Bulgaria_Boris_III.dds"
+	name = "Aleksandar Tsankov"
+	desc = ""
+	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	ideology = national_socialism
+	traits = {}
 }
-
-create_country_leader = {
-	name = "Georgi Dimitrov"
-	desc = "POLITICS_GEORGI_DIMITROV_DESC"
-	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zivko Topalovic"
-	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
+#FA
 create_country_leader = {
 	name = "Hristo Lukov"
-	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "GFX_Portrait_bulgaria_hristo_lukov"
+	desc = ""
+	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		#
-	}
+	traits = {}
+}
+#PA
+create_country_leader = {
+	name = "Boris III"
+	desc = ""
+	picture = "Bulgaria_PA_Boris_III.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }
 
+#SC
+create_country_leader = {
+	name = "Nikola Mushanov"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "Andrey Tasev Lyapchev"
+	desc = ""
+	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+#SL 
+#SD
+create_country_leader = {
+	name = "Yanko Sakazov"
+	desc = ""
+	picture = "Sweden_SD_Per_Albin_Hansson.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+
+#LWR
+create_country_leader = {
+	name = "Kimon Georgiev"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+#LE
+#ST
+create_country_leader = {
+	name = "Georgi Dimitrov"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
+}
+
+####################################################
+# Bulgarian General Staff
+####################################################
 create_corps_commander = {
 	name = "Vasil Tenev Boydev"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"

@@ -1,7 +1,9 @@
 # All infantry equipment
 
 equipments = {
-
+###########################################################
+## Infantry Equipment (Rifles, Assault Rifles, Battle Rifles ...etc)
+###########################################################
 	infantry_equipment = {
 		year = 1936
 	
@@ -40,7 +42,7 @@ equipments = {
 		}
 		
 	}
-
+# 1918 Rifle (Gewehr 88)
 	infantry_equipment_0 = {
 		year = 1918
 	
@@ -50,9 +52,7 @@ equipments = {
 		visual_level = 0
 	}
 
-
-
-	# Regular infantry  1936
+# 1936 Rifle (Kar98k)
 	infantry_equipment_1 = {
 		year = 1936
 	
@@ -73,13 +73,14 @@ equipments = {
 
 		build_cost_ic = 0.5
 	}
-	# Infantry Equipment ~1939
-	infantry_smg_equipment_0 = {
+
+# 1939 Rifle (Gewehr 41w)
+	infantry_equipment_2 = {
 		year = 1939
 	
 		archetype = infantry_equipment
 		parent = infantry_equipment_1
-		priority = 10
+		priority = 20
 		visual_level = 2
 		
 		#Defensive Abilities
@@ -99,13 +100,13 @@ equipments = {
 		}
 	}	
 	
-	# Improved weapons  ~1942
-	infantry_equipment_2 = {
+# 1942 Rifle (Gewehr 43)
+	infantry_equipment_3 = {
 		year = 1942
 	
 		archetype = infantry_equipment
-		parent = infantry_equipment_1
-		priority = 10
+		parent = infantry_equipment_2
+		priority = 30
 		visual_level = 3
 		
 		#Defensive Abilities
@@ -124,13 +125,13 @@ equipments = {
 		}
 	}
 	
-	# Assault Rifle/Battle Rifle ~1945
-	infantry_equipment_3 = {
+# 1945 Assault Rifle/Battle Rifle
+	infantry_equipment_4 = {
 		year = 1945
 	
 		archetype = infantry_equipment
-		parent = infantry_equipment_2
-		priority = 10
+		parent = infantry_equipment_3
+		priority = 40
 		visual_level = 4
 		
 		#Defensive Abilities

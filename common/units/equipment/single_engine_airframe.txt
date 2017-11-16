@@ -50,6 +50,7 @@ equipments = {
 		year = 1933
 		archetype = fighter_equipment
 		priority = 5
+		visual_level = 0
 		
 		air_range = 400
 		maximum_speed = 350
@@ -65,6 +66,7 @@ equipments = {
 		archetype = fighter_equipment
 		parent = fighter_equipment_0
 		priority = 10
+		visual_level = 1
 
 		air_range = 475
 		maximum_speed = 500
@@ -88,6 +90,7 @@ equipments = {
 		archetype = fighter_equipment
 		parent = fighter_equipment_1
 		priority = 10
+		visual_level = 2
 
 		air_range = 550
 		maximum_speed = 600
@@ -110,7 +113,8 @@ equipments = {
 		archetype = fighter_equipment
 		parent = fighter_equipment_2
 		priority = 10
-	
+		visual_level = 2
+		
 		air_range = 750
 		maximum_speed = 650
 		air_agility = 80

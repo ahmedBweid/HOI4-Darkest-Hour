@@ -1,20 +1,23 @@
 ﻿GER = {
 	fleet_names_template = FLEET_NAME_GER
-# Submarine
+#############################################################
+## Naval Names
+#############################################################
+# SS
 	submarine = {
 		prefix = ""
 		generic = { "Unterseebootsflotte" }
 		generic_pattern = FLOTILLA_NAME_GENERIC			
 		unique = {}
 	}
-# Destroyer
+# DD
 	destroyer = {
 		prefix = ""
 		generic = { "Zerstörergeschwader" }
 		generic_pattern = FLOTILLA_NAME_GENERIC		
 		unique = {}
 	}
-# Light Cruiser	
+# CL
 	light_cruiser = {
 		prefix = ""
 		generic = { "Leichter Kreuzer" }
@@ -32,7 +35,7 @@
 			"Medusa" "Niobe" "Nymphe" "Brummer" "Bremse" "Gazelle" "Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion"
 		}
 	}
-# Heavy Cruiser		
+# CA	
 	heavy_cruiser = {
 		prefix = ""
 		generic = { "Schwerer Kreuzer" "Panzerschiff" }
@@ -42,7 +45,7 @@
 			"Kalckreuth" "Kleist" "Wrangel" "Daun" "Heyde" "Krockow"
 		}
 	}
-# Battlecruiser		
+# BC
 	battle_cruiser = {
 		prefix = ""
 		generic = { "Schlachtkreuzer" }
@@ -50,7 +53,7 @@
 			 "Von der Tann" "Moltke" "Goeben" "Derfflinger" "Holtzendorff" "York" "Von Mackensen" "Von Lettow-Vorbeck" "Friedrich Barbarossa" "Karl der Große" 
 		}
 	}
-# Battleship
+# BB
     battleship = {
         prefix = ""
         generic = { "Schlachtschiff" }
@@ -60,7 +63,7 @@
             "Brandenburg" "Hessen" "Zähringen" "Mecklenburg" "Elsass" "Lothringen" "Hannover" "Nassau" "Pommern" "Westfalen" "Rheinland" "Thüringen" "Württemberg" "Braunschweig" "Bayern" "Sachsen" "Baden" "Weissenburg" "Ostfriesland" "Oldenburg" "Posen" "Preussen" "Pillau" "Helgoland" "Schwaben" "Wörth" "Wettin" "Wittelsbach" "Orbotrit" "Ostmark" "Schleswig" "Holstein" "Franken" "Strelitz"
         }
     }
-# Carrier	
+# CV	
 	carrier = {
 		prefix = ""
 		generic = { "Flugzeugträger" }
@@ -69,17 +72,20 @@
 			
 		}
 	}
-# Light Carrier
-# Escort Carrier
+# CVE
+# CVL
+
+#############################################################
+## Air Names
+#############################################################
 	air_wing_names_template = AIR_WING_NAME_GER_FALLBACK
 
-	#Air wings can only be named through archetype
 	fighter_equipment = {
 		prefix = ""
 		generic = { "Jagdgeschwader" }
 		generic_pattern = AIR_WING_NAME_GER_GENERIC
 		unique = {
-		 "JG 1 Oesau" "JG 2 Richthofen" "JG 3 Udet" "JG 5 Eismeer" "JG 6 Horst Wessel" "JG 7 Nowotny" "JG 26 Schlageter" "JG 27 Afrika" "JG 51 Mölders" "JG 53 Pik As" "JG 54 Grünherz" "JG 77 Herz As"
+		 "Jagdgeschwader 1 Oesau" "Jagdgeschwader 2 Richthofen" "Jagdgeschwader 3 Udet" "Jagdgeschwader 5 Eismeer" "Jagdgeschwader 6 Horst Wessel" "Jagdgeschwader 7 Nowotny" "Jagdgeschwader 26 Schlageter" "Jagdgeschwader 27 Afrika" "Jagdgeschwader 51 Mölders" "Jagdgeschwader 53 Pik As" "Jagdgeschwader 54 Grünherz" "Jagdgeschwader 77 Herz As"
 		}	
 	}
 
@@ -91,6 +97,23 @@
 		}	
 	}
 
+	interceptor_equipment = {
+		prefix = ""
+		generic = { "Jagdgeschwader" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		 "Jagdgeschwader 1 Oesau" "Jagdgeschwader 2 Richthofen" "Jagdgeschwader 3 Udet" "Jagdgeschwader 5 Eismeer" "Jagdgeschwader 6 Horst Wessel" "Jagdgeschwader 7 Nowotny" "Jagdgeschwader 26 Schlageter" "Jagdgeschwader 27 Afrika" "Jagdgeschwader 51 Mölders" "Jagdgeschwader 53 Pik As" "Jagdgeschwader 54 Grünherz" "Jagdgeschwader 77 Herz As"
+		}	
+	}
+
+	jet_interceptor_equipment = {
+		prefix = ""
+		generic = { "Sonder-Jagdverband" "Jagdverband" "Erprobungskommando" "Lehrgeschwader" "Erprobungsgruppe" }
+		generic_pattern = AIR_WING_NAME_GER_GENERIC
+		unique = {
+		}	
+	}
+	
 	heavy_fighter_equipment = {
 		prefix = ""
 		generic = { "Zerstörergeschwader" "Nachtjagdgeschwader"}
@@ -178,18 +201,45 @@
 		}	
 	}
 
-
+#############################################################
+## Unit Names
+#############################################################
 	infantry = {
 		prefix = ""
 		generic = { "Infanterie-Division" }
 		generic_pattern = "UNIT_GENERIC_NAME_GER"
 	}
-	#motorized = {
-	#	prefix = ""
-	#	generic = { "" }
-	#	generic_pattern = "UNIT_GENERIC_NAME_GER"
-	#	unique = {}
-	#}
+	motorized = {
+		prefix = ""
+		generic = { "Infanterie-Division (mot)" }
+		generic_pattern = "UNIT_GENERIC_NAME_GER"
+		unique = {}
+	}
+	mechanized = {
+		prefix = ""
+		generic = { "Panzer-Grenadier-Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = { "Panzer-Grenadier-Division Großdeutschland" }
+	}
+
+	SS_infantry = {
+		prefix = ""
+		generic = { "Waffen-Grenadier-Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GER"
+	}
+	SS_motorized = {
+		prefix = ""
+		generic = { "Waffen-Grenadier-Division (mot)" }
+		generic_pattern = "UNIT_GENERIC_NAME_GER"
+		unique = {}
+	}
+	SS_mechanized = {
+		prefix = ""
+		generic = { "SS-Panzergrenadier-Division " }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = { "Panzer-Grenadier-Division Großdeutschland" }
+	}	
+
 	mountaineers = {
 		prefix = ""
 		generic = { "Gebirgsbrigade" }

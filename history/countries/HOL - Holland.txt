@@ -164,50 +164,89 @@ set_politics = {
 set_convoys = 500
 set_national_unity = 0.75
 
-create_country_leader = {
-	name = "Hendricus Colijn"
-	desc = "POLITICS_Wilhelmina_DESC"
-	picture = "Portrait_Holland_Hendricu_Colijn.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-		#
-	}
-}
-
+####################################################
+# Holland Leaders
+####################################################
+#NS
 create_country_leader = {
 	name = "Anton Mussert"
-	desc = "POLITICS_ANTON_MUSSERT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {}
+}
+#FA
+create_country_leader = {
+	name = "Jan Baars"
+	desc = ""
+	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		#
-	}
+	traits = {}
 }
-
+#PA
 create_country_leader = {
-	name = "Lou de Visser"
-	desc = "POLITICS_LOU_DE_VISSER_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hendrikus Colijn"
-	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
-	picture = "GFX_portrait_holland_hendrikus_colijn"
+	name = "Wilhelmina"
+	desc = ""
+	picture = "Poland_PA_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	traits = {}
 }
 
+#SC
+create_country_leader = {
+	name = "Dirk Jan de Geer"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "Hendrikus Colijn"
+	desc = ""
+	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+#SL 
+#SD
+create_country_leader = {
+	name = "Johan Willem Albarda"
+	desc = ""
+	picture = "Sweden_SD_Per_Albin_Hansson.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+
+#LWR
+#LE
+create_country_leader = {
+	name = "David Wijnkoop"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#ST
+create_country_leader = {
+	name = "Louis de Visser"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
+}
+
+####################################################
+# Holland General Staff
+####################################################
 create_corps_commander = {
 	name = "Petrus Wilhelmus Best"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"

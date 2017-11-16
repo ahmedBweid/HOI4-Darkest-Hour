@@ -109,50 +109,91 @@ set_politics = {
 		elections_allowed = yes
 	}
 }
-create_country_leader = {
-	name = "Domhnall Ua Buachalla"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "Portrait_Ireland_Donal_Buckley.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-		#
-	}
-}
 
+
+####################################################
+# Irish Leaders
+####################################################
+#NS
+#FA
 create_country_leader = {
 	name = "Eoin O'Duffy"
-	desc = "POLITICS_EOIN_ODUFFY_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	desc = ""
+	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		#
-	}
+	traits = {}
 }
-
+#PA
 create_country_leader = {
-	name = "James Larkin"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "William Norton"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Gearóid Ó Cuinneagáin"
+	desc = ""
+	picture = "Poland_PA_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	traits = {}
 }
 
+#SC
+create_country_leader = {
+	name = "Frank Fahy"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "Donal Buckley"
+	desc = ""
+	picture = "Ireland_ML_Donal_Buckley.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+#SL 
+create_country_leader = {
+	name = "Frank MacDermot"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#SD
+create_country_leader = {
+	name = "William Norton"
+	desc = ""
+	picture = "Sweden_SD_Per_Albin_Hansson.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+
+#LWR
+create_country_leader = {
+	name = "James Larkin"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+#LE
+create_country_leader = {
+	name = "Bill Gannon"
+	desc = ""
+	picture = "Sweden_NS_.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#ST
+
+####################################################
+# Irish General Staff
+####################################################
 create_corps_commander = {
 	name = "Michael Costello"
 	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"

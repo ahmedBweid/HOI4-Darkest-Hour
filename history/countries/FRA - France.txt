@@ -2,7 +2,7 @@
 
 oob = "FRA_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
@@ -192,15 +192,15 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 10 }		
 		social_conservative = { popularity = 7 }		
-		market_liberal = { popularity = 35 }		
-		social_liberal = { popularity = 0 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 35 }		
 		social_democrat = { popularity = 26 }		
 		left_wing_radical = { popularity = 15 }		
 		leninist = { popularity = 5 }		
 		stalinist = { popularity = 2 }	
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = social_liberal
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -215,76 +215,105 @@ add_ideas = {
 
 #give_guarantee = CZE
 
-#Order matters here Daladier will start as leaders because added last
+###############################
+# French Leaders 
+###############################
+#NS
 create_country_leader = {
-	name = "Charles de Gaulle"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_France_Charles_De_Gaulle.dds"
+	name = "Jacques Doriot"
+	desc = ""
+	picture = "France_NS_Jacques_Doriot.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		
-	}
+	ideology = national_socialism
+	traits = {}
+}
+#FA
+create_country_leader = {
+	name = "Marcel Bucard"
+	desc = ""
+	picture = "France_FA_Marcel_Bucard.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {}
+}
+#PA
+create_country_leader = {
+	name = "Charles Maurras"
+	desc = ""
+	picture = "Portrait_France_.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }
 
-create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		stout_defender
-	}
-}
-
+#SC
 create_country_leader = {
 	name = "Albert Lebrun"
 	desc = ""
-	picture = "Portrait_France_Albert_Lebrun.dds"
-	expire = "1965.1.1"
+	picture = "France_SL_Albert_Lebrun.dds"
+	expire = "1938.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "Georges Bidault"
+	desc = ""
+	picture = "France_ML_Georges_Bidault.dds"
+	expire = "1938.1.1"
 	ideology = market_liberalism
-	traits = {	
-		stout_defender
-	}
+	traits = {}
+}
+#SL
+create_country_leader = {
+	name = "Albert Lebrun"
+	desc = ""
+	picture = "France_SL_Albert_Lebrun.dds"
+	expire = "1938.1.1"
+	ideology = social_liberalism
+	traits = {}
+}
+#SD
+create_country_leader = {
+	name = "Vincent Auriol"
+	desc = ""
+	picture = "France_SD_Vincent_Auriol.dds"
+	expire = "1938.1.1"
+	ideology = social_democracy
+	traits = {}
 }
 
+#LWR
+create_country_leader = {
+	name = "CNT-F"
+	desc = ""
+	picture = "Portrait_France_.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#LE
+create_country_leader = {
+	name = "Boris Souvarine"
+	desc = ""
+	picture = "France_LE_Boris_Souvarine.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#ST
 create_country_leader = {
 	name = "Maurice Thorez"
-	desc = "POLITICS_MAURICE_THOREZ_DESC"
-	picture = "Portrait_France_Maurice_Thorez.dds"
+	desc = ""
+	picture = "France_ST_Maurice_Thorez.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		
-	}
+	ideology = leninism
+	traits = {}
 }
 
-create_country_leader = {
-	name = "Philippe Pétain"
-	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
-	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		
-	}
-}
-
-create_corps_commander = {
-	name = "Jean de Lattre de Tassigny"
-	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
-	traits = { trickster }
-	skill = 4
-}
-
-create_corps_commander = {
-	name = "Alphonse Juin"
-	picture = "Portrait_France_Alphonse_Juin.dds"
-	traits = { panzer_leader  }
-	skill = 4
-}
-
+###############################
+# French Generals 
+###############################
 create_field_marshal = {
 	name = "Maurice Gamelin"
 	picture = "Portrait_France_Maurice_Gamelin.dds"

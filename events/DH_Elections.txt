@@ -19,9 +19,31 @@ country_event = {
 		ideology_group_democracy = yes
 	}
 
+	# Elect NatSoc (Far-Right)
+	option = { 
+		name = DH_election.1.A
+		ai_chance = { factor = 30 }
+		trigger = { 			
+			NOT = { has_government = national_socialist }
+			national_socialist > 0.40
+		}
+		set_politics = { ruling_party = national_socialist }
+	}	
+
+	# Elect Fascists (Right)
+	option = { 
+		name = DH_election.1.B
+		ai_chance = { factor = 30 }
+		trigger = { 			
+			NOT = { has_government = fascist }
+			fascist > 0.40
+		}
+		set_politics = { ruling_party = fascist }
+	}	
+	
 	# Elect Social Conservatives (Right)
 	option = { 
-		name = DH_election.1.a
+		name = DH_election.1.C
 		ai_chance = { factor = 30 }
 		trigger = { 			
 			NOT = { has_government = social_conservative }
@@ -32,7 +54,7 @@ country_event = {
 
 	# Elect Market Liberals (Center-Right)
 	option = { 
-		name = DH_election.1.b
+		name = DH_election.1.D
 		ai_chance = { factor = 60 }
 		trigger = { 			
 			NOT = { has_government = market_liberal }
@@ -43,7 +65,7 @@ country_event = {
 
 	# Elect Social Liberals (Center-Left)
 	option = { 
-		name = DH_election.1.c
+		name = DH_election.1.E
 		ai_chance = { factor = 60 }
 		trigger = {
 			NOT = { has_government = social_liberal }
@@ -54,7 +76,7 @@ country_event = {
 
 	# Elect Social Democrats (Left)
 	option = {
-		name = DH_election.1.e
+		name = DH_election.1.F
 		ai_chance = { factor = 60 }
 		trigger = {
 			NOT = { has_government = social_democrat }
@@ -65,7 +87,7 @@ country_event = {
 	
 	# Keep Current
 	option = { 
-		name = DH_election.1.f
+		name = DH_election.1.G
 		ai_chance = { factor = 10 }
 		trigger = { is_ruling_party_stronk = yes }
 		hidden_effect = {

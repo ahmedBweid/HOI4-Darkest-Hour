@@ -2,7 +2,7 @@
 
 oob = "ENG_1936"
 
-set_research_slots = 4
+set_research_slots = 5
 
 set_national_unity = 0.6
 
@@ -298,64 +298,104 @@ add_to_faction = MAL
 
 #give_guarantee = CZE
 
-# Order matters - here Chamberlain becomes starting leader
-
+###############################
+# British Leaders 
+###############################
+#NS
 create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
+	name = "Arnold Spencer Leese"
+	desc = ""
+	picture = "Portrait_Britain_Arnold_Spencer_Leese.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
-	}
+	ideology = national_socialism
+	traits = {}
 }
-
-
-create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = social_conservatism
-	traits = {
-		
-	}
-}
-
+#FA
 create_country_leader = {
 	name = "Oswald Mosley"
-	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
+	desc = ""
+	picture = "Britain_FA_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		
-	}
+	traits = {}
 }
-
+#PA
 create_country_leader = {
 	name = "Edward VIII"
 	desc = ""
-	picture = "Portrait_Britain_Edward_VIII.dds"
+	picture = "Britain_PA_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {
-		
-	}
+	traits = {}
 }
 
+#SC
 create_country_leader = {
-	name = "Rajani Palme Dutt"
-	desc = "POLITICS_PALME_DUTT_DESC"
-	picture = "Portrait_Britain_Palme_Dutt.dds"
+	name = "Stanley Baldwin"
+	desc = ""
+	picture = "Britain_SC_Stanley_Baldwin.dds"
+	expire = "1938.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+create_country_leader = {
+	name = "David Lloyd George"
+	desc = ""
+	picture = "Britain_ML_David_Lloyd_George.dds"
+	expire = "1938.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+#SL
+create_country_leader = {
+	name = "J. R. Clynes"
+	desc = ""
+	picture = "Britain_SL_J_R_Clynes.dds"
+	expire = "1938.1.1"
+	ideology = social_liberalism
+	traits = {}
+}
+#SD
+create_country_leader = {
+	name = "Clement Attlee"
+	desc = ""
+	picture = "Britain_SD_Clement_Attlee.dds"
+	expire = "1938.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+
+#LWR
+create_country_leader = {
+	name = "Aneurin Bevan"
+	desc = ""
+	picture = "Britain_LWR_Aneurin_Bevan.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+#LE
+create_country_leader = {
+	name = "Tom Mann"
+	desc = ""
+	picture = "Britain_LE_Tom_Mann.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {
-		
-	}
+	traits = {}
 }
-
+#ST
+create_country_leader = {
+	name = "Tony Cliff"
+	desc = ""
+	picture = "Britain_ST_Tony_Cliff.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
+}
+###############################
+# British Generals 
+###############################
 create_field_marshal = {
 	name = "Alan Brooke"
 	picture = "Portrait_Britain_Alan_Brooke.dds"

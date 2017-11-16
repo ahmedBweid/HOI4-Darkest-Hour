@@ -2,7 +2,7 @@
 
 oob = "USA_1936"
 
-set_research_slots = 4
+set_research_slots = 5
 
 # Starting tech
 set_technology = {
@@ -105,6 +105,7 @@ give_guarantee = CHL
 give_guarantee = PAR
 give_guarantee = ARG
 give_guarantee = URG
+
 
 1939.1.1 = {
 
@@ -239,12 +240,6 @@ add_ideas = {
 	home_of_the_free
 }
 
-
-# DIPLOMACY
-set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
-}
 
 1939.1.1 = {
 	set_national_unity = 0.7

@@ -685,19 +685,18 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_technology_infantry_folder_small_unavailable_item_bg"
-		textureFile = "gfx//interface//tech_doctrine_unavailable_item_bg.dds"
+		textureFile = "gfx//interface//technology_unavailable_item_bg.dds"
 	}	
 	
 	spriteType = {
 		name = "GFX_technology_infantry_folder_small_available_item_bg"
-		textureFile = "gfx//interface//tech_doctrine_available_item_bg.dds"
+		textureFile = "gfx//interface//technology_available_item_bg.dds"
 	}
 
 	spriteType = {
 		name = "GFX_technology_infantry_folder_small_researched_item_bg"
-		textureFile = "gfx//interface//tech_landdoctrine_researched_item_bg.dds"
+		textureFile = "gfx//interface//technology_researched_item_bg.dds"
 	}	
-	
 
 	# support
 	spriteType = {

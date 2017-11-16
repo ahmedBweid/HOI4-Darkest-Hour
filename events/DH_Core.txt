@@ -3,28 +3,3 @@
 ###########################
 
 add_namespace = DH_core
-
-#########################################################################
-# Add one extra research slot to the majors (Somewhat realistic and historical technological progression)
-#########################################################################
-country_event = {
-	id = DH_core.1
-
-	hidden = yes
-	fire_only_once = yes
-	is_triggered_only = yes
-	
-	immediate = {
-		ENG = { add_research_slot = 1 }
-		FRA = { add_research_slot = 1 }
-		GER = { add_research_slot = 1 }
-		ITA = { add_research_slot = 1 }
-		JAP = { add_research_slot = 1 }
-		SOV = { add_research_slot = 1 }
-		USA = { add_research_slot = 1 }
-	}
-	
-	option = {
-		name = DH_core.1.a
-	}
-}

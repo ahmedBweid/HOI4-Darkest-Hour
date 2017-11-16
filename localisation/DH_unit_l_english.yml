@@ -28,9 +28,15 @@
  marine_desc:0 "Troops specializing in amphibious warfare are growing ever more indispensable. Improvised methods and equipment become things of the past as our naval infantry is supported by specialized landing craft and training."
  mountaineers:0 "Mountaineers Battalion"
  mountaineers_desc:0 "Combat in mountain ranges exposes troops to many perils, but sometimes cannot be avoided. Providing our soldiers with specialized training for this environment, we can minimize these risks."
- ss_hq:0 "Waffen-SS Headquarters Company"
- ss_hq_desc:0 "Waffen-SS divisions have increased defense, breakthrough and suppression, but are more prone to attrition and require more supplies while also being less organised."
- 
+## SS Units
+ group_SS_units_title:0 "Waffen-SS Battalions"
+ group_SS_units_title_desc:0 "Waffen-SS divisions have increased defense, breakthrough and suppression, but are more prone to attrition and require more supplies while also being less organised."
+
+ SS_infantry:0 "Waffen-SS Infantry Battalion"
+ SS_motorized:0 "Waffen-SS Motorized Infantry Battalion"
+ SS_mechanized:0 "Waffen-SS Mechanized Infantry Battalion"
+
+ ## Naval Flotillas naming system
  FLOTILLA_NAME_GENERIC:0 "$NR$. $NAME$"
  FLOTILLA_NAME_USA_GENERIC:0 "$NAME$ $NR$"
  FLOTILLA_NAME_JAP_GENERIC:0 "Dai $NR$ $NAME$"

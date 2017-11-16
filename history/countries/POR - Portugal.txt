@@ -141,40 +141,71 @@ set_convoys = 100
 set_national_unity = 0.8
 
 
+####################################################
+# Portugese Leaders
+####################################################
+#NS
+#FA
 create_country_leader = {
-	name = "António de Fragosa Carmona"
-	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
-	picture = "Portrait_Portugal_Antonio_de_Fragosa_Carmona.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bento Gonçalves"
-	desc = "POLITICS_BENTO_GONCALVES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco de Barcelos Rolão Preto"
-	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	name = "Francisco Rolao Preto"
+	desc = ""
+	picture = "Germany_FA_Ludwig_Beck.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		#
-	}
+	traits = {}
+}
+#PA
+create_country_leader = {
+	name = "António de Fragosa Carmona"
+	desc = ""
+	picture = "Germany_PA_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
+}
+#SC
+create_country_leader = {
+	name = "António Ginestal Machado"
+	desc = ""
+	picture = "Portugal_PA_Antonio_de_Fragosa_Carmona.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#ML
+#SL
+create_country_leader = {
+	name = "Raul Brandao"
+	desc = ""
+	picture = "Germany_SL_Willy_Hellpach.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {}
+}
+#SD
+create_country_leader = {
+	name = "Jaime Cortesão"
+	desc = ""
+	picture = "Germany_SD_Otto_Braun.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+#LWR
+#LE
+create_country_leader = {
+	name = "Bento António Gonçalves"
+	desc = ""
+	picture = "Germany_LE_Robert_Siewert.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
 }
 
 
+####################################################
+# Portugese General staff 
+####################################################
 create_corps_commander = {
 	name = "José Vicente de Freitas"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"

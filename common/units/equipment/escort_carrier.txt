@@ -87,10 +87,7 @@ equipments = {
 		
 		port_capacity_usage = 0.7
 		
-		resources = {
-			steel = 2 
-			oil = 1
-		}
+		resources = { steel = 2 oil = 1 }
 		
 		manpower = 400
 	}
