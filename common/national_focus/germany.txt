@@ -359,7 +359,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_government = social_conservative
-						has_government = market_liberal
 						has_government = social_liberal
 						has_government = social_democrat
 					}
@@ -379,7 +378,6 @@ focus_tree = {
 					SOV = {
 						OR = {
 							has_government = social_conservative
-							has_government = market_liberal
 							has_government = social_liberal
 							has_government = social_democrat
 							has_government = stalinist
@@ -429,7 +427,6 @@ focus_tree = {
 						NOT = {
 							OR = {
 								has_government = social_conservative
-								has_government = market_liberal
 								has_government = social_liberal
 								has_government = social_democrat
 								has_government = stalinist
@@ -1275,14 +1272,6 @@ focus_tree = {
 				}
 				AND = {
 					GER = {
-						has_government = market_liberal
-					}
-					SAF = {
-						has_government = market_liberal
-					}
-				}
-				AND = {
-					GER = {
 						has_government = social_liberal
 					}
 					SAF = {
@@ -1342,21 +1331,6 @@ focus_tree = {
 				SAF = {
 					start_civil_war = {
 						ideology = social_conservative
-						size = 0.39
-						capital = 275
-						states = { 275  541 }
-					}
-				}
-			}
-			if = {
-				limit = {
-					GER = {
-						has_government = market_liberal
-					}
-				}
-				SAF = {
-					start_civil_war = {
-						ideology = market_liberal
 						size = 0.39
 						capital = 275
 						states = { 275  541 }

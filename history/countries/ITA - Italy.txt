@@ -190,7 +190,7 @@ set_politics = {
 		fascist = { popularity = 52 }		
 		paternal_autocrat = { popularity = 0 }		
 		social_conservative = { popularity = 28 }		
-		market_liberal = { popularity = 0 }		
+		
 		social_liberal = { popularity = 10 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 10 }		
@@ -211,7 +211,7 @@ set_politics = {
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = ""
-	picture = "DH_Benito_Mussolini.dds"
+	picture = "Italy_FA_Benito_Mussolini.dds"
 	expire = "1965.1.1"
 	ideology = national_socialism
 	traits = {}
@@ -220,7 +220,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Benito Mussolini"
 	desc = ""
-	picture = "DH_Benito_Mussolini.dds"
+	picture = "Italy_FA_Benito_Mussolini.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
 	traits = {}
@@ -229,7 +229,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Vittorio Emanuele III"
 	desc = ""
-	picture = "DH_Emanuele_III.dds"
+	picture = "Italy_PA_Emanuele_III.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {}
@@ -238,25 +238,16 @@ create_country_leader = {
 create_country_leader = {
 	name = "Alcide de Gasperi"
 	desc = ""
-	picture = "DH_Alcide_de_Gasperi.dds"
+	picture = "Italy_SC_Alcide_de_Gasperi.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Enrico De Nicola"
-	desc = ""
-	picture = "DH_Enrico_De_Nicola.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL
 create_country_leader = {
 	name = "Ivanoe Bonomi"
 	desc = ""
-	picture = "DH_Ivanoe_Bonomi.dds"
+	picture = "Italy_SL_Ivanoe_Bonomi.dds"
 	expire = "1965.1.1"
 	ideology = social_liberalism
 	traits = {}
@@ -265,7 +256,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Giuseppe Saragat"
 	desc = ""
-	picture = "DH_Giuseppe_Saragat.dds"
+	picture = "Italy_SD_Giuseppe_Saragat.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {}
@@ -274,7 +265,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Luigi Longo"
 	desc = ""
-	picture = "DH_Luigi_Longo.dds"
+	picture = "Italy_LWR_Luigi_Longo.dds"
 	expire = "1965.1.1"
 	ideology = left_wing_radicalism
 	traits = {}
@@ -283,7 +274,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Palmiro Togliatti"
 	desc = ""
-	picture = "DH_Palmiro_Togliatti.dds"
+	picture = "Italy_LE_Palmiro_Togliatti.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {}
@@ -292,7 +283,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Olindo Vernocchi"
 	desc = ""
-	picture = "DH_Olindo_Vernocchi.dds"
+	picture = "Italy_ST_Olindo_Vernocchi.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {}

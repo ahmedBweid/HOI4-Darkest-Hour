@@ -147,8 +147,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 8 }		
-		social_conservative = { popularity = 35 }		
-		market_liberal = { popularity = 45 }		
+		social_conservative = { popularity = 80 }		
 		social_liberal = { popularity = 1 }		
 		social_democrat = { popularity = 10 }		
 		left_wing_radical = { popularity = 1 }		
@@ -156,65 +155,10 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = social_conservative
 	last_election = "1935.10.14"
 	election_frequency = 60
 	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Mackenzie King"
-	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sir John Buchan"
-	desc = "POLITICS_JOHN_BUCHAN_DESC"
-	picture = "Portrait_Canada_John_Buchan.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Adrien Arcand"
-	desc = "POLITICS_ADRIEN_ARCAND_DESC"
-	picture = "GFX_CAN_adrien_arcand"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Tim Buck"
-	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "J. S. Woodsworth"
-	desc = "POLITICS_JS_WOODSWORTH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
 }
 
 set_convoys = 100
@@ -245,6 +189,94 @@ set_national_unity = 0.9
 	}
 }
 
+####################################################
+# Canadian Leaders
+####################################################
+#NS
+create_country_leader = {
+	name = "Adrien Arcand"
+	desc = ""
+	picture = "Germany_NS_Adrien_Arcand.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {dictator}
+}
+#FA
+create_country_leader = {
+	name = "Adrien Arcand"
+	desc = ""
+	picture = "Germany_NS_Adrien_Arcand.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {}
+}
+#PA
+create_country_leader = {
+	name = "Henry Herbert Stevens"
+	desc = ""
+	picture = "Germany_PA_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
+}
+#SC
+create_country_leader = {
+	name = "Robert Manion"
+	desc = ""
+	picture = "Germany_SC_Theodor_Heuss.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+#SL
+create_country_leader = {
+	name = "Mackenzie King"
+	desc = ""
+	picture = "Canada_ML_Mackenzie_King.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {}
+}
+#SD
+create_country_leader = {
+	name = "J. S. Woodsworth"
+	desc = ""
+	picture = "Germany_SD_Otto_Braun.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
+#LWR
+create_country_leader = {
+	name = "Seymour Farmer"
+	desc = ""
+	picture = "Germany_LWR_Ernst_Toller.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+#LE
+create_country_leader = {
+	name = "Ross Dowson"
+	desc = ""
+	picture = "Germany_LE_Robert_Siewert.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#ST
+create_country_leader = {
+	name = "Tim Buck"
+	desc = ""
+	picture = "Germany_ST_Ludwig_Renn.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
+}
+
+####################################################
+# Canadian General staff 
+####################################################
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"

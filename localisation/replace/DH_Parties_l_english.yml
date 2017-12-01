@@ -4,7 +4,7 @@
 ###################################### Ideologies ############################################################
 ########################################################################################################
 
-#### Communist Regimes ##############################
+#### Communist Regimes 
  stalinist:0 "Stalinist"
  stalinist_noun:0 "Stalinism"
  stalinist_desc:0 "Communist Regime"
@@ -16,23 +16,19 @@
  left_wing_radical:0 "Left-Wing Radical"
  left_wing_radical_noun:0 "Left-Wing Radicalism"
  left_wing_radical_desc:0 "Communist Regime"
-#### Democratic Regimes #############################
- social_conservative:0 "Social Conservative"
- social_conservative_noun:0 "Social Conservatism"
+#### Democratic Regimes 
+ social_conservative:0 "Conservative"
+ social_conservative_noun:0 "Conservatism"
  social_conservative_desc:0 "Democratic Regime"
  
- market_liberal:0 "Market Liberal"
- market_liberal_noun:0 "Market Liberalism"
- market_liberal_desc:0 "Democratic Regime"
- 
- social_liberal:0 "Social Liberal"
- social_liberal_noun:0 "Social Liberalism"
+ social_liberal:0 "Liberal"
+ social_liberal_noun:0 "Liberalism"
  social_liberal_desc:0 "Democratic Regime"
  
  social_democrat:0 "Social Democrat"
  social_democrat_noun:0 "Social Democracy"
  social_democrat_desc:0 "Democratic Regime"
-#### Fascist Regimes #################################
+#### Fascist Regimes 
  fascist:0 "Fascist"
  fascist_noun:0 "Fascism"
  fascist_desc:0 "Totalitarian Regime"
@@ -44,50 +40,95 @@
  paternal_autocrat:0 "Paternal Autocrat"
  paternal_autocrat_noun:0 "Paternal Autocracy"
  paternal_autocrat_desc:0 "Totalitarian Regime"
-###### SubIdeologies (To Do)  #############################################
 
 ###########################################
 #--- Democracy 
 ###########################################
+# Conservatism
  social_conservatism:0 "Social Conservatism"
  social_conservatism_desc:0 "§YSocial Conservatism§! denotes an attitude that tends to favour beliefs seen as traditional in regard to social affairs. This can include moral issues."
  
  market_liberalism:0 "Market Liberalism"
  market_liberalism_desc:0 "§YMarket Liberalism§!, also known as Classical liberalism is a political ideology, a branch of liberalism which advocates civil liberties under the rule of law with an emphasis on economic freedom."
- 
+
+# Liberalism
  social_liberalism:0 "Social Liberalism"
  social_liberalism_desc:0 "§YSocial Liberalism§! is a political ideology that believes individual liberty requires a level of social justice. Like classical liberalism, social liberalism endorses a market economy and the expansion of civil and political rights and liberties, but differs in that it believes the legitimate role of the government includes addressing economic and social issues such as poverty, health care and education."
- 
+
+# Social Dem.
  social_democracy:0 "Social Democracy"
  social_democracy_desc:0 "§YSocial Democracy§! is a political, social and economic ideology that supports economic and social interventions to promote social justice within the framework of a capitalist economy."
  
  ###########################################
  #--- Communism 
 ###########################################
+# LWR
  left_wing_radicalism:0 "Left-Wing Radicalism"
  left_wing_radicalism_desc:0 "§RLeft-Wing Radicalism§!, or leftist nationalism describes a form of nationalism based upon social equality, popular sovereignty, and national self-determination."
+
+ anarcho_communism:0 "Anarcho-communism"
+ anarcho_communism_desc:0 "§RAnarcho-communism§! is a theory of anarchism which advocates the abolition of the state, capitalism, wage labour, and private property (though some strains retain respect for personal property)."
  
+ titoism:0 "Titoism"
+ titoism_desc:0 "§RTitoism§! is described as the post-World War II policies and practices associated with Josip Broz Tito during the Cold War, characterized by an opposition to the Soviet Union."
+ 
+ arab_socialism:0 "Arab socialism"
+ arab_socialism_desc:0 "§RArab socialism§! is a political ideology based on an amalgamation of Pan-Arabism and socialism. Arab socialism is distinct from the much broader tradition of socialist thought in the Arab world, which predates Arab socialism by as much as fifty years."
+ 
+# Leninism
  leninism:0 "Leninism"
  leninism_desc:0 "§RLeninism§! is the political theory for the organisation of a revolutionary vanguard party and the achievement of a dictatorship of the proletariat, as political prelude to the establishment of socialism.[1] Developed by and named for the Russian revolutionary Lenin."
  
+ trotskyism:0 "Trotskyism"
+ trotskyism_desc:0 "§RTrotskyism§! is the theory of Marxism as advocated by Leon Trotsky. Trotsky identified himself as an orthodox Marxist and Bolshevik-Leninist and supported founding a vanguard party of the proletariat, proletarian internationalism, and a dictatorship of the proletariat based on working-class self-emancipation and mass democracy."
+ 
+# Stalinism
  stalinism:0 "Stalinism"
  stalinism_desc:0 "§RStalinism§! is the means of governing and related policies implemented by Joseph Stalin. Stalinist policies in the Soviet Union included rapid industrialization, the theory of socialism in one country, a centralized state, collectivization of agriculture, cult of personality."
 
+ maoism:0 "Maoism"
+ maoism_desc:0 "§RMaoism§! is a political theory derived from the teachings of the Chinese political leader Mao Zedong. Its followers are known as Maoists. Developed from the 1950s until the Deng Xiaoping reforms in the 1970s, it was widely applied as the guiding political and military ideology of the Communist Party of China (CPC)."
+
+ juche:0 "Juche"
+ juche_desc:0 "§RJuche§! usually left untranslated, or translated as "self-reliance", is the official state ideology of North Korea, described by the government as Kim Il-sung's "original, brilliant and revolutionary contribution to national and international thought"."
+
+ 
 ###########################################
  #--- Fascism 
 ###########################################
+# NatSoc
  national_socialism:0 "National Socialism"
  national_socialism_desc:0 "§GNational Socialism§! more commonly known as Nazism, is the ideology and set of practices associated with the 20th-century German Nazi Party, Nazi Germany and other far-right groups. Usually characterized as a form of fascism that incorporates scientific racism and antisemitism."
  
+ strasserism:0 "Strasserism"
+ strasserism_desc:0 "§GStrasserism§! was the strand of Nazism that called for a more radical, mass-action and worker-based form of Nazism, hostile to Jews not from a racial, ethnic, cultural or religious perspective, but from an anti-capitalist basis."
+
+# Fascism
  fascist_ideology:0 "Fascism"
  fascist_ideology_desc:0 "§GFascism§! is a form of radical authoritarian nationalism, characterized by dictatorial power, forcible suppression of opposition, and control of industry and commerce, that came to prominence in early 20th-century Europe."
 
+ rexism:0 "Rexism"
+ rexism_desc:0 "§GRexism§! is a form of radical authoritarian nationalism, characterized by dictatorial power, forcible suppression of opposition, and control of industry and commerce, that came to prominence in early 20th-century Europe."
+
+ falangism:0 "Falangism"
+ falangism_desc:0 "§GFalangism§! was the political ideology of the Falange Española de las JONS and, afterwards, of the Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista (both known simply as the "Falange"), as well as derivatives of it in other countries."
+
+ clerical_fascism:0 "Clerical fascism"
+ clerical_fascism_desc:0 "§GClerical fascism§! is an ideology that combines the political and economic doctrines of fascism with clericalism. The term has been used to describe organizations and movements that combine religious elements with fascism."
+
+# Paternal Autocracy
  paternal_autocracy:0 "Paternal Autocracy"
- paternal_autocracy_desc:0 "§GPaternal Autocracy§! is a system of government in which supreme power is concentrated in the hands of one person"
+ paternal_autocracy_desc:0 "§GPaternal Autocracy§! is a system of government in which supreme power is concentrated in the hands of one person."
  
-########################################################################################################
-###################################### Parties ############################################################
-########################################################################################################
+ monarchism:0 "Monarchism"
+ monarchism_desc:0 "§GMonarchism§! is the advocacy of a monarch or monarchical rule. A monarchist is an individual who supports this form of government, independent of any specific monarch."
+
+ dictatorship:0 "Dictatorship"
+ dictatorship_desc:0 "§GDictatorship§! is a form of government in which a country or a group of countries is ruled by one person (a dictator) or by a polity, and power (social and political) is exercised through various mechanisms to ensure that the entity's power remains strong."
+
+#################################################################################################################################
+# Party names
+#################################################################################################################################
 
 #### North America #################################
  USA_national_socialist_party:0 "GAB"
@@ -98,8 +139,6 @@
  USA_paternal_autocrat_party_long:0 "America First Committee"
  USA_social_conservative_party:0 "RP"
  USA_social_conservative_party_long:0 "Republican Party"
- USA_market_liberal_party:0 "RP"
- USA_market_liberal_party_long:0 "Republican Party"
  USA_social_liberal_party:0 "DP"
  USA_social_liberal_party_long:0 "Democratic Party"
  USA_social_democrat_party:0 "DFLP"

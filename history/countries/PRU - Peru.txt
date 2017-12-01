@@ -85,7 +85,7 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 51 }		
 		social_conservative = { popularity = 28 }		
-		market_liberal = { popularity = 0 }		
+		
 		social_liberal = { popularity = 8 }		
 		social_democrat = { popularity = 8 }		
 		left_wing_radical = { popularity = 5 }		
@@ -118,7 +118,7 @@ create_country_leader = {
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 51 }		
 			social_conservative = { popularity = 28 }		
-			market_liberal = { popularity = 0 }		
+			
 			social_liberal = { popularity = 8 }		
 			social_democrat = { popularity = 8 }		
 			left_wing_radical = { popularity = 5 }		

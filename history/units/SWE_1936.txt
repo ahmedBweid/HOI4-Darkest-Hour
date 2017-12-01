@@ -262,7 +262,6 @@ instant_effect = {
 		equipment = {
 			type = submarine_1
 			creator = "SWE"
-			version_name = "Draken Class"
 		}
 		requested_factories = 2
 		progress = 0.80

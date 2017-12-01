@@ -114,7 +114,6 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 40 }		
 		social_conservative = { popularity = 25 }		
-		market_liberal = { popularity = 0 }		
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 35 }		
 		left_wing_radical = { popularity = 0 }		
@@ -139,7 +138,6 @@ set_national_unity = 0.55
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 40 }		
 			social_conservative = { popularity = 25 }		
-			market_liberal = { popularity = 0 }		
 			social_liberal = { popularity = 0 }		
 			social_democrat = { popularity = 35 }		
 			left_wing_radical = { popularity = 0 }		
@@ -193,15 +191,6 @@ create_country_leader = {
 	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Mahmud Celal Bayar"
-	desc = ""
-	picture = "Belgium_ML_Paul_Van_Zeeland.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL 

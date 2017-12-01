@@ -100,7 +100,7 @@ set_politics = {
 		fascist = { popularity = 20 }		
 		paternal_autocrat = { popularity = 46 }		
 		social_conservative = { popularity = 14 }		
-		market_liberal = { popularity = 0 }		
+		
 		social_liberal = { popularity = 5 }		
 		social_democrat = { popularity = 6 }		
 		left_wing_radical = { popularity = 9 }		
@@ -122,7 +122,7 @@ set_politics = {
 			fascist = { popularity = 20 }		
 			paternal_autocrat = { popularity = 46 }		
 			social_conservative = { popularity = 14 }		
-			market_liberal = { popularity = 0 }		
+			
 			social_liberal = { popularity = 5 }		
 			social_democrat = { popularity = 6 }		
 			left_wing_radical = { popularity = 9 }		
@@ -172,7 +172,6 @@ create_country_leader = {
 	ideology = social_conservatism
 	traits = {}
 }
-#ML
 #SL
 create_country_leader = {
 	name = "Raul Brandao"

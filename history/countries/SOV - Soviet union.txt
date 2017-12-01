@@ -255,7 +255,6 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 2 }		
 		social_conservative = { popularity = 15 }
-		market_liberal = { popularity = 0 }		
 		social_liberal = { popularity = 3 }		
 		social_democrat = { popularity = 2 }		
 		left_wing_radical = { popularity = 8 }		
@@ -362,7 +361,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Soviet_LE_Leon_Trotsky.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = trotskyism
 	traits = {}
 }
 #ST

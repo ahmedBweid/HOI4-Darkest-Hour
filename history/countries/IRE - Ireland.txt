@@ -72,8 +72,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 3 }		
-		social_conservative = { popularity = 35 }		
-		market_liberal = { popularity = 49 }		
+		social_conservative = { popularity = 84 }	
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 9 }		
 		left_wing_radical = { popularity = 4 }		
@@ -81,7 +80,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = social_conservative
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
@@ -95,7 +94,7 @@ set_politics = {
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 3 }		
 			social_conservative = { popularity = 35 }		
-			market_liberal = { popularity = 0 }		
+			
 			social_liberal = { popularity = 49 }		
 			social_democrat = { popularity = 9 }		
 			left_wing_radical = { popularity = 4 }		
@@ -135,15 +134,6 @@ create_country_leader = {
 }
 
 #SC
-create_country_leader = {
-	name = "Frank Fahy"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#ML
 create_country_leader = {
 	name = "Donal Buckley"
 	desc = ""

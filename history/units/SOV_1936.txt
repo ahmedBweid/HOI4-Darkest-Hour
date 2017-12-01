@@ -1652,7 +1652,6 @@ instant_effect = {
 		equipment = {
 			type = destroyer_1
 			creator = "SOV"
-			version_name = "Leningrad & Minsk Class"
 		}
 		requested_factories = 2
 		progress = 0.70
@@ -1665,7 +1664,6 @@ instant_effect = {
 		equipment = {
 			type = submarine_2
 			creator = "SOV"
-			version_name = "Series IX Srednyaya"
 		}
 		requested_factories = 1
 		progress = 0.80
@@ -1675,7 +1673,6 @@ instant_effect = {
 		equipment = {
 			type = submarine_2
 			creator = "SOV"
-			version_name = "Series IX Srednyaya"
 		}
 		requested_factories = 1
 		progress = 0.80
@@ -1685,7 +1682,6 @@ instant_effect = {
 		equipment = {
 			type = submarine_2
 			creator = "SOV"
-			version_name = "Series IX Srednyaya"
 		}
 		requested_factories = 1
 		progress = 0.80

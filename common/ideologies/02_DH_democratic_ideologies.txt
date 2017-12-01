@@ -7,7 +7,8 @@ ideologies = {
 	social_conservative = {
 	
 		types = {			
-			social_conservatism = { }		
+			social_conservatism = { }
+			market_liberalism = { }			
 		}
 		
 		dynamic_faction_names = {
@@ -19,49 +20,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 30 30 100 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
-	
-### Market Libs.
-	market_liberal = {
-	
-		types = {		
-			market_liberalism = { }	
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_DEMOCRATIC_1"
-		}
-		
-		color = { 10 10 150 }
+		color = { 50 50 170 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -102,7 +61,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_1"
 		}
 		
-		color = { 0 0 190 }
+		color = { 255 180 40 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
@@ -143,7 +102,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_1"
 		}
 		
-		color = { 0 0 255 }
+		color = { 240 90 90 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no

@@ -233,8 +233,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 2 }		
 		paternal_autocrat = { popularity = 60 }		
-		social_conservative = { popularity = 4 }		
-		market_liberal = { popularity = 26 }		
+		social_conservative = { popularity = 30 }	
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 5 }		
 		left_wing_radical = { popularity = 3 }		
@@ -315,15 +314,6 @@ create_country_leader = {
 	picture = "Portrait_Japan_.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Wakatsuki Reijirō"
-	desc = ""
-	picture = "Portrait_Japan_.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL

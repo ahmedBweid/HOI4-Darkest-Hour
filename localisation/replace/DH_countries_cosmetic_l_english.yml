@@ -1,13 +1,15 @@
 ﻿l_english:
- 
- GER_BIG_fascist:0 "Großdeutsches Reich"
- GER_BIG_fascist_DEF:0 "Großdeutsches Reich"
- GER_BIG_national_socialist:0 "Großdeutsches Reich"
- GER_BIG_national_socialist_DEF:0 "Großdeutsches Reich"
- GER_GREATER_fascist:0 "Großgermanisches Reich"
- GER_GREATER_fascist_DEF:0 "Großgermanisches Reich"
- GER_GREATER_national_socialist:0 "Großgermanisches Reich"
- GER_GREATER_national_socialist_DEF:0 "Großgermanisches Reich"
+ #################################################################
+ ## German subject names
+ #################################################################
+ GER_BIG_fascist:0 "Greater German Reich"
+ GER_BIG_fascist_DEF:0 "Greater German Reich"
+ GER_BIG_national_socialist:0 "Greater German Reich"
+ GER_BIG_national_socialist_DEF:0 "Greater German Reich"
+ GER_GREATER_fascist:0 "Greater Germanic Reich"
+ GER_GREATER_fascist_DEF:0 "Greater Germanic Reich"
+ GER_GREATER_national_socialist:0 "Greater Germanic Reich"
+ GER_GREATER_national_socialist_DEF:0 "Greater Germanic Reich"
 
  ITA_GER_fascist:0 "Italian Reich"
  ITA_GER_fascist_DEF:0 "Italian Reich"
@@ -71,3 +73,8 @@
  AUS_GER_AXIS_fascist_DEF:0 "Deutschösterreich"
  AUS_GER_AXIS_national_socialist:0 "Deutschösterreich"
  AUS_GER_AXIS_national_socialist_DEF:0 "Deutschösterreich" 
+ 
+ #################################################################
+ ## German subject names
+ #################################################################
+ 

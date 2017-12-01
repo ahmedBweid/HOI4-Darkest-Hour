@@ -114,30 +114,43 @@ spriteTypes = {
 # Rifles
 	SpriteType = {
 		name = "GFX_USA_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/Infantry/M1903 Springfield.dds"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1903.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_infantry_weapons1_medium"
-		texturefile = "gfx/interface/technologies/Infantry/M1 Garand.dds"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1Garand.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/Infantry/M1 Carbine.dds"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1Garand.dds"
 	}	
-	# SpriteType = {
-		# name = "GFX_USA_infantry_weapons3_medium"
-		# texturefile = "gfx/interface/technologies/Infantry/STG 44.dds"
-	# }	
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1Carbine.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M2Carbine.dds"
+	}
 	
 #SMGs	
 	SpriteType = {
 		name = "GFX_USA_infantry_smg_medium"
-		texturefile = "gfx/interface/technologies/Infantry/M1928 Thompson.dds"
-	}	
-	
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_SMG_M1Thompson.dds"
+	}
+
+#AT equipment	
 	SpriteType = {
-		name = "GFX_USA_infantry_weapons_smg_medium"
-		texturefile = "gfx/interface/technologies/Infantry/M1 Thompson.dds"
+		name = "GFX_USA_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_AT_M2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_AT_M20.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_AT_M1.dds"
 	}
 	
 	

@@ -150,8 +150,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 2 }		
-		social_conservative = { popularity = 50 }		
-		market_liberal = { popularity = 2 }		
+		social_conservative = { popularity = 52 }			
 		social_liberal = { popularity = 15 }		
 		social_democrat = { popularity = 27 }		
 		left_wing_radical = { popularity = 1 }		
@@ -163,72 +162,6 @@ set_politics = {
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Isaac Alfred Isaacs"
-	desc = "POLITICS_ISAAC_ALFRED_ISAACS_DESC"
-	picture = "Portrait_Australia_Isaac_Alfred_Isaacs.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "John Curtin"
-	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "Portrait_Australia_John_Curtin.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Eric Campbell"
-	desc = "POLITICS_ERIC_CAMPBELL_DESC"
-	picture = "GFX_AST_eric_campbell"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Richard Dixon"
-	desc = "POLITICS_RICHARD_DIXON_DESC"
-	picture = "GFX_AST_richard_dixon"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Earle Page"
-	desc = "POLITICS_EARLE_PAGE_DESC"
-	picture = "GFX_AST_earle_page"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rod Hull"
-	desc = ""
-	picture = "Portrait_Australia_Rod_Hull.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
 }
 
 set_convoys = 100
@@ -259,14 +192,85 @@ set_convoys = 100
 	set_convoys = 100
 }
 
+
+####################################################
+# Australian Leaders
+####################################################
+#NS
+#FA
+create_country_leader = {
+	name = "Eric Campbell"
+	desc = ""
+	picture = "Germany_FA_Ludwig_Beck.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {}
+}
+#PA
+create_country_leader = {
+	name = "William Birdwood"
+	desc = ""
+	picture = "Germany_PA_Wilhelm_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
+}
+#SC
+create_country_leader = {
+	name = "Joseph A. Lyons" 
+	desc = "" 
+	picture = "Australia_SC_Joseph_Lyons.dds" 
+	expire = "1965.1.1" 
+	ideology = social_conservatism 
+	traits = { } 
+}
+#SL
+#SD
+create_country_leader = {
+	name = "John J. Curtin"
+	desc = ""
+	picture = "Australia_SD_John_Curtin.dds"
+	expire = "1945.7.5"
+	ideology = social_democracy
+	traits = {}
+}
+#LWR
+create_country_leader = {
+	name = "Adela Walsh"
+	desc = ""
+	picture = "Germany_LWR_Ernst_Toller.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
+}
+#LE
+create_country_leader = {
+	name = "John Garden"
+	desc = ""
+	picture = "Germany_LE_Robert_Siewert.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
+}
+#ST
+create_country_leader = {
+	name = "Lance Sharkey"
+	desc = ""
+	picture = "Germany_ST_Ludwig_Renn.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {}
+}
+
+####################################################
+# Australian General staff 
+####################################################
 create_corps_commander = {
 	name = "Leslie Morshead"
 	gfx = "GFX_AST_leslie_morshead"
 	traits = { }
 	skill = 4
 }
-
-
 
 create_corps_commander = {
 	name = "Thomas Blamey"

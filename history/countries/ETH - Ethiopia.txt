@@ -52,8 +52,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 60 }		
-		social_conservative = { popularity = 15 }		
-		market_liberal = { popularity = 9 }		
+		social_conservative = { popularity = 24 }
 		social_liberal = { popularity = 8 }		
 		social_democrat = { popularity = 8 }		
 		left_wing_radical = { popularity = 0 }		

@@ -154,9 +154,8 @@ set_politics = {
 	parties = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 73 }		
-		market_liberal = { popularity = 25 }		
+		paternal_autocrat = { popularity = 73 }		
+		social_conservative = { popularity = 25 }				
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 2 }		
 		left_wing_radical = { popularity = 0 }		
@@ -164,7 +163,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = paternal_autocrat
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -176,9 +175,8 @@ set_politics = {
 		parties = {
 			national_socialist = { popularity = 0 }		
 			fascist = { popularity = 0 }		
-			paternal_autocrat = { popularity = 0 }		
-			social_conservative = { popularity = 73 }		
-			market_liberal = { popularity = 25 }		
+			paternal_autocrat = { popularity = 73 }		
+			social_conservative = { popularity = 25 }
 			social_liberal = { popularity = 0 }		
 			social_democrat = { popularity = 2 }		
 			left_wing_radical = { popularity = 0 }		
@@ -231,15 +229,6 @@ create_country_leader = {
 	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Wladyslaw Raczkiewicz"
-	desc = ""
-	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL 

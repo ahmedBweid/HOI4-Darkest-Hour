@@ -1,6 +1,7 @@
 equipments = {
-###------------------------ Fighters ---------------------------
-
+############################################################################################################
+## Fighters 
+############################################################################################################
 	fighter_equipment = {
 		year = 1933
 
@@ -45,22 +46,37 @@ equipments = {
 		manpower = 20
 	}
 
-	# Early Fighter
+################################
+# 1933 Fighter
+################################
 	fighter_equipment_0 = {
 		year = 1933
 		archetype = fighter_equipment
 		priority = 5
 		visual_level = 0
 		
-		air_range = 400
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 350
-		air_agility = 45
-		air_attack = 9
-		air_defence = 6	
+		air_range = 400
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 
 	}
 	
-	# Basic Fighter
+################################
+# 1936 Fighter
+################################
 	fighter_equipment_1 = {
 		year = 1936
 		archetype = fighter_equipment
@@ -68,23 +84,28 @@ equipments = {
 		priority = 10
 		visual_level = 1
 
-		air_range = 475
-		maximum_speed = 500
-		air_agility = 50
+
+# Combat Stats
+		#air_ground_attack = 1.0
 		air_attack = 15
 		air_defence = 9
-		
-				
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
+		maximum_speed = 500
+		air_range = 475
+# Production Stats
+		manpower = 20
 		build_cost_ic = 19
-		resources = {
-			oil = 1
-			aluminium = 3
-			rubber = 1
-		}
-		
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 	}
 
-	# Improved Fighter
+################################
+# 1940 Fighter
+################################
 	fighter_equipment_2 = {
 		year = 1940
 		archetype = fighter_equipment
@@ -92,22 +113,27 @@ equipments = {
 		priority = 10
 		visual_level = 2
 
-		air_range = 550
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 600
-		air_agility = 65
-		air_attack = 18
-		air_defence = 11		
-
-				
-		build_cost_ic = 20
-		resources = {
-			oil = 2
-			aluminium = 3
-			rubber = 1
-		}		
+		air_range = 550
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
 
-	# Advanced Fighter
+################################
+# 1943 Fighter
+################################
 	fighter_equipment_3 = {
 		year = 1943
 		archetype = fighter_equipment
@@ -115,23 +141,28 @@ equipments = {
 		priority = 10
 		visual_level = 2
 		
-		air_range = 750
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 650
-		air_agility = 80
-		air_attack = 18
-		air_defence = 11	
-		
-				
-		build_cost_ic = 21
-		resources = {
-			oil = 2
-			aluminium = 4
-			rubber = 1
-		}			
+		air_range = 750
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#			
 	}
 
 	
-### ------------------------------ Jet Fighters ------------------------------
+############################################################################################################
+##  Jet Fighters 
+############################################################################################################
 	jet_fighter_equipment = {
 		year = 1933
 
@@ -173,121 +204,170 @@ equipments = {
 		manpower = 40
 	}
 	
-	# Basic Jet Fighter
+################################
+# 1945 Jet Fighter
+################################
 	jet_fighter_equipment_1 = {
 		year = 1945
 		archetype = jet_fighter_equipment
 		priority = 20
 		
-		air_range = 650
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 650
-		air_agility = 72
-		air_attack = 21
-		air_defence = 13
-
-		build_cost_ic = 22
+		air_range = 650
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
 
-	# Improved Jet Fighter
+################################
+# 1947 Jet Fighter
+################################
 	jet_fighter_equipment_2 = {
 		year = 1947
 		archetype = jet_fighter_equipment
 		parent = jet_fighter_equipment_1
 		priority = 20
 		
-		air_range = 700
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 850
-		air_agility = 72
-		air_attack = 18
-		air_defence = 11
-
-		build_cost_ic = 24
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 700
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
-	
+
+################################
+# 1950 Jet Fighter
+################################
 	jet_fighter_equipment_3 = {
 		year = 1950
 		archetype = jet_fighter_equipment
 		parent = jet_fighter_equipment_2
 		priority = 20
 		
-		air_range = 850
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 950
-		air_agility = 72
-		air_attack = 21
-		air_defence = 13
-
-		build_cost_ic = 25
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 850
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
-	
+
+################################
+# 1954 Jet Fighter
+################################	
 	jet_fighter_equipment_4 = {
 		year = 1954
 		archetype = jet_fighter_equipment
 		parent = jet_fighter_equipment_3
 		priority = 20
 		
-		air_range = 1000
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 1100
-		air_agility = 72
-		air_attack = 18
-		air_defence = 11
-
-		build_cost_ic = 26
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 1000
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
-	
+
+################################
+# 1958 Jet Fighter
+################################	
 	jet_fighter_equipment_5 = {
 		year = 1958
 		archetype = jet_fighter_equipment
 		parent = jet_fighter_equipment_4
 		priority = 20
 		
-		air_range = 1100
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 1600
-		air_agility = 72
-		air_attack = 21
-		air_defence = 13
-
-		build_cost_ic = 27
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 1100
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
+	
+################################
+# 1962 Jet Fighter
+################################
 	jet_fighter_equipment_6 = {
 		year = 1962
 		archetype = jet_fighter_equipment
 		parent = jet_fighter_equipment_5
 		priority = 20
 		
-		air_range = 1200
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 1900
-		air_agility = 72
-		air_attack = 24
-		air_defence = 15
-
-		build_cost_ic = 28
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 1200
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
-##########---------------------------- Interceptors --------------------------------	
+
+############################################################################################################
+## Interceptors 
+############################################################################################################
 	interceptor_equipment = {
 		year = 1936
 
@@ -332,20 +412,35 @@ equipments = {
 		manpower = 20
 	}
 	
-	# Early Fighter
+################################
+# 1933 Interceptor
+################################
 	interceptor_equipment_0 = {
 		year = 1933
 		archetype = interceptor_equipment
 		priority = 5
 		
-		air_range = 350
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 350
-		air_agility = 45
-		air_attack = 12
-		air_defence = 5	
+		air_range = 350
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 	}
 	
-	# Basic interceptor
+################################
+# 1936 Interceptor
+################################
 	interceptor_equipment_1 = {
 		year = 1936		
 		
@@ -353,23 +448,27 @@ equipments = {
 		parent = interceptor_equipment_0
 		priority = 10
 
-		air_range = 400
-		maximum_speed = 500
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
 		air_agility = 50
-		air_attack = 18
-		air_defence = 8
-		
-				
-		build_cost_ic = 18
-		resources = {
-			oil = 1
-			aluminium = 3
-			rubber = 1
-		}
-		
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
+		maximum_speed = 500
+		air_range = 500
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#	
 	}
 
-	# Improved interceptor
+################################
+# 1940 Interceptor
+################################
 	interceptor_equipment_2 = {
 		year = 1940	
 		
@@ -377,22 +476,27 @@ equipments = {
 		parent = interceptor_equipment_1
 		priority = 10
 
-		air_range = 450
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 600
-		air_agility = 65
-		air_attack = 21
-		air_defence = 10		
-
-				
+		air_range = 600
+# Production Stats
+		manpower = 20
 		build_cost_ic = 19
-		resources = {
-			oil = 2
-			aluminium = 3
-			rubber = 1
-		}		
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#		
 	}
 
-	# Advanced interceptor
+################################
+# 1943 Interceptor
+################################
 	interceptor_equipment_3 = {
 		year = 1943	
 		
@@ -400,23 +504,28 @@ equipments = {
 		parent = interceptor_equipment_2
 		priority = 10
 	
-		air_range = 600
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 650
-		air_agility = 80
-		air_attack = 21
-		air_defence = 10	
-		
-				
-		build_cost_ic = 20
-		resources = {
-			oil = 2
-			aluminium = 4
-			rubber = 1
-		}			
+		air_range = 650
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#		
 	}
 
 	
-### ------------------- Jet Interceptor ---------------------------------------
+############################################################################################################
+## Jet Interceptors 
+############################################################################################################
 	jet_interceptor_equipment = {
 		year = 1945			
 
@@ -457,22 +566,37 @@ equipments = {
 		manpower = 40
 	}		
 
-	# Basic Jet interceptor
+################################
+# 1945 Jet Interceptor
+################################
 	jet_interceptor_equipment_1 = {
 		year = 1945	
 		
 		archetype = jet_interceptor_equipment
 		priority = 20
 		
-		air_range = 550
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 850
-		air_agility = 72
-		air_attack = 24
-		air_defence = 10
+		air_range = 850
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 		
 	}
 
-	# Improved Jet interceptor
+################################
+# 1947 Jet Interceptor
+################################
 	jet_interceptor_equipment_2 = {
 		year = 1947	
 		
@@ -480,20 +604,27 @@ equipments = {
 		parent = jet_interceptor_equipment_1
 		priority = 20
 		
-		air_range = 600
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 900
-		air_agility = 72
-		air_attack = 24
-		air_defence = 12
-
-		build_cost_ic = 23
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 600
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 	}
-	
+
+################################
+# 1950 Jet Interceptor
+################################
 	jet_interceptor_equipment_3 = {
 		year = 1950	
 		
@@ -501,20 +632,27 @@ equipments = {
 		parent = jet_interceptor_equipment_2
 		priority = 20
 		
-		air_range = 650
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 1100
-		air_agility = 72
-		air_attack = 18
-		air_defence = 12
-
-		build_cost_ic = 24
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 650
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 	}
-	
+
+################################
+# 1954 Jet Interceptor
+################################	
 	jet_interceptor_equipment_4 = {
 		year = 1954	
 		
@@ -522,20 +660,27 @@ equipments = {
 		parent = jet_interceptor_equipment_3
 		priority = 20
 		
-		air_range = 800
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
 		maximum_speed = 1300
-		air_agility = 72
-		air_attack = 24
-		air_defence = 12
-
-		build_cost_ic = 25
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+		air_range = 800
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 	}
 
+################################
+# 1958 Jet Interceptor
+################################
 	jet_interceptor_equipment_5 = {
 		year = 1958
 		
@@ -543,20 +688,27 @@ equipments = {
 		parent = jet_interceptor_equipment_4
 		priority = 20
 		
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
+		maximum_speed = 1700
 		air_range = 900
-		maximum_speed = 1500
-		air_agility = 72
-		air_attack = 27
-		air_defence = 12
-
-		build_cost_ic = 26
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 	}	
-	
+
+################################
+# 1962 Jet Interceptor
+################################	
 	jet_interceptor_equipment_6 = {
 		year = 1962
 		
@@ -564,21 +716,27 @@ equipments = {
 		parent = jet_interceptor_equipment_5
 		priority = 20
 		
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
+		maximum_speed = 2500
 		air_range = 1000
-		maximum_speed = 1700
-		air_agility = 72
-		air_attack = 30
-		air_defence = 14
-
-		build_cost_ic = 27
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#
 	}	
-#########------------------------ CV fighters --------------------------------------------------------------	
 
+############################################################################################################
+## CV Fighters
+############################################################################################################
 	cv_fighter_equipment = {
 		year = 1933
 
@@ -818,9 +976,11 @@ equipments = {
 
 		naval_strike_attack = 8
 		naval_strike_targetting = 10
-	}	
-################################################################################	
-# ROCKET INTERCEPTORS ###########################################################
+	}
+	
+############################################################################################################
+## Rocket Interceptors 
+############################################################################################################
 	rocket_interceptor_equipment = {
 		year = 1936
 
@@ -856,29 +1016,36 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 	
-	# Basic Rocket Interceptor
+################################
+# 1941 Rocket Interceptor
+################################
 	rocket_interceptor_equipment_1 = {
 		year = 1941
 
 		archetype = rocket_interceptor_equipment
 		priority = 80
 
-		air_range = 150
-		maximum_speed = 950
-		air_agility = 30
-		air_attack = 47
-		air_defence = 5		
-		reliability = 0.3
-		
-		build_cost_ic = 16
-		resources = {
-			aluminium = 3
-			tungsten = 2
-			rubber = 1
-		}		
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
+		maximum_speed = 1000
+		air_range = 100
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#		
 	}
 
-	# Improved Rocket Interceptor
+################################
+# 1943 Rocket Interceptor
+################################
 	rocket_interceptor_equipment_2 = {
 		year = 1943
 
@@ -886,21 +1053,27 @@ equipments = {
 		parent = rocket_interceptor_equipment_1
 		priority = 80
 
-		air_range = 300
-		maximum_speed = 1100
-		air_agility = 36
-		air_attack = 56
-		air_defence = 7	
-		reliability = 0.5
-		build_cost_ic = 18
-		resources = {
-			aluminium = 3
-			tungsten = 3
-			rubber = 1
-		}			
+# Combat Stats
+		#air_ground_attack = 1.0
+		air_attack = 15
+		air_defence = 9
+		air_agility = 50
+# Naval Combat Stats
+		naval_strike_attack = 0.5
+		naval_strike_targetting = 1.0
+# Technical Stats
+		maximum_speed = 1200
+		air_range = 250
+# Production Stats
+		manpower = 20
+		build_cost_ic = 19
+		resources = { oil = 1 aluminium = 3 rubber = 1 }
+#			
 	}
 
-	# Advanced Rocket Interceptor
+################################
+# 1946 Rocket Interceptor
+################################
 	rocket_interceptor_equipment_3 = {
 		year = 1946
 
@@ -923,7 +1096,9 @@ equipments = {
 	}
 
 
-	# ROCKET INTERCEPTORS ###############
+############################################################################################################
+## Suicide Craft
+############################################################################################################
 	suicide_craft_equipment = {
 		year = 1936
 

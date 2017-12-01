@@ -412,60 +412,6 @@ ideas = {
 			}			
 		}
 
-		# idea for the protect Amercians focus - USA market_liberal
-		american_influence_defence_market_liberal = {
-			allowed = { always = no	}
-
-			allowed_civil_war = {
-				has_government = market_liberal
-			}
-
-			removal_cost = -1
-			picture = generic_democratic_drift_bonus
-			modifier = {
-				drift_defence_factor = 0.5
-			}
-		}
-		american_influence_drift_market_liberal = {
-			allowed = { always = no	}
-
-			allowed_civil_war = {
-				has_government = market_liberal
-			}
-
-			removal_cost = -1
-			picture = generic_democratic_drift_bonus
-			modifier = {
-				market_liberal_drift = 0.05
-			}
-		} 
-		american_protection_drift_market_liberal = {
-			allowed = { always = no	}
-
-			allowed_civil_war = {
-				has_government = market_liberal
-			}
-
-			removal_cost = -1
-			picture = generic_intel_bonus
-			modifier = {
-				drift_defence_factor = 0.5
-			}
-		}
-		american_protection_defence_market_liberal = {
-			allowed = { always = no	}
-
-			allowed_civil_war = {
-				has_government = market_liberal
-			}
-
-			removal_cost = -1
-			picture = generic_intel_bonus
-			modifier = {
-				market_liberal_drift = 0.05
-			}			
-		}
-
 		# idea for the protect Amercians focus - USA social_liberal
 		american_influence_defence_social_liberal = {
 			allowed = { always = no	}

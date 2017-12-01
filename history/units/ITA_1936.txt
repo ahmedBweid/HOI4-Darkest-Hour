@@ -388,7 +388,7 @@ units = {
 		ship = { name = "RN Armando Diaz" definition = light_cruiser equipment = { light_cruiser_3 = {amount = 1 owner = ITA } } }	
 		ship = { name = "RN Luigi Cadorna" definition = light_cruiser equipment = { light_cruiser_3 = {amount = 1 owner = ITA } } }	
 
-		ship = { name = "RN Giuseppe Miraglia" definition = light_carrier equipment = { light_carrier_0 = { amount = 1 owner = ITA } } air_wings = {} }	
+		ship = { name = "RN Giuseppe Miraglia" definition = escort_carrier equipment = { escort_carrier_0 = { amount = 1 owner = ITA } } air_wings = {} }	
 		
 		ship = { name = "VIII Squadriglia Cacciatorpediniere" definition = destroyer equipment = { destroyer_5 = {amount = 1 owner = ITA } } }			
 	}
@@ -728,7 +728,6 @@ instant_effect = {
 			equipment = {
 				type = light_cruiser_1
 				creator = "ITA"
-				version_name = "Montecuccoli Class"
 			}
 			requested_factories = 1
 			progress = 0.95
@@ -739,7 +738,6 @@ instant_effect = {
 			equipment = {
 				type = destroyer_1
 				creator = "ITA"
-				version_name = "Maestrale Class"
 			}
 			requested_factories = 2
 			progress = 0.70
@@ -750,7 +748,6 @@ instant_effect = {
 			equipment = {
 				type = submarine_1
 				creator = "ITA"
-				version_name = "Sirena Class"
 			}
 			requested_factories = 1
 			progress = 0.50

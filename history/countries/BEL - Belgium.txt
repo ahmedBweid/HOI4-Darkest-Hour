@@ -90,8 +90,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 5 }		
 		paternal_autocrat = { popularity = 1 }		
-		social_conservative = { popularity = 1 }		
-		market_liberal = { popularity = 38 }		
+		social_conservative = { popularity = 39 }				
 		social_liberal = { popularity = 14 }		
 		social_democrat = { popularity = 37 }		
 		left_wing_radical = { popularity = 1 }		
@@ -99,7 +98,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = market_liberal
+	ruling_party = social_conservative
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
@@ -164,15 +163,6 @@ create_country_leader = {
 }
 
 #SC
-create_country_leader = {
-	name = "Frans Van Cauwelaert"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#ML
 create_country_leader = {
 	name = "Paul van Zeeland"
 	desc = ""

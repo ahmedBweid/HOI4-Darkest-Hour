@@ -153,8 +153,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 2 }		
 		paternal_autocrat = { popularity = 2 }		
-		social_conservative = { popularity = 60 }		
-		market_liberal = { popularity = 0 }		
+		social_conservative = { popularity = 60 }				
 		social_liberal = { popularity = 36 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 0 }		
@@ -175,8 +174,7 @@ set_politics = {
 			national_socialist = { popularity = 0 }		
 			fascist = { popularity = 2 }		
 			paternal_autocrat = { popularity = 2 }		
-			social_conservative = { popularity = 60 }		
-			market_liberal = { popularity = 0 }		
+			social_conservative = { popularity = 60 }					
 			social_liberal = { popularity = 36 }		
 			social_democrat = { popularity = 0 }		
 			left_wing_radical = { popularity = 0 }		
@@ -230,15 +228,6 @@ create_country_leader = {
 	picture = "Yugoslavia_NS_.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Draza Mihailovic"
-	desc = ""
-	picture = "Yugoslavia_NS_.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL (None found)

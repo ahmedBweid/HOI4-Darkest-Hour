@@ -271,58 +271,6 @@ country_event = {
 }
 
 
-# Chamberlain Passes Away
-country_event = {
-	id = britain.10
-	title = britain.10.t
-	desc = britain.10.d
-	picture = GFX_report_event_chamberlain
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = ENG
-		has_government = democratic
-		date > 1940.9.11
-		NOT = { has_country_flag = chamberlain_resigned }
-	}	
-
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	immediate = { set_country_flag = chamberlain_died }
-
-	option = {
-		name = britain.10.a
-		kill_country_leader = yes
-		create_country_leader = {
-			name = "Winston Churchill"
-			desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-			picture = "Portrait_Britain_Winston_Churchill.dds"
-			expire = "1965.1.1"
-			ideology = social_conservatism
-			traits = {
-				
-			}
-		}
-	}
-	option = {
-		name = britain.10.b
-		kill_country_leader = yes
-		create_country_leader = {
-			name = "Lord Edward Halifax"
-			desc = "POLITICS_EDWARD_HALIFAX_DESC"
-			picture = "Portrait_Britain_Edward_Halifax.dds"
-			expire = "1965.1.1"
-			ideology = social_conservatism
-			traits = {
-				
-			}
-		}
-	}
-}
-
 # React to Rise of the CommieNazis 
 country_event = {
 	id = britain.11
@@ -751,42 +699,6 @@ country_event = {
 	}
 }
 
-# Stanley Baldwin Resigns
-country_event = {
-    id = britain.22
-    title = britain.22.t
-    desc = britain.22.d
-    picture = GFX_report_event_royal_parade
- 
-    fire_only_once = yes
- 
-    trigger = {
-        original_tag = ENG
-        has_government = democratic
-        date > 1937.5.27
-        has_start_date < 1936.01.02
-        NOT = { has_country_flag = baldwin_resigned }
-    }
-
-    mean_time_to_happen = {
-        days = 7
-    }
-
-    option = {
-        name = britain.22.a
-        retire_country_leader = yes
-        create_country_leader = {
-        	name = "Neville Chamberlain"
-        	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-        	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-        	expire = "1965.1.1"
-        	ideology = social_conservatism
-        	traits = {
-        	      }
-            }
-        set_country_flag = baldwin_resigned
-      }
-}
 
 #RAJ gets to choose sides in Indian civil war
 country_event = {

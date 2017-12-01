@@ -1,5 +1,41 @@
 spriteTypes = {
 ############################################################################
+## Generic Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Generic_Elections"
+		texturefile = "gfx/Event Pictures/Generic/DH_Elections.dds"
+	}
+
+############################################################################
+## Australian Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Robert_Menzies_Resign"
+		texturefile = "gfx/Event Pictures/Australia/DH_Robert_Menzies.dds"
+	}
+	spriteType = {
+		name = "GFX_DH_John_Curtin"
+		texturefile = "gfx/Event Pictures/Australia/DH_John_Curtin.dds"
+	}
+	spriteType = {
+		name = "GFX_DH_John_Curtin_Funeral"
+		texturefile = "gfx/Event Pictures/Australia/DH_John_Curtin_Funeral.dds"
+	}
+	
+############################################################################
+## British Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Stanley_Baldwin_Radio"
+		texturefile = "gfx/Event Pictures/Britain/DH_Stanley_Baldwin_Radio.dds"
+	}
+	spriteType = {
+		name = "GFX_DH_Chamberlain_Quits"
+		texturefile = "gfx/Event Pictures/Britain/DH_Chamberlain_Quits.dds"
+	}
+	
+############################################################################
 ## Crumbling Empire 
 ############################################################################
 	spriteType = {
@@ -41,6 +77,7 @@ spriteTypes = {
 		name = "GFX_DH_Westminister_Fire"
 		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Westminister_Fire.dds"
 	}
+
 ############################################################################
 ## Germany
 ############################################################################

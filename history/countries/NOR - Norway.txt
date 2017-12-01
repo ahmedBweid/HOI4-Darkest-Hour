@@ -113,7 +113,7 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 3 }		
 		social_conservative = { popularity = 35 }		
-		market_liberal = { popularity = 0 }		
+		
 		social_liberal = { popularity = 9 }		
 		social_democrat = { popularity = 49 }		
 		left_wing_radical = { popularity = 4 }		
@@ -135,7 +135,7 @@ set_politics = {
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 3 }		
 			social_conservative = { popularity = 35 }		
-			market_liberal = { popularity = 0 }		
+			
 			social_liberal = { popularity = 9 }		
 			social_democrat = { popularity = 49 }		
 			left_wing_radical = { popularity = 4 }		
@@ -187,15 +187,6 @@ create_country_leader = {
 	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "C. J. Hambro"
-	desc = ""
-	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL 

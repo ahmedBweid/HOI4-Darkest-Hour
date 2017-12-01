@@ -192,7 +192,7 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 10 }		
 		social_conservative = { popularity = 7 }		
-		market_liberal = { popularity = 0 }		
+		
 		social_liberal = { popularity = 35 }		
 		social_democrat = { popularity = 26 }		
 		left_wing_radical = { popularity = 15 }		
@@ -253,15 +253,6 @@ create_country_leader = {
 	picture = "France_SL_Albert_Lebrun.dds"
 	expire = "1938.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Georges Bidault"
-	desc = ""
-	picture = "France_ML_Georges_Bidault.dds"
-	expire = "1938.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL

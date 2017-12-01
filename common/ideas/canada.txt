@@ -142,7 +142,6 @@ ideas = {
 			
 			modifier = {
 				social_conservative_drift = -0.01
-				market_liberal_drift = -0.01
 				social_liberal_drift = -0.01
 				social_democrat_drift = -0.01
 				stalinist_drift = -0.01
@@ -168,7 +167,6 @@ ideas = {
 			
 			modifier = {
 				social_conservative_drift = -0.01
-				market_liberal_drift = -0.01
 				social_liberal_drift = -0.01
 				social_democrat_drift = -0.01
 				fascist_drift = -0.01
@@ -406,7 +404,6 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
-				market_liberal_drift = -0.1
 				social_liberal_drift = -0.1
 				social_democrat_drift = -0.1
 				fascist_drift = 0.2
@@ -428,7 +425,6 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
-				market_liberal_drift = -0.1
 				social_liberal_drift = -0.1
 				social_democrat_drift = -0.1
 				fascist_drift = 0.2
@@ -452,7 +448,6 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
-				market_liberal_drift = -0.1
 				social_liberal_drift = -0.1
 				social_democrat_drift = -0.1
 				fascist_drift = 0.2
@@ -478,7 +473,6 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
-				market_liberal_drift = -0.1
 				social_liberal_drift = -0.1
 				social_democrat_drift = -0.1
 				stalinist_drift = 0.2
@@ -500,7 +494,6 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
-				market_liberal_drift = -0.1
 				social_liberal_drift = -0.1
 				social_democrat_drift = -0.1
 				stalinist_drift = 0.2
@@ -526,7 +519,6 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.1
-				market_liberal_drift = -0.1
 				social_liberal_drift = -0.1
 				social_democrat_drift = -0.1
 				stalinist_drift = 0.2

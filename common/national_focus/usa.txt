@@ -786,7 +786,6 @@ focus_tree = {
 				exists = yes
 				NOT = {
 					has_government = social_conservative
-					has_government = market_liberal
 					has_government = social_liberal
 					has_government = social_democrat
 					has_government = stalinist
@@ -860,7 +859,6 @@ focus_tree = {
 			}
 			OR = {
 				has_government = social_conservative
-				has_government = market_liberal
 				has_government = social_liberal
 				has_government = social_democrat
 			}
@@ -980,7 +978,6 @@ focus_tree = {
 			NOT = {
 				OR = {
 					has_government = social_conservative
-					has_government = market_liberal
 					has_government = social_liberal
 					has_government = social_democrat
 				}
@@ -1957,49 +1954,6 @@ focus_tree = {
 				}				
 			}
 			if = {
-				limit = { has_government = market_liberal }
-				CUB = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				HAI = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				DOM = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				every_other_country = {
-					limit = { 
-						NOT = { has_country_flag = usa_influence_fired }
-						OR = {
-							has_idea = american_influence_defence_market_liberal
-							has_idea = american_influence_drift_market_liberal
-						}
-					}
-					country_event = { id = usa.20 }
-				}				
-			}
-			if = {
 				limit = { has_government = social_liberal }
 				CUB = {
 					if = {
@@ -2429,79 +2383,6 @@ focus_tree = {
 						OR = {
 							has_idea = american_influence_defence_social_conservative
 							has_idea = american_influence_drift_social_conservative
-						}
-					}
-					country_event = { id = usa.20 }
-				}
-			}
-			if = {
-				limit = { has_government = market_liberal }
-				GUA = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				} 
-				ELS = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				HON = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				NIC = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				COS = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				"PAN" = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				every_other_country = {
-					limit = { 
-						NOT = { has_country_flag = usa_influence_fired }
-						OR = {
-							has_idea = american_influence_defence_market_liberal
-							has_idea = american_influence_drift_market_liberal
 						}
 					}
 					country_event = { id = usa.20 }
@@ -3143,39 +3024,6 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = market_liberal }
-				CAN =  {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				MEX =  {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				every_other_country = {
-					limit = { 
-						NOT = { has_country_flag = usa_influence_fired }
-						OR = {
-							has_idea = american_influence_defence_market_liberal
-							has_idea = american_influence_drift_market_liberal
-						}
-					}
-					country_event = { id = usa.20 }
-				}
-			}
-			if = {
 				limit = { has_government = social_liberal }
 				CAN =  {
 					if = {
@@ -3565,119 +3413,6 @@ focus_tree = {
 						OR = {
 							has_idea = american_influence_defence_social_conservative
 							has_idea = american_influence_drift_social_conservative
-						}
-					}
-					country_event = { id = usa.20 }
-				}
-			}
-			if = {
-				limit = { has_government = market_liberal }
-				COL = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				VEN = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				ECU = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				PRU = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				BRA = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				BOL = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				PAR = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				URG = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				ARG = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				CHL = {
-					if = {
-						limit = { has_government = market_liberal }
-						add_ideas = american_influence_defence_market_liberal
-					}
-					if = {
-						limit = { NOT = { has_government = market_liberal } }
-						add_ideas = american_influence_drift_market_liberal
-					}				
-				}
-				every_other_country = {
-					limit = { 
-						NOT = { has_country_flag = usa_influence_fired }
-						OR = {
-							has_idea = american_influence_defence_market_liberal
-							has_idea = american_influence_drift_market_liberal
 						}
 					}
 					country_event = { id = usa.20 }
@@ -4628,24 +4363,6 @@ focus_tree = {
 					}
 				}
 				if = {
-					limit = { has_government = market_liberal }
-					every_other_country = {
-						limit = { 
-							has_country_flag = monroe_doctrine 
-							has_government = market_liberal
-						}
-						add_ideas = american_protection_defence_market_liberal
-					}
-					every_other_country = {
-						limit = { 
-							has_country_flag = monroe_doctrine 
-							NOT = { has_government = market_liberal }
-						}
-						add_ideas = american_protection_drift_market_liberal
-						country_event = { id = usa.23 }
-					}
-				}
-				if = {
 					limit = { has_government = social_liberal }
 					every_other_country = {
 						limit = { 
@@ -4805,8 +4522,6 @@ focus_tree = {
 					}
 					remove_ideas = american_influence_defence_social_conservative
 					remove_ideas = american_influence_drift_social_conservative
-					remove_ideas = american_influence_defence_market_liberal
-					remove_ideas = american_influence_drift_market_liberal
 					remove_ideas = american_influence_defence_social_liberal
 					remove_ideas = american_influence_drift_social_liberal
 					remove_ideas = american_influence_defence_social_democrat
@@ -4845,7 +4560,6 @@ focus_tree = {
 				factor = 0
 				OR = {
 					has_government = social_conservative
-					has_government = market_liberal
 					has_government = social_liberal
 					has_government = social_democrat
 				}
@@ -4885,7 +4599,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_government = social_conservative
-						has_government = market_liberal
 						has_government = social_liberal
 						has_government = social_democrat
 					}
@@ -4903,7 +4616,6 @@ focus_tree = {
 						limit = {
 							OR = {
 								social_conservative > 0.5
-								market_liberal > 0.5
 								social_liberal > 0.5
 								social_democrat > 0.5
 							}
@@ -4930,7 +4642,6 @@ focus_tree = {
 						}
 						limit = {
 							AND = {
-								social_conservative > market_liberal
 								social_conservative > social_liberal
 								Social_conservative > social_democrat
 								NOT = { has_government = social_conservative }
@@ -4942,19 +4653,6 @@ focus_tree = {
 						}
 						limit = {
 							AND = {
-								market_liberal > social_conservative
-								market_liberal > social_liberal
-								market_liberal > social_democrat
-								NOT = { has_government = market_liberal }
-							}
-						}
-						set_politics = {
-							ruling_party = market_liberal
-							elections_allowed = yes
-						}
-						limit = {
-							AND = {
-								social_liberal > market_liberal
 								social_liberal > social_conservative
 								social_liberal > social_democrat
 								NOT = { has_government = social_liberal }
@@ -4966,7 +4664,6 @@ focus_tree = {
 						}
 						limit = {
 							AND = {
-								social_democrat > market_liberal
 								social_democrat > social_liberal
 								social_democrat > social_conservative
 								NOT = { has_government = social_democrat }
@@ -4991,7 +4688,6 @@ focus_tree = {
 									social_conservative > 0.5
 								}
 								AND = {
-									social_conservative > market_liberal
 									social_conservative > social_liberal
 									social_conservative > social_democrat
 								}
@@ -5004,26 +4700,9 @@ focus_tree = {
 						limit = {
 							AND = {
 								NOT = {
-									market_liberal > 0.5
-								}
-								AND = {
-									market_liberal > social_conservative
-									market_liberal > social_liberal
-									market_liberal > social_democrat
-								}
-							}
-						}
-						start_civil_war = {
-							ideology = market_liberal
-							size = 0.5
-						}
-						limit = {
-							AND = {
-								NOT = {
 									social_liberal > 0.5
 								}
 								AND = {
-									social_liberal > market_liberal
 									social_liberal > social_conservative
 									social_liberal > social_democrat
 								}
@@ -5039,7 +4718,6 @@ focus_tree = {
 									social_democrat > 0.5
 								}
 								AND = {
-									social_democrat > market_liberal
 									social_democrat > social_liberal
 									social_democrat > social_conservative
 								}
@@ -5081,7 +4759,6 @@ focus_tree = {
 							NOT = {
 								OR = {
 									has_government = social_conservative
-									has_government = market_liberal
 									has_government = social_liberal
 									has_government = social_democrat
 								}
@@ -5091,7 +4768,6 @@ focus_tree = {
 							limit = {
 								OR = {
 									social_conservative > 0.5
-									market_liberal > 0.5
 									social_liberal > 0.5
 									social_democrat > 0.5
 								}
@@ -5118,7 +4794,6 @@ focus_tree = {
 							}
 							limit = {
 							AND = {
-								social_conservative > market_liberal
 								social_conservative > social_liberal
 								Social_conservative > social_democrat
 								NOT = { has_government = social_conservative }
@@ -5130,19 +4805,6 @@ focus_tree = {
 							}
 							limit = {
 								AND = {
-									market_liberal > social_conservative
-									market_liberal > social_liberal
-									market_liberal > social_democrat
-									NOT = { has_government = market_liberal }
-								}
-							}
-							set_politics = {
-								ruling_party = market_liberal
-								elections_allowed = yes
-							}
-							limit = {
-								AND = {
-									social_liberal > market_liberal
 									social_liberal > social_conservative
 									social_liberal > social_democrat
 									NOT = { has_government = social_liberal }
@@ -5154,7 +4816,6 @@ focus_tree = {
 							}
 							limit = {
 								AND = {
-									social_democrat > market_liberal
 									social_democrat > social_liberal
 									social_democrat > social_conservative
 									NOT = { has_government = social_democrat }
@@ -5178,7 +4839,6 @@ focus_tree = {
 										social_conservative > 0.5
 									}
 									AND = {
-										social_conservative > market_liberal
 										social_conservative > social_liberal
 										social_conservative > social_democrat
 									}
@@ -5191,26 +4851,9 @@ focus_tree = {
 							limit = {
 								AND = {
 									NOT = {
-										market_liberal > 0.5
-									}
-									AND = {
-										market_liberal > social_conservative
-										market_liberal > social_liberal
-										market_liberal > social_democrat
-									}
-								}
-							}
-							start_civil_war = {
-								ideology = market_liberal
-								size = 0.5
-							}
-							limit = {
-								AND = {
-									NOT = {
 										social_liberal > 0.5
 									}
 									AND = {
-										social_liberal > market_liberal
 										social_liberal > social_conservative
 										social_liberal > social_democrat
 									}
@@ -5226,7 +4869,6 @@ focus_tree = {
 										social_democrat > 0.5
 									}
 									AND = {
-										social_democrat > market_liberal
 										social_democrat > social_liberal
 										social_democrat > social_conservative
 									}
@@ -5925,7 +5567,6 @@ focus_tree = {
 				limit = {
 					OR = {
 						has_government = social_conservative
-						has_government = market_liberal
 						has_government = social_liberal
 						has_government = social_democrat
 					}
@@ -5954,7 +5595,6 @@ focus_tree = {
 						VEN = {
 							OR = {
 								has_government = social_conservative
-								has_government = market_liberal
 								has_government = social_liberal
 								has_government = social_democrat
 							}
@@ -5992,7 +5632,6 @@ focus_tree = {
 						CHL = {
 							OR = {
 								has_government = social_conservative
-								has_government = market_liberal
 								has_government = social_liberal
 								has_government = social_democrat
 								has_government = fascist
@@ -6022,7 +5661,6 @@ focus_tree = {
 							has_country_flag = monroe_doctrine
 							OR = {
 								has_government = social_conservative
-								has_government = market_liberal
 								has_government = social_liberal
 								has_government = social_democrat
 								has_government = fascist
@@ -6048,7 +5686,6 @@ focus_tree = {
 						CHL = {
 							OR = {
 								has_government = social_conservative
-								has_government = market_liberal
 								has_government = social_liberal
 								has_government = social_democrat
 								has_government = stalinist
@@ -6076,7 +5713,6 @@ focus_tree = {
 							has_country_flag = monroe_doctrine
 							OR = {
 								has_government = social_conservative
-								has_government = market_liberal
 								has_government = social_liberal
 								has_government = social_democrat
 								has_government = stalinist

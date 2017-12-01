@@ -89,11 +89,6 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-
-
-
-
-
 set_convoys = 200
 set_national_unity = 0.9
 
@@ -186,15 +181,12 @@ create_import = {
 	#BUILDINGS
 	
 
-	set_technology = {
-		 
-		 
+	set_technology = {	 
 		CAS2 = 1
 		heavy_fighter1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
-		improved_infantry_weapons = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		paratroopers = 1
@@ -250,7 +242,7 @@ set_politics = {
 		fascist = { popularity = 1 }		
 		paternal_autocrat = { popularity = 1 }		
 		social_conservative = { popularity = 10 }		
-		market_liberal = { popularity = 0 }		
+		
 		social_liberal = { popularity = 6 }		
 		social_democrat = { popularity = 8 }		
 		left_wing_radical = { popularity = 7 }		
@@ -315,15 +307,6 @@ create_country_leader = {
 	picture = "Germany_SC_Theodor_Heuss.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Theodor Heuss"
-	desc = ""
-	picture = "Germany_SC_Theodor_Heuss.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL

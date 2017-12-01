@@ -94,7 +94,7 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 50 }		
 		social_conservative = { popularity = 20 }		
-		market_liberal = { popularity = 0 }		
+		
 		social_liberal = { popularity = 15 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 15 }		
@@ -174,15 +174,6 @@ create_country_leader = {
 	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#ML
-create_country_leader = {
-	name = "Andrey Tasev Lyapchev"
-	desc = ""
-	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
 	traits = {}
 }
 #SL 

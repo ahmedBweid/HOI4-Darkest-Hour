@@ -1,0 +1,84 @@
+﻿###########################
+# Darkest Hour Election Events : South Africa
+###########################
+
+add_namespace = DH_election_southafrica
+
+#########################################################################
+#  South African elections 1938
+#########################################################################
+country_event = { 
+	id = DH_election_southafrica.1
+	title = DH_election_southafrica.1.t
+	desc = DH_election_southafrica.1.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SAF
+		ideology_group_democracy = yes
+		date > 10.10.1938
+	}
+	
+	# Elect Right (Social Conservative) : Sir Patrick Duncan, HoG D. F. Malan
+	option = { 
+		name = DH_election_southafrica.1.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }
+		create_country_leader = { 
+			name = "Sir Patrick Duncan" 
+			desc = "" 
+			picture = "Portrait_SouthAfrica_Sir_Patrick_Duncan.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}
+	}	
+
+	# Keep Current
+	option = { 
+		name = DH_election_southafrica.1.c
+		ai_chance = { factor = 10 }
+	}		
+}
+
+#########################################################################
+#  South African elections 1944
+#########################################################################
+country_event = { 
+	id = DH_election_southafrica.2
+	title = DH_election_southafrica.2.t
+	desc = DH_election_southafrica.2.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SAF
+		ideology_group_democracy = yes
+		date > 10.10.1944
+	}
+	
+	# Elect Right (Social Conservative) : Nicolaas J. de Wet, HoG D. F. Malan
+	option = { 
+		name = DH_election_southafrica.2.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }
+		create_country_leader = { 
+			name = "Nicolaas J. de Wet" 
+			desc = "" 
+			picture = "Portrait_SouthAfrica_Nicolaas_de_Wet.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}
+	}	
+
+	# Keep Current
+	option = { 
+		name = DH_election_southafrica.2.c
+		ai_chance = { factor = 10 }
+	}		
+}
+

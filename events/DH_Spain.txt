@@ -76,7 +76,6 @@ country_event = {
 		set_political_party = { ideology = fascist popularity = 0.10 }
 		set_political_party = { ideology = paternal_autocrat popularity = 0.0 }
 		set_political_party = { ideology = social_conservative popularity = 0.15 }
-		set_political_party = { ideology = market_liberal popularity = 0.0 }
 		set_political_party = { ideology = social_liberal popularity = 0.50 }
 		set_political_party = { ideology = social_democrat popularity = 0.0 }
 		set_political_party = { ideology = left_wing_radical popularity = 0.05 }
@@ -134,7 +133,7 @@ country_event = {
     option = {
         name = DH_spain.4.a
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = social_conservative
 			elections_allowed = yes
 		}
       }

@@ -113,6 +113,9 @@
  jet_strat_bomber_equipment_3:0 "Intercontinental  Strategic Bomber '58"
  jet_strat_bomber_equipment_3_short:0 "Inter. Strat Bomber '58"
  jet_strat_bomber_equipment_3_desc:0 "Strategic Bombers are the heaviest type of aircraft, designed to deliver a large payload of bombs to enemy provinces, with the aim of crippling his industry and infrastructure. However, the Strategic Bomber is slow despite its long range, which can make it vulnerable to attack by fighters."
+ jet_strat_bomber_equipment_4:0 "Intercontinental  Strategic Bomber '62"
+ jet_strat_bomber_equipment_4_short:0 "Inter. Strat Bomber '62"
+ jet_strat_bomber_equipment_4_desc:0 "Strategic Bombers are the heaviest type of aircraft, designed to deliver a large payload of bombs to enemy provinces, with the aim of crippling his industry and infrastructure. However, the Strategic Bomber is slow despite its long range, which can make it vulnerable to attack by fighters."
  
  
  tac_bomber_equipment:0 "Tactical Bomber"
@@ -137,11 +140,10 @@
  jet_tac_bomber_equipment_3:0 "Turbojet Tactical Bomber '54"
  jet_tac_bomber_equipment_3_short:0 "Jet Tac Bomber '54"
  jet_tac_bomber_equipment_3_desc:0 "Tactical Bombers are medium-sized aircraft, larger than Fighters, yet smaller than Strategic Bombers, which are used primarily for delivering attacks against enemy ground units such as Armour and Infantry.  Although they have a limited dog-fighting capability, they can be easily outmatched by Fighters in air combat."
- jet_tac_bomber_equipment_4:0 "Turbojet Tactical Bomber '62"
- jet_tac_bomber_equipment_4_short:0 "Jet Tac Bomber '62"
+ jet_tac_bomber_equipment_4:0 "Turbojet Tactical Bomber '58"
+ jet_tac_bomber_equipment_4_short:0 "Jet Tac Bomber '58"
  jet_tac_bomber_equipment_4_desc:0 "Tactical Bombers are medium-sized aircraft, larger than Fighters, yet smaller than Strategic Bombers, which are used primarily for delivering attacks against enemy ground units such as Armour and Infantry.  Although they have a limited dog-fighting capability, they can be easily outmatched by Fighters in air combat."
  
-
  transport_plane_equipment:0 "Transport Plane"
  transport_plane_equipment_1:0 "Transport Plane I"
  transport_plane_equipment_1_short:0 "Transport"
@@ -256,7 +258,7 @@
  GER_fighter_equipment_0_short:0 "Ar 68"
  GER_fighter_equipment_1:0 "Messerschmitt Bf 109E Emil"
  GER_fighter_equipment_1_short:0 "Bf 109E"
- GER_fighter_equipment_2:0 "Focke-Wulf Fw 190A"
+ GER_fighter_equipment_2:0 "Focke-Wulf Fw 190A Würger"
  GER_fighter_equipment_2_short:0 "Fw 190A"
  GER_fighter_equipment_3:0 "Focke-Wulf Ta 152"
  GER_fighter_equipment_3_short:0 "Ta 152"
@@ -305,7 +307,7 @@
  GER_jet_heavy_fighter_equipment_1:0 "Focke-Wulf Ta 154 Moskito"
  GER_jet_heavy_fighter_equipment_1_short:0 "Ta 154"
  GER_jet_heavy_fighter_equipment_2:0 "Messerschmitt Me 262 HG V"
- GER_jet_heavy_fighter_equipment_2_short:0 "Me 262Z"
+ GER_jet_heavy_fighter_equipment_2_short:0 "Me 262HGV"
  GER_jet_heavy_fighter_equipment_3:0 "Horten Ho.XIIIb"
  GER_jet_heavy_fighter_equipment_3_short:0 "Ho.XIIIb"
  
@@ -332,7 +334,7 @@
  GER_tac_bomber_equipment_2_short:0 "Ju 88"
  GER_tac_bomber_equipment_3:0 "Junkers Ju 188 Rächer"
  GER_tac_bomber_equipment_3_short:0 "Ju 188"
- GER_jet_tac_bomber_equipment_1:0 "Arado Ar 234B Blitz"
+ GER_jet_tac_bomber_equipment_1:0 "Arado Ar 234 Blitz"
  GER_jet_tac_bomber_equipment_1_short:0 "Ar 234"
  GER_jet_tac_bomber_equipment_2:0 "Heinkel He 343"
  GER_jet_tac_bomber_equipment_2_short:0 "He 343"
@@ -354,7 +356,7 @@
 
  GER_CAS_equipment_0:0 "Henschel Hs 123"
  GER_CAS_equipment_0_short:0 "Hs 123"
- GER_CAS_equipment_1:0 "Junkers Ju 87 'Stuka'"
+ GER_CAS_equipment_1:0 "Junkers Ju 87 Stuka"
  GER_CAS_equipment_1_short:0 "Ju 87"
  GER_CAS_equipment_2:0 "Junkers Ju 87 G Kanonenvogel"
  GER_CAS_equipment_2_short:0 "Ju 87G"
@@ -369,6 +371,8 @@
  GER_rocket_interceptor_equipment_1_short:0 "Me 163"
  GER_rocket_interceptor_equipment_2:0 "Messerschmitt Me 263 Komet"
  GER_rocket_interceptor_equipment_2_short:0 "Me 263"
+ GER_rocket_interceptor_equipment_3:0 "Bachem Ba 349 Natter"
+ GER_rocket_interceptor_equipment_3_short:0 "Ba 349"
  
  GER_cv_nav_bomber_equipment_1:0 "Fieseler Fi 167"
  GER_cv_nav_bomber_equipment_1_short:0 "Fi 167"
