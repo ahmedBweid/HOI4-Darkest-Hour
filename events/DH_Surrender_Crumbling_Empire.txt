@@ -332,50 +332,22 @@ country_event = {
 				if = {
 					limit = {
 						OR = {
-							AND = {
-								has_dlc = "Death or Dishonor"
-								has_dlc = "Together for Victory"
-							}
-							AND ={
-								has_dlc = "Death or Dishonor"
-								NOT = { has_dlc = "Together for Victory" }
-							}
-						}
-					}
-					set_autonomy = {
-						target = SCO
-						autonomous_state = autonomy_reichskommissariat
-					}
-					set_autonomy = {
-						target = EGL
-						autonomous_state = autonomy_reichskommissariat
-					}
-				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { has_dlc = "Death or Dishonor" }
+							has_dlc = "Death or Dishonor"
 							has_dlc = "Together for Victory"
 						}
 					}
 					set_autonomy = {
 						target = SCO
-						autonomous_state = autonomy_satellite
+						autonomous_state = DH_autonomy_integrated_puppet
 					}
 					set_autonomy = {
 						target = EGL
-						autonomous_state = autonomy_satellite
+						autonomous_state = DH_autonomy_integrated_puppet
 					}
-				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { has_dlc = "Together for Victory" }
-							NOT = { has_dlc = "Death or Dishonor" }
-						}
+					else = {
+						puppet = SCO
+						puppet = EGL
 					}
-					puppet = SCO
-					puppet = EGL
 				}
 			}
 			EGL = { set_cosmetic_tag = EGL_GER_RP }
