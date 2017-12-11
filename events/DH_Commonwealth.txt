@@ -174,16 +174,19 @@ country_event = {
 		ENG = { end_puppet = ROOT }
 		if = {
 			limit = {
-				has_dlc = "Together for Victory"
+				OR = {
+					has_dlc = "Death or Dishonor"
+					has_dlc = "Together for Victory"
+				}
 			}
 			EGL = {
 				set_autonomy = {
 					target = ROOT
-					autonomous_state = autonomy_satellite
+					autonomous_state = DH_autonomy_satellite
 				}
 			}
 			else = {
-				EGL = { puppet = ROOT }
+				puppet = ROOT
 			}
 		}
 		EGL = { country_event = { hours = 6 id = DH_commonwealth.3 }}

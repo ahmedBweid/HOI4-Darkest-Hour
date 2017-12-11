@@ -94,45 +94,21 @@ country_event = {
 			}
 		}
 		GER = {
-				if = {
-					limit = {
-						OR = {
-							AND = {
-								has_dlc = "Death or Dishonor"
-								has_dlc = "Together for Victory"
-							}
-							AND ={
-								has_dlc = "Death or Dishonor"
-								NOT = { has_dlc = "Together for Victory" }
-							}
-						}
-					}
-					set_autonomy = {
-						target = AUS
-						autonomous_state = autonomy_reichskommissariat
+			if = {
+				limit = {
+					OR = {
+						has_dlc = "Death or Dishonor"
+						has_dlc = "Together for Victory"
 					}
 				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { has_dlc = "Death or Dishonor" }
-							has_dlc = "Together for Victory"
-						}
-					}
-					set_autonomy = {
-						target = AUS
-						autonomous_state = autonomy_satellite
-					}
+				set_autonomy = {
+					target = AUS
+					autonomous_state = DH_autonomy_colony
 				}
-				if = {
-					limit = {
-						AND = {
-							NOT = { has_dlc = "Together for Victory" }
-							NOT = { has_dlc = "Death or Dishonor" }
-						}
-					}
+				else = {
 					puppet = AUS
 				}
+			}
 		}
 		AUS = {
 			set_cosmetic_tag = AUS_GER_fascist

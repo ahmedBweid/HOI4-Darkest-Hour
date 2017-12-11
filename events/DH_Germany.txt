@@ -1310,42 +1310,18 @@ country_event = {
 		GER = {
 			if = {
 				limit = {
-					AND = {
-						NOT = { has_dlc = "Death or Dishonor" }
+					OR = {
+						has_dlc = "Death or Dishonor"
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = VIC
-					autonomous_state = autonomy_satellite
+					autonomous_state = DH_autonomy_colony
 				}
-			}
-			if = {
-				limit = {
-					OR = {
-						AND = {
-							has_dlc = "Death or Dishonor"
-							has_dlc = "Together for Victory"
-						}
-						AND ={
-							has_dlc = "Death or Dishonor"
-							NOT = { has_dlc = "Together for Victory" }
-						}
-					}
+				else = {
+					puppet = VIC
 				}
-				set_autonomy = {
-					target = VIC
-					autonomous_state = autonomy_reichsprotectorate
-				}
-			}
-			if = {
-				limit = {
-					AND = {
-						NOT = { has_dlc = "Together for Victory" }
-						NOT = { has_dlc = "Death or Dishonor" }
-					}
-				}
-				puppet = VIC
 			}
 		}	
 		country_event = { hours = 6 id = news.34 }				

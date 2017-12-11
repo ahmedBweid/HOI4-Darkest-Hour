@@ -1,0 +1,4 @@
+#autonomy_integrated_puppet, autonomy_reichskommissariat = DH_autonomy_integrated_puppet
+#autonomy_puppet = DH_autonomy_puppet
+#autonomy_colony, autonomy_reichsprotectorate = DH_autonomy_colony
+#autonomy_dominion = DH_autonomy_satellite

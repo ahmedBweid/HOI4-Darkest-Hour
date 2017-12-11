@@ -122,7 +122,7 @@ create_import = {
 	
 	set_autonomy = {
 		target = SLO
-		autonomous_state = autonomy_puppet
+		autonomous_state = DH_autonomy_puppet
 	}
 	
 	give_military_access = SLO
