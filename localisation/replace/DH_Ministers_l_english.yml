@@ -1,0 +1,81 @@
+﻿l_english:
+###########################################
+## Ministers 
+###########################################
+# Germany
+ GER_HoG_Adolf_Hitler:0 "Adolf Hitler"
+ GER_HoG_Rudolf_Hess:0 "Rudolf Hess"
+ 
+ GER_AM_Werner_von_Blomberg:0 "Werner von Blomberg"
+ 
+ GER_MoS_Wilhelm_Frick:0 "Wilhelm Frick"
+ 
+ GER_CoStaff_Fritz_Bayerlein:0 "Fritz Bayerlein"
+ GER_CoStaff_Wilhelm_Gruner:0 "Wilhelm Grüner"
+ GER_CoStaff_Ernst_Wollweber:0 "Ernst Wollweber"
+ GER_CoStaff_Ludwig_Beck:0 "Ludwig Beck"
+ GER_CoStaff_Erich_Hoepner:0 "Erich Hoepner"
+ GER_CoStaff_Erich_Weinert:0 "Erich Weinert"
+ GER_CoStaff_Franz_Halder:0 "Franz Halder"
+ GER_CoStaff_Alfred_Jodl:0 "Alfred Jodl"
+ GER_CoStaff_Erwin_von_Witzleben:0 "Erwin von Witzleben"
+ GER_CoStaff_Walther_von_Reichenau:0 "Walther von Reichenau"
+ GER_CoStaff_Kurt_Zeitzler:0 "Kurt Zeitzler"
+ GER_CoStaff_Adolf_Heusinger:0 "Adolf Heusinger"
+ GER_CoStaff_Erich_von_Manstein:0 "Erich von Manstein"
+ GER_CoStaff_Erwin_Rommel:0 "Erwin Rommel"
+ GER_CoStaff_Heinz_Guderian:0 "Heinz Guderian"
+ GER_CoStaff_Julius_Ringel:0 "Julius Ringel"
+ GER_CoStaff_Hans_Krebs:0 "Hans Krebs"
+ GER_CoStaff_Ernst_Busch:0 "Ernst Busch"
+ GER_CoStaff_Hans_Speidel:0 "Hans Speidel"
+
+ 
+
+ GER_CoArmy_Erich_Ludendorff:0 "Erich Ludendorff"
+ GER_CoArmy_Walter_von_Luttwitz:0 "Walter von Lüttwitz"
+ GER_CoArmy_Hans_Kahle:0 "Hans Kahle"
+ GER_CoArmy_Werner_von_Blomberg:0 "Werner von Blomberg"
+ GER_CoArmy_Werner_von_Fritsch:0 "Werner von Fritsch"
+ GER_CoArmy_Erich_Hoepner:0 "Erich Hoepner"
+ GER_CoArmy_Walther_von_Brauchitsch:0 "Walther von Brauchitsch"
+ GER_CoArmy_Kurt_von_Hammerstein_Equord:0 "Kurt von Hammerstein-Equord"
+ GER_CoArmy_Fedor_von_Bock:0 "Fedor von Bock"
+ GER_CoArmy_Wilhelm_Keitel:0 "Wilhelm Keitel"
+ GER_CoArmy_Erwin_von_Witzleben:0 "Erwin von Witzleben"
+ GER_CoArmy_Gunther_von_Kluge:0 "Günther von Kluge"
+ GER_CoArmy_Adolf_Hitler:0 "Adolf Hitler"
+ GER_CoArmy_Julius_Ringel:0 "Julius Ringel"
+ GER_CoArmy_Paul_Hausser:0 "Paul Hausser"
+ GER_CoArmy_Ferdinand_Schorner:0 "Ferdinand Schörner"
+ GER_CoArmy_Hans_Speidel:0 "Hans Speidel"
+ GER_CoArmy_Theodor_Blank:0 "Theodor Blank"
+
+ GER_CoNavy_Alfred_Saalwachter:0 "Alfred Saalwachter"
+ GER_CoNavy_Fritz_Scheelen:0 "Fritz Scheelen"
+ GER_CoNavy_Ludwig_Fulda:0 "Ludwig Fulda"
+ GER_CoNavy_Erich_Raeder:0 "Erich Raeder"
+ GER_CoNavy_Conrad_Albrecht:0 "Conrad Albrecht"
+ GER_CoNavy_Gustav_Kieseritzky:0 "Gustav Kieseritzky"
+ GER_CoNavy_Wilhelm_Marschall:0 "Wilhelm Marschall"
+ GER_CoNavy_Walter_Warzecha:0 "Walter Warzecha"
+ GER_CoNavy_Hans_Georg_von_Friedeburg:0 "Hans-Georg von Friedeburg"
+ GER_CoNavy_Karl_Donitz:0 "Karl Dönitz"
+ GER_CoNavy_Kurt_Freiwald:0 "Kurt Freiwald"
+ GER_CoNavy_Erich_Bey:0 "Erich Bey"
+ 
+ GER_CoAir_Hermann_Goring:0 "Hermann Göring"
+ GER_CoAir_Karl_Koller:0 "Karl Koller"
+ GER_CoAir_Ulrich_Grauert:0 "Ulrich Grauert"
+ GER_CoAir_Carl_Friedrich_von_Siemens:0 "Friedrich von Siemens"
+ GER_CoAir_Hugo_Sperrle:0 "Hugo Sperrle"
+ GER_CoAir_Otto_Dessloch:0 "Otto Dessloch"
+ GER_CoAir_Ernst_Udet:0 "Ernst Udet"
+ GER_CoAir_Eberhard_Milch:0 "Eberhard Milch"
+ GER_CoAir_Albert_Kesselring:0 "Albert Kesselring"
+ GER_CoAir_Robert_Ritter_von_Greim:0 "Ritter von Greim"
+ GER_CoAir_Hans_Jurgen_Stumpff:0 "Hans-Jürgen Stumpff"
+ GER_CoAir_Wilhelm_Oxenius:0 "Wilhelm Oxenius"
+ GER_CoAir_Hans_Ulrich_Rudel:0 "Hans Ulrich Rudel"
+ 
+ 

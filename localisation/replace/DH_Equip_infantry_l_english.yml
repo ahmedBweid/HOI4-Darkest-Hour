@@ -1,32 +1,61 @@
 ﻿l_english:
+
 ###########################################
 ## Infantry Equipment
 ###########################################
  infantry_equipment:0 "Service Firearms"
  infantry_equipment_short:0 "Weapons"
  infantry_equipment_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
- infantry_equipment_0:0 "Bolt Action Rifle"
- infantry_equipment_0_short:0 "Service Rifle '18"
- infantry_equipment_0_desc:0 "Basic infantryman equipment developed before and during the Great War."
- infantry_equipment_1:0 "Service Rifle '36"
- infantry_equipment_1_short:0 "Rifle '36"
- infantry_equipment_1_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
- improved_infantry_weapons:0 "Service Rifle '39"
- improved_infantry_weapons_short:0 "Rifles '39"
- improved_infantry_weapons_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles." 
- infantry_equipment_2:0 "Service Rifle '42"
- infantry_equipment_2_short:0 "Rifles '42"
- infantry_equipment_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles."
 
- infantry_equipment_3:0 "Assault Rifle '45"
- infantry_equipment_3_short:0 "Assault Rifle '45"
- infantry_equipment_3_desc:0 "Assault rifles combine the best of two worlds by offering the ability for burst fire, as well as allowing for single shot, as seen in regular rifles, Even though they are expensive to manufacture, they will be issued as the standard infantry rifle."
+# Infantry Equipment
+ infantry_equipment_0:0 "Great War Infantry Equipment '18"
+ infantry_equipment_0_short:0 "Infantry Eq. '18"
+ infantry_equipment_0_desc:0 "Basic infantryman equipment developed before and during the Great War."
+
+ infantry_equipment_1:0 "Infantry Equipment '36"
+ infantry_equipment_1_short:0 "Infantry Eq. '36"
+ infantry_equipment_1_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
  
- infantry_smg_equipment_0:0 "Submachine Gun '40"
- infantry_smg_equipment_0_short:0 "SMG '41"
- infantry_smg_equipment_0_desc:0 "By improving previous designs, the next generation of sub machine guns will be more sustainable and have a higher rate of fire."
+ infantry_equipment_2:0 "Infantry Equipment '40"
+ infantry_equipment_2_short:0 "Infantry Eq. '40"
+ infantry_equipment_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles." 
  
- #Germany
+ infantry_equipment_3:0 "Service Rifle '42"
+ infantry_equipment_3_short:0 "Infantry Eq. '42"
+ infantry_equipment_3_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles."
+ 
+ infantry_equipment_4:0 "Infantry Equipment '45"
+ infantry_equipment_4_short:0 "Infantry Eq. '45"
+ infantry_equipment_4_desc:0 "Assault rifles combine the best of two worlds by offering the ability for burst fire, as well as allowing for single shot, as seen in regular rifles, Even though they are expensive to manufacture, they will be issued as the standard infantry rifle."
+
+# SMGs
+ infantry_smg:0 "Submachine Gun '39"
+ infantry_smg_short:0 "SMG '39"
+ infantry_smg_desc:0 "By improving previous designs, the next generation of sub machine guns will be more sustainable and have a higher rate of fire."
+ 
+ infantry_smg1:0 "Submachine Gun '43"
+ infantry_smg1_short:0 "SMG '43"
+ infantry_smg1_desc:0 "By improving previous designs, the next generation of sub machine guns will be more sustainable and have a higher rate of fire."
+ 
+# AT
+ infantry_at:0 "Anti-tank Rifle '39" 
+ infantry_at_short:0 "AT Rifle '39" 
+ infantry_at2:0 "Recoilless Anti-tank Launcher '42" 
+ infantry_at2_short:0 "AT Weapon '42" 
+ infantry_at3:0 "Anti-tank Rocket Launcher '44" 
+ infantry_at3_short:0 "AT Weapon '44" 
+ 
+# Heavy Infantry Equipment
+ support_weapons:0 "Heavy Infantry Equipment '18"
+ support_weapons_short:0 "Hvy Infantry Eq. '18"
+ support_weapons2:0 "Heavy Infantry Equipment '36"
+ support_weapons2_short:0 "Hvy Infantry Eq. '36"
+ support_weapons3:0 "Heavy Infantry Equipment '42"
+ support_weapons3_short:0 "Hvy Infantry Eq. '42"
+ support_weapons4:0 "Heavy Infantry Equipment '45"
+ support_weapons4_short:0 "Hvy Infantry Eq. '45"
+ 
+ ### Germany #########################################
  GER_infantry_equipment_0:0 "Gewehr 88"
  GER_infantry_equipment_0_short:0 "G88"
  GER_infantry_equipment_1:0 "Karabiner 98k"
@@ -40,6 +69,8 @@
  
  GER_infantry_smg:0 "Maschinenpistole 40"
  GER_infantry_smg_short:0 "MP 40" 
+ GER_infantry_smg1:0 "Maschinenpistole 3008"
+ GER_infantry_smg1_short:0 "MP 3008" 
  
  GER_infantry_at:0 "Panzerbüchse 39" 
  GER_infantry_at_short:0 "PzB 39" 
@@ -57,7 +88,7 @@
  GER_support_weapons4:0 "Maschinengewehr 45 & 12 cm Granatwerfer 42"
  GER_support_weapons4_short:0 "MG 45 & 12 cm leGrW 42"
 
- #Soviet Union
+ ### Soviet Union #########################################
  SOV_infantry_equipment_0:0 "Mosin–Nagant 1891"
  SOV_infantry_equipment_0_short:0 "M-N 1891"
  SOV_infantry_equipment_1:0 "Mosin–Nagant 1891/30"
@@ -69,20 +100,28 @@
  SOV_infantry_equipment_4:0 "Simonov SKS"
  SOV_infantry_equipment_4_short:0 "SKS"
  
- SOV_infantry_smg:0 "PPSh-41"
- SOV_infantry_smg_short:0 "PPSh-41"  
+ SOV_infantry_smg:0 "PPSh obr. 1941"
+ SOV_infantry_smg_short:0 "PPSh-41" 
+ SOV_infantry_smg1:0 "PPS obr. 1943"
+ SOV_infantry_smg1_short:0 "PPS-43"  
  
- SOV_infantry_at:0 "PTRS-41"
- SOV_infantry_at2:0 "RPG-43"
+ SOV_infantry_at:0 "Simonov PTRS obr. 1941"
+ SOV_infantry_at_short:0 "PTRS-41"
+ SOV_infantry_at2:0 "RPG obr. 1943"
+ SOV_infantry_at2_short:0 "RPG-43"
  SOV_infantry_at3:0 "RPG-1"
+ SOV_infantry_at3_short:0 "RPG-1"
  
- SOV_support_weapons:0 "PM M1910 & 9 cm GR"
- SOV_support_weapons2:0 "DP & RM-38"
- SOV_support_weapons3:0 "DS-39 & 82-PM-41"
- SOV_support_weapons4:0 "SG-43 Goryunov & 120-PM-43"
+ SOV_support_weapons:0 "Pulemyot Maxima obr. 1910 & 9 cm Mortar Type GR obr. 1915"
+ SOV_support_weapons_short:0 "PM M1910 & 9 cm GR"
+ SOV_support_weapons2:0 "Degtyaryova Pekhotny & RM-38"
+ SOV_support_weapons2_short:0 "DP & RM-38"
+ SOV_support_weapons3:0 "Degtyarova Stankovyy obr. 1939 & 82-Polevoy Minomot-41"
+ SOV_support_weapons3_short:0 "DS-39 & 82-PM-41"
+ SOV_support_weapons4:0 "Smontirovannyy pulemet sistemi Goryunova obr. 1943 & 120-PM-43"
  SOV_support_weapons4_short:0 "SG-43 & 120-PM-43"
  
- #United Kingdom
+ ### United Kingdom #########################################
  ENG_infantry_equipment_0:0 "Pattern 1914 Enfield"
  ENG_infantry_equipment_0_short:0 "Pattern 1914"
  ENG_infantry_equipment_1:0 "Lee-Enfield No.1 Mk III"
@@ -94,8 +133,10 @@
  ENG_infantry_equipment_4:0 "L1A1"
  ENG_infantry_equipment_4_short:0 "L1A1"
 
- ENG_infantry_smg_equipment_0:0 "STEN"
- ENG_infantry_smg_equipment_0_short:0 "STEN"
+ ENG_infantry_smg:0 "STEN"
+ ENG_infantry_smg_short:0 "STEN"
+ ENG_infantry_smg1:0 "STEN Mark V"
+ ENG_infantry_smg1_short:0 "STEN Mk. V"
 
  ENG_infantry_at:0 "Boys Anti-Tank Rifle"
  ENG_infantry_at2:0 "No. 73 AT"
@@ -106,7 +147,7 @@
  ENG_support_weapons3:0 "Bren Mk. I & ML 3 inch mortar"
  ENG_support_weapons4:0 "Bren Mk. III & ML 4.2 inch Mortar"
 
- #US of A
+ ### United States #########################################
  USA_infantry_equipment_0:0 "Rifle, Caliber .30-06, Model 1903"
  USA_infantry_equipment_0_short:0 "M1903 Springfield"
  USA_infantry_equipment_1:0 "Rifle, Caliber 30, M1"
@@ -118,25 +159,32 @@
  USA_infantry_equipment_4:0 "Carbine, Caliber .30, M2"
  USA_infantry_equipment_4_short:0 "M2 Carbine"
  
- USA_infantry_smg_equipment_0:0 "M1 Thompson"
- USA_infantry_smg_equipment_0_short:0 "M1 Thompson"
+ USA_infantry_smg:0 "M1 Thompson"
+ USA_infantry_smg_short:0 "M1 Thompson"
+ USA_infantry_smg1:0 "M3 Grease Gun"
+ USA_infantry_smg1_short:0 "M3 Grease Gun"
 
  USA_infantry_at:0 "M2 Browning AT"
+ USA_infantry_at_short:0 "M2 Browning AT"
  USA_infantry_at2:0 "M20 75mm recoilless rifle"
+ USA_infantry_at2_short:0 "M20"
  USA_infantry_at3:0 "M1 Bazooka"
+ USA_infantry_at3_short:0 "M1 Bazooka"
 
  USA_support_weapons:0 "BAR & Stokes mortar"
+ USA_support_weapons_short:0 "BAR & Stokes mortar"
  USA_support_weapons2:0 "M1917 Browning MG & M2 60 mm mortar"
+ USA_support_weapons2_short:0 "M1917 MG & M2 60 mm mortar"
  USA_support_weapons3:0 "M1919 Browning MG & M1 mortar"
+ USA_support_weapons3_short:0 "M1919 MG & M1 mortar"
  USA_support_weapons4:0 "M1941 Johnson MG & M2 4.2 inch mortar"
+ USA_support_weapons4_short:0 "M1941 MG & M2 4.2 inch mortar"
 
- # Italia
+ ### Italy #########################################
  ITA_infantry_equipment_0:0 "Carcano M1891"
  ITA_infantry_equipment_0_short:0 "Carcano M91"
  ITA_infantry_equipment_1:0 "Carcano M1938"
  ITA_infantry_equipment_1_short:0 "Carcano M38"
- #ITA_improved_infantry_weapons:0 "MAB-38"
- #ITA_improved_infantry_weapons_short:0 "MAB-38"
  ITA_infantry_equipment_2:0 "Fucile M1939"
  ITA_infantry_equipment_2_short:0 "Fucile M39"
  ITA_infantry_equipment_3:0 "Beretta BM 59"
@@ -149,7 +197,7 @@
  ITA_infantry_at2:0 "Panzerfaust"
  ITA_infantry_at3:0 "Lanciabombe Controcarro 60mm"
  
- #France
+ ### France #########################################
  FRA_infantry_equipment_0:0 "Berthier 1907"
  FRA_infantry_equipment_0_short:0 "Berthier 1907"
  FRA_infantry_equipment_1:0 "MAS-36"
@@ -164,28 +212,22 @@
  FRA_infantry_smg_equipment_0:0 "MAS-38"
  FRA_infantry_smg_equipment_0_short:0 "MAS-38"  
 
- 
  FRA_support_weapons:0 "FM Chauchat & Stokes mortar"
  FRA_support_weapons2:0 "Hotchkiss M1914 & Brandt Mle 1935"
  FRA_support_weapons3:0 "FM 24/29 & Brandt Mle 27/31"
  FRA_support_weapons4:0 "Hotchkiss M1922 & Brandt Mle 1942"
 
- #Japan
+ ### Japan #########################################
  JAP_infantry_equipment_0:0 "Arisaka Type 38"
  JAP_infantry_equipment_0_short:0 "Type 38"
  JAP_infantry_equipment_1:0 "Arisaka Type 99"
  JAP_infantry_equipment_1_short:0 "Type 99"
- #JAP_improved_infantry_weapons:0 ""
- #JAP_improved_infantry_weapons_short:0 ""
  JAP_infantry_equipment_2:0 "Arisaka Type 99/44"
  JAP_infantry_equipment_2_short:0 "Type 99/44"
- #JAP_infantry_equipment_3:0 ""
- #JAP_infantry_equipment_3_short:0 ""
  
  JAP_infantry_smg_equipment_0:0 "Type 100"
  JAP_infantry_smg_equipment_0_short:0 "Type 100"  
  
-
  JAP_infantry_at:0 "Type 97 20mm Anti-Tank Rifle"
  JAP_infantry_at2:0 "Type 3 81mm Recoilless Rifle"
  JAP_infantry_at3:0 "Type 4 70mm Anti-Tank Rocket Launcher"
@@ -196,7 +238,7 @@
  JAP_support_weapons4:0 "Type 1 HMG & Type 2 12 cm Mortar"
 
  
- #Czech
+ ### Czech #########################################
  CZE_infantry_equipment_0:0 "Zbrojovka Brno vz.24"
  CZE_infantry_equipment_0_short:0 "vz.24"
  CZE_infantry_equipment_1:0 "Zbrojovka Brno ZH-29"
@@ -206,7 +248,7 @@
  CZE_infantry_equipment_3:0 "ČZUB Sa23 vz.48"
  CZE_infantry_equipment_3_short:0 "Sa23 vz.48"
 
- #Poland
+ ### Poland #########################################
  POL_infantry_equipment_0:0 "Karabin wz.98a"
  POL_infantry_equipment_0_short:0 "Kb Mauser wz.98a"
  POL_infantry_equipment_1:0 "Kbsp wz.38M"
@@ -222,7 +264,7 @@
  POL_support_weapons3:0 "Ckm wz.32 & Mozdzierz wz. 31"
  POL_support_weapons4:0 "Nkm wz. 38 FK & Mozdzierz wz. 40 ST"
 
- #Romania
+ ### Romania #########################################
  ROM_infantry_equipment_0:0 "Mannlicher M1895"
  ROM_infantry_equipment_0_short:0 "Mannlicher M1895"
  ROM_infantry_equipment_1:0 "ZB vz.24"
@@ -232,7 +274,7 @@
  ROM_infantry_equipment_3:0 "Orita Carbine"
  ROM_infantry_equipment_3_short:0 "Orita Carbine"
 
- #Holland
+ ### Holland #########################################
  HOL_infantry_equipment_0:0 "Mannlicher M95"
  HOL_infantry_equipment_0_short:0 "Mannlicher M95"
  HOL_infantry_equipment_1:0 "Johnson M41"
@@ -242,7 +284,7 @@
  HOL_infantry_equipment_3:0 "Johnson M44"
  HOL_infantry_equipment_3_short:0 "Johnson M44"
 
- #Sweden
+ ### Sweden #########################################
  SWE_infantry_equipment_0:0 "Mauser m/38"
  SWE_infantry_equipment_0_short:0 "Mauser m/38"
  SWE_infantry_equipment_1:0 "Ag m/42"
@@ -253,7 +295,7 @@
  SWE_infantry_equipment_3_short:0 "Kpist m/45"
 
  
- #Canada
+ ### Canada #########################################
  CAN_infantry_equipment_0:0 "Ross Rifle"
  CAN_infantry_equipment_0_short:0 "Ross Rifle"
  CAN_infantry_equipment_1:0 "SAL Rifle No.4 MkI"
@@ -269,6 +311,7 @@
  CAN_support_weapons3:0 "Bren Mk. I & ML 3 inch mortar"
  CAN_support_weapons4:0 "Bren Mk. III & ML 4.2 inch Mortar"
 
+ ### Australia #########################################
  AST_infantry_equipment_0:0 "LSAF Rifle No.1 MkIII"
  AST_infantry_equipment_0_short:0 "LSAF Rifle No.1 MkIII"
  AST_infantry_equipment_1:0 "LSAF Rifle No.6 MkI"
@@ -284,6 +327,7 @@
  AST_support_weapons3:0 "Bren Mk. I & ML 3 inch mortar"
  AST_support_weapons4:0 "Bren Mk. III & ML 4.2 inch Mortar"
 
+ ### Austria #########################################
  AUS_infantry_equipment_0:0 "Steyr M95/30"
  AUS_infantry_equipment_0_short:0 "Steyr M95/30"
  AUS_infantry_equipment_1:0 "Steyr Stutzen M95/30"
@@ -293,6 +337,7 @@
  AUS_infantry_equipment_3:0 "Steyr MG30"
  AUS_infantry_equipment_3_short:0 "Steyr MG30"
 
+ ### Finland #########################################
  FIN_infantry_equipment_0:0 "M/27 Pystykorva"
  FIN_infantry_equipment_0_short:0 "M/27 Pystykorva"
  FIN_infantry_equipment_1:0 "M/39 Ukko-Pekka"
@@ -302,6 +347,7 @@
  FIN_infantry_equipment_3:0 "KP m/44"
  FIN_infantry_equipment_3_short:0 "KP m/44"
 
+ ### Hungary #########################################
  HUN_infantry_equipment_0:0 "FEG M95/31"
  HUN_infantry_equipment_0_short:0 "FEG M95/31"
  HUN_infantry_equipment_1:0 "FEG 35M"
@@ -311,6 +357,7 @@
  HUN_infantry_equipment_3:0 "Danuvia 43M"
  HUN_infantry_equipment_3_short:0 "Danuvia 43M"
 
+ ### Switzerland #########################################
  SWI_infantry_equipment_0:0 "Schmidt-Rubin M1911"
  SWI_infantry_equipment_0_short:0 "Schmidt-Rubin M1911"
  SWI_infantry_equipment_1:0 "Karabiner K31"
@@ -320,6 +367,7 @@
  SWI_infantry_equipment_3:0 "SIG MP46"
  SWI_infantry_equipment_3_short:0 "SIG MP46"
  
+ ### Spain #########################################
  SPR_infantry_equipment_0:0 "Mauser M93"
  SPR_infantry_equipment_0_short:0 "Mauser M93"
  SPR_infantry_equipment_1:0 "Destroyer Carbine"
@@ -329,6 +377,7 @@
  SPR_infantry_equipment_3:0 "EMP-Coruña"
  SPR_infantry_equipment_3_short:0 "EMP-Coruña"
 
+ ### Belgium #########################################
  BEL_infantry_equipment_0:0 "Mauser M89"
  BEL_infantry_equipment_0_short:0 "Mauser M89"
  BEL_infantry_equipment_1:0 "Mauser M35"
@@ -338,6 +387,7 @@
  BEL_infantry_equipment_3:0 "FN mle30 Type D"
  BEL_infantry_equipment_3_short:0 "FN mle30 Type D"
 
+ ### Bulgaria #########################################
  BUL_infantry_equipment_0:0 "Mannlicher M95"
  BUL_infantry_equipment_0_short:0 "Mannlicher M95"
  BUL_infantry_equipment_1:0 "Steyr Stutzen M95/30"
@@ -347,6 +397,7 @@
  BUL_infantry_equipment_3:0 "Schmeisser MP41"
  BUL_infantry_equipment_3_short:0 "Schmeisser MP41"
 
+ ### South Africa #########################################
  SAF_infantry_equipment_0:0 "Rifle No.1 MkIII"
  SAF_infantry_equipment_0_short:0 "Rifle No.1 MkIII"
  SAF_infantry_equipment_1:0 "Rifle No.4 MkI"
@@ -362,6 +413,7 @@
  SAF_support_weapons3:0 "Bren Mk. I & ML 3 inch mortar"
  SAF_support_weapons4:0 "Bren Mk. III & ML 4.2 inch Mortar"
 
+ ### British Raj / India #########################################
  RAJ_infantry_equipment_0:0 "GRI No.1 MkIII"
  RAJ_infantry_equipment_0_short:0 "GRI No.1 MkIII"
  RAJ_infantry_equipment_1:0 "POF No.4 MkI"
@@ -377,6 +429,7 @@
  RAJ_support_weapons3:0 "Bren Mk. I & ML 3 inch mortar"
  RAJ_support_weapons4:0 "Bren Mk. III & ML 4.2 inch Mortar"
 
+ ### Yugolavia #########################################
  YUG_infantry_equipment_0:0 "Mannlicher M95M"
  YUG_infantry_equipment_0_short:0 "Mannlicher M95M"
  YUG_infantry_equipment_1:0 "Puška M24"
@@ -385,7 +438,8 @@
  YUG_infantry_equipment_2_short:0 "EMP-35"
  YUG_infantry_equipment_3:0 "ZB vz.26"
  YUG_infantry_equipment_3_short:0 "ZB vz.26"
-
+ 
+ ### Slovenia #########################################
  SLO_infantry_equipment_0:0 "Zbrojovka Brno vz.24"
  SLO_infantry_equipment_0_short:0 "vz.24"
  SLO_infantry_equipment_1:0 "Zbrojovka Brno ZH-29"
@@ -395,6 +449,7 @@
  SLO_infantry_equipment_3:0 "ČZUB Sa23 vz.48"
  SLO_infantry_equipment_3_short:0 "Sa23 vz.48"
 
+ ### New Zealand #########################################
  NZL_infantry_equipment_0:0 "Rifle No.1 MkIII"
  NZL_infantry_equipment_0_short:0 "Rifle No.1 MkIII"
  NZL_infantry_equipment_1:0 "Rifle No.4 MkI"
@@ -410,6 +465,7 @@
  NZL_support_weapons3:0 "Bren Mk. I & ML 3 inch mortar"
  NZL_support_weapons4:0 "Bren Mk. III & ML 4.2 inch Mortar"
 
+ ### China #########################################
  CHI_infantry_equipment_0:0 "Type 88"
  CHI_infantry_equipment_0_short:0 "Type 88"
  CHI_infantry_equipment_1:0 "Type 24"
@@ -419,6 +475,7 @@
  CHI_infantry_equipment_3:0 "ZB vz.26"
  CHI_infantry_equipment_3_short:0 "ZB vz.26"
 
+ ### PRC #########################################
  PRC_infantry_equipment_0:0 "Type 88"
  PRC_infantry_equipment_0_short:0 "Type 88"
  PRC_infantry_equipment_1:0 "Type 24"
@@ -537,8 +594,10 @@
  ARG_infantry_equipment_3_short:0 "Halcón M-43"
 
 
-###-------------------------------------------------------- Motorized/Mechanized --------------------------
- GER_motorized_equipment_1:0 "Opel Blitz"
+ #########################################################################
+#  Motorized/Mechanized Equipment
+#########################################################################
+ GER_motorized_equipment_1:0 "Opel Blitz 3.6"
  SWE_motorized_equipment_1:0 "Scania-Vabis"
  FRA_motorized_equipment_1:0 "Citroen U23"
  ENG_motorized_equipment_1:1 "Austin K5"
@@ -567,7 +626,7 @@
  mechanized_equipment_3_short:0 "Mechanized III"
  mechanized_equipment_3_desc:0 "Mechanized infantry is infantry equipped with armored personnel carriers (APCs) or infantry fighting vehicles (IFVs) for transport and combat. Mechanized infantry is distinguished from motorized infantry in that its vehicles provide a degree of protection from hostile fire, as opposed to soft-skinned wheeled vehicles (trucks or jeeps) for motorized infantry."
  
- #Germany
+ ### Germany #########################################
  GER_mechanized_equipment_1:0 "Sonderkraftfahrzeug 11"
  GER_mechanized_equipment_1_short:0 "Sd.Kfz. 11"
  GER_mechanized_equipment_1_desc:0 "The Sd.Kfz. 11 (Sonderkraftfahrzeug - special motorized vehicle) was a German half-track that saw very widespread use in World War II. It could carry eight troops in addition to towing a gun or trailer."
@@ -577,45 +636,16 @@
  GER_mechanized_equipment_3:0 "Sonderkraftfahrzeug 251/20"
  GER_mechanized_equipment_3_short:0 "Sd.Kfz. 251/20"
  GER_mechanized_equipment_3_desc:0 "An updated version of the Sd.Kfz. 251 fitted with an infrared spotlight."
- #Sweden
- SWE_mechanized_equipment_3:0 "Terrängbil m/42 KP"
- SWE_mechanized_equipment_3_short:0 "m/42 KP"
-#US
+ 
+ ### United States #########################################
  USA_mechanized_equipment_1:0 "M2 Half Track Car"
  USA_mechanized_equipment_1_short:0 "M2 Half Track Car"
  USA_mechanized_equipment_2:0 "M3 Half-Track"
  USA_mechanized_equipment_2_short:0 "M3 Half-Track"
  USA_mechanized_equipment_3:0 "M5 Half-Track"
  USA_mechanized_equipment_3_short:0 "M5 Half-Track"
- #Japan
- JAP_mechanized_equipment_1:0 "Type 1 Ho-Ki"
- JAP_mechanized_equipment_1_short:0 "Type 1 Ho-Ki"
- JAP_mechanized_equipment_2:0 "Type 1 Ho-Ha"
- JAP_mechanized_equipment_2_short:0 "Type 1 Ho-Ha"
- JAP_mechanized_equipment_3:0 "Type 4 Ka-Tsu"
- JAP_mechanized_equipment_3_short:0 "Type 4 Ka-Tsu"
  
- FRA_mechanized_equipment_1:0 "Citroen P107"
- FRA_mechanized_equipment_1_short:0 "Citroen P107"
- FRA_mechanized_equipment_2:0 "SOMUA MCG"
- FRA_mechanized_equipment_2_short:0 "SOMUA MCG"
- FRA_mechanized_equipment_3:0 "AMX-VCI"
- FRA_mechanized_equipment_3_short:0 "AMX-VCI"
- 
- NOR_mechanized_equipment_1:0 "Stormpanservogn I"
- NOR_mechanized_equipment_1_short:0 "Stpv. I"
- NOR_mechanized_equipment_2:0 "Stormpanservogn II"
- NOR_mechanized_equipment_2_short:0 "Stpv. II"
- NOR_mechanized_equipment_3:0 "Stormpanservogn III"
- NOR_mechanized_equipment_3_short:0 "Stpv. III"
- 
- POL_mechanized_equipment_1:0 "C4P"
- POL_mechanized_equipment_1_short:0 "C4P"
- POL_mechanized_equipment_2:0 "C2P"
- POL_mechanized_equipment_2_short:0 "C2P"
- POL_mechanized_equipment_3:0 "C7P"
- POL_mechanized_equipment_3_short:0 "C7P"
- 
+ ### Soviet Union #########################################
  SOV_mechanized_equipment_1:0 "BTR M1941"
  SOV_mechanized_equipment_1_short:0 "BTR M1941"
  SOV_mechanized_equipment_2:0 "BTR M1943"
@@ -623,19 +653,57 @@
  SOV_mechanized_equipment_3:0 "BTR-152"
  SOV_mechanized_equipment_3_short:0 "BTR-152"
  
- CAN_mechanized_equipment_1:0 "Stuart Kangaroo"
- CAN_mechanized_equipment_1_short:0 "Stuart Kangaroo"
- CAN_mechanized_equipment_2:0 "Ram Kangaroo"
- CAN_mechanized_equipment_2_short:0 "Ram Kangaroo"
- CAN_mechanized_equipment_3:0 "Churchill Kangaroo"
- CAN_mechanized_equipment_3_short:0 "Churchill Kangaroo"
- 
+ ### United Kingdom #########################################
  ENG_mechanized_equipment_1:0 "Bren Carrier"
  ENG_mechanized_equipment_1_short:0 "Bren Carrier"
  ENG_mechanized_equipment_2:0 "Universal Carrier"
  ENG_mechanized_equipment_2_short:0 "Universal Carrier"
  ENG_mechanized_equipment_3:0 "Churchill Kangaroo"
  ENG_mechanized_equipment_3_short:0 "Churchill Kangaroo"
+ 
+ ### Japan #########################################
+ JAP_mechanized_equipment_1:0 "Type 1 Ho-Ki"
+ JAP_mechanized_equipment_1_short:0 "Type 1 Ho-Ki"
+ JAP_mechanized_equipment_2:0 "Type 1 Ho-Ha"
+ JAP_mechanized_equipment_2_short:0 "Type 1 Ho-Ha"
+ JAP_mechanized_equipment_3:0 "Type 4 Ka-Tsu"
+ JAP_mechanized_equipment_3_short:0 "Type 4 Ka-Tsu"
+ 
+ ### France #########################################
+ FRA_mechanized_equipment_1:0 "Citroen P107"
+ FRA_mechanized_equipment_1_short:0 "Citroen P107"
+ FRA_mechanized_equipment_2:0 "SOMUA MCG"
+ FRA_mechanized_equipment_2_short:0 "SOMUA MCG"
+ FRA_mechanized_equipment_3:0 "AMX-VCI"
+ FRA_mechanized_equipment_3_short:0 "AMX-VCI"
+ 
+ ### Sweden #########################################
+ SWE_mechanized_equipment_3:0 "Terrängbil m/42 KP"
+ SWE_mechanized_equipment_3_short:0 "m/42 KP"
+ 
+ ### Norway #########################################
+ NOR_mechanized_equipment_1:0 "Stormpanservogn I"
+ NOR_mechanized_equipment_1_short:0 "Stpv. I"
+ NOR_mechanized_equipment_2:0 "Stormpanservogn II"
+ NOR_mechanized_equipment_2_short:0 "Stpv. II"
+ NOR_mechanized_equipment_3:0 "Stormpanservogn III"
+ NOR_mechanized_equipment_3_short:0 "Stpv. III"
+ 
+ ### Poland #########################################
+ POL_mechanized_equipment_1:0 "C4P"
+ POL_mechanized_equipment_1_short:0 "C4P"
+ POL_mechanized_equipment_2:0 "C2P"
+ POL_mechanized_equipment_2_short:0 "C2P"
+ POL_mechanized_equipment_3:0 "C7P"
+ POL_mechanized_equipment_3_short:0 "C7P"
+ 
+ ### Canada #########################################
+ CAN_mechanized_equipment_1:0 "Stuart Kangaroo"
+ CAN_mechanized_equipment_1_short:0 "Stuart Kangaroo"
+ CAN_mechanized_equipment_2:0 "Ram Kangaroo"
+ CAN_mechanized_equipment_2_short:0 "Ram Kangaroo"
+ CAN_mechanized_equipment_3:0 "Churchill Kangaroo"
+ CAN_mechanized_equipment_3_short:0 "Churchill Kangaroo"
  
  RAJ_mechanized_equipment_1:0 "Bren Carrier"
  RAJ_mechanized_equipment_1_short:0 "Bren Carrier"
@@ -679,7 +747,9 @@
  anti_tank_equipment_short:0 "Anti-Tank"
  anti_tank_equipment_desc:0 "Artillery specialized in defeating armored targets like Tanks, it generally fires armor piercing shells."
 
-### ---------------------------------- Anti-tank--------------------------------------
+ #########################################################################
+#  Anti-Tank Guns
+#########################################################################
  FRA_anti_tank_equipment_1:0 "Canon de 25 mm"
  FRA_anti_tank_equipment_1_short:0 "Canon de 25 mm"
  FRA_anti_tank_equipment_2:0 "47mm SA 37"
@@ -788,7 +858,9 @@
  anti_air_equipment_1_short:0 "Anti-Air"
  anti_air_equipment_1_desc:0 "Anti-air artillery is primarily designed to shoot down hostile planes, although the rapid fire cannons can also be effective against ground targets."
  
-### ------------------ Anti-air -----------------------------------------------
+ #########################################################################
+#  Anti-Air Guns
+#########################################################################
  FRA_anti_air_equipment_1:0 "Hotchkiss 25mm"
  FRA_anti_air_equipment_1_short:0 "Hotchkiss 25 mm"
  FRA_anti_air_equipment_2:0 "Schneider 37 mm"
@@ -885,7 +957,9 @@
  artillery_equipment_short:0 "Artillery"
  artillery_equipment_desc:0 "Artillery refers to large-caliber weapons, such as cannons and howitzers that are operated by crews, which can project munitions far beyond the effective range of personal weapons."
  
- ### -------------------- Artillery --------------------------------------------------
+ #########################################################################
+#  Artillery Guns
+#########################################################################
  FRA_artillery_equipment_1:0 "Canon de 75 modèle 1897"
  FRA_artillery_equipment_1_short:0 "Canon de 75 modèle 1897"
  FRA_artillery_equipment_2:0 "Canon de 105 L mle 1936"
@@ -995,6 +1069,10 @@
  HUN_artillery_equipment_1:0 "1905 ös mintáju 8 cm"
  HUN_artillery_equipment_1_short:0 "8 cm M1905"
 
+ #########################################################################
+#  Rocket Artillery
+#########################################################################
+ 
  rocket_artillery_equipment:0 "Towed Rocket Artillery"
  rocket_artillery_equipment_short:0 "Rocket Artillery"
  rocket_artillery_equipment_desc:0 "Rocket artillery is less accurate and has a much lower sustained rate of fire than batteries of traditional artillery guns. However, they have the capability of simultaneously hitting a target with multiple rockets with devastating effect."

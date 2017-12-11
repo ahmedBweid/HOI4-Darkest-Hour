@@ -6,6 +6,14 @@ spriteTypes = {
 		name = "GFX_DH_Generic_Elections"
 		texturefile = "gfx/Event Pictures/Generic/DH_Elections.dds"
 	}
+	
+############################################################################
+## US Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Roosevelt_Dies"
+		texturefile = "gfx/Event Pictures/United States/DH_Roosevelt_Dies.dds"
+	}	
 
 ############################################################################
 ## Australian Pics

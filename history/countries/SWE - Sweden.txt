@@ -176,18 +176,18 @@ set_national_unity = 0.9
 ####################################################
 #NS
 create_country_leader = {
-	name = "Martin Ekström"
+	name = "Sven Olov Lindholm"
 	desc = ""
-	picture = "Sweden_NS_.dds"
+	picture = "Sweden_NS_Sven_Olov_Lindholm.dds"
 	expire = "1965.1.1"
 	ideology = national_socialism
 	traits = {}
 }
 #FA
 create_country_leader = {
-	name = "Sven Olov Lindholm"
+	name = "Konrad Hallgren"
 	desc = ""
-	picture = "Sweden_NS_.dds"
+	picture = "Sweden_FA_.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
 	traits = {}

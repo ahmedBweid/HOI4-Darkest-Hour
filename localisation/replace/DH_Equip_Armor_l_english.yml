@@ -11,83 +11,110 @@
  
  light_tank_equipment_0:0 "Light Tank '17"
  light_tank_equipment_0_short:0 "L. Tank '17"
+ light_tank_equipment_0_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_1:0 "Light Tank '18"
  light_tank_equipment_1_short:0 "L. Tank '18"
- 
+ light_tank_equipment_1_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
+
  light_tank_equipment_2:0 "Light Tank '19"
  light_tank_equipment_2_short:0 "L. Tank '19"
+ light_tank_equipment_2_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_3:0 "Light Tank '24"
  light_tank_equipment_3_short:0 "L. Tank '24"
+ light_tank_equipment_3_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_4:0 "Light Tank '28"
  light_tank_equipment_4_short:0 "L. Tank '28"
+ light_tank_equipment_4_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_5:0 "Light Tank '34"
  light_tank_equipment_5_short:0 "L. Tank '34"
+ light_tank_equipment_5_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_6:0 "Light Tank '36"
  light_tank_equipment_6_short:0 "L. Tank '36"
+ light_tank_equipment_6_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_7:0 "Light Tank '38"
  light_tank_equipment_7_short:0 "L. Tank '38"
+ light_tank_equipment_7_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_8:0 "Light Tank '39"
  light_tank_equipment_8_short:0 "L. Tank '39"
- 
+ light_tank_equipment_8_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
+
  light_tank_equipment_9:0 "Light Tank '44"
  light_tank_equipment_9_short:0 "L. Tank '44"
+ light_tank_equipment_9_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
 
  light_tank_equipment_10:0 "Light Tank '52"
  light_tank_equipment_10_short:0 "L. Tank '52"
- 
+ light_tank_equipment_10_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
+
  light_tank_equipment_11:0 "Light Tank '62"
  light_tank_equipment_11_short:0 "L. Tank '62"
- 
+ light_tank_equipment_11_desc:"Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks become heavier, their speeds will reduce accordingly.  They also require a constant supply of fuel to remain in the field and if this vital supply is severed, the armoured unit will be almost useless."
+
  ### ---------------------------------------- Medium Tanks ------------------------------------
  medium_tank_equipment:0 "Medium Tank"
  medium_tank_equipment_desc:0 "Medium tanks are reasonably agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
  
  medium_tank_equipment_0:0 "Medium Tank '39"
  medium_tank_equipment_0_short:0 "M. Tank '39"
+ medium_tank_equipment_0_desc:0 "Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks became heaver, their speeds would reduce accordingly.  They also required a constant supply of fuel to remain in the field, and if this vital supply was severed, the armoured unit would be next to useless."
  
  medium_tank_equipment_1:0 "Medium Tank '41"
  medium_tank_equipment_1_short:0 "M. Tank '41"
- 
+ medium_tank_equipment_1_desc:0 "Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks became heaver, their speeds would reduce accordingly.  They also required a constant supply of fuel to remain in the field, and if this vital supply was severed, the armoured unit would be next to useless."
+
  medium_tank_equipment_2:0 "Medium Tank '43"
  medium_tank_equipment_2_short:0 "M. Tank '43"
+ medium_tank_equipment_2_desc:0 "Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks became heaver, their speeds would reduce accordingly.  They also required a constant supply of fuel to remain in the field, and if this vital supply was severed, the armoured unit would be next to useless."
 
  medium_tank_equipment_4:0 "Medium Tank '44"
  medium_tank_equipment_4_short:0 "M. Tank '44"
- 
+ medium_tank_equipment_4_desc:0 "Armoured units allow real projection of power on the battlefield. Their speed and firepower make them lethal against all but the best entrenched Infantry. However, as tanks became heaver, their speeds would reduce accordingly.  They also required a constant supply of fuel to remain in the field, and if this vital supply was severed, the armoured unit would be next to useless."
+
  ### ---------------------------------------- Heavy Tanks ------------------------------------
  heavy_tank_equipment:0 "Heavy Tank"
  
  heavy_tank_equipment_0:0 "Heavy Tank '17"
  heavy_tank_equipment_0_short:0 "H. Tank '17"
+ heavy_tank_equipment_0_desc:0 "Heavy Armor gives your units a considerable boost in both hard and soft attack. Heavy Tanks are used when breaking enemy lines, being extremely hard to kill. But they slow your units down and require considerable amounts of supplies and fuel."
  
  heavy_tank_equipment_1:0 "Heavy Tank '39"
  heavy_tank_equipment_1_short:0 "H. Tank '39"
+ heavy_tank_equipment_1_desc:0 "Heavy Armor gives your units a considerable boost in both hard and soft attack. Heavy Tanks are used when breaking enemy lines, being extremely hard to kill. But they slow your units down and require considerable amounts of supplies and fuel."
 
  heavy_tank_equipment_2:0 "Heavy Tank '41"
  heavy_tank_equipment_2_short:0 "H. Tank '41"
+ heavy_tank_equipment_2_desc:0 "Heavy Armor gives your units a considerable boost in both hard and soft attack. Heavy Tanks are used when breaking enemy lines, being extremely hard to kill. But they slow your units down and require considerable amounts of supplies and fuel."
 
  heavy_tank_equipment_3:0 "Heavy Tank '43"
  heavy_tank_equipment_3_short:0 "H. Tank '43"
- 
+ heavy_tank_equipment_3_desc:0 "Heavy Armor gives your units a considerable boost in both hard and soft attack. Heavy Tanks are used when breaking enemy lines, being extremely hard to kill. But they slow your units down and require considerable amounts of supplies and fuel."
+
  heavy_tank_equipment_4:0 "Heavy Tank '44"
  heavy_tank_equipment_4_short:0 "H. Tank '44"
- 
+ heavy_tank_equipment_4_desc:0 "Heavy Armor gives your units a considerable boost in both hard and soft attack. Heavy Tanks are used when breaking enemy lines, being extremely hard to kill. But they slow your units down and require considerable amounts of supplies and fuel."
+
  heavy_tank_equipment_5:0 "Heavy Tank '56"
  heavy_tank_equipment_5_short:0 "H. Tank '56"
- 
+ heavy_tank_equipment_5_desc:0 "Heavy Armor gives your units a considerable boost in both hard and soft attack. Heavy Tanks are used when breaking enemy lines, being extremely hard to kill. But they slow your units down and require considerable amounts of supplies and fuel."
+
  ### ---------------------------------------- Super Heavy Tanks ------------------------------------
  super_heavy_tank_equipment:0 "Super Heavy Tank"
  super_heavy_tank_equipment_desc:0 "Super heavy tanks are an evolution of the Heavy tank concept. Bigger, better armed, with more armor, they are also slower and have severe problems with soft ground and few bridges can hope to handle their weight."
  
  super_heavy_tank_equipment_0:0 "Super Heavy Tank '44"
  super_heavy_tank_equipment_0_short:0 "SH. Tank '44"
+ super_heavy_tank_equipment_0_desc:0 "Super heavy tanks are an evolution of the Heavy tank concept. Bigger, better armed, with more armor, they are also slower and have severe problems with soft ground and few bridges can hope to handle their weight."
+
+ super_heavy_tank_equipment_0:0 "Super Heavy Tank '62"
+ super_heavy_tank_equipment_0_short:0 "SH. Tank '62"
+ super_heavy_tank_equipment_1_desc:0 "Super heavy tanks are an evolution of the Heavy tank concept. Bigger, better armed, with more armor, they are also slower and have severe problems with soft ground and few bridges can hope to handle their weight."
 
  ### ---------------------------------------- Main Battle Tanks ------------------------------------
  modern_tank_equipment:1 "Main Battle Tank"
@@ -95,12 +122,19 @@
 
  modern_tank_equipment_0:1 "Main Battle Tank '48"
  modern_tank_equipment_0_short:1 "MBT '48"
+ modern_tank_equipment_0_desc:0 "Modern tanks are agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
+ 
  modern_tank_equipment_1:1 "Main Battle Tank '52"
  modern_tank_equipment_1_short:1 "MBT '56"
+ modern_tank_equipment_1_desc:0 "Modern tanks are agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
+
  modern_tank_equipment_2:1 "Main Battle Tank '56"
  modern_tank_equipment_2_short:1 "MBT '62" 
+ modern_tank_equipment_2_desc:0 "Modern tanks are agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
+
  modern_tank_equipment_3:1 "Main Battle Tank '62"
  modern_tank_equipment_3_short:1 "MBT '62"
+ modern_tank_equipment_3_desc:0 "Modern tanks are agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
 
  
 ##########################################################################################################################	
@@ -153,8 +187,8 @@
  GER_heavy_tank_equipment_0_short:0 "A7V-U"
  GER_heavy_tank_equipment_1:0 "10.5 cm K gepanzerte Selbstfahrlafette 'Dicker Max'"
  GER_heavy_tank_equipment_1_short:0 "Dicker Max"
- GER_heavy_tank_equipment_2:0 "VK 36.01"
- GER_heavy_tank_equipment_2_short:0 "VK 36.01"
+ GER_heavy_tank_equipment_2:0 "Panzerkampfwagen VI Tiger (P)"
+ GER_heavy_tank_equipment_2_short:0 "PzKpfw. VI (P)"
  GER_heavy_tank_equipment_3:0 "Panzerkampfwagen VI Tiger Ausf. E"
  GER_heavy_tank_equipment_3_short:0 "PzKpfw. VI"
  GER_heavy_tank_equipment_4:0 "Panzerkampfwagen Tiger Ausf. B"

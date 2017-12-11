@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Sweden_NS_.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = social_liberalism
 	traits = {}
 }
 #SD

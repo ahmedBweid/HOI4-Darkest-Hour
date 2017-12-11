@@ -1,0 +1,116 @@
+﻿l_english:
+
+###########################################
+## Cabinet 
+###########################################
+ cabinet:0 "Cabinet"
+ 
+ Head_of_Government:0 "Head of Government"
+ Foreign_Minister:0 "Foreign Minister"
+ Minister_of_Security:0 "Minister of Security"
+ Armaments_Minister:0 "Armaments Minister"
+ Head_of_Intelligence:0 "Head of Intelligence"
+
+ Chief_of_Staff:0 "Chief of Staff"
+ Chief_of_Army:0 "Chief of Army"
+ Chief_of_Navy:0 "Chief of Navy"
+ Chief_of_Airforce:0 "Chief of Airforce"
+ 
+ head_of_government:0 "Head of Government"
+ foreign_minister:0 "Foreign Minister"
+ security_minister:0 "Minister of Security"
+ Armaments_Minister:0 "Armaments Minister"
+ Head_of_Intelligence:0 "Head of Intelligence"
+
+ 
+###########################################
+## Traits 
+###########################################
+# Chief of Staff traits 
+ CoStaff_school_of_manoeuvre:0 "School of Manouevre"
+ CoStaff_school_of_manoeuvre_desc:0 "This Chief of Staff teaches that Maneuver and Speed are the essence of modern warfare."
+ 
+ CoStaff_school_of_fire_support:0 "School of Fire Support"
+ CoStaff_school_of_fire_support_desc:0 "This Chief of Staff teaches that Fire Support is the essence of modern warfare."
+ 
+ CoStaff_school_of_mass_combat:0 "School of Mass Combat"
+ CoStaff_school_of_mass_combat_desc:0 "This Chief of Staff believes in the People's War and teaches that mass formations and guerrilla tactics are the essence of modern warfare."
+ 
+ CoStaff_school_of_psychology:0 "School of Psychology"
+ CoStaff_school_of_psychology_desc:0 "This Chief of Staff teaches that morale and small-unit leadership are the essence of modern warfare."
+ 
+ CoStaff_school_of_defence:0 "School of Defense"
+ CoStaff_school_of_defence_desc:0 "This Chief of Staff teaches that Fortifications, Militia and Strategic Depth are the essence of modern warfare."
+ 
+# Chief of Army traits 
+ CoArmy_elastic_defence_doctrine:0 "Elastic Defence Doctrine"
+ CoArmy_elastic_defence_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces by the doctrine of Elastic Defense. This means that deploying a thin defensive line with heavily armed infantry and deploying replacements and assault teams in the second lines are essential for wearing down the enemy and for winning the war."
+ 
+ CoArmy_static_defence_doctrine:0 "Static Defence Doctrine"
+ CoArmy_static_defence_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Static Defense. This means that deploying several defensive lines with fortified infantry and substantial artillery assets in the rear are essential for wearing down the enemy and for winning the war."
+ 
+ CoArmy_decisive_battle_doctrine:0 "Decisive Battle Doctrine"
+ CoArmy_decisive_battle_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Decisive Battle. This means that concentrating large amounts of superior attacking troops and forcing the enemy to commit inferior troops are essential for wearing down the enemy and for winning the war."
+ 
+ CoArmy_armoured_spearhead_doctrine:0 "Armoured Spearhead Doctrine"
+ CoArmy_armoured_spearhead_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Armored Spearheads. This means that spearheading speedy offensives with tank units followed up with encircling infantry are essential for wearing down the enemy and for winning the war."
+ 
+ CoArmy_guns_and_butter_doctrine:0 "Guns and Butter Doctrine"
+ CoArmy_guns_and_butter_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Guns and Butter. This means allowing the operational commanders freedom of command while ensuring the best possible supplies and training for the Army are essential for wearing down the enemy and for winning the war."
+ 
+# Chief of Navy traits 
+ CoNavy_open_seas_doctrine:0 "Open Seas Doctrine"
+ CoNavy_open_seas_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Open Seas. This means that the control of sea lanes to far-flung resources is essential for winning the war."
+ 
+ CoNavy_decisive_battle_doctrine:0 "Decisive Naval Battle Doctrine"
+ CoNavy_decisive_battle_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Decisive Battle. This means that in order to win the war, it is essential to amass a large battle fleet and destroy the enemy's force on the High Seas."
+ 
+ CoNavy_power_projection_doctrine:0 "Power Projection Doctrine"
+ CoNavy_power_projection_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Power Projection, which means that by concentrating all power from aircraft, torpedoes and artillery fire into a suitable area a good chance for winning the war is ensured."
+ 
+ CoNavy_indirect_approach_doctrine:0 "Indirect Approach Doctrine"
+ CoNavy_indirect_approach_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Indirect Approach. This means that in order to win the war, it is essential to avoid decisive battle and instead destroy the enemy's convoys and warships piecemeal."
+ 
+ CoNavy_base_control_doctrine:0 "Base Control Doctrine"
+ CoNavy_base_control_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Base Control. This means that in order to win the war, it is essential to strike directly at the enemy bases (ports and islands), and take control of them with air and land forces."
+ 
+# Chief of Airforce
+ CoAir_air_superiority_doctrine:0 "Air Superiority Doctrine"
+ CoAir_air_superiority_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the air force according to the doctrine of Air Superiority. This means that in order to win the war, it is essential to control the skies above the battlefield."
+ 
+ CoAir_naval_aviation_doctrine:0 "Naval Aviation Doctrine"
+ CoAir_naval_aviation_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the air force according to the doctrine of Naval Aviation. This means that in order to win the war, it is essential to work closely with the Navy and destroy the enemy Navy, preferably by bombing it to pieces."
+ 
+ CoAir_army_aviation_doctrine:0 "Army Aviation Doctrine"
+ CoAir_army_aviation_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the Air forces according to the doctrine of Army Aviation. This means that in order to win the war, it is essential to work closely with the Army and destroy the enemy land forces, preferably by bombing them to pieces."
+ 
+ CoAir_carpet_bombing_doctrine:0 "Carpet Bombing Doctrine"
+ CoAir_carpet_bombing_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the Air forces according to the doctrine of Carpet Bombing. This means that in order to win the war, it is essential to grind down the enemy transportation network and industrial plants, and to demoralize his population by terror bombing."
+ 
+ CoAir_vertical_envelopment_doctrine:0 "Vertical Envelopment Doctrine"
+ CoAir_vertical_envelopment_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the Air forces according to the doctrine of Vertical Envelopment. This means that in order to win the war, it is essential to seize strategic terrain or bridgeheads by air to quickly enable the Army to achieve a breakthrough."
+ 
+ 
+# Positions	
+ pos_HoG:0 ""
+ pos_FM:0 ""
+ pos_AM:0 ""
+ pos_MoS:0 ""
+ pos_HoI:0 ""
+# Mil Positions	
+ pos_CoStaff:0 "Chief of Staff"
+ pos_CoArmy:0 ""
+ pos_CoAir:0 ""
+ pos_CoNavy:0 ""
+# Ideologies
+ ideology_NS:0 "NatSoc"
+ ideology_FA:0 ""
+ ideology_PA:0 ""
+	
+ ideology_SC:0 ""
+ ideology_SL:0 ""
+ ideology_SD:0 ""
+	
+ ideology_LWR:0 ""
+ ideology_LE:0 ""
+ ideology_ST:0 ""

@@ -14,18 +14,22 @@ country_event = {
 	picture = GFX_DH_Generic_Elections
 	
 	fire_only_once = yes
-	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = AST
+		date > 1937.10.23
+		date < 1937.12.23
+	}
 
 	# Elect NatSoc
 	option = {
 		name = DH_election_australia.1.A
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = national_socialist }
 			national_socialist > 0.40
 			has_country_flag = elections_NS
 		}
-		set_politics = { ruling_party = national_socialist }
+		set_politics = { ruling_party = national_socialist elections_allowed = yes }
 	}	
 
 	# Elect Fascists
@@ -33,11 +37,10 @@ country_event = {
 		name = DH_election_australia.1.B
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = fascist }
 			fascist > 0.40
 			has_country_flag = elections_FA			
 		}
-		set_politics = { ruling_party = fascist }
+		set_politics = { ruling_party = fascist elections_allowed = yes }
 	}	
 
 	# Elect Paternal Autocrats
@@ -45,11 +48,10 @@ country_event = {
 		name = DH_election_australia.1.C
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = paternal_autocrat }
 			paternal_autocrat > 0.40
 			has_country_flag = elections_PA		
 		}
-		set_politics = { ruling_party = paternal_autocrat }
+		set_politics = { ruling_party = paternal_autocrat elections_allowed = yes }
 	}
 	
 	# Elect Social Conservatives HoG Joseph A. Lyons
@@ -57,10 +59,9 @@ country_event = {
 		name = DH_election_australia.1.D
 		ai_chance = { factor = 60 }
 		trigger = { 			
-			NOT = { has_government = social_conservative }
 			social_conservative > 0.25
 		}
-		set_politics = { ruling_party = social_conservative }
+		set_politics = { ruling_party = social_conservative elections_allowed = yes }
 		custom_effect_tooltip = "The candidate of the UAP is Joseph A. Lyons"
 	}
 
@@ -69,10 +70,9 @@ country_event = {
 		name = DH_election_australia.1.F
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_liberal }
 			social_liberal > 0.25
 		}
-		set_politics = { ruling_party = social_liberal }
+		set_politics = { ruling_party = social_liberal elections_allowed = yes }
 	}
 
 	# Elect Social Democrats HoG  John J. Curtin
@@ -80,10 +80,9 @@ country_event = {
 		name = DH_election_australia.1.G
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_democrat }
 			social_democrat > 0.25
 		}
-		set_politics = { ruling_party = social_democrat }
+		set_politics = { ruling_party = social_democrat elections_allowed = yes }
 		custom_effect_tooltip = "The candidate of the Labor Party is John J. Curtin"		
 	}
 	
@@ -92,22 +91,10 @@ country_event = {
 		name = DH_election_australia.1.H
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = left_wing_radical }
 			left_wing_radical > 0.40
 			has_country_flag = elections_LWR		
 		}
-		set_politics = { ruling_party = left_wing_radical }
-	}
-	
-	# Keep Current
-	option = { 
-		name = DH_election_australia.1.I
-		ai_chance = { factor = 10 }
-		trigger = { is_ruling_party_stronk = yes }
-		hidden_effect = {
-			add_political_power = -20
-		}
-		custom_effect_tooltip = keep_govt
+		set_politics = { ruling_party = left_wing_radical elections_allowed = yes }
 	}
 }
 
@@ -121,18 +108,22 @@ country_event = {
 	picture = GFX_DH_Generic_Elections
 	
 	fire_only_once = yes
-	is_triggered_only = yes
+
+	trigger = {
+		original_tag = AST
+		date > 1940.9.21
+		date < 1940.11.21	
+	}
 
 	# Elect NatSoc
 	option = {
 		name = DH_election_australia.2.A
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = national_socialist }
 			national_socialist > 0.40
 			has_country_flag = elections_NS
 		}
-		set_politics = { ruling_party = national_socialist }
+		set_politics = { ruling_party = national_socialist elections_allowed = yes }
 	}	
 
 	# Elect Fascists
@@ -140,11 +131,10 @@ country_event = {
 		name = DH_election_australia.2.B
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = fascist }
 			fascist > 0.40
 			has_country_flag = elections_FA			
 		}
-		set_politics = { ruling_party = fascist }
+		set_politics = { ruling_party = fascist elections_allowed = yes }
 	}	
 
 	# Elect Paternal Autocrats
@@ -152,11 +142,10 @@ country_event = {
 		name = DH_election_australia.2.C
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = paternal_autocrat }
 			paternal_autocrat > 0.40
 			has_country_flag = elections_PA		
 		}
-		set_politics = { ruling_party = paternal_autocrat }
+		set_politics = { ruling_party = paternal_autocrat elections_allowed = yes }
 	}
 	
 	# Elect Social Conservatives HoG Robert Menzies
@@ -164,10 +153,9 @@ country_event = {
 		name = DH_election_australia.2.D
 		ai_chance = { factor = 60 }
 		trigger = { 			
-			NOT = { has_government = social_conservative }
 			social_conservative > 0.25
 		}
-		set_politics = { ruling_party = social_conservative }
+		set_politics = { ruling_party = social_conservative elections_allowed = yes }
 		custom_effect_tooltip = "The candidate of the UAP is Robert Menzies"		
 	}	
 
@@ -176,10 +164,9 @@ country_event = {
 		name = DH_election_australia.2.F
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_liberal }
 			social_liberal > 0.25
 		}
-		set_politics = { ruling_party = social_liberal }
+		set_politics = { ruling_party = social_liberal elections_allowed = yes }
 	}
 
 	# Elect Social Democrats HoG  John J. Curtin
@@ -187,10 +174,9 @@ country_event = {
 		name = DH_election_australia.2.G
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_democrat }
 			social_democrat > 0.25
 		}
-		set_politics = { ruling_party = social_democrat }	
+		set_politics = { ruling_party = social_democrat elections_allowed = yes }	
 		custom_effect_tooltip = "The candidate of the Labor Party is John J. Curtin"			
 	}
 	
@@ -199,22 +185,10 @@ country_event = {
 		name = DH_election_australia.2.H
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = left_wing_radical }
 			left_wing_radical > 0.40
 			has_country_flag = elections_LWR		
 		}
-		set_politics = { ruling_party = left_wing_radical }
-	}
-	
-	# Keep Current
-	option = { 
-		name = DH_election_australia.2.I
-		ai_chance = { factor = 10 }
-		trigger = { is_ruling_party_stronk = yes }
-		hidden_effect = {
-			add_political_power = -20
-		}
-		custom_effect_tooltip = keep_govt
+		set_politics = { ruling_party = left_wing_radical elections_allowed = yes }
 	}
 }
 
@@ -233,6 +207,7 @@ country_event = {
 		original_tag = AST
 		has_government = social_conservative
 		date > 1941.8.28
+		date < 1941.12.28		
 	}
 
 	# Signed, Sir Robert Gordon Menzies
@@ -272,18 +247,22 @@ country_event = {
 	picture = GFX_DH_Generic_Elections
 	
 	fire_only_once = yes
-	is_triggered_only = yes
+
+	trigger = {
+		original_tag = AST
+		date > 1943.8.21
+		date < 1943.12.21
+	}
 
 	# Elect NatSoc
 	option = {
 		name = DH_election_australia.3.A
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = national_socialist }
 			national_socialist > 0.40
 			has_country_flag = elections_NS
 		}
-		set_politics = { ruling_party = national_socialist }
+		set_politics = { ruling_party = national_socialist elections_allowed = yes }
 	}	
 
 	# Elect Fascists
@@ -291,11 +270,10 @@ country_event = {
 		name = DH_election_australia.3.B
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = fascist }
 			fascist > 0.40
 			has_country_flag = elections_FA			
 		}
-		set_politics = { ruling_party = fascist }
+		set_politics = { ruling_party = fascist elections_allowed = yes }
 	}	
 
 	# Elect Paternal Autocrats
@@ -303,11 +281,10 @@ country_event = {
 		name = DH_election_australia.3.C
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = paternal_autocrat }
 			paternal_autocrat > 0.40
 			has_country_flag = elections_PA		
 		}
-		set_politics = { ruling_party = paternal_autocrat }
+		set_politics = { ruling_party = paternal_autocrat elections_allowed = yes }
 	}
 	
 	# Elect Social Conservatives 
@@ -315,10 +292,9 @@ country_event = {
 		name = DH_election_australia.3.D
 		ai_chance = { factor = 60 }
 		trigger = { 			
-			NOT = { has_government = social_conservative }
 			social_conservative > 0.25
 		}
-		set_politics = { ruling_party = social_conservative }
+		set_politics = { ruling_party = social_conservative elections_allowed = yes }
 	}
 
 	# Elect Social Liberals
@@ -326,10 +302,9 @@ country_event = {
 		name = DH_election_australia.3.F
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_liberal }
 			social_liberal > 0.25
 		}
-		set_politics = { ruling_party = social_liberal }
+		set_politics = { ruling_party = social_liberal elections_allowed = yes }
 	}
 
 	# Elect Social Democrats HoG  John J. Curtin
@@ -337,10 +312,9 @@ country_event = {
 		name = DH_election_australia.3.G
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_democrat }
 			social_democrat > 0.25
 		}
-		set_politics = { ruling_party = social_democrat }
+		set_politics = { ruling_party = social_democrat elections_allowed = yes }
 		custom_effect_tooltip = "The candidate of the Labor Party is John J. Curtin"
 	}
 	
@@ -349,22 +323,10 @@ country_event = {
 		name = DH_election_australia.3.H
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = left_wing_radical }
 			left_wing_radical > 0.40
 			has_country_flag = elections_LWR		
 		}
-		set_politics = { ruling_party = left_wing_radical }
-	}
-	
-	# Keep Current
-	option = { 
-		name = DH_election_australia.3.I
-		ai_chance = { factor = 10 }
-		trigger = { is_ruling_party_stronk = yes }
-		hidden_effect = {
-			add_political_power = -20
-		}
-		custom_effect_tooltip = keep_govt
+		set_politics = { ruling_party = left_wing_radical elections_allowed = yes }
 	}
 }
 
@@ -386,7 +348,30 @@ country_event = {
 	# May his soul rest in peace
 	option = {
 		name = DH_politics_australia.3.A
-		create_country_leader = { name = "Frank Forde" desc = "" picture = ".dds" expire = "1965.1.1" ideology = social_democracy traits = { } }		
+		create_country_leader = { name = "Frank Forde" desc = "" picture = ".dds" expire = "1965.1.1" ideology = social_democracy traits = {} }		
+	}
+}
+
+#########################################################################
+#  The Liberal Party of Australia is founded
+#########################################################################
+country_event = { 
+	id = DH_politics_australia.4
+	title = DH_politics_australia.4.t
+	desc = DH_politics_australia.4.d
+	picture = GFX_DH_Generic_Elections
+	
+	fire_only_once = yes
+	trigger = {
+		original_tag = AST
+		date > 1944.10.16
+		date > 1944.12.1
+	}
+
+	# Alright
+	option = {
+		name = DH_politics_australia.3.A
+		set_party_name = { ideology = social_conservative long_name = "Liberal Party of Australia" name = "LP" }
 	}
 }
 
@@ -400,17 +385,21 @@ country_event = {
 	picture = GFX_DH_Generic_Elections
 	
 	fire_only_once = yes
+	trigger = {
+		original_tag = AST
+		date > 1946.9.28
+		date > 1946.12.1		
+	}
 
 	# Elect NatSoc
 	option = {
 		name = DH_election_australia.4.A
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = national_socialist }
 			national_socialist > 0.40
 			has_country_flag = elections_NS
 		}
-		set_politics = { ruling_party = national_socialist }
+		set_politics = { ruling_party = national_socialist elections_allowed = yes }
 	}	
 
 	# Elect Fascists
@@ -418,11 +407,10 @@ country_event = {
 		name = DH_election_australia.4.B
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = fascist }
 			fascist > 0.40
 			has_country_flag = elections_FA			
 		}
-		set_politics = { ruling_party = fascist }
+		set_politics = { ruling_party = fascist elections_allowed = yes }
 	}	
 
 	# Elect Paternal Autocrats
@@ -430,11 +418,10 @@ country_event = {
 		name = DH_election_australia.4.C
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = paternal_autocrat }
 			paternal_autocrat > 0.40
 			has_country_flag = elections_PA		
 		}
-		set_politics = { ruling_party = paternal_autocrat }
+		set_politics = { ruling_party = paternal_autocrat elections_allowed = yes }
 	}
 	
 	# Elect Social Conservatives 
@@ -442,10 +429,9 @@ country_event = {
 		name = DH_election_australia.4.D
 		ai_chance = { factor = 60 }
 		trigger = { 			
-			NOT = { has_government = social_conservative }
 			social_conservative > 0.25
 		}
-		set_politics = { ruling_party = social_conservative }
+		set_politics = { ruling_party = social_conservative elections_allowed = yes }
 	}
 
 	# Elect Social Liberals
@@ -453,10 +439,9 @@ country_event = {
 		name = DH_election_australia.4.F
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_liberal }
 			social_liberal > 0.25
 		}
-		set_politics = { ruling_party = social_liberal }
+		set_politics = { ruling_party = social_liberal elections_allowed = yes }
 	}
 
 	# Elect Social Democrats HoG  Ben Chifley
@@ -464,10 +449,9 @@ country_event = {
 		name = DH_election_australia.4.G
 		ai_chance = { factor = 30 }
 		trigger = {
-			NOT = { has_government = social_democrat }
 			social_democrat > 0.25
 		}
-		set_politics = { ruling_party = social_democrat }
+		set_politics = { ruling_party = social_democrat elections_allowed = yes }
 		custom_effect_tooltip = "The candidate of the Labor Party is Ben Chifley"
 	}
 	
@@ -476,21 +460,9 @@ country_event = {
 		name = DH_election_australia.4.H
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			NOT = { has_government = left_wing_radical }
 			left_wing_radical > 0.40
 			has_country_flag = elections_LWR		
 		}
-		set_politics = { ruling_party = left_wing_radical }
-	}
-	
-	# Keep Current
-	option = { 
-		name = DH_election_australia.4.I
-		ai_chance = { factor = 10 }
-		trigger = { is_ruling_party_stronk = yes }
-		hidden_effect = {
-			add_political_power = -20
-		}
-		custom_effect_tooltip = keep_govt
+		set_politics = { ruling_party = left_wing_radical elections_allowed = yes }
 	}
 }
