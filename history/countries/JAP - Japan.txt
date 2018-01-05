@@ -216,14 +216,16 @@ if = {
 		autonomous_state = DH_autonomy_integrated_puppet
 	}
 	else = {
-		set_autonomy = {
-			target = MEN
-			autonomous_state = DH_autonomy_puppet
-		}
-		set_autonomy = {
-			target = MAN
-			autonomous_state = DH_autonomy_puppet
-		}
+		#set_autonomy = {
+		#	target = MEN
+		#	autonomous_state = DH_autonomy_puppet
+		#}
+		#set_autonomy = {
+		#	target = MAN
+		#	autonomous_state = DH_autonomy_puppet
+		#}
+		puppet = MEN
+		puppet = MAN
 	}
 }
 

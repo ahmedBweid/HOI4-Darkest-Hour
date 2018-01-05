@@ -119,10 +119,17 @@ create_import = {
 	}
 	
 	oob = "GER_1939"
-	
-	set_autonomy = {
-		target = SLO
-		autonomous_state = DH_autonomy_puppet
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SLO
+			autonomous_state = DH_autonomy_puppet
+		}
+		else = {
+			puppet = SLO
+		}
 	}
 	
 	give_military_access = SLO
