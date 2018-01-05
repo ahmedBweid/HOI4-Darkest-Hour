@@ -1286,11 +1286,13 @@ country_event = {
 
 		hidden_effect = {
 			FRA = {
-				every_owned_state = {
+				every_state = {
 					limit = {
 						is_core_of = FRA
 					}
-					add_core_of = VIC
+					VIC = {
+						add_state_core = PREV
+					}
 				}
 				start_civil_war = {
 					ideology = fascist
@@ -1919,6 +1921,10 @@ country_event = {
 				type = befriend
 				id = "GER"
 				value = 200
+			}
+			if = {
+				limit = { FRA = { has_country_flag = become_vichy } }
+				change_tag_from = FRA
 			}
 		}
 	}

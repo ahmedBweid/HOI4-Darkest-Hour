@@ -90,15 +90,15 @@ ideas = {
 			cost = 150			
 			removal_cost = 10
 			
-			traits = {CoStaff_ pos_CoStaff ideology_PA}		
+			traits = {CoStaff_ pos_CoStaff ideology_PA}
 		}
 	# Wilhelm Grüner
-		GER_CoStaff_Wilhelm_Gruner = {		
+		GER_CoStaff_Wilhelm_Gruner = {
 			picture = Generic_Portrait
 			
 			allowed = { tag = GER }
 			available = {date > 1936.1.1}
-			cost = 150			
+			cost = 150
 			removal_cost = 10
 			
 			traits = {CoStaff_school_of_defence pos_CoStaff ideology_PA}		
