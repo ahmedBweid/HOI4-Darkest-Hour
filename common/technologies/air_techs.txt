@@ -5,9 +5,9 @@ technologies = {
 	@cas_line = 7
 	@heavy_fighter_line = 1
 	
-	@tactical_bomber_line = -3
+	@tactical_bomber_line = -1
 	@strategic_bomber_line = -5
-	@naval_bomber_line = -1
+	@naval_bomber_line = -3
 	
 #Years 	
 	@1933 = 2
@@ -2394,10 +2394,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1958
+		start_year = 1962
 		folder = {
 			name = air_techs_folder
-			position = { x = @tactical_bomber_line y = @1958 }
+			position = { x = @tactical_bomber_line y = @1962 }
 		}
 		
 		categories = {
@@ -2634,7 +2634,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = jet_strategic_bomber4
+			leads_to_tech = jet_strategic_bomber3
 			research_cost_coeff = 1
 		}
 
@@ -2648,40 +2648,6 @@ technologies = {
 		folder = {
 			name = air_techs_folder
 			position = { x = @strategic_bomber_line y = @1958 }
-		}
-		
-		categories = {
-			heavy_air
-			jet_technology
-			cat_strategic_bomber
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-	jet_strategic_bomber4 = {
-
-		enable_equipments = {
-			jet_strat_bomber_equipment_4
-		}
-		
-		path = {
-			leads_to_tech = jet_strategic_bomber3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1962
-
-		dependencies = {
-			jet_engines = 1
-		}
-
-		folder = {
-			name = air_techs_folder
-			position = { x = @strategic_bomber_line y = @1962 }
 		}
 		
 		categories = {

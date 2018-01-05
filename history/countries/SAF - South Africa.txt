@@ -130,18 +130,31 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 76 }				
-		social_liberal = { popularity = 15 }		
+		social_conservative = { popularity = 50 }		
+		market_liberal = { popularity = 41 }		
+		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 5 }		
 		left_wing_radical = { popularity = 4 }		
 		leninist = { popularity = 0 }		
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
+}
+
+
+create_country_leader = {
+	name = "Villiers Lord Clarendon"
+	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	picture = "Portrait_SouthAfrica_Villiers_Lord_Clarendon.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		#
+	}
 }
 
 1939.1.1 = {
@@ -151,7 +164,8 @@ set_politics = {
 			national_socialist = { popularity = 0 }		
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 0 }		
-			social_conservative = { popularity = 50 }	
+			social_conservative = { popularity = 50 }		
+			market_liberal = { popularity = 41 }		
 			social_liberal = { popularity = 0 }		
 			social_democrat = { popularity = 5 }		
 			left_wing_radical = { popularity = 4 }		
@@ -164,66 +178,53 @@ set_politics = {
 		election_frequency = 60
 		elections_allowed = yes
 	}
+
+	# Took office 5 days after this date
+	create_country_leader = {
+		name = "Jan Smuts"
+		desc = "POLITICS_JAN_SMUTS_DESC"
+		picture = "Portrait_SouthAfrica_Jan_Smuts.dds"
+		expire = "1965.1.1"
+		ideology = social_conservatism
+		traits = {
+			#
+		}
+	}
 }
 
-
-####################################################
-## South African Leaders
-####################################################
-#NS
 create_country_leader = {
-	name = "Louis Weichardt"
-	desc = ""
-	picture = "DH_Fritz_Julius_Kuhn.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "J. F. van Rensburg"
-	desc = ""
-	picture = "DH_William_Dudley_Pelley.dds"
+	name = "D. F. Malan"
+	desc = "POLITICS_DF_MALAN_DESC"
+	picture = "GFX_SAF_daniel_malan"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = { }
+	traits = {
+		#
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "J. B. M. Hertzog"
-	desc = ""
-	picture = "South_Africa_SC_JBM_Hertzog.dds"
-	expire = "1947.1.1"
-	ideology = market_liberalism
-	traits = { }
-}
-#SL
-#SD
-create_country_leader = {
-	name = "Zacharias Richard Mahabane"
-	desc = ""
-	picture = "DH_Allan_Benson.dds"
-	expire = "1947.1.1"
-	ideology = social_democracy
-	traits = { }
-}
-
-#LWR
-#LE
-create_country_leader = {
-	name = "Moses Mauane Kotane"
-	desc = ""
-	picture = "DH_Joseph_Lash.dds"
+	name = "Moses Kotane"
+	desc = "POLITICS_MOSES_KOTANE_DESC"
+	picture = "GFX_SAF_moses_kotane"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = { }
+	traits = {
+		#
+	}
 }
-#ST
 
-####################################################
-## South African Generals
-####################################################
+create_country_leader = {
+	name = "Pixley Ka Isaka Seme"
+	desc = "POLITICS_PIXLEY_SEME_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
+
 create_corps_commander = {
 	name = "George Edwin Brink"
 	gfx = "GFX_SAF_george_edwin_brink"

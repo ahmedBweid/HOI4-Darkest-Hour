@@ -2,7 +2,7 @@
 
 oob = "ENG_1936"
 
-set_research_slots = 5
+set_research_slots = 4
 
 set_national_unity = 0.6
 
@@ -108,31 +108,31 @@ if = {
 	}
 	set_autonomy = {
 		target = MAL
-		autonomous_state = DH_autonomy_integrated_puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = RAJ
-		autonomous_state = DH_autonomy_colony
+		autonomous_state = autonomy_colony
 		freedom_level = 0.35
 	}
 	set_autonomy = {
 		target = CAN
-		autonomous_state = DH_autonomy_satellite
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
 	set_autonomy = {
 		target = SAF
-		autonomous_state = DH_autonomy_satellite
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
 	set_autonomy = {
 		target = AST
-		autonomous_state = DH_autonomy_satellite
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
 	set_autonomy = {
 		target = NZL
-		autonomous_state = DH_autonomy_satellite
+		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
 	else = {
@@ -267,7 +267,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 2 }		
-		social_conservative = { popularity = 52 }	
+		social_conservative = { popularity = 48 }		
+		market_liberal = { popularity = 4 }		
 		social_liberal = { popularity = 7 }		
 		social_democrat = { popularity = 38 }		
 		left_wing_radical = { popularity = 2 }		
@@ -297,95 +298,64 @@ add_to_faction = MAL
 
 #give_guarantee = CZE
 
-###############################
-# British Leaders 
-###############################
-#NS
+# Order matters - here Chamberlain becomes starting leader
+
 create_country_leader = {
-	name = "Arnold Spencer Leese"
-	desc = ""
-	picture = "Portrait_Britain_Arnold_Spencer_Leese.dds"
+	name = "Winston Churchill"
+	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	picture = "Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
+	ideology = social_conservatism
+	traits = {
+		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+	}
 }
-#FA
+
+
+create_country_leader = {
+	name = "Stanley Baldwin"
+	desc = "POLITICS_STANLEY_BALDWIN_DESC"
+	picture = "Portrait_Britain_Stanley_Baldwin.dds"
+	expire = "1938.1.1"
+	ideology = social_conservatism
+	traits = {
+		
+	}
+}
+
 create_country_leader = {
 	name = "Oswald Mosley"
-	desc = ""
-	picture = "Britain_FA_Oswald_Mosley.dds"
+	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	picture = "Portrait_Britain_Oswald_Mosley.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {}
+	traits = {
+		
+	}
 }
-#PA
+
 create_country_leader = {
 	name = "Edward VIII"
 	desc = ""
-	picture = "Britain_PA_Oswald_Mosley.dds"
+	picture = "Portrait_Britain_Edward_VIII.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {}
+	traits = {
+		
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = ""
-	picture = "Britain_SC_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#SL
-create_country_leader = {
-	name = "J. R. Clynes"
-	desc = ""
-	picture = "Britain_SL_J_R_Clynes.dds"
-	expire = "1938.1.1"
-	ideology = social_liberalism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Clement Attlee"
-	desc = ""
-	picture = "Britain_SD_Clement_Attlee.dds"
-	expire = "1938.1.1"
-	ideology = social_democracy
-	traits = {}
-}
-
-#LWR
-create_country_leader = {
-	name = "Aneurin Bevan"
-	desc = ""
-	picture = "Britain_LWR_Aneurin_Bevan.dds"
-	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = {}
-}
-#LE
-create_country_leader = {
-	name = "Tom Mann"
-	desc = ""
-	picture = "Britain_LE_Tom_Mann.dds"
+	name = "Rajani Palme Dutt"
+	desc = "POLITICS_PALME_DUTT_DESC"
+	picture = "Portrait_Britain_Palme_Dutt.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {}
+	traits = {
+		
+	}
 }
-#ST
-create_country_leader = {
-	name = "Tony Cliff"
-	desc = ""
-	picture = "Britain_ST_Tony_Cliff.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
-}
-###############################
-# British Generals 
-###############################
+
 create_field_marshal = {
 	name = "Alan Brooke"
 	picture = "Portrait_Britain_Alan_Brooke.dds"

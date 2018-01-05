@@ -16,8 +16,6 @@ country_event = {
 	title = DH_breitspubahn_idea.1.t
 	desc = DH_breitspubahn_idea.1.d
 
-	fire_only_once = yes
-
 	trigger = {
 		GER = {
 			AND = {
@@ -72,146 +70,31 @@ country_event = {
 		text = DH_breitspurbahn.1.dg
 		trigger = { tag = GER }
 	}
-	picture = GFX_report_event_german_speech
 
 	is_triggered_only = yes
 
 	fire_only_once = yes
 
-	immediate = {
-		hidden_effect = {
-			70 = {
-				save_event_target_as = GER_breitspurbahn_state
-			}
-		}
-	}
-
 	option = {
 		name = DH_breitspurbahn.1.a
-		ai_chance = {
-			factor = 45
-			modifier = {
-				is_in_faction_with = GER
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					has_government = fascist
-					has_government = national_socalist
-				}
-				factor = 2
-			}
-			modifier = {
-				has_government = paternal_autocrat
-				factor = 1
-			}
-			modifier = {
-				OR = {
-					has_government = social_conservative
-					has_government = market_liberal
-					has_government = social_liberal
-					has_government = social_democrat
-				}
-				factor = -2
-			}
-			modifier = {
-				OR = {
-					has_government = stalinist
-					has_government = leninist
-					has_government = left_wing_radical
-				}
-				factor = -1
-			}
-			modifier = {
-				AND = {
-					is_subject_of = GER
-					has_political_power > 50
-				}
-				factor = 1000
-			}
-			modifier = {
-				has_political_power > 50
-				factor = 1
-			}
-		}
+		#Modifier Stuff
+		#in faction = 20%
+		#NS or Fascist = 20%
+		#paternal autocrat = 10%
+		#democrat = -20%
+		#communist and left radical = -10%
 		add_political_power = -50
-		70 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 4
-				instant_build = yes
-			}
-		}
-		GER = {
-			set_country_flag = GER_breitspurbahn_western_slovakia
-		}
+		#Build Infrastructure 4 infrastructure
 	}
 
 	option = {
 		name = DH_breitspurbahn.1.b
 		custom_effect_tooltip = GER_breitspurbahn_no_pp
-		ai_chance = {
-			factor = 45
-			modifier = {
-				is_in_faction_with = GER
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					has_government = fascist
-					has_government = national_socalist
-				}
-				factor = 2
-			}
-			modifier = {
-				has_government = paternal_autocrat
-				factor = 1
-			}
-			modifier = {
-				OR = {
-					has_government = social_conservative
-					has_government = market_liberal
-					has_government = social_liberal
-					has_government = social_democrat
-				}
-				factor = -2
-			}
-			modifier = {
-				OR = {
-					has_government = stalinist
-					has_government = leninist
-					has_government = left_wing_radical
-				}
-				factor = -1
-			}
-			modifier = {
-				has_political_power < 50
-				factor = -1
-			}
-		}
-		GER = {
-			set_country_flag = GER_breitspurbahn_western_slovakia
-			set_country_flag = GER_breitspurbahn_western_slovakia_no_pp
-		}
-		hidden_effect = {
-			GER = {
-				country_event = { id = DH_breitspubahn_h.1 }
-			}
-		}
+		#Trigger hidden event to take additional 30 days
 	}
 
 	option = {
 		name = DH_breitspurbahn.1.c
-		ai_chance = {
-			factor = 10
-		}
-		trigger = {
-			NOT = {
-				NOT = {
-					is_subject_of = GER
-				}
-			}
-		}
 		#Cancels it
 	}
 }
@@ -229,14 +112,7 @@ country_event = {
 	fire_only_once = yes
 
 	immediate = {
-		70 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 4
-				instant_build = yes
-			}
-		}
-		GER = { clr_country_flag = GER_breitspurbahn_western_slovakia_no_pp }
+		#Stuff
 	}
 
 	option = {
@@ -245,20 +121,19 @@ country_event = {
 }
 
 #########################################################################
-# Breitspurbahn Southern Slovakia
+# Breitspurbahn Western Slovakia
 #########################################################################
 country_event = {
 	id = DH_breitspubahn.2
-	title = DH_breitspurbahn.1.t
+	title = DH_breitspurbahn.2.t
 	desc = {
-		text = DH_breitspurbahn.1.dn
+		text = DH_breitspurbahn.2.dn
 		trigger = { NOT = { tag = GER } }
 	}
 	desc = {
-		text = DH_breitspurbahn.1.dg
+		text = DH_breitspurbahn.2.dg
 		trigger = { tag = GER }
 	}
-	picture = GFX_report_event_german_speech
 
 	fire_only_once = yes
 
@@ -282,171 +157,50 @@ country_event = {
 				}
 			}
 		}
-		controls_state = 664
-	}
-
-	immediate = {
-		hidden_effect = {
-			664 = { #state ID
-				save_event_target_as = GER_breitspurbahn_state
-			}
-		}
+		#controls_state = XXXXX
 	}
 
 	option = {
-		name = DH_breitspurbahn.1.a
-		ai_chance = {
-			factor = 45
-			modifier = {
-				is_in_faction_with = GER
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					has_government = fascist
-					has_government = national_socalist
-				}
-				factor = 2
-			}
-			modifier = {
-				has_government = paternal_autocrat
-				factor = 1
-			}
-			modifier = {
-				OR = {
-					has_government = social_conservative
-					has_government = market_liberal
-					has_government = social_liberal
-					has_government = social_democrat
-				}
-				factor = -2
-			}
-			modifier = {
-				OR = {
-					has_government = stalinist
-					has_government = leninist
-					has_government = left_wing_radical
-				}
-				factor = -1
-			}
-			modifier = {
-				AND = {
-					is_subject_of = GER
-					has_political_power > 50
-				}
-				factor = 1000
-			}
-			modifier = {
-				has_political_power > 50
-				factor = 1
-			}
-		}
+		name = DH_breitspurbahn.2.a
+		#Modifier Stuff
+		#in faction = 20%
+		#NS or Fascist = 20%
+		#paternal autocrat = 10%
+		#democrat = -20%
+		#communist and left radical = -10%
 		add_political_power = -50
-		664 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 4
-				instant_build = yes
-			}
-		}
-		GER = {
-			set_country_flag = GER_breitspurbahn_southern_slovakia
-		}
+		#Build Infrastructure 4 infrastructure
 	}
 
 	option = {
-		name = DH_breitspurbahn.1.b
+		name = DH_breitspurbahn.2.b
 		custom_effect_tooltip = GER_breitspurbahn_no_pp
-		ai_chance = {
-			factor = 45
-			modifier = {
-				is_in_faction_with = GER
-				factor = 2
-			}
-			modifier = {
-				OR = {
-					has_government = fascist
-					has_government = national_socalist
-				}
-				factor = 2
-			}
-			modifier = {
-				has_government = paternal_autocrat
-				factor = 1
-			}
-			modifier = {
-				OR = {
-					has_government = social_conservative
-					has_government = market_liberal
-					has_government = social_liberal
-					has_government = social_democrat
-				}
-				factor = -2
-			}
-			modifier = {
-				OR = {
-					has_government = stalinist
-					has_government = leninist
-					has_government = left_wing_radical
-				}
-				factor = -1
-			}
-			modifier = {
-				has_political_power < 50
-				factor = -1
-			}
-		}
-		GER = {
-			set_country_flag = GER_breitspurbahn_southern_slovakia
-			set_country_flag = GER_breitspurbahn_southern_slovakia_no_pp
-		}
-		hidden_effect = {
-			GER = {
-				country_event = { id = DH_breitspubahn_h.2 }
-			}
-		}
+		#Trigger hidden event to take additional 30 days
 	}
 
 	option = {
-		name = DH_breitspurbahn.1.c
-		ai_chance = {
-			factor = 10
-		}
-		trigger = {
-			NOT = {
-				NOT = {
-					is_subject_of = GER
-				}
-			}
-		}
+		name = DH_breitspurbahn.2.c
 		#Cancels it
 	}
 }
 
 #########################################################################
-# Breitspurbahn Hidden event for Southern Slovakia
+# Breitspurbahn Hidden event for Western Slovakia
 #########################################################################
 country_event = {
 	id = DH_breitspubahn_h.2
-	title = DH_breitspubahn_h.1.t
-	desc = DH_breitspubahn_h.1.d
+	title = DH_breitspubahn_h.2.t
+	desc = DH_breitspubahn_h.2.d
 
 	is_triggered_only = yes
 	hidden = yes
 	fire_only_once = yes
 
 	immediate = {
-		664 = {
-			add_building_construction = {
-				type = infrastructure
-				level = 4
-				instant_build = yes
-			}
-		}
-		GER = { clr_country_flag = GER_breitspurbahn_southern_slovakia_no_pp }
+		#Stuff
 	}
 
 	option = {
-		name = DH_breitspubahn_h.1.a
+		name = DH_breitspubahn_h.2.a
 	}
 }

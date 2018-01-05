@@ -5071,7 +5071,7 @@ country_event = {
 	}
 }
 
-country_event = {
+  country_event = {
 	id = ger_rename.219
 	hidden = yes
 
@@ -5102,7 +5102,7 @@ country_event = {
 	}
 }
 
-country_event = {
+  country_event = {
 	id = ger_rename.221
 	hidden = yes
 

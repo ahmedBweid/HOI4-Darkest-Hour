@@ -68,7 +68,7 @@ if = {
 	}
 	set_autonomy = {
 		target = INS
-		autonomous_state = DH_autonomy_integrated_puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
 		puppet = INS
@@ -146,7 +146,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 1 }		
 		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 50 }	
+		social_conservative = { popularity = 0 }		
+		market_liberal = { popularity = 50 }		
 		social_liberal = { popularity = 14 }		
 		social_democrat = { popularity = 27 }		
 		left_wing_radical = { popularity = 5 }		
@@ -154,7 +155,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -163,80 +164,50 @@ set_politics = {
 set_convoys = 500
 set_national_unity = 0.75
 
-####################################################
-# Holland Leaders
-####################################################
-#NS
+create_country_leader = {
+	name = "Hendricus Colijn"
+	desc = "POLITICS_Wilhelmina_DESC"
+	picture = "Portrait_Holland_Hendricu_Colijn.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
+
 create_country_leader = {
 	name = "Anton Mussert"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Jan Baars"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	desc = "POLITICS_ANTON_MUSSERT_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = ""
-	picture = "Poland_PA_Ignacy_Moscicki.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "Hendrikus Colijn"
-	desc = ""
-	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#SL 
-#SD
-create_country_leader = {
-	name = "Johan Willem Albarda"
-	desc = ""
-	picture = "Sweden_SD_Per_Albin_Hansson.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
-}
-
-#LWR
-#LE
-create_country_leader = {
-	name = "David Wijnkoop"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	name = "Lou de Visser"
+	desc = "POLITICS_LOU_DE_VISSER_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {}
-}
-#ST
-create_country_leader = {
-	name = "Louis de Visser"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-####################################################
-# Holland General Staff
-####################################################
+create_country_leader = {
+	name = "Hendrikus Colijn"
+	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
+	picture = "GFX_portrait_holland_hendrikus_colijn"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
+
 create_corps_commander = {
 	name = "Petrus Wilhelmus Best"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"

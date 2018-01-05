@@ -47,17 +47,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = ROS
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = ROS
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = ROS
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = ROS
 			}
 			ROS = {
 				transfer_state = 13 
@@ -127,17 +151,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RUK
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = RUK
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = RUK
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = RUK
 			}
 			RUK = {
 				transfer_state = 94
@@ -256,17 +304,39 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
-						has_dlc = "Together for Victory"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
 					}
 				}
 				set_autonomy = {
 					target = RMO
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_reichskommissariat
 				}
-				else = {
-					puppet = RMO
+			}
+			if = {
+				limit = {
+					NOT = { has_dlc = "Death or Dishonor" }
+					has_dlc = "Together for Victory"
 				}
+				set_autonomy = {
+					target = RMO
+					autonomous_state = autonomy_puppet
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = RMO
 			}
 			RMO = {
 				transfer_state = 262
@@ -420,17 +490,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RKA
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = RKA
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = RKA
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = RKA
 			}
 			RKA = {
 				transfer_state = 236
@@ -502,17 +596,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RTU
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = RTU
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = RTU
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = RTU
 			}
 			RTU = {
 				transfer_state = 407
@@ -573,17 +691,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = ICE
+					autonomous_state = autonomy_reichsprotectorate
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = ICE
-					autonomous_state = DH_autonomy_colony
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = ICE
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = ICE
 			}
 			ICE = {
 				add_popularity = { ideology = national_socialist popularity = 0.1 }
@@ -642,17 +784,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = SWE
+					autonomous_state = autonomy_reichsprotectorate
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = SWE
-					autonomous_state = DH_autonomy_colony
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = SWE
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = SWE
 			}
 			SWE = {
 				add_popularity = { ideology = national_socialist popularity = 0.1 }
@@ -727,17 +893,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RUR
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = RUR
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = RUR
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = RUR
 			}
 			RUR = {
 				transfer_state = 579
@@ -819,17 +1009,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = RSB
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = RSB
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = RSB
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = RSB
 			}
 			RSB = {
 				transfer_state = 567
@@ -899,17 +1113,41 @@ country_event = {
 			if = {
 				limit = {
 					OR = {
-						has_dlc = "Death or Dishonor"
+						AND = {
+							has_dlc = "Death or Dishonor"
+							has_dlc = "Together for Victory"
+						}
+						AND ={
+							has_dlc = "Death or Dishonor"
+							NOT = { has_dlc = "Together for Victory" }
+						}
+					}
+				}
+				set_autonomy = {
+					target = GGP
+					autonomous_state = autonomy_reichskommissariat
+				}
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = GGP
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = GGP
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = GGP
 			}
 			GGP = {	
 				transfer_state = 88

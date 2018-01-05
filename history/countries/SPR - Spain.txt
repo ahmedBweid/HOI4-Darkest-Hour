@@ -63,14 +63,17 @@ set_politics = {
 	parties = {
 		national_socialist = { popularity = 0 }
 		fascist = { popularity = 0 }
-		paternal_autocrat = { popularity = 10 }
-		social_conservative = { popularity = 30 }
+		paternal_autocrat = { popularity = 0 }
+		social_conservative = { popularity = 26 }
+		market_liberal = { popularity = 0 }
 		social_liberal = { popularity = 15 }
-		social_democrat = { popularity = 33 }
-		left_wing_radical = { popularity = 8 }
-		leninist = { popularity = 4 }
-		stalinist = { popularity = 0 }
+		social_democrat = { popularity =27 }
+		left_wing_radical = { popularity = 28 }
+		leninist = { popularity = 0 }
+		stalinist = { popularity = 4 }
 	}
+	
+
 	
 	ruling_party = social_conservative
 	last_election = "1933.2.16"
@@ -144,28 +147,33 @@ set_national_unity = 0.5
 
 	set_politics = {
 
-		parties = {
-			social_conservative = { 
-				popularity = 22
-			}
 
-			fascist = {
-				popularity = 76
-			}
-			
-			stalinist = {
-				popularity = 2
-			}
-		}
-		
-		ruling_party = fascist
-		last_election = "1934.3.26"
-		election_frequency = 60
-		elections_allowed = no
-	}
 
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
+}
+
+}
+create_country_leader = {
+	name = "Ramiro Ledesma Ramos"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "José Antonio Primo de Rivera"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
@@ -173,7 +181,17 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 	picture = "Portrait_Spain_Francisco_Franco.dds"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Emilo Mola"
+	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
 	traits = {
 		#
 	}
@@ -183,7 +201,17 @@ create_country_leader = {
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Gil Robles"
+	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
 	traits = {
 		#
 	}
@@ -193,7 +221,18 @@ create_country_leader = {
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = market_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Portela Valladares"
+	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
 	traits = {
 		#
 	}
@@ -203,16 +242,6 @@ create_country_leader = {
 	name = "Manuel Azaña Díaz"
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "Portrait_Spain_Manuel_Azana.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {
@@ -230,11 +259,31 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
+	name = "Dolores Ibárruri"
+	desc = "POLITICS_JOSE_DIAZ_DESC"
+	picture = "Portrait_Spain_Jose_Diaz.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
 	name = "Jose Díaz Ramos"
 	desc = "POLITICS_JOSE_DIAZ_DESC"
 	picture = "Portrait_Spain_Jose_Diaz.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Francisco Largo Caballero"
+	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
 	traits = {
 		#
 	}

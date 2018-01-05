@@ -1,9 +1,8 @@
 leader_traits = {
-########################################
-## Stuff
-########################################
+
 	reichsfuhrer = {
 		sprite = 13
+		#subject_autonomy_gain = -0.5
 		resistance_tick_auto = -1
 
 		ai_will_do = {

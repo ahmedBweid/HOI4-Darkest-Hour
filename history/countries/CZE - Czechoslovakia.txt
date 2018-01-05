@@ -34,7 +34,8 @@ set_politics = {
 		national_socialist = { popularity = 3 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 5 }		
-		social_conservative = { popularity = 55 }	
+		social_conservative = { popularity = 20 }		
+		market_liberal = { popularity = 35 }		
 		social_liberal = { popularity = 18 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 9 }		
@@ -42,94 +43,45 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1935.5.19"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
-####################################################
-# Czech Leaders
-####################################################
-#NS
-create_country_leader = {
-	name = "Konrad Henlein"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Radola Gajda"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Jan Syrovy"
-	desc = ""
-	picture = "Czechoslovakia_PA_Jan_Syrovy.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
-}
-
-#SC
 create_country_leader = {
 	name = "Edouard Benes"
-	desc = ""
-	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
+	desc = "POLITICS_EDVARD_BENES_DESC"
+	picture = "Portrait_Czech_Edvard_Benes.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#SL 
-create_country_leader = {
-	name = "Josef Václav Najman"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Antonín Hampl"
-	desc = ""
-	picture = "Sweden_SD_Per_Albin_Hansson.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
+	ideology = market_liberalism
+	traits = {
+		#
+	}
 }
 
-#LWR
 create_country_leader = {
-	name = "Václav Klofáč"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	name = "Jaroslav Krejčí"
+	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
+	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = {}
+	ideology = national_socialism
+	traits = {
+		#
+	}
 }
-#LE (None Found)
-#ST
+
 create_country_leader = {
 	name = "Klement Gottwald"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	desc = "POLITICS_KLEMENT_GOTTWALD_DESC"
+	picture = "Portrait_Czech_Klement_Gottwald.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-####################################################
-# Czech General Staff
-####################################################
 create_field_marshal = {
 	name = "Vojtěch Luža"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"

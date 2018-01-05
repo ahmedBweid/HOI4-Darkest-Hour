@@ -51,6 +51,7 @@ set_national_unity = 0.7
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
+		improved_infantry_weapons = 1
 		support_weapons = 1
 		support_weapons2 = 1
 		paratroopers = 1
@@ -105,7 +106,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 2 }		
-		social_conservative = { popularity = 17 }	
+		social_conservative = { popularity = 7 }		
+		market_liberal = { popularity = 10 }		
 		social_liberal = { popularity = 9 }		
 		social_democrat = { popularity = 54 }		
 		left_wing_radical = { popularity = 18 }		

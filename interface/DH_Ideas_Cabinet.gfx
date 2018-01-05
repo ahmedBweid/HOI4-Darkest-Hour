@@ -1,9 +1,0 @@
-spriteTypes = {	
-#########################################################
-# Generic Portrait
-#########################################################
-	spriteType = {
-		name = "GFX_idea_Generic_Portrait"
-		textureFile = "gfx/interface/ideas/cabinet/generic_minister.dds"
-	}
-}

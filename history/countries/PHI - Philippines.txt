@@ -15,27 +15,6 @@ set_technology = {
 
 set_convoys = 5
 
-set_politics = {
-
-	parties = {
-		national_socialist = { popularity = 0 }		
-		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 17 }		
-		social_conservative = { popularity = 68 }		
-		
-		social_liberal = { popularity = 15 }		
-		social_democrat = { popularity = 0 }		
-		left_wing_radical = { popularity = 0 }		
-		leninist = { popularity = 0 }		
-		stalinist = { popularity = 0 }	
-	}
-	
-	ruling_party = social_conservative
-	last_election = "1935.9.15"
-	election_frequency = 72
-	elections_allowed = yes
-}
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -88,7 +67,26 @@ set_politics = {
 	}
 }
 
+set_politics = {
 
+	parties = {
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 17 }		
+		social_conservative = { popularity = 68 }		
+		market_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 15 }		
+		social_democrat = { popularity = 0 }		
+		left_wing_radical = { popularity = 0 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1935.9.15"
+	election_frequency = 72
+	elections_allowed = yes
+}
 
 create_country_leader = {
 	name = "Manuel Luis Quezón"
@@ -120,7 +118,7 @@ create_country_leader = {
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 17 }		
 			social_conservative = { popularity = 68 }		
-			
+			market_liberal = { popularity = 0 }		
 			social_liberal = { popularity = 15 }		
 			social_democrat = { popularity = 0 }		
 			left_wing_radical = { popularity = 0 }		

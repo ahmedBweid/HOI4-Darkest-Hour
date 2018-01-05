@@ -27,8 +27,8 @@ country_event = {
 		}
 		GER = {
 			if = {
-				limit = { OR = { has_dlc = "Death or Dishonor" has_dlc = "Together for Victory" } }
-				set_autonomy = { target = NOR autonomy_state = DH_autonomy_puppet }
+				limit = { has_dlc = "Together for Victory" }
+				set_autonomy = { target = NOR autonomy_state = autonomy_puppet }
 				else = {
 					puppet = NOR
 				}
@@ -57,8 +57,8 @@ country_event = {
 			limit = { original_tag = NOR has_government = fascist }
 			GER = {
 				if = {
-					limit = { OR = { has_dlc = "Death or Dishonor" has_dlc = "Together for Victory" } }
-					set_autonomy = { target = NOR autonomy_state = DH_autonomy_puppet }
+					limit = { has_dlc = "Together for Victory" }
+					set_autonomy = { target = NOR autonomy_state = autonomy_puppet }
 					else = {
 						puppet = NOR
 					}

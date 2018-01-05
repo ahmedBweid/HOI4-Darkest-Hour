@@ -67,18 +67,23 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					OR = {
+					AND = {
 						has_dlc = "Together for Victory"
-						has_dlc = "Death or Dishonor"
 					}
 				}
 				set_autonomy = {
 					target = ROM
-					autonomous_state = DH_autonomy_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = ROM
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = ROM
 			}
 
 			SOV = {
@@ -153,18 +158,23 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					OR = {
+					AND = {
 						has_dlc = "Together for Victory"
-						has_dlc = "Death or Dishonor"
 					}
 				}
 				set_autonomy = {
 					target = HUN
-					autonomous_state = DH_autonomy_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = HUN
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
 				}
+				puppet = HUN
 			}
 			
 			SOV = {

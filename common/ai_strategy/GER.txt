@@ -129,7 +129,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = carrier
-		value = -500
+		value = -50
 	}	
 	
 	ai_strategy = {

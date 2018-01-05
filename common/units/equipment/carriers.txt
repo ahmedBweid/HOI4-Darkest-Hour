@@ -1,7 +1,5 @@
 equipments = {
-######################################################################
-###################### Carriers  (CV) ##################################
-######################################################################
+
 	carrier = {
 		is_archetype = yes
 		is_buildable = no
@@ -44,7 +42,7 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
-		build_cost_ic = 12750
+		build_cost_ic = 25500
 		resources = {
 			oil = 1
 			steel = 3
@@ -54,345 +52,344 @@ equipments = {
 		manpower = 1100
 	}
 
-################################
 #1922 Carrier	
-################################
 	carrier_0 = {
 		archetype = carrier
-		priority = 10
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 12750
-		manpower = 1500
-		port_capacity_usage = 2
-		naval_range = 8000
-		naval_speed = 26
-#Detection Stats
-		surface_detection = 22
-		sub_detection = 0
-		surface_visibility = 20
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 40
-		evasion = 30
-		reliability = 0.20
-#Offensive Stats
-		fire_range = 0
-		attack = 0
-		torpedo_attack = 0
-		anti_air_attack = 0.0
-		sub_attack = 0
-		#shore_bombardment = 4
-		armor_value = 0
 		ap_attack = 0
-		carrier_size = 40
-#Resources
-		resources = { steel = 3 oil = 1 chromium = 1 }
-#
+		attack = 1
+		fire_range = 15
+		torpedo_attack = 0
+		carrier_size = 55
+		
+		anti_air_attack = 10
+		
+		armor_value = 9
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 0.5
+		surface_visibility = 30
+		naval_speed = 28
+		reliability = 0.80
+
+		naval_range = 4000
+		
+		max_strength = 325
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 25500
+		resources = {
+			oil = 1
+			steel = 4
+			chromium = 1
+		}
+		manpower = 5000
 	}
 
-################################
 #1930 Carrier	
-################################
 	carrier_1 = {
 		archetype = carrier
 		parent = carrier_0
-		priority = 30
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 13500
-		manpower = 1600
-		port_capacity_usage = 2
-		naval_range = 10000
-		naval_speed = 28
-#Detection Stats
-		surface_detection = 22
-		sub_detection = 0
-		surface_visibility = 25
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 60
-		evasion = 55
-		reliability = 0.55
-#Offensive Stats
-		fire_range = 18
-		attack = 20
+		ap_attack = 0
+		attack = 1
+		fire_range = 15
 		torpedo_attack = 0
-		anti_air_attack = 18
-		sub_attack = 0
-		#shore_bombardment = 5.5
-		armor_value = 3
-		ap_attack = 7
 		carrier_size = 55
-#Resources
-		resources = { steel = 3 oil = 1 chromium = 1 }
-#
+		
+		anti_air_attack = 10
+		
+		armor_value = 9
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 0.5
+		surface_visibility = 30
+		naval_speed = 28
+		reliability = 0.80
+
+		naval_range = 4000
+		
+		max_strength = 325
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 27000
+		resources = {
+			oil = 1
+			steel = 4
+			chromium = 1
+		}
+		manpower = 5000
 	}
 
-################################
 #1933 Carrier	
-################################
 	carrier_2 = {
 		archetype = carrier
 		parent = carrier_1
-		priority = 40
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 14250
-		manpower = 1800
-		port_capacity_usage = 2
-		naval_range = 12000
-		naval_speed = 30
-#Detection Stats
-		surface_detection = 24
-		sub_detection = 0
-		surface_visibility = 25
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 80
-		evasion = 58
-		reliability = 0.60
-#Offensive Stats
-		fire_range = 18
-		attack = 26
+		ap_attack = 0
+		attack = 2
+		fire_range = 16
 		torpedo_attack = 0
-		anti_air_attack = 26
-		sub_attack = 0
-		#shore_bombardment = 6
-		armor_value = 5
-		ap_attack = 9
-		carrier_size = 60
-#Resources
-		resources = { steel = 4 oil = 1 chromium = 1 }
-#
+		carrier_size = 70
+		
+		anti_air_attack = 12
+		
+		armor_value = 11
+		evasion = 12
+		
+		surface_detection = 20
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 30
+		reliability = 0.85
+
+		naval_range = 5000
+		
+		max_strength = 350
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 28500
+		resources = {
+			oil = 2
+			steel = 4
+			chromium = 2
+		}
+		manpower = 5500
 	}
 
-################################
 #1936 Carrier	
-################################
 	carrier_3 = {
 		archetype = carrier
 		parent = carrier_2
-		priority = 50
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 15000
-		manpower = 1800
-		port_capacity_usage = 2
-		naval_range = 14000
-		naval_speed = 31
-#Detection Stats
-		surface_detection = 24
-		sub_detection = 5
-		surface_visibility = 30
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 120
-		evasion = 60
-		reliability = 0.70
-#Offensive Stats
-		fire_range = 15.5
-		attack = 15
+		ap_attack = 0
+		attack = 2
+		fire_range = 17
 		torpedo_attack = 0
-		anti_air_attack = 38
-		sub_attack = 0
-		#shore_bombardment = 6.5
-		armor_value = 7
-		ap_attack = 1.5
-		carrier_size = 65
-#Resources
-		resources = { steel = 4 oil = 1 chromium = 1 }
-#
+		carrier_size = 85
+		
+		anti_air_attack = 14
+		
+		armor_value = 13
+		evasion = 14
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 30000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}		
+		manpower = 6000
 	}
 	
-################################
 #1940 Carrier	
-################################
 	carrier_4 = {
 		archetype = carrier
 		parent = carrier_3
-		priority = 65
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 16500
-		manpower = 2800
-		port_capacity_usage = 2
-		naval_range = 16000
-		naval_speed = 31
-#Detection Stats
-		surface_detection = 30
-		sub_detection = 5
-		surface_visibility = 30
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 140
-		evasion = 65
-		reliability = 0.80
-#Offensive Stats
-		fire_range = 15.5
-		attack = 16
+		ap_attack = 0
+		attack = 3
+		fire_range = 19
 		torpedo_attack = 0
-		anti_air_attack = 50
-		sub_attack = 4
-		#shore_bombardment = 7
-		armor_value = 8
-		ap_attack = 2
-		carrier_size = 70
-#Resources
-		resources = { steel = 4 oil = 2 chromium = 1 }
-#
+		carrier_size = 90
+		
+		anti_air_attack = 16
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 33000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}		
+		manpower = 6000
 	}
 
-################################
 #1943 Carrier	
-################################
 	carrier_5 = {
 		archetype = carrier
 		parent = carrier_4
 		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 17250
-		manpower = 3500
-		port_capacity_usage = 2
-		naval_range = 18000
-		naval_speed = 32
-#Detection Stats
-		surface_detection = 40
-		sub_detection = 10
-		surface_visibility = 32
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 200
-		evasion = 65
-		reliability = 0.80
-#Offensive Stats
-		fire_range = 15.5
-		attack = 17
+		ap_attack = 0
+		attack = 3
+		fire_range = 19
 		torpedo_attack = 0
-		anti_air_attack = 56
-		sub_attack = 6
-		#shore_bombardment = 7.5
-		armor_value = 10
-		ap_attack = 2
-		carrier_size = 75
-#Resources
-		resources = { steel = 4 oil = 2 chromium = 1 }
-#
+		carrier_size = 90
+		
+		anti_air_attack = 16
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 34500
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}		
+		manpower = 6000
 	}	
 	
-################################
 #1948 Carrier	
-################################
 	carrier_6 = {
 		archetype = carrier
 		parent = carrier_5
-		priority = 80
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 18000
-		manpower = 3800
-		port_capacity_usage = 2
-		naval_range = 20000
-		naval_speed = 32
-#Detection Stats
-		surface_detection = 45
-		sub_detection = 10
-		surface_visibility = 33
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 240
-		evasion = 70
-		reliability = 0.85
-#Offensive Stats
-		fire_range = 15.5
-		attack = 18
+		ap_attack = 0
+		attack = 3
+		fire_range = 19
 		torpedo_attack = 0
-		anti_air_attack = 62
-		sub_attack = 8
-		#shore_bombardment = 8
-		armor_value = 12
-		ap_attack = 2.5
-		carrier_size = 80
-#Resources
-		resources = { steel = 5 oil = 2 chromium = 1 }
-#
+		carrier_size = 90
+		
+		anti_air_attack = 16
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 36000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}		
+		manpower = 6000
 	}
 
-################################
 #1950 Carrier	
-################################
 	carrier_7 = {
 		archetype = carrier
 		parent = carrier_6
-		priority = 90
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 18750
-		manpower = 4000
-		port_capacity_usage = 2
-		naval_range = 20000
-		naval_speed = 32
-#Detection Stats
-		surface_detection = 50
-		sub_detection = 15
-		surface_visibility = 35
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 260
-		evasion = 70
-		reliability = 0.90
-#Offensive Stats
-		fire_range = 17
-		attack = 20
+		ap_attack = 0
+		attack = 3
+		fire_range = 19
 		torpedo_attack = 0
-		anti_air_attack = 68
-		sub_attack = 12
-		#shore_bombardment = 8
-		armor_value = 12
-		ap_attack = 2.5
-		carrier_size = 80
-#Resources
-		resources = { steel = 5 oil = 2 chromium = 1 }
-#
+		carrier_size = 90
+		
+		anti_air_attack = 16
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 37500
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}		
+		manpower = 6000
 	}
 	
-################################
-#1958 Nuclear Carrier (CVN)
-################################
+#1958 Nuclear Carrier	
 	nuclear_carrier_0 = {
 		archetype = carrier
 		parent = carrier_6
-		priority = 100
+		priority = 70
 		
-#Misc Stats
-		build_cost_ic = 19500
-		manpower = 5000
-		port_capacity_usage = 2
-		naval_range = 40000
-		naval_speed = 34
-#Detection Stats
-		surface_detection = 60
-		sub_detection = 15
-		surface_visibility = 35
-		sub_visibility = 0
-#Defensive Stats
-		max_strength = 280
-		evasion = 75
-		reliability = 0.90
-#Offensive Stats
-		fire_range = 17
-		attack = 22
+		ap_attack = 0
+		attack = 3
+		fire_range = 19
 		torpedo_attack = 0
-		anti_air_attack = 80
-		sub_attack = 20
-		#shore_bombardment = 8
-		armor_value = 12
-		ap_attack = 3
-		carrier_size = 80
-#Resources
-		resources = { steel = 7 oil = 1 chromium = 2 }
-#
+		carrier_size = 90
+		
+		anti_air_attack = 16
+		
+		armor_value = 14
+		evasion = 15
+		
+		surface_detection = 30
+		sub_detection = 1
+		surface_visibility = 30
+		naval_speed = 32
+		reliability = 0.90
+
+		naval_range = 6000
+		
+		max_strength = 400
+		
+		port_capacity_usage = 2
+
+		build_cost_ic = 39000
+		resources = {
+			oil = 2
+			steel = 5
+			chromium = 2
+		}
+		manpower = 6000
 	}	
-################################
 }

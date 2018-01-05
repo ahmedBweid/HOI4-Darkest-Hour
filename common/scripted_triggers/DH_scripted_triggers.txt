@@ -1,17 +1,16 @@
-############################################ Has custom Elections ? ###############################
-	has_custom_elections = {
+############################################ Has custom Ministers ? ###############################
+	has_ministers = {
 		OR = {
-			original_tag = USA
-			original_tag = AST
-			original_tag = CAN
-			
+			original_tag = GER
+			original_tag = USA			
 		}
 	}
 ############################################# Ideology groups ##################################
 #--- Democratic Ideology group
 	ideology_group_democracy = {
 		OR = {
-			has_government = social_conservative	
+			has_government = social_conservative
+			has_government = market_liberal		
 			has_government = social_liberal
 			has_government = social_democrat
 		}
@@ -37,24 +36,32 @@
 		OR = {
 			AND = {
 			    has_government = social_conservative
-				social_conservative > 0.20
+				social_conservative > 0.25
+			}
+			AND = {
+			    has_government = market_liberal
+				market_liberal > 0.25
 			}
 			AND = {
 			    has_government = social_liberal
-				social_liberal > 0.20
+				social_liberal > 0.25
 			}
 			AND = {
 			    has_government = social_democrat
-				social_democrat > 0.20
+				social_democrat > 0.25
 			}
 
-			OR = {
-				social_conservative < 0.20
-				social_liberal < 0.20
-				social_democrat < 0.20
+			AND = {
+				social_conservative < 0.25
+				market_liberal < 0.25
+				social_liberal < 0.25
+				social_democrat < 0.25
 			}
 		}
 	}
+
+
+
 
 #################################################################################################
 

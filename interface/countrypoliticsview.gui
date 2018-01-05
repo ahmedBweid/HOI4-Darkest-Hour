@@ -510,7 +510,7 @@ guiTypes = {
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
-		size = { width=270 height=540 }
+		size = { width=500 height=540 }
 		show_sound = open_sub_window
 		
 		background = {
@@ -523,7 +523,7 @@ guiTypes = {
 			position = { x = 0 y = 4 }
 			font = "hoi_20b"
 			text = "Economic Laws"
-			maxWidth = 260
+			maxWidth = 450
 			maxHeight = 20
 			format = center
 		}
@@ -532,19 +532,19 @@ guiTypes = {
 			position = { x = 0 y = 26 }
 			font = "hoi_18b"
 			text = "Switch out Henschel"
-			maxWidth = 260
+			maxWidth = 450
 			maxHeight = 20
 			format = center
 		}
 		containerWindowType = {
 			name = "ideas"
 			position = { x = 0 y = 50 }
-			size = { width=250 height=100%% }	
+			size = { width=500 height=100%% }	
 			
 			containerWindowType = {
 				name = "grid"
 				position = { x = 0 y = 0 }
-				size = { width=270 height=-4 }
+				size = { width=500 height=-4 }
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 4 bottom = 12}	
 
@@ -562,9 +562,9 @@ guiTypes = {
 				gridBoxType = {
 					name = "box"
 					position = { x = 10 y = 10 }
-					size = { width = 270 height = 1 }
+					size = { width = 500 height = 1 }
 					slotsize = { width = 231 height = 75 }
-					max_slots_horizontal = 1
+					max_slots_horizontal = 2
 					add_horizontal = yes
 					format = "UPPER_LEFT"
 				}
@@ -573,7 +573,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close"
-			position = { x = -265 y = 5 }
+			position = { x = -50 y = 5 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"

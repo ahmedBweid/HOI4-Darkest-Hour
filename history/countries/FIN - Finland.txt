@@ -115,7 +115,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 1 }		
 		paternal_autocrat = { popularity = 8 }		
-		social_conservative = { popularity = 21 }
+		social_conservative = { popularity = 10 }		
+		market_liberal = { popularity = 11 }		
 		social_liberal = { popularity = 28 }		
 		social_democrat = { popularity = 39 }		
 		left_wing_radical = { popularity = 2 }		
@@ -127,10 +128,6 @@ set_politics = {
 	last_election = "1933.7.1"
 	election_frequency = 36
 	elections_allowed = yes
-}
-
-add_ideas = {
-	sisu
 }
 
 1939.1.1 = {
@@ -160,80 +157,56 @@ add_ideas = {
 		elections_allowed = yes
 	}
 }
-####################################################
-# Finnish Leaders
-####################################################
-#NS
-#FA
-create_country_leader = {
-	name = "Vihtori Kosola"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Risto Ryti"
-	desc = ""
-	picture = "Poland_PA_Ignacy_Moscicki.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
-}
-
-#SC
 create_country_leader = {
 	name = "Pehr E. Svinhufvud"
 	desc = ""
-	picture = "Finland_SC_Pehr_Svinhufvud.dds"
+	picture = "Portrait_Finland_Pehr_Svinhufvud.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#SL 
-#SD
-create_country_leader = {
-	name = "Juho Kusti Paasikivi"
-	desc = ""
-	picture = "Sweden_SD_Per_Albin_Hansson.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#LWR
 create_country_leader = {
-	name = "Arvo Tuominen"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = {}
-}
-#LE
-create_country_leader = {
-	name = "Niilo Wälläri"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	name = "Aimo Aaltonen"
+	desc = "POLITICS_AIMO_AALTONEN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {}
-}
-#ST
-create_country_leader = {
-	name = "Otto Wille Kuusinen"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-####################################################
-# Finnish General Staff
-####################################################
+create_country_leader = {
+	name = "Vilho Annala"
+	desc = "POLITICS_VILHO_ANNALA_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kyösti Kallio"
+	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
+	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
+
+
+
+add_ideas = {
+	sisu
+}
+
 create_corps_commander = {
 	name = "Erik Heinrichs"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"

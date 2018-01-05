@@ -13,10 +13,7 @@ set_technology = {
 	trench_warfare = 1
 	fleet_in_being = 1
 	CAS1 = 1
-# Armour Tech
-	experimental_tank_1916 = 1
-	light_tank_1917 = 1
-	heavy_tank_1917 = 1	
+	
 }
 
 if = {
@@ -124,7 +121,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 75 }	
+		social_conservative = { popularity = 10 }		
+		market_liberal = { popularity = 65 }		
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 15 }		
@@ -132,93 +130,57 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-
-####################################################
-## Raj/Indian Leaders
-####################################################
-#NS
-create_country_leader = {
-	name = "M. S. Golwalkar"
-	desc = ""
-	picture = "DH_Fritz_Julius_Kuhn.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = { }
-}
-#FA
-create_country_leader = {
-	name = "Subhas Chandra Bose"
-	desc = ""
-	picture = "DH_William_Dudley_Pelley.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = { }
-}
-#PA
-create_country_leader = {
-	name = "Rashbehari Basu"
-	desc = ""
-	picture = "DH_Gerald_Smith.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = { }
-}
-#SC
 create_country_leader = {
 	name = "Lord Linlithgow"
-	desc = ""
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
 	picture = "Portrait_British_Raj_Lord_Linlithgow.dds"
 	expire = "1965.1.1"
 	ideology = market_liberalism
-	traits = { }
-}
-#SL
-create_country_leader = {
-	name = "Lord Louis Mountbatten"
-	desc = ""
-	picture = "DH_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = social_liberalism
-	traits = { }
-}
-#SD
-create_country_leader = {
-	name = "Mahatma Mohandas Gandhi"
-	desc = ""
-	picture = "DH_Allan_Benson.dds"
-	expire = "1947.1.1"
-	ideology = social_democracy
-	traits = { }
-}
-#LWR
-create_country_leader = {
-	name = "A. K. Fazlul Huq"
-	desc = ""
-	picture = "DH_Norman_Thomas.dds"
-	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = { }
-}
-#LE
-#ST
-create_country_leader = {
-	name = "P. Krishna Pillai"
-	desc = ""
-	picture = "DH_Earl_Browder.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = { }
+	traits = {
+		
+	}
 }
 
-####################################################
-## Raj/Indian Generals
-####################################################
+# REVISIT Unclear if appropriate for this ideology
+create_country_leader = {
+	name = "V. D. Savarkar"
+	desc = "POLITICS_VD_SAVARKAR_DESC"
+	picture = "GFX_RAJ_veer_savarkar"
+	expire = "1965.1.1"
+	ideology = falangism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "P. Krishna Pillai"
+	desc = "POLITICS_P_KRISHNA_PILLAI_DESC"
+	picture = "GFX_RAJ_krishna_pillai"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "B. P. Sitaramayya"
+	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
+	picture = "GFX_RAJ_pattabhi_sitaramayya"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
 create_corps_commander = {
 	name = "Noel Beresford-Peirse"
 	gfx = "GFX_RAJ_noel_beresford_peirse"

@@ -66,7 +66,7 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 40 }		
 		social_conservative = { popularity = 60 }		
-		
+		market_liberal = { popularity = 0 }		
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 0 }		
@@ -80,77 +80,52 @@ set_politics = {
 	elections_allowed = no
 }
 
-###############################
-# British Leaders 
-###############################
-#NS
-#FS
+create_country_leader = {
+	name = "Fuad I"
+	desc = ""
+	picture = "Portrait_Egypt_Fuad_I.dds"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Muhammad Naguib"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_social_conservative1.dds"
+	ideology = social_liberalism
+	traits = {
+		#
+	}
+}
+
 create_country_leader = {
 	name = "Ahmed Husayn"
 	desc = ""
-	picture = "Portrait_Britain_Oswald_Mosley.dds"
-	expire = "1965.1.1"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 	ideology = fascist_ideology
-	traits = {}
+	traits = {
+		#
+	}
 }
-#PA
+
 create_country_leader = {
-	name = "Farouk I"
+	name = "Farouk Muhammad Ali"
 	desc = ""
-	picture = "Egypt_PA_Fuad_I.dds"
-	expire = "1965.1.1"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
 	ideology = paternal_autocracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "Ali Mahir Pasha"
+	name = "Hosni al-Arabi"
 	desc = ""
-	picture = "Portrait_Britain_Stanley_Baldwin.dds"
-	expire = "1938.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-
-#SL
-create_country_leader = {
-	name = "Abdel Hamid Badawi"
-	desc = ""
-	picture = "Portrait_Britain_J_R_Clynes.dds"
-	expire = "1938.1.1"
-	ideology = social_liberalism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Mohammed Naguib"
-	desc = ""
-	picture = "Portrait_Britain_Clement_Attlee.dds"
-	expire = "1938.1.1"
-	ideology = social_democracy
-	traits = {}
-}
-
-#LWR
-#LE
-create_country_leader = {
-	name = "Abdel Hakim Amer"
-	desc = ""
-	picture = "Portrait_Britain_Tom_Mann.dds"
-	expire = "1965.1.1"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
 	ideology = leninism
-	traits = {}
+	traits = {
+		#
+	}
 }
-#ST
-create_country_leader = {
-	name = "Henri Curiel"
-	desc = ""
-	picture = "Portrait_Britain_Tony_Cliff.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
-}
-###############################
-# Egyptian Generals 
-###############################

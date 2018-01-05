@@ -15,7 +15,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 1
+		owns_state = 1
 		NOT = { has_country_flag = renamed_state_1 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_1
@@ -51,7 +51,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 2
+		owns_state = 2
 		NOT = { has_country_flag = renamed_state_2 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_1
@@ -86,7 +86,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 3
+		owns_state = 3
 		NOT = { has_country_flag = renamed_state_3 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_3
@@ -122,7 +122,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 4
+		owns_state = 4
 		NOT = { has_country_flag = renamed_state_3 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_4
@@ -159,7 +159,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 5
+		owns_state = 5
 		NOT = { has_country_flag = renamed_state_5 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_4
@@ -193,7 +193,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 6
+		owns_state = 6
 		NOT = { has_country_flag = renamed_state_6 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_6
@@ -231,7 +231,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 7
+		owns_state = 7
 		NOT = { has_country_flag = renamed_state_7 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_7
@@ -269,7 +269,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 9
+		owns_state = 9
 		NOT = { has_country_flag = renamed_state_9 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_9
@@ -306,7 +306,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 10
+		owns_state = 10
 		NOT = { has_country_flag = renamed_state_10 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_10
@@ -342,7 +342,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 11
+		owns_state = 11
 		NOT = { has_country_flag = renamed_state_11 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_11
@@ -378,7 +378,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 12
+		owns_state = 12
 		NOT = { has_country_flag = renamed_state_12 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_12
@@ -415,7 +415,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 13
+		owns_state = 13
 		NOT = { has_country_flag = renamed_state_13 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_13
@@ -451,7 +451,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 14
+		owns_state = 14
 		NOT = { has_country_flag = renamed_state_14 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_14
@@ -489,7 +489,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 15
+		owns_state = 15
 		NOT = { has_country_flag = renamed_state_15 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_15
@@ -527,7 +527,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 16
+		owns_state = 16
 		NOT = { has_country_flag = renamed_state_16 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_16
@@ -561,7 +561,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 17
+		owns_state = 17
 		NOT = { has_country_flag = renamed_state_17 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_17
@@ -596,7 +596,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 18
+		owns_state = 18
 		NOT = { has_country_flag = renamed_state_18 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_18
@@ -630,7 +630,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 19
+		owns_state = 19
 		NOT = { has_country_flag = renamed_state_19 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_19
@@ -665,7 +665,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 20
+		owns_state = 20
 		NOT = { has_country_flag = renamed_state_20 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_20
@@ -698,7 +698,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 21
+		owns_state = 21
 		NOT = { has_country_flag = renamed_state_21 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_21
@@ -734,7 +734,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 22
+		owns_state = 22
 		NOT = { has_country_flag = renamed_state_22 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_22
@@ -769,7 +769,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 23
+		owns_state = 23
 		NOT = { has_country_flag = renamed_state_23 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_23
@@ -804,7 +804,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 24
+		owns_state = 24
 		NOT = { has_country_flag = renamed_state_24 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_24
@@ -839,7 +839,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 26
+		owns_state = 26
 		NOT = { has_country_flag = renamed_state_26 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_26
@@ -873,7 +873,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 27
+		owns_state = 27
 		NOT = { has_country_flag = renamed_state_27 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_27
@@ -907,7 +907,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 28
+		owns_state = 28
 		NOT = { has_country_flag = renamed_state_28 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_28
@@ -944,7 +944,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 29
+		owns_state = 29
 		NOT = { has_country_flag = renamed_state_29 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_29
@@ -978,7 +978,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 30
+		owns_state = 30
 		NOT = { has_country_flag = renamed_state_30 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_30
@@ -1013,7 +1013,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 31
+		owns_state = 31
 		NOT = { has_country_flag = renamed_state_31 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_31
@@ -1048,7 +1048,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 32
+		owns_state = 32
 		NOT = { has_country_flag = renamed_state_32 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_32
@@ -1083,7 +1083,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 33
+		owns_state = 33
 		NOT = { has_country_flag = renamed_state_33 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_33
@@ -1117,7 +1117,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 34
+		owns_state = 34
 		NOT = { has_country_flag = renamed_state_34 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_34
@@ -1153,7 +1153,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 35
+		owns_state = 35
 		NOT = { has_country_flag = renamed_state_35 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_35
@@ -1188,7 +1188,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 36
+		owns_state = 36
 		NOT = { has_country_flag = renamed_state_36 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_36
@@ -1222,7 +1222,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 37
+		owns_state = 37
 		NOT = { has_country_flag = renamed_state_37 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_37
@@ -1258,7 +1258,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 38
+		owns_state = 38
 		NOT = { has_country_flag = renamed_state_38 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_38
@@ -1293,7 +1293,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 39
+		owns_state = 39
 		NOT = { has_country_flag = renamed_state_39 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_39
@@ -1327,7 +1327,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 40
+		owns_state = 40
 		NOT = { has_country_flag = renamed_state_40 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_40
@@ -1361,7 +1361,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 41
+		owns_state = 41
 		NOT = { has_country_flag = renamed_state_41 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_41
@@ -1396,7 +1396,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 43
+		owns_state = 43
 		NOT = { has_country_flag = renamed_state_43 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_43
@@ -1431,7 +1431,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 44
+		owns_state = 44
 		NOT = { has_country_flag = renamed_state_44 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_44
@@ -1466,7 +1466,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 45
+		owns_state = 45
 		NOT = { has_country_flag = renamed_state_45 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_45
@@ -1500,7 +1500,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 46
+		owns_state = 46
 		NOT = { has_country_flag = renamed_state_46 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_46
@@ -1537,7 +1537,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 47
+		owns_state = 47
 		NOT = { has_country_flag = renamed_state_47 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_47
@@ -1572,7 +1572,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 52
+		owns_state = 52
 		NOT = { has_country_flag = renamed_state_52 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_52
@@ -1607,7 +1607,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 54
+		owns_state = 54
 		NOT = { has_country_flag = renamed_state_54 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_54
@@ -1642,7 +1642,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 70
+		owns_state = 70
 		NOT = { has_country_flag = renamed_state_70 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_70
@@ -1676,7 +1676,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 71
+		owns_state = 71
 		NOT = { has_country_flag = renamed_state_71 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_71
@@ -1710,7 +1710,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 72
+		owns_state = 72
 		NOT = { has_country_flag = renamed_state_72 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_72
@@ -1744,7 +1744,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 73
+		owns_state = 73
 		NOT = { has_country_flag = renamed_state_73 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_73
@@ -1778,7 +1778,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 74
+		owns_state = 74
 		NOT = { has_country_flag = renamed_state_74 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_74
@@ -1812,7 +1812,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 75
+		owns_state = 75
 		NOT = { has_country_flag = renamed_state_75 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_75
@@ -1847,7 +1847,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 76
+		owns_state = 76
 		NOT = { has_country_flag = renamed_state_76 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_76
@@ -1882,7 +1882,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 78
+		owns_state = 78
 		NOT = { has_country_flag = renamed_state_78 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_78
@@ -1916,7 +1916,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 79
+		owns_state = 79
 		NOT = { has_country_flag = renamed_state_79 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_79
@@ -1951,7 +1951,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 80
+		owns_state = 80
 		NOT = { has_country_flag = renamed_state_80 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_80
@@ -1985,7 +1985,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 84
+		owns_state = 84
 		NOT = { has_country_flag = renamed_state_84 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_84
@@ -2020,7 +2020,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 85
+		owns_state = 85
 		NOT = { has_country_flag = renamed_state_85 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_85
@@ -2054,7 +2054,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 86
+		owns_state = 86
 		NOT = { has_country_flag = renamed_state_86 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_86
@@ -2089,7 +2089,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 87
+		owns_state = 87
 		NOT = { has_country_flag = renamed_state_87 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_87
@@ -2124,7 +2124,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 88
+		owns_state = 88
 		NOT = { has_country_flag = renamed_state_88 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_88
@@ -2159,7 +2159,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 89
+		owns_state = 89
 		NOT = { has_country_flag = renamed_state_89 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_88
@@ -2193,7 +2193,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 90
+		owns_state = 90
 		NOT = { has_country_flag = renamed_state_90 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_88
@@ -2227,7 +2227,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 91
+		owns_state = 91
 		NOT = { has_country_flag = renamed_state_91 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_91
@@ -2262,7 +2262,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 92
+		owns_state = 92
 		NOT = { has_country_flag = renamed_state_92 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_92
@@ -2296,7 +2296,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 95
+		owns_state = 95
 		NOT = { has_country_flag = renamed_state_95 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_95
@@ -2330,7 +2330,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 94
+		owns_state = 94
 		NOT = { has_country_flag = renamed_state_94 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_94
@@ -2365,7 +2365,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 96
+		owns_state = 96
 		NOT = { has_country_flag = renamed_state_96 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_96
@@ -2400,7 +2400,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 97
+		owns_state = 97
 		NOT = { has_country_flag = renamed_state_97 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_97
@@ -2435,7 +2435,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 98
+		owns_state = 98
 		NOT = { has_country_flag = renamed_state_98 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_98
@@ -2469,7 +2469,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 99
+		owns_state = 99
 		NOT = { has_country_flag = renamed_state_99 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_99
@@ -2504,7 +2504,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 100
+		owns_state = 100
 		NOT = { has_country_flag = renamed_state_100 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_100
@@ -2538,7 +2538,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 102
+		owns_state = 102
 		NOT = { has_country_flag = renamed_state_102 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_102
@@ -2573,7 +2573,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 103
+		owns_state = 103
 		NOT = { has_country_flag = renamed_state_103 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_103
@@ -2608,7 +2608,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 104
+		owns_state = 104
 		NOT = { has_country_flag = renamed_state_104 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_104
@@ -2643,7 +2643,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 106
+		owns_state = 106
 		NOT = { has_country_flag = renamed_state_106 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_106
@@ -2677,7 +2677,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 109
+		owns_state = 109
 		NOT = { has_country_flag = renamed_state_109 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_109
@@ -2711,7 +2711,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 110
+		owns_state = 110
 		NOT = { has_country_flag = renamed_state_110 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_110
@@ -2745,7 +2745,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 112
+		owns_state = 112
 		NOT = { has_country_flag = renamed_state_112 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_112
@@ -2780,7 +2780,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 113
+		owns_state = 113
 		NOT = { has_country_flag = renamed_state_113 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_113
@@ -2815,7 +2815,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 114
+		owns_state = 114
 		NOT = { has_country_flag = renamed_state_114 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_114
@@ -2850,7 +2850,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 115
+		owns_state = 115
 		NOT = { has_country_flag = renamed_state_115 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_115
@@ -2886,7 +2886,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 117
+		owns_state = 117
 		NOT = { has_country_flag = renamed_state_117 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_117
@@ -2922,7 +2922,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 119
+		owns_state = 119
 		NOT = { has_country_flag = renamed_state_119 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_119
@@ -2957,7 +2957,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 120
+		owns_state = 120
 		NOT = { has_country_flag = renamed_state_120 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_120
@@ -2992,7 +2992,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 121
+		owns_state = 121
 		NOT = { has_country_flag = renamed_state_121 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_121
@@ -3027,7 +3027,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 123
+		owns_state = 123
 		NOT = { has_country_flag = renamed_state_123 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_123
@@ -3062,7 +3062,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 125
+		owns_state = 125
 		NOT = { has_country_flag = renamed_state_125 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_125
@@ -3097,7 +3097,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 126
+		owns_state = 126
 		NOT = { has_country_flag = renamed_state_126 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_126
@@ -3132,7 +3132,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 127
+		owns_state = 127
 		NOT = { has_country_flag = renamed_state_127 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_127
@@ -3168,7 +3168,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 128
+		owns_state = 128
 		NOT = { has_country_flag = renamed_state_128 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_128
@@ -3202,7 +3202,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 129
+		owns_state = 129
 		NOT = { has_country_flag = renamed_state_129 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_129
@@ -3236,7 +3236,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 130
+		owns_state = 130
 		NOT = { has_country_flag = renamed_state_130 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_130
@@ -3272,7 +3272,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 131
+		owns_state = 131
 		NOT = { has_country_flag = renamed_state_131 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_131
@@ -3307,7 +3307,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 133
+		owns_state = 133
 		NOT = { has_country_flag = renamed_state_133 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_133
@@ -3341,7 +3341,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 134
+		owns_state = 134
 		NOT = { has_country_flag = renamed_state_134 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_134
@@ -3377,7 +3377,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 135
+		owns_state = 135
 		NOT = { has_country_flag = renamed_state_135 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_135
@@ -3412,7 +3412,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 136
+		owns_state = 136
 		NOT = { has_country_flag = renamed_state_136 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_136
@@ -3446,7 +3446,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 137
+		owns_state = 137
 		NOT = { has_country_flag = renamed_state_137 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_137
@@ -3481,7 +3481,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 138
+		owns_state = 138
 		NOT = { has_country_flag = renamed_state_138 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_138
@@ -3517,7 +3517,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 139
+		owns_state = 139
 		NOT = { has_country_flag = renamed_state_139 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_139
@@ -3552,7 +3552,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 140
+		owns_state = 140
 		NOT = { has_country_flag = renamed_state_140 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_140
@@ -3588,7 +3588,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 141
+		owns_state = 141
 		NOT = { has_country_flag = renamed_state_141 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_141
@@ -3622,7 +3622,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 142
+		owns_state = 142
 		NOT = { has_country_flag = renamed_state_142 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_142
@@ -3656,7 +3656,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 143
+		owns_state = 143
 		NOT = { has_country_flag = renamed_state_143 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_143
@@ -3690,7 +3690,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 144
+		owns_state = 144
 		NOT = { has_country_flag = renamed_state_144 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_144
@@ -3724,7 +3724,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 146
+		owns_state = 146
 		NOT = { has_country_flag = renamed_state_146 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_146
@@ -3758,7 +3758,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 149
+		owns_state = 149
 		NOT = { has_country_flag = renamed_state_149 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_149
@@ -3792,7 +3792,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 150
+		owns_state = 150
 		NOT = { has_country_flag = renamed_state_150 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_150
@@ -3826,7 +3826,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 151
+		owns_state = 151
 		NOT = { has_country_flag = renamed_state_151 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_151
@@ -3861,7 +3861,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 152
+		owns_state = 152
 		NOT = { has_country_flag = renamed_state_152 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_152
@@ -3896,7 +3896,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 153
+		owns_state = 153
 		NOT = { has_country_flag = renamed_state_153 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_153
@@ -3930,7 +3930,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 154
+		owns_state = 154
 		NOT = { has_country_flag = renamed_state_154 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_154
@@ -3964,7 +3964,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 155
+		owns_state = 155
 		NOT = { has_country_flag = renamed_state_155 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_155
@@ -3999,7 +3999,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 156
+		owns_state = 156
 		NOT = { has_country_flag = renamed_state_156 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_156
@@ -4033,7 +4033,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 157
+		owns_state = 157
 		NOT = { has_country_flag = renamed_state_157 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_157
@@ -4068,7 +4068,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 158
+		owns_state = 158
 		NOT = { has_country_flag = renamed_state_158 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_158
@@ -4102,7 +4102,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 159
+		owns_state = 159
 		NOT = { has_country_flag = renamed_state_159 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_159
@@ -4137,7 +4137,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 160
+		owns_state = 160
 		NOT = { has_country_flag = renamed_state_160 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_160
@@ -4172,7 +4172,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 161
+		owns_state = 161
 		NOT = { has_country_flag = renamed_state_161 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_161
@@ -4207,7 +4207,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 162
+		owns_state = 162
 		NOT = { has_country_flag = renamed_state_162 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_162
@@ -4244,7 +4244,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 164
+		owns_state = 164
 		NOT = { has_country_flag = renamed_state_164 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_164
@@ -4279,7 +4279,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 165
+		owns_state = 165
 		NOT = { has_country_flag = renamed_state_165 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_165
@@ -4313,7 +4313,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 166
+		owns_state = 166
 		NOT = { has_country_flag = renamed_state_166 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_166
@@ -4347,7 +4347,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 167
+		owns_state = 167
 		NOT = { has_country_flag = renamed_state_167 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_167
@@ -4382,7 +4382,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 168
+		owns_state = 168
 		NOT = { has_country_flag = renamed_state_168 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_168
@@ -4417,7 +4417,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 169
+		owns_state = 169
 		NOT = { has_country_flag = renamed_state_169 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_169
@@ -4454,7 +4454,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 171
+		owns_state = 171
 		NOT = { has_country_flag = renamed_state_171 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_171
@@ -4489,7 +4489,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 174
+		owns_state = 174
 		NOT = { has_country_flag = renamed_state_174 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_174
@@ -4523,7 +4523,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 175
+		owns_state = 175
 		NOT = { has_country_flag = renamed_state_175 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_175
@@ -4557,7 +4557,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 176
+		owns_state = 176
 		NOT = { has_country_flag = renamed_state_176 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_176
@@ -4593,7 +4593,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 177
+		owns_state = 177
 		NOT = { has_country_flag = renamed_state_177 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_177
@@ -4627,7 +4627,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 178
+		owns_state = 178
 		NOT = { has_country_flag = renamed_state_178 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_178
@@ -4661,7 +4661,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 181
+		owns_state = 181
 		NOT = { has_country_flag = renamed_state_181 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_181
@@ -4695,7 +4695,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 182
+		owns_state = 182
 		NOT = { has_country_flag = renamed_state_182 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_182
@@ -4729,7 +4729,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 183
+		owns_state = 183
 		NOT = { has_country_flag = renamed_state_183 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_183
@@ -4763,7 +4763,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 187
+		owns_state = 187
 		NOT = { has_country_flag = renamed_state_187 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_187
@@ -4797,7 +4797,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 188
+		owns_state = 188
 		NOT = { has_country_flag = renamed_state_188 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_188
@@ -4831,7 +4831,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 190
+		owns_state = 190
 		NOT = { has_country_flag = renamed_state_190 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_190
@@ -4866,7 +4866,7 @@ country_event = {
 #
 #	trigger = {
 #		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-#		controls_state = 190
+#		owns_state = 190
 #		NOT = { has_country_flag = renamed_state_190 }
 #		# This state has been renamed by another country
 #		has_global_flag = renamed_state_190
@@ -4900,7 +4900,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 191
+		owns_state = 191
 		NOT = { has_country_flag = renamed_state_195 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_191
@@ -4935,7 +4935,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 192
+		owns_state = 192
 		NOT = { has_country_flag = renamed_state_192 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_192
@@ -4971,7 +4971,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 193
+		owns_state = 193
 		NOT = { has_country_flag = renamed_state_193 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_193
@@ -5005,7 +5005,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 195
+		owns_state = 195
 		NOT = { has_country_flag = renamed_state_195 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_195
@@ -5040,7 +5040,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 196
+		owns_state = 196
 		NOT = { has_country_flag = renamed_state_196 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_196
@@ -5074,7 +5074,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 197
+		owns_state = 197
 		NOT = { has_country_flag = renamed_state_197 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_197
@@ -5108,7 +5108,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 200
+		owns_state = 200
 		NOT = { has_country_flag = renamed_state_200 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_200
@@ -5143,7 +5143,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 201
+		owns_state = 201
 		NOT = { has_country_flag = renamed_state_201 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_201
@@ -5177,7 +5177,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 202
+		owns_state = 202
 		NOT = { has_country_flag = renamed_state_202 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_202
@@ -5212,7 +5212,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 204
+		owns_state = 204
 		NOT = { has_country_flag = renamed_state_204 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_204
@@ -5246,7 +5246,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 207
+		owns_state = 207
 		NOT = { has_country_flag = renamed_state_207 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_207
@@ -5281,7 +5281,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 208
+		owns_state = 208
 		NOT = { has_country_flag = renamed_state_208 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_208
@@ -5315,7 +5315,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 209
+		owns_state = 209
 		NOT = { has_country_flag = renamed_state_209 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_209
@@ -5350,7 +5350,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 210
+		owns_state = 210
 		NOT = { has_country_flag = renamed_state_210 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_210
@@ -5384,7 +5384,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 212
+		owns_state = 212
 		NOT = { has_country_flag = renamed_state_212 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_212
@@ -5419,7 +5419,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 213
+		owns_state = 213
 		NOT = { has_country_flag = renamed_state_213 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_213
@@ -5454,7 +5454,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 214
+		owns_state = 214
 		NOT = { has_country_flag = renamed_state_214 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_214
@@ -5489,7 +5489,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 216
+		owns_state = 216
 		NOT = { has_country_flag = renamed_state_216 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_216
@@ -5524,7 +5524,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 217
+		owns_state = 217
 		NOT = { has_country_flag = renamed_state_217 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_217
@@ -5559,7 +5559,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 218
+		owns_state = 218
 		NOT = { has_country_flag = renamed_state_218 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_218
@@ -5594,7 +5594,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 219
+		owns_state = 219
 		NOT = { has_country_flag = renamed_state_219 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_219
@@ -5629,7 +5629,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 221
+		owns_state = 221
 		NOT = { has_country_flag = renamed_state_221 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_221
@@ -5664,7 +5664,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 222
+		owns_state = 222
 		NOT = { has_country_flag = renamed_state_222 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_222
@@ -5699,7 +5699,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 223
+		owns_state = 223
 		NOT = { has_country_flag = renamed_state_223 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_223
@@ -5734,7 +5734,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 224
+		owns_state = 224
 		NOT = { has_country_flag = renamed_state_224 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_224
@@ -5769,7 +5769,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 226
+		owns_state = 226
 		NOT = { has_country_flag = renamed_state_226 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_226
@@ -5805,7 +5805,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 227
+		owns_state = 227
 		NOT = { has_country_flag = renamed_state_227 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_227
@@ -5840,7 +5840,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 228
+		owns_state = 228
 		NOT = { has_country_flag = renamed_state_228 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_228
@@ -5875,7 +5875,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 229
+		owns_state = 229
 		NOT = { has_country_flag = renamed_state_229 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_229
@@ -5910,7 +5910,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 230
+		owns_state = 230
 		NOT = { has_country_flag = renamed_state_230 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_230
@@ -5945,7 +5945,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 231
+		owns_state = 231
 		NOT = { has_country_flag = renamed_state_231 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_231
@@ -5981,7 +5981,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 232
+		owns_state = 232
 		NOT = { has_country_flag = renamed_state_232 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_232
@@ -6016,7 +6016,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 233
+		owns_state = 233
 		NOT = { has_country_flag = renamed_state_233 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_233
@@ -6050,7 +6050,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 234
+		owns_state = 234
 		NOT = { has_country_flag = renamed_state_234 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_234
@@ -6085,7 +6085,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 236
+		owns_state = 236
 		NOT = { has_country_flag = renamed_state_236 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_236
@@ -6120,7 +6120,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 238
+		owns_state = 238
 		NOT = { has_country_flag = renamed_state_238 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_238
@@ -6154,7 +6154,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 239
+		owns_state = 239
 		NOT = { has_country_flag = renamed_state_239 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_239
@@ -6189,7 +6189,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 241
+		owns_state = 241
 		NOT = { has_country_flag = renamed_state_241 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_241
@@ -6224,7 +6224,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 242
+		owns_state = 242
 		NOT = { has_country_flag = renamed_state_242 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_242
@@ -6259,7 +6259,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 243
+		owns_state = 243
 		NOT = { has_country_flag = renamed_state_243 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_243
@@ -6293,7 +6293,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 246
+		owns_state = 246
 		NOT = { has_country_flag = renamed_state_246 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_246
@@ -6328,7 +6328,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 247
+		owns_state = 247
 		NOT = { has_country_flag = renamed_state_247 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_247
@@ -6363,7 +6363,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 248
+		owns_state = 248
 		NOT = { has_country_flag = renamed_state_248 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_248
@@ -6398,7 +6398,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 249
+		owns_state = 249
 		NOT = { has_country_flag = renamed_state_249 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_249
@@ -6433,7 +6433,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 251
+		owns_state = 251
 		NOT = { has_country_flag = renamed_state_251 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_251
@@ -6468,7 +6468,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 252
+		owns_state = 252
 		NOT = { has_country_flag = renamed_state_252 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_252
@@ -6503,7 +6503,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 253
+		owns_state = 253
 		NOT = { has_country_flag = renamed_state_253 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_253
@@ -6537,7 +6537,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 256
+		owns_state = 256
 		NOT = { has_country_flag = renamed_state_256 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_256
@@ -6571,7 +6571,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 258
+		owns_state = 258
 		NOT = { has_country_flag = renamed_state_258 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_258
@@ -6605,7 +6605,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 260
+		owns_state = 260
 		NOT = { has_country_flag = renamed_state_260 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_260
@@ -6640,7 +6640,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 262
+		owns_state = 262
 		NOT = { has_country_flag = renamed_state_262 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_262
@@ -6674,7 +6674,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 263
+		owns_state = 263
 		NOT = { has_country_flag = renamed_state_263 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_263
@@ -6709,7 +6709,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 264
+		owns_state = 264
 		NOT = { has_country_flag = renamed_state_264 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_264
@@ -6744,7 +6744,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 265
+		owns_state = 265
 		NOT = { has_country_flag = renamed_state_265 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_265
@@ -6778,7 +6778,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER } }
-		controls_state = 651
+		owns_state = 651
 		NOT = { has_country_flag = renamed_state_651 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_651
@@ -6813,7 +6813,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER tag = FRA is_subject_of = GER } }
-		controls_state = 664
+		owns_state = 664
 		NOT = { has_country_flag = renamed_state_664 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_664
@@ -6848,7 +6848,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 338
+		owns_state = 338
 		NOT = { has_country_flag = renamed_state_338 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_338
@@ -6882,7 +6882,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 220
+		owns_state = 220
 		NOT = { has_country_flag = renamed_state_220 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_220
@@ -6917,7 +6917,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 743
+		owns_state = 743
 		NOT = { has_country_flag = renamed_state_743 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_743
@@ -6954,7 +6954,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 744
+		owns_state = 744
 		NOT = { has_country_flag = renamed_state_744 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_744
@@ -6989,7 +6989,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 745
+		owns_state = 745
 		NOT = { has_country_flag = renamed_state_745 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_745
@@ -7023,7 +7023,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 746
+		owns_state = 746
 		NOT = { has_country_flag = renamed_state_746 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_746
@@ -7058,7 +7058,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 747
+		owns_state = 747
 		NOT = { has_country_flag = renamed_state_747 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_747
@@ -7092,7 +7092,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 748
+		owns_state = 748
 		NOT = { has_country_flag = renamed_state_748 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_748
@@ -7126,7 +7126,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 750
+		owns_state = 750
 		NOT = { has_country_flag = renamed_state_750 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_750
@@ -7160,7 +7160,7 @@ country_event = {
 
 	trigger = {
 		NOT = { OR = { tag = AUS tag = GER  is_subject_of = GER } }
-		controls_state = 751
+		owns_state = 751
 		NOT = { has_country_flag = renamed_state_751 }
 		# This state has been renamed by another country
 		has_global_flag = renamed_state_751

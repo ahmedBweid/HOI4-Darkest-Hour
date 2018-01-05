@@ -84,34 +84,70 @@ country_event = {
 		hidden_effect = {
 			#Puppet the 4 RKs being created
 			if = {
+					limit = {
+						OR = {
+							AND = {
+								has_dlc = "Death or Dishonor"
+								has_dlc = "Together for Victory"
+							}
+							AND ={
+								has_dlc = "Death or Dishonor"
+								NOT = { has_dlc = "Together for Victory" }
+							}
+						}
+					}
+					set_autonomy = {
+						target = ROS
+						autonomous_state = autonomy_reichskommissariat
+					}
+					set_autonomy = {
+						target = RUK
+						autonomous_state = autonomy_reichskommissariat
+					}
+					set_autonomy = {
+						target = RMO
+						autonomous_state = autonomy_reichskommissariat
+					}
+					set_autonomy = {
+						target = RKA
+						autonomous_state = autonomy_reichskommissariat
+					}
+			}
+			if = {
 				limit = {
-					OR = {
-						has_dlc = "Death or Dishonor"
+					AND = {
+						NOT = { has_dlc = "Death or Dishonor" }
 						has_dlc = "Together for Victory"
 					}
 				}
 				set_autonomy = {
 					target = ROS
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
 				set_autonomy = {
 					target = RUK
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
 				set_autonomy = {
 					target = RMO
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
 				set_autonomy = {
 					target = RKA
-					autonomous_state = DH_autonomy_integrated_puppet
+					autonomous_state = autonomy_puppet
 				}
-				else = {
-					puppet = ROS
-					puppet = RUK
-					puppet = RMO
-					puppet = RKA
-				}	
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = { has_dlc = "Together for Victory" }
+						NOT = { has_dlc = "Death or Dishonor" }
+					}
+				}
+				puppet = ROS
+				puppet = RUK
+				puppet = RMO
+				puppet = RKA
 			}
 
 			#RK Ostland Creation

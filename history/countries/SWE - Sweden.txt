@@ -133,6 +133,7 @@ set_politics = {
 		fascist = { popularity = 1 }		
 		paternal_autocrat = { popularity = 0 }		
 		social_conservative = { popularity = 17 }		
+		market_liberal = { popularity = 13 }		
 		social_liberal = { popularity = 14 }		
 		social_democrat = { popularity = 46 }		
 		left_wing_radical = { popularity = 8 }		
@@ -153,7 +154,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 1 }		
 		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 30 }		
+		social_conservative = { popularity = 17 }		
+		market_liberal = { popularity = 13 }		
 		social_liberal = { popularity = 14 }		
 		social_democrat = { popularity = 46 }		
 		left_wing_radical = { popularity = 8 }		
@@ -171,80 +173,64 @@ set_politics = {
 set_convoys = 25
 set_national_unity = 0.9
 
-####################################################
-# Swedish Leaders
-####################################################
-#NS
+
+
+
 create_country_leader = {
-	name = "Sven Olov Lindholm"
-	desc = ""
-	picture = "Sweden_NS_Sven_Olov_Lindholm.dds"
+	name = "Per Albin Hansson"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Konrad Hallgren"
-	desc = ""
-	picture = "Sweden_FA_.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Gustaf V"
-	desc = ""
-	picture = "Sweden_PA_Gustav_V.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
+	ideology = leninism
+	traits = {
+		#
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "Gösta Bagge"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	name = "Sven Olov Lindholm"
+	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
+	ideology = national_socialism
+	traits = {
+		#
+	}
 }
-#SL 
+
+create_country_leader = {
+	name = "Sven Linderot"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
 create_country_leader = {
 	name = "Axel Pehrsson-Bramstorp"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {}
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
 }
-#SD
+
 create_country_leader = {
 	name = "Per Albin Hansson"
 	desc = ""
-	picture = "Sweden_SD_Per_Albin_Hansson.dds"
+	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#LWR
-#LE
-#ST
-create_country_leader = {
-	name = "Sven Linderot"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
-}
-
-####################################################
-# Swedish General Staff
-####################################################
 create_corps_commander = {
 	name = "Folke Högberg"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
@@ -266,4 +252,17 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { blockade_runner }
 	skill = 4
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Draken Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
 }

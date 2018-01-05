@@ -43,7 +43,7 @@ German_Italian_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "ITA"
-		value = 20
+		value = 80
 	}
 	ai_strategy = {
 		type = protect
@@ -80,7 +80,7 @@ German_Japanese_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "JAP"
-		value = 20
+		value = 50
 	}
 	ai_strategy = {
 		type = protect
@@ -122,7 +122,7 @@ German_Hungarian_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "HUN"
-		value = 15
+		value = 50
 	}
 	ai_strategy = {
 		type = protect
@@ -159,7 +159,7 @@ German_Romanian_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "ROM"
-		value = 15
+		value = 50
 	}
 	ai_strategy = {
 		type = protect
@@ -196,7 +196,7 @@ German_Bulgarian_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "BUL"
-		value = 15
+		value = 50
 	}
 	ai_strategy = {
 		type = protect
@@ -234,7 +234,7 @@ German_British_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "ENG"
-		value = -60
+		value = -50
 	}
 	ai_strategy = {
 		type = alliance
@@ -282,7 +282,7 @@ German_French_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "FRA"
-		value = -70
+		value = -50
 	}
 	ai_strategy = {
 		type = alliance
@@ -413,7 +413,7 @@ German_Soviet_Relations = {
 	ai_strategy = {
 		type = befriend
 		id = "SOV"
-		value = -20
+		value = -50
 	}
 	ai_strategy = {
 		type = alliance
@@ -442,46 +442,7 @@ German_Soviet_Relations = {
 	}	
 }
 
-German_Benelux_Early_Relations = {
-	enable = {
-		tag = GER
-		date < 1940.2.1	
-	}
-	abort = {
-	    date > 1940.2.1
-	}
-	
-	ai_strategy = { 
-		type = antagonize 
-		id = "BEL" 					
-		value = -100 	
-	}
-	ai_strategy = { 
-		type = ignore 
-		id = "BEL"						
-		value = 200 		
-	}
-	ai_strategy = { 
-		type = antagonize 
-		id = "HOL"					
-		value = -100 	
-	}
-	ai_strategy = {
-		type = ignore 
-		id = "HOL" 						
-		value = 200 		
-	}
-	ai_strategy = {
-		type = antagonize 
-		id = "LUX" 					
-		value = -100 	
-	}
-	ai_strategy = {
-		type = ignore 
-		id = "LUX" 						
-		value = 200 		
-	}
-}
+
 ## ------------------ Military Operations -------------------------------------------------------------
 
 # Operation Weserubung

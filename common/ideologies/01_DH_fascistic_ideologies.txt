@@ -7,15 +7,14 @@ ideologies = {
 	national_socialist = {
 	
 		types = {	
-			national_socialism = {}
-			strasserism = {}
+			national_socialism = { }
 		}
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"
 		}
 		
-		color = { 0 0 0 }
+		color = { 40 40 40 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -37,10 +36,9 @@ ideologies = {
 	fascist = {
 	
 		types = {			
-			fascist_ideology = {}
-			rexism = {}
-			falangism = {}
-			clero_fascism = {}
+			fascist_ideology = { }		
+			rexism = { }					
+			falangism = { }			
 		}
 		
 		dynamic_faction_names = {
@@ -51,7 +49,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 40 40 40 }
+		color = { 60 60 60 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -73,17 +71,14 @@ ideologies = {
 	paternal_autocrat = {
 	
 		types = {	
-			paternal_autocracy = {}
-
-			monarchism = {}
-			dictatorship = {}
+			paternal_autocracy = { }
 		}
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"
 		}
 		
-		color = { 100 100 100 }
+		color = { 90 90 90 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0

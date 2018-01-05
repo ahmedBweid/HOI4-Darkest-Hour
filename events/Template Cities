@@ -14,15 +14,15 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		set_province_name = { id = VVVVV name = "ZZZ" }
-		XXX = { set_state_name = "Westschweiz" }
+		set_province_name = { id = 9620 name = "Bern" }
+		3 = { set_state_name = "Westschweiz" }
 		if = {
 			limit = {
 				GER = {
-					has_full_control_of_state = XXX
+					has_full_control_of_state = 748
 				}
 			}
-			XXX = { set_state_name = "ZZ" }
+			748 = { set_state_name = "Tessin-Graubünden" }
 		}
 		set_global_flag = GER_DH_cities_renamed
 	}
@@ -52,7 +52,8 @@ country_event = {
 					is_in_faction_with = GER
 				}
 			}
-			owns_state = XX
+			owns_state = 151
+			owns_state = 3
 		}
 		has_global_flag = GER_DH_cities_renamed
 	}
@@ -60,8 +61,9 @@ country_event = {
 	mean_time_to_happen = { days = 2 }
 
 	immediate = {
-		reset_province_name = VVVVV
-		XX = { reset_state_name = yes }
+		reset_province_name = 9620
+		3 = { reset_state_name = yes }
+		748 = { reset_state_name = yes }
 		clr_global_flag = GER_DH_cities_renamed
 	}
 

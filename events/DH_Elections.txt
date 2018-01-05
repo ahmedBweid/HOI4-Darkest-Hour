@@ -11,85 +11,66 @@ country_event = {
 	id = DH_election.1
 	title = DH_election.1.t
 	desc = DH_election.1.d
-	picture = GFX_DH_Generic_Elections
-
-	is_triggered_only = yes
-	trigger = {
-		NOT = { has_custom_elections = yes }
-	}
-
-	# Elect NatSoc (Far-Right)
-	option = {
-		name = DH_election.1.A
-		ai_chance = { factor = 30 }
-		trigger = { 			
-			national_socialist > 0.40
-			has_country_flag = elections_NS
-		}
-		set_politics = { ruling_party = national_socialist elections_allowed = yes }
-	}	
-
-	# Elect Fascists (Right)
-	option = {
-		name = DH_election.1.B
-		ai_chance = { factor = 30 }
-		trigger = { 			
-			fascist > 0.40
-			has_country_flag = elections_FA			
-		}
-		set_politics = { ruling_party = fascist elections_allowed = yes }
-	}	
-
-	# Elect Paternal Autocrats (Right)
-	option = {
-		name = DH_election.1.C
-		ai_chance = { factor = 30 }
-		trigger = { 			
-			paternal_autocrat > 0.40
-			has_country_flag = elections_PA		
-		}
-		set_politics = { ruling_party = paternal_autocrat elections_allowed = yes }
-	}
+	picture = GFX_news_event_002
 	
-	# Elect Social Conservatives (Center-Right)
-	option = {
-		name = DH_election.1.D
+	fire_only_once = yes
+	
+	trigger = {
+		ideology_group_democracy = yes
+	}
+
+	# Elect Social Conservatives (Right)
+	option = { 
+		name = DH_election.1.a
 		ai_chance = { factor = 30 }
 		trigger = { 			
-			social_conservative > 0.25
+			NOT = { has_government = social_conservative }
+			social_conservative > 0.30
 		}
-		set_politics = { ruling_party = social_conservative elections_allowed = yes }
+		set_politics = { ruling_party = social_conservative }
+	}
+
+	# Elect Market Liberals (Center-Right)
+	option = { 
+		name = DH_election.1.b
+		ai_chance = { factor = 60 }
+		trigger = { 			
+			NOT = { has_government = market_liberal }
+			market_liberal > 0.30
+		}		
+		set_politics = { ruling_party = market_liberal }				
 	}	
 
 	# Elect Social Liberals (Center-Left)
 	option = { 
-		name = DH_election.1.E
+		name = DH_election.1.c
 		ai_chance = { factor = 60 }
 		trigger = {
-			social_liberal > 0.25
+			NOT = { has_government = social_liberal }
+			social_liberal > 0.30
 		}
-		set_politics = { ruling_party = social_liberal elections_allowed = yes }
+		set_politics = { ruling_party = social_liberal }
 	}
 
 	# Elect Social Democrats (Left)
 	option = {
-		name = DH_election.1.F
+		name = DH_election.1.e
 		ai_chance = { factor = 60 }
 		trigger = {
-			social_democrat > 0.25
+			NOT = { has_government = social_democrat }
+			social_democrat > 0.30
 		}
-		set_politics = { ruling_party = social_democrat elections_allowed = yes }	
-	}
+		set_politics = { ruling_party = social_democrat }	
+	}	
 	
-	# Elect LWRs (Far-Left)
-	option = {
-		name = DH_election.1.G
-		ai_chance = { factor = 30 }
-		trigger = { 			
-			left_wing_radical > 0.40
-			has_country_flag = elections_LWR		
+	# Keep Current
+	option = { 
+		name = DH_election.1.f
+		ai_chance = { factor = 10 }
+		trigger = { is_ruling_party_stronk = yes }
+		hidden_effect = {
+			add_political_power = -20
 		}
-		set_politics = { ruling_party = left_wing_radical elections_allowed = yes }
+		custom_effect_tooltip = keep_govt
 	}
-
 }

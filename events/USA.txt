@@ -194,6 +194,151 @@ country_event = {
 	}
 }
 
+# Election of 1936: Roosevelt vs Alf Landon
+country_event = {
+	id = usa.6
+	title = usa.6.t
+	desc = usa.6.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		social_conservative > 0.5
+		date > 1936.1.1
+		date < 1937.1.1
+	}
+	
+	option = { 	
+		name = usa.6.a
+		ai_chance = {
+			factor = 75
+		}		
+		add_ideas = new_deal
+	}
+
+	option = { 
+		name = usa.6.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}		
+		set_party_name = { ideology = social_conservative long_name = USA_republican_party name = USA_republican_party }
+		if = {
+			limit = {
+				has_idea = standard_oil_california
+			}
+			add_political_power = 150
+		}
+		if = {
+			limit = {
+				NOT = { has_idea = standard_oil_california }
+			}
+			add_ideas = standard_oil_california
+		}
+		create_country_leader = {
+			name = "Alf Landon"
+			desc = "POLITICS_ALF_LANDON_DESC"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1965.1.1"
+			ideology = social_conservatism
+			traits = {
+				staunch_constitutionalist
+			}
+		}
+	}
+}
+
+# Election of 1940: Roosevelt vs Wendell Wilkie
+country_event = {
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = GFX_report_event_usa_election_roosevelt_wilkie
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		social_conservative > 0.5
+		date > 1940.1.1
+		date < 1941.1.1
+		has_idea = new_deal
+	}
+	
+	option = {
+		name = usa.7.a
+		ai_chance = {
+			factor = 75
+		}
+		add_political_power = 40
+		add_national_unity = -0.15
+		remove_ideas = great_depression
+	}
+
+	option = {
+		name = usa.7.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}	
+		set_party_name = { ideology = social_conservative long_name = USA_republican_party name = USA_republican_party }
+		remove_ideas = new_deal
+		add_ideas = wilkies_new_deal
+		create_country_leader = {
+			name = "Wendell Wilkie"
+			desc = "POLITICS_WENDELL_WILKIE_DESC"
+			picture = "Portrait_USA_Wendell_Willkie.dds"
+			expire = "1965.1.1"
+			ideology = social_liberalism
+			traits = {
+				
+			}
+		}
+		remove_ideas = great_depression
+	}
+}
+
+# Election of 1940: Roosevelt vs Landon (Incumbent)
+country_event = {
+	id = usa.8
+	title = usa.8.t
+	desc = usa.8.d
+	picture = GFX_report_event_usa_election_landon_roosevelt
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		social_conservative > 0.5
+		date > 1940.1.1
+		date < 1941.1.1
+		NOT = { has_idea = new_deal }
+	}
+	
+	option = { 
+		name = usa.8.a
+		add_political_power = -40
+		add_national_unity = 0.1
+		remove_ideas = great_depression
+	}
+
+	option = { 
+		name = usa.8.b
+		set_party_name = { ideology = social_conservative long_name = USA_democratic_party name = USA_democratic_party }
+		add_ideas = new_deal
+		retire_country_leader = yes
+		remove_ideas = great_depression
+	}
+}
+
 # Election of 1944: Roosevelt vs Thomas E. Dewey
 country_event = {
 	id = usa.9
@@ -391,7 +536,9 @@ country_event = {
 			picture = "Portrait_USA_Harry_Truman.dds"
 			expire = "1965.1.1"
 			ideology = social_liberalism
-			traits = {}
+			traits = {
+				
+			}
 		}
 	}
 }

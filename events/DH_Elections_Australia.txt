@@ -1,0 +1,174 @@
+﻿###########################
+# Darkest Hour Election Events : Australia
+###########################
+
+add_namespace = DH_election_australia
+
+#########################################################################
+#  Australian election 1937
+#########################################################################
+country_event = { 
+	id = DH_election_australia.1
+	title = DH_election_australia.1.t
+	desc = DH_election_australia.1.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = AST
+		ideology_group_democracy = yes
+		date > 10.11.1937
+	}
+
+	# Elect Left (Alexander G. Arkwright) Soc Dem, HoG  John J. Curtin
+	option = { 
+		name = DH_election_australia.1.a
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_democrat }				
+		create_country_leader = { 
+			name = "Alexander G. ArkwrightI" 
+			desc = "" 
+			picture = "Portrait_Australia_Alexander_ArkwrightI.dds" 
+			expire = "1965.1.1" 
+			ideology = social_democracy
+			traits = { } 
+		}		
+	}
+
+	# Elect Right (Alexander G. Arkwright) Soc Cons, HoG Joseph A. Lyons
+	option = { 
+		name = DH_election_australia.1.b
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = social_conservative }				
+		create_country_leader = { 
+			name = "Alexander G. ArkwrightI" 
+			desc = "" 
+			picture = "Portrait_Australia_Alexander_ArkwrightI.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}
+	}	
+	
+	# Keep Current
+	option = { 
+		name = DH_election_australia.1.c
+		ai_chance = { factor = 10 }
+
+	}		
+}
+
+
+#########################################################################
+#  Australian election 1941
+#########################################################################
+country_event = { 
+	id = DH_election_australia.2
+	title = DH_election_australia.2.t
+	desc = DH_election_australia.2.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = AST
+		ideology_group_democracy = yes
+		date > 10.11.1941
+	}
+	
+	# Elect Left (Soc Dem) :Alexander G. Arkwright , HoG  John J. Curtin
+	option = { 
+		name = DH_election_australia.2.a
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = social_democrat }				
+		create_country_leader = { 
+			name = "Alexander G. ArkwrightI" 
+			desc = "" 
+			picture = "Portrait_Australia_Alexander_ArkwrightI.dds" 
+			expire = "1965.1.1" 
+			ideology = social_democracy
+			traits = { } 
+		}
+	}
+
+	# Elect Right (Soc Cons) : Alexander G. Arkwright , HoG Joseph A. Lyons 
+	option = { 
+		name = DH_election_australia.2.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }				
+		create_country_leader = {
+			name = "Alexander G. ArkwrightI" 
+			desc = "" 
+			picture = "Portrait_Australia_Alexander_ArkwrightI.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}		
+
+	}
+
+	# Keep Current
+	option = { 
+		name = DH_election_australia.1.c
+		ai_chance = { factor = 10 }
+
+	}		
+}
+
+
+#########################################################################
+#  Australian election 1945
+#########################################################################
+country_event = { 
+	id = DH_election_australia.3
+	title = DH_election_australia.3.t
+	desc = DH_election_australia.3.d
+	picture = GFX_news_event_002
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = AST
+		ideology_group_democracy = yes
+		date > 10.11.1945
+	}
+	
+	# Elect Left (Soc Dem) : Henry Duke of Gloucester , HoG  Ben Chifley
+	option = { 
+		name = DH_election_australia.3.a
+		ai_chance = { factor = 60 }
+		set_politics = { ruling_party = social_democrat }				
+		create_country_leader = { 
+			name = "Henry Duke of Gloucester" 
+			desc = "" 
+			picture = "Portrait_Australia_Henry_Duke_of_Gloucester.dds" 
+			expire = "1965.1.1" 
+			ideology = social_democracy
+			traits = { } 
+		}
+	}
+
+	# Elect Right (Soc Cons) : Henry Duke of Gloucester , HoG Robert G. Menzies
+	option = { 
+		name = DH_election_australia.3.b
+		ai_chance = { factor = 30 }
+		set_politics = { ruling_party = social_conservative }				
+		create_country_leader = {
+			name = "Henry Duke of Gloucester" 
+			desc = "" 
+			picture = "Portrait_Australia_Henry_Duke_of_Gloucester.dds" 
+			expire = "1965.1.1" 
+			ideology = social_conservatism 
+			traits = { } 
+		}		
+
+	}
+
+	# Keep Current
+	option = { 
+		name = DH_election_australia.3.c
+		ai_chance = { factor = 10 }
+
+	}		
+}

@@ -229,7 +229,7 @@
  submarine_doctrine:0 "Submarine Operations Doctrines"
 
  #### Technology Title ###############################################################
- INFANTRY_TITLE_WEAPONS:0 "Infantry Equipment"
+ INFANTRY_TITLE_WEAPONS:0 "Weapons & Equipment"
  INFANTRY_TITLE_SPECIAL:0 "Special Forces"
  INFANTRY_TITLE_MOTORISED:1 "Mobile Infantry"
  

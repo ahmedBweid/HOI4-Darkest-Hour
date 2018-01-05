@@ -108,7 +108,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 1 }		
 		paternal_autocrat = { popularity = 22 }		
-		social_conservative = { popularity = 42 }	
+		social_conservative = { popularity = 38 }		
+		market_liberal = { popularity = 4 }		
 		social_liberal = { popularity = 5 }		
 		social_democrat = { popularity = 4 }		
 		left_wing_radical = { popularity = 20 }		
@@ -123,87 +124,40 @@ set_politics = {
 }
 set_national_unity = 0.9
 
-#########################################
-## Greek Leaders
-#########################################
-#NS
 create_country_leader = {
-	name = "Georgios Kosmidis"
-	desc = ""
-	picture = "Romania_NS_Horia_Sima.dds"
-	expire = "1956.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Panagis Tsaldaris"
-	desc = ""
-	picture = "Romania_FA_Ion_Antonescu.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Georgios II"
-	desc = ""
-	picture = "Greece_PA_Georgios_II.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
-}
-#SC
-create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = ""
-	picture = "Greece_SC_Ioannis_Metaxas.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#SL
-create_country_leader = {
-	name = "Themistocles Sophoulis"
-	desc = ""
-	picture = "Romania_SL_Gheorghe_Tatarescu.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Panayiotis Kanellopoulos"
-	desc = ""
-	picture = "Romania_SD_Constantin_Titel_Petrescu.dds" #Missing a Portrait
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
-}
-
-#LWR (None Found)
-#LE
-create_country_leader = {
-	name = "Pandelis Pouliopoulos"
-	desc = ""
-	picture = "Romania_LE_Lucretiu_Patrascanu.dds"
+	name = "Markos Vafiadis"
+	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
+	picture = "Portrait_Greece_Markos_Vafiadis.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {}
-}
-#ST
-create_country_leader = {
-	name = "Giorgis Siantos"
-	desc = ""
-	picture = "Romania_ST_Ion_Parhon.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#########################################
-## Greek Generals
-#########################################
+create_country_leader = {
+	name = "Konstantinos Tsaldaris"
+	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ioannis Metaxas"
+	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
+	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+
+
 create_corps_commander = {
 	name = "Markos Drakos"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"

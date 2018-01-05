@@ -69,6 +69,22 @@ ideas = {
 			
 			cost = 100
 		}
+### Drift towards Market Lib
+		drift_Market_Liberal = {
+
+			allowed = {
+				always = yes
+			}
+			available = {
+				NOT = { has_idea = drift_Market_Liberal }
+			}
+			on_add = {
+				add_popularity = { ideology = market_liberal popularity = 0.1 }
+			}
+			ai_will_do = { factor = 0 }			
+			
+			cost = 100
+		}
 ### Drift towards Soc Liberal
 		drift_Social_Liberal = {
 

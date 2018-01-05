@@ -4,7 +4,7 @@ oob = "JAP_1936"
 
 set_national_unity = 0.65
 
-set_research_slots = 5
+set_research_slots = 4
 
 add_ideas = {
 	state_shintoism
@@ -209,20 +209,20 @@ if = {
 	}
 	set_autonomy = {
 		target = MEN
-		autonomous_state = DH_autonomy_integrated_puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = MAN
-		autonomous_state = DH_autonomy_integrated_puppet
+		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
 		set_autonomy = {
 			target = MEN
-			autonomous_state = DH_autonomy_puppet
+			autonomous_state = autonomy_puppet
 		}
 		set_autonomy = {
 			target = MAN
-			autonomous_state = DH_autonomy_puppet
+			autonomous_state = autonomy_puppet
 		}
 	}
 }
@@ -233,7 +233,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 2 }		
 		paternal_autocrat = { popularity = 60 }		
-		social_conservative = { popularity = 30 }	
+		social_conservative = { popularity = 4 }		
+		market_liberal = { popularity = 26 }		
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 5 }		
 		left_wing_radical = { popularity = 3 }		
@@ -276,95 +277,38 @@ add_to_faction = MEN
 		elections_allowed = no
 	}
 }
-###############################
-# Japan Leaders 
-###############################
-#NS
-create_country_leader = {
-	name = "Fumimaro Konoe"
-	desc = ""
-	picture = "Japan_NS_Fumimaro_Konoe.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FS
-create_country_leader = {
-	name = "Tojo Hideki"
-	desc = ""
-	picture = "Japan_FA_Tojo_Hideki.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
+
 create_country_leader = {
 	name = "Hirohito"
-	desc = ""
-	picture = "Japan_PA_Hirohito.dds"
-	expire = "1938.1.1"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "Portrait_Japan_Hirohito.dds"
+	expire = "1989.1.1"
 	ideology = paternal_autocracy
-	traits = {}
+	traits = {
+		warrior_code
+	}
 }
 
-#SC
-create_country_leader = {
-	name = "Yoshida Shigeru"
-	desc = ""
-	picture = "Japan_SC_Yoshida_Shigeru.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#SL
-create_country_leader = {
-	name = "Hitoshi Ashida"
-	desc = ""
-	picture = "Japan_SL_Hitoshi_Ashida.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Katayama Tetsu"
-	desc = ""
-	picture = "Japan_SD_Katayama_Tetsu.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
-}
-
-#LWR
-create_country_leader = {
-	name = "Mosaburō Suzuki"
-	desc = ""
-	picture = "Japan_LWR_Mosaburou_Suzuki.dds"
-	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = {}
-}
-#LE
-create_country_leader = {
-	name = "Miyamoto Kenji"
-	desc = ""
-	picture = "Japan_LE_Miyamoto_Kenji.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {}
-}
-#ST
 create_country_leader = {
 	name = "Kyuichi Tokuda"
-	desc = ""
-	picture = "Japan_ST_Kyuichi_Tokuda.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "GFX_Portrait_kyuichi_tokuda"
+	expire = "1989.1.1"
+	ideology = leninism
+	traits = {
+	}
 }
-###############################
-# Japan Generals 
-###############################
+
+create_country_leader = {
+	name = "Tetsu Katayama"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "GFX_Portrait_tetsu_katayama"
+	expire = "1989.1.1"
+	ideology = social_liberalism
+	traits = {
+	}
+}
+
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"
 		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"

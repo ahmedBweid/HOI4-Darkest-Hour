@@ -136,7 +136,7 @@ set_politics = {
 		fascist = { popularity = 5 }		
 		paternal_autocrat = { popularity = 52 }		
 		social_conservative = { popularity = 4 }		
-		
+		market_liberal = { popularity = 0 }		
 		social_liberal = { popularity = 5 }		
 		social_democrat = { popularity = 17 }		
 		left_wing_radical = { popularity = 6 }		
@@ -185,6 +185,28 @@ if = {
 	}
 }
 
+create_country_leader = {
+	name = "Mátyás Rákosi"
+	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
+	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Árpád Szakasits"
+	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
 1939.1.1 = {
 	if = {
 		limit = {
@@ -229,65 +251,7 @@ if = {
 
 }
 
-####################################################
-# Hungarian Leaders
-####################################################
-#NS
-create_country_leader = {
-	name = "Ferenc Szálasi"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Miklós Horthy"
-	desc = ""
-	picture = "Hungary_PA_Miklos_Horthy.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Miklós Horthy"
-	desc = ""
-	picture = "Hungary_PA_Miklos_Horthy.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
-}
 
-#SC
-create_country_leader = {
-	name = "Zoltán Tildy"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#ML
-#SL 
-#SD
-
-#LWR
-#LE
-#ST
-create_country_leader = {
-	name = "Mátyás Rákosi"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
-}
-
-####################################################
-# Hungarian General Staff
-####################################################
 create_corps_commander = {
 	name = "Géza Lakatos"
 	gfx = GFX_Portrait_hungary_geza_lakatos

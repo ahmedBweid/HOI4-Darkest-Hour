@@ -18,6 +18,7 @@ ideas = {
 			
 			modifier = {
 				social_conservative_drift = 0.1
+				market_liberal_drift = 0.1
 				social_liberal_drift = 0.1
 				social_democrat_drift = 0.1
 				drift_defence_factor = 0.3
@@ -60,6 +61,7 @@ ideas = {
 			
 			modifier = {
 				social_conservative_drift = 0.1
+				market_liberal_drift = 0.1
 				social_liberal_drift = 0.1
 				social_democrat_drift = 0.1
 				drift_defence_factor = 0.3
@@ -156,6 +158,12 @@ ideas = {
 						has_government = social_conservative
 						GER = {
 							has_government = social_conservative
+						}
+					}
+					AND = {
+						has_government = market_liberal
+						GER = {
+							has_government = market_liberal
 						}
 					}
 					AND = {

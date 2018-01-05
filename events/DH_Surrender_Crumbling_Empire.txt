@@ -31,13 +31,14 @@ country_event = {
 		ENG = { surrender_progress > 0.75 }
 	}
 	
-	# All is lost
+	
+	
+# All is lost
 	option = {
 		name = DH_Crumbling_Empire.1.A
 		GER = { country_event = { id = DH_Crumbling_Empire_GER_Response.1 hours = 4 }}		
 	}
-
-	#We fight on!
+#We fight on!
 	option = {
 		name = DH_Crumbling_Empire.1.B
 		custom_effect_tooltip = "We will keep resisting the German invasion"
@@ -57,29 +58,26 @@ country_event = {
 	is_triggered_only = yes
 	
 	
-	# Dismantle the Empire but leave British Isles
+# Dismantle the Empire but leave British Isles
 	option = {
 		name = DH_Crumbling_Empire_GER_Response.1.A
 		set_country_flag = isolation_of_uk
 		ENG = { country_event = { id = DH_Crumbling_Empire.2 hours = 6 }}	
 	}
-
-	# Take some lands and leave British Isles
+# Take some lands and leave British Isles
 	option = {
 		name = DH_Crumbling_Empire_GER_Response.1.B
 		set_country_flag = dissolution_of_uk
 		ENG = { country_event = { id = DH_Crumbling_Empire.2 hours = 6 }}	
 	}
-
-	# Dismantle the United Kingdom completely!
+# Dismantle the United Kingdom completely!
 	option = {
 		name = DH_Crumbling_Empire_GER_Response.1.C
 		set_country_flag = annexation_of_uk
 		ENG = { country_event = { id = DH_Crumbling_Empire.2 hours = 6 }}
 		custom_effect_tooltip = "Establish the Reichsprotectorate in the Isles"		
-	}
-
-	# No deal with the brits!
+	}	
+# No deal with the brits!
 	option = {
 		name = DH_Crumbling_Empire_GER_Response.1.D
 		custom_effect_tooltip = "We will crush the brits"		
@@ -99,7 +97,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	# London answers in German
+# London answers in German
 	option = {
 		name = DH_Crumbling_Empire.2.A
 		create_country_leader = { name = "Lord Halifax" desc = "" picture = "Portrait_Britain_Edward_Halifax.dds" expire = "1965.1.1" ideology = social_conservatism traits = { } }	
@@ -128,7 +126,7 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	# London answers in German
+# London answers in German
 	option = {
 		name = DH_Crumbling_Empire.3.A
 		
@@ -173,19 +171,17 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	# Install an isolationist government
+# Install an isolationist government
 	option = {
 		name = DH_Crumbling_Empire.4.A
 		ENG = { country_event = { id = DH_Crumbling_Empire_Leadership.1 hours = 2 }}
 	}
-
-	# Install an isolationist government and invite HRH Edward VIII
+# Install an isolationist government and invite HRH Edward VIII
 	option = {
 		name = DH_Crumbling_Empire.4.B
 		ENG = { country_event = { id = DH_Crumbling_Empire_Leadership.2 hours = 2 }}
 	}
-
-	# Install a Fascist government
+# Install a Fascist government
 	option = {
 		name = DH_Crumbling_Empire.4.C
 		puppet = ENG
@@ -205,7 +201,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# We will behave well!
+# We will behave well!
 	option = {
 		name = DH_Crumbling_Empire_Leadership.1.A
 		ENG = {
@@ -241,7 +237,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# We will behave well!
+# We will behave well!
 	option = {
 		name = DH_Crumbling_Empire_Leadership.2.A
 		#Add Edward VII as an idea
@@ -277,7 +273,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	# Hail Mosley!
+# Hail Mosley!
 	option = {
 		name = DH_Crumbling_Empire_Leadership.3.A
 		set_politics = { ruling_party = fascist elections_allowed = no }
@@ -298,12 +294,12 @@ country_event = {
 	is_triggered_only = yes
 	
 
-	# The sun set for the Empire
+# The sun set for the Empire
 	option = {
 		name = DH_Crumbling_Empire.5.A
 		custom_effect_tooltip = "Establish the Reichsprotectorate in the Isles."
 		
-		hidden_effect = {
+        hidden_effect = {
 			127 = { add_core_of = EGL }
 			123 = { add_core_of = EGL }
 			122 = { add_core_of = EGL }
@@ -332,22 +328,50 @@ country_event = {
 				if = {
 					limit = {
 						OR = {
-							has_dlc = "Death or Dishonor"
+							AND = {
+								has_dlc = "Death or Dishonor"
+								has_dlc = "Together for Victory"
+							}
+							AND ={
+								has_dlc = "Death or Dishonor"
+								NOT = { has_dlc = "Together for Victory" }
+							}
+						}
+					}
+					set_autonomy = {
+						target = SCO
+						autonomous_state = autonomy_reichskommissariat
+					}
+					set_autonomy = {
+						target = EGL
+						autonomous_state = autonomy_reichskommissariat
+					}
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { has_dlc = "Death or Dishonor" }
 							has_dlc = "Together for Victory"
 						}
 					}
 					set_autonomy = {
 						target = SCO
-						autonomous_state = DH_autonomy_integrated_puppet
+						autonomous_state = autonomy_satellite
 					}
 					set_autonomy = {
 						target = EGL
-						autonomous_state = DH_autonomy_integrated_puppet
+						autonomous_state = autonomy_satellite
 					}
-					else = {
-						puppet = SCO
-						puppet = EGL
+				}
+				if = {
+					limit = {
+						AND = {
+							NOT = { has_dlc = "Together for Victory" }
+							NOT = { has_dlc = "Death or Dishonor" }
+						}
 					}
+					puppet = SCO
+					puppet = EGL
 				}
 			}
 			EGL = { set_cosmetic_tag = EGL_GER_RP }

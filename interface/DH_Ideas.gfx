@@ -26,24 +26,6 @@ spriteTypes = {
 		name = "GFX_idea_slot_political_agenda"
 		textureFile = "gfx/interface/idea_slot_political_agenda.dds"
 	}
-	
-	
-	spriteType = {
-		name = "GFX_idea_slot_Chief_of_Staff"
-		textureFile = "gfx/interface/idea_slot_Chief of Staff.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_slot_Chief_of_Army"
-		textureFile = "gfx/interface/idea_slot_Chief_of_Army.dds"
-	}
-	spriteType = {
-		name = "GFX_idea_slot_Chief_of_Navy"
-		textureFile = "gfx/interface/idea_slot_Chief_of_Navy.dds"
-	}	
-	spriteType = {
-		name = "GFX_idea_slot_Chief_of_Airforce"
-		textureFile = "gfx/interface/idea_slot_Chief_of_Air.dds"
-	}	
 #########################################################
 # Political Agenda icons
 #########################################################

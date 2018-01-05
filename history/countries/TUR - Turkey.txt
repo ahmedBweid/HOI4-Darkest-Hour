@@ -114,6 +114,7 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 40 }		
 		social_conservative = { popularity = 25 }		
+		market_liberal = { popularity = 0 }		
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 35 }		
 		left_wing_radical = { popularity = 0 }		
@@ -138,6 +139,7 @@ set_national_unity = 0.55
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 40 }		
 			social_conservative = { popularity = 25 }		
+			market_liberal = { popularity = 0 }		
 			social_liberal = { popularity = 0 }		
 			social_democrat = { popularity = 35 }		
 			left_wing_radical = { popularity = 0 }		
@@ -151,74 +153,74 @@ set_national_unity = 0.55
 		elections_allowed = yes
 	}
 
+	create_country_leader = {
+		name = "Ismet Inönü"
+		desc = "POLITICS_ISMET_INÖNÜ_DESC"
+		picture = "Portrait_Turkey_Ismet_Inonu.dds"
+		expire = "1965.1.1"
+		ideology = paternal_autocracy
+		traits = {
+			#
+		}
+	}
+
 }
 
-####################################################
-# Turkish Leaders
-####################################################
-#NS
+# Atatürk still alive in '36, however, Inönü was already Prime Minister (but not President)
 create_country_leader = {
-	name = "Alparslan Tuerkes"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Nihal Atsiz"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Mustafa Kemal Atatürk"
-	desc = ""
-	picture = "Turkey_PA_Mustafa_Kemal_Ataturk.dds"
+	name = "Ismet Inönü"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "Portrait_Turkey_Ismet_Inonu.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "Mustafa Ismet Inönü"
-	desc = ""
-	picture = "Turkey_SC_Ismet_Inonu.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
+	name = "Mustafa Kemal Atatürk"
+	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+	picture = "Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
+	expire = "1938.11.10"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
 }
-#SL 
-#SD
 
-#LWR
-#LE
 create_country_leader = {
 	name = "Sefik Hüsnü"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	desc = "POLITICS_SEFIK_HUSNU_DESC"
+	picture = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {}
-}
-#ST
-create_country_leader = {
-	name = "Nazım Hikmet Ran"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-####################################################
-# Turkish General Staff
-####################################################
+create_country_leader = {
+	name = "Celâl Bayar"
+	desc = "POLITICS_CELAL_BAYAR_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Fevzi Çakmak"
+	desc = "POLITICS_OGUZ_REMZI_ARIK_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = {
+		#
+	}
+}
+
 create_corps_commander = {
 	name = "Cemil Cahit Toydemir"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"

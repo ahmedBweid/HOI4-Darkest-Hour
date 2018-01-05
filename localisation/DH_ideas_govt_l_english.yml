@@ -31,7 +31,11 @@
 ###############################################
 ## Cabinet
 ##############################################
-
+ cabinet:0 "Cabinet"
+ Head_of_Government:0 "Head of Government"
+ Foreign_Minister:0 "Foreign Minister"
+ Minister_of_Security:0 "Minister of Security"
+ Armaments_Minister:0 "Armaments Minister"
  
  ##### Political Agenda ####################################################
  political_agenda:0 "Political Agenda"

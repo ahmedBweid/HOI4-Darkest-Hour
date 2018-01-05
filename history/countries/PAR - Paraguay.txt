@@ -65,7 +65,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 0 }		
-		social_conservative = { popularity = 90 }		
+		social_conservative = { popularity = 40 }		
+		market_liberal = { popularity = 50 }		
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 10 }		
@@ -73,7 +74,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -109,7 +110,8 @@ create_country_leader = {
 			national_socialist = { popularity = 0 }		
 			fascist = { popularity = 0 }		
 			paternal_autocrat = { popularity = 0 }		
-			social_conservative = { popularity = 90 }	
+			social_conservative = { popularity = 40 }		
+			market_liberal = { popularity = 50 }		
 			social_liberal = { popularity = 0 }		
 			social_democrat = { popularity = 0 }		
 			left_wing_radical = { popularity = 10 }		
@@ -117,7 +119,7 @@ create_country_leader = {
 			stalinist = { popularity = 0 }	
 		}
 
-		ruling_party = social_conservative
+		ruling_party = market_liberal
 		last_election = "1938.1.1"
 		election_frequency = 48
 		elections_allowed = no

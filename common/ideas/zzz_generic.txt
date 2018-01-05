@@ -282,6 +282,27 @@ ideas = {
 			}
 		}
 
+		market_liberal_influence = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = market_liberal
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				market_liberal_drift = 0.1
+				market_liberal_acceptance = 85
+			}
+		}
+
 		social_liberal_influence = {
 			
 			
@@ -404,6 +425,7 @@ ideas = {
 
 			modifier = {
 				social_conservative_drift = -0.02
+				market_liberal_drift = -0.02
 				social_liberal_drift = -0.02
 				social_democrat_drift = -0.02
 			}

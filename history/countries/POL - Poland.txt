@@ -154,8 +154,9 @@ set_politics = {
 	parties = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
-		paternal_autocrat = { popularity = 73 }		
-		social_conservative = { popularity = 25 }				
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 73 }		
+		market_liberal = { popularity = 25 }		
 		social_liberal = { popularity = 0 }		
 		social_democrat = { popularity = 2 }		
 		left_wing_radical = { popularity = 0 }		
@@ -163,7 +164,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -175,8 +176,9 @@ set_politics = {
 		parties = {
 			national_socialist = { popularity = 0 }		
 			fascist = { popularity = 0 }		
-			paternal_autocrat = { popularity = 73 }		
-			social_conservative = { popularity = 25 }
+			paternal_autocrat = { popularity = 0 }		
+			social_conservative = { popularity = 73 }		
+			market_liberal = { popularity = 25 }		
 			social_liberal = { popularity = 0 }		
 			social_democrat = { popularity = 2 }		
 			left_wing_radical = { popularity = 0 }		
@@ -191,96 +193,29 @@ set_politics = {
 	}
 }
 
-####################################################
-# Poland Leaders
-####################################################
-#NS
 create_country_leader = {
-	name = "Max Wambeck"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Roman Dmowski"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Ignacy Moscicki"
-	desc = ""
-	picture = "Poland_PA_Ignacy_Moscicki.dds"
+	name = "Władysław Sikorski"
+	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
+	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "Ignacy Jan Paderewski"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	name = "Ignacy Mościcki"
+	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
+	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {}
-}
-#SL 
-create_country_leader = {
-	name = "Bolesław Wieniawa-Długoszowski"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Mieczysław Niedziałkowski"
-	desc = ""
-	picture = "Sweden_SD_Per_Albin_Hansson.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#LWR
-create_country_leader = {
-	name = "Wladyslaw Gomulka"
-	desc = ""
-	picture = "Poland_LWR_Wladyslaw_Gomulka.dds"
-	expire = "1965.1.1"
-	ideology = left_wing_radicalism
-	traits = {}
-}
-#LE
-create_country_leader = {
-	name = "Józef Unszlicht"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {}
-}
-#ST
-create_country_leader = {
-	name = "Boleslaw Bierut"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
-}
 
-####################################################
-# Poland General Staff
-####################################################
 create_field_marshal = {
 	name = "Władysław Sikorski"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"

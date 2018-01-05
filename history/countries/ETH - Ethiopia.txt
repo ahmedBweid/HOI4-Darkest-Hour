@@ -52,7 +52,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 60 }		
-		social_conservative = { popularity = 24 }
+		social_conservative = { popularity = 15 }		
+		market_liberal = { popularity = 9 }		
 		social_liberal = { popularity = 8 }		
 		social_democrat = { popularity = 8 }		
 		left_wing_radical = { popularity = 0 }		
@@ -69,7 +70,7 @@ set_politics = {
 create_country_leader = {
 	name = "Haile Selassie I"
 	desc = "POLITICS_HAILE_SELASSIE_DESC"
-	picture = "Ethiopia_PA_Haile_Selassie_I.dds"
+	picture = "Portrait_Ethiopia_Haile_Selassie.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

@@ -27,24 +27,6 @@ NDefines.NAI.DIPLOMACY_FACTION_WRONG_IDEOLOGY_PENALTY = 10 -- AI penalty for dip
 -- Naval Invasion Stuff
 NDefines.NNavy.NAVAL_SUPREMACY_INTEL_LOW = 0.3						-- we need more intel than this to get any supremacy
 NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.8								-- required naval supremacy to perform invasions on an area. (Was 0.5)
--- Naval Combat Stuff
-NDefines.NNavy.COMBAT_LOW_ORG_HIT_CHANCE_PENALTY = -0.6 -- -0.35 -- -0.8, -- % of penalty applied to hit chance when ORG is very low.
-NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.6 --0.3, -- random factor in damage. So if max damage is fe. 10, and randomness is 30%, then damage will be between 7-10.
-NDefines.NNavy.COMBAT_MIN_WIN_CHANCE_TO_KEEP_FIGHTING = 0.8 --0.2, -- compare our forces with enemy forces. 1.0 is equal win chances. Less then 1.0 is we have low chances. If we have at least X chances, then ships will attept to attack without waiting for the other ships that are on the way.
-NDefines.NNavy.COMBAT_DAMAGE_REDUCTION_ON_RETREAT = 0.5 --0.8, -- Retreating ships are using their rear cannons, so the damage should be reduced.
-NDefines.NNavy.COMBAT_CHASE_RUNNERS_SPEED_COMPARE_BALANCE = 0.65 --0.6, -- When we chanse runners and they are faster then us, then we resign. But if we are faster then them by a very small speed difference, the chase may takes weeks. So this tweak value allows to resign chasing if speed difference is not so big.
-NDefines.NNavy.COMBAT_CHASE_RUNNERS_TIMEOUT_HOURS = 24 --10, -- Stop chasing after timeout
-NDefines.NNavy.COMBAT_MAX_DISTANCE_TO_ARRIVE = 160 --80, -- Max distance to arrive. When ships are on their way, their distance will never exceed this value.
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW_COMBAT = 0.3 --0.1, -- % of total Strength. When below, navy will go to home base to repair (in combat).
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM_COMBAT = 0.45 --0.3, -- % of total Strength. When below, navy will go to home base to repair (in combat).
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH_COMBAT = 0.6 --0.5, -- % of total Strength. When below, navy will go to home base to repair (in combat).
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_LOW = 0.35 --0.2, -- % of total Strength. When below, navy will go to home base to repair.
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_MEDIUM = 0.50 --0.5, -- % of total Strength. When below, navy will go to home base to repair.
-NDefines.NNavy.REPAIR_AND_RETURN_PRIO_HIGH = 0.65 --0.9, -- % of total Strength. When below, navy will go to home base to repair.
-NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 1.0 --1.6, -- casting damage value to ship strength multiplier. Use it to balance the game difficulty.
-NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1.9 --1.9, -- casting damage value to ship organisation multiplier. Use it to balance the game difficulty.
-
-
 --Graphical Changes
 NDefines_Graphics.NMapIcons.STATES_PRIORITY_VICTORY_POINTS = 4
 NDefines_Graphics.NGraphics.GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW = 10.0 -- thickness in pixels -- 5

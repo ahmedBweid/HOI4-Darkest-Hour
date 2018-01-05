@@ -168,8 +168,6 @@
 
 
 # -- Escort Aircraft Carriers CVE
- escort_carrier:0 "Escort Carrier"
-
  escort_carrier_0:0 "Seaplane Carrier '12"
  escort_carrier_0_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
  escort_carrier_1:0 "Converted Experimental Carrier '16"
@@ -183,8 +181,6 @@
 
  
 # -- Light Aircraft Carriers CVL
- light_carrier:0 "Light Carrier"
-
  light_carrier_0:0 "Light Carrier '30"
  light_carrier_0_desc:0 "The Light Carrier was an important supplement for carrier fleets. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carries made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, are only lightly armed, lightly armored, and of far smaller displacement than fleet carriers."
  light_carrier_1:0 "Light Carrier '40"
@@ -318,6 +314,8 @@
  FRA_light_cruiser_3:0 "Duguay-Trouin-class"
  FRA_light_cruiser_4:0 "La Galissonnière-class"
  FRA_light_cruiser_5:0 "De Grasse-class"
+ # FRA_light_cruiser_6:0 "-class"
+ # FRA_light_cruiser_7:0 "-class"
  FRA_light_cruiser_8:0 "Colbert-class" 
  
  FRA_heavy_cruiser_0:0 "La Gloire-class"
@@ -326,11 +324,16 @@
  FRA_heavy_cruiser_3:0 "Duquesne-class"
  FRA_heavy_cruiser_4:0 "Algérie-class"
  FRA_heavy_cruiser_5:0 "St Louis-class"
-
+ # FRA_heavy_cruiser_6:0 "-class"
+ # FRA_heavy_cruiser_7:0 ""
+ # FRA_heavy_cruiser_8:0 "St. Vincent-class" 
+ 
  FRA_battle_cruiser_0:0 "Normandie-class"
  FRA_battle_cruiser_1:0 "Durand Viel-class"
  FRA_battle_cruiser_2:0 "Brest-class"
  FRA_battle_cruiser_3:0 "Dunkerque-class"
+ # FRA_battle_cruiser_4:0 ""
+ # FRA_battle_cruiser_5:0 ""
  
  FRA_battleship_0:0 "Henry IV-class"
  FRA_battleship_1:0 "Charlemagne-class"
@@ -338,14 +341,25 @@
  FRA_battleship_3:0 "Bretagne-class"
  FRA_battleship_4:0 "Normandie-class"
  FRA_battleship_5:0 "Lyon-class"
+ # FRA_battleship_6:0 "-class"
  FRA_battleship_7:0 "Richelieu-class"
  FRA_battleship_8:0 "Alsace-class"
+ # FRA_battleship_9:0 "-class"
+ 
+ # FRA_SH_battleship_1:0 "-class"
+ # FRA_SH_battleship_2:0 "-class"
  
  FRA_carrier_0:0 "Guynemer-class"
  FRA_carrier_1:0 "Neptune-class"
  FRA_carrier_2:0 "Joffre-class"
+ # FRA_carrier_3:0 "-class"
+ # FRA_carrier_4:0 "-class"
+ # FRA_carrier_5:0 "-class"
+ # FRA_carrier_6:0 "-class"
  FRA_carrier_7:0 "Clemenceau-class"
- FRA_nuclear_carrier_0:0 "Verdun-class" 
+ FRA_nuclear_carrier_0:0 "Verdun-class"
+ # FRA_nuclear_carrier_1:0 "Charles de Gaulle-class"
+ 
  
  FRA_escort_carrier_0:0 "Foudre-class"
  FRA_escort_carrier_1:0 "Béarn-class"
@@ -564,6 +578,7 @@
  JAP_battle_cruiser_3:0 "Tsushima-class"
  JAP_battle_cruiser_4:0 "B-65-class"
 
+ 
  JAP_battleship_0:0 "Fuji-class"
  JAP_battleship_1:0 "Mikasa-class"
  JAP_battleship_2:0 "Kawachi-class"
@@ -586,6 +601,7 @@
  JAP_carrier_5:0 "Unryu-class"
  JAP_carrier_6:0 "Jinryu-class"
 
+ 
  JAP_escort_carrier_0:0 "Wakamiya-class"
  JAP_escort_carrier_2:0 "Akitsu Maru-class"
  JAP_escort_carrier_3:0 "Hosho-class"
@@ -624,6 +640,7 @@
  SOV_destroyer_8:0 "Skoriy-class"
  SOV_destroyer_9:0 "Project 56M"
  
+ # SOV_light_cruiser_0:0 "Atlanta-class"
  SOV_light_cruiser_1:0 "Komintern-class"
  SOV_light_cruiser_2:0 "Svetlana-class"
  SOV_light_cruiser_3:0 "Profintern-class"
@@ -720,6 +737,7 @@
  USA_heavy_cruiser_7:0 "Des Moines-class"
  USA_heavy_cruiser_8:0 "Albany-class" 
  
+ # battle_cruiser_0:0 "Battlecruiser '06"
  USA_battle_cruiser_1:0 "Bunker Hill-class"
  USA_battle_cruiser_2:0 "Lexington-class"
  USA_battle_cruiser_3:0 "Constellation refit-class"

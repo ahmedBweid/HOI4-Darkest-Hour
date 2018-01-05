@@ -1552,6 +1552,10 @@ focus_tree = {
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_liberal } }
 					add_ideas = social_liberal_influence
 				}
@@ -1687,6 +1691,10 @@ focus_tree = {
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_liberal } }
@@ -1968,6 +1976,10 @@ focus_tree = {
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_liberal } }
 					add_ideas = social_liberal_influence
 				}
@@ -2144,6 +2156,10 @@ focus_tree = {
 					add_ideas = social_conservative_influence
 				}
 				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
+				}
+				if = {
 					limit = { ROOT = { has_government = social_liberal } }
 					add_ideas = social_liberal_influence
 				}
@@ -2235,6 +2251,10 @@ focus_tree = {
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_liberal } }
@@ -2406,6 +2426,10 @@ focus_tree = {
 				if = {
 					limit = { ROOT = { has_government = social_conservative } }
 					add_ideas = social_conservative_influence
+				}
+				if = {
+					limit = { ROOT = { has_government = market_liberal } }
+					add_ideas = market_liberal_influence
 				}
 				if = {
 					limit = { ROOT = { has_government = social_liberal } }

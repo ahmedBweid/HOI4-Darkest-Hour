@@ -90,7 +90,8 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 5 }		
 		paternal_autocrat = { popularity = 1 }		
-		social_conservative = { popularity = 39 }				
+		social_conservative = { popularity = 1 }		
+		market_liberal = { popularity = 38 }		
 		social_liberal = { popularity = 14 }		
 		social_democrat = { popularity = 37 }		
 		left_wing_radical = { popularity = 1 }		
@@ -98,7 +99,7 @@ set_politics = {
 		stalinist = { popularity = 0 }	
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = market_liberal
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
@@ -131,96 +132,49 @@ set_politics = {
 set_convoys = 80
 set_national_unity = 0.75
 
-####################################################
-# Belge Leaders
-####################################################
-#NS
 create_country_leader = {
-	name = "Léon Degrelle"
-	desc = ""
-	picture = "Belgium_NS_Leon_Degrelle.dds"
+	name = "Hubert Pierlot"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
-	ideology = national_socialism
-	traits = {}
-}
-#FA
-create_country_leader = {
-	name = "Joris Van Severen"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {}
-}
-#PA
-create_country_leader = {
-	name = "Leopold III"
-	desc = ""
-	picture = "Belgium_PA_Leopold_III.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {}
+	ideology = social_conservatism
+	traits = {
+		#
+	}
 }
 
-#SC
 create_country_leader = {
-	name = "Paul van Zeeland"
-	desc = ""
-	picture = "Belgium_ML_Paul_Van_Zeeland.dds"
+	name = "Paul Van Zeeland"
+	desc = "POLITICS_LEOPOLD_DESC"
+	picture = "Portrait_Belgium_Paul_Van_Zeeland.dds"
 	expire = "1965.1.1"
 	ideology = market_liberalism
-	traits = {}
-}
-#SL 
-create_country_leader = {
-	name = "Victor de Laveleye"
-	desc = ""
-	picture = "Czechoslovakia_ML_Edvard_Benes.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {}
-}
-#SD
-create_country_leader = {
-	name = "Paul-Henri Spaak"
-	desc = ""
-	picture = "Sweden_SD_Per_Albin_Hansson.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-#LWR
 create_country_leader = {
 	name = "Joseph Jacquemotte"
-	desc = ""
-	picture = "Sweden_NS_.dds"
+	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = left_wing_radicalism
-	traits = {}
-}
-#LE
-create_country_leader = {
-	name = "Abraham Leon"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {}
-}
-#ST
-create_country_leader = {
-	name = "Julien Lahaut"
-	desc = ""
-	picture = "Sweden_NS_.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {}
+	traits = {
+		#
+	}
 }
 
-####################################################
-# Holland General Staff
-####################################################
+create_country_leader = {
+	name = "Léon Degrelle"
+	desc = "POLITICS_LEON_DEGRELLE_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
+}
 
 create_corps_commander = {
 	name = "M.C.L. Keyaerts"
