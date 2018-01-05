@@ -350,6 +350,16 @@ country_event = {
 					modifier = DH_same_ideologies
 				}
 			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = DH_democractic_ideologies
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = PREV
+					modifier = DH_democractic_ideologies
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -496,11 +506,11 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = DH_similar_ideologies
+					modifier = DH_democractic_ideologies
 				}
 				reverse_add_opinion_modifier = {
 					target = ROOT
-					modifier = DH_similar_ideologies
+					modifier = DH_democractic_ideologies
 				}
 			}
 			every_country = {
