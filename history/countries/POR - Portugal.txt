@@ -156,9 +156,9 @@ create_country_leader = {
 }
 #PA
 create_country_leader = {
-	name = "António de Fragosa Carmona"
+	name = "Antonio de Oliveira Salazar"
 	desc = ""
-	picture = "Germany_PA_Wilhelm_II.dds"
+	picture = "Portugal_FA_Antonio_de_Oliveira_Salazar.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {}

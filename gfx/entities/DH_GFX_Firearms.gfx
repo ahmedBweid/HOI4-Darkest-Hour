@@ -16,6 +16,11 @@ objectTypes = {
 		name = "GER_infantry_weapon_mg_mesh"
 		file = "gfx/models/units/Firearms/Germany/GER_mp_40.mesh"
 	}
+# G41 (1941)
+	pdxmesh = {
+		name = "GER_infantry_weapon_rifle2_mesh"
+		file = "gfx/models/units/Firearms/Germany/GER_g41.mesh"
+	}
 # StG-44 (1945)
 	pdxmesh = {
 		name = "GER_infantry_weapon_ar_mesh"

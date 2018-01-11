@@ -30,18 +30,22 @@ set_politics = {
 
 set_convoys = 5
 
-#Victor Emmanuel III of Italy after 39
+####################################################
+# Albania Leaders
+####################################################
 create_country_leader = {
 	name = "Zog I"
 	desc = "POLITICS_KING_ZOG_DESC"
-	picture = "Portrait_Albania_Zog_I.dds"
+	picture = "Albania_PA_Zog_I.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {
 		#
 	}
 }
-
+####################################################
+# Albania Generals
+####################################################
 create_field_marshal = {
 	name = "Xhemal Aranitasi"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"

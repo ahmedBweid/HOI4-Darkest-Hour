@@ -4,7 +4,6 @@ oob = "SIK_1936"
 
 set_technology = {
 	infantry_weapons = 1
-	
 }
 
 1939.1.1 = {
@@ -69,17 +68,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Sheng Shicai"
-	desc = "POLITICS_SHENG_SHICAI_DESC"
-	picture = "Portrait_Sinkiang_Sheng_Shicai.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -100,4 +88,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+####################################################
+# Xinjiang Leaders
+####################################################
+# ST
+create_country_leader = {
+	name = "Sheng Shicai"
+	desc = "POLITICS_SHENG_SHICAI_DESC"
+	picture = "Xinjiang_ST_Sheng_Shicai.dds"
+	expire = "1965.1.1"
+	ideology = left_wing_radicalism
+	traits = {}
 }

@@ -79,17 +79,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Tiburcio Carías Andino"
-	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
-	picture = "Portrait_Honduras_Tiburcio_Carias_Andino.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -113,4 +102,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
+}
+####################################################
+# Honduras Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Tiburcio Carías Andino"
+	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
+	picture = "Honduras_PA_Tiburcio_Carias_Andino.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }

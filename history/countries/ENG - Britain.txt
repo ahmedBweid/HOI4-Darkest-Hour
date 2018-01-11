@@ -97,6 +97,17 @@ add_ideas = {
 	stiff_upper_lip
 	ENG_the_war_to_end_all_wars
 	george_v
+# Cabinet
+	ENG_HoG_Stanley_Baldwin
+	ENG_FM_Anthony_Eden
+	ENG_AM_Neville_Chamberlain
+	ENG_MoS_John_Simon
+	ENG_HoI_Hugh_Sinclair
+# Military Staff
+	ENG_CoStaff_A_MontgomeryMassingberd
+	ENG_CoArmy_A_MontgomeryMassingberd
+	ENG_CoNavy_Ernle_Chatfield
+	ENG_CoAir_Owen_Boyd
 }
 
 set_convoys = 800
@@ -168,17 +179,6 @@ if = {
 		ENG_george_vi
 	}
 
-	
-create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		
-	}
-}
 	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
@@ -285,7 +285,6 @@ set_politics = {
 
 create_faction = Allies
 add_to_faction = ENG
-#add_to_faction = FRA
 add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
@@ -304,7 +303,7 @@ add_to_faction = MAL
 create_country_leader = {
 	name = "Arnold Spencer Leese"
 	desc = ""
-	picture = "Portrait_Britain_Arnold_Spencer_Leese.dds"
+	picture = "Britain_NS_Arnold_Spencer_Leese.dds"
 	expire = "1965.1.1"
 	ideology = national_socialism
 	traits = {}
@@ -367,18 +366,18 @@ create_country_leader = {
 }
 #LE
 create_country_leader = {
-	name = "Tom Mann"
+	name = "Tony Cliff"
 	desc = ""
-	picture = "Britain_LE_Tom_Mann.dds"
+	picture = "Britain_LE_Tony_Cliff.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {}
 }
 #ST
 create_country_leader = {
-	name = "Tony Cliff"
+	name = "Harry Pollitt"
 	desc = ""
-	picture = "Britain_ST_Tony_Cliff.dds"
+	picture = "Britain_ST_Harry_Pollitt.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {}

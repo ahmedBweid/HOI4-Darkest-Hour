@@ -76,17 +76,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Edwin J. Barclay"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
-	picture = "Portrait_Liberia_Edwin_Barclay.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -110,4 +99,17 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
+}
+
+####################################################
+# Liberian Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "Edwin J. Barclay"
+	desc = "POLITICS_EDWIN_BARCLAY_DESC"
+	picture = "Liberia_SC_Edwin_Barclay.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
 }

@@ -1,4 +1,47 @@
 ﻿l_english:
+###############################################
+## Laws and Policies 
+##############################################
+## Civil Laws 
+ idea_group_civil_laws:0 "Civil Laws"
+ civil_laws:0 "Civil Laws"
+ open_society:0 "Open Society	"
+ limited_restrictions:0 "Limited Restrictions"
+ legalisic_restrictions:0 "Legalisic Restrictions"
+ repression:0 "Repression"
+ totalitarian_system:0 "Totalitarian System"
+
+## Foreign Policy 
+ idea_group_foreign_policy:0 "Foreign Policy"
+ foreign_policy:0 "Foreign Policy"
+ isolationism:0 "Neutrality"
+ dove_policy:0 "Dove Policy"
+ detente:0 "Détente" 
+ containment:0 "Containment"
+ hardline:0 "Hardline"
+ interventionsm:0 "Interventionsm"
+ 
+###############################################
+## Cabinet
+##############################################
+## Political Agenda 
+ political_agenda:0 "Political Agenda"
+
+ drift_National_Socialist:0 "Drift to National Soc."
+ drift_Fascist:0 "Drift to Fascism"
+ drift_Paternal_Autocrat:0 "Drift to Pat. Autocracy."
+
+ drift_Social_Conservative:0 "Drift to Soc. Cons."
+ drift_Social_Liberal:0 "Drift to Social. Lib."
+ drift_Social_Democrat:0 "Drift to Soc. Dem."
+
+ drift_Left_Wing_Radical:0 "Drift to LWR"
+ drift_Leninist:0 "Drift to Leninism"
+ drift_Stalinist:0 "Drift to Stalinism"
+
+###############################################
+## German Ideas
+##############################################
  GER_volkswagen:0 "Volkswagen"
  GER_kraft_durch_freude:0 "Strength through Joy"
  GER_trade_union:0 "Labour Union"
@@ -42,29 +85,52 @@
  GER_volksprodulkte_spirit:0 "Volksprodukte"
  GER_volksprodulkte_spirit_desc:0 "WHAT!?"
 
- reinhard_heydrich:0 "Reinhard Heydrich"
+## Special Ideas
+ GER_revenge:0 "Blitzkreig!"
+ GER_revenge_desc:0 "While others prepare for a rerun of the last war, Germany will show the world the new face of warfare."
+
+ GER_destiny:0 "Destiny"
+ GER_destiny_desc:0 "Encirclement forced Germany into war in 1914 and blockade brought her to her knees. Conquest in the east will neatly solve both of those problems. Allowing Germany to fufil her destiny."
+
+ GER_defence:0 "Fortress Europa" 
+ GER_defence_desc:0 "The news from the front is grim, but all is not lost. New superior weapons will turn the tide all we need is time to bring them into service."   
+
+##############################################
+## Soviet Ideas
+##############################################
+## Special Ideas
+ SOV_german_betrayal:0 "German Betrayal" 
+ SOV_german_betrayal_desc:0 "Germany has proven herself to be untrustworthy by declaring war on the Soviet Union, breaking the pact between us. But rest assured, that this betrayal will not go unpunished." 
+ 
+ SOV_patrotic_war:0 "The Great Patriotic War"  
+ SOV_patrotic_war_desc:0 "The fascist invader may have driven deep into the Soviet Union, but the Red Army and Red Navy are self-sacrificingly disputing every inch of Soviet Soil. The Soviet people must realise this and adandon all heedlessness, they must mobilise themselves and re-focus all their work on wartime production. There can be no mercy for the enemy."  
+ 
+##############################################
+## British Ideas
+##############################################
+## Special Ideas
+ ENG_our_finest_hour:0 "Our Finest Hour" 
+ ENG_our_finest_hour_desc:0 "With France defeated most people figured that Britain wouldn't last another 6 weeks.They underestimated the spirit of the British people and their government. They bore themselves that if the British Empire and its Commonwealth lasted  for a thousands years, men would still say this was thier finest hour." 
+ 
+ ENG_end_of_beginning:0 "The End of the Beginning" 
+ ENG_end_of_beginning_desc:0 "We have seen many battles and though the war is not yet won, Now this is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning." 
+
+##############################################
+## US Ideas
+##############################################
+## Special Ideas
+ USA_stab_in_the_back:0 "Stab in The Back" 
+ USA_stab_in_the_back_desc:0 "The leadership of Italy assured America that they were desirious of peace, but the Government of Italy has now chosen to preserve what it terms its 'Freedom of Action' and the hand that held the dagger has struck it into the back of its neighbour. Some indeed still hold to the now obvious delusion that we of the United States can safely permit the United States to remain a lone island in a world dominated by force." 
+
+##############################################
+## Turkish Ideas
+##############################################
  TUR_german_military_aid:0 "Germany Military Aid"
  TUR_german_military_aid_desc:0 "Germany is helping us with our Military industry for the Chromium we are giving them."
+
+##############################################
+## Persian Ideas
+##############################################
  PER_german_academic_influence:0 "German Academic Influence"
  PER_german_academic_influence_desc:0 "German scientists are assisting us in our Research efforts."
-
- fascist_influence:0 "Fascist Influence"
- fascist_influence_desc:0 "Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists."
- national_socialist_influence:0 "National Socialist Influence"
- national_socialist_influence_desc:0 "National Socialist pressure has made national socialism very popular, and the country is susceptible to align with other national socialists."
- paternal_autocrat_influence:0 "Paternal Autocrat Influence"
- paternal_autocrat_influence_desc:0 "Paternal Autocrat pressure has made paternal autocracy very popular, and the country is susceptible to align with other paternal autocrats."
- stalinist_influence:0 "Stalinist Influence"
- stalinist_influence_desc:0 "Stalinist pressure has made stalinism very popular, and the country is susceptible to align with other stalinists."
- leninist_influence:0 "Leninist Influence"
- leninist_influence_desc:0 "Leninist pressure has made leninism very popular, and the country is susceptible to align with other leninists."
- left_wing_radical_influence:0 "Left Wing Radical Influence"
- left_wing_radical_influence_desc:0 "Left Wing Radical pressure has made left wing radicalism very popular, and the country is susceptible to align with other left wing radicals."
- social_conservative_influence:0 "Social Conservative Influence"
- social_conservative_influence_desc:0 "Social Conservative pressure has made social conservatism very popular, and the country is susceptible to align with other social conservatives."
- market_liberal_influence:0 "Market Liberal Influence"
- market_liberal_influence_desc:0 "Market Liberal pressure has made market liberalism very popular, and the country is susceptible to align with other market liberals."
- social_liberal_influence:0 "Social Liberal Influence"
- social_liberal_influence_desc:0 "Social Liberal pressure has made social liberalism very popular, and the country is susceptible to align with other social liberals."
- social_democrat_influence:0 "Social Democratic Influence"
- social_democrat_influence_desc:0 "Social Democratic pressure has made social democracy very popular, and the country is susceptible to align with other social democrats."
+ 

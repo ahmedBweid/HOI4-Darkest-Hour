@@ -120,25 +120,24 @@ set_politics = {
 		elections_allowed = no
 	}
 }
-
+####################################################
+# Latvian Leaders
+####################################################
+# PA
 create_country_leader = {
 	name = "Karlis Ulmanis"
-	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "GFX_Portrait_latvia_karlis_ulmanis"
+	desc = ""
+	picture = "Latvia_PA_Karlis_Ulmanis.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	traits = {}
 }
-
+# SL
 create_country_leader = {
 	name = "Alberts Kviesis"
 	desc = ""
-	picture = "Portrait_Latvia_Alberts_Kviesis.dds"
+	picture = "Latvia_SL_Alberts_Kviesis.dds"
 	expire = "1965.1.1"
 	ideology = social_liberalism
-	traits = {
-		#
-	}
+	traits = {}
 }

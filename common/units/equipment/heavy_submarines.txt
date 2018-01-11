@@ -99,12 +99,29 @@ equipments = {
 		priority = 80
 
 		naval_range = 20000
+		naval_speed = 20
+		port_capacity_usage = 0.5
+		manpower = 80
+		
+		surface_detection = 20
+		surface_visibility = 5
+		sub_visibility = 6
+		
+		max_strength = 30
+		evasion = 30
+		reliability = 0.70
+		
+		attack = 2
+		fire_range = 6
+		torpedo_attack = 20
+		anti_air_attack = 2 
 
 		build_cost_ic = 5250		
 
 		resources = {
 			oil = 1
-			steel = 1
+			steel = 2
+			chromium = 1
 		}
 		type = { 
 			submarine
@@ -121,33 +138,29 @@ equipments = {
 		parent = heavy_submarine_1
 		priority = 80
 		
-		ap_attack = 0
-		attack = 0
-		fire_range = 7
-		torpedo_attack = 16
-		
-		anti_air_attack = 1
-		
-		armor_value = 0
-		evasion = 35
-		
-		surface_detection = 40
-		sub_detection = 0
-		surface_visibility = 10
-		sub_visibility = 25
-		naval_speed = 14
-		reliability = 0.70
-
+		naval_speed = 19
 		naval_range = 24000
-		
-		max_strength = 20
-		
 		port_capacity_usage = 0.5
+		manpower = 140
+		
+		surface_detection = 25
+		surface_visibility = 5
+		sub_visibility = 4
+		
+		max_strength = 50
+		evasion = 40
+		reliability = 0.85
+		
+		attack = 2
+		fire_range = 8
+		torpedo_attack = 26
+		anti_air_attack = 3
 		
 		build_cost_ic = 5500
 		resources = {
 			oil = 1
-			steel = 2
+			steel = 4 
+			chromium = 1
 		}
 		type = { 
 			submarine

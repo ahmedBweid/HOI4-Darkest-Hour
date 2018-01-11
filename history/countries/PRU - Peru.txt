@@ -99,17 +99,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Oscar Benavides Larrea"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "Portrait_Peru_Oscar_Benavides.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -131,15 +120,16 @@ create_country_leader = {
 		election_frequency = 96
 		elections_allowed = yes
 	}
-
-	create_country_leader = {
-		name = "Manuel Prado Ugarteche"
-		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = fascist_ideology
-		traits = {
-			#
-		}
-	}
+}
+####################################################
+# Peruvian Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Oscar Benavides Larrea"
+	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+	picture = "Peru_PA_Oscar_Benavides.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }

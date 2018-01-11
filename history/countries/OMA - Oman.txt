@@ -73,17 +73,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Said bin Taimur"
-	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
-	picture = "Portrait_Oman_Said_bin_Taimur.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -105,4 +94,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+####################################################
+# Omani Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Said bin Taimur"
+	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
+	picture = "Oman_PA_Said_bin_Taimur.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }

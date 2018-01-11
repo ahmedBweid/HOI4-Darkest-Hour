@@ -78,17 +78,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Harmodio Arias Madrid"
-	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
-	picture = "Portrait_Panama_Harmodio_Arias_Madrid.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -109,26 +98,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-
-	create_country_leader = {
-		name = "Juan Demóstenes Arosemena"
-		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-		expire = "1965.1.1"
-		ideology = social_liberalism
-		traits = {
-			#
-		}
-	}
-
-	create_country_leader = {
-		name = "July Portocarrero"
-		desc = "POLITICS_JULY_PORTOCARRERO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
-		expire = "1965.1.1"
-		ideology = leninism
-		traits = {
-			#
-		}
-	}
+}
+####################################################
+# Panama Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "Harmodio Arias Madrid"
+	desc = "POLITICS_HARMODIO_ARIAS_MADRID_DESC"
+	picture = "Panama_SC_Harmodio_Arias_Madrid.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
 }

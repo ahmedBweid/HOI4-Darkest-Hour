@@ -42,14 +42,15 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+####################################################
+# Guangxi Leaders
+####################################################
+# PA
 create_country_leader = {
 	name = "Li Zongren"
 	desc = "POLITICS_LI_ZONGREN_DESC"
-	picture = "Portrait_Guanxi_Clique_Li_Zongren.dds"
+	picture = "GuanxiClique_PA_Li_Zongren.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	traits = {}
 }

@@ -21,8 +21,7 @@ set_politics = {
 		national_socialist = { popularity = 0 }		
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 17 }		
-		social_conservative = { popularity = 68 }		
-		
+		social_conservative = { popularity = 68 }	
 		social_liberal = { popularity = 15 }		
 		social_democrat = { popularity = 0 }		
 		left_wing_radical = { popularity = 0 }		
@@ -88,30 +87,6 @@ set_politics = {
 	}
 }
 
-
-
-create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "Portrait_Philippines_Manuel_Luis_Quezon.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pedro P. Baguisa"
-	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -133,4 +108,16 @@ create_country_leader = {
 		election_frequency = 72
 		elections_allowed = yes
 	}
+}
+####################################################
+# Philippines Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "Manuel Luis Quezón"
+	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	picture = "Philippines_SC_Manuel_Luis_Quezon.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
 }

@@ -1,5 +1,8 @@
 ﻿l_english:
-######## Generic ------------------------------------------------------------------------------
+###########################################
+## Generic 
+###########################################
+# Fighters 
  fighter_equipment_0:0 "Fighter '33"
  fighter_equipment_0_short:0 "Fighter '33"
  fighter_equipment_0_desc:0 "Fighters are the backbone of any air force. They are used to achieve air superiority, engage enemy bombers and fighters. They are all-rounders, being able to fulfill any mission given to them, but excelling at none in particular."
@@ -30,6 +33,7 @@
  jet_fighter_equipment_6_short:0 "Jet Fighter '62"
  jet_fighter_equipment_6_desc:0 "Fighters are the backbone of any air force. They are used to achieve air superiority, engage enemy bombers and fighters. They are all-rounders, being able to fulfill any mission given to them, but excelling at none in particular."
 
+# Interceptors
  interceptor_equipment:0 "Interceptor"
  interceptor_equipment_0:0 "Interceptor '33"
  interceptor_equipment_0_short:0 "Interceptor '33"
@@ -62,7 +66,32 @@
  jet_interceptor_equipment_6_short:0 "Jet Interceptor '62"
  jet_interceptor_equipment_6_desc:0 "Interceptors are short-range fighters designed to destroy enemy bombers. They have high speed and good manouverability to make them agile enough to evade the machine guns of the bombers, while having the firepower needed to disable a heavy, armoured bomber.  Against enemy fighters, they are less effective yet they still put up a good fight."
 
- 
+# Close Air Support
+ CAS_equipment:0 "Close Air Support"
+ CAS_equipment_0:0 "Close Air Support '33"
+ CAS_equipment_0_short:0 "CAS '33"
+ CAS_equipment_0_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+ CAS_equipment_1:0 "Close Air Support '36"
+ CAS_equipment_1_short:0 "CAS '36"
+ CAS_equipment_1_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+ CAS_equipment_2:0 "Close Air Support '40"
+ CAS_equipment_2_short:0 "CAS '40"
+ CAS_equipment_2_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+ CAS_equipment_3:0 "Close Air Support '43"
+ CAS_equipment_3_short:0 "CAS '43"
+ CAS_equipment_3_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+ CAS_equipment_4:0 "Close Air Support '45"
+ CAS_equipment_4_short:0 "CAS '45"
+ CAS_equipment_4_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+ jet_CAS_equipment:0 "Jet Close Air Support"
+ jet_CAS_equipment_1:0 "Jet Close Air Support '47"
+ jet_CAS_equipment_1_short:0 "Jet CAS '47"
+ jet_CAS_equipment_1_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+ jet_CAS_equipment_2:0 "Jet Close Air Support '54"
+ jet_CAS_equipment_2_short:0 "Jet CAS '54"
+ jet_CAS_equipment_2_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+
+# Heavy Fighters
  heavy_fighter_equipment:0 "Heavy Fighter"
  heavy_fighter_equipment_1:0 "Heavy Fighter '36"
  heavy_fighter_equipment_1_short:0 "Heavy Fighter '36"
@@ -92,6 +121,7 @@
  jet_heavy_fighter_equipment_5_short:0 "Jet Heavy Fighter '62"
  jet_heavy_fighter_equipment_5_desc:0 "Heavy Fighters are long-range fighters, designed to escort bombers and keep enemy interceptors from the bombers. They are drilled in tactics to achieve this mission and receive a bonus when escorting bombers. In Air Superiority missions, they are less effective."
  
+# Strategic Bombers
  strat_bomber_equipment_1:0 "Strategic Bomber '36"
  strat_bomber_equipment_1_short:0 "Strat Bomber '36"
  strat_bomber_equipment_1_desc:0 "Strategic Bombers are the heaviest type of aircraft, designed to deliver a large payload of bombs to enemy provinces, with the aim of crippling his industry and infrastructure. However, the Strategic Bomber is slow despite its long range, which can make it vulnerable to attack by fighters."
@@ -117,7 +147,7 @@
  jet_strat_bomber_equipment_4_short:0 "Inter. Strat Bomber '62"
  jet_strat_bomber_equipment_4_desc:0 "Strategic Bombers are the heaviest type of aircraft, designed to deliver a large payload of bombs to enemy provinces, with the aim of crippling his industry and infrastructure. However, the Strategic Bomber is slow despite its long range, which can make it vulnerable to attack by fighters."
  
- 
+# Tactical Bombers
  tac_bomber_equipment:0 "Tactical Bomber"
  tac_bomber_equipment_0:0 "Interwar Bomber '33"
  tac_bomber_equipment_0_short:0 " Tactical Bomber '33"
@@ -144,13 +174,8 @@
  jet_tac_bomber_equipment_4_short:0 "Jet Tac Bomber '58"
  jet_tac_bomber_equipment_4_desc:0 "Tactical Bombers are medium-sized aircraft, larger than Fighters, yet smaller than Strategic Bombers, which are used primarily for delivering attacks against enemy ground units such as Armour and Infantry.  Although they have a limited dog-fighting capability, they can be easily outmatched by Fighters in air combat."
  
- transport_plane_equipment:0 "Transport Plane"
- transport_plane_equipment_1:0 "Transport Plane I"
- transport_plane_equipment_1_short:0 "Transport"
- transport_plane_equipment_1_desc:0 "§LPlanes used to transport troops on paradrop missions.§!"
- 
+# Naval Bombers
  nav_bomber_equipment:0 "Naval Bomber"
- cv_nav_bomber_equipment:0 "Torpedo Bomber"
  nav_bomber_equipment_1:0 "Naval Bomber '36"
  nav_bomber_equipment_1_short:0 "Naval Bomber '36"
  nav_bomber_equipment_1_desc:0 "The Naval Bomber is designed for use over water and make accurate tactical strikes against enemy surface vessels using torpedoes or armour-piercing bombs.  They have a limited dog-fighting capability, which makes them vulnerable if intercepted by fighters."
@@ -173,55 +198,13 @@
  nav_bomber_equipment_7_short:0 "MPA '62"
  nav_bomber_equipment_7_desc:0 "The Naval Bomber is designed for use over water and make accurate tactical strikes against enemy surface vessels using torpedoes or armour-piercing bombs.  They have a limited dog-fighting capability, which makes them vulnerable if intercepted by fighters."
  
- cv_nav_bomber_equipment_1:0 "Carrier Torpedo Bomber '36"
- cv_nav_bomber_equipment_1_short:0 "Carrier Bomber '36"
- cv_nav_bomber_equipment_1_desc:0 "An early torpedo bomber modified to launch from and land on aircraft carriers."
- cv_nav_bomber_equipment_2:0 "Carrier Torpedo Bomber '40"
- cv_nav_bomber_equipment_2_short:0 "Carrier Bomber '40"
- cv_nav_bomber_equipment_2_desc:0 "An improved torpedo bomber modified to launch from and land on aircraft carriers."
- cv_nav_bomber_equipment_3:0 "Carrier Torpedo Bomber '43"
- cv_nav_bomber_equipment_3_short:0 "Carrier Bomber '43"
- cv_nav_bomber_equipment_3_desc:0 "An advanced torpedo bomber modified to launch from and land on aircraft carriers."
- cv_nav_bomber_equipment_4:0 "Carrier Torpedo Bomber '50"
- cv_nav_bomber_equipment_4_short:0 "Carrier Bomber '50"
- cv_nav_bomber_equipment_4_desc:0 "An advanced torpedo bomber modified to launch from and land on aircraft carriers."
- 
- 
- CAS_equipment:0 "Close Air Support"
- CAS_equipment_0:0 "Close Air Support '33"
- CAS_equipment_0_short:0 "CAS '33"
- CAS_equipment_0_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
- CAS_equipment_1:0 "Close Air Support '36"
- CAS_equipment_1_short:0 "CAS '36"
- CAS_equipment_1_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
- CAS_equipment_2:0 "Close Air Support '40"
- CAS_equipment_2_short:0 "CAS '40"
- CAS_equipment_2_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
- CAS_equipment_3:0 "Close Air Support '43"
- CAS_equipment_3_short:0 "CAS '43"
- CAS_equipment_3_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
- CAS_equipment_4:0 "Close Air Support '45"
- CAS_equipment_4_short:0 "CAS '45"
- CAS_equipment_4_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
- jet_CAS_equipment:0 "Jet Close Air Support"
- jet_CAS_equipment_1:0 "Jet Close Air Support '47"
- jet_CAS_equipment_1_short:0 "Jet CAS '47"
- jet_CAS_equipment_1_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
- jet_CAS_equipment_2:0 "Jet Close Air Support '54"
- jet_CAS_equipment_2_short:0 "Jet CAS '54"
- jet_CAS_equipment_2_desc:0 "Close Air Support is the key to the blitzkrieg tactic. These planes have the ability to strike precisely at enemy units, enabling your ground forces to achieve a rapid breakthrough. They are slow, sturdy planes and this makes them an easy target for enemy fighters."
+# Transport Planes 
+ transport_plane_equipment:0 "Transport Plane"
+ transport_plane_equipment_1:0 "Transport Plane I"
+ transport_plane_equipment_1_short:0 "Transport"
+ transport_plane_equipment_1_desc:0 "§LPlanes used to transport troops on paradrop missions.§!"
 
- cv_CAS_equipment:0 "Carrier CAS '36"
- cv_CAS_equipment_1:0 "Carrier CAS '36"
- cv_CAS_equipment_1_short:0 "Carrier CAS '36"
- cv_CAS_equipment_1_desc:0 "An early close air support plane modified to launch from and land on aircraft carriers."
- cv_CAS_equipment_2:0 "Carrier CAS '40"
- cv_CAS_equipment_2_short:0 "Carrier CAS '40"
- cv_CAS_equipment_2_desc:0 "An improved close air support plane modified to launch from and land on aircraft carriers."
- cv_CAS_equipment_3:0 "Carrier CAS '43"
- cv_CAS_equipment_3_short:0 "Carrier CAS '43"
- cv_CAS_equipment_3_desc:0 "An advanced close air support plane modified to launch from and land on aircraft carriers."
-
+# CV Fighters
  cv_fighter_equipment_0:0 "Carrier Fighter '33"
  cv_fighter_equipment_0_short:0 "Carrier Fighter '33"
  cv_fighter_equipment_1:0 "Carrier Fighter '36"
@@ -239,6 +222,34 @@
  cv_fighter_equipment_7:0 "Carrier Fighter '62"
  cv_fighter_equipment_7_short:0 "Carrier Fighter '62"
  
+# CV Close Air Support
+ cv_CAS_equipment:0 "Carrier CAS '36"
+ cv_CAS_equipment_1:0 "Carrier CAS '36"
+ cv_CAS_equipment_1_short:0 "Carrier CAS '36"
+ cv_CAS_equipment_1_desc:0 "An early close air support plane modified to launch from and land on aircraft carriers."
+ cv_CAS_equipment_2:0 "Carrier CAS '40"
+ cv_CAS_equipment_2_short:0 "Carrier CAS '40"
+ cv_CAS_equipment_2_desc:0 "An improved close air support plane modified to launch from and land on aircraft carriers."
+ cv_CAS_equipment_3:0 "Carrier CAS '43"
+ cv_CAS_equipment_3_short:0 "Carrier CAS '43"
+ cv_CAS_equipment_3_desc:0 "An advanced close air support plane modified to launch from and land on aircraft carriers."
+ 
+# CV Torpedo Bombers
+ cv_nav_bomber_equipment:0 "Torpedo Bomber"
+ cv_nav_bomber_equipment_1:0 "Carrier Torpedo Bomber '36"
+ cv_nav_bomber_equipment_1_short:0 "Carrier Bomber '36"
+ cv_nav_bomber_equipment_1_desc:0 "An early torpedo bomber modified to launch from and land on aircraft carriers."
+ cv_nav_bomber_equipment_2:0 "Carrier Torpedo Bomber '40"
+ cv_nav_bomber_equipment_2_short:0 "Carrier Bomber '40"
+ cv_nav_bomber_equipment_2_desc:0 "An improved torpedo bomber modified to launch from and land on aircraft carriers."
+ cv_nav_bomber_equipment_3:0 "Carrier Torpedo Bomber '43"
+ cv_nav_bomber_equipment_3_short:0 "Carrier Bomber '43"
+ cv_nav_bomber_equipment_3_desc:0 "An advanced torpedo bomber modified to launch from and land on aircraft carriers."
+ cv_nav_bomber_equipment_4:0 "Carrier Torpedo Bomber '50"
+ cv_nav_bomber_equipment_4_short:0 "Carrier Bomber '50"
+ cv_nav_bomber_equipment_4_desc:0 "An advanced torpedo bomber modified to launch from and land on aircraft carriers."
+ 
+ # Rocket Interceptors
  rocket_interceptor_equipment_1:0 "Rocket Interceptor '41"
  rocket_interceptor_equipment_1_short:0 "Rocket Interceptor '41"
  rocket_interceptor_equipment_1_desc:0 "A rocket-powered aircraft uses a rocket for propulsion. Rocket planes can achieve much higher speeds than similarly sized jet aircraft, but typically for at most a few minutes of powered operation, followed by a glide. Unhindered by the need for oxygen from the atmosphere they are suitable for very high altitude flight. They are also capable of delivering much higher acceleration and shorter takeoffs."
@@ -249,15 +260,20 @@
  rocket_interceptor_equipment_3_short:0 "Rocket Interceptor '46"
  rocket_interceptor_equipment_3_desc:0 "A rocket-powered aircraft uses a rocket for propulsion. Rocket planes can achieve much higher speeds than similarly sized jet aircraft, but typically for at most a few minutes of powered operation, followed by a glide. Unhindered by the need for oxygen from the atmosphere they are suitable for very high altitude flight. They are also capable of delivering much higher acceleration and shorter takeoffs."
 
+ # Suicide Craft
  rocket_suicide_equipment_1:0 "Rocket-powered Kamikaze Attack Aircraft"
  rocket_suicide_equipment_1_short:0 "Suicide Craft"
  rocket_suicide_equipment_1_desc:0 "Brace for a bumpy ride."
+ 
  JAP_rocket_suicide_equipment_1:0 "Yokosuka MXY7 Ohka"
  JAP_rocket_suicide_equipment_1_short:0 "Ohka"
  JAP_rocket_suicide_equipment_1_desc:0 "The Yokosuka MXY-7 Ohka was a purpose-built, rocket powered human-guided anti-shipping kamikaze attack plane employed by Japan towards the end of World War II."
 
  
- ####### Luftwaffe -------------------------------------------
+###########################################
+## Germany 
+###########################################
+# Fighters 
  GER_fighter_equipment_0:0 "Arado Ar 68"
  GER_fighter_equipment_0_short:0 "Ar 68"
  GER_fighter_equipment_1:0 "Messerschmitt Bf 109E Emil"
@@ -279,6 +295,7 @@
  GER_jet_fighter_equipment_6:0 "Heinkel He 1079"
  GER_jet_fighter_equipment_6_short:0 "He 1079"
  
+# Interceptors
  GER_interceptor_equipment_0:0 "Heinkel He 51"
  GER_interceptor_equipment_0_short:0 "He 51"
  GER_interceptor_equipment_1:0 "Messerschmitt Bf 109D Dora"
@@ -300,6 +317,21 @@
  GER_jet_interceptor_equipment_6:0 "Messerschmitt Me 1112"
  GER_jet_interceptor_equipment_6_short:0 "Me 1112"
  
+# Close Air Support
+ GER_CAS_equipment_0:0 "Henschel Hs 123"
+ GER_CAS_equipment_0_short:0 "Hs 123"
+ GER_CAS_equipment_1:0 "Junkers Ju 87 Stuka"
+ GER_CAS_equipment_1_short:0 "Ju 87"
+ GER_CAS_equipment_2:0 "Junkers Ju 87 G Kanonenvogel"
+ GER_CAS_equipment_2_short:0 "Ju 87G"
+ GER_CAS_equipment_3:0 "Henschel Hs-129 Panzerjager"
+ GER_CAS_equipment_3_short:0 "Hs 129"
+ GER_CAS_equipment_4:0 "Henschel Hs 132"
+ GER_CAS_equipment_4_short:0 "Hs 132"
+ GER_jet_CAS_equipment_1:0 "Blohm & Voss 178"
+ GER_jet_CAS_equipment_1_short:0 "BV 178"
+ 
+# Heavy Fighters
  GER_heavy_fighter_equipment_1:0 "Messerschmitt Bf 110C Cäsar"
  GER_heavy_fighter_equipment_1_short:0 "Bf 110C"
  GER_heavy_fighter_equipment_2:0 "Messerschmitt Bf 110F Franz"
@@ -315,6 +347,7 @@
  GER_jet_heavy_fighter_equipment_3:0 "Horten Ho.XIIIb"
  GER_jet_heavy_fighter_equipment_3_short:0 "Ho.XIIIb"
  
+# Strategic Bombers
  GER_strat_bomber_equipment_1:0 "Dornier Do 19"
  GER_strat_bomber_equipment_1_short:0 "Do 19"
  GER_strat_bomber_equipment_2:0 "Heinkel He 177 Greif"
@@ -332,6 +365,7 @@
  GER_jet_strat_bomber_equipment_4:0 "Horten H.XVIII Walküre"
  GER_jet_strat_bomber_equipment_4_short:0 "H.XVIII"
  
+# Tactical Bombers
  GER_tac_bomber_equipment_0:0 "Dornier Do 17"
  GER_tac_bomber_equipment_0_short:0 "Do 17"
  GER_tac_bomber_equipment_1:0 "Heinkel He 111"
@@ -349,6 +383,7 @@
  GER_jet_tac_bomber_equipment_4:0 "Focke-Wulf Fw 239"
  GER_jet_tac_bomber_equipment_4_short:0 "Fw 239"
  
+# Naval Bombers
  GER_nav_bomber_equipment_1:0 "Dornier Do 217"
  GER_nav_bomber_equipment_1_short:0 "Do 217"
  GER_nav_bomber_equipment_2:0 "Focke-Wulf Fw 200 Condor"
@@ -360,33 +395,26 @@
  GER_nav_bomber_equipment_5:0 "Arado Ar 560 Atlantik"
  GER_nav_bomber_equipment_5_short:0 "Ar 560"
 
- GER_CAS_equipment_0:0 "Henschel Hs 123"
- GER_CAS_equipment_0_short:0 "Hs 123"
- GER_CAS_equipment_1:0 "Junkers Ju 87 Stuka"
- GER_CAS_equipment_1_short:0 "Ju 87"
- GER_CAS_equipment_2:0 "Junkers Ju 87 G Kanonenvogel"
- GER_CAS_equipment_2_short:0 "Ju 87G"
- GER_CAS_equipment_3:0 "Henschel Hs-129 Panzerjager"
- GER_CAS_equipment_3_short:0 "Hs 129"
- GER_CAS_equipment_4:0 "Henschel Hs 132"
- GER_CAS_equipment_4_short:0 "Hs 132"
- GER_jet_CAS_equipment_1:0 "Blohm & Voss 178"
- GER_jet_CAS_equipment_1_short:0 "BV 178"
-
- GER_rocket_interceptor_equipment_1:0 "Messerschmitt Me 163 Komet"
- GER_rocket_interceptor_equipment_1_short:0 "Me 163"
- GER_rocket_interceptor_equipment_2:0 "Messerschmitt Me 263 Komet"
- GER_rocket_interceptor_equipment_2_short:0 "Me 263"
- GER_rocket_interceptor_equipment_3:0 "Bachem Ba 349 Natter"
- GER_rocket_interceptor_equipment_3_short:0 "Ba 349"
+# Transport Planes 
+ GER_transport_plane_equipment_1_short:0 "Ju 52m3"
  
- GER_cv_nav_bomber_equipment_1:0 "Fieseler Fi 167"
- GER_cv_nav_bomber_equipment_1_short:0 "Fi 167"
- GER_cv_nav_bomber_equipment_2:0 "Arado Ar 195"
- GER_cv_nav_bomber_equipment_2_short:0 "Ar 195"
- GER_cv_nav_bomber_equipment_3:0 "Arado Ar 215"
- GER_cv_nav_bomber_equipment_3_short:0 "Ar 215"
+# CV Fighters
+ GER_cv_fighter_equipment_0:0 "Arado Ar 197"
+ GER_cv_fighter_equipment_0_short:0 "Ar 197"
+ GER_cv_fighter_equipment_1:0 "Messerschmitt Bf 109T"
+ GER_cv_fighter_equipment_1_short:0 "Bf 109T"
+ GER_cv_fighter_equipment_2:0 "Messerschmitt Bf 109 T"
+ GER_cv_fighter_equipment_2_short:0 "Bf 109 T"
+ GER_cv_fighter_equipment_3:0 "Messerschmitt Me 155"
+ GER_cv_fighter_equipment_3_short:0 "Me 155"
+ GER_cv_fighter_equipment_4:0 "Messerschmitt Me 155"
+ GER_cv_fighter_equipment_4_short:0 "Me 155"
+ GER_cv_fighter_equipment_5:0 "Focke-Wulf Fw 190T"
+ GER_cv_fighter_equipment_5_short:0 "Fw 190T"
+ GER_cv_fighter_equipment_6:0 "Heinkel He 162"
+ GER_cv_fighter_equipment_6_short:0 "He 162"
  
+# CV Close Air Support
  GER_cv_CAS_equipment_1:0 "Junkers Ju 87 C Stuka"
  GER_cv_CAS_equipment_1_short:0 "Ju 87C Stuka"
  GER_cv_CAS_equipment_2:0 "Junkers Ju 88C"
@@ -394,22 +422,26 @@
  GER_cv_CAS_equipment_3:0 "Junkers Ju 187C"
  GER_cv_CAS_equipment_3_short:0 "Ju 187C"
  
- GER_cv_fighter_equipment_0:0 "Arado Ar 197"
- GER_cv_fighter_equipment_0_short:0 "Ar 197"
- GER_cv_fighter_equipment_1:0 "Messerschmitt Bf 109T"
- GER_cv_fighter_equipment_1_short:0 "Bf 109T"
- # GER_cv_fighter_equipment_2:0 "Messerschmitt Bf 109 T"
- # GER_cv_fighter_equipment_2_short:0 "Bf 109 T"
- GER_cv_fighter_equipment_3:0 "Messerschmitt Me 155"
- GER_cv_fighter_equipment_3_short:0 "Me 155"
- # GER_cv_fighter_equipment_4:0 "Messerschmitt Me 155"
- # GER_cv_fighter_equipment_4_short:0 "Me 155"
- GER_cv_fighter_equipment_5:0 "Focke-Wulf Fw 190T"
- GER_cv_fighter_equipment_5_short:0 "Fw 190T"
- GER_cv_fighter_equipment_6:0 "Heinkel He 162"
- GER_cv_fighter_equipment_6_short:0 "He 162"
+# CV Torpedo Bombers
+ GER_cv_nav_bomber_equipment_1:0 "Fieseler Fi 167"
+ GER_cv_nav_bomber_equipment_1_short:0 "Fi 167"
+ GER_cv_nav_bomber_equipment_2:0 "Arado Ar 195"
+ GER_cv_nav_bomber_equipment_2_short:0 "Ar 195"
+ GER_cv_nav_bomber_equipment_3:0 "Arado Ar 215"
+ GER_cv_nav_bomber_equipment_3_short:0 "Ar 215"
  
- ######## Royal Air Force ----------------------------------------------
+# Rocket Interceptors
+ GER_rocket_interceptor_equipment_1:0 "Messerschmitt Me 163 Komet"
+ GER_rocket_interceptor_equipment_1_short:0 "Me 163"
+ GER_rocket_interceptor_equipment_2:0 "Messerschmitt Me 263 Komet"
+ GER_rocket_interceptor_equipment_2_short:0 "Me 263"
+ GER_rocket_interceptor_equipment_3:0 "Bachem Ba 349 Natter"
+ GER_rocket_interceptor_equipment_3_short:0 "Ba 349"
+ 
+###########################################
+## United Kingdom 
+###########################################
+# Fighters 
  ENG_fighter_equipment_0:0 "Gloster Gladiator"
  ENG_fighter_equipment_0_short:0 "Gladiator"
  ENG_fighter_equipment_1:0 "Supermarine Spitfire"
@@ -431,6 +463,7 @@
  ENG_jet_fighter_equipment_6:0 "McDonnell-Douglas Phantom FG.1"
  ENG_jet_fighter_equipment_6_short:0 "Phantom FG.1"
 
+# Interceptors
  ENG_interceptor_equipment_0:0 "Bristol Bulldog"
  ENG_interceptor_equipment_0_short:0 "Bulldog"
  ENG_interceptor_equipment_1:0 "Hawker Hurricane"
@@ -452,6 +485,23 @@
  ENG_jet_interceptor_equipment_6:0 "Hawker P.1121"
  ENG_jet_interceptor_equipment_6_short:0 "P.1121"
  
+# Close Air Support
+ ENG_CAS_equipment_0:0 "Hawker Hart"
+ ENG_CAS_equipment_0_short:0 "Hart"
+ ENG_CAS_equipment_1:0 "Fairey Battle"
+ ENG_CAS_equipment_1_short:0 "Battle"
+ ENG_CAS_equipment_2:0 "Hawker Hurricane Mk IV"
+ ENG_CAS_equipment_2_short:0 "Hurricane Mk IV"
+ ENG_CAS_equipment_3:0 "Bristol Beaufighter Mk IC"
+ ENG_CAS_equipment_3_short:0 "Beaufighter Mk IC"
+ ENG_CAS_equipment_4:0 "Bristol Beaufighter Mk VI"
+ ENG_CAS_equipment_4_short:0 "Beaufighter Mk VI"
+ ENG_jet_CAS_equipment_1:0 "Gloster Reaper FGA.Mk.22"
+ ENG_jet_CAS_equipment_1_short:0 "Gloster Reaper FGA.Mk.22"
+ ENG_jet_CAS_equipment_2:0 "Blackburn Buccaneer S.2B"
+ ENG_jet_CAS_equipment_2_short:0 "Blackburn Buccaneer S.2B"
+ 
+# Heavy Fighters
  ENG_heavy_fighter_equipment_1:0 "Boulton Paul Defiant"
  ENG_heavy_fighter_equipment_1_short:0 "Defiant"
  ENG_heavy_fighter_equipment_2:0 "Westland Whirlwind"
@@ -466,12 +516,8 @@
  ENG_jet_heavy_fighter_equipment_2_short:0 "Hunter"
  ENG_jet_heavy_fighter_equipment_3:0 "Supermarine Scimitar"
  ENG_jet_heavy_fighter_equipment_3_short:0 "Scimitar"
-
- ENG_rocket_interceptor_equipment_1:0 "Hawker P.1052"
- ENG_rocket_interceptor_equipment_1_short:0 "P.1052"
- ENG_rocket_interceptor_equipment_2:0 "Saunders-Roe SR.177"
- ENG_rocket_interceptor_equipment_2_short:0 "SR.177" 
  
+# Strategic Bombers
  ENG_strat_bomber_equipment_1:0 "Short Stirling"
  ENG_strat_bomber_equipment_1_short:0 "Stirling"
  ENG_strat_bomber_equipment_2:0 "Handley Page Halifax"
@@ -489,6 +535,7 @@
  ENG_jet_strat_bomber_equipment_4:0 "Handley Page Victor B.2"
  ENG_jet_strat_bomber_equipment_4_short:0 "Victor B.2"
  
+# Tactical Bombers
  ENG_tac_bomber_equipment_0:0 "Handley Page Heyford"
  ENG_tac_bomber_equipment_0_short:0 "Heyford"
  ENG_tac_bomber_equipment_1:0 "Handley Page Hampden"
@@ -506,6 +553,7 @@
  ENG_jet_tac_bomber_equipment_4:0 "BAC TSR-2"
  ENG_jet_tac_bomber_equipment_4_short:0 "TSR-2"
  
+# Naval Bombers
  ENG_nav_bomber_equipment_1:0 "Short Sunderland"
  ENG_nav_bomber_equipment_1_short:0 "Sunderland"
  ENG_nav_bomber_equipment_2:0 "Bristol Beaufort"
@@ -521,35 +569,10 @@
  ENG_nav_bomber_equipment_7:0 "Hawker Siddeley Nimrod MR1"
  ENG_nav_bomber_equipment_7_short:0 "Nimrod MR1"
  
- ENG_CAS_equipment_0:0 "Hawker Hart"
- ENG_CAS_equipment_0_short:0 "Hart"
- ENG_CAS_equipment_1:0 "Fairey Battle"
- ENG_CAS_equipment_1_short:0 "Battle"
- ENG_CAS_equipment_2:0 "Hawker Hurricane Mk IV"
- ENG_CAS_equipment_2_short:0 "Hurricane Mk IV"
- ENG_CAS_equipment_3:0 "Bristol Beaufighter Mk IC"
- ENG_CAS_equipment_3_short:0 "Beaufighter Mk IC"
- ENG_CAS_equipment_4:0 "Bristol Beaufighter Mk VI"
- ENG_CAS_equipment_4_short:0 "Beaufighter Mk VI"
- ENG_jet_CAS_equipment_1:0 "Gloster Reaper FGA.Mk.22"
- ENG_jet_CAS_equipment_1_short:0 "Gloster Reaper FGA.Mk.22"
- ENG_jet_CAS_equipment_2:0 "Blackburn Buccaneer S.2B"
- ENG_jet_CAS_equipment_2_short:0 "Blackburn Buccaneer S.2B"
+# Transport Planes 
+ ENG_transport_plane_equipment_1_short:0 "C-47 Dakota"
  
- ENG_cv_nav_bomber_equipment_1:0 "Blackburn Shark"
- ENG_cv_nav_bomber_equipment_1_short:0 "Shark"
- ENG_cv_nav_bomber_equipment_2:0 "Blackburn Roc"
- ENG_cv_nav_bomber_equipment_2_short:0 "Roc"
- ENG_cv_nav_bomber_equipment_3:0 "Blackburn Firebrand"
- ENG_cv_nav_bomber_equipment_3_short:0 "Firebrand"
- 
- ENG_cv_CAS_equipment_1:0 "Hawker Osprey"
- ENG_cv_CAS_equipment_1_short:0 "Osprey"
- ENG_cv_CAS_equipment_2:0 "Blackburn Skua"
- ENG_cv_CAS_equipment_2_short:0 "Skua"
- ENG_cv_CAS_equipment_3:0 "Hawker Sea Fury"
- ENG_cv_CAS_equipment_3_short:0 "Sea Fury"
- 
+# CV Fighters
  ENG_cv_fighter_equipment_0:0 "Hawker Nimrod"
  ENG_cv_fighter_equipment_0_short:0 "Nimrod"
  ENG_cv_fighter_equipment_1:0 "Gloster Sea Gladiator"
@@ -559,9 +582,32 @@
  ENG_cv_fighter_equipment_3:0 "Fairey Firefly"
  ENG_cv_fighter_equipment_3_short:0 "Firefly"
  
-
+# CV Close Air Support
+ ENG_cv_CAS_equipment_1:0 "Hawker Osprey"
+ ENG_cv_CAS_equipment_1_short:0 "Osprey"
+ ENG_cv_CAS_equipment_2:0 "Blackburn Skua"
+ ENG_cv_CAS_equipment_2_short:0 "Skua"
+ ENG_cv_CAS_equipment_3:0 "Hawker Sea Fury"
+ ENG_cv_CAS_equipment_3_short:0 "Sea Fury"
  
- ############ USAAF ----------------------------------------------
+# CV Torpedo Bombers
+ ENG_cv_nav_bomber_equipment_1:0 "Blackburn Shark"
+ ENG_cv_nav_bomber_equipment_1_short:0 "Shark"
+ ENG_cv_nav_bomber_equipment_2:0 "Blackburn Roc"
+ ENG_cv_nav_bomber_equipment_2_short:0 "Roc"
+ ENG_cv_nav_bomber_equipment_3:0 "Blackburn Firebrand"
+ ENG_cv_nav_bomber_equipment_3_short:0 "Firebrand"
+ 
+# Rocket Interceptors
+ ENG_rocket_interceptor_equipment_1:0 "Hawker P.1052"
+ ENG_rocket_interceptor_equipment_1_short:0 "P.1052"
+ ENG_rocket_interceptor_equipment_2:0 "Saunders-Roe SR.177"
+ ENG_rocket_interceptor_equipment_2_short:0 "SR.177" 
+ 
+###########################################
+## United States 
+###########################################
+# Fighters 
  USA_fighter_equipment_0:0 "Berliner-Joyce P-16"
  USA_fighter_equipment_0_short:0 "P-16"
  USA_fighter_equipment_1:0 "Seversky P-35 Guardsman"
@@ -583,6 +629,7 @@
  USA_jet_fighter_equipment_6:0 "McDonnell-Douglas F-4 Phantom II"
  USA_jet_fighter_equipment_6_short:0 "F-4"
 
+# Interceptors
  USA_interceptor_equipment_0:0 "Boeing P-26 Peashooter"
  USA_interceptor_equipment_0_short:0 "P-26"
  USA_interceptor_equipment_1:0 "Curtiss P-36 Hawk"
@@ -604,6 +651,23 @@
  USA_jet_interceptor_equipment_6:0 "Convair F-106 Delta Dart"
  USA_jet_interceptor_equipment_6_short:0 "F-106"
  
+# Close Air Support
+ USA_CAS_equipment_0:0 "Curtiss A-12 Shrike"
+ USA_CAS_equipment_0_short:0 "A-12"
+ USA_CAS_equipment_1:0 "Northrop A-17"
+ USA_CAS_equipment_1_short:0 "A-17"
+ USA_CAS_equipment_2:0 "Vultee A-31 Vengeance"
+ USA_CAS_equipment_2_short:0 "A-31"
+ USA_CAS_equipment_3:0 "North American A-36 Apache"
+ USA_CAS_equipment_3_short:0 "A-36"
+ USA_CAS_equipment_4:0 "Beechcraft A-38 Grizzly"
+ USA_CAS_equipment_4_short:0 "A-38"
+ USA_jet_CAS_equipment_1:0 "Douglas A-1 Skyraider"
+ USA_jet_CAS_equipment_1_short:0 "A-1"
+ USA_jet_CAS_equipment_2:0 "Douglas A-4 Skyhawk"
+ USA_jet_CAS_equipment_2_short:0 "A-4"
+ 
+# Heavy Fighters
  USA_heavy_fighter_equipment_1:0 "Consolidated P-30"
  USA_heavy_fighter_equipment_1_short:0 "P-30"
  USA_heavy_fighter_equipment_2:0 "Lockheed P-38D Lightning"
@@ -620,12 +684,8 @@
  USA_jet_heavy_fighter_equipment_3_short:0 "F-94"
  USA_jet_heavy_fighter_equipment_4:0 "Convair F-102 Delta Dagger"
  USA_jet_heavy_fighter_equipment_4_short:0 "F-102"
-
- USA_rocket_interceptor_equipment_1:0 "Northrop P-79 Flying Ram"
- USA_rocket_interceptor_equipment_1_short:0 "P-79"
- USA_rocket_interceptor_equipment_2:0 "Republic F-91 Thunderceptor"
- USA_rocket_interceptor_equipment_2_short:0 "F-91" 
  
+# Strategic Bombers
  USA_strat_bomber_equipment_1:0 "Boeing B-17C Flying Fortress"
  USA_strat_bomber_equipment_1_short:0 "B-17C"
  USA_strat_bomber_equipment_2:0 "Boeing B-17G Flying Fortress"
@@ -643,6 +703,7 @@
  USA_jet_strat_bomber_equipment_4:0 "Boeing B-52G Stratofortress"
  USA_jet_strat_bomber_equipment_4_short:0 "B-52G"
  
+# Tactical Bombers
  USA_tac_bomber_equipment_0:0 "Douglas B-18 Bolo"
  USA_tac_bomber_equipment_0_short:0 "B-18"
  USA_tac_bomber_equipment_1:0 "Douglas A-20 Havoc"
@@ -660,6 +721,7 @@
  USA_jet_tac_bomber_equipment_4:0 "Douglas B-66 Destroyer"
  USA_jet_tac_bomber_equipment_4_short:0 "B-66"
  
+# Naval Bombers
  USA_nav_bomber_equipment_1:0 "Consolidated PBY Catalina"
  USA_nav_bomber_equipment_1_short:0 "PBY"
  USA_nav_bomber_equipment_2:1 "Martin PBM Mariner"
@@ -675,39 +737,10 @@
  USA_nav_bomber_equipment_7:0 "Lockheed P-3 Orion"
  USA_nav_bomber_equipment_7_short:0 "P-3"
 
- USA_CAS_equipment_0:0 "Curtiss A-12 Shrike"
- USA_CAS_equipment_0_short:0 "A-12"
- USA_CAS_equipment_1:0 "Northrop A-17"
- USA_CAS_equipment_1_short:0 "A-17"
- USA_CAS_equipment_2:0 "Vultee A-31 Vengeance"
- USA_CAS_equipment_2_short:0 "A-31"
- USA_CAS_equipment_3:0 "North American A-36 Apache"
- USA_CAS_equipment_3_short:0 "A-36"
- USA_CAS_equipment_4:0 "Beechcraft A-38 Grizzly"
- USA_CAS_equipment_4_short:0 "A-38"
- USA_jet_CAS_equipment_1:0 "Douglas A-1 Skyraider"
- USA_jet_CAS_equipment_1_short:0 "A-1"
- USA_jet_CAS_equipment_2:0 "Douglas A-4 Skyhawk"
- USA_jet_CAS_equipment_2_short:0 "A-4"
- 
- USA_cv_nav_bomber_equipment_1:0 "TBD Devastator"
- USA_cv_nav_bomber_equipment_1_short:0 "TBD Devastator"
- # USA_cv_nav_bomber_equipment_2:0 "TBD Devastator"
- # USA_cv_nav_bomber_equipment_2_short:0 "TBD Devastator"
- USA_cv_nav_bomber_equipment_3:0 "TBF Avenger"
- USA_cv_nav_bomber_equipment_3_short:0 "TBF Avenger"
- USA_cv_nav_bomber_equipment_4:0 "AD Skyraider"
- USA_cv_nav_bomber_equipment_4_short:0 "AD Skyraider"
- 
- USA_cv_CAS_equipment_0:0 "SBC Helldiver"
- USA_cv_CAS_equipment_0_short:0 "SBC Helldiver"
- USA_cv_CAS_equipment_1:0 "SB2U Vindicator"
- USA_cv_CAS_equipment_1_short:0 "SB2U Vindicator"
- USA_cv_CAS_equipment_2:0 "SBD Dauntless"
- USA_cv_CAS_equipment_2_short:0 "SBD Dauntless"
- USA_cv_CAS_equipment_3:0 "SB2C Helldiver"
- USA_cv_CAS_equipment_3_short:0 "SB2C Helldiver"
- 
+# Transport Planes 
+ USA_transport_plane_equipment_1_short:0 "C-47 Skytrain"
+
+# CV Fighters
  USA_cv_fighter_equipment_0:0 "Grumman F3F"
  USA_cv_fighter_equipment_0_short:0 "F3F"
  USA_cv_fighter_equipment_1:0 "Brewster F2A Buffalo"
@@ -725,8 +758,36 @@
  USA_cv_fighter_equipment_7:0 "Vought F-8 Crusader"
  USA_cv_fighter_equipment_7_short:0 "F-8"
 
- ### ---------------------- VVS ----------------------------------------------
+# CV Close Air Support
+ USA_cv_CAS_equipment_0:0 "SBC Helldiver"
+ USA_cv_CAS_equipment_0_short:0 "SBC Helldiver"
+ USA_cv_CAS_equipment_1:0 "SB2U Vindicator"
+ USA_cv_CAS_equipment_1_short:0 "SB2U Vindicator"
+ USA_cv_CAS_equipment_2:0 "SBD Dauntless"
+ USA_cv_CAS_equipment_2_short:0 "SBD Dauntless"
+ USA_cv_CAS_equipment_3:0 "SB2C Helldiver"
+ USA_cv_CAS_equipment_3_short:0 "SB2C Helldiver"
  
+# CV Torpedo Bombers
+ USA_cv_nav_bomber_equipment_1:0 "TBD Devastator"
+ USA_cv_nav_bomber_equipment_1_short:0 "TBD Devastator"
+ USA_cv_nav_bomber_equipment_2:0 "TBD Devastator"
+ USA_cv_nav_bomber_equipment_2_short:0 "TBD Devastator"
+ USA_cv_nav_bomber_equipment_3:0 "TBF Avenger"
+ USA_cv_nav_bomber_equipment_3_short:0 "TBF Avenger"
+ USA_cv_nav_bomber_equipment_4:0 "AD Skyraider"
+ USA_cv_nav_bomber_equipment_4_short:0 "AD Skyraider"
+ 
+# Rocket Interceptors
+ USA_rocket_interceptor_equipment_1:0 "Northrop P-79 Flying Ram"
+ USA_rocket_interceptor_equipment_1_short:0 "P-79"
+ USA_rocket_interceptor_equipment_2:0 "Republic F-91 Thunderceptor"
+ USA_rocket_interceptor_equipment_2_short:0 "F-91" 
+ 
+###########################################
+## Soviet Union 
+###########################################
+# Fighters 
  SOV_fighter_equipment_0:0 "Polikarpov I-16 Ishak"
  SOV_fighter_equipment_0_short:0 "I-16"
  SOV_fighter_equipment_1:0 "Mikoyan-Gurevich MiG-3"
@@ -748,6 +809,7 @@
  SOV_jet_fighter_equipment_6:0 "Mikoyan-Gurevich MiG-21bis"
  SOV_jet_fighter_equipment_6_short:0 "MiG-21bis"
 
+# Interceptors
  SOV_interceptor_equipment_0:0 "Polikarpov I-15 Chaika"
  SOV_interceptor_equipment_0_short:0 "I-15"
  SOV_interceptor_equipment_1:0 "Yakovlev Yak-1"
@@ -769,6 +831,23 @@
  SOV_jet_interceptor_equipment_6:0 "Mikoyan-Gurevich MiG-25"
  SOV_jet_interceptor_equipment_6_short:0 "MiG-25"
  
+# Close Air Support
+ SOV_CAS_equipment_0:0 "TsKB TSh-1"
+ SOV_CAS_equipment_0_short:0 "TSh-1"
+ SOV_CAS_equipment_1:0 "Sukhoi Su-2"
+ SOV_CAS_equipment_1_short:0 "Su-2"
+ SOV_CAS_equipment_2:0 "Ilyushin IL-2 Sturmovik"
+ SOV_CAS_equipment_2_short:0 "IL-2"
+ SOV_CAS_equipment_3:0 "Ilyushin Il-2M Shturmovik"
+ SOV_CAS_equipment_3_short:0 "IL-2M"
+ SOV_CAS_equipment_4:0 "Ilyushin Il-10"
+ SOV_CAS_equipment_4_short:0 "Il-10"
+ SOV_jet_CAS_equipment_1:0 "Ilyushin Il-40"
+ SOV_jet_CAS_equipment_1_short:0 "Il-40"
+ SOV_jet_CAS_equipment_2:0 "Sukhoi Su-7"
+ SOV_jet_CAS_equipment_2_short:0 "Su-7"
+ 
+# Heavy Fighters
  SOV_heavy_fighter_equipment_1:0 "Tupolev DI-8"
  SOV_heavy_fighter_equipment_1_short:0 "DI-8"
  SOV_heavy_fighter_equipment_2:0 "Yakovlev Yak-2"
@@ -786,11 +865,7 @@
  SOV_jet_heavy_fighter_equipment_4:0 "Tupolev Tu-128"
  SOV_jet_heavy_fighter_equipment_4_short:0 "Tu-128"
  
- SOV_rocket_interceptor_equipment_1:0 "Bereznyak-Isayev BI-1"
- SOV_rocket_interceptor_equipment_1_short:0 "BI-1"
- SOV_rocket_interceptor_equipment_2:0 "Bereznyak-Isayev BI-6"
- SOV_rocket_interceptor_equipment_2_short:0 "BI-6"
- 
+# Strategic Bombers
  SOV_strat_bomber_equipment_1:0 "Tupolev TB-6"
  SOV_strat_bomber_equipment_1_short:0 "TB-6"
  SOV_strat_bomber_equipment_2:0 "Petlyakov Pe-8"
@@ -808,7 +883,7 @@
  SOV_jet_strat_bomber_equipment_4:0 "Tupolev Tu-96"
  SOV_jet_strat_bomber_equipment_4_short:0 "Tu-96"
  
- 
+# Tactical Bombers
  SOV_tac_bomber_equipment_0:0 "Tupolev SB Katyusha"
  SOV_tac_bomber_equipment_0_short:0 "SB"
  SOV_tac_bomber_equipment_1:0 "Petlyakov Pe-2 Peshka"
@@ -826,6 +901,7 @@
  SOV_jet_tac_bomber_equipment_4:0 "Yakovlev Yak-28I"
  SOV_jet_tac_bomber_equipment_4_short:0 "Yak-28I"
  
+# Naval Bombers
  SOV_nav_bomber_equipment_1:0 "Beriev MDR-5"
  SOV_nav_bomber_equipment_1_short:0 "MDR-5"
  SOV_nav_bomber_equipment_2:0 "Ilyushin Il-4T"
@@ -841,35 +917,10 @@
  SOV_nav_bomber_equipment_7:0 "Beriev Be-12"
  SOV_nav_bomber_equipment_7_short:0 "Be-12"
  
- SOV_CAS_equipment_0:0 "TsKB TSh-1"
- SOV_CAS_equipment_0_short:0 "TSh-1"
- SOV_CAS_equipment_1:0 "Sukhoi Su-2"
- SOV_CAS_equipment_1_short:0 "Su-2"
- SOV_CAS_equipment_2:0 "Ilyushin IL-2 Sturmovik"
- SOV_CAS_equipment_2_short:0 "IL-2"
- SOV_CAS_equipment_3:0 "Ilyushin Il-2M Shturmovik"
- SOV_CAS_equipment_3_short:0 "IL-2M"
- SOV_CAS_equipment_4:0 "Ilyushin Il-10"
- SOV_CAS_equipment_4_short:0 "Il-10"
- SOV_jet_CAS_equipment_1:0 "Ilyushin Il-40"
- SOV_jet_CAS_equipment_1_short:0 "Il-40"
- SOV_jet_CAS_equipment_2:0 "Sukhoi Su-7"
- SOV_jet_CAS_equipment_2_short:0 "Su-7"
- 
- SOV_cv_nav_bomber_equipment_1:0 "Ilyushin Palubniy Il-4"
- SOV_cv_nav_bomber_equipment_1_short:0 "PIl-4"
- SOV_cv_nav_bomber_equipment_2:0 "Tupolev Palubniy ANT-62T"
- SOV_cv_nav_bomber_equipment_2_short:0 "PANT-62T"
- SOV_cv_nav_bomber_equipment_3:0 "Ilyushin Palubniy Il-6"
- SOV_cv_nav_bomber_equipment_3_short:0 "PIl-6"
- 
- SOV_cv_CAS_equipment_1:0 "Tumansky Palubniy M-88"
- SOV_cv_CAS_equipment_1_short:0 "PM-88"
- SOV_cv_CAS_equipment_2:0 "Ilyushin Il-2T"
- SOV_cv_CAS_equipment_2_short:0 "Il-2T"
- SOV_cv_CAS_equipment_3:0 "Ilyushin IL-10T"
- SOV_cv_CAS_equipment_3_short:0 "IL-10T"
- 
+# Transport Planes 
+ SOV_transport_plane_equipment_1_short:0 "Li-2"
+
+# CV Fighters
  SOV_cv_fighter_equipment_0:0 "Polikarpov I-15UD"
  SOV_cv_fighter_equipment_0_short:0 "I-15UD"
  SOV_cv_fighter_equipment_1:0 "Polikarpov I-153"
@@ -879,7 +930,32 @@
  SOV_cv_fighter_equipment_3:0 "Yakovlev Yak-9T"
  SOV_cv_fighter_equipment_3_short:0 "Yak-9T"
 
- ### ---------------------- Japanese Airforce ----------------------------------------------
+# CV Close Air Support
+ SOV_cv_CAS_equipment_1:0 "Tumansky Palubniy M-88"
+ SOV_cv_CAS_equipment_1_short:0 "PM-88"
+ SOV_cv_CAS_equipment_2:0 "Ilyushin Il-2T"
+ SOV_cv_CAS_equipment_2_short:0 "Il-2T"
+ SOV_cv_CAS_equipment_3:0 "Ilyushin IL-10T"
+ SOV_cv_CAS_equipment_3_short:0 "IL-10T"
+
+ # CV Torpedo Bombers
+ SOV_cv_nav_bomber_equipment_1:0 "Ilyushin Palubniy Il-4"
+ SOV_cv_nav_bomber_equipment_1_short:0 "PIl-4"
+ SOV_cv_nav_bomber_equipment_2:0 "Tupolev Palubniy ANT-62T"
+ SOV_cv_nav_bomber_equipment_2_short:0 "PANT-62T"
+ SOV_cv_nav_bomber_equipment_3:0 "Ilyushin Palubniy Il-6"
+ SOV_cv_nav_bomber_equipment_3_short:0 "PIl-6"
+
+ # Rocket Interceptors
+ SOV_rocket_interceptor_equipment_1:0 "Bereznyak-Isayev BI-1"
+ SOV_rocket_interceptor_equipment_1_short:0 "BI-1"
+ SOV_rocket_interceptor_equipment_2:0 "Bereznyak-Isayev BI-6"
+ SOV_rocket_interceptor_equipment_2_short:0 "BI-6"
+ 
+###########################################
+## Japan 
+###########################################
+# Fighters 
  JAP_fighter_equipment_0:0 "Kawasaki Type 92"
  JAP_fighter_equipment_0_short:0 "Type 92"
  JAP_fighter_equipment_1:0 "Nakajima Ki-44 'Tojo'"
@@ -899,6 +975,7 @@
  JAP_jet_fighter_equipment_6:0 "McDonnell-Douglas F-4E Phantom II"
  JAP_jet_fighter_equipment_6_short:0 "F-4E"
  
+# Interceptors
  JAP_interceptor_equipment_0:0 "Kawasaki Ki-10 'Perry'"
  JAP_interceptor_equipment_0_short:0 "Ki-10"
  JAP_interceptor_equipment_1:0 "Nakajima Ki-27 'Nate'"
@@ -918,11 +995,17 @@
  JAP_jet_interceptor_equipment_5:0 "Lockheed F-104J Starfighter"
  JAP_jet_interceptor_equipment_5_short:0 "F-104J"
  
- JAP_rocket_interceptor_equipment_1:0 "Mitsubishi J8M3 Shusui"
- JAP_rocket_interceptor_equipment_1_short:0 "J8M3"
- JAP_rocket_interceptor_equipment_2:0 "Mitsubishi Ki-202 Shusui Kai"
- JAP_rocket_interceptor_equipment_2_short:0 "Ki-202"
+# Close Air Support
+ JAP_CAS_equipment_0:0 "Mitsubishi Ki-30 'Ann'"
+ JAP_CAS_equipment_0_short:0 "Ki-30 'Ann'"
+ JAP_CAS_equipment_1:0 "Kawasaki Ki-32 'Mary'"
+ JAP_CAS_equipment_1_short:0 "Ki-32 'Mary'"
+ JAP_CAS_equipment_2:0 "Yokosuka D4Y 'Judy'"
+ JAP_CAS_equipment_2_short:0 "D4Y 'Judy'"
+ JAP_CAS_equipment_3:0 "Tachikawa Ki-66"
+ JAP_CAS_equipment_3_short:0 "Ki-66'"
  
+# Heavy Fighters
  JAP_heavy_fighter_equipment_1:0 "Kawasaki Ki-38"
  JAP_heavy_fighter_equipment_1_short:0 "Ki-38"
  JAP_heavy_fighter_equipment_2:0 "Kawasaki Ki-45 'Nick'"
@@ -938,6 +1021,7 @@
  JAP_jet_heavy_fighter_equipment_3:0 "Mitsubishi F-1"
  JAP_jet_heavy_fighter_equipment_3_short:0 "F-1"
 
+# Strategic Bombers
  JAP_strat_bomber_equipment_1:0 "Nakajima G5N Shinzan"
  JAP_strat_bomber_equipment_1_short:0 "G5N Shinzan"
  JAP_strat_bomber_equipment_2:0 "Nakajima G5N 'Liz'"
@@ -947,7 +1031,7 @@
  JAP_strat_bomber_equipment_4:0 "Nakajima G10N 'Mount Fuji'"
  JAP_strat_bomber_equipment_4_short:0 "G10N"
 
-
+# Tactical Bombers
  JAP_tac_bomber_equipment_0:0 "Mitsubishi Ki-2"
  JAP_tac_bomber_equipment_0_short:0 "Ki-2"
  JAP_tac_bomber_equipment_1:0 "Kawasaki Ki-48 'Lily'"
@@ -959,6 +1043,7 @@
  JAP_jet_tac_bomber_equipment_1:0 "Nakajima J9Y2 Kikkai Kai"
  JAP_jet_tac_bomber_equipment_1_short:0 "J9Y2 Kikkai Kai"
 
+# Naval Bombers
  JAP_nav_bomber_equipment_1:0 "Mitsubishi G3M 'Nell'"
  JAP_nav_bomber_equipment_1_short:0 "G3M 'Nell'"
  JAP_nav_bomber_equipment_2:0 "Mitsubishi G4M 'Betty'"
@@ -974,33 +1059,10 @@
  JAP_nav_bomber_equipment_7:0 "Shin Meiwa PS-1"
  JAP_nav_bomber_equipment_7_short:0 "PS-1"
  
- JAP_cv_nav_bomber_equipment_1:0 "Nakajima B5N"
- JAP_cv_nav_bomber_equipment_1_short:0 "B5N"
- JAP_cv_nav_bomber_equipment_2:0 "Nakajima B6N"
- JAP_cv_nav_bomber_equipment_2_short:0 "B6N"
- JAP_cv_nav_bomber_equipment_3:0 "Aichi B7A"
- JAP_cv_nav_bomber_equipment_3_short:0 "B7A"
+# Transport Planes 
+ JAP_transport_plane_equipment_1_short:0 "Ki-56"
 
- 
- JAP_CAS_equipment_0:0 "Mitsubishi Ki-30 'Ann'"
- JAP_CAS_equipment_0_short:0 "Ki-30 'Ann'"
- JAP_CAS_equipment_1:0 "Kawasaki Ki-32 'Mary'"
- JAP_CAS_equipment_1_short:0 "Ki-32 'Mary'"
- JAP_CAS_equipment_2:0 "Yokosuka D4Y 'Judy'"
- JAP_CAS_equipment_2_short:0 "D4Y 'Judy'"
- JAP_CAS_equipment_3:0 "Tachikawa Ki-66"
- JAP_CAS_equipment_3_short:0 "Ki-66'"
-
- 
- JAP_cv_CAS_equipment_1:0 "Aichi D1A 'Susie'"
- JAP_cv_CAS_equipment_1_short:0 "D1A 'Susie'"
- JAP_cv_CAS_equipment_2:0 "B5M 'Mabel'"
- JAP_cv_CAS_equipment_2_short:0 "B5M 'Mabel'"
- JAP_cv_CAS_equipment_3:0 "D3A 'Val'"
- JAP_cv_CAS_equipment_3_short:0 "D3A 'Val'"
- JAP_cv_CAS_equipment_4:0 "D4Y 'Judy'"
- JAP_cv_CAS_equipment_4_short:0 "D4Y 'Judy'"
- 
+# CV Fighters
  JAP_cv_fighter_equipment_0:0 "Nakajima A2N"
  JAP_cv_fighter_equipment_0_short:0 "A2N"
  JAP_cv_fighter_equipment_1:0 "Mitsubishi A5M 'Claude'"
@@ -1016,24 +1078,34 @@
  JAP_cv_fighter_equipment_6:0 "Mitsubishi A7M2 Reppu"
  JAP_cv_fighter_equipment_6_short:0 "Ki-201 Karyu"
 
- ### ---------------------- Italy ----------------------------------------------
-
- ITA_CAS_equipment_0:0 "Caproni Ca.111"
- ITA_CAS_equipment_0_short:0 "Ca.111"
- ITA_CAS_equipment_1:0 "Breda Ba.65"
- ITA_CAS_equipment_1_short:0 "Ba.65"
- ITA_CAS_equipment_2:0 "Breda Ba.88 Lince"
- ITA_CAS_equipment_2_short:0 "Ba.88 Lince"
- ITA_CAS_equipment_3:0 "Breda Ba.201"
- ITA_CAS_equipment_3_short:0 "Ba.201"
+ # CV Close Air Support
+ JAP_cv_CAS_equipment_1:0 "Aichi D1A 'Susie'"
+ JAP_cv_CAS_equipment_1_short:0 "D1A 'Susie'"
+ JAP_cv_CAS_equipment_2:0 "B5M 'Mabel'"
+ JAP_cv_CAS_equipment_2_short:0 "B5M 'Mabel'"
+ JAP_cv_CAS_equipment_3:0 "D3A 'Val'"
+ JAP_cv_CAS_equipment_3_short:0 "D3A 'Val'"
+ JAP_cv_CAS_equipment_4:0 "D4Y 'Judy'"
+ JAP_cv_CAS_equipment_4_short:0 "D4Y 'Judy'"
  
- ITA_heavy_fighter_equipment_1:0 "IMAM Ro.57"
- ITA_heavy_fighter_equipment_1_short:0 "Ro.57"
- ITA_heavy_fighter_equipment_2:0 "IMAM Ro.58"
- ITA_heavy_fighter_equipment_2_short:0 "Ro.58"
- ITA_heavy_fighter_equipment_3:0 "Savoia-Marchetti SM.92"
- ITA_heavy_fighter_equipment_3_short:0 "SM.92"
+# CV Torpedo Bombers
+ JAP_cv_nav_bomber_equipment_1:0 "Nakajima B5N"
+ JAP_cv_nav_bomber_equipment_1_short:0 "B5N"
+ JAP_cv_nav_bomber_equipment_2:0 "Nakajima B6N"
+ JAP_cv_nav_bomber_equipment_2_short:0 "B6N"
+ JAP_cv_nav_bomber_equipment_3:0 "Aichi B7A"
+ JAP_cv_nav_bomber_equipment_3_short:0 "B7A"
  
+# Rocket Interceptors
+ JAP_rocket_interceptor_equipment_1:0 "Mitsubishi J8M3 Shusui"
+ JAP_rocket_interceptor_equipment_1_short:0 "J8M3"
+ JAP_rocket_interceptor_equipment_2:0 "Mitsubishi Ki-202 Shusui Kai"
+ JAP_rocket_interceptor_equipment_2_short:0 "Ki-202"
+ 
+###########################################
+## Italy 
+###########################################
+# Fighters 
  ITA_fighter_equipment_0:0 "Fiat CR.32"
  ITA_fighter_equipment_0_short:0 "CR.32"
  ITA_fighter_equipment_1:0 "Macchi C.200 Saetta"
@@ -1053,6 +1125,7 @@
  ITA_jet_fighter_equipment_5:0 "FIAT G.91"
  ITA_jet_fighter_equipment_5_short:0 "G.91"
  
+# Interceptors
  ITA_interceptor_equipment_0:0 "FIAT CR.30"
  ITA_interceptor_equipment_0_short:0 "CR.30"
  ITA_interceptor_equipment_1:0 "FIAT G.50 Freccia"
@@ -1074,18 +1147,25 @@
  ITA_jet_interceptor_equipment_6:0 "Lockheed F-104S Starfighter"
  ITA_jet_interceptor_equipment_6_short:0 "F-104S Starfighter"
  
- ITA_rocket_interceptor_equipment_1:0 "Caproni Campini CC.2"
- ITA_rocket_interceptor_equipment_1_short:0 "CC.2"
- ITA_rocket_interceptor_equipment_2:0 "Caproni Campini Ca.183bis"
- ITA_rocket_interceptor_equipment_2_short:0 "Ca.183bis"
+# Close Air Support
+ ITA_CAS_equipment_0:0 "Caproni Ca.111"
+ ITA_CAS_equipment_0_short:0 "Ca.111"
+ ITA_CAS_equipment_1:0 "Breda Ba.65"
+ ITA_CAS_equipment_1_short:0 "Ba.65"
+ ITA_CAS_equipment_2:0 "Breda Ba.88 Lince"
+ ITA_CAS_equipment_2_short:0 "Ba.88 Lince"
+ ITA_CAS_equipment_3:0 "Breda Ba.201"
+ ITA_CAS_equipment_3_short:0 "Ba.201"
+
+ # Heavy Fighters
+ ITA_heavy_fighter_equipment_1:0 "IMAM Ro.57"
+ ITA_heavy_fighter_equipment_1_short:0 "Ro.57"
+ ITA_heavy_fighter_equipment_2:0 "IMAM Ro.58"
+ ITA_heavy_fighter_equipment_2_short:0 "Ro.58"
+ ITA_heavy_fighter_equipment_3:0 "Savoia-Marchetti SM.92"
+ ITA_heavy_fighter_equipment_3_short:0 "SM.92"
  
- ITA_nav_bomber_equipment_1:0 "Savoia-Marchetti SM.79 Sparviero"
- ITA_nav_bomber_equipment_1_short:0 "SM.79 Sparviero"
- ITA_nav_bomber_equipment_2:0 "Savoia-Marchetti SM.84"
- ITA_nav_bomber_equipment_2_short:0 "SM.84"
- ITA_nav_bomber_equipment_3:0 "Savoia-Marchetti SM.89"
- ITA_nav_bomber_equipment_3_short:0 "SM.89"
- 
+# Strategic Bombers
  ITA_strat_bomber_equipment_1:0 "Piaggio P.50"
  ITA_strat_bomber_equipment_1_short:0 "P.50"
  ITA_strat_bomber_equipment_2:0 "Piaggio P.108"
@@ -1095,8 +1175,7 @@
  ITA_strat_bomber_equipment_4:0 "Piaggio P.114"
  ITA_strat_bomber_equipment_4_short:0 "Piaggio P.114"
  
- 
- 
+# Tactical Bombers
  ITA_tac_bomber_equipment_0:0 "Savoia-Marchetti SM.81 Pipistrello"
  ITA_tac_bomber_equipment_0_short:0 "SM.81 Pipistrello"
  ITA_tac_bomber_equipment_1:0 "Fiat BR.20 Cicogna"
@@ -1106,22 +1185,18 @@
  ITA_tac_bomber_equipment_3:0 "Savoia-Marchetti SM.89"
  ITA_tac_bomber_equipment_3_short:0 "SM.89"
 
+# Naval Bombers
+ ITA_nav_bomber_equipment_1:0 "Savoia-Marchetti SM.79 Sparviero"
+ ITA_nav_bomber_equipment_1_short:0 "SM.79 Sparviero"
+ ITA_nav_bomber_equipment_2:0 "Savoia-Marchetti SM.84"
+ ITA_nav_bomber_equipment_2_short:0 "SM.84"
+ ITA_nav_bomber_equipment_3:0 "Savoia-Marchetti SM.89"
+ ITA_nav_bomber_equipment_3_short:0 "SM.89"
  
+ # Transport Planes 
+ ITA_transport_plane_equipment_1_short:0 "Caproni Ca.133"
  
- ITA_cv_nav_bomber_equipment_1:0 "Savoia-Marchetti SM.79-II Sparviero"
- ITA_cv_nav_bomber_equipment_1_short:0 "SM.79-II Sparviero"
- ITA_cv_nav_bomber_equipment_2:0 "Savoia-Marchetti SM.84-II"
- ITA_cv_nav_bomber_equipment_2_short:0 "SM.84-II"
- ITA_cv_nav_bomber_equipment_3:0 "Savoia-Marchetti SM.89-II"
- ITA_cv_nav_bomber_equipment_3_short:0 "SM.89-II"
- 
- ITA_cv_CAS_equipment_1:0 "Breda Ba.65bis"
- ITA_cv_CAS_equipment_1_short:0 "Ba.65bis"
- ITA_cv_CAS_equipment_2:0 "Reggiane Re.2001G/H Falco II"
- ITA_cv_CAS_equipment_2_short:0 "Re.2001G/H Falco II"
- ITA_cv_CAS_equipment_3:0 "Breda Ba.201bis"
- ITA_cv_CAS_equipment_3_short:0 "Ba.201bis"
- 
+# CV Fighters
  ITA_cv_fighter_equipment_0:0 "Fiat ICR.32"
  ITA_cv_fighter_equipment_0_short:0 "ICR.32"
  ITA_cv_fighter_equipment_1:0 "Macchi IC.200"
@@ -1131,29 +1206,32 @@
  ITA_cv_fighter_equipment_3:0 "Fiat G.55S Centauro"
  ITA_cv_fighter_equipment_3_short:0 "G.55S Centauro"
 
- ### ---------------------- France ----------------------------------------------
- FRA_CAS_equipment_0:0 "Amiot 120"
- FRA_CAS_equipment_0_short:0 "Amiot 120"
- FRA_CAS_equipment_1:0 "Breguet Br.691"
- FRA_CAS_equipment_1_short:0 "Br.691"
- FRA_CAS_equipment_2:0 "Breguet Br.693"
- FRA_CAS_equipment_2_short:0 "Br.693"
- FRA_CAS_equipment_3:0 "Republic P-47 Thunderbolt"
- FRA_CAS_equipment_3_short:0 "P-47 Thunderbolt"
- FRA_CAS_equipment_4:0 "Breguet Vultur"
- FRA_CAS_equipment_4_short:0 "Vultur"
- FRA_jet_CAS_equipment_1:0 "Breguet Taon"
- FRA_jet_CAS_equipment_1_short:0 "Taon"
- FRA_jet_CAS_equipment_2:0 "Sud-Est Aviation Mistral"
- FRA_jet_CAS_equipment_2_short:0 "Mistral"
+# CV Close Air Support
+ ITA_cv_CAS_equipment_1:0 "Breda Ba.65bis"
+ ITA_cv_CAS_equipment_1_short:0 "Ba.65bis"
+ ITA_cv_CAS_equipment_2:0 "Reggiane Re.2001G/H Falco II"
+ ITA_cv_CAS_equipment_2_short:0 "Re.2001G/H Falco II"
+ ITA_cv_CAS_equipment_3:0 "Breda Ba.201bis"
+ ITA_cv_CAS_equipment_3_short:0 "Ba.201bis"
  
- FRA_heavy_fighter_equipment_1:0 "Potez 630"
- FRA_heavy_fighter_equipment_1_short:0 "Potez 630"
- FRA_heavy_fighter_equipment_2:0 "Breguet 690"
- FRA_heavy_fighter_equipment_2_short:0 "Bre 690"
- FRA_heavy_fighter_equipment_3:0 "Breguet 700 C2"
- FRA_heavy_fighter_equipment_3_short:0 "Bre 700 C2"
+# CV Torpedo Bombers
+ ITA_cv_nav_bomber_equipment_1:0 "Savoia-Marchetti SM.79-II Sparviero"
+ ITA_cv_nav_bomber_equipment_1_short:0 "SM.79-II Sparviero"
+ ITA_cv_nav_bomber_equipment_2:0 "Savoia-Marchetti SM.84-II"
+ ITA_cv_nav_bomber_equipment_2_short:0 "SM.84-II"
+ ITA_cv_nav_bomber_equipment_3:0 "Savoia-Marchetti SM.89-II"
+ ITA_cv_nav_bomber_equipment_3_short:0 "SM.89-II"
  
+# Rocket Interceptors
+ ITA_rocket_interceptor_equipment_1:0 "Caproni Campini CC.2"
+ ITA_rocket_interceptor_equipment_1_short:0 "CC.2"
+ ITA_rocket_interceptor_equipment_2:0 "Caproni Campini Ca.183bis"
+ ITA_rocket_interceptor_equipment_2_short:0 "Ca.183bis"
+
+###########################################
+## France 
+###########################################
+# Fighters 
  FRA_fighter_equipment_0:0 "Nieuport-Delage NiD 62"
  FRA_fighter_equipment_0_short:0 "NiD 62"
  FRA_fighter_equipment_1:0 "Dewoitine D.520"
@@ -1175,6 +1253,7 @@
  FRA_jet_fighter_equipment_6:0 "Dassault Mirage 5"
  FRA_jet_fighter_equipment_6_short:0 "Mirage 5"
 
+# Interceptors
  FRA_interceptor_equipment_0:0 "Dewoitine D.500"
  FRA_interceptor_equipment_0_short:0 "D.500"
  FRA_interceptor_equipment_1:0 "Morane-Saulnier MS.406"
@@ -1195,27 +1274,32 @@
  FRA_jet_interceptor_equipment_5_short:0 "Mirage III"
  FRA_jet_interceptor_equipment_6:0 "Dassault Mirage IIIC"
  FRA_jet_interceptor_equipment_6_short:0 "Mirage IIIC"
+
+# Close Air Support
+ FRA_CAS_equipment_0:0 "Amiot 120"
+ FRA_CAS_equipment_0_short:0 "Amiot 120"
+ FRA_CAS_equipment_1:0 "Breguet Br.691"
+ FRA_CAS_equipment_1_short:0 "Br.691"
+ FRA_CAS_equipment_2:0 "Breguet Br.693"
+ FRA_CAS_equipment_2_short:0 "Br.693"
+ FRA_CAS_equipment_3:0 "Republic P-47 Thunderbolt"
+ FRA_CAS_equipment_3_short:0 "P-47 Thunderbolt"
+ FRA_CAS_equipment_4:0 "Breguet Vultur"
+ FRA_CAS_equipment_4_short:0 "Vultur"
+ FRA_jet_CAS_equipment_1:0 "Breguet Taon"
+ FRA_jet_CAS_equipment_1_short:0 "Taon"
+ FRA_jet_CAS_equipment_2:0 "Sud-Est Aviation Mistral"
+ FRA_jet_CAS_equipment_2_short:0 "Mistral"
+
+# Heavy Fighters
+ FRA_heavy_fighter_equipment_1:0 "Potez 630"
+ FRA_heavy_fighter_equipment_1_short:0 "Potez 630"
+ FRA_heavy_fighter_equipment_2:0 "Breguet 690"
+ FRA_heavy_fighter_equipment_2_short:0 "Bre 690"
+ FRA_heavy_fighter_equipment_3:0 "Breguet 700 C2"
+ FRA_heavy_fighter_equipment_3_short:0 "Bre 700 C2"
  
- FRA_rocket_interceptor_equipment_1:0 "Leduc 0.21"
- FRA_rocket_interceptor_equipment_1_short:0 "Le 0.21"
- FRA_rocket_interceptor_equipment_2:0 "Leduc 0.22"
- FRA_rocket_interceptor_equipment_2_short:0 "Le 0.22"
- 
- FRA_nav_bomber_equipment_1:0 "Loire LN.401"
- FRA_nav_bomber_equipment_1_short:0 "LN.401"
- FRA_nav_bomber_equipment_2:0 "Potez-CAMS 141"
- FRA_nav_bomber_equipment_2_short:0 "Potez-CAMS 141"
- FRA_nav_bomber_equipment_3:0 "Amiot 351"
- FRA_nav_bomber_equipment_3_short:0 "Amiot 351"
- FRA_nav_bomber_equipment_4:0 "Lockheed P-2 Neptune"
- FRA_nav_bomber_equipment_4_short:0 "P-2 Neptune"
- # FRA_nav_bomber_equipment_5:0 "Kawasaki P-2J"
- # FRA_nav_bomber_equipment_5_short:0 "P-2J"
- FRA_nav_bomber_equipment_6:0 "Breguet Alizé"
- FRA_nav_bomber_equipment_6_short:0 "Alizé"
- FRA_nav_bomber_equipment_7:0 "Breguet Atlantic"
- FRA_nav_bomber_equipment_7_short:0 "Atlantic"
- 
+# Strategic Bombers
  FRA_strat_bomber_equipment_1:0 "Farman F.222"
  FRA_strat_bomber_equipment_1_short:0 "F.222"
  FRA_strat_bomber_equipment_2:0 "Bloch MB.162"
@@ -1223,6 +1307,7 @@
  FRA_strat_bomber_equipment_3:0 "Breguet 482"
  FRA_strat_bomber_equipment_3_short:0 "Bre 482"
  
+# Tactical Bombers
  FRA_tac_bomber_equipment_0:0 "Bloch MB.210"
  FRA_tac_bomber_equipment_0_short:0 "MB.210"
  FRA_tac_bomber_equipment_1:0 "Lioré et Olivier LéO.451"
@@ -1240,21 +1325,26 @@
  FRA_jet_tac_bomber_equipment_4:0 "SEPECAT Jaguar"
  FRA_jet_tac_bomber_equipment_4_short:0 "Jaguar"
  
+# Naval Bombers
+ FRA_nav_bomber_equipment_1:0 "Loire LN.401"
+ FRA_nav_bomber_equipment_1_short:0 "LN.401"
+ FRA_nav_bomber_equipment_2:0 "Potez-CAMS 141"
+ FRA_nav_bomber_equipment_2_short:0 "Potez-CAMS 141"
+ FRA_nav_bomber_equipment_3:0 "Amiot 351"
+ FRA_nav_bomber_equipment_3_short:0 "Amiot 351"
+ FRA_nav_bomber_equipment_4:0 "Lockheed P-2 Neptune"
+ FRA_nav_bomber_equipment_4_short:0 "P-2 Neptune"
+ # FRA_nav_bomber_equipment_5:0 ""
+ # FRA_nav_bomber_equipment_5_short:0 ""
+ FRA_nav_bomber_equipment_6:0 "Breguet Alizé"
+ FRA_nav_bomber_equipment_6_short:0 "Alizé"
+ FRA_nav_bomber_equipment_7:0 "Breguet Atlantic"
+ FRA_nav_bomber_equipment_7_short:0 "Atlantic"
  
- FRA_cv_nav_bomber_equipment_1:0 "Latécoère 298B"
- FRA_cv_nav_bomber_equipment_1_short:0 "Laté 298B"
- FRA_cv_nav_bomber_equipment_2:0 "Latécoère 312C"
- FRA_cv_nav_bomber_equipment_2_short:0 "Laté 312C"
- FRA_cv_nav_bomber_equipment_3:0 "Dewoitine D.750P"
- FRA_cv_nav_bomber_equipment_3_short:0 "D.750P"
- 
- FRA_cv_CAS_equipment_1:0 "Nieuport Ni.140"
- FRA_cv_CAS_equipment_1_short:0 "Ni.140"
- FRA_cv_CAS_equipment_2:0 "Loiré-Nieuport LN.401"
- FRA_cv_CAS_equipment_2_short:0 "LN.401"
- FRA_cv_CAS_equipment_3:0 "SNCASO SO.8000 Narval"
- FRA_cv_CAS_equipment_3_short:0 "SO.8000 Narval"
- 
+# Transport Planes 
+ FRA_transport_plane_equipment_1_short:0 "MB. 220"
+
+# CV Fighters
  FRA_cv_fighter_equipment_0:0 "Dewoitine D.376"
  FRA_cv_fighter_equipment_0_short:0 "D.376"
  FRA_cv_fighter_equipment_1:0 "Dewoitine D.510"
@@ -1264,12 +1354,25 @@
  FRA_cv_fighter_equipment_3:0 "Dewoitine D.525"
  FRA_cv_fighter_equipment_3_short:0 "D.525"
 
- ### ---------------------- Transport ----------------------------------------------
- GER_transport_plane_equipment_1_short:0 "Ju 52m3"
- USA_transport_plane_equipment_1_short:0 "C 47 Skytrain"
- JAP_transport_plane_equipment_1_short:0 "Ki 56"
- SOV_transport_plane_equipment_1_short:0 "Li 2"
- ENG_transport_plane_equipment_1_short:0 "C 47 Dakota"
- ITA_transport_plane_equipment_1_short:0 "Caproni Ca.133"
- FRA_transport_plane_equipment_1_short:0 "MB. 220"
+# CV Close Air Support
+ FRA_cv_CAS_equipment_1:0 "Nieuport Ni.140"
+ FRA_cv_CAS_equipment_1_short:0 "Ni.140"
+ FRA_cv_CAS_equipment_2:0 "Loiré-Nieuport LN.401"
+ FRA_cv_CAS_equipment_2_short:0 "LN.401"
+ FRA_cv_CAS_equipment_3:0 "SNCASO SO.8000 Narval"
+ FRA_cv_CAS_equipment_3_short:0 "SO.8000 Narval"
+ 
+# CV Torpedo Bombers
+ FRA_cv_nav_bomber_equipment_1:0 "Latécoère 298B"
+ FRA_cv_nav_bomber_equipment_1_short:0 "Laté 298B"
+ FRA_cv_nav_bomber_equipment_2:0 "Latécoère 312C"
+ FRA_cv_nav_bomber_equipment_2_short:0 "Laté 312C"
+ FRA_cv_nav_bomber_equipment_3:0 "Dewoitine D.750P"
+ FRA_cv_nav_bomber_equipment_3_short:0 "D.750P"
+ 
+# Rocket Interceptors
+ FRA_rocket_interceptor_equipment_1:0 "Leduc 0.21"
+ FRA_rocket_interceptor_equipment_1_short:0 "Le 0.21"
+ FRA_rocket_interceptor_equipment_2:0 "Leduc 0.22"
+ FRA_rocket_interceptor_equipment_2_short:0 "Le 0.22"
 

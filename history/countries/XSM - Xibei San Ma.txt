@@ -87,9 +87,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ma Hongkui"
+	name = "Ma Bufang"
 	desc = ""
-	picture = "Portrait_San_Ma_Ma_Hongkui.dds"
+	picture = "Xibei_PA_Ma_Bugang.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

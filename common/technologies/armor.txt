@@ -368,6 +368,10 @@ technologies = {
 			leads_to_tech = light_tank_1939
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = medium_tank_1939
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2
 		start_year = 1938
@@ -409,10 +413,6 @@ technologies = {
 			leads_to_tech = light_tank_1944
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = medium_tank_1939
-			research_cost_coeff = 1
-		}	
 		
 		sub_technologies = {
 			light_TD_1939

@@ -1,10 +1,8 @@
-﻿###########################
+﻿##########################
 # Darkest Hour Events : Government Opinions
 ###########################
 
 add_namespace = DH_gov_opinion
-
-### ------------------- Government Opinions ---------------------------------------------
 
 #########################################################################
 # Inital Opinion modifiers on startup
@@ -13,7 +11,6 @@ country_event = {
 	id = DH_gov_opinion.1
 
 	hidden = yes
-
 	is_triggered_only = yes
 
 	immediate = {

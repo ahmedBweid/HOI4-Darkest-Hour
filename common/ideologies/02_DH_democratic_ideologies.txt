@@ -48,7 +48,8 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		can_collaborate = yes
+		ai_neutral = yes # 	
 	}
 ### Social Libs.
 	social_liberal = {
@@ -89,7 +90,8 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		can_collaborate = yes
+		ai_neutral = yes # 
 	}	
 ### Social Dems.
 	social_democrat = {
@@ -130,6 +132,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		can_collaborate = yes
+		ai_neutral = yes # 
 	}		
 }

@@ -1,0 +1,1237 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Lin Boqu
+		PRC_HoG_Lin_Boqu = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1907.1.1
+				date < 1960.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Lin_Boqu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_LWR }
+		}
+	# Chen Duxiu
+		PRC_HoG_Chen_Duxiu = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1911.1.1
+				date < 1933.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Chen_Duxiu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_LWR }
+		}
+	# Zhou Enlai
+		PRC_HoG_Zhou_Enlai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1919.1.1
+				date < 1976.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhou_Enlai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Zhou_enlai ideology_LWR }
+		}
+	# Cai Hesen
+		PRC_HoG_Cai_Hesen = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1921.1.1
+				date < 1931.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Cai_Hesen_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_LE }
+		}
+	# Zhang Guotao
+		PRC_HoG_Zhang_Guotao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhang_Guotao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_ST }
+		}
+	# Mao Zedong
+		PRC_HoG_Mao_Zedong = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1921.1.1
+				date < 1977.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Mao_Zedong_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_ST }
+		}
+	# Wang Ming
+		PRC_HoG_Wang_Ming = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1970.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Ming_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_ST }
+		}
+	# Lin Biao
+		PRC_HoG_Lin_Biao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1971.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Lin_Biao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_ST }
+		}
+	# Li Lisan
+		PRC_HoG_Li_Lisan = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1928.1.1
+				date < 1931.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Lisan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_ST }
+		}
+	# Qin Bangxian
+		PRC_HoG_Qin_Bangxian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1935.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Qin_Bangxian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_ST }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Li Dazhao
+		PRC_FM_Li_Dazhao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1918.1.1
+				date < 1924.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Dazhao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_LWR }
+		}
+	# Zhou Enlai
+		PRC_FM_Zhou_Enlai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1949.1.1
+				date < 1976.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhou_Enlai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_LWR }
+		}
+	# Xiang Zhongfa
+		PRC_FM_Xiang_Zhongfa = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1928.1.1
+				date < 1931.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Xiang_Zhongfa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_LE }
+		}
+	# Wang Jiaxiang
+		PRC_FM_Wang_Jiaxiang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1928.1.1
+				date < 1959.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Jiaxiang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_LE }
+		}
+	# Zhang Guotao
+		PRC_FM_Zhang_Guotao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhang_Guotao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_ST }
+		}
+	# Qu Qiubai
+		PRC_FM_Qu_Qiubai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1923.1.1
+				date < 1930.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Qu_Qiubai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_ST }
+		}
+	# Chen Yi
+		PRC_FM_Chen_Yi = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1923.1.1
+				date < 1966.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Chen_Yi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_ST }
+		}
+	# Li Kenong
+		PRC_FM_Li_Kenong = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1959.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Kenong_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_ST }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Shi Liang
+		PRC_MoS_Shi_Liang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1942.1.1
+				date < 1975.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Shi_Liang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SD }
+		}
+	# Lin Boqu
+		PRC_MoS_Lin_Boqu = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1907.1.1
+				date < 1960.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Lin_Boqu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_LWR }
+		}
+	# Li Dazhao
+		PRC_MoS_Li_Dazhao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1918.1.1
+				date < 1924.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Dazhao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LWR }
+		}
+	# Zhou Enlai
+		PRC_MoS_Zhou_Enlai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1919.1.1
+				date < 1976.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhou_Enlai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LWR }
+		}
+	# Xie Juezai
+		PRC_MoS_Xie_Juezai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1925.1.1
+				date < 1959.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Xie_Juezai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LWR }
+		}
+	# Wang Jiaxiang
+		PRC_MoS_Wang_Jiaxiang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1928.1.1
+				date < 1959.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Jiaxiang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_LE }
+		}
+	# Mao Zedong
+		PRC_MoS_Mao_Zedong = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1921.1.1
+				date < 1958.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Mao_Zedong_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_ST }
+		}
+	# Ren Bishi
+		PRC_MoS_Ren_Bishi = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1922.1.1
+				date < 1950.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Ren_Bishi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_ST }
+		}
+	# Zeng Shan
+		PRC_MoS_Zeng_Shan = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1974.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zeng_Shan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_ST }
+		}
+	# Li Lisan
+		PRC_MoS_Li_Lisan = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1931.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Lisan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_ST }
+		}
+	# Qin Bangxian
+		PRC_MoS_Qin_Bangxian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1935.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Qin_Bangxian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_ST }
+		}
+	# Qian Ying
+		PRC_MoS_Qian_Ying = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1971.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Qian_Ying_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_ST }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Lin Boqu
+		PRC_AM_Lin_Boqu = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1907.1.1
+				date < 1960.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Lin_Boqu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_LWR }
+		}
+	# Zhou Enlai
+		PRC_AM_Zhou_Enlai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1919.1.1
+				date < 1976.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhou_Enlai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LWR }
+		}
+	# Wang Jinmei
+		PRC_AM_Wang_Jinmei = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1925.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Jinmei_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LWR }
+		}
+	# Deng Xiaoping
+		PRC_AM_Deng_Xiaoping = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1989.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Deng_Xiaoping_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Mixed_Economy ideology_LWR }
+		}
+	# Xu Xiangqian
+		PRC_AM_Xu_Xiangqian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1981.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Xu_Xiangqian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Reformer ideology_LWR }
+		}
+	# Ye Jianying
+		PRC_AM_Ye_Jianying = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1978.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ye_Jianying_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Mixed_Economy ideology_LWR }
+		}
+	# Cai Hesen
+		PRC_AM_Cai_Hesen = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1921.1.1
+				date < 1931.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Cai_Hesen_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_LE }
+		}
+	# Peng Dehuai
+		PRC_AM_Peng_Dehuai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1959.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Peng_Dehuai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Reformer ideology_LE }
+		}
+	# Lin Biao
+		PRC_AM_Lin_Biao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1971.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Lin_Biao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_ST }
+		}
+	# Gao Gang
+		PRC_AM_Gao_Gang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1954.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Gao_Gang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Planned_Economy_Proponent ideology_ST }
+		}
+	# Qin Bangxian
+		PRC_AM_Qin_Bangxian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1935.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Qin_Bangxian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Planned_Economy_Proponent ideology_ST }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Zhou Enlai
+		PRC_HoI_Zhou_Enlai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1919.1.1
+				date < 1976.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhou_Enlai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_LWR }
+		}
+	# Deng Xiaoping
+		PRC_HoI_Deng_Xiaoping = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1989.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Deng_Xiaoping_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_LWR }
+		}
+	# Xie Juezai
+		PRC_HoI_Xie_Juezai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1925.1.1
+				date < 1959.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Xie_Juezai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_LWR }
+		}
+	# Peng Zhen
+		PRC_HoI_Peng_Zhen = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1923.1.1
+				date < 1977.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Peng_Zhen_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_LE }
+		}
+	# Wang Jiaxiang
+		PRC_HoI_Wang_Jiaxiang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1928.1.1
+				date < 1959.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Jiaxiang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_LE }
+		}
+	# Li Xiannian
+		PRC_HoI_Li_Xiannian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1974.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Xiannian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_LE }
+		}
+	# Zhang Guotao
+		PRC_HoI_Zhang_Guotao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhang_Guotao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Li Kenong
+		PRC_HoI_Li_Kenong = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1959.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Kenong_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_ST }
+		}
+	# Bo Yibo
+		PRC_HoI_Bo_Yibo = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1928.1.1
+				date < 1983.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Bo_Yibo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ST }
+		}
+	# Qian Ying
+		PRC_HoI_Qian_Ying = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1971.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Qian_Ying_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Otto Braun
+		PRC_HoI_Otto_Braun = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1932.1.1
+				date < 1935.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Otto_Braun_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_ST }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Zhou Enlai
+		PRC_CoStaff_Zhou_Enlai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1919.1.1
+				date < 1976.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhou_Enlai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_LWR }
+		}
+	# Deng Xiaoping
+		PRC_CoStaff_Deng_Xiaoping = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1969.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Deng_Xiaoping_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LWR }
+		}
+	# He Long
+		PRC_CoStaff_He_Long = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1961.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = He_Long_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LWR }
+		}
+	# Xu Xiangqian
+		PRC_CoStaff_Xu_Xiangqian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1981.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Xu_Xiangqian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LWR }
+		}
+	# Ye Jianying
+		PRC_CoStaff_Ye_Jianying = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1978.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ye_Jianying_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LWR }
+		}
+	# Wang Jiaxiang
+		PRC_CoStaff_Wang_Jiaxiang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1928.1.1
+				date < 1959.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Wang_Jiaxiang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_LE }
+		}
+	# Zhang Guotao
+		PRC_CoStaff_Zhang_Guotao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhang_Guotao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Zhu De
+		PRC_CoStaff_Zhu_De = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1922.1.1
+				date < 1951.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhu_De_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Chen Yi
+		PRC_CoStaff_Chen_Yi = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1923.1.1
+				date < 1966.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Chen_Yi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ST }
+		}
+	# Ziao Jingguang
+		PRC_CoStaff_Ziao_Jingguang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1968.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Ziao_Jingguang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ST }
+		}
+	# Li Lisan
+		PRC_CoStaff_Li_Lisan = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1929.1.1
+				date < 1931.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Lisan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Qin Bangxian
+		PRC_CoStaff_Qin_Bangxian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1935.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Qin_Bangxian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Otto Braun
+		PRC_CoStaff_Otto_Braun = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1932.1.1
+				date < 1935.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Otto_Braun_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ST }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Deng Xiaoping
+		PRC_CoArmy_Deng_Xiaoping = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1969.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Deng_Xiaoping_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Doctrine_Of_Autonomy ideology_LWR }
+		}
+	# Ye Ting
+		PRC_CoArmy_Ye_Ting = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1938.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ye_Ting_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_LWR }
+		}
+	# Ye Jianying
+		PRC_CoArmy_Ye_Jianying = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1978.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ye_Jianying_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Doctrine_Of_Autonomy ideology_LWR }
+		}
+	# Peng Dehuai
+		PRC_CoArmy_Peng_Dehuai = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1959.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Peng_Dehuai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_LE }
+		}
+	# Chen Gang
+		PRC_CoArmy_Chen_Gang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1962.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Chen_Gang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_LE }
+		}
+	# Li Xiannian
+		PRC_CoArmy_Li_Xiannian = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1931.1.1
+				date < 1974.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Li_Xiannian_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_LE }
+		}
+	# Zhang Guotao
+		PRC_CoArmy_Zhang_Guotao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhang_Guotao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ST }
+		}
+	# Mao Zedong
+		PRC_CoArmy_Mao_Zedong = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1921.1.1
+				date < 1958.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Mao_Zedong_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Mao_zedong_2 ideology_ST }
+		}
+	# Zhu De
+		PRC_CoArmy_Zhu_De = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1922.1.1
+				date < 1951.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhu_De_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ST }
+		}
+	# Chen Yi
+		PRC_CoArmy_Chen_Yi = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1923.1.1
+				date < 1966.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Chen_Yi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_ST }
+		}
+	# Lin Biao
+		PRC_CoArmy_Lin_Biao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1962.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Lin_Biao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_ST }
+		}
+	# Gao Gang
+		PRC_CoArmy_Gao_Gang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1954.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Gao_Gang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_ST }
+		}
+	# Otto Braun
+		PRC_CoArmy_Otto_Braun = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1932.1.1
+				date < 1935.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Otto_Braun_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# He Long
+		PRC_CoNavy_He_Long = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1926.1.1
+				date < 1961.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = He_Long_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_LWR }
+		}
+	# Jiang Xianyun
+		PRC_CoNavy_Jiang_Xianyun = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1925.1.1
+				date < 1928.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Jiang_Xianyun_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_LE }
+		}
+	# Zhang Guotao
+		PRC_CoNavy_Zhang_Guotao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhang_Guotao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_ST }
+		}
+	# Ziao Jingguang
+		PRC_CoNavy_Ziao_Jingguang = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1924.1.1
+				date < 1968.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Ziao_Jingguang_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Ye Ting
+		PRC_CoAir_Ye_Ting = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1927.1.1
+				date < 1938.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ye_Ting_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_LWR }
+		}
+	# Zhang Guotao
+		PRC_CoAir_Zhang_Guotao = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Zhang_Guotao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ST }
+		}
+	# Fang Ziyi
+		PRC_CoAir_Fang_Ziyi = {
+			picture = Generic_Portrait
+			allowed = { tag = PRC }
+			available = {
+				date > 1930.1.1
+				date < 1982.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Fang_Ziyi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ST }
+		}
+	}
+}

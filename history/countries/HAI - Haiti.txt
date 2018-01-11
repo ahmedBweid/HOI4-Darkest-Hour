@@ -80,28 +80,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Sténio Vincent"
-	desc = "POLITICS_STENIO_VINCENT_DESC"
-	picture = "Portrait_Haiti_Stenio_Vincent.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jacques Roumain"
-	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -125,4 +103,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+####################################################
+# Haitian Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "Sténio Vincent"
+	desc = "POLITICS_STENIO_VINCENT_DESC"
+	picture = "Haiti_SC_Stenio_Vincent.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
 }

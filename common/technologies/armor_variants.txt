@@ -12,7 +12,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			interwar_antitank = 1
 		}
 	
 		research_cost = 0.5
@@ -44,7 +44,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			antitank1 = 1
 		}
 	
 		research_cost = 0.5
@@ -76,7 +76,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			antitank2 = 1
 		}
 	
 		research_cost = 0.5
@@ -108,7 +108,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			antitank3 = 1
 		}
 	
 		research_cost = 0.5
@@ -141,7 +141,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			antitank4 = 1
 		}
 	
 		research_cost = 0.5
@@ -169,7 +169,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			gw_artillery = 1
 		}
 	
 		research_cost = 0.5
@@ -201,7 +201,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			interwar_artillery = 1
 		}
 	
 		research_cost = 0.5
@@ -233,7 +233,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			artillery1 = 1
 		}
 	
 		research_cost = 0.5
@@ -265,7 +265,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			artillery3 = 1
 		}
 	
 		research_cost = 0.5
@@ -297,7 +297,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			artillery4 = 1
 		}
 	
 		research_cost = 0.5
@@ -324,7 +324,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			interwar_antiair = 1
 		}
 	
 		research_cost = 0.5
@@ -356,7 +356,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			interwar_antiair = 1
 		}
 	
 		research_cost = 0.5
@@ -388,7 +388,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			antiair1 = 1
 		}
 	
 		research_cost = 0.5
@@ -420,7 +420,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			antiair2 = 1
 		}
 	
 		research_cost = 0.5
@@ -452,7 +452,7 @@ technologies = {
 		}
 	
 		dependencies = {
-
+			antiair5 = 1
 		}
 	
 		research_cost = 0.5
@@ -466,14 +466,7 @@ technologies = {
 			armor
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 ##########################################################################################################################	
 ### -------------------------------------- Medium Tank Destroyers-------------------------------------------------------	

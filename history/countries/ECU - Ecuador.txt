@@ -66,8 +66,7 @@ set_politics = {
 		fascist = { popularity = 0 }		
 		paternal_autocrat = { popularity = 35 }		
 		social_conservative = { popularity = 0 }		
-		#{ popularity = 55 }		
-		social_liberal = { popularity = 0 }		
+		social_liberal = { popularity = 55 }		
 		social_democrat = { popularity = 5 }		
 		left_wing_radical = { popularity = 5 }		
 		leninist = { popularity = 0 }		
@@ -78,17 +77,6 @@ set_politics = {
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Federico Páez Chiriboaga"
-	desc = "POLITICS_FEDERICO_PAEZ_DESC"
-	picture = "Portrait_Ecuador_Federico_Paez.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
 }
 
 1939.1.1 = {
@@ -114,15 +102,16 @@ create_country_leader = {
 		election_frequency = 84
 		elections_allowed = yes
 	}
-
-	create_country_leader = {
-		name = "Aurelio Mosquera"
-		desc = "POLITICS_AURELIO_MOSQUERA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = social_liberalism
-		traits = {
-			#
-		}
-	}
+}
+####################################################
+# Ecuador Leaders
+####################################################
+# SL
+create_country_leader = {
+	name = "Federico Páez Chiriboaga"
+	desc = "POLITICS_FEDERICO_PAEZ_DESC"
+	picture = "Ecuador_SL_Federico_Paez.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {}
 }

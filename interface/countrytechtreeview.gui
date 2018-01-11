@@ -163,7 +163,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1946"
+						text = "1948"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -2067,7 +2067,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "airtech_subtitle_nav"
-				position = { x = 720 y = 205 }
+				position = { x = 720 y = 345 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
@@ -2095,7 +2095,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "airtech_subtitle_tac"
-				position = { x = 720 y = 345 }
+				position = { x = 720 y = 205 }
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}

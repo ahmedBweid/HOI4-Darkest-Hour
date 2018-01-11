@@ -155,36 +155,27 @@ create_country_leader = {
 }
 #SC
 create_country_leader = {
-	name = "Philipp Etter"
+	name = "Federal Council"
 	desc = ""
-	picture = "Germany_SC_Theodor_Heuss.dds"
+	picture = "Switzerland_Federal_Council.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
 	traits = {}
 }
-#ML
-create_country_leader = {
-	name = "Albert Meyer"
-	desc = ""
-	picture = "Germany_SC_Theodor_Heuss.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {}
-}
 #SL
 create_country_leader = {
-	name = "Giuseppe Motta"
+	name = "Federal Council"
 	desc = ""
-	picture = "Germany_SL_Willy_Hellpach.dds"
+	picture = "Switzerland_Federal_Council.dds"
 	expire = "1965.1.1"
 	ideology = social_liberalism
 	traits = {}
 }
 #SD
 create_country_leader = {
-	name = "Enrico Celio"
+	name = "Federal Council"
 	desc = ""
-	picture = "Germany_SD_Otto_Braun.dds"
+	picture = "Switzerland_Federal_Council.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {}

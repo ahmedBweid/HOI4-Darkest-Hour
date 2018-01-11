@@ -136,9 +136,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Lin Sen"
-	desc = "POLITICS_LIN_SEN_DESC"
-	picture = "Portrait_China_Lin_Sen.dds"
+	name = "Chiang Kai-shek"
+	desc = ""
+	picture = "China_PA_Chiang_Kai-Shek.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
 	traits = {

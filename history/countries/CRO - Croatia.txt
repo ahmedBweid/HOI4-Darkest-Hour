@@ -103,14 +103,15 @@ set_politics = {
 		elections_allowed = no # none after offset 1
 	}
 }
-
+####################################################
+# Croatian Leaders
+####################################################
+# FA
 create_country_leader = {
 	name = "Ante Pavelic"
 	desc = "ANTE_PAVELIC_DESC"
-	picture = "Portrait_Croatia_Ante_Pavelic.dds"
+	picture = "Croatia_FA_Ante_Pavelic.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
-	traits = {
-		#
-	}
+	traits = {}
 }

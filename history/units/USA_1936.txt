@@ -866,7 +866,6 @@ instant_effect = {
 		equipment = {
 			type = destroyer_1
 			creator = "USA"
-			version_name = "Farragut Class"
 		}
 		requested_factories = 13
 		progress = 0.80
@@ -887,7 +886,6 @@ instant_effect = {
 		equipment = {
 			type = heavy_cruiser_1
 			creator = "USA"
-			version_name = "Portland Class"
 		}
 		requested_factories = 2
 		progress = 0.85

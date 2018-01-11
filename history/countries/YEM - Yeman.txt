@@ -70,17 +70,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Imam Yahya"
-	desc = "POLITICS_IMAM_YAHYA_DESC"
-	picture = "portrait_yemen_imam_yahya.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -101,4 +90,17 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+
+####################################################
+# Yemeni Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Imam Yahya"
+	desc = "POLITICS_IMAM_YAHYA_DESC"
+	picture = "Yemen_PA_Imam_Yahya.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }

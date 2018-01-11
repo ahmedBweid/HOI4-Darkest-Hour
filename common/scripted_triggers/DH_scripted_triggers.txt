@@ -3,8 +3,7 @@
 		OR = {
 			original_tag = USA
 			original_tag = AST
-			original_tag = CAN
-			
+			original_tag = CAN	
 		}
 	}
 ############################################# Ideology groups ##################################
@@ -55,7 +54,20 @@
 			}
 		}
 	}
+############################################# are XX Minsters allowed? ##################################	
+	NS_Minister_Allowed = {always = yes}
+	FA_Minister_Allowed = {always = yes}
+	PA_Minister_Allowed = {always = yes}
 
+	SC_Minister_Allowed = {always = yes}
+	ML_Minister_Allowed = {always = yes}
+	SL_Minister_Allowed = {always = yes}
+	SD_Minister_Allowed = {always = yes}
+	
+	LWR_Minister_Allowed = {always = yes}
+	LE_Minister_Allowed = {always = yes}
+	ST_Minister_Allowed = {always = yes}
+	
 #################################################################################################
 
 

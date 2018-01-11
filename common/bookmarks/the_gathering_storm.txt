@@ -54,8 +54,13 @@ bookmarks = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = national_socialist
 			ideas = {
-				sour_loser
-				general_staff
+				#sour_loser
+				#general_staff
+				GER_HoG_Rudolf_Hess
+				GER_FM_Konstantin_von_Neurath
+				GER_AM_Werner_von_Blomberg
+				GER_MoS_Wilhelm_Frick
+				GER_HoI_Wilhelm_Canaris				
 			}
 			focuses = {
 				GER_anschluss

@@ -8,10 +8,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Light_PanzerJager_I.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_GER_light_TD_1936_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
-	}
+	#SpriteType = {
+		#name = "GFX_GER_light_TD_1936_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
 
 	SpriteType = {
 		name = "GFX_GER_light_TD_1938_medium"
@@ -23,10 +23,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Light_Hetzer.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_GER_light_TD_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
-	}
+	#SpriteType = {
+		#name = "GFX_GER_light_TD_1944_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
 
 #Medium TDs	
 	SpriteType = {
@@ -91,16 +91,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Light_Grille.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_GER_light_SPG_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
-	}
+	#SpriteType = {
+		#name = "GFX_GER_light_SPG_1944_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
 
 #Medium SPHs	
-	SpriteType = {
-		name = "GFX_GER_medium_SPG_1939_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
-	}	
+	#SpriteType = {
+		#name = "GFX_GER_medium_SPG_1939_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}	
 	
 	SpriteType = {
 		name = "GFX_GER_medium_SPG_1941_medium"
@@ -144,25 +144,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Light_Flakpanzer_I.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_GER_light_SPAA_1936_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
-	}
+	#SpriteType = {
+		#name = "GFX_GER_light_SPAA_1936_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
 
-	SpriteType = {
-		name = "GFX_GER_light_SPAA_1938_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
-	}
+	#SpriteType = {
+		#name = "GFX_GER_light_SPAA_1938_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
 
 	SpriteType = {
 		name = "GFX_GER_light_SPAA_1939_medium"
 		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Light_Flakpanzer_38.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_GER_light_SPAA_1944_medium"
-		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
-	}
+	#SpriteType = {
+		#name = "GFX_GER_light_SPAA_1944_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
 
 #Medium SPAAGs	
 	SpriteType = {

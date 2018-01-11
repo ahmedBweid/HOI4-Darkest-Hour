@@ -29,7 +29,11 @@ spriteTypes = {
 		name = "GFX_infantry_smg_medium"
 		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SMG_1.dds"
 	}
-
+	SpriteType = {
+		name = "GFX_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SMG_2.dds"
+	}
+	
 #AT equipment	
 	SpriteType = {
 		name = "GFX_infantry_at_medium"
@@ -91,6 +95,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_infantry_smg_medium"
 		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SMG_MP40.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SMG_MP3008.dds"
 	}
 
 #AT equipment	
@@ -154,6 +162,10 @@ spriteTypes = {
 		name = "GFX_USA_infantry_smg_medium"
 		texturefile = "gfx/interface/technologies/Infantry/United States/USA_SMG_M1Thompson.dds"
 	}
+	SpriteType = {
+		name = "GFX_USA_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_SMG_M3.dds"
+	}
 
 #AT equipment	
 	SpriteType = {
@@ -199,6 +211,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_infantry_smg_medium"
 		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SMG_PPSh-41.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SMG_PPS-43.dds"
 	}
 
 #AT equipment	

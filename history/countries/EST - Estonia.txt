@@ -127,14 +127,15 @@ set_politics = {
 		elections_allowed = no
 	}
 }
-
+####################################################
+# Estonian Leaders
+####################################################
+# PA
 create_country_leader = {
 	name = "Konstantin Päts"
-	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "Portrait_Estonia_Konstantin_Pats.dds"
+	desc = ""
+	picture = "Estonia_PA_Konstantin_Pats.dds"
 	expire = "1965.1.1"
 	ideology = paternal_autocracy
-	traits = {
-		#
-	}
+	traits = {}
 }

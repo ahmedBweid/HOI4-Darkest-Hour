@@ -76,17 +76,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Romualdo Jímenez Oreamuno"
-	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
-	picture = "Portrait_CostaRica_Romualdo_Oreamuno.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -110,15 +99,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-
-	create_country_leader = {
-		name = "León Cortés Castro"
-		desc = "POLITICS_LEON_CORTES_CASTRO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
-		expire = "1965.1.1"
-		ideology = social_liberalism
-		traits = {
-			#
-		}
-	}
+}
+####################################################
+# Costa Rican Leaders
+####################################################
+# SL
+create_country_leader = {
+	name = "Romualdo Jímenez Oreamuno"
+	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+	picture = "CostaRica_SL_Romualdo_Oreamuno.dds"
+	expire = "1965.1.1"
+	ideology = social_liberalism
+	traits = {}
 }

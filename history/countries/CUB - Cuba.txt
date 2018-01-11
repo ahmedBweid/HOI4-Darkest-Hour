@@ -78,17 +78,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "José Barnet y Vinageras"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "Portrait_Cuba_Jose_Barnet.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -112,15 +101,16 @@ create_country_leader = {
 		election_frequency = 48  
 		elections_allowed = yes
 	}
-
-	create_country_leader = {
-		name = "Federico Laredo Brú"
-		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-		expire = "1965.1.1"
-		ideology = leninism
-		traits = {
-			#
-		}
-	}
+}
+####################################################
+# Cuban Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "José Barnet y Vinageras"
+	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+	picture = "Cuba_ML_Jose_Barnet.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
 }

@@ -3,7 +3,111 @@
 # For sea units: ship,transport,uboat
 
 sub_units = {
+### Garrison Infantry	
+	garrison = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 599
+		ai_priority = 100
+		active = no
 
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 30
+		max_organisation = 60		
+		default_morale = 0.30
+		manpower = 1000
+
+		#Misc Abilities
+		training_time = 70
+		suppression = 2
+		weight = 0.5
+		breakthrough = -0.5	# Garrisons don't know how to attack, get slaughtered
+		
+		supply_consumption = 0.04
+
+		maximum_speed = -0.9
+	
+		need = {
+			infantry_equipment = 100
+		}
+		
+		forest = { attack = -0.3 movement = -0.9 }
+		mountain = { attack = -0.3 movement = -0.9 }
+		jungle = { attack = -0.3 movement = -0.9 }
+		marsh = { attack = -0.3 movement = -0.9 }
+		hills = { movement = -0.9 }
+		mountain = { movement = -0.9 }
+		plains = { movement = -0.9 }
+		urban = { movement = -0.9 }
+		desert = { movement = -0.9 }
+		river = { attack = -0.5 }
+		amphibious = { attack = -0.5 }
+	}
+### Militia
+	militia = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 599
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 40
+		default_morale = 0.35
+		manpower = 1000
+
+		#Misc Abilities
+		training_time = 40
+		suppression = 1
+		weight = 0.5
+		
+		supply_consumption = 0.04
+		
+		#Offensive Abilities
+		soft_attack = -0.5
+		hard_attack = -0.5
+		ap_attack = -1
+		defense = -0.3		# militia can't defend effectively
+		breakthrough = -0.3	# militia can't attack effectively
+	
+		need = {
+			infantry_equipment = 50
+		}
+	}	
+### Regular Infantry
 	infantry = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -44,7 +148,7 @@ sub_units = {
 			infantry_equipment = 100 #x10
 		}
 	}
-	
+### Marines/Naval Infantry
 	marine = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -97,7 +201,7 @@ sub_units = {
 			attack = 0.5
 		}
 	}
-	
+### Moutaineers	
 	mountaineers = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -152,7 +256,7 @@ sub_units = {
 			movement = 0.2
 		}
 	}
-
+### Paratroopers/Airborne Infantry
 	paratrooper = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -195,7 +299,7 @@ sub_units = {
 			infantry_equipment = 130 #x10
 		}
 	}
-
+### Motorized Infantry
 	motorized = {
 		sprite = motorized
 		map_icon_category = infantry
@@ -264,7 +368,7 @@ sub_units = {
 			attack = -0.2
 		}
 	}
-
+### Mechanized Infantry
 	mechanized = {
 		sprite = mechanized
 		map_icon_category = infantry
@@ -344,4 +448,5 @@ sub_units = {
 
 		hardness = 0.2
 	}
+	
 }

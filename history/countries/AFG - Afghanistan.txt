@@ -77,18 +77,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-# Mohammad Hashim Khan (Prime Minister) other potential candidate
-create_country_leader = {
-	name = "Muhammed Zahir"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "Portrait_Afghanistan_Muhammed_Zahir.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -117,7 +105,22 @@ create_country_leader = {
 		elections_allowed = no
 	}
 }
+####################################################
+# Afgani Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Muhammed Zahir"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "Afghanistan_PA_Muhammed_Zahir.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
+}
 
+####################################################
+# Afgani Generals
+####################################################
 create_corps_commander = {
 	name = "Sardar Shah Wali Khan"
 	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"

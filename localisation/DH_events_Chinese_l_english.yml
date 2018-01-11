@@ -1,5 +1,7 @@
 ﻿l_english:
-###### Chinese events----------------------------------
+#########################################################################
+#  Rep of China Events
+#########################################################################
  DH_china.1.t:0 "Japan Offers Peace."
  DH_china.1.d:0 "With Japan defeated and kicked off the mainland, they have been shamed and dishonoured, and have decided to offer us peace."
  DH_china.1.a:0 "We must focus on rebuilding China!"
@@ -19,6 +21,9 @@
  DH_china.4.a:0 "Accept defeat."
  DH_china.4.b:0 "We must continue to drive Communism out of China!"
  
+#########################################################################
+#  People's Rep of China Events
+#########################################################################
  DH_prc.1.t:0 "Japan Offers Peace."
  DH_prc.1.d:0 "With Japan defeated and kicked off the mainland, they have been shamed and dishonoured, and have decided to offer us peace."
  DH_prc.1.a:0 "We must focus on rebuilding China!"
@@ -27,3 +32,10 @@
  DH_prc.2.t:0 "Japan Refuses to Surrender"
  DH_prc.2.d:0 "Even though the Japanese have been driven off the mainland, they still want to continue the war. Their arrogance will be their end."
  DH_prc.2.a:0 "We will end them once and for all."
+ 
+#########################################################################
+#  East Turkestan Events
+#########################################################################
+ DH_eastturkestan.1.t:0 "Offer Soviets Peace"
+ DH_eastturkestan.1.d:0 "We have achieved our goal and established our Islamic Republic, let us make peace with the Soviets before this ends"
+ DH_eastturkestan.1.a:0 "Peace is our only option."

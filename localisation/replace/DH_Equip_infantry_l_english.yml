@@ -28,6 +28,23 @@
  infantry_equipment_4_short:0 "Infantry Eq. '45"
  infantry_equipment_4_desc:0 "Assault rifles combine the best of two worlds by offering the ability for burst fire, as well as allowing for single shot, as seen in regular rifles, Even though they are expensive to manufacture, they will be issued as the standard infantry rifle."
 
+ infantry_equipment_5:0 "Infantry Equipment '48"
+ infantry_equipment_5_short:0 "Infantry Eq. '48"
+ infantry_equipment_5_desc:0 "Assault rifles combine the best of two worlds by offering the ability for burst fire, as well as allowing for single shot, as seen in regular rifles, Even though they are expensive to manufacture, they will be issued as the standard infantry rifle."
+
+ infantry_equipment_6:0 "Infantry Equipment '52"
+ infantry_equipment_6_short:0 "Infantry Eq. '52"
+ infantry_equipment_6_desc:0 "Assault rifles combine the best of two worlds by offering the ability for burst fire, as well as allowing for single shot, as seen in regular rifles, Even though they are expensive to manufacture, they will be issued as the standard infantry rifle."
+
+ infantry_equipment_7:0 "Infantry Equipment '56"
+ infantry_equipment_7_short:0 "Infantry Eq. '56"
+ infantry_equipment_7_desc:0 "Assault rifles combine the best of two worlds by offering the ability for burst fire, as well as allowing for single shot, as seen in regular rifles, Even though they are expensive to manufacture, they will be issued as the standard infantry rifle."
+
+ infantry_equipment_8:0 "Infantry Equipment '60"
+ infantry_equipment_8_short:0 "Infantry Eq. '60"
+ infantry_equipment_8_desc:0 "Assault rifles combine the best of two worlds by offering the ability for burst fire, as well as allowing for single shot, as seen in regular rifles, Even though they are expensive to manufacture, they will be issued as the standard infantry rifle."
+
+ 
 # SMGs
  infantry_smg:0 "Submachine Gun '39"
  infantry_smg_short:0 "SMG '39"
@@ -55,17 +72,27 @@
  support_weapons4:0 "Heavy Infantry Equipment '45"
  support_weapons4_short:0 "Hvy Infantry Eq. '45"
  
- ### Germany #########################################
- GER_infantry_equipment_0:0 "Gewehr 88"
- GER_infantry_equipment_0_short:0 "G88"
+###########################################
+## Germany
+###########################################
+ GER_infantry_equipment_0:0 "Gewehr 98"
+ GER_infantry_equipment_0_short:0 "G98"
  GER_infantry_equipment_1:0 "Karabiner 98k"
- GER_infantry_equipment_1_short:0 "Kar98k"
+ GER_infantry_equipment_1_short:0 "Kar 98k"
  GER_infantry_equipment_2:0 "Gewehr 41"
  GER_infantry_equipment_2_short:0 "G41"
  GER_infantry_equipment_3:0 "Gewehr 43"
  GER_infantry_equipment_3_short:0 "G43"
  GER_infantry_equipment_4:0 "Sturmgewehr 44"
  GER_infantry_equipment_4_short:0 "StG 44"
+ GER_infantry_equipment_5:0 "Sturmgewehr 45(M)"
+ GER_infantry_equipment_5_short:0 "StG 45 (M)"
+ GER_infantry_equipment_6:0 "Gewehr 1"
+ GER_infantry_equipment_6_short:0 "G1"
+ GER_infantry_equipment_7:0 "Gewehr 2"
+ GER_infantry_equipment_7_short:0 "G2"
+ GER_infantry_equipment_8:0 "Gewehr 3"
+ GER_infantry_equipment_8_short:0 "G3"
  
  GER_infantry_smg:0 "Maschinenpistole 40"
  GER_infantry_smg_short:0 "MP 40" 
@@ -86,9 +113,13 @@
  GER_support_weapons3:0 "Maschinengewehr 42 & 8 cm Granatwerfer 34"
  GER_support_weapons3_short:0 "MG 42 & 8 cm leGrW 34"
  GER_support_weapons4:0 "Maschinengewehr 45 & 12 cm Granatwerfer 42"
- GER_support_weapons4_short:0 "MG 45 & 12 cm leGrW 42"
-
- ### Soviet Union #########################################
+ GER_support_weapons4_short:0 "MG 42V & 12 cm leGrW 42"
+ GER_support_weapons5:0 "Maschinengewehr 45 & 12 cm Granatwerfer 42"
+ GER_support_weapons5_short:0 "MG 45 & 12 cm leGrW 42"
+ 
+###########################################
+## Soviet Union
+###########################################
  SOV_infantry_equipment_0:0 "Mosin–Nagant 1891"
  SOV_infantry_equipment_0_short:0 "M-N 1891"
  SOV_infantry_equipment_1:0 "Mosin–Nagant 1891/30"
@@ -97,8 +128,16 @@
  SOV_infantry_equipment_2_short:0 "SVT-38"
  SOV_infantry_equipment_3:0 "Tokarev SVT-40"
  SOV_infantry_equipment_3_short:0 "SVT-40"
- SOV_infantry_equipment_4:0 "Simonov SKS"
- SOV_infantry_equipment_4_short:0 "SKS"
+ SOV_infantry_equipment_4:0 "Simonov SKS-45"
+ SOV_infantry_equipment_4_short:0 "SKS-45"
+ SOV_infantry_equipment_5:0 "Kalashnikov AK-47 Type 1"
+ SOV_infantry_equipment_5_short:0 "AK-47 Type 1"
+ SOV_infantry_equipment_6:0 "Kalashnikov AK-47 Type 2"
+ SOV_infantry_equipment_6_short:0 "AK-47 Type 2"
+ SOV_infantry_equipment_7:0 "Kalashnikov AK-47 Type 3"
+ SOV_infantry_equipment_7_short:0 "AK-47 Type 3" 
+ SOV_infantry_equipment_8:0 "Kalashnikov AKM"
+ SOV_infantry_equipment_8_short:0 "AKM"
  
  SOV_infantry_smg:0 "PPSh obr. 1941"
  SOV_infantry_smg_short:0 "PPSh-41" 
@@ -121,7 +160,9 @@
  SOV_support_weapons4:0 "Smontirovannyy pulemet sistemi Goryunova obr. 1943 & 120-PM-43"
  SOV_support_weapons4_short:0 "SG-43 & 120-PM-43"
  
- ### United Kingdom #########################################
+###########################################
+## United Kingdom
+###########################################
  ENG_infantry_equipment_0:0 "Pattern 1914 Enfield"
  ENG_infantry_equipment_0_short:0 "Pattern 1914"
  ENG_infantry_equipment_1:0 "Lee-Enfield No.1 Mk III"
@@ -147,7 +188,9 @@
  ENG_support_weapons3:0 "Bren Mk. I & ML 3 inch mortar"
  ENG_support_weapons4:0 "Bren Mk. III & ML 4.2 inch Mortar"
 
- ### United States #########################################
+###########################################
+## United States
+###########################################
  USA_infantry_equipment_0:0 "Rifle, Caliber .30-06, Model 1903"
  USA_infantry_equipment_0_short:0 "M1903 Springfield"
  USA_infantry_equipment_1:0 "Rifle, Caliber 30, M1"
@@ -158,6 +201,14 @@
  USA_infantry_equipment_3_short:0 "M1 Carbine"
  USA_infantry_equipment_4:0 "Carbine, Caliber .30, M2"
  USA_infantry_equipment_4_short:0 "M2 Carbine"
+ USA_infantry_equipment_5:0 "*"
+ USA_infantry_equipment_5_short:0 ""
+ USA_infantry_equipment_6:0 ""
+ USA_infantry_equipment_6_short:0 ""
+ USA_infantry_equipment_7:0 ""
+ USA_infantry_equipment_7_short:0 "" 
+ USA_infantry_equipment_8:0 "Rifle, 7.62 mm, M14"
+ USA_infantry_equipment_8_short:0 "M14"
  
  USA_infantry_smg:0 "M1 Thompson"
  USA_infantry_smg_short:0 "M1 Thompson"
@@ -180,7 +231,9 @@
  USA_support_weapons4:0 "M1941 Johnson MG & M2 4.2 inch mortar"
  USA_support_weapons4_short:0 "M1941 MG & M2 4.2 inch mortar"
 
- ### Italy #########################################
+###########################################
+## Italy
+###########################################
  ITA_infantry_equipment_0:0 "Carcano M1891"
  ITA_infantry_equipment_0_short:0 "Carcano M91"
  ITA_infantry_equipment_1:0 "Carcano M1938"
@@ -197,7 +250,9 @@
  ITA_infantry_at2:0 "Panzerfaust"
  ITA_infantry_at3:0 "Lanciabombe Controcarro 60mm"
  
- ### France #########################################
+###########################################
+## France
+###########################################
  FRA_infantry_equipment_0:0 "Berthier 1907"
  FRA_infantry_equipment_0_short:0 "Berthier 1907"
  FRA_infantry_equipment_1:0 "MAS-36"
@@ -217,7 +272,9 @@
  FRA_support_weapons3:0 "FM 24/29 & Brandt Mle 27/31"
  FRA_support_weapons4:0 "Hotchkiss M1922 & Brandt Mle 1942"
 
- ### Japan #########################################
+###########################################
+## Japan
+###########################################
  JAP_infantry_equipment_0:0 "Arisaka Type 38"
  JAP_infantry_equipment_0_short:0 "Type 38"
  JAP_infantry_equipment_1:0 "Arisaka Type 99"

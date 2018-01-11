@@ -79,43 +79,14 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
+####################################################
+# Israeli Leaders
+####################################################
+# SL
 create_country_leader = {
 	name = "Chaim Weizmann"
 	desc = ""
-	picture = "Portrait_Israel_Chaim_Weizmann.dds"
+	picture = "Israel_SL_Chaim_Weizmann.dds"
 	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Itzhak Gaster"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = fascist_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Rudolf Szabó"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Shmuel Mikunis"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	ideology = leninism
-	traits = {
-		#
-	}
+	traits = {}
 }

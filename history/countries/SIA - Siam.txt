@@ -106,6 +106,16 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Phraya Phahon"
+	desc = "POLITICS_PHRAYA_PHAHON_DESC"
+	picture = "Siam_PA_Phraya_Phahon.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {
+		#
+	}
+}
 
 1939.1.1 = {
 	set_politics = {

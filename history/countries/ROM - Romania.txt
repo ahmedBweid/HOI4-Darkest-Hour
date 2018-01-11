@@ -310,72 +310,72 @@ create_country_leader = {
 #########################################
 create_field_marshal = {
 	name = "Petre Dumitrescu"
-	gfx = "Generals/DH_Petre_Dumitrescu"
+	gfx = "Generals/Romania_Army_Petre_Dumitrescu.dds"
 	traits = { offensive_doctrine logistics_wizard }
 	skill = 4
 }
 
 create_field_marshal = {
 	name = "Ion Antonescu"
-	picture = "Generals/DH_Ion_Antonescu.dds"
+	picture = "Generals/Romania_Army_Ion_Antonescu.dds"
 	traits = { offensive_doctrine }
 	skill = 4
 }
 
 create_corps_commander = {
 	name = "Ioan Mihail Racovita"
-	gfx = "Generals/DH_Ioan_Mihail_Racovita"
+	gfx = "Generals/Romania_Army_Ioan_Mihail_Racovita.dds"
 	traits = {  }
 	skill = 3
 }
 
 create_corps_commander = {
 	name = "Gheorghe Avramescu"
-	gfx = "Generals/DH_Gheorghe_Avramescu"
+	gfx = "Generals/Romania_Army_Gheorghe_Avramescu.dds"
 	traits = { }
 	skill = 3
 }
 create_corps_commander = {
 	name = "Nicolae Ciupercă"
-	gfx = "Generals/DH_Nicolae_Ciuperca"
+	gfx = "Generals/Romania_Army_Nicolae_Ciuperca.dds"
 	traits = { }
 	skill = 1
 }
 create_corps_commander = {
 	name = "Ion Glogojanu"
-	gfx = "Generals/DH_Ion_Glogojanu"
+	gfx = "Generals/Romania_Army_Ion_Glogojanu.dds"
 	traits = { }
 	skill = 1
 }
 
 create_corps_commander = {
 	name = "Constantin Tobescu"
-	gfx = "Generals/DH_Constantin_Tobescu"
+	gfx = "Generals/Romania_Army_Constantin_Tobescu.dds"
 	traits = { }
 	skill = 2
 }
 
 create_corps_commander = {
 	name = "Constantin Pantazi"
-	gfx = "Generals/DH_Constantin_Pantazi"
+	gfx = "Generals/Romania_Army_Constantin_Pantazi.dds"
 	traits = { }
 	skill = 2
 }
 create_corps_commander = {
 	name = "Gheorghe Manoliu"
-	gfx = "Generals/DH_Gheorghe_Manoliu"
+	gfx = "Generals/Romania_Army_Gheorghe_Manoliu.dds"
 	traits = { panzer_leader}
 	skill = 3
 }
 create_corps_commander = {
 	name = "Leonard Mociulschi"
-	gfx = "Generals/DH_Leonard_Mociulschi"
+	gfx = "Generals/Romania_Army_Leonard_Mociulschi.dds"
 	traits = { }
 	skill = 2
 }
 create_corps_commander = {
 	name = "Corneliu Dragalina"
-	gfx = "Generals/DH_Corneliu_Dragalina"
+	gfx = "Generals/Romania_Army_Corneliu_Dragalina.dds"
 	traits = {hill_fighter }
 	skill = 4
 }

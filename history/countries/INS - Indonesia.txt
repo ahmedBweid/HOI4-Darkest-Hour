@@ -46,42 +46,6 @@ set_politics = {
 	elections_allowed = no	
 }	
 
-
-
-create_country_leader = {
-	name = "A. T. van Starkenborgh Stachouwer"
-	desc = ""
-	picture = "Portrait_Indonesia_At_Van_Starkenborgh.dds"
-	expire = "1953.3.1"
-	ideology = social_conservatism 
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Amir Sjarifuddin Harahap"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "Portrait_Indonesia_Sukarno.dds"
-	expire = "1953.3.1"
-	ideology = paternal_autocracy
-	traits = {
-		
-	}
-}
-
-
 set_cosmetic_tag = INS_HOL # Netherlands East Indies
 
 1939.1.1 = {
@@ -135,4 +99,15 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 		dispersed_industry2 = 1
 	}
 }
-
+####################################################
+# Indonesian Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "A. T. van Starkenborgh Stachouwer"
+	desc = ""
+	picture = "DutchEastIndies_SC_At_Van_Starkenborgh.dds"
+	expire = "1953.3.1"
+	ideology = social_conservatism 
+	traits = {}
+}

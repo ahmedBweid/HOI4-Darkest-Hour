@@ -79,17 +79,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Jorge Ubico Castaneda"
-	desc = "POLITICS_JORGE_UBICO_DESC"
-	picture = "Portrait_Guatemla_Jorge_Castaneda.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -117,4 +106,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+####################################################
+# Guatemalan Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Jorge Ubico Castaneda"
+	desc = "POLITICS_JORGE_UBICO_DESC"
+	picture = "Guatemla_PA_Jorge_Castaneda.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }

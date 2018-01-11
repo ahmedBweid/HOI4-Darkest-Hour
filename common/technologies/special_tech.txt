@@ -47,6 +47,7 @@ technologies = {
 
 		enable_subunits = {
 			SS_infantry
+			SS_cavalry
 			SS_motorized
 			SS_mechanized
 		}

@@ -277,6 +277,17 @@ add_to_faction = TAN
 add_ideas = {
 	trotskyite_plot
 	home_of_revolution
+# Cabinet
+	SOV_HoG_Vyacheslav_M_Molotov
+	SOV_FM_Maksim_M_Litvinov
+	SOV_AM_Lazar_M_Kaganovich
+	SOV_MoS_Genrikh_G_Yagoda
+	SOV_HoI_Yan_K_Berzin
+# Military Staff
+	SOV_CoStaff_Mikhail_N_Tukhatchevskiy
+	SOV_CoArmy_Kliment_Y_Voroshilov
+	SOV_CoNavy_Vladimir_M_Orlov
+	SOV_CoAir_Yakov_I_Alksnis	
 }
 ###############################
 # Soviet/Russian Leaders 
@@ -292,9 +303,9 @@ create_country_leader = {
 }
 #FA
 create_country_leader = {
-	name = "Viktor M. Baydalakov"
+	name = "Anastasy Vonsiatsky"
 	desc = ""
-	picture = "Russia_FA_Viktor_M_Baydalakov.dds"
+	picture = "Russia_FA_Anastasy_Vonsiatsky.dds"
 	expire = "1965.1.1"
 	ideology = fascist_ideology
 	traits = {}

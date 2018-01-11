@@ -8,7 +8,7 @@ objectTypes = {
 		animation = { id = "idle"			type = "ENG_tank_light_idle_animation" }
 		animation = { id = "move"			type = "ENG_tank_light_moving_animation" }
 		
-		scale = 0.1
+		scale = 1.0
 		
 	}	
 	
@@ -19,7 +19,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "ENG_tank_medium_attack_animation" }
 		animation = { id = "idle"			type = "ENG_tank_medium_idle_animation" }
 		animation = { id = "move"			type = "ENG_tank_medium_moving_animation" }
-		scale = 0.1
+		scale = 1.0
 	}	
 	
 	pdxmesh = {
@@ -29,7 +29,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "ENG_tank_heavy_attack_animation" }
 		animation = { id = "idle"			type = "ENG_tank_heavy_idle_animation" }
 		animation = { id = "move"			type = "ENG_tank_heavy_moving_animation" }
-		scale = 0.65
+		scale = 1.0
 	}
 
 	
@@ -43,7 +43,7 @@ objectTypes = {
 		animation = { id = "idle"			type = "FRA_tank_light_idle_animation" }
 		animation = { id = "move"			type = "FRA_tank_light_moving_animation" }
 		
-		scale = 0.6
+		scale = 1.0
 		
 	}	
 	
@@ -54,7 +54,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "FRA_tank_medium_attack_animation" }
 		animation = { id = "idle"			type = "FRA_tank_medium_idle_animation" }
 		animation = { id = "move"			type = "FRA_tank_medium_moving_animation" }
-		scale = 0.5
+		scale = 1.0
 	}	
 	
 	pdxmesh = {
@@ -64,7 +64,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "FRA_tank_heavy_attack_animation" }
 		animation = { id = "idle"			type = "FRA_tank_heavy_idle_animation" }
 		animation = { id = "move"			type = "FRA_tank_heavy_moving_animation" }
-		scale = 0.65
+		scale = 1.0
 	}
 	
 
@@ -78,7 +78,7 @@ objectTypes = {
 		animation = { id = "idle"			type = "generic_tank_light_idle_animation" }
 		animation = { id = "move"			type = "generic_tank_light_moving_animation" }
 		
-		scale = 0.6
+		scale = 1.0
 		
 	}
 	
@@ -89,7 +89,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "generic_tank_medium_attack_animation" }
 		animation = { id = "idle"			type = "generic_tank_medium_idle_animation" }
 		animation = { id = "move"			type = "generic_tank_medium_moving_animation" }
-		scale = 0.5
+		scale = 1.0
 	}
 	
 	pdxmesh = {
@@ -99,7 +99,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "generic_tank_heavy_attack_animation" }
 		animation = { id = "idle"			type = "generic_tank_heavy_idle_animation" }
 		animation = { id = "move"			type = "generic_tank_heavy_moving_animation" }
-		scale = 0.65
+		scale = 1.0
 	}	
 	
 	
@@ -150,7 +150,7 @@ objectTypes = {
 		animation = { id = "idle"			type = "ITA_tank_light_idle_animation" }
 		animation = { id = "move"			type = "ITA_tank_light_moving_animation" }
 		
-		scale = 0.6
+		scale = 1.0
 	}	
 	
 	pdxmesh = {
@@ -160,7 +160,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "ITA_tank_medium_attack_animation" }
 		animation = { id = "idle"			type = "ITA_tank_medium_idle_animation" }
 		animation = { id = "move"			type = "ITA_tank_medium_moving_animation" }
-		scale = 0.5
+		scale = 1.0
 	}	
 	
 	pdxmesh = {
@@ -170,7 +170,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "ITA_tank_heavy_attack_animation" }
 		animation = { id = "idle"			type = "ITA_tank_heavy_idle_animation" }
 		animation = { id = "move"			type = "ITA_tank_heavy_moving_animation" }
-		scale = 0.65
+		scale = 1.0
 	}	
 	
 	
@@ -183,7 +183,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "JAP_tank_light_attack_animation" }
 		animation = { id = "idle"			type = "JAP_tank_light_idle_animation" }
 		animation = { id = "move"			type = "JAP_tank_light_moving_animation" }
-		scale = 0.6
+		scale = 1.0
 	}	
 	
 	pdxmesh = {
@@ -193,7 +193,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "JAP_tank_medium_attack_animation" }
 		animation = { id = "idle"			type = "JAP_tank_medium_idle_animation" }
 		animation = { id = "move"			type = "JAP_tank_medium_moving_animation" }
-		scale = 0.5
+		scale = 1.0
 	}
 	
 	pdxmesh = {
@@ -203,7 +203,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "JAP_tank_heavy_attack_animation" }
 		animation = { id = "idle"			type = "JAP_tank_heavy_idle_animation" }
 		animation = { id = "move"			type = "JAP_tank_heavy_moving_animation" }
-		scale = 0.65
+		scale = 1.0
 	}
 	
 	
@@ -216,7 +216,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "SOV_tank_light_attack_animation" }
 		animation = { id = "idle"			type = "SOV_tank_light_idle_animation" }
 		animation = { id = "move"			type = "SOV_tank_light_moving_animation" }
-		scale = 0.6
+		scale = 1.0
 	}
 
 	pdxmesh = {
@@ -226,7 +226,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "SOV_tank_medium_attack_animation" }
 		animation = { id = "idle"			type = "SOV_tank_medium_idle_animation" }
 		animation = { id = "move"			type = "SOV_tank_medium_moving_animation" }
-		scale = 0.5
+		scale = 1.0
 	}		
 	
 	pdxmesh = {
@@ -236,7 +236,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "SOV_tank_heavy_attack_animation" }
 		animation = { id = "idle"			type = "SOV_tank_heavy_idle_animation" }
 		animation = { id = "move"			type = "SOV_tank_heavy_moving_animation" }
-		scale = 0.65
+		scale = 1.0
 	}	
 	
 	
@@ -249,7 +249,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "USA_tank_light_attack_animation" }
 		animation = { id = "idle"			type = "USA_tank_light_idle_animation" }
 		animation = { id = "move"			type = "USA_tank_light_moving_animation" }
-		scale = 0.6
+		scale = 1.0
 	}	
 	
 	pdxmesh = {
@@ -259,7 +259,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "USA_tank_medium_attack_animation" }
 		animation = { id = "idle"			type = "USA_tank_medium_idle_animation" }
 		animation = { id = "move"			type = "USA_tank_medium_moving_animation" }
-		scale = 0.5
+		scale = 1.0
 	}	
 	
 	pdxmesh = {
@@ -269,7 +269,7 @@ objectTypes = {
 		animation = { id = "attack"			type = "USA_tank_heavy_attack_animation" }
 		animation = { id = "idle"			type = "USA_tank_heavy_idle_animation" }
 		animation = { id = "move"			type = "USA_tank_heavy_moving_animation" }
-		scale = 0.65
+		scale = 1.0
 	}
 	
 }

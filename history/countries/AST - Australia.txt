@@ -106,9 +106,6 @@ if = {
 		fighter1 = 1
 		tactical_bomber1 = 1
 		
-		
-		
-		
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1

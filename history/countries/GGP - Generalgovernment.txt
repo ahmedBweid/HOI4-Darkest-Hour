@@ -42,13 +42,17 @@ set_politics = {
 		war_economy
 		GER_RK_repression
 	}
-	
+
+####################################################
+# GGP Leaders
+####################################################
+# NS
 create_country_leader = {
 	name = "Hanz Frank" 
 	desc = "POLITICS_Hanz_Frank_DESC" 
-	picture = "Portrait_Germany_Hanz_Frank.dds" 
+	picture = "Germany_NS_Hanz_Frank.dds" 
 	expire = "1961.2.19" 
 	ideology = national_socialism
-	traits = { } 
+	traits = {} 
 }			
 

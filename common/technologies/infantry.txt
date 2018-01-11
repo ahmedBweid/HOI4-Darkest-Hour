@@ -15,7 +15,7 @@ technologies = {
 	@1939 = 4
 	@1942 = 6
 	@1944 = 8
-	@1946 = 10
+	@1948 = 10
 
 #########################################################################
 #  Rifles/ Assault Rifles
@@ -30,6 +30,8 @@ technologies = {
 		
 		enable_subunits = {
 			infantry
+			militia
+			garrison
 		}
 		
 		path = {
@@ -176,7 +178,7 @@ technologies = {
 		}	
 		
 		path = {
-			leads_to_tech = advanced_infantry_weapons2
+			leads_to_tech = infantry_weapons5
 			research_cost_coeff = 1
 		}
 
@@ -211,7 +213,48 @@ technologies = {
 		}
 	}
 	
+### 1948 Infantry Equipment (StG-45M / M14)
+	infantry_weapons5 = {
 
+		enable_equipments = {
+			infantry_equipment_5
+		}	
+		
+		path = {
+			leads_to_tech = infantry_weapons6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1948
+		folder = {
+			name = infantry_folder
+			position = { x = @infantry_equipment_line y = @1948 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+			
+			modifier = {
+				factor = 2
+				date > "1944.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1945.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1946.1.6"
+			}
+		}
+	}
 #########################################################################
 #  Sub Machine Guns
 #########################################################################
@@ -224,7 +267,7 @@ technologies = {
 		mechanized = { soft_attack = 0.05 }
 	
 		research_cost = 1.5
-		start_year = 1940
+		start_year = 1939
 
 		path = {
 			leads_to_tech = infantry_smg1
@@ -253,10 +296,10 @@ technologies = {
 ### 1943 SMGs ( MP-43 / M3 Grease Gun )
 	infantry_smg1 = {
 
-		category_light_infantry = { soft_attack = 0.05 }		
-		cavalry = { soft_attack = 0.05 }		
-		motorized = { soft_attack = 0.05 }		
-		mechanized = { soft_attack = 0.05 }
+		category_light_infantry = { soft_attack = 0.05 defense = 0.03 breakthrough = 0.03}		
+		cavalry = { soft_attack = 0.05 breakthrough = 0.02}		
+		motorized = { soft_attack = 0.05 defense = 0.02 breakthrough = 0.04}		
+		mechanized = { soft_attack = 0.05 defense = 0.02 breakthrough = 0.05}
 	
 		research_cost = 1.5
 		start_year = 1943		
@@ -283,38 +326,16 @@ technologies = {
 #########################################################################
 #  Support Equipment
 #########################################################################
-
 ### Great War Heavy Infantry Equipment (MG 08)
 	support_weapons = {
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		infantry = { defense = 0.05 breakthrough = 0.05}
+		cavalry = { defense = 0.02 breakthrough = 0.02}		
+		mountaineers = { defense = 0.03 breakthrough = 0.03}
+		paratrooper = { defense = 0.03 breakthrough = 0.03}
+		marine = { defense = 0.03 breakthrough = 0.03}
+		motorized = { defense = 0.05 breakthrough = 0.05}
+		mechanized = { defense = 0.05 breakthrough = 0.05}
 		
 		path = {
 			leads_to_tech = support_weapons2
@@ -355,34 +376,13 @@ technologies = {
 ### Interbellum Heavy Infantry Equipment (MG 34)
 	support_weapons2 = {
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}		
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		infantry = { defense = 0.05 breakthrough = 0.05}
+		cavalry = { defense = 0.02 breakthrough = 0.02}		
+		mountaineers = { defense = 0.03 breakthrough = 0.03}
+		paratrooper = { defense = 0.03 breakthrough = 0.03}
+		marine = { defense = 0.03 breakthrough = 0.03}
+		motorized = { defense = 0.05 breakthrough = 0.05}
+		mechanized = { defense = 0.05 breakthrough = 0.05}
 		
 		path = {
 			leads_to_tech = support_weapons3
@@ -1112,7 +1112,7 @@ technologies = {
 		start_year = 1946
 		folder = {
 			name = infantry_folder
-			position = { x = @night_vision_line y = @1946 }
+			position = { x = @night_vision_line y = @1944 }
 		}
 		
 		categories = {

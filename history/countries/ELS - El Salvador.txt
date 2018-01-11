@@ -77,17 +77,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Maximiliano Hernández Martínez"
-	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
-	picture = "Portrait_El_Salvador_Maximiliano_Hernandez_Martinez.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -112,4 +101,17 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
+}
+
+####################################################
+# Salvador Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Maximiliano Hernández Martínez"
+	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+	picture = "ElSalvador_PA_Maximiliano_Martinez.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {}
 }

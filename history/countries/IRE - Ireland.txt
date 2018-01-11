@@ -135,6 +135,14 @@ create_country_leader = {
 
 #SC
 create_country_leader = {
+	name = "Éamon de Valera"
+	desc = ""
+	picture = "Ireland_SC_Eamon_de_Valera.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
+}
+create_country_leader = {
 	name = "Donal Buckley"
 	desc = ""
 	picture = "Ireland_ML_Donal_Buckley.dds"

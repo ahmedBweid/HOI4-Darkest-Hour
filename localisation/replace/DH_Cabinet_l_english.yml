@@ -15,102 +15,188 @@
  Chief_of_Army:0 "Chief of Army"
  Chief_of_Navy:0 "Chief of Navy"
  Chief_of_Airforce:0 "Chief of Airforce"
- 
- head_of_government:0 "Head of Government"
- foreign_minister:0 "Foreign Minister"
- security_minister:0 "Minister of Security"
- Armaments_Minister:0 "Armaments Minister"
- Head_of_Intelligence:0 "Head of Intelligence"
 
  
 ###########################################
 ## Traits 
 ###########################################
+# Head of Government traits
+ HoG_Silent_Workhorse:0 "Silent Workhorse"
+ HoG_Naive_Optimist:0 "Naive Optimist"
+ HoG_Flamboyant_Tough_Guy:0 "Flamboyant Tough Guy"
+ HoG_Happy_Amateur:0 "Happy Amateur"
+ HoG_Backroom_Backstabber:0 "Backroom Backstabber"
+ HoG_Smiling_Oilman:0 "Smiling Oilman"
+ HoG_Old_General:0 "Old General"
+ HoG_Old_Admiral:0 "Old Admiral"
+ HoG_Old_Airmarshal:0 "Old Air Marshal"
+ HoG_Political_Protege:0 "Political Protégé"
+ HoG_Ambitious_Union_Boss:0 "Ambitious Union Boss"
+ HoG_Corporate_Suit:0 "Corporate Suit"
+ HoG_Local_Tyrant:0 "Local Tyrant"
+ HoG_Old_Lawyer:0 "Old Lawyer"
+
+ HoG_Bulldog:0 "The Bulldog" # Churchill
+ HoG_Imperialist_Buffoon:0 "Imperialist Buffoon" #Benito Mussolini
+ HoG_The_Tiger:0 "The Tiger" #Clemenceau
+ HoG_Revolutionary_Leader:0 "Revolutionary Leader" #Zapata
+ HoG_The_Brown_Eminence:0 "The Brown Eminence"
+ HoG_Guilty_Man:0 "Guilty Man" # Baldwin
+ HoG_The_Pacifier:0 "The Pacifier" # Chamberlain
+ HoG_Collectivizer:0 "Chairman of the Sovnarkom" # Molotov
+ HoG_Razor:0 "Razor" # Tojo
+ 
+# Foreign Minister traits
+ FM_Biased_Intellectual:0 "Biased Intellectual"
+ FM_Ideological_Crusader:0 "Ideological Crusader"
+ FM_Apologetic_Clerk:0 "Apologetic Clerk"
+ FM_Iron_Fisted_Brute:0 "Iron-fisted Brute"
+ FM_Great_Compromiser:0 "Great Compromiser"
+ FM_General_Staffer:0 "General Staffer"
+ FM_The_Cloak_N_Dagger_Schemer:0 "The Cloak-and-Dagger Schemer"
+ 
+ FM_Respectable_Compromiser:0 "Respectable Compromiser" # von Neurath
+ FM_Salesman_Of_Deception:0 "The Salesman of Deception" #von Ribbentrop
+ FM_The_Appeaser:0 "The Appeaser" #Halifax
+ FM_Fascist_Crusader:0 "Fascist Crusader" #Galeazzo Ciano
+ FM_Aggressive_Nationalist:0 "Aggressive Nationalist" #Mussolini
+ FM_Persuader_Of_Democracies:0 "Persuader of Democracies" #Litvinov
+ FM_Father_Of_United_Nations:0 "Father of the UN" #Corder Hull
+ FM_Ambassador_To_UN:0 "Ambassador to the UN" #Edward Stettinius
+ FM_Supporter_Of_Friendly_Relations:0 "Supporter of Friendly Relations" #Yvon Delbos
+
+#Minister of Security traits
+ MoS_Silent_Lawyer:0 "Silent Lawyer"
+ MoS_Compassionate_Gentleman:0 "Compassionate Gentleman"
+ MoS_Crime_Fighter:0 "Crime Fighter"
+ MoS_Prince_Of_Terror:0 "Prince of Terror"
+ MoS_Back_Stabber:0 "Back Stabber"
+ MoS_Man_Of_The_People:0 "Man of the People"
+ MoS_Efficient_Sociopath:0 "Efficient Sociopath"
+ MoS_Crooked_Kleptocrat:0 "Crooked Kleptocrat"
+ MoS_Media_Magnate:0 "Media Magnate"
+ MoS_Health_And_Safety:0 "Health and Safety"
+ MoS_Secret_Police_Chief:0 "Secret Police Chief"
+ 
+ MoS_SS_Reichsfuhrer:0 "Reichsführer-SS" # Himmler
+ MoS_Ruthless_Organizer:0 "The Ruthless Organizer" # Frick
+ MoS_Master_Of_Propaganda:0 "Master of Propaganda" # Goebbles
+ MoS_Purged_Purger:0 "Purged Purger" # Genrikh Yagoda
+ MoS_Director_Of_FBI:0 "Director of the FBI" # Hoover
+ MoS_Opposer_Of_The_Far_Right:0 "Opposer of the Far Right" # Marx Dormoy
+ 
+
+ #Armaments Minister traits
+ AM_Administrative_Genius:0 "Administrative Genius"
+ AM_Resource_Industrialist:0 "Resource Industrialist"
+ AM_Laissez-faire_Capitalist:0 "Laissez-faire Capitalist"
+ AM_Theoretical_Scientist:0 "Theoretical Scientist"
+ AM_Military_Entrepreneur:0 "Military Entrepreneur"
+ AM_Corrupt_Kleptocrat:0 "Corrupt Kleptocrat"
+ AM_Oil_Baron:0 "Oil Baron"
+ AM_Steel_Magnate:0 "Steel Magnate"
+ AM_Industrial_Chemist:0 "Industrial Chemist"
+ AM_Planned_Economy_Proponent:0 "Planned Economy Proponent"
+ AM_Keynesian_Economy:0 "Keynesian Economy"
+ AM_Reformer:0 "Reformer"
+ AM_Construction_Magnate:0 "Construction Magnate"
+ AM_Balanced_Budget_Economy:0 "Balanced Budget Proponent"
+ AM_Mixed_Economy:0 "Mixed Economy Proponent"
+
+ AM_Battle_Fleet_Proponent:0 "Battle Fleet Proponent"
+ AM_Submarine_Proponent:0 "Submarine Proponent"
+ AM_Tank_Proponent:0 "Tank Proponent"
+ AM_Infantry_Proponent:0 "Infantry Proponent"
+ AM_Air_To_Ground_Proponent:0 "Air to Ground Proponent"
+ AM_Air_To_Sea_Proponent:0 "Air to Ground Proponent"
+ AM_Strategic_Air_Proponent:0 "Strategic Destruction Proponent"
+ AM_Air_Superiority_Proponent:0 "Air Superiority Proponent"
+ 
+ AM_Genius_Organizer:0 "Genius Organizer" # Speer
+ AM_Organization_todt:0 "Organization 'Todt'" #Todt
+ AM_Autarkic_Fascist:0 "Autarkic Fascist" # Mussolini
+ AM_Iron_Lazar:0 "Iron Lazar" # Lazar M. Kaganovich
+ AM_Orthodox_Economist:0 "Orthodox Economist" # Henry Morgenthau
+ AM_Secretary_Of_War:0 "Secretary of War" # Henry L. Stimson
+ AM_Secretary_Of_The_Interior:0 "Secretary of the Interior" # Harold Ickes
+ AM_Supporter_Of_Devaluation:0 "Supporter of Devaluation" # Auriol
+ AM_Opposer_To_Military_Spending:0 "Opposer to Military Spending" # Georges Bonnet
+ 
+
+ # Head of Intelligence traits
+ HoI_Technical_Specialist:0 "Technical Specialist"
+ HoI_Logistics_Specialist:0 "Logistics Specialist"
+ HoI_Political_Specialist:0 "Political Specialist"
+ HoI_Dismal_Enigma:0 "Dismal Enigma"
+ HoI_Industrial_Specialist:0 "Industrial Specialist"
+ HoI_Naval_Intelligence_Specialist:0 "Naval Intelligence Specialist"
+ 
+ HoI_Brilliant_Spymaster:0 "Brilliant Spymaster" #Canaris
+ HoI_The_Hangman:0 "The Hangman" # Heydrich
+ HoI_Quex:0 "Quex" # Hugh Sinclair
+ HoI_Cryptographer:0 "Cryptographer" # William F. Friedman
+
+ 
 # Chief of Staff traits 
- CoStaff_school_of_manoeuvre:0 "School of Manouevre"
- CoStaff_school_of_manoeuvre_desc:0 "This Chief of Staff teaches that Maneuver and Speed are the essence of modern warfare."
+ CoStaff_School_Of_Manoeuvre:0 "School of Manouevre" 
+ CoStaff_School_Of_Fire_Support:0 "School of Fire Support" 
+ CoStaff_School_Of_Mass_Combat:0 "School of Mass Combat"
+ CoStaff_School_Of_Psychology:0 "School of Psychology"
+ CoStaff_School_Of_Defence:0 "School of Defense"
+ CoStaff_Commando_Doctrine_Staff:0 "School of Special Forces"
+
+ CoStaff_Counterattack_Genius:0 "Counterattack Genius" #Foch
+ CoStaff_Popular_Military_Leader:0 "Popular Military Leader" #Hindenburg
+ CoStaff_Stubborn_Disciplinarian:0 "Stubborn Disciplinarian" #Cadorna
+ CoStaff_Deep_Battle_Proponent:0 "Deep Battle Proponent" #Tukhachevsky
+ CoStaff_Fortifications_Supporter:0 "Fortifications Supporter" #Maurice Gamelin
  
- CoStaff_school_of_fire_support:0 "School of Fire Support"
- CoStaff_school_of_fire_support_desc:0 "This Chief of Staff teaches that Fire Support is the essence of modern warfare."
- 
- CoStaff_school_of_mass_combat:0 "School of Mass Combat"
- CoStaff_school_of_mass_combat_desc:0 "This Chief of Staff believes in the People's War and teaches that mass formations and guerrilla tactics are the essence of modern warfare."
- 
- CoStaff_school_of_psychology:0 "School of Psychology"
- CoStaff_school_of_psychology_desc:0 "This Chief of Staff teaches that morale and small-unit leadership are the essence of modern warfare."
- 
- CoStaff_school_of_defence:0 "School of Defense"
- CoStaff_school_of_defence_desc:0 "This Chief of Staff teaches that Fortifications, Militia and Strategic Depth are the essence of modern warfare."
  
 # Chief of Army traits 
- CoArmy_elastic_defence_doctrine:0 "Elastic Defence Doctrine"
- CoArmy_elastic_defence_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces by the doctrine of Elastic Defense. This means that deploying a thin defensive line with heavily armed infantry and deploying replacements and assault teams in the second lines are essential for wearing down the enemy and for winning the war."
+ CoArmy_Elastic_Defence_Doctrine:0 "Elastic Defence Doctrine" 
+ CoArmy_Static_Defence_Doctrine:0 "Static Defence Doctrine" 
+ CoArmy_Decisive_Battle_Doctrine:0 "Decisive Battle Doctrine" 
+ CoArmy_Armoured_Spearhead_Doctrine:0 "Armoured Spearhead Doctrine" 
+ CoArmy_Guns_And_Butter_Doctrine:0 "Guns and Butter Doctrine" 
+ CoArmy_Commando_Doctrine_Army:0 "Special Forces Doctrine" 
+ CoArmy_Doctrine_Of_Autonomy:0 "Autonomy Doctrine"
  
- CoArmy_static_defence_doctrine:0 "Static Defence Doctrine"
- CoArmy_static_defence_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Static Defense. This means that deploying several defensive lines with fortified infantry and substantial artillery assets in the rear are essential for wearing down the enemy and for winning the war."
+ CoArmy_Innovative_Offensive_General:0 "Innovative Offensive General" #Brusilov
+ CoArmy_Guerilla_Warfare_Doctrine:0 "Guerilla Warfare Doctrine" # Zapata, Mao ...
+ CoArmy_Undersecretary_Of_War:0 "Undersecretary of War" # Alberto Pariani
+ CoArmy_Static_Defense_Supporter:0 "Static Defense Supporter" # Maurice Gamelin
  
- CoArmy_decisive_battle_doctrine:0 "Decisive Battle Doctrine"
- CoArmy_decisive_battle_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Decisive Battle. This means that concentrating large amounts of superior attacking troops and forcing the enemy to commit inferior troops are essential for wearing down the enemy and for winning the war."
- 
- CoArmy_armoured_spearhead_doctrine:0 "Armoured Spearhead Doctrine"
- CoArmy_armoured_spearhead_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Armored Spearheads. This means that spearheading speedy offensives with tank units followed up with encircling infantry are essential for wearing down the enemy and for winning the war."
- 
- CoArmy_guns_and_butter_doctrine:0 "Guns and Butter Doctrine"
- CoArmy_guns_and_butter_doctrine_desc:0 "This Chief of the Army directs the utilization of the ground forces according to the doctrine of Guns and Butter. This means allowing the operational commanders freedom of command while ensuring the best possible supplies and training for the Army are essential for wearing down the enemy and for winning the war."
  
 # Chief of Navy traits 
- CoNavy_open_seas_doctrine:0 "Open Seas Doctrine"
- CoNavy_open_seas_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Open Seas. This means that the control of sea lanes to far-flung resources is essential for winning the war."
+ CoNavy_Open_Seas_Doctrine:0 "Open Seas Doctrine" 
+ CoNavy_Decisive_Naval_Battle_Doctrine:0 "Decisive Naval Battle Doctrine" 
+ CoNavy_Power_Projection_Doctrine:0 "Power Projection Doctrine" 
+ CoNavy_Indirect_Approach_Doctrine:0 "Indirect Approach Doctrine" 
+ CoNavy_Base_Control_Doctrine:0 "Base Control Doctrine"
  
- CoNavy_decisive_battle_doctrine:0 "Decisive Naval Battle Doctrine"
- CoNavy_decisive_battle_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Decisive Battle. This means that in order to win the war, it is essential to amass a large battle fleet and destroy the enemy's force on the High Seas."
+ CoNavy_Old_School_Admiral:0 "Old School Admiral" #Cavagnari
  
- CoNavy_power_projection_doctrine:0 "Power Projection Doctrine"
- CoNavy_power_projection_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Power Projection, which means that by concentrating all power from aircraft, torpedoes and artillery fire into a suitable area a good chance for winning the war is ensured."
+# Chief of Airforce traits
+ CoAir_Air_Superiority_Doctrine:0 "Air Superiority Doctrine" 
+ CoAir_Naval_Aviation_Doctrine:0 "Naval Aviation Doctrine" 
+ CoAir_Army_Aviation_Doctrine:0 "Army Aviation Doctrine" 
+ CoAir_Carpet_Bombing_Doctrine:0 "Carpet Bombing Doctrine" 
+ CoAir_Vertical_Envelopment_Doctrine:0 "Vertical Envelopment Doctrine"
  
- CoNavy_indirect_approach_doctrine:0 "Indirect Approach Doctrine"
- CoNavy_indirect_approach_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Indirect Approach. This means that in order to win the war, it is essential to avoid decisive battle and instead destroy the enemy's convoys and warships piecemeal."
+ CoAir_The_Iron_Knight:0 "The Iron Knight" # Goering
  
- CoNavy_base_control_doctrine:0 "Base Control Doctrine"
- CoNavy_base_control_doctrine_desc:0 "This Chief of the Navy directs the utilization of the Naval forces according to the doctrine of Base Control. This means that in order to win the war, it is essential to strike directly at the enemy bases (ports and islands), and take control of them with air and land forces."
- 
-# Chief of Airforce
- CoAir_air_superiority_doctrine:0 "Air Superiority Doctrine"
- CoAir_air_superiority_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the air force according to the doctrine of Air Superiority. This means that in order to win the war, it is essential to control the skies above the battlefield."
- 
- CoAir_naval_aviation_doctrine:0 "Naval Aviation Doctrine"
- CoAir_naval_aviation_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the air force according to the doctrine of Naval Aviation. This means that in order to win the war, it is essential to work closely with the Navy and destroy the enemy Navy, preferably by bombing it to pieces."
- 
- CoAir_army_aviation_doctrine:0 "Army Aviation Doctrine"
- CoAir_army_aviation_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the Air forces according to the doctrine of Army Aviation. This means that in order to win the war, it is essential to work closely with the Army and destroy the enemy land forces, preferably by bombing them to pieces."
- 
- CoAir_carpet_bombing_doctrine:0 "Carpet Bombing Doctrine"
- CoAir_carpet_bombing_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the Air forces according to the doctrine of Carpet Bombing. This means that in order to win the war, it is essential to grind down the enemy transportation network and industrial plants, and to demoralize his population by terror bombing."
- 
- CoAir_vertical_envelopment_doctrine:0 "Vertical Envelopment Doctrine"
- CoAir_vertical_envelopment_doctrine_desc:0 "This Chief of the Air Force directs the utilization of the Air forces according to the doctrine of Vertical Envelopment. This means that in order to win the war, it is essential to seize strategic terrain or bridgeheads by air to quickly enable the Army to achieve a breakthrough."
- 
- 
-# Positions	
- pos_HoG:0 ""
- pos_FM:0 ""
- pos_AM:0 ""
- pos_MoS:0 ""
- pos_HoI:0 ""
-# Mil Positions	
- pos_CoStaff:0 "Chief of Staff"
- pos_CoArmy:0 ""
- pos_CoAir:0 ""
- pos_CoNavy:0 ""
 # Ideologies
- ideology_NS:0 "NatSoc"
+ ideology_NS:0 ""
  ideology_FA:0 ""
  ideology_PA:0 ""
 	
  ideology_SC:0 ""
+ ideology_ML:0 ""
  ideology_SL:0 ""
  ideology_SD:0 ""
 	
  ideology_LWR:0 ""
  ideology_LE:0 ""
  ideology_ST:0 ""
+ 
+ 

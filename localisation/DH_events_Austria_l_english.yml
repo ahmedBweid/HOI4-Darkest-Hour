@@ -1,5 +1,7 @@
 ﻿l_english:
-###### Austria events-------------------------------------
+#########################################################################
+#  Austrian Events
+#########################################################################
  DH_austria.1.t:0 "German Anschluss"
  DH_austria.1.d:0 "Germany demands we join them completely"
  DH_austria.1.a:0 "Accept"

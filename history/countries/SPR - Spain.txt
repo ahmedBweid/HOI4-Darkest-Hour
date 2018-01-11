@@ -167,16 +167,17 @@ set_national_unity = 0.5
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
 }
-
+####################################################
+# Spanish Leaders
+####################################################
+# FA
 create_country_leader = {
 	name = "Francisco Franco"
 	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
+	picture = "Spain_FA_Francisco_Franco.dds"
 	expire = "1965.1.1"
 	ideology = falangism
-	traits = {
-		#
-	}
+	traits = {}
 }
 create_country_leader = {
 	name = "Jose Sanjurjo"
@@ -184,90 +185,59 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = falangism
-	traits = {
-		#
-	}
+	traits = {}
 }
+# SC
 create_country_leader = {
 	name = "Niceto Alcalá-Zamora"
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	picture = "Spain_SC_Niceto_Alcala_Zamora.dds"
 	expire = "1965.1.1"
 	ideology = social_conservatism
-	traits = {
-		#
-	}
+	traits = {}
 }
-
+# SL
 create_country_leader = {
 	name = "Manuel Azaña Díaz"
 	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_Spain_Manuel_Azana.dds"
+	picture = "Spain_SD_Manuel_Azana.dds"
 	expire = "1965.1.1"
 	ideology = social_liberalism
-	traits = {
-		#
-	}
+	traits = {}
 }
+# SD
 create_country_leader = {
 	name = "Alejandro Lerroux"
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
-	traits = {
-		#
-	}
+	traits = {}
 }
+# LE
 create_country_leader = {
 	name = "Andreu Nin i Pérez"
 	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = leninism
-	traits = {
-		#
-	}
+	traits = {}
 }
+# ST
 create_country_leader = {
 	name = "Jose Díaz Ramos"
 	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
+	picture = "Spain_ST_Jose_Diaz.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
-	traits = {
-		#
-	}
+	traits = {}
 }
-
+####################################################
+# Spanish General Staff
+####################################################
 create_field_marshal = {
 	name = "José Asensio Torrado"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { defensive_doctrine }
 	skill = 2
-}
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "C Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}
-
-create_equipment_variant = {
-	name = "Príncipe Alfonso Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
 }

@@ -79,17 +79,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Agdanbuugiyn Amar"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = "Portrait_Mongolia_Agdanbuugiyn_Amar.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 
 	add_ideas = {
@@ -120,15 +109,16 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
-
-	create_country_leader = {
-		name = "Khorloogiin Choibalsan"
-		desc = "POLITICS_KHORLOOGIIN_CHOIBALSAN_DESC"
-		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = stalinism
-		traits = {
-			#
-		}
-	}
+}
+####################################################
+# Mongolia Leaders
+####################################################
+# LE
+create_country_leader = {
+	name = "Agdanbuugiyn Amar"
+	desc = "POLITICS_ANANDYN_AMAR_DESC"
+	picture = "Mongolia_LE_Agdanbuugiyn_Amar.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {}
 }

@@ -1,0 +1,5073 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Yamagata Aritomo
+		JAP_HoG_Yamagata_Aritomo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1882.1.1
+				date < 1923.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamagata_Aritomo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_NS }
+		}
+	# Hiranuma Kiichiro
+		JAP_HoG_Hiranuma_Kiichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1953.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hiranuma_Kiichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_Admiral ideology_FA }
+		}
+	# Ugaki Kazushige
+		JAP_HoG_Ugaki_Kazushige_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1931.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ugaki_Kazushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_FA }
+		}
+	# Hirota Koki
+		JAP_HoG_Hirota_Koki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hirota_Koki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_FA }
+		}
+	# Koiso Kuniaki
+		JAP_HoG_Koiso_Kuniaki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1951.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Koiso_Kuniaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_FA }
+		}
+	# Tojo Hideki
+		JAP_HoG_Tojo_Hideki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1928.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tojo_Hideki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Razor ideology_FA }
+		}
+	# Katsura Taro
+		JAP_HoG_Katsura_Taro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1892.1.1
+				date < 1914.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Katsura_Taro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_PA }
+		}
+	# Kiyoura Keigo
+		JAP_HoG_Kiyoura_Keigo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1894.1.1
+				date < 1943.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kiyoura_Keigo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_PA }
+		}
+	# Terauchi Masatake
+		JAP_HoG_Terauchi_Masatake = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1896.1.1
+				date < 1920.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Terauchi_Masatake_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_PA }
+		}
+	# Okada Keisuke
+		JAP_HoG_Okada_Keisuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1953.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Okada_Keisuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_PA }
+		}
+	# Suzuki Kantaro
+		JAP_HoG_Suzuki_Kantaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1949.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Suzuki_Kantaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_PA }
+		}
+	# Abe Nobuyuki
+		JAP_HoG_Abe_Nobuyuki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1954.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Abe_Nobuyuki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_PA }
+		}
+	# Hayashi Senjuro
+		JAP_HoG_Hayashi_Senjuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1944.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hayashi_Senjuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Smiling_Oilman ideology_PA }
+		}
+	# Terauchi Hisaichi
+		JAP_HoG_Terauchi_Hisaichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1947.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Terauchi_Hisaichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_PA }
+		}
+	# Yonai Mitsumasa
+		JAP_HoG_Yonai_Mitsumasa = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1949.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yonai_Mitsumasa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_PA }
+		}
+	# Higashikuni Naruhiko
+		JAP_HoG_Higashikuni_Naruhiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1991.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Higashikuni_Naruhiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_PA }
+		}
+	# Konoe Fumimaro
+		JAP_HoG_Konoe_Fumimaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1935.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Konoe_Fumimaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_PA }
+		}
+	# Konoe Fumimaro
+		JAP_HoG_Konoe_Fumimaro_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Konoe_Fumimaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_PA }
+		}
+	# Saionji Kinmochi
+		JAP_HoG_Saionji_Kinmochi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1941.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Saionji_Kinmochi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_SC }
+		}
+	# Suzuki Kisaburo
+		JAP_HoG_Suzuki_Kisaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1941.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Suzuki_Kisaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_SC }
+		}
+	# Shidehara Kijuro
+		JAP_HoG_Shidehara_Kijuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1916.1.1
+				date < 1952.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Shidehara_Kijuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SC }
+		}
+	# Yoshida Shigeru
+		JAP_HoG_Yoshida_Shigeru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1968.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yoshida_Shigeru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_SC }
+		}
+	# Hatoyama Ichiro
+		JAP_HoG_Hatoyama_Ichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1927.1.1
+				date < 1960.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Hatoyama_Ichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SC }
+		}
+	# Ishibashi Tanzan
+		JAP_HoG_Ishibashi_Tanzan = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1928.1.1
+				date < 1974.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ishibashi_Tanzan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SC }
+		}
+	# Ugaki Kazushige
+		JAP_HoG_Ugaki_Kazushige = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1940.1.1
+				date < 1957.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ugaki_Kazushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SC }
+		}
+	# Kishi Nobusuke
+		JAP_HoG_Kishi_Nobusuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1940.1.1
+				date < 1988.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kishi_Nobusuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_SC }
+		}
+	# Ikeda Hayato
+		JAP_HoG_Ikeda_Hayato = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1943.1.1
+				date < 1957.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ikeda_Hayato_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_SC }
+		}
+	# Okuma Shigenobu
+		JAP_HoG_Okuma_Shigenobu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1882.1.1
+				date < 1923.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Okuma_Shigenobu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_ML }
+		}
+	# Yamamoto Gonnohyoe
+		JAP_HoG_Yamamoto_Gonnohyoe = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1896.1.1
+				date < 1934.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Gonnohyoe_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_Admiral ideology_ML }
+		}
+	# Takahashi Korekiyo
+		JAP_HoG_Takahashi_Korekiyo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1898.1.1
+				date < 1937.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Takahashi_Korekiyo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Smiling_Oilman ideology_ML }
+		}
+	# Hara Takashi
+		JAP_HoG_Hara_Takashi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1900.1.1
+				date < 1922.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Hara_Takashi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_ML }
+		}
+	# Saito Makoto
+		JAP_HoG_Saito_Makoto = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1937.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Saito_Makoto_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_Admiral ideology_ML }
+		}
+	# Kato Takaaki
+		JAP_HoG_Kato_Takaaki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1904.1.1
+				date < 1927.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Takaaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_ML }
+		}
+	# Kato Tomosaburo
+		JAP_HoG_Kato_Tomosaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1905.1.1
+				date < 1924.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Tomosaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_ML }
+		}
+	# Ashida Hitoshi
+		JAP_HoG_Ashida_Hitoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1960.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Ashida_Hitoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Smiling_Oilman ideology_SL }
+		}
+	# Inukai Tsuyoshi
+		JAP_HoG_Inukai_Tsuyoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1933.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Inukai_Tsuyoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_SD }
+		}
+	# Hamaguchi Osachi
+		JAP_HoG_Hamaguchi_Osachi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Hamaguchi_Osachi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_SD }
+		}
+	# Goto Fumio
+		JAP_HoG_Goto_Fumio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1928.1.1
+				date < 1981.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Goto_Fumio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SD }
+		}
+	# Katayama Tetsu
+		JAP_HoG_Katayama_Tetsu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1979.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Katayama_Tetsu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SD }
+		}
+	# Nishio Suehiro
+		JAP_HoG_Nishio_Suehiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1935.1.1
+				date < 1982.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Nishio_Suehiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_SD }
+		}
+	# Miyamoto Kenji
+		JAP_HoG_Miyamoto_Kenji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1952.1.1
+				date < 1999.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Miyamoto_Kenji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Smiling_Oilman ideology_LE }
+		}
+	# Sakai Toshihiko
+		JAP_HoG_Sakai_Toshihiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1934.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Sakai_Toshihiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_ST }
+		}
+	# Yamakawa Hitoshi
+		JAP_HoG_Yamakawa_Hitoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1959.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamakawa_Hitoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_ST }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Kiyoura Keigo
+		JAP_FM_Kiyoura_Keigo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1885.1.1
+				date < 1943.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kiyoura_Keigo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_FA }
+		}
+	# Abe Nobuyuki
+		JAP_FM_Abe_Nobuyuki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1910.1.1
+				date < 1954.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Abe_Nobuyuki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_FA }
+		}
+	# Togo Shigenori
+		JAP_FM_Togo_Shigenori = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1917.1.1
+				date < 1951.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Togo_Shigenori_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_FA }
+		}
+	# Arita Hachiro
+		JAP_FM_Arita_Hachiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1966.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Arita_Hachiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_FA }
+		}
+	# Tojo Hideki
+		JAP_FM_Tojo_Hideki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tojo_Hideki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_FA }
+		}
+	# Shigemitsu Mamoru
+		JAP_FM_Shigemitsu_Mamoru_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1958.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Shigemitsu_Mamoru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_FA }
+		}
+	# Tani Masayuki
+		JAP_FM_Tani_Masayuki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1963.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tani_Masayuki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_FA }
+		}
+	# Terauchi Masatake
+		JAP_FM_Terauchi_Masatake = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1887.1.1
+				date < 1920.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Terauchi_Masatake_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_PA }
+		}
+	# Motono Ichiro
+		JAP_FM_Motono_Ichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1897.1.1
+				date < 1919.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Motono_Ichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_PA }
+		}
+	# Suzuki Kantaro
+		JAP_FM_Suzuki_Kantaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1949.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Suzuki_Kantaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_PA }
+		}
+	# Hayashi Senjuro
+		JAP_FM_Hayashi_Senjuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1944.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hayashi_Senjuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_PA }
+		}
+	# Nomura Kichisaburo
+		JAP_FM_Nomura_Kichisaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1965.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nomura_Kichisaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_PA }
+		}
+	# Hirota Koki
+		JAP_FM_Hirota_Koki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1913.1.1
+				date < 1949.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hirota_Koki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_PA }
+		}
+	# Matsuoka Yosuke
+		JAP_FM_Matsuoka_Yosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1947.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Matsuoka_Yosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_PA }
+		}
+	# Sato Naotake
+		JAP_FM_Sato_Naotake = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1917.1.1
+				date < 1972.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Sato_Naotake_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_PA }
+		}
+	# Toyoda Teijiro
+		JAP_FM_Toyoda_Teijiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1962.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Toyoda_Teijiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_PA }
+		}
+	# Konoe Fumimaro
+		JAP_FM_Konoe_Fumimaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Konoe_Fumimaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_PA }
+		}
+	# Ugaki Kazushige
+		JAP_FM_Ugaki_Kazushige = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1957.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ugaki_Kazushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_PA }
+		}
+	# Suzuki Kisaburo
+		JAP_FM_Suzuki_Kisaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1941.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Suzuki_Kisaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_SC }
+		}
+	# Okada Keisuke
+		JAP_FM_Okada_Keisuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1953.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Okada_Keisuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_SC }
+		}
+	# Yoshizawa Kenkichi
+		JAP_FM_Yoshizawa_Kenkichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1909.1.1
+				date < 1966.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yoshizawa_Kenkichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SC }
+		}
+	# Yoshida Shigeru
+		JAP_FM_Yoshida_Shigeru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1913.1.1
+				date < 1968.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yoshida_Shigeru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SC }
+		}
+	# Shigemitsu Mamoru
+		JAP_FM_Shigemitsu_Mamoru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1958.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Shigemitsu_Mamoru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SC }
+		}
+	# Kishi Nobusuke
+		JAP_FM_Kishi_Nobusuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1988.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kishi_Nobusuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SC }
+		}
+	# Fujiyama Aiichiro
+		JAP_FM_Fujiyama_Aiichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1932.1.1
+				date < 1986.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Fujiyama_Aiichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SC }
+		}
+	# Ohira Masayoshi
+		JAP_FM_Ohira_Masayoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1945.1.1
+				date < 1981.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ohira_Masayoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_SC }
+		}
+	# Kosaka Zentaro
+		JAP_FM_Kosaka_Zentaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1947.1.1
+				date < 1999.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kosaka_Zentaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_SC }
+		}
+	# Okuma Shigenobu
+		JAP_FM_Okuma_Shigenobu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1873.1.1
+				date < 1923.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Okuma_Shigenobu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_ML }
+		}
+	# Saionji Kinmochi
+		JAP_FM_Saionji_Kinmochi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1884.1.1
+				date < 1941.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Saionji_Kinmochi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_ML }
+		}
+	# Makino Nobuaki
+		JAP_FM_Makino_Nobuaki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1896.1.1
+				date < 1950.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Makino_Nobuaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_ML }
+		}
+	# Uchida Kosai
+		JAP_FM_Uchida_Kosai = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1900.1.1
+				date < 1937.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Uchida_Kosai_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_ML }
+		}
+	# Ishii Kikujiro
+		JAP_FM_Ishii_Kikujiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1901.1.1
+				date < 1946.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Ishii_Kikujiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_ML }
+		}
+	# Kato Takaaki
+		JAP_FM_Kato_Takaaki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1895.1.1
+				date < 1927.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Takaaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SL }
+		}
+	# Ashida Hitoshi
+		JAP_FM_Ashida_Hitoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1960.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Ashida_Hitoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SL }
+		}
+	# Inukai Tsuyoshi
+		JAP_FM_Inukai_Tsuyoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1890.1.1
+				date < 1933.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Inukai_Tsuyoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_SD }
+		}
+	# Shidehara Kijuro
+		JAP_FM_Shidehara_Kijuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1907.1.1
+				date < 1952.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Shidehara_Kijuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SD }
+		}
+	# Nosaka Sanzo
+		JAP_FM_Nosaka_Sanzo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1927.1.1
+				date < 1994.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Nosaka_Sanzo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_SD }
+		}
+	# Kubota Kanichiro
+		JAP_FM_Kubota_Kanichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1937.1.1
+				date < 1978.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Kubota_Kanichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_SD }
+		}
+	# Shiga Yoshio
+		JAP_FM_Shiga_Yoshio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1936.1.1
+				date < 1990.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Shiga_Yoshio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_LE }
+		}
+	# Arahata Kanson
+		JAP_FM_Arahata_Kanson = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1982.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Arahata_Kanson_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_ST }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Kiyoura Keigo
+		JAP_MoS_Kiyoura_Keigo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1885.1.1
+				date < 1943.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kiyoura_Keigo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_FA }
+		}
+	# Oura Kanetake
+		JAP_MoS_Oura_Kanetake = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1885.1.1
+				date < 1919.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oura_Kanetake_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_FA }
+		}
+	# Hiranuma Kiichiro
+		JAP_MoS_Hiranuma_Kiichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1953.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hiranuma_Kiichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_FA }
+		}
+	# Mizuno Rentaro
+		JAP_MoS_Mizuno_Rentaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1950.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Mizuno_Rentaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crooked_Kleptocrat ideology_FA }
+		}
+	# Kodama Hideo
+		JAP_MoS_Kodama_Hideo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1948.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kodama_Hideo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_FA }
+		}
+	# Ando Kisaburo
+		JAP_MoS_Ando_Kisaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1955.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ando_Kisaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_FA }
+		}
+	# Nakajima Kesago
+		JAP_MoS_Nakajima_Kesago = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1916.1.1
+				date < 1946.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nakajima_Kesago_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_FA }
+		}
+	# Tojo Hideki
+		JAP_MoS_Tojo_Hideki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tojo_Hideki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Secret_Police_Chief ideology_FA }
+		}
+	# Fujie Keisuke
+		JAP_MoS_Fujie_Keisuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1970.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Fujie_Keisuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_FA }
+		}
+	# Tanaka Seiichi
+		JAP_MoS_Tanaka_Seiichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1946.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tanaka_Seiichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_FA }
+		}
+	# Hirabayashi Morito
+		JAP_MoS_Hirabayashi_Morito = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1969.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hirabayashi_Morito_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_FA }
+		}
+	# Kato Hakujiro
+		JAP_MoS_Kato_Hakujiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1952.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Hakujiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_FA }
+		}
+	# Iimura Jo
+		JAP_MoS_Iimura_Jo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1977.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Iimura_Jo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_FA }
+		}
+	# Teshima Fusataro
+		JAP_MoS_Teshima_Fusataro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1980.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Teshima_Fusataro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_FA }
+		}
+	# Nakamura Aketo
+		JAP_MoS_Nakamura_Aketo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1967.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nakamura_Aketo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_FA }
+		}
+	# Odachi Shigeo
+		JAP_MoS_Odachi_Shigeo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1927.1.1
+				date < 1956.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Odachi_Shigeo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_FA }
+		}
+	# Okuma Shigenobu
+		JAP_MoS_Okuma_Shigenobu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1873.1.1
+				date < 1923.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Okuma_Shigenobu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_PA }
+		}
+	# Goto Shinpei
+		JAP_MoS_Goto_Shinpei = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1892.1.1
+				date < 1930.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Goto_Shinpei_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_PA }
+		}
+	# Kobayashi Seizo
+		JAP_MoS_Kobayashi_Seizo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1963.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kobayashi_Seizo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_PA }
+		}
+	# Tanabe Harumichi
+		JAP_MoS_Tanabe_Harumichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1913.1.1
+				date < 1951.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tanabe_Harumichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_PA }
+		}
+	# Baba Eiichi
+		JAP_MoS_Baba_Eiichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1938.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Baba_Eiichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_PA }
+		}
+	# Suetsugu Nobumasa
+		JAP_MoS_Suetsugu_Nobumasa = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1945.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Suetsugu_Nobumasa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_PA }
+		}
+	# Ushio Shigenosuke
+		JAP_MoS_Ushio_Shigenosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1916.1.1
+				date < 1956.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ushio_Shigenosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_PA }
+		}
+	# Yuzawa Michio
+		JAP_MoS_Yuzawa_Michio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yuzawa_Michio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_PA }
+		}
+	# Kido Koichi
+		JAP_MoS_Kido_Koichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1978.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kido_Koichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_PA }
+		}
+	# Yasui Eiji
+		JAP_MoS_Yasui_Eiji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1925.1.1
+				date < 1983.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yasui_Eiji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crooked_Kleptocrat ideology_PA }
+		}
+	# Abe Genki
+		JAP_MoS_Abe_Genki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1929.1.1
+				date < 1990.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Abe_Genki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_PA }
+		}
+	# Tokonami Takejiro
+		JAP_MoS_Tokonami_Takejiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1936.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Tokonami_Takejiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_SC }
+		}
+	# Ohara Naoshi
+		JAP_MoS_Ohara_Naoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1968.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ohara_Naoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_SC }
+		}
+	# Ohara Naoshi
+		JAP_MoS_Ohara_Naoshi_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1968.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ohara_Naoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SC }
+		}
+	# Goto Fumio
+		JAP_MoS_Goto_Fumio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1981.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Goto_Fumio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SC }
+		}
+	# Horikiri Zenjiro
+		JAP_MoS_Horikiri_Zenjiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1980.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Horikiri_Zenjiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SC }
+		}
+	# Ishibashi Tanzan
+		JAP_MoS_Ishibashi_Tanzan = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1974.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ishibashi_Tanzan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SC }
+		}
+	# Kawarada Kakichi
+		JAP_MoS_Kawarada_Kakichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1921.1.1
+				date < 1956.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawarada_Kakichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SC }
+		}
+	# Kimura Tokutaro
+		JAP_MoS_Kimura_Tokutaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1921.1.1
+				date < 1983.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kimura_Tokutaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_SC }
+		}
+	# Omura Seiichi
+		JAP_MoS_Omura_Seiichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1927.1.1
+				date < 1969.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Omura_Seiichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SC }
+		}
+	# Yamazaki Iwao
+		JAP_MoS_Yamazaki_Iwao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1929.1.1
+				date < 1969.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamazaki_Iwao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SC }
+		}
+	# Inukai Takeru
+		JAP_MoS_Inukai_Takeru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1961.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Inukai_Takeru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_SC }
+		}
+	# Ueki Koshiro
+		JAP_MoS_Ueki_Koshiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1935.1.1
+				date < 1981.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ueki_Koshiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SC }
+		}
+	# Nakamura Umekichi
+		JAP_MoS_Nakamura_Umekichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1936.1.1
+				date < 1985.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Nakamura_Umekichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SC }
+		}
+	# Ohashi Takeo
+		JAP_MoS_Ohashi_Takeo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1939.1.1
+				date < 1982.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ohashi_Takeo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crooked_Kleptocrat ideology_SC }
+		}
+	# Hirata Tosuke
+		JAP_MoS_Hirata_Tosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1884.1.1
+				date < 1926.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Hirata_Tosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_ML }
+		}
+	# Ichiki Kitokuro
+		JAP_MoS_Ichiki_Kitokuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1945.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Ichiki_Kitokuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_ML }
+		}
+	# Yamamoto Tatsuo
+		JAP_MoS_Yamamoto_Tatsuo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1891.1.1
+				date < 1948.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Tatsuo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SD }
+		}
+	# Hara Takashi
+		JAP_MoS_Hara_Takashi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1891.1.1
+				date < 1922.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Hara_Takashi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SD }
+		}
+	# Ozaki Yukio
+		JAP_MoS_Ozaki_Yukio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1955.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Ozaki_Yukio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SD }
+		}
+	# Goto Fumio
+		JAP_MoS_Goto_Fumio_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1981.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Goto_Fumio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SD }
+		}
+	# Kimura Kozaemon
+		JAP_MoS_Kimura_Kozaemon = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1953.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Kimura_Kozaemon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SD }
+		}
+	# Hanamura Shiro
+		JAP_MoS_Hanamura_Shiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Hanamura_Shiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_SD }
+		}
+	# Morinaga Teiichiro
+		JAP_MoS_Morinaga_Teiichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1945.1.1
+				date < 1987.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Morinaga_Teiichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SD }
+		}
+	# Nosaka Sanzo
+		JAP_MoS_Nosaka_Sanzo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1927.1.1
+				date < 1994.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Nosaka_Sanzo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LE }
+		}
+	# Yamakawa Hitoshi
+		JAP_MoS_Yamakawa_Hitoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1959.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamakawa_Hitoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_ST }
+		}
+	# Osugi Sakae
+		JAP_MoS_Osugi_Sakae = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1924.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Osugi_Sakae_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_ST }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Goto Shinpei
+		JAP_AM_Goto_Shinpei = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1892.1.1
+				date < 1930.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Goto_Shinpei_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_FA }
+		}
+	# Ichiki Otohiko
+		JAP_AM_Ichiki_Otohiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1907.1.1
+				date < 1955.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ichiki_Otohiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_FA }
+		}
+	# Kobayashi Ichizo
+		JAP_AM_Kobayashi_Ichizo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1908.1.1
+				date < 1958.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kobayashi_Ichizo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_FA }
+		}
+	# Tojo Hideki
+		JAP_AM_Tojo_Hideki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tojo_Hideki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_FA }
+		}
+	# Nakajima Chikuhei
+		JAP_AM_Nakajima_Chikuhei = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1950.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nakajima_Chikuhei_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_To_Sea_Proponent ideology_FA }
+		}
+	# Aoki Kazuo
+		JAP_AM_Aoki_Kazuo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1983.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Aoki_Kazuo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_FA }
+		}
+	# Shoda Kazue
+		JAP_AM_Shoda_Kazue = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Shoda_Kazue_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_FA }
+		}
+	# Kato Sotomatsu
+		JAP_AM_Kato_Sotomatsu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Sotomatsu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_FA }
+		}
+	# Yamamoto Tatsuo
+		JAP_AM_Yamamoto_Tatsuo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1891.1.1
+				date < 1948.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Tatsuo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Ikeda Shigeaki
+		JAP_AM_Ikeda_Shigeaki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1951.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ikeda_Shigeaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_PA }
+		}
+	# Fujiwara Ginjiro
+		JAP_AM_Fujiwara_Ginjiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1904.1.1
+				date < 1961.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Fujiwara_Ginjiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_PA }
+		}
+	# Kawasaki Takukichi
+		JAP_AM_Kawasaki_Takukichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1906.1.1
+				date < 1937.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawasaki_Takukichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_Superiority_Proponent ideology_PA }
+		}
+	# Ogura Masatsune
+		JAP_AM_Ogura_Masatsune = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1910.1.1
+				date < 1962.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ogura_Masatsune_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Yuki Toyotaro
+		JAP_AM_Yuki_Toyotaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1952.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yuki_Toyotaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Hatta Yoshiaki
+		JAP_AM_Hatta_Yoshiaki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1965.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hatta_Yoshiaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_PA }
+		}
+	# Sakonji Seizo
+		JAP_AM_Sakonji_Seizo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1970.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Sakonji_Seizo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Submarine_Proponent ideology_PA }
+		}
+	# Terauchi Hisaichi
+		JAP_AM_Terauchi_Hisaichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1947.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Terauchi_Hisaichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_PA }
+		}
+	# Baba Eiichi
+		JAP_AM_Baba_Eiichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1938.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Baba_Eiichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_PA }
+		}
+	# Yonai Mitsumasa
+		JAP_AM_Yonai_Mitsumasa = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1949.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yonai_Mitsumasa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Battle_Fleet_Proponent ideology_PA }
+		}
+	# Kawada Isao
+		JAP_AM_Kawada_Isao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1918.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawada_Isao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_PA }
+		}
+	# Toyoda Teijiro
+		JAP_AM_Toyoda_Teijiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1962.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Toyoda_Teijiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_To_Ground_Proponent ideology_PA }
+		}
+	# Sakurauchi Yukio
+		JAP_AM_Sakurauchi_Yukio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1948.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Sakurauchi_Yukio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Ishiwata Sotaro
+		JAP_AM_Ishiwata_Sotaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1951.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ishiwata_Sotaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_PA }
+		}
+	# Kishi Nobusuke
+		JAP_AM_Kishi_Nobusuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1988.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kishi_Nobusuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_PA }
+		}
+	# Kobayashi Seiichi
+		JAP_AM_Kobayashi_Seiichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kobayashi_Seiichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Machida Chuji
+		JAP_AM_Machida_Chuji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1898.1.1
+				date < 1947.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Machida_Chuji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SC }
+		}
+	# Ikeda Shigeaki
+		JAP_AM_Ikeda_Shigeaki_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1951.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ikeda_Shigeaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SC }
+		}
+	# Shidehara Kijuro
+		JAP_AM_Shidehara_Kijuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1907.1.1
+				date < 1952.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Shidehara_Kijuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_SC }
+		}
+	# Ogawa Gotaro
+		JAP_AM_Ogawa_Gotaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1946.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ogawa_Gotaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SC }
+		}
+	# Godo Takuo
+		JAP_AM_Godo_Takuo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1957.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Godo_Takuo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Battle_Fleet_Proponent ideology_SC }
+		}
+	# Yoshida Shigeru
+		JAP_AM_Yoshida_Shigeru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1913.1.1
+				date < 1968.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yoshida_Shigeru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Balanced_Budget_Economy ideology_SC }
+		}
+	# Hatoyama Ichiro
+		JAP_AM_Hatoyama_Ichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1918.1.1
+				date < 1960.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Hatoyama_Ichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SC }
+		}
+	# Ogasawara Sankuro
+		JAP_AM_Ogasawara_Sankuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1968.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ogasawara_Sankuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SC }
+		}
+	# Mukai Tadaharu
+		JAP_AM_Mukai_Tadaharu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1983.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Mukai_Tadaharu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Strategic_Air_Proponent ideology_SC }
+		}
+	# Hoshijima Niro
+		JAP_AM_Hoshijima_Niro_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1981.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Hoshijima_Niro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_SC }
+		}
+	# Ichimada Hisato
+		JAP_AM_Ichimada_Hisato = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1928.1.1
+				date < 1985.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ichimada_Hisato_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Submarine_Proponent ideology_SC }
+		}
+	# Ikeda Hayato
+		JAP_AM_Ikeda_Hayato = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1934.1.1
+				date < 1966.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ikeda_Hayato_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_SC }
+		}
+	# Sato Eisaku
+		JAP_AM_Sato_Eisaku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1936.1.1
+				date < 1976.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Sato_Eisaku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SC }
+		}
+	# Mizuta Mikio
+		JAP_AM_Mizuta_Mikio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1940.1.1
+				date < 1977.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Mizuta_Mikio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SC }
+		}
+	# Tanaka Kakuei
+		JAP_AM_Tanaka_Kakuei = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1953.1.1
+				date < 1994.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Tanaka_Kakuei_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Corrupt_Kleptocrat ideology_SC }
+		}
+	# Shibusawa Eiichi
+		JAP_AM_Shibusawa_Eiichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1875.1.1
+				date < 1932.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Shibusawa_Eiichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_ML }
+		}
+	# Saionji Kinmochi
+		JAP_AM_Saionji_Kinmochi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1884.1.1
+				date < 1941.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Saionji_Kinmochi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ML }
+		}
+	# Takahashi Korekiyo
+		JAP_AM_Takahashi_Korekiyo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1889.1.1
+				date < 1937.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Takahashi_Korekiyo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_ML }
+		}
+	# Taketomi Tokitoshi
+		JAP_AM_Taketomi_Tokitoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1891.1.1
+				date < 1939.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Taketomi_Tokitoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ML }
+		}
+	# Sakatani Yoshiro
+		JAP_AM_Sakatani_Yoshiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1898.1.1
+				date < 1942.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Sakatani_Yoshiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_ML }
+		}
+	# Wakatsuki Reijiro
+		JAP_AM_Wakatsuki_Reijiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1901.1.1
+				date < 1950.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Wakatsuki_Reijiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Corrupt_Kleptocrat ideology_ML }
+		}
+	# Shoda Kazue
+		JAP_AM_Shoda_Kazue_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1904.1.1
+				date < 1931.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Shoda_Kazue_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_ML }
+		}
+	# Genda Minoru
+		JAP_AM_Genda_Minoru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1939.1.1
+				date < 1990.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Genda_Minoru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_ML }
+		}
+	# Hamaguchi Osachi
+		JAP_AM_Hamaguchi_Osachi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1905.1.1
+				date < 1932.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Hamaguchi_Osachi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SL }
+		}
+	# Ozaki Yukio
+		JAP_AM_Ozaki_Yukio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1955.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Ozaki_Yukio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SD }
+		}
+	# Inoue Junnosuke
+		JAP_AM_Inoue_Junnosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1904.1.1
+				date < 1933.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Inoue_Junnosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# Hoshijima Niro
+		JAP_AM_Hoshijima_Niro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1981.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Hoshijima_Niro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SD }
+		}
+	# Yoshino Shinji
+		JAP_AM_Yoshino_Shinji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1972.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Yoshino_Shinji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SD }
+		}
+	# Kaya Okinori
+		JAP_AM_Kaya_Okinori = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1978.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Kaya_Okinori_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SD }
+		}
+	# Nishio Suehiro
+		JAP_AM_Nishio_Suehiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1982.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Nishio_Suehiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_SD }
+		}
+	# Mizutani Chosaburo
+		JAP_AM_Mizutani_Chosaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1932.1.1
+				date < 1961.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Mizutani_Chosaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# Usami Makoto
+		JAP_AM_Usami_Makoto = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1936.1.1
+				date < 1984.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Usami_Makoto_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_SD }
+		}
+	# Tokuda Kyuichi
+		JAP_AM_Tokuda_Kyuichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1929.1.1
+				date < 1954.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Tokuda_Kyuichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LWR }
+		}
+	# Sakai Toshihiko
+		JAP_AM_Sakai_Toshihiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1906.1.1
+				date < 1934.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Sakai_Toshihiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_ST }
+		}
+	# Kawakami Hajime
+		JAP_AM_Kawakami_Hajime = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1947.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawakami_Hajime_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_ST }
+		}
+	# Yamakawa Hitoshi
+		JAP_AM_Yamakawa_Hitoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1959.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamakawa_Hitoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_ST }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Yamagata Aritomo
+		JAP_HoI_Yamagata_Aritomo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1873.1.1
+				date < 1923.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamagata_Aritomo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_FA }
+		}
+	# Araki Sadao
+		JAP_HoI_Araki_Sadao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1967.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Araki_Sadao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_FA }
+		}
+	# Koiso Kuniaki
+		JAP_HoI_Koiso_Kuniaki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1951.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Koiso_Kuniaki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_FA }
+		}
+	# Tsuchihashi Yuitsu
+		JAP_HoI_Tsuchihashi_Yuitsu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1916.1.1
+				date < 1973.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tsuchihashi_Yuitsu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_FA }
+		}
+	# Honma Masaharu
+		JAP_HoI_Honma_Masaharu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1947.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Honma_Masaharu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_FA }
+		}
+	# Higuchi Kiichiro
+		JAP_HoI_Higuchi_Kiichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1971.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Higuchi_Kiichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_FA }
+		}
+	# Fukushima Yasumasa
+		JAP_HoI_Fukushima_Yasumasa = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1887.1.1
+				date < 1920.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Fukushima_Yasumasa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Kano Jigoro
+		JAP_HoI_Kano_Jigoro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1895.1.1
+				date < 1939.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kano_Jigoro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_PA }
+		}
+	# Akashi Motojiro
+		JAP_HoI_Akashi_Motojiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1920.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Akashi_Motojiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_PA }
+		}
+	# Suzuki Kantaro
+		JAP_HoI_Suzuki_Kantaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1949.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Suzuki_Kantaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_PA }
+		}
+	# Ugaki Kazushige
+		JAP_HoI_Ugaki_Kazushige_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1931.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ugaki_Kazushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_PA }
+		}
+	# Okamura Yasuji
+		JAP_HoI_Okamura_Yasuji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1967.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Okamura_Yasuji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_PA }
+		}
+	# Takasu Shiro
+		JAP_HoI_Takasu_Shiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1945.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Takasu_Shiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_PA }
+		}
+	# Nomura Naokuni
+		JAP_HoI_Nomura_Naokuni = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1974.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nomura_Naokuni_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Oka Takazumi
+		JAP_HoI_Oka_Takazumi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1925.1.1
+				date < 1974.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oka_Takazumi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Matsui Iwane
+		JAP_HoI_Matsui_Iwane = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1925.1.1
+				date < 1928.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Matsui_Iwane_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_PA }
+		}
+	# Maeda Minoru
+		JAP_HoI_Maeda_Minoru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1928.1.1
+				date < 1991.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Maeda_Minoru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_PA }
+		}
+	# Ninomiya Harushige
+		JAP_HoI_Ninomiya_Harushige = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1928.1.1
+				date < 1930.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ninomiya_Harushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Tatekawa Yoshitsugu
+		JAP_HoI_Tatekawa_Yoshitsugu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1929.1.1
+				date < 1931.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tatekawa_Yoshitsugu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_PA }
+		}
+	# Hashimoto Toranosuke
+		JAP_HoI_Hashimoto_Toranosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1932.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hashimoto_Toranosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_PA }
+		}
+	# Shimada Shigetaro
+		JAP_HoI_Shimada_Shigetaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1932.1.1
+				date < 1933.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Shimada_Shigetaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Koga Mineichi
+		JAP_HoI_Koga_Mineichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1932.1.1
+				date < 1933.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Koga_Mineichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Isogai Rensuke
+		JAP_HoI_Isogai_Rensuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1933.1.1
+				date < 1935.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Isogai_Rensuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Tsuda Shizue
+		JAP_HoI_Tsuda_Shizue = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1933.1.1
+				date < 1934.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tsuda_Shizue_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Kawabe Torashiro
+		JAP_HoI_Kawabe_Torashiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1935.1.1
+				date < 1936.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawabe_Torashiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Watari Hisao
+		JAP_HoI_Watari_Hisao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1936.1.1
+				date < 1937.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Watari_Hisao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_PA }
+		}
+	# Muto Akira
+		JAP_HoI_Muto_Akira = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1936.1.1
+				date < 1937.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Muto_Akira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_PA }
+		}
+	# Abe Katsuo
+		JAP_HoI_Abe_Katsuo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1938.1.1
+				date < 1940.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Abe_Katsuo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Wakamatsu Tadakazu
+		JAP_HoI_Wakamatsu_Tadakazu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1940.1.1
+				date < 1941.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Wakamatsu_Tadakazu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Arisue Seizo
+		JAP_HoI_Arisue_Seizo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1942.1.1
+				date < 1945.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Arisue_Seizo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_PA }
+		}
+	# Ogawa Kanji
+		JAP_HoI_Ogawa_Kanji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1942.1.1
+				date < 1943.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ogawa_Kanji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Yano Hideo
+		JAP_HoI_Yano_Hideo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1942.1.1
+				date < 1944.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yano_Hideo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Ono Takeji
+		JAP_HoI_Ono_Takeji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1944.1.1
+				date < 1945.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ono_Takeji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Nakase Noburo
+		JAP_HoI_Nakase_Noburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1945.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nakase_Noburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_PA }
+		}
+	# Machida Chuji
+		JAP_HoI_Machida_Chuji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1898.1.1
+				date < 1947.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Machida_Chuji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SC }
+		}
+	# Ogawa Gotaro
+		JAP_HoI_Ogawa_Gotaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1946.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ogawa_Gotaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SC }
+		}
+	# Ohara Naoshi
+		JAP_HoI_Ohara_Naoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1912.1.1
+				date < 1968.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ohara_Naoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SC }
+		}
+	# Kato Ryogoro
+		JAP_HoI_Kato_Ryogoro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1918.1.1
+				date < 1971.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Ryogoro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_SC }
+		}
+	# Horikiri Zenjiro
+		JAP_HoI_Horikiri_Zenjiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1980.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Horikiri_Zenjiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SC }
+		}
+	# Ugaki Kazushige
+		JAP_HoI_Ugaki_Kazushige = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1957.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ugaki_Kazushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_SC }
+		}
+	# Yamamoto Gonnohyoe
+		JAP_HoI_Yamamoto_Gonnohyoe = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1887.1.1
+				date < 1934.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Gonnohyoe_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_ML }
+		}
+	# Goto Shinpei
+		JAP_HoI_Goto_Shinpei = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1892.1.1
+				date < 1930.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Goto_Shinpei_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_ML }
+		}
+	# Tanaka Giichi
+		JAP_HoI_Tanaka_Giichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1930.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Tanaka_Giichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_ML }
+		}
+	# Akiyama Saneyuki
+		JAP_HoI_Akiyama_Saneyuki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1919.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Akiyama_Saneyuki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_ML }
+		}
+	# Katayama Tetsu
+		JAP_HoI_Katayama_Tetsu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1979.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Katayama_Tetsu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_SD }
+		}
+	# Hanamura Shiro
+		JAP_HoI_Hanamura_Shiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Hanamura_Shiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SD }
+		}
+	# Nosaka Sanzo
+		JAP_HoI_Nosaka_Sanzo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1927.1.1
+				date < 1994.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Nosaka_Sanzo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_SD }
+		}
+	# Miyamoto Kenji
+		JAP_HoI_Miyamoto_Kenji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1943.1.1
+				date < 1999.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Miyamoto_Kenji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_LE }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Kanin Kotohito
+		JAP_CoStaff_Kanin_Kotohito_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1900.1.1
+				date < 1931.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Kanin_Kotohito_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_NS }
+		}
+	# Uehara Yusaku
+		JAP_CoStaff_Uehara_Yusaku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1891.1.1
+				date < 1934.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Uehara_Yusaku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_FA }
+		}
+	# Ugaki Kazushige
+		JAP_CoStaff_Ugaki_Kazushige = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1931.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ugaki_Kazushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_FA }
+		}
+	# Sugiyama Hajime
+		JAP_CoStaff_Sugiyama_Hajime = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1946.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Sugiyama_Hajime_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_FA }
+		}
+	# Umezu Yoshijiro
+		JAP_CoStaff_Umezu_Yoshijiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1917.1.1
+				date < 1950.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Umezu_Yoshijiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_FA }
+		}
+	# Tojo Hideki
+		JAP_CoStaff_Tojo_Hideki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tojo_Hideki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_FA }
+		}
+	# Takashima Tomonosuke
+		JAP_CoStaff_Takashima_Tomonosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1879.1.1
+				date < 1917.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Takashima_Tomonosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_PA }
+		}
+	# Oku Yasukata
+		JAP_CoStaff_Oku_Yasukata = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1882.1.1
+				date < 1931.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oku_Yasukata_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_PA }
+		}
+	# Terauchi Masatake
+		JAP_CoStaff_Terauchi_Masatake = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1887.1.1
+				date < 1920.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Terauchi_Masatake_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_PA }
+		}
+	# Oshima Kenichi
+		JAP_CoStaff_Oshima_Kenichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1948.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oshima_Kenichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_PA }
+		}
+	# Abe Nobuyuki
+		JAP_CoStaff_Abe_Nobuyuki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1910.1.1
+				date < 1954.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Abe_Nobuyuki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_PA }
+		}
+	# Mikawa Gunichi
+		JAP_CoStaff_Mikawa_Gunichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1982.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikawa_Gunichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_PA }
+		}
+	# Suzuki Soroku
+		JAP_CoStaff_Suzuki_Soroku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1930.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Suzuki_Soroku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_PA }
+		}
+	# Kanaya Hanzo
+		JAP_CoStaff_Kanaya_Hanzo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1930.1.1
+				date < 1931.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kanaya_Hanzo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_PA }
+		}
+	# Kanin Kotohito
+		JAP_CoStaff_Kanin_Kotohito = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kanin_Kotohito_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_PA }
+		}
+	# Yamagata Aritomo
+		JAP_CoStaff_Yamagata_Aritomo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1873.1.1
+				date < 1923.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamagata_Aritomo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_SC }
+		}
+	# Hasegawa Yoshimichi
+		JAP_CoStaff_Hasegawa_Yoshimichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1885.1.1
+				date < 1925.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Hasegawa_Yoshimichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_SC }
+		}
+	# Kawai Misao
+		JAP_CoStaff_Kawai_Misao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1942.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawai_Misao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_SC }
+		}
+	# Tashiro Kanichiro
+		JAP_CoStaff_Tashiro_Kanichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1916.1.1
+				date < 1938.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Tashiro_Kanichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_Commando_Doctrine_Staff ideology_SC }
+		}
+	# Tanigawa Kazuo
+		JAP_CoStaff_Tanigawa_Kazuo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1934.1.1
+				date < 1955.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Tanigawa_Kazuo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_SC }
+		}
+	# Hayashida Hirotsugu
+		JAP_CoStaff_Hayashida_Hirotsugu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Hayashida_Hirotsugu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_SC }
+		}
+	# Kusunose Yukihiko
+		JAP_CoStaff_Kusunose_Yukihiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1928.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Kusunose_Yukihiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ML }
+		}
+	# Oka Ichinosuke
+		JAP_CoStaff_Oka_Ichinosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1895.1.1
+				date < 1917.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Oka_Ichinosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_ML }
+		}
+	# Tanaka Giichi
+		JAP_CoStaff_Tanaka_Giichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1930.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Tanaka_Giichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ML }
+		}
+	# Kigoshi Yasutsuna
+		JAP_CoStaff_Kigoshi_Yasutsuna = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1889.1.1
+				date < 1933.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Kigoshi_Yasutsuna_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_SL }
+		}
+	# Shirakawa Yoshinori
+		JAP_CoStaff_Shirakawa_Yoshinori = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1904.1.1
+				date < 1933.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Shirakawa_Yoshinori_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_SD }
+		}
+	# Nakazawa Tasuku
+		JAP_CoStaff_Nakazawa_Tasuku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1929.1.1
+				date < 1978.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Nakazawa_Tasuku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_SD }
+		}
+	# Osamura Kajika
+		JAP_CoStaff_Osamura_Kajika = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Osamura_Kajika_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_SD }
+		}
+	# Kusaka Ryunosuke
+		JAP_CoStaff_Kusaka_Ryunosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1927.1.1
+				date < 1972.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Kusaka_Ryunosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_LWR }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Kanin Kotohito
+		JAP_CoArmy_Kanin_Kotohito_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1900.1.1
+				date < 1931.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Kanin_Kotohito_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_NS }
+		}
+	# Uehara Yusaku
+		JAP_CoArmy_Uehara_Yusaku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1891.1.1
+				date < 1934.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Uehara_Yusaku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_FA }
+		}
+	# Ugaki Kazushige
+		JAP_CoArmy_Ugaki_Kazushige = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1931.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ugaki_Kazushige_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_FA }
+		}
+	# Sugiyama Hajime
+		JAP_CoArmy_Sugiyama_Hajime = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1946.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Sugiyama_Hajime_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_FA }
+		}
+	# Umezu Yoshijiro
+		JAP_CoArmy_Umezu_Yoshijiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1917.1.1
+				date < 1950.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Umezu_Yoshijiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_FA }
+		}
+	# Tojo Hideki
+		JAP_CoArmy_Tojo_Hideki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tojo_Hideki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_FA }
+		}
+	# Takashima Tomonosuke
+		JAP_CoArmy_Takashima_Tomonosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1879.1.1
+				date < 1917.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Takashima_Tomonosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Oku Yasukata
+		JAP_CoArmy_Oku_Yasukata = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1882.1.1
+				date < 1931.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oku_Yasukata_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Terauchi Masatake
+		JAP_CoArmy_Terauchi_Masatake = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1887.1.1
+				date < 1920.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Terauchi_Masatake_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Oshima Kenichi
+		JAP_CoArmy_Oshima_Kenichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1948.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oshima_Kenichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Yamanashi Hanzo
+		JAP_CoArmy_Yamanashi_Hanzo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1921.1.1
+				date < 1923.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamanashi_Hanzo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Fujioka Takeo
+		JAP_CoArmy_Fujioka_Takeo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Fujioka_Takeo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_PA }
+		}
+	# Suzuki Soroku
+		JAP_CoArmy_Suzuki_Soroku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1926.1.1
+				date < 1930.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Suzuki_Soroku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Kanaya Hanzo
+		JAP_CoArmy_Kanaya_Hanzo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1930.1.1
+				date < 1931.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kanaya_Hanzo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Kanin Kotohito
+		JAP_CoArmy_Kanin_Kotohito = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kanin_Kotohito_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Minami Jiro
+		JAP_CoArmy_Minami_Jiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1932.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Minami_Jiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Araki Sadao
+		JAP_CoArmy_Araki_Sadao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1931.1.1
+				date < 1934.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Araki_Sadao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Aotsu Kikutaro
+		JAP_CoArmy_Aotsu_Kikutaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1932.1.1
+				date < 1948.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Aotsu_Kikutaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Doctrine_Of_Autonomy ideology_PA }
+		}
+	# Hayashi Senjuro
+		JAP_CoArmy_Hayashi_Senjuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1934.1.1
+				date < 1935.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hayashi_Senjuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Kawashima Yoshiyuki
+		JAP_CoArmy_Kawashima_Yoshiyuki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1935.1.1
+				date < 1937.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawashima_Yoshiyuki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Terauchi Hisaichi
+		JAP_CoArmy_Terauchi_Hisaichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1936.1.1
+				date < 1937.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Terauchi_Hisaichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_PA }
+		}
+	# Nakamura Kotaro
+		JAP_CoArmy_Nakamura_Kotaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1937.1.1
+				date < 1938.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nakamura_Kotaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Itagaki Seichiro
+		JAP_CoArmy_Itagaki_Seichiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1938.1.1
+				date < 1940.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Itagaki_Seichiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Hata Shunroku
+		JAP_CoArmy_Hata_Shunroku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1939.1.1
+				date < 1941.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hata_Shunroku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_PA }
+		}
+	# Anami Korechika
+		JAP_CoArmy_Anami_Korechika = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1945.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Anami_Korechika_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_PA }
+		}
+	# Higashikuni Naruhiko
+		JAP_CoArmy_Higashikuni_Naruhiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1945.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Higashikuni_Naruhiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_PA }
+		}
+	# Shimomura Sadamu
+		JAP_CoArmy_Shimomura_Sadamu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1945.1.1
+				date < 1946.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Shimomura_Sadamu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Hasegawa Yoshimichi
+		JAP_CoArmy_Hasegawa_Yoshimichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1885.1.1
+				date < 1925.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Hasegawa_Yoshimichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_SC }
+		}
+	# Kawai Misao
+		JAP_CoArmy_Kawai_Misao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1942.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawai_Misao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_SC }
+		}
+	# Tsuchihashi Yuitsu
+		JAP_CoArmy_Tsuchihashi_Yuitsu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1916.1.1
+				date < 1973.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Tsuchihashi_Yuitsu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_SC }
+		}
+	# Inanba Satoru
+		JAP_CoArmy_Inanba_Satoru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Inanba_Satoru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_SC }
+		}
+	# Kusunose Yukihiko
+		JAP_CoArmy_Kusunose_Yukihiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1928.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Kusunose_Yukihiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_ML }
+		}
+	# Oka Ichinosuke
+		JAP_CoArmy_Oka_Ichinosuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1895.1.1
+				date < 1917.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Oka_Ichinosuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_ML }
+		}
+	# Tanaka Giichi
+		JAP_CoArmy_Tanaka_Giichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1930.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Tanaka_Giichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ML }
+		}
+	# Kigoshi Yasutsuna
+		JAP_CoArmy_Kigoshi_Yasutsuna = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1889.1.1
+				date < 1933.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Kigoshi_Yasutsuna_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_SL }
+		}
+	# Shirakawa Yoshinori
+		JAP_CoArmy_Shirakawa_Yoshinori = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1904.1.1
+				date < 1933.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Shirakawa_Yoshinori_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_SD }
+		}
+	# Imai Takeo
+		JAP_CoArmy_Imai_Takeo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1933.1.1
+				date < 1983.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Imai_Takeo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_SD }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Fushimi Hiroyasu
+		JAP_CoNavy_Fushimi_Hiroyasu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1910.1.1
+				date < 1947.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Fushimi_Hiroyasu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_NS }
+		}
+	# Genda Minoru
+		JAP_CoNavy_Genda_Minoru = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1939.1.1
+				date < 1990.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Genda_Minoru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_NS }
+		}
+	# Togo Heihachiro
+		JAP_CoNavy_Togo_Heihachiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1883.1.1
+				date < 1935.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Togo_Heihachiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_FA }
+		}
+	# Kato Hiroharu
+		JAP_CoNavy_Kato_Hiroharu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1905.1.1
+				date < 1940.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Hiroharu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_FA }
+		}
+	# Osumi Mineo
+		JAP_CoNavy_Osumi_Mineo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1942.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Osumi_Mineo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_FA }
+		}
+	# Yamamoto Isoroku
+		JAP_CoNavy_Yamamoto_Isoroku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1944.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Isoroku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_FA }
+		}
+	# Toyoda Soemu
+		JAP_CoNavy_Toyoda_Soemu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1958.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Toyoda_Soemu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_FA }
+		}
+	# Koga Mineichi
+		JAP_CoNavy_Koga_Mineichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1945.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Koga_Mineichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_FA }
+		}
+	# Fujita Hisanori
+		JAP_CoNavy_Fujita_Hisanori = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1971.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Fujita_Hisanori_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_PA }
+		}
+	# Nagano Osami
+		JAP_CoNavy_Nagano_Osami = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1915.1.1
+				date < 1948.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nagano_Osami_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_PA }
+		}
+	# Oikawa Koshiro
+		JAP_CoNavy_Oikawa_Koshiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1918.1.1
+				date < 1959.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oikawa_Koshiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_PA }
+		}
+	# Ozawa Jisaburo
+		JAP_CoNavy_Ozawa_Jisaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1921.1.1
+				date < 1967.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ozawa_Jisaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_PA }
+		}
+	# Yamagata Aritomo
+		JAP_CoNavy_Yamagata_Aritomo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1873.1.1
+				date < 1923.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamagata_Aritomo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_SC }
+		}
+	# Shimada Shigetaro
+		JAP_CoNavy_Shimada_Shigetaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1918.1.1
+				date < 1977.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Shimada_Shigetaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_SC }
+		}
+	# Yamamoto Gonnohyoe
+		JAP_CoNavy_Yamamoto_Gonnohyoe = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1887.1.1
+				date < 1934.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Gonnohyoe_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_ML }
+		}
+	# Saito Makoto
+		JAP_CoNavy_Saito_Makoto = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1893.1.1
+				date < 1937.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Saito_Makoto_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# Yashiro Rokuro
+		JAP_CoNavy_Yashiro_Rokuro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1895.1.1
+				date < 1931.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Yashiro_Rokuro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_ML }
+		}
+	# Kato Tomosaburo
+		JAP_CoNavy_Kato_Tomosaburo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1896.1.1
+				date < 1924.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Kato_Tomosaburo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# Takarabe Takeshi
+		JAP_CoNavy_Takarabe_Takeshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1902.1.1
+				date < 1950.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Takarabe_Takeshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_ML }
+		}
+	# Genda Minoru
+		JAP_CoNavy_Genda_Minoru_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1939.1.1
+				date < 1990.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Genda_Minoru_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_SL }
+		}
+	# Ijuin Goro
+		JAP_CoNavy_Ijuin_Goro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1887.1.1
+				date < 1922.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Ijuin_Goro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_SD }
+		}
+	# Murakami Kakuichi
+		JAP_CoNavy_Murakami_Kakuichi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1897.1.1
+				date < 1928.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Murakami_Kakuichi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_SD }
+		}
+	# Okada Keisuke
+		JAP_CoNavy_Okada_Keisuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1903.1.1
+				date < 1953.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Okada_Keisuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_SD }
+		}
+	# Kawai Akira
+		JAP_CoNavy_Kawai_Akira = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawai_Akira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_SD }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Hata Shunroku
+		JAP_CoAir_Hata_Shunroku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1914.1.1
+				date < 1963.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Hata_Shunroku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_FA }
+		}
+	# Doihara Kenji
+		JAP_CoAir_Doihara_Kenji = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1918.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Doihara_Kenji_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_FA }
+		}
+	# Yamamoto Isoroku
+		JAP_CoAir_Yamamoto_Isoroku = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1944.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Isoroku_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_FA }
+		}
+	# Tojo Hideki
+		JAP_CoAir_Tojo_Hideki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1949.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tojo_Hideki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_FA }
+		}
+	# Ushiroku Jun
+		JAP_CoAir_Ushiroku_Jun = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1974.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ushiroku_Jun_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_FA }
+		}
+	# Yamashita Tomoyuki
+		JAP_CoAir_Yamashita_Tomoyuki = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1947.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamashita_Tomoyuki_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_FA }
+		}
+	# Anami Korechika
+		JAP_CoAir_Anami_Korechika = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1946.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Anami_Korechika_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_FA }
+		}
+	# Sugawara Michio
+		JAP_CoAir_Sugawara_Michio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1923.1.1
+				date < 1984.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Sugawara_Michio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_FA }
+		}
+	# Inoue Jinro
+		JAP_CoAir_Inoue_Jinro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1899.1.1
+				date < 1920.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Inoue_Jinro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_PA }
+		}
+	# Oikawa Koshiro
+		JAP_CoAir_Oikawa_Koshiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1918.1.1
+				date < 1959.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Oikawa_Koshiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_PA }
+		}
+	# Toyoda Teijiro
+		JAP_CoAir_Toyoda_Teijiro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1920.1.1
+				date < 1962.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Toyoda_Teijiro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_PA }
+		}
+	# Kawabe Masakazu
+		JAP_CoAir_Kawabe_Masakazu = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1921.1.1
+				date < 1966.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Kawabe_Masakazu_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_PA }
+		}
+	# Higashikuni Naruhiko
+		JAP_CoAir_Higashikuni_Naruhiko = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1991.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Higashikuni_Naruhiko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_PA }
+		}
+	# Wada Misao
+		JAP_CoAir_Wada_Misao = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1982.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Wada_Misao_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_PA }
+		}
+	# Yasuda Takeo
+		JAP_CoAir_Yasuda_Takeo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1943.1.1
+				date < 1944.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Yasuda_Takeo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_PA }
+		}
+	# Yamagata Aritomo
+		JAP_CoAir_Yamagata_Aritomo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1873.1.1
+				date < 1923.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamagata_Aritomo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_SC }
+		}
+	# Tsukahara Nishizo
+		JAP_CoAir_Tsukahara_Nishizo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1922.1.1
+				date < 1967.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Tsukahara_Nishizo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_SC }
+		}
+	# Inoue Shigeyoshi
+		JAP_CoAir_Inoue_Shigeyoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1924.1.1
+				date < 1976.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Inoue_Shigeyoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_SC }
+		}
+	# Shirakawa Yoshinori
+		JAP_CoAir_Shirakawa_Yoshinori = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1904.1.1
+				date < 1933.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Shirakawa_Yoshinori_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_ML }
+		}
+	# Inoue Ikutaro
+		JAP_CoAir_Inoue_Ikutaro = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1907.1.1
+				date < 1966.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Inoue_Ikutaro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_ML }
+		}
+	# Yamamoto Eisuke
+		JAP_CoAir_Yamamoto_Eisuke = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1911.1.1
+				date < 1963.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Yamamoto_Eisuke_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_ML }
+		}
+	# Tokugawa Yoshitoshi
+		JAP_CoAir_Tokugawa_Yoshitoshi = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1919.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Tokugawa_Yoshitoshi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ML }
+		}
+	# Hino Kumazo
+		JAP_CoAir_Hino_Kumazo = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1913.1.1
+				date < 1947.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Hino_Kumazo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_SD }
+		}
+	# Fukui Yoshio
+		JAP_CoAir_Fukui_Yoshio = {
+			picture = Generic_Portrait
+			allowed = { tag = JAP }
+			available = {
+				date > 1999.1.1
+				date < 1999.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Fukui_Yoshio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_SD }
+		}
+	}
+}

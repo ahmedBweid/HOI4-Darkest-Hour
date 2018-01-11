@@ -147,61 +147,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Michael Joseph Savage"
-	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
-	picture = "GFX_NZL_michael_joseph_savage"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Sidney Holland"
-	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
-	picture = "GFX_NZL_sidney_holland"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "John Ormond"
-	desc = "POLITICS_JOHN_ORMOND_DESC"
-	picture = "GFX_NZL_john_ormond"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Elsie Farrelly"
-	desc = "POLITICS_JOHN_ORMOND_DESC"
-	picture = "GFX_NZL_elsie_farrelly"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "George de Vere Viscount Galway"
-	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
-	picture = "Portrait_NewZealand_George_de_Vere.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {
-		#
-	}
-}
-
 set_convoys = 70
 
 1939.1.1 = {
@@ -224,21 +169,33 @@ set_convoys = 70
 		election_frequency = 60
 		elections_allowed = yes
 	}
-
-	# Didn't take office until '40, added for flavor
-	create_country_leader = {
-		name = "Peter Fraser"
-		desc = "POLITICS_PETER_FRASER_DESC"
-		picture = "Portrait_NewZealand_Peter_Fraser.dds"
-		expire = "1965.1.1"
-		ideology = leninism
-		traits = {
-			#
-		}
-	}
 	set_convoys = 50
 }
+####################################################
+# New Zealand Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "Adam Hamilton"
+	desc = ""
+	picture = "NewZealand_SC_Adam_Hamilton.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}
+# SD
+create_country_leader = {
+	name = "Michael Joseph Savage"
+	desc = "POLITICS_MICHAEL_JOSEPH_SAVAGE_DESC"
+	picture = "NewZealand_SD_Michael_Joseph_Savage.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {}
+}
 
+####################################################
+# New Zealand General Staff
+####################################################
 create_corps_commander = {
 	name = "Bernard Freyberg"
 	gfx = "GFX_NZL_bernard_freyberg"
@@ -260,6 +217,9 @@ create_corps_commander = {
 	skill = 4
 }
 
+####################################################
+# New Zealand Admirals
+####################################################
 create_navy_leader = {
 	name = "Edmund Rupert Drummond"
 	gfx = "GFX_NZL_edmund_drummond"
@@ -272,17 +232,4 @@ create_navy_leader = {
 	gfx = "GFX_NZL_peter_phipps"
 	traits = { }
 	skill = 3
-}
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Leander Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
 }

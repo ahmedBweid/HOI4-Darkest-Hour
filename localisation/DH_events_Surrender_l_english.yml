@@ -1,5 +1,7 @@
 ﻿l_english:
-###### Bitter Peace Events----------------------------------
+#########################################################################
+#  Bitter Peace
+#########################################################################
  DH_Surrender_SOV.1.t:0 "Bitter Peace - Soviet Surrender"
  DH_Surrender_SOV.1.d:0 "Germany has pushed us far. What should we do?"
  DH_Surrender_SOV.1.a:0 "Surrender to the Germans."
@@ -15,7 +17,9 @@
  germany_military_occupation_bitter_peace:0 "Take all the land up to the Urals and force the Soviets back to the Urals.\n"
  germany_establish_rk_bitter_peace:0 "Establish the RK Ostland, RK Ukraine, RK Moscow, and RK Kaukasus. Pushing the Soviets back to the Urals.\n"
 
- ###### Der Untergang Events----------------------------------
+#########################################################################
+#  Der Untergang
+#########################################################################
  DH_Surrender_ROM.1.t:0 "Switching sides"
  DH_Surrender_ROM.1.d:0 "As the Soviet army advanced into Europe and the Wehrmacht increasingly fought for survival rather than victory Germany's allies sought new arrangements to guarantee their survival as somewhat independent states. Negotiations with the Soviet government are now at the stage where a decision must be taken - stay with the Axis or switch to the Comintern?"
  DH_Surrender_ROM.1.a:0 "Abandon Germany and fight with the Soviets"
@@ -36,14 +40,11 @@
  DH_Surrender_SOV_Response.2.a:0 "Accept this agreement and make them a satellite state."
  DH_Surrender_SOV_Response.2.b:0 "Destroy the fascist puppets!" 
  
-###### The Crumbling Empire Events----------------------------------
- DH_Crumbling_Empire.X.t:0 "The Crumbling Empire"
- DH_Crumbling_Empire.X.desc:0 ""
- DH_Crumbling_Empire.X.A:0 "All is lost."
- DH_Crumbling_Empire.X.B:0 "We fight on!"
- 
+#########################################################################
+#  The Crumbling Empire
+#########################################################################
  DH_Crumbling_Empire.1.t:0 "The Crumbling Empire"
- DH_Crumbling_Empire.1.desc:0 "Winston Churchill once said that we would defend our islands. We would face the enemy on our beaches, we would fight invaders on the streets, we would harrass them in the hills. We did fight valiantly, first in the skies, than on our beloved soil. But we were outnumbered and unmatched cooperation of Luftwaffe, small but quick Kriegsmarine and the rain of fire and steel that Wehrmacht brought on our lads was too much for us to oppose. The Axis advance was successful and with the Home Islands lost our struggle for freedom and democracy seems lost. Our imperial glory is gone and maybe it is time to ask for this peace that Hitler always wanted to offer to us?"
+ DH_Crumbling_Empire.1.desc:0 "Winston Churchill once said that we would defend our islands. We would face the enemy on our beaches, we would fight invaders on the streets, we would harrass them in the hills. We did fight valiantly, but we were outnumbered and unmatched cooperation of Luftwaffe, small but quick Kriegsmarine and the rain of fire and steel that Wehrmacht brought on our lads was too much for us to oppose. The Axis advance was successful and with the Home Islands lost our struggle for freedom and democracy seems lost. Our imperial glory is gone and maybe it is time to ask for this peace that Hitler always wanted to offer to us?"
  DH_Crumbling_Empire.1.A:0 "All is lost."
  DH_Crumbling_Empire.1.B:0 "We fight on!"
 

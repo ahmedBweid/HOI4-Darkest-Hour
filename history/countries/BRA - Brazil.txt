@@ -122,50 +122,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Getúlio Vargas"
-	desc = "POLITICS_GETULIO_VARGAS_DESC"
-	picture = "Portrait_Brazil_Getulio_Vargas.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocracy
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Plínio Salgado"
-	desc = "POLITICS_PLINIO_SALGADO_DESC"
-	picture = "Portrait_Brazil_Plinio_Salgado.dds"
-	expire = "1965.1.1"
-	ideology = fascist_ideology
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Luís Carlos Prestes"
-	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Armando Sales"
-	desc = "POLITICS_ARMANDO_SALES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-
-
 set_convoys = 40
 
 1939.1.1 = {
@@ -195,7 +151,23 @@ set_convoys = 40
 		elections_allowed = no
 	}
 }
-
+####################################################
+# Brazilian Leaders
+####################################################
+# PA
+create_country_leader = {
+	name = "Getúlio Vargas"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "Brazil_PA_Getulio_Vargas.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocracy
+	traits = {
+		#
+	}
+}
+####################################################
+# Brazilian Generals
+####################################################
 create_corps_commander = {
 	name = "Eurico Gaspar Dutra"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"

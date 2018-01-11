@@ -82,17 +82,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	name = "Juan Bautista Sacasa"
-	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
-	picture = "Portrait_Nicaragua_Juan_Bautista_Sacasa.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -116,13 +105,15 @@ create_country_leader = {
 	}
 
 }
-	create_country_leader = {
-		name = "Anastasio Somoza García"
-		desc = "POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-		expire = "1965.1.1"
-		ideology = paternal_autocracy
-		traits = {
-			#
-		}
-	}
+####################################################
+# Nicaraguan Leaders
+####################################################
+# SC
+create_country_leader = {
+	name = "Juan Bautista Sacasa"
+	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+	picture = "Nicaragua_SC_Juan_Bautista_Sacasa.dds"
+	expire = "1965.1.1"
+	ideology = social_conservatism
+	traits = {}
+}

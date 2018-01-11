@@ -79,28 +79,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-create_country_leader = {
-	name = "Eusebio Ayala"
-	desc = "POLITICS_EUSEBIO_AYALA_DESC"
-	picture = "Portrait_Paraguay_Eusebio_Ayala.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-		#
-	}
-}
-
-# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
-create_country_leader = {
-	name = "Rafael Franco"
-	desc = "POLITICS_RAFAEL_FRANCO_DESC"
-	picture = "GFX_Portrait_paraguay_rafael_franco"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
 
 1939.1.1 = {
 	set_politics = {
@@ -122,18 +100,13 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
 
-
-	create_country_leader = {
-		name = "Higinio Morinigo"
-		desc = "POLITICS_HIGINIO_MORINIGO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
-		expire = "1965.1.1"
-		ideology = paternal_autocracy
-		traits = {
-			#
-		}
-	}
-
-
+create_country_leader = {
+	name = "Eusebio Ayala"
+	desc = "POLITICS_EUSEBIO_AYALA_DESC"
+	picture = "Paraguay_ML_Eusebio_Ayala.dds"
+	expire = "1965.1.1"
+	ideology = market_liberalism
+	traits = {}
 }

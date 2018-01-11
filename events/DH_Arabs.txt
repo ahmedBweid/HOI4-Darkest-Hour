@@ -4,8 +4,6 @@
 
 add_namespace = DH_arab
 
-### ----------------------- Arabs ---------------------------------------------
-
 #########################################################################
 #  Joining the Arab union made by Germany
 #########################################################################
@@ -19,34 +17,36 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 	
 	trigger = {
-				OR = {
-					tag = IRQ
-					tag = SAU
-					tag = YEM
-					tag = OMA
-					tag = PAL
-					tag = JOR
-					tag = LEB
-					tag = LBA
-				}
+		OR = {
+			tag = IRQ
+			tag = SAU
+			tag = YEM
+			tag = OMA
+			tag = PAL
+			tag = JOR
+			tag = LEB
+			tag = LBA
+		}
 			
-			has_government = fascist
-			OR = {
-				is_puppet = no
-				is_puppet_of = GER
-			}
-			GER = {
-				has_focus_tree = GER_arab_republic
-			}			
+		has_government = fascist
+		OR = {
+			is_puppet = no
+			is_puppet_of = GER
+		}
+		GER = {
+			has_focus_tree = GER_arab_republic
+		}			
 	}
-	option = { #join
+# Join the Arab Union
+	option = { 
 		name = DH_arab.1.a
 		ai_chance = { factor = 1 }
 		EGY = {
 			annex_country = { target = ROOT }
 		}
 	}
-	option = { #refuse
+# Refuse the German proposition
+	option = { 
 	ai_chance = { factor = 0 }
 		name = DH_arab.1.b
 	}
