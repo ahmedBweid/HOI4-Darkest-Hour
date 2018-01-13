@@ -86,7 +86,10 @@ technology_folders = {
 	support_folder
 	armour_folder
 	artillery_folder
-	air_techs_folder
+	#air_techs_folder
+	air_light_techs_folder
+	air_heavy_techs_folder
+	air_heli_techs_folder
 	#naval_folder
 	naval_screens_folder
 	naval_capital_folder

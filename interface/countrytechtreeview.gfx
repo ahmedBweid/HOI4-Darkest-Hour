@@ -139,7 +139,19 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_air_techs_folder_tab"
+		name = "GFX_air_light_techs_folder_tab"
+		textureFile = "gfx//interface//techtree_air_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_air_heavy_techs_folder_tab"
+		textureFile = "gfx//interface//techtree_air_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_air_heli_techs_folder_tab"
 		textureFile = "gfx//interface//techtree_air_tab.dds"
 		noOfFrames = 2		
 	}
@@ -781,24 +793,24 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
 
-	# aircraft folder 
+	# aircraft light folder 
 	spriteType = {
-		name = "GFX_technology_air_techs_folder_foreign_unavailable_item_bg"
+		name = "GFX_technology_air_light_techs_folder_foreign_unavailable_item_bg"
 		textureFile = "gfx//interface//technology_unavailable_item_bg.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_technology_air_techs_folder_foreign_available_item_bg"
+		name = "GFX_technology_air_light_techs_folder_foreign_available_item_bg"
 		textureFile = "gfx//interface//technology_available_item_bg.dds"
 	}
 
 	spriteType = {
-		name = "GFX_technology_air_techs_folder_foreign_researched_item_bg"
+		name = "GFX_technology_air_light_techs_folder_foreign_researched_item_bg"
 		textureFile = "gfx//interface//technology_researched_item_bg.dds"
 	}	
 
 	frameAnimatedSpriteType = {
-		name = "GFX_technology_air_techs_folder_foreign_currently_researching_item_bg"
+		name = "GFX_technology_air_light_techs_folder_foreign_currently_researching_item_bg"
 		texturefile = "gfx//interface//researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
@@ -819,7 +831,87 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 		pause_on_loop = 0.0
+	}
+
+	# aircraft heavy folder 
+	spriteType = {
+		name = "GFX_technology_air_heavy_techs_folder_foreign_unavailable_item_bg"
+		textureFile = "gfx//interface//technology_unavailable_item_bg.dds"
 	}	
+	
+	spriteType = {
+		name = "GFX_technology_air_heavy_techs_folder_foreign_available_item_bg"
+		textureFile = "gfx//interface//technology_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_air_heavy_techs_folder_foreign_researched_item_bg"
+		textureFile = "gfx//interface//technology_researched_item_bg.dds"
+	}	
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_air_heavy_techs_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_infantry_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	# aircraft heli folder 
+	spriteType = {
+		name = "GFX_technology_air_heli_techs_folder_foreign_unavailable_item_bg"
+		textureFile = "gfx//interface//technology_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_air_heli_techs_folder_foreign_available_item_bg"
+		textureFile = "gfx//interface//technology_available_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_technology_air_heli_techs_folder_foreign_researched_item_bg"
+		textureFile = "gfx//interface//technology_researched_item_bg.dds"
+	}	
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_air_heli_techs_folder_foreign_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_infantry_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
     ##############
 
 		#### artillery tech #####		# artillery has a special small override	

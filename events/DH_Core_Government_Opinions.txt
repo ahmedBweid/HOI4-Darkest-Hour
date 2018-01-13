@@ -1,8 +1,10 @@
-﻿##########################
+﻿###########################
 # Darkest Hour Events : Government Opinions
 ###########################
 
 add_namespace = DH_gov_opinion
+
+### ------------------- Government Opinions ---------------------------------------------
 
 #########################################################################
 # Inital Opinion modifiers on startup
