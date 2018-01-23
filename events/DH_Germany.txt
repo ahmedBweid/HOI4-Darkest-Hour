@@ -3,17 +3,31 @@
 ###########################
 
 add_namespace = DH_germany
-add_namespace = DH_germany_rk
 
-### ---------------------------------------------------------------------------- Germany ---------------------------------------------
+add_namespace = DH_Germany_Isabella
+add_namespace = DH_Germany_Turkey
+add_namespace = DH_Germany_Soviet
+add_namespace = DH_Germany_Cyprus
+add_namespace = DH_Germany_Norway
+add_namespace = DH_Germany_Denmark
+add_namespace = DH_Germany_Iceland
+add_namespace = DH_Germany_Sweden
+add_namespace = DH_Germany_Heims_in_Reich
+add_namespace = DH_Germany_Anschluss
+add_namespace = DH_Germany_Staatenbund
+add_namespace = DH_Germany_Anschluss
+add_namespace = DH_Germany_Poland
+add_namespace = DH_Germany_France
+
+
 
 #########################################################################
 #  Operation Isabella
 #########################################################################
 country_event = {
-	id = DH_germany.1
-	title = DH_germany.1.t
-	desc = DH_germany.1.d
+	id = DH_Germany_Isabella.1
+	title = DH_Germany_Isabella.1.t
+	desc = DH_Germany_Isabella.1.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
@@ -24,7 +38,7 @@ country_event = {
 		ai_chance = {
 			factor = 66
 		}
-		name = DH_germany.1.a
+		name = DH_Germany_Isabella.1.A
 		POR = { country_event = { hours = 6 id = DH_portugal.1 }}
     }
     #Demand Cape Verde and Azores
@@ -32,19 +46,18 @@ country_event = {
 		ai_chance = {
 			factor = 34
 		}
-		name = DH_germany.1.b
+		name = DH_Germany_Isabella.1.B
 		POR = { country_event = { hours = 6 id = DH_portugal.2 }}
     }
 }
-
 
 #########################################################################
 #  Operation Isabella:Portugal accepts Verde
 #########################################################################
 country_event = {
-	id = DH_germany.2
-	title = DH_germany.2.t
-	desc = DH_germany.2.d
+	id = DH_Germany_Isabella.2
+	title = DH_Germany_Isabella.2.t
+	desc = DH_Germany_Isabella.2.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
@@ -52,28 +65,27 @@ country_event = {
 
 	#Portugal accepts Verde
 	option = {
-		name = DH_germany.2.a
+		name = DH_Germany_Isabella.2.A
 		GER = { transfer_state = 702 }
 		add_opinion_modifier = { target = POR modifier = offered_support }
 	}
 }
 
-
 #########################################################################
 #  Operation Isabella:Portugal Rejects Verde
 #########################################################################
 country_event = {
-	id = DH_germany.3
-	title = DH_germany.3.t
-	desc = DH_germany.3.d
+	id = DH_Germany_Isabella.3
+	title = DH_Germany_Isabella.3.t
+	desc = DH_Germany_Isabella.3.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
 	is_triggered_only = yes
 
-	#call spain
+	# Send a telegram to Madrid
 	option = {
-		name = DH_germany.3.a
+		name = DH_Germany_Isabella.3.A
 		ai_chance = {
 			factor = 80
 			modifier = {
@@ -94,8 +106,9 @@ country_event = {
 		custom_effect_tooltip = germany_spain_operation_isabella
 	}
 
-	option = { #back off
-		name = DH_germany.3.b
+	# Another day perhaps
+	option = { 
+		name = DH_Germany_Isabella.3.B
 		ai_chance = {
 			factor = 20
 		}
@@ -104,14 +117,13 @@ country_event = {
 	}
 }
 
-
 #########################################################################
 #  Operation Isabella:Portugal accepts Both
 #########################################################################
 country_event = {
-	id = DH_germany.4
-	title = DH_germany.4.t
-	desc = DH_germany.4.d
+	id = DH_Germany_Isabella.4
+	title = DH_Germany_Isabella.4.t
+	desc = DH_Germany_Isabella.4.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
@@ -119,7 +131,7 @@ country_event = {
 
 	#Portugal Accepts both
 	option = {
-		name = DH_germany.4.a
+		name = DH_Germany_Isabella.4.A
 		GER = {
 			transfer_state = 702
 			transfer_state = 698
@@ -128,21 +140,21 @@ country_event = {
 	}
 }
 
-
 #########################################################################
 #  Operation Isabella:Portugal Rejects Both
 #########################################################################
 country_event = {
-	id = DH_germany.5
-	title = DH_germany.5.t
-	desc = DH_germany.5.d
+	id = DH_Germany_Isabella.5
+	title = DH_Germany_Isabella.5.t
+	desc = DH_Germany_Isabella.5.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
 	is_triggered_only = yes
 
-	option = {#call spain
-		name = DH_germany.5.a
+	# Send a telegram to Madrid
+	option = {
+		name = DH_Germany_Isabella.5.A
 		ai_chance = {
 			factor = 80
 			modifier = {
@@ -164,8 +176,9 @@ country_event = {
 		custom_effect_tooltip = germany_spain_operation_isabella		
 	}
 
-	option = {#back off
-		name = DH_germany.5.b
+	# Another day perhaps
+	option = {
+		name = DH_Germany_Isabella.5.B
 		ai_chance = {
 			factor = 20
 		}
@@ -175,24 +188,24 @@ country_event = {
 	}
 }
 
-
 #########################################################################
 #  Operation Isabella:Spain Refused the War
 #########################################################################
 country_event = { 
-	id = DH_germany.6
-	title = DH_germany.6.t
-	desc = DH_germany.6.d
+	id = DH_Germany_Isabella.6
+	title = DH_Germany_Isabella.6.t
+	desc = DH_Germany_Isabella.6.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
 	is_triggered_only = yes
 
 	option = {
-		name = DH_germany.6.a
+		name = DH_Germany_Isabella.6.As
 		add_opinion_modifier = { target = SPR modifier = protest_action_light }		
 	}
 }
+
 #########################################################################
 #  Italy Refused the exchange
 #########################################################################
@@ -231,9 +244,9 @@ country_event = {	#Italy traded
 #  The Kars Convention on the Subdivision of Transcaucasia
 #########################################################################
 country_event = { 
-	id = DH_germany.9
-	title = DH_germany.9.t
-	desc = DH_germany.9.d
+	id = DH_Germany_Turkey.1
+	title = DH_Germany_Turkey.1.t
+	desc = DH_Germany_Turkey.1.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
@@ -260,7 +273,7 @@ country_event = {
 	}
 
 	option = { #establish turkish sphere of influence
-		name = DH_germany.9.a
+		name = DH_Germany_Turkey.9.A
 		ai_chance = { factor = 1 }
 		TUR = {
 			country_event = { hours = 6 id = DH_turkey.1 }
@@ -269,7 +282,7 @@ country_event = {
 	}
 
 	option = { #establish civil administration
-		name = DH_germany.9.b
+		name = DH_Germany_Turkey.9.B
 		ai_chance = { factor = 0 }
 		GER = {
 			release_puppet = GEO
@@ -279,7 +292,7 @@ country_event = {
 	}
 	
 	option = { #status_quo
-		name = DH_germany.9.c
+		name = DH_germany.9.C
 		ai_chance = { factor = 1 }
 	}	
 		
@@ -289,55 +302,57 @@ country_event = {
 #  Turkish Refusal
 #########################################################################
 country_event = { #Turkish Refusal
-	id = DH_germany.10
-	title = DH_germany.10.t
-	desc = DH_germany.10.d
+	id = DH_Germany_Turkey.2
+	title = DH_Germany_Turkey.2.t
+	desc = DH_Germany_Turkey.2.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
 	is_triggered_only = yes
 
-	option = { #establish civil administration
-		name = DH_germany.10.a
+	#establish civil administration
+	option = { 
+		name = DH_Germany_Turkey.2.A
 		ai_chance = { factor = 7 }
 		GER = {
 			release_puppet = GEO
 			release_puppet = ARM
 		}
 	}
-
-	option = { #status_quo
+	#status_quo
+	option = { 
+		name = DH_Germany_Turkey.2.B
 		ai_chance = { factor = 1 }
-		name = DH_germany.10.b
 	}
 }
 
 #########################################################################
-#  Soviet Refusal
+#  Soviets Refuse Commercial Treaty
 #########################################################################
-country_event = { #Soviet Refusal
-	id = DH_germany.11
-	title = DH_germany.11.t
-	desc = DH_germany.11.d
+country_event = {
+	id = DH_Germany_Soviet.1
+	title = DH_Germany_Soviet.1.t
+	desc = DH_Germany_Soviet.1.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
 	is_triggered_only = yes
 
-	option = { #status_quo
+	# Alas!
+	option = {
 		ai_chance = { factor = 1 }
-		name = DH_germany.11.a
+		name = DH_Germany_Soviet.1.A
 	}
 }
 
 
 #########################################################################
-#  Soviets cancel trade
+#  Commercial Agreement Cancelled
 #########################################################################
 country_event = { #Soviets cancel trade
-	id = DH_germany.12
-	title = DH_germany.12.t
-	desc = DH_germany.12.d
+	id = DH_Germany_Soviet.2
+	title = DH_Germany_Soviet.2.t
+	desc = DH_Germany_Soviet.2.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
@@ -355,8 +370,9 @@ country_event = { #Soviets cancel trade
 		}
 	}
 
-	option = { #commercial agreement is over
-		name = DH_germany.12.a
+	# Alas ! (commercial agreement is over)
+	option = { 
+		name = DH_Germany_Soviet.2.A
 		ai_chance = { factor = 7 }
 		GER = {
 			add_resource = {
@@ -375,460 +391,12 @@ country_event = { #Soviets cancel trade
 }
 
 #########################################################################
-#  Cyprus question
-#########################################################################
-country_event = { 
-	id = DH_germany.13
-	title = DH_germany.13.t
-	desc = DH_germany.13.d
-	picture = GFX_report_event_german_speech
-	fire_only_once = yes
-
-	mean_time_to_happen = { days = 1 }
-
-	trigger = {
-		tag = GER
-		GER = {
-			controls_state = 183
-			has_war = no
-		}
-		OR = {
-			country_exists = TUR 
-			country_exists = ITA			
-		}	
-	}
-
-	option = { #keep cyprus
-		name = DH_germany.13.a
-		ai_chance = { factor = 7 }
-	}
-
-	option = { #give it to the turks
-		name = DH_germany.13.b
-		trigger = { country_exists = TUR }
-		ai_chance = { factor = 7 }
-		TUR = { country_event = { hours = 6 id = DH_turkey.2 }}
-	}
-
-	option = { #give it to the italians
-		name = DH_germany.13.c
-		trigger = { country_exists = ITA }		
-		ai_chance = { factor = 7 }
-		ITA = { country_event = { hours = 6 id = DH_italy.3 }}
-	}
-}
-
-#########################################################################
-#  Coup in Norway
-#########################################################################
-country_event = {
-	id = DH_germany.14
-	title = DH_germany.14.t
-	desc = DH_germany.14.d
-	picture = GFX_DH_Quisling
-	fire_only_once = yes
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_government = national_socialist 
-			OR = {
-				divisions_in_state = { state = 144 size > 0 }
-				divisions_in_state = { state = 143 size > 0 }
-				divisions_in_state = { state = 142 size > 0 }
-				divisions_in_state = { state = 110 size > 0 }
-			}
-		}
-		NOR = { exists = yes }
-	}
-
-	# Back up Quisling
-	option = { 
-		name = DH_germany.14.a
-		ai_chance = {
-			factor = 0
-		}
-		NOR = { country_event = { id = DH_norway.1 days = 1 }}
-		add_political_power = -100
-	}
-	
-	# Germany doesn't need him
-	option = { 
-		ai_chance = {
-			factor = 100
-		}
-		name = DH_germany.14.b
-	}	
-}
-
-#########################################################################
-#  Norwegian Anschluss
-#########################################################################
-country_event = {
-	id = DH_germany.15
-	title = DH_germany.15.t
-	desc = DH_germany.15.d
-	picture = GFX_DH_Norway_Map
-	fire_only_once = no
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_government = national_socialist
-			NOT = {
-				has_country_flag = norwegian_anschluss
-			}
-		}
-		NOR = {
-			is_subject_of = GER
-			is_ai = yes
-		}
-
-	}
-
-	mean_time_to_happen = {
-		days = 1460	
-	}
-	
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.15.a
-		annex_country = { target = NOR }
-		hidden_effect = {
-			#GER = { country_event = { id = DH_cityname.15 } }
-		}
-		set_country_flag = norwegian_anschluss
-	}
-
-	# Leave them as a Puppet
-	option = {
-		name = DH_germany.15.b
-		hidden_effect = {
-			#GER = { country_event = { id = DH_cityname.15 } }
-		}
-	}
-}
-
-#########################################################################
-#  Denmark Anschluss
-#########################################################################
-country_event = {
-	id = DH_germany.16
-	title = DH_germany.16.t
-	desc = DH_germany.16.d
-	picture = GFX_DH_Denmark_Map
-	fire_only_once = no
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_government = national_socialist
-			NOT = {
-				has_country_flag = denmark_anschluss
-			}
-		}
-		DEN = {
-			is_subject_of = GER
-			is_ai = yes
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1095	
-	}
-	
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.16.a
-		annex_country = { target = DEN }
-		hidden_effect = {
-			#GER = { country_event = { id = DH_cityname.17 } }
-		}
-		set_country_flag = denmark_anschluss
-	}
-
-	#Leave them as a puppet
-	option = {
-		name = DH_germany.16.b
-		hidden_effect = {
-			#GER = { country_event = { id = DH_cityname.17 } }
-		}
-	}
-}
-
-#########################################################################
-#  Iceland Anschluss
-#########################################################################
-country_event = {
-	id = DH_germany.17
-	title = DH_germany.17.t
-	desc = DH_germany.17.d
-	picture = GFX_DH_Iceland_Map
-	fire_only_once = no
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_government = national_socialist
-			NOT = {
-				has_country_flag = iceland_anschluss
-			}
-		}
-		ICE = {
-			is_subject_of = GER
-			is_ai = yes
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 547	
-	}
-	
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.17.a
-		annex_country = { target = ICE }
-		hidden_effect = {
-			GER = { country_event = { id = DH_cityname.19 } }
-		}
-		set_country_flag = iceland_anschluss
-	}
-
-	#leave them as a puppet
-	option = {
-		name = DH_germany.17.b
-		hidden_effect = {
-			#GER = { country_event = { id = DH_cityname.19 } }
-		}
-	}
-}
-
-#########################################################################
-#  Sweden Anschluss
-#########################################################################
-country_event = {
-	id = DH_germany.18
-	title = DH_germany.18.t
-	desc = DH_germany.18.d
-	picture = GFX_DH_Sweden_Map
-	fire_only_once = no
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_government = national_socialist
-			NOT = {
-				has_country_flag = sweden_anschluss
-			}
-		}
-		SWE = {
-			is_subject_of = GER
-			is_ai = yes
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1400	
-	}
-	
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.18.a
-		annex_country = { target = SWE }
-		hidden_effect = {
-			GER = { country_event = { id = DH_cityname.21 } }
-		}
-		set_country_flag = sweden_anschluss
-	}
-
-	#Leave them as a puppet
-	option = {
-		name = DH_germany.18.b
-		hidden_effect = {
-			#GER = { country_event = { id = DH_cityname.21 } }
-		}
-	}
-}
-
-
-#########################################################################
-#  Heims in Reich : Reichsgau Danzig-Westpreußen
-#########################################################################
-country_event = {
-	id = DH_germany.19
-	title = DH_germany.19.t
-	desc = DH_germany.19.d
-	picture = GFX_DH_Heims_in_Reich
-	fire_only_once = no
-	
-	is_triggered_only = yes
-
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.19.a
-		GER = {	
-			add_state_core = 85
-		}
-	}	
-}
-
-#########################################################################
-#  Heims in Reich : (Ausdehnung) Gau Oberschlesien
-#########################################################################
-country_event = {
-	id = DH_germany.20
-	title = DH_germany.20.t
-	desc = DH_germany.20.d
-	picture = GFX_DH_Heims_in_Reich
-	fire_only_once = no
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_completed_focus = GER_heim
-			has_government = national_socialist
-			has_full_control_of_state = 747
-			has_full_control_of_state = 72	
-			NOT = {
-				747 = { is_core_of = GER }
-				72 = { is_core_of = GER }
-			}		
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 8	
-	}
-
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.20.a
-		GER = {
-			add_state_core = 747
-			add_state_core = 72
-		}
-	}	
-}
-
-#########################################################################
-#  Heims in Reich : (Ausdehnung) Gau Ostpreußen
-#########################################################################
-country_event = {
-	id = DH_germany.21
-	title = DH_germany.21.t
-	desc = DH_germany.21.d
-	picture = GFX_DH_Heims_in_Reich
-	fire_only_once = yes
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_completed_focus = GER_heim			
-			has_government = national_socialist
-			has_full_control_of_state = 188
-			has_full_control_of_state = 98	
-			NOT = {
-				188 = { is_core_of = GER }
-				98 = { is_core_of = GER }
-			}		
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 332	
-	}
-
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.21.a
-		GER = {
-			add_state_core = 188
-			add_state_core = 98
-		}
-	}	
-}
-
-#########################################################################
-#  Heims in Reich : Reichsgau Wartheland
-#########################################################################
-country_event = {
-	id = DH_germany.22
-	title = DH_germany.22.t
-	desc = DH_germany.22.d
-	picture = GFX_DH_Heims_in_Reich
-	fire_only_once = no
-	
-	trigger = {
-		tag = GER
-		GER = { 
-			has_completed_focus = GER_heim			
-			has_government = national_socialist
-			has_full_control_of_state = 86
-			has_full_control_of_state = 87	
-			NOT = {
-				86 = { is_core_of = GER }
-				87 = { is_core_of = GER }
-			}		
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 652	
-	}
-	
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.22.a
-		GER = {
-			add_state_core = 86		
-			add_state_core = 87		
-		}
-	}	
-}
-
-
-#########################################################################
-#  Heims in Reich : Untersteiermark & Oberkrain (End of Heims in Reich events)
-#########################################################################
-country_event = {
-	id = DH_germany.23
-	title = DH_germany.23.t
-	desc = DH_germany.23.d
-	picture = GFX_DH_Heims_in_Reich
-	fire_only_once = no
-	
-	trigger = {
-		tag = GER			
-		GER = { 
-			has_completed_focus = GER_heim			
-			has_government = national_socialist
-			has_full_control_of_state = 102
-			NOT = {
-				102 = { is_core_of = GER }
-			}		
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1052	
-	}
-
-	# Welcome to the Reich
-	option = { 
-		name = DH_germany.23.a
-		GER = {
-			add_state_core = 102				
-		}
-	}	
-}
-
-#########################################################################
 #  Crusade against the west 
 #########################################################################
 country_event = {
-	id = DH_germany.24
-	title = DH_germany.24.t
-	desc = DH_germany.24.d
+	id = DH_Germany_Soviet.3
+	title = DH_Germany_Soviet.3.t
+	desc = DH_Germany_Soviet.3.d
 	picture = GFX_DH_Bad_US_UK
 	fire_only_once = no
 	
@@ -836,7 +404,7 @@ country_event = {
 
 	# Send the plan to Moscow
 	option = { 
-		name = DH_germany.24.a
+		name = DH_Germany_Soviet.3.A
 		SOV = {
 			country_event = { days = 1 id = DH_soviet.5 }	
 		}
@@ -847,9 +415,9 @@ country_event = {
 #  Crusade against the west : The Soviets accept
 #########################################################################
 country_event = {
-	id = DH_germany.25
-	title = DH_germany.25.t
-	desc = DH_germany.25.d
+	id = DH_Germany_Soviet.4
+	title = DH_Germany_Soviet.4.t
+	desc = DH_Germany_Soviet.4.d
 	picture = GFX_DH_Bad_US_UK
 	fire_only_once = no
 	
@@ -857,7 +425,7 @@ country_event = {
 
 	# Sehr Gut, We may proceed.
 	option = { 
-		name = DH_germany.25.a
+		name = DH_Germany_Soviet.4.A
 		SOV = { #Soviet conditions and effects
 			if = {
 				limit = {
@@ -1004,9 +572,9 @@ country_event = {
 #  Crusade against the west  : Soviets need more time
 #########################################################################
 country_event = {
-	id = DH_germany.26
-	title = DH_germany.26.t
-	desc = DH_germany.26.d
+	id = DH_Germany_Soviet.5
+	title = DH_Germany_Soviet.5.t
+	desc = DH_Germany_Soviet.5.d
 	picture = GFX_DH_Bad_US_UK
 	fire_only_once = no
 	
@@ -1017,7 +585,7 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = DH_germany.26.a
+		name = DH_Germany_Soviet.5.A
 		SOV = {
 			country_event = { months = 6 id = DH_soviet.4 }	
 		}
@@ -1028,7 +596,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		name = DH_germany.26.b
+		name = DH_Germany_Soviet.5.B
 		SOV = {
 			country_event = { months = 3 id = DH_soviet.4 }	
 		}
@@ -1039,19 +607,472 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		name = DH_germany.26.c
+		name = DH_Germany_Soviet.5.C
 		dismantle_faction = yes
 		create_wargoal = { type = annex_everything target = SOV }
 	}	
 }
 
 #########################################################################
-#  Anschluss
+#  Cyprus question
+#########################################################################
+country_event = { 
+	id = DH_Germany_Cyprus.1
+	title = DH_Germany_Cyprus.1.t
+	desc = DH_Germany_Cyprus.1.d
+	picture = GFX_report_event_german_speech
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 1 }
+
+	trigger = {
+		tag = GER
+		GER = {
+			controls_state = 183
+			has_war = no
+		}
+		OR = {
+			country_exists = TUR 
+			country_exists = ITA			
+		}	
+	}
+
+	#keep cyprus
+	option = { 
+		name = DH_Germany_Cyprus.1.A
+		ai_chance = { factor = 7 }
+	}
+
+	#give it to the turks
+	option = { 
+		name = DH_Germany_Cyprus.1.B
+		trigger = { country_exists = TUR }
+		ai_chance = { factor = 7 }
+		TUR = { country_event = { hours = 6 id = DH_turkey.2 }}
+	}
+
+	#give it to the italians
+	option = { 
+		name = DH_Germany_Cyprus.1.C
+		trigger = { country_exists = ITA }		
+		ai_chance = { factor = 7 }
+		ITA = { country_event = { hours = 6 id = DH_italy.3 }}
+	}
+}
+
+#########################################################################
+#  Coup in Norway
 #########################################################################
 country_event = {
-	id = DH_germany.27
-	title = DH_germany.27.t
-	desc = DH_germany.27.d
+	id = DH_Germany_Norway.1
+	title = DH_Germany_Norway.1.t
+	desc = DH_Germany_Norway.1.d
+	picture = GFX_DH_Quisling
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist 
+			OR = {
+				divisions_in_state = { state = 144 size > 0 }
+				divisions_in_state = { state = 143 size > 0 }
+				divisions_in_state = { state = 142 size > 0 }
+				divisions_in_state = { state = 110 size > 0 }
+			}
+		}
+		NOR = { exists = yes }
+	}
+
+	# Back up Quisling
+	option = { 
+		name = DH_Germany_Norway.1.A
+		ai_chance = {
+			factor = 0
+		}
+		NOR = { country_event = { id = DH_norway.1 days = 1 }}
+		add_political_power = -100
+	}
+	
+	# Germany doesn't need him
+	option = { 
+		name = DH_Germany_Norway.1.B
+		ai_chance = {
+			factor = 100
+		}
+	}	
+}
+
+#########################################################################
+#  Norwegian Anschluss
+#########################################################################
+country_event = {
+	id = DH_Germany_Norway.2
+	title = DH_Germany_Norway.2.t
+	desc = DH_Germany_Norway.2.d
+	picture = GFX_DH_Norway_Map
+	fire_only_once = no
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+			NOT = {
+				has_country_flag = norwegian_anschluss
+			}
+		}
+		NOR = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+
+	}
+
+	mean_time_to_happen = {
+		days = 1460	
+	}
+	
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Norway.2.A
+		annex_country = { target = NOR }
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.15 } }
+		}
+		set_country_flag = norwegian_anschluss
+	}
+
+	# Leave them as a Puppet
+	option = {
+		name = DH_Germany_Norway.2.B
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.15 } }
+		}
+	}
+}
+
+#########################################################################
+#  Denmark Anschluss
+#########################################################################
+country_event = {
+	id = DH_Germany_Denmark.1
+	title = DH_Germany_Denmark.1.t
+	desc = DH_Germany_Denmark.1.d
+	picture = GFX_DH_Denmark_Map
+	fire_only_once = no
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+			NOT = {
+				has_country_flag = denmark_anschluss
+			}
+		}
+		DEN = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1095	
+	}
+	
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Denmark.1.A
+		annex_country = { target = DEN }
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.17 } }
+		}
+		set_country_flag = denmark_anschluss
+	}
+
+	#Leave them as a puppet
+	option = {
+		name = DH_Germany_Denmark.1.B
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.17 } }
+		}
+	}
+}
+
+#########################################################################
+#  Iceland Anschluss
+#########################################################################
+country_event = {
+	id = DH_Germany_Iceland.1
+	title = DH_Germany_Iceland.1.t
+	desc = DH_Germany_Iceland.1.d
+	picture = GFX_DH_Iceland_Map
+	fire_only_once = no
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+			NOT = {
+				has_country_flag = iceland_anschluss
+			}
+		}
+		ICE = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 547	
+	}
+	
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Iceland.1.A
+		annex_country = { target = ICE }
+		hidden_effect = {
+			GER = { country_event = { id = DH_cityname.19 } }
+		}
+		set_country_flag = iceland_anschluss
+	}
+
+	#leave them as a puppet
+	option = {
+		name = DH_Germany_Iceland.1.B
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.19 } }
+		}
+	}
+}
+
+#########################################################################
+#  Sweden Anschluss
+#########################################################################
+country_event = {
+	id = DH_Germany_Sweden.1
+	title = DH_Germany_Sweden.1.t
+	desc = DH_Germany_Sweden.1.d
+	picture = GFX_DH_Sweden_Map
+	fire_only_once = no
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_government = national_socialist
+			NOT = {
+				has_country_flag = sweden_anschluss
+			}
+		}
+		SWE = {
+			is_subject_of = GER
+			is_ai = yes
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1400	
+	}
+	
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Sweden.1.A
+		annex_country = { target = SWE }
+		hidden_effect = {
+			GER = { country_event = { id = DH_cityname.21 } }
+		}
+		set_country_flag = sweden_anschluss
+	}
+
+	#Leave them as a puppet
+	option = {
+		name = DH_Germany_Sweden.1.B
+		hidden_effect = {
+			#GER = { country_event = { id = DH_cityname.21 } }
+		}
+	}
+}
+
+
+#########################################################################
+#  Heims in Reich : Reichsgau Danzig-Westpreußen
+#########################################################################
+country_event = {
+	id = DH_Germany_Heims_in_Reich.1
+	title = DH_Germany_Heims_in_Reich.1.t
+	desc = DH_Germany_Heims_in_Reich.1.d
+	picture = GFX_DH_Heims_in_Reich
+	fire_only_once = no
+	
+	is_triggered_only = yes
+
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Heims_in_Reich.19.A
+		GER = {	
+			add_state_core = 85
+		}
+	}	
+}
+
+#########################################################################
+#  Heims in Reich : (Ausdehnung) Gau Oberschlesien
+#########################################################################
+country_event = {
+	id = DH_Germany_Heims_in_Reich.2
+	title = DH_Germany_Heims_in_Reich.2.t
+	desc = DH_Germany_Heims_in_Reich.2.d
+	picture = GFX_DH_Heims_in_Reich
+	fire_only_once = no
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_completed_focus = GER_heim
+			has_government = national_socialist
+			has_full_control_of_state = 747
+			has_full_control_of_state = 72	
+			NOT = {
+				747 = { is_core_of = GER }
+				72 = { is_core_of = GER }
+			}		
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 8	
+	}
+
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Heims_in_Reich.2.A
+		GER = {
+			add_state_core = 747
+			add_state_core = 72
+		}
+	}	
+}
+
+#########################################################################
+#  Heims in Reich : (Ausdehnung) Gau Ostpreußen
+#########################################################################
+country_event = {
+	id = DH_Germany_Heims_in_Reich.3
+	title = DH_Germany_Heims_in_Reich.3.t
+	desc = DH_Germany_Heims_in_Reich.3.d
+	picture = GFX_DH_Heims_in_Reich
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_completed_focus = GER_heim			
+			has_government = national_socialist
+			has_full_control_of_state = 188
+			has_full_control_of_state = 98	
+			NOT = {
+				188 = { is_core_of = GER }
+				98 = { is_core_of = GER }
+			}		
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 332	
+	}
+
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Heims_in_Reich.3.A
+		GER = {
+			add_state_core = 188
+			add_state_core = 98
+		}
+	}	
+}
+
+#########################################################################
+#  Heims in Reich : Reichsgau Wartheland
+#########################################################################
+country_event = {
+	id = DH_Germany_Heims_in_Reich.4
+	title = DH_Germany_Heims_in_Reich.4.t
+	desc = DH_Germany_Heims_in_Reich.4.d
+	picture = GFX_DH_Heims_in_Reich
+	fire_only_once = no
+	
+	trigger = {
+		tag = GER
+		GER = { 
+			has_completed_focus = GER_heim			
+			has_government = national_socialist
+			has_full_control_of_state = 86
+			has_full_control_of_state = 87	
+			NOT = {
+				86 = { is_core_of = GER }
+				87 = { is_core_of = GER }
+			}		
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 652	
+	}
+	
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Heims_in_Reich.4.A
+		GER = {
+			add_state_core = 86		
+			add_state_core = 87		
+		}
+	}	
+}
+
+
+#########################################################################
+#  Heims in Reich : Untersteiermark & Oberkrain (End of Heims in Reich events)
+#########################################################################
+country_event = {
+	id = DH_Germany_Heims_in_Reich.5
+	title = DH_Germany_Heims_in_Reich.5.t
+	desc = DH_Germany_Heims_in_Reich.5.d
+	picture = GFX_DH_Heims_in_Reich
+	fire_only_once = no
+	
+	trigger = {
+		tag = GER			
+		GER = { 
+			has_completed_focus = GER_heim			
+			has_government = national_socialist
+			has_full_control_of_state = 102
+			NOT = {
+				102 = { is_core_of = GER }
+			}		
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1052	
+	}
+
+	# Welcome to the Reich
+	option = { 
+		name = DH_Germany_Heims_in_Reich.5.A
+		GER = {
+			add_state_core = 102				
+		}
+	}	
+}
+
+
+
+#########################################################################
+#  The Austrian question
+#########################################################################
+country_event = {
+	id = DH_Germany_Anschluss.1
+	title = DH_Germany_Anschluss.1.t
+	desc = DH_Germany_Anschluss.1.d
 	picture = GFX_DH_Anschluss_Vote
 	fire_only_once = yes
 
@@ -1059,7 +1080,7 @@ country_event = {
 
 	#Anschlusszeit!
     option = {
-		name = DH_germany.27.a
+		name = DH_Germany_Anschluss.1.A
 		ai_chance = {
 			factor = 100
 		}
@@ -1067,9 +1088,9 @@ country_event = {
 		custom_effect_tooltip = germany_anschluss	  
     }
 
-    #Let's give them some freedom
+    # Let's give them some freedom
     option = {
-		name = DH_germany.27.b 
+		name = DH_Germany_Anschluss.1.B
 		ai_chance = {
 			factor = 0
 		}
@@ -1077,31 +1098,30 @@ country_event = {
 		custom_effect_tooltip = germany_anschluss_puppet
     }
 
-    #Propose an alliance
+    # Propose an alliance
     option = {
-		name = DH_germany.27.c
+		name = DH_Germany_Anschluss.1.C
 		ai_chance = {
 			factor = 0
 		}
 		AUS = { country_event = { hours = 6 id = DH_austria.3 }} 
-    }	
+    }
 	
 }
-
 
 #########################################################################
 # Austria refuses Anschluss
 #########################################################################
 country_event = {
-	id = DH_germany.28
-	title = DH_germany.28.t
-	desc = DH_germany.28.d
+	id = DH_Germany_Anschluss.2
+	title = DH_Germany_Anschluss.2.t
+	desc = DH_Germany_Anschluss.2.d
 	picture = GFX_DH_Anschluss_Vote
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = DH_germany.28.a
+		name = DH_Germany_Anschluss.2.A
 		add_state_claim = 4
 		add_state_claim = 152
 		add_state_claim = 153
@@ -1118,9 +1138,9 @@ country_event = {
 #  Ostmark Anschluss
 #########################################################################
 country_event = {
-	id = DH_germany.29
-	title = DH_germany.29.t
-	desc = DH_germany.29.d
+	id = DH_Germany_Anschluss.3
+	title = DH_Germany_Anschluss.3.t
+	desc = DH_Germany_Anschluss.3.d
 	picture = GFX_DH_Anschluss_Vote
 	fire_only_once = no
 	
@@ -1141,18 +1161,18 @@ country_event = {
 	
 	# Welcome to the Reich
 	option = { 
-		name = DH_germany.29.a
+		name = DH_Germany_Anschluss.3.A
 		annex_country = { target = AUS transfer_troops = yes }
 	}	
 }
 
 #########################################################################
-#  Invitation to the Staatenbund
+#  Invitation to the Europäischer Staatenbund
 #########################################################################
 country_event = {
-	id = DH_germany.30
-	title = DH_germany.30.t
-	desc = DH_germany.30.d
+	id = DH_Germany_Staatenbund.1
+	title = DH_Germany_Staatenbund.1.t
+	desc = DH_Germany_Staatenbund.1.d
 	picture = GFX_DH_Staatenbund
 	fire_only_once = yes
 
@@ -1160,7 +1180,7 @@ country_event = {
 
 	#Join
 	option = {
-		name = DH_germany.30.a		
+		name = DH_Germany_Staatenbund.1.A
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -1204,7 +1224,7 @@ country_event = {
 
 	#Decline
 	option = {
-		name = DH_germany.30.b		
+		name = DH_Germany_Staatenbund.1.B
 		ai_chance = {
 			factor = 100
 			modifier = {
@@ -1246,9 +1266,9 @@ country_event = {
 #  Poland refused to join us
 #########################################################################
 country_event = { #Italy refused
-	id = DH_germany.31
-	title = DH_germany.31.t
-	desc = DH_germany.31.d
+	id = DH_Germany_Poland.1
+	title = DH_Germany_Poland.1.t
+	desc = DH_Germany_Poland.1.d
 	picture = GFX_report_event_german_speech
 	fire_only_once = yes
 
@@ -1256,7 +1276,7 @@ country_event = { #Italy refused
 
 	#Their loss ...
 	option = {
-		name = DH_germany.31.a
+		name = DH_Germany_Poland.1.A
 		add_opinion_modifier = { target = POL modifier = protest_action }
 	}
 }
@@ -1266,16 +1286,16 @@ country_event = { #Italy refused
 #  France wants Armistice (Germany)
 #########################################################################
 country_event = {
-	id = DH_germany.32
-	title = DH_germany.32.t
-	desc = DH_germany.32.d
+	id = DH_Germany_France.1
+	title = DH_Germany_France.1.t
+	desc = DH_Germany_France.1.d
 	picture = GFX_DH_French_Armistice
 	
 	is_triggered_only = yes
 
 	# Establish Vichy France	
 	option = {
-		name = DH_germany.32.a
+		name = DH_Germany_France.1.A
 		ai_chance = {
 			factor = 90
 			modifier = {
@@ -1333,7 +1353,7 @@ country_event = {
 	}
 
 	option = { # Conquer everything!
-		name = DH_germany.32.b
+		name = DH_Germany_France.1.B
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -1347,77 +1367,13 @@ country_event = {
 	}
 }
 
-
-#########################################################################
-#  GroßGermanish Reich event
-#########################################################################
-country_event = { #Italy refused
-	id = DH_germany.33
-	title = DH_germany.33.t
-	desc = DH_germany.33.d
-	picture = GFX_DH_Germania
-	fire_only_once = yes
-	
-	trigger = {
-		tag = GER
-		##### West
-		AND = {
-			36 = { is_core_of = GER } 
-			35 = { is_core_of = GER }
-			7 = { is_core_of = GER } 		
-			6 = { is_core_of = GER } 				
-		}
-		#### East
-		AND = {
-			OR = {
-				SOV = { exists = no }
-				SOV = { has_capitulated = yes }
-				AND = {
-					NOT = {
-						SOV = { controls_state = 195 }
-						SOV = { controls_state = 219 }							
-						SOV = { controls_state = 217 }							
-					}
-				}	
-			}
-		}					
-	}
-
-	#Establish the GroßGermanish Reich
-	option = {
-		name = DH_germany.33.a
-		set_cosmetic_tag = GER_GREATER
-		set_province_name = { id = 6521 name = "Germania" }
-	}
-}
-
-#########################################################################
-#  Ireland refused our offer
-#########################################################################
-country_event = { #Ireland refused
-	id = DH_germany.34
-	title = DH_germany.34.t
-	desc = DH_germany.34.d
-	picture = GFX_report_event_german_speech
-	fire_only_once = yes
-
-	is_triggered_only = yes
-
-	#No loss ...
-	option = {
-		name = DH_germany.34.a
-		add_opinion_modifier = { target = IRE modifier = protest_action }
-	}
-}
-
-
 #########################################################################
 #  Give Vichy the rest of France
 #########################################################################
 country_event = {
-	id = DH_germany.36
-	title = DH_germany.36.t
-	desc = DH_germany.36.d 
+	id = DH_Germany_France.2
+	title = DH_Germany_France.2.t
+	desc = DH_Germany_France.2.d 
 	picture = GFX_report_event_german_troops
 
 	fire_only_once = yes
@@ -1432,9 +1388,9 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 7 }
-
-	option = { #Grant remained of France to vichy
-		name = DH_germany.36.a
+	#Grant remained of France to vichy
+	option = { 
+		name = DH_Germany_France.2.A
 		custom_effect_tooltip = germany_vichy_french_occupation
 		trigger = {
 			AND = {
@@ -1554,9 +1510,9 @@ country_event = {
 			}
 		}
 	}
-
-	option = {#Release RK France
-		name = DH_germany.36.b
+	#Release RK France
+	option = {
+		name = DH_Germany_France.2.B
 		custom_effect_tooltip = germany_establish_rk_france
 		trigger = {
 			NOT = { country_exists = VIC }
@@ -1711,12 +1667,77 @@ country_event = {
 			}
 		}
 	}
-
-	option = {#Continue Military Occupation
-		name = DH_germany.36.c
+	#Continue Military Occupation
+	option = {
+		name = DH_Germany_France.2.C
 		custom_effect_tooltip = germany_rk_military_occupation
 	}
 }
+
+#########################################################################
+#  GroßGermanish Reich event
+#########################################################################
+country_event = { #Italy refused
+	id = DH_germany.33
+	title = DH_germany.33.t
+	desc = DH_germany.33.d
+	picture = GFX_DH_Germania
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		##### West
+		AND = {
+			36 = { is_core_of = GER } 
+			35 = { is_core_of = GER }
+			7 = { is_core_of = GER } 		
+			6 = { is_core_of = GER } 				
+		}
+		#### East
+		AND = {
+			OR = {
+				SOV = { exists = no }
+				SOV = { has_capitulated = yes }
+				AND = {
+					NOT = {
+						SOV = { controls_state = 195 }
+						SOV = { controls_state = 219 }							
+						SOV = { controls_state = 217 }							
+					}
+				}	
+			}
+		}					
+	}
+
+	#Establish the GroßGermanish Reich
+	option = {
+		name = DH_germany.33.a
+		set_cosmetic_tag = GER_GREATER
+		set_province_name = { id = 6521 name = "Germania" }
+	}
+}
+
+#########################################################################
+#  Ireland refused our offer
+#########################################################################
+country_event = { #Ireland refused
+	id = DH_germany.34
+	title = DH_germany.34.t
+	desc = DH_germany.34.d
+	picture = GFX_report_event_german_speech
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	#No loss ...
+	option = {
+		name = DH_germany.34.a
+		add_opinion_modifier = { target = IRE modifier = protest_action }
+	}
+}
+
+
+
 
 #########################################################################
 #  Allies of Germany Choose to accept German Films

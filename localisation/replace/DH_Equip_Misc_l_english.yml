@@ -286,48 +286,7 @@
  SWE_EQUIPMENT_VERSION_12:0 "S XII"
  SWE_EQUIPMENT_VERSION_13:0 "S XIII"
 
- ## Units names
- GER_paratrooper:0 "Fallschirmjäger battalion"
- GER_mountaineers:0 "Gebirgsjäger battalion"
- GER_marine:0 "Marine-infanterie battalion"
- GER_mechanized:0 "Panzergrenadiere battalion"
- GER_infantry:0 "Infanterie battalion"
- GER_cavalry:0 "Kavallerie battalion" 
- GER_militia:0 "Volksgrenadier battalion"
- 
- ENG_mountaineers:0 "Gurkhas battalion"
- ENG_marine:0 "Royal Marines battalion"
- ENG_militia:0 "Home Guard battalion"
- 
- FRA_paratrooper:0 "Chasseurs Parachutistes battalion"
- FRA_mountaineers:0 "Chasseurs Alpins battalion"
- FRA_marine:0 "Fusiliers-Marins battalion"
- FRA_cavalry:0 "Cavalerie battalion" 
- 
- ITA_paratrooper:0 "Paracadutisti battalion"
- ITA_mountaineers:0 "Alpini battalion"
- ITA_marine:0 "Marina battalion"
- ITA_cavalry:0 "Cavalleria battalion" 
- 
- USA_paratrooper:0 "Airborne battalion"
- USA_militia:0 "National Guard battalion"
- 
- HOL_marine:0 "Mariners battalion"
- 
- ROM_cavalry:0 "Cavalerie battalion" 
- ROM_mountaineers:0 "Alpinisti battalion"
- ROM_paratrooper:0 "Parasutisti battalion"
- ROM_marine:0 "Infanterie-Marinar battalion"
- 
- POL_mountaineers:0 "Strzelcy podhalańscy"
- 
- SOV_paratrooper:0 "VDV battalion"
- SOV_marine:0 "Morskaya Pekhota battalion"
- SOV_mountaineers:0 "Gornostrelki battalion"
- SOV_motorized:0 "Motostrelki battalion"
- 
 
- 
  ### --------------------------------------- Rockets and Missiles ----------------------------------------------
  guided_missile_equipment:0 "Guided Missile"
  

@@ -1,21 +1,20 @@
 technologies = {
-	@heavy_fighter_line = -5
-	@early_fighter_line = 4
-	@fighter_line = -1
-	@interceptor_line = -3
-	@cas_line = 1
+	@heavy_fighter_line = 0
+	@interceptor_line = 5
+	@fighter_line = 10
+	@cas_line = 15
 	
 	#Years 	
 	@1933 = 2
-	@1936 = 6
-	@1940 = 10
-	@1943 = 14
-	@1945 = 18
-	@1947 = 22
-	@1950 = 26
-	@1954 = 30
-	@1958 = 34
-	@1962 = 38
+	@1936 = 4
+	@1940 = 6
+	@1943 = 8
+	@1945 = 10
+	@1947 = 12
+	@1950 = 14
+	@1954 = 16
+	@1958 = 18
+	@1962 = 20
 
 	####---------------------- Fighters ------------------------------------
 	# Fighter '33

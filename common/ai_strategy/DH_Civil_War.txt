@@ -45,10 +45,8 @@ Spanish_Civil_War_Support_SPA = {
 	}
 	abort = {
 		OR = {
-			#NOT = { has_country_flag = SPA_support }
-			#NOT = { country_exists = SPA }
 			has_war = yes
-			#is_subject = yes
+			is_subject = yes			
 		}		
 	}
 	

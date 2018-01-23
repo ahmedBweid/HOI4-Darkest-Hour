@@ -202,7 +202,7 @@ country_event = {
 		trigger = { is_ai = no }
 		set_country_flag = become_vichy
 		set_global_flag = fall_of_france
-		GER = { country_event = DH_germany.32 }
+		GER = { country_event = DH_Germany_France.1 }
 		custom_effect_tooltip = france.10.a_tt
 		# Switches to Vichy if GER accepts
 	}
@@ -212,7 +212,7 @@ country_event = {
 			factor = 85
 		}
 		set_global_flag = fall_of_france
-		GER = { country_event = DH_germany.32 }
+		GER = { country_event = DH_Germany_France.1 }
 		custom_effect_tooltip = france.10.b_tt
 	}
 	option = { # Ask for British Union
@@ -313,13 +313,13 @@ country_event = {
 		trigger = { is_ai = no }
 		set_country_flag = become_vichy
 		set_global_flag = fall_of_france
-		GER = { country_event = DH_germany.32 }
+		GER = { country_event = DH_Germany_France.1 }
 		custom_effect_tooltip = france.10.a_tt
 		# Switches to Vichy if GER accepts
 	}
 	option = { # Become Free France
 		name = france.13.b
-		GER = { country_event = DH_germany.32 }
+		GER = { country_event = DH_Germany_France.1 }
 		custom_effect_tooltip = france.10.b_tt
 		set_global_flag = fall_of_france
 	}

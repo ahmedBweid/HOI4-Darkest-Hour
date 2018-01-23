@@ -61,7 +61,7 @@ country_event = {
 		}
 		GER = {
 			add_opinion_modifier = { target = ROOT modifier = GER_anschluss_rejected }
-			country_event = { hours = 2 id = DH_germany.28 }
+			country_event = { hours = 2 id = DH_Germany_Anschluss.2 }
 			if = { limit = { is_in_faction_with = AUS }
 				remove_from_faction = AUS
 			}
@@ -140,7 +140,7 @@ country_event = {
 		}
 		GER = {
 			add_opinion_modifier = { target = ROOT modifier = GER_anschluss_rejected }
-			country_event = { hours = 2 id = DH_germany.28 }
+			country_event = { hours = 2 id = DH_Germany_Anschluss.2 }
 		}
 	}
 }
@@ -202,7 +202,7 @@ country_event = {
 		}
 		GER = {
 			add_opinion_modifier = { target = ROOT modifier = GER_anschluss_rejected }
-			country_event = { hours = 2 id = DH_germany.28 }
+			country_event = { hours = 2 id = DH_Germany_Anschluss.2 }
 		}
 	}
 }

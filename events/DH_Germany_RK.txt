@@ -2,15 +2,15 @@
 # Darkest Hour Events : Germany RKs
 ###########################
 
-add_namespace = DH_germany_rk
+add_namespace = DH_Germany_RK
 
 #########################################################################
 #  RK  Ostland
 #########################################################################
 country_event = {
-	id = DH_germany_rk.1
-	title = DH_germany_rk.1.t
-	desc = DH_germany_rk.1.d
+	id = DH_Germany_RK.1
+	title = DH_Germany_RK.1.t
+	desc = DH_Germany_RK.1.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -38,7 +38,7 @@ country_event = {
 	
 	#Establish RK Ostland
 	option = { 
-		name = DH_germany_rk.1.a
+		name = DH_Germany_RK.1.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -77,7 +77,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = { 
-		name = DH_germany_rk.1.b
+		name = DH_Germany_RK.1.B
 		ai_chance = {
 			factor = 0
 		}
@@ -89,9 +89,9 @@ country_event = {
 #  RK  Ukraine
 #########################################################################
 country_event = {
-	id = DH_germany_rk.2
-	title = DH_germany_rk.2.t
-	desc = DH_germany_rk.2.d
+	id = DH_Germany_RK.2
+	title = DH_Germany_RK.2.t
+	desc = DH_Germany_RK.2.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -118,7 +118,7 @@ country_event = {
 	
 	# Establish RK Ukraine
 	option = { 
-		name = DH_germany_rk.2.a
+		name = DH_Germany_RK.2.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -180,7 +180,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = {
-		name = DH_germany_rk.2.b
+		name = DH_Germany_RK.2.B
 		ai_chance = {
 			factor = 0
 		}
@@ -192,9 +192,9 @@ country_event = {
 #  RK  Moskowien
 #########################################################################
 country_event = {
-	id = DH_germany_rk.3
-	title = DH_germany_rk.3.t
-	desc = DH_germany_rk.3.d
+	id = DH_Germany_RK.3
+	title = DH_Germany_RK.3.t
+	desc = DH_Germany_RK.3.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -246,7 +246,7 @@ country_event = {
 	
 	# Establish RK Moskowien
 	option = { 
-		name = DH_germany_rk.3.a
+		name = DH_Germany_RK.3.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -371,7 +371,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = {
-		name = DH_germany_rk.3.b
+		name = DH_Germany_RK.3.B
 		ai_chance = {
 			factor = 0
 		}
@@ -383,9 +383,9 @@ country_event = {
 #  RK  Kaukasien
 #########################################################################
 country_event = {
-	id = DH_germany_rk.4
-	title = DH_germany_rk.4.t
-	desc = DH_germany_rk.4.d
+	id = DH_Germany_RK.4
+	title = DH_Germany_RK.4.t
+	desc = DH_Germany_RK.4.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -411,7 +411,7 @@ country_event = {
 	
 	# Establish RK Kaukasien
 	option = {
-		name = DH_germany_rk.4.a
+		name = DH_Germany_RK.4.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -450,7 +450,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = { 
-		name = DH_germany_rk.4.b
+		name = DH_Germany_RK.4.B
 		ai_chance = {
 			factor = 0
 		}
@@ -462,9 +462,9 @@ country_event = {
 #  RK  Turkestan
 #########################################################################
 country_event = {
-	id = DH_germany_rk.5
-	title = DH_germany_rk.5.t
-	desc = DH_germany_rk.5.d
+	id = DH_Germany_RK.5
+	title = DH_Germany_RK.5.t
+	desc = DH_Germany_RK.5.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -493,7 +493,7 @@ country_event = {
 	
 	# Establish RK Turkestan
 	option = {
-		name = DH_germany_rk.5.a
+		name = DH_Germany_RK.5.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -535,7 +535,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = {
-		name = DH_germany_rk.5.b
+		name = DH_Germany_RK.5.B
 		ai_chance = {
 			factor = 0
 		}
@@ -547,9 +547,9 @@ country_event = {
 #  RK  Iceland
 #########################################################################
 country_event = {
-	id = DH_germany_rk.6
-	title = DH_germany_rk.6.t
-	desc = DH_germany_rk.6.d
+	id = DH_Germany_RK.6
+	title = DH_Germany_RK.6.t
+	desc = DH_Germany_RK.6.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -564,7 +564,7 @@ country_event = {
 	
 	# Establish RK Iceland
 	option = {
-		name = DH_germany_rk.6.a
+		name = DH_Germany_RK.6.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -598,7 +598,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = {
-		name = DH_germany_rk.6.b
+		name = DH_Germany_RK.6.B
 		ai_chance = {
 			factor = 0
 		}
@@ -610,9 +610,9 @@ country_event = {
 #  RK  Schweland
 #########################################################################
 country_event = {
-	id = DH_germany_rk.7
-	title = DH_germany_rk.7.t
-	desc = DH_germany_rk.7.d
+	id = DH_Germany_RK.7
+	title = DH_Germany_RK.7.t
+	desc = DH_Germany_RK.7.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -633,7 +633,7 @@ country_event = {
 
 	# Establish RK Schweland
 	option = {
-		name = DH_germany_rk.7.a
+		name = DH_Germany_RK.7.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -673,7 +673,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = {
-		name = DH_germany_rk.7.b
+		name = DH_Germany_RK.7.B
 		ai_chance = {
 			factor = 0
 		}
@@ -685,9 +685,9 @@ country_event = {
 #  RK  Ural
 #########################################################################
 country_event = {
-	id = DH_germany_rk.8
-	title = DH_germany_rk.8.t
-	desc = DH_germany_rk.8.d
+	id = DH_Germany_RK.8
+	title = DH_Germany_RK.8.t
+	desc = DH_Germany_RK.8.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -718,7 +718,7 @@ country_event = {
 
 	#Establish RK Ural
 	option = {
-		name = DH_germany_rk.8.a
+		name = DH_Germany_RK.8.A
 		custom_effect_tooltip = lag_warning
 		ai_chance = {
 			factor = 100
@@ -763,7 +763,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = {
-		name = DH_germany_rk.8.b
+		name = DH_Germany_RK.8.B
 		ai_chance = {
 			factor = 0
 		}
@@ -775,9 +775,9 @@ country_event = {
 #  RK  Siberien
 #########################################################################
 country_event = {
-	id = DH_germany_rk.9
-	title = DH_germany_rk.9.t
-	desc = DH_germany_rk.9.d
+	id = DH_Germany_RK.9
+	title = DH_Germany_RK.9.t
+	desc = DH_Germany_RK.9.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -813,7 +813,7 @@ country_event = {
 	
 	# Establish RK Siberien
 	option = { 
-		name = DH_germany_rk.9.a
+		name = DH_Germany_RK.9.A
 		custom_effect_tooltip = lag_warning
 		hidden_effect = {
 			if = {
@@ -858,7 +858,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = { 
-		name = DH_germany_rk.9.b
+		name = DH_Germany_RK.9.B
 		ai_chance = {
 			factor = 0
 		}
@@ -870,9 +870,9 @@ country_event = {
 #  Generalgouvernement Polen
 #########################################################################
 country_event = {
-	id = DH_germany_rk.10
-	title = DH_germany_rk.10.t
-	desc = DH_germany_rk.10.d
+	id = DH_Germany_RK.10
+	title = DH_Germany_RK.10.t
+	desc = DH_Germany_RK.10.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 	
@@ -894,7 +894,7 @@ country_event = {
 	
 	# Establish Generalgouvernement Polen
 	option = {
-		name = DH_germany_rk.10.a
+		name = DH_Germany_RK.10.A
 		hidden_effect = {		
 			if = {
 				limit = {
@@ -959,7 +959,7 @@ country_event = {
 
 	#Establish direct military occupation
 	option = {
-		name = DH_germany_rk.10.b
+		name = DH_Germany_RK.10.B
 		ai_chance = {
 			factor = 100
 		}
@@ -981,9 +981,9 @@ country_event = {
 #  Generalgouvernement Polen - Add east states if owned
 #########################################################################
 country_event = {
-	id = DH_germany_rk.11
-	title = DH_germany_rk.11.t
-	desc = DH_germany_rk.11.d
+	id = DH_Germany_RK.11
+	title = DH_Germany_RK.11.t
+	desc = DH_Germany_RK.11.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 
@@ -1006,7 +1006,7 @@ country_event = {
 	
 	#Expand Generalgouvernement Polen
 	option = { 
-		name = DH_germany_rk.11.a
+		name = DH_Germany_RK.11.A
 		hidden_effect = {
 			if = {
 				limit = {
@@ -1038,7 +1038,7 @@ country_event = {
 	}
 
 	option = {
-		name = DH_germany_rk.11.b
+		name = DH_Germany_RK.11.B
 		GER = {
 			set_country_flag =  GER_not_extend_GGP
 		}
@@ -1049,9 +1049,9 @@ country_event = {
 #  SS-Burgundy if GER owns south states ask for them
 #########################################################################
 country_event = {
-	id = DH_germany_rk.12
-	title = DH_germany_rk.12.t
-	desc = DH_germany_rk.12.d
+	id = DH_Germany_RK.12
+	title = DH_Germany_RK.12.t
+	desc = DH_Germany_RK.12.d
 	picture = GFX_report_event_001
 	fire_only_once = yes
 
@@ -1096,7 +1096,7 @@ country_event = {
 	mean_time_to_happen = { months = 60 }
 
 	option = {#Give them what you own
-		name = DH_germany_rk.12.a
+		name = DH_Germany_RK.12.A
 		if = {
 			limit = {
 				any_country = {
@@ -1166,6 +1166,6 @@ country_event = {
 	}
 
 	option = {#Don't give it to them
-		name = DH_germany_rk.12.b
+		name = DH_Germany_RK.12.B
 	}
 }

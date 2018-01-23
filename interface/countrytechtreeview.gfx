@@ -89,22 +89,24 @@ spriteTypes = {
 		textureFile = "gfx//interface//research_top_win.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
-	
+############################################
+## Tech Tree tab GFX
+############################################
 	spriteType = {
 		name = "GFX_infantry_folder_tab"
-		textureFile = "gfx//interface//techtree_infantry_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_infantry_tab.dds"
 		noOfFrames = 2		
 	}
 
 	spriteType = {
-		name = "GFX_techtree_tank_tab"
-		textureFile = "gfx//interface//techtree_tank_tab.dds"
+		name = "GFX_armour_folder_tab"
+		textureFile = "gfx//interface//technologies//techtree_armor_tab.dds"
 		noOfFrames = 2		
 	}
 
 	spriteType = {
 		name = "GFX_artillery_folder_tab"
-		textureFile = "gfx//interface//techtree_artillery_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_artillery_tab.dds"
 		noOfFrames = 2		
 	}
 
@@ -113,22 +115,16 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree_landdoctrine_tab.dds"
 		noOfFrames = 2		
 	}
-
-	spriteType = {
-		name = "GFX_naval_folder_tab"
-		textureFile = "gfx//interface//techtree_naval_tab.dds"
-		noOfFrames = 2		
-	}
 	
 	spriteType = {
 		name = "GFX_naval_screens_folder_tab"
-		textureFile = "gfx//interface//techtree_naval_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_screens_tab.dds"
 		noOfFrames = 2		
 	}
 	
 	spriteType = {
 		name = "GFX_naval_capital_folder_tab"
-		textureFile = "gfx//interface//techtree_naval_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_capitals_tab.dds"
 		noOfFrames = 2		
 	}
 
@@ -140,19 +136,19 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_air_light_techs_folder_tab"
-		textureFile = "gfx//interface//techtree_air_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_air_light_tab.dds"
 		noOfFrames = 2		
 	}
 
 	spriteType = {
 		name = "GFX_air_heavy_techs_folder_tab"
-		textureFile = "gfx//interface//techtree_air_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_air_heavy_tab.dds"
 		noOfFrames = 2		
 	}
 
 	spriteType = {
 		name = "GFX_air_heli_techs_folder_tab"
-		textureFile = "gfx//interface//techtree_air_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_air_heli_tab.dds"
 		noOfFrames = 2		
 	}
 
@@ -170,7 +166,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_techtree_engineering_tab"
-		textureFile = "gfx//interface//techtree_engineering_tab.dds"
+		textureFile = "gfx//interface//technologies//techtree_nuclear_tab.dds"
 		noOfFrames = 2		
 	}
 
@@ -185,7 +181,7 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree_tabs.dds"
 		noOfFrames = 2		
 	}
-
+############################################################################
 	corneredTileSpriteType = {
 		name = "GFX_tiled_plain_bg"
 		size= { x=192 y=192 }
@@ -1368,12 +1364,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_support_folder_tab"
 		textureFile = "gfx//interface//techtree_support_tab.dds"
-		noOfFrames = 2
-	}
-	
-	spriteType = {
-		name = "GFX_armour_folder_tab"
-		textureFile = "gfx//interface//techtree_tank_tab.dds"
 		noOfFrames = 2
 	}
 	

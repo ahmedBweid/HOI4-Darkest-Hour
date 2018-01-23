@@ -59,19 +59,18 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 8
 		air_defence = 4
-		air_agility = 50
+		air_agility = 45
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 1
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 350
 		air_range = 400
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 22
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
-
 	}
 	
 ################################
@@ -91,14 +90,14 @@ equipments = {
 		air_defence = 7
 		air_agility = 50
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 2
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 500
 		air_range = 475
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 24
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 	}
@@ -117,16 +116,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 12
 		air_defence = 9
-		air_agility = 50
+		air_agility = 65
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 4
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 600
 		air_range = 550
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 26
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -145,16 +144,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 14
 		air_defence = 10
-		air_agility = 50
+		air_agility = 80
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 6
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 650
 		air_range = 750
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 28
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #			
 	}
@@ -216,16 +215,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 18
 		air_defence = 14
-		air_agility = 50
+		air_agility = 80
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 6
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 650
 		air_range = 650
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 30
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -243,16 +242,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 20
 		air_defence = 18
-		air_agility = 50
+		air_agility = 85
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 8
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 850
 		air_range = 700
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 34
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -270,16 +269,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 22
 		air_defence = 20
-		air_agility = 50
+		air_agility = 90
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 8
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 950
 		air_range = 850
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 37
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -297,16 +296,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 25
 		air_defence = 22
-		air_agility = 50
+		air_agility = 95
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 10
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 1100
 		air_range = 1000
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 40
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -324,16 +323,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 28
 		air_defence = 25
-		air_agility = 50
+		air_agility = 100
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 10
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 1600
 		air_range = 1100
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 42.5
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -351,16 +350,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 30
 		air_defence = 28
-		air_agility = 50
+		air_agility = 100
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 10
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 1900
 		air_range = 1200
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 45
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -424,16 +423,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 12
 		air_defence = 5
-		air_agility = 50
+		air_agility = 35
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 1
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 350
 		air_range = 350
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 24
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 	}
@@ -452,16 +451,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 14
 		air_defence = 8
-		air_agility = 50
+		air_agility = 40
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 2
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 500
 		air_range = 500
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 26
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #	
 	}
@@ -480,16 +479,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 16
 		air_defence = 10
-		air_agility = 50
+		air_agility = 55
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 4
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 600
 		air_range = 600
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 28
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #		
 	}
@@ -508,16 +507,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 20
 		air_defence = 12
-		air_agility = 50
+		air_agility = 60
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 6
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 650
 		air_range = 650
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 30
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #		
 	}
@@ -579,16 +578,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 25
 		air_defence = 16
-		air_agility = 50
+		air_agility = 70
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 6
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 850
 		air_range = 850
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 32
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 		
@@ -608,16 +607,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 30
 		air_defence = 22
-		air_agility = 50
+		air_agility = 70
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 8
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 900
 		air_range = 600
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 36
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 	}
@@ -636,16 +635,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 33
 		air_defence = 25
-		air_agility = 50
+		air_agility = 75
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 8
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 1100
 		air_range = 650
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 39
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 	}
@@ -664,16 +663,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 36
 		air_defence = 28
-		air_agility = 50
+		air_agility = 80
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 10
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 1300
 		air_range = 800
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 43
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 	}
@@ -692,16 +691,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 40
 		air_defence = 30
-		air_agility = 50
+		air_agility = 85
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 10
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 1700
 		air_range = 900
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 45
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 	}	
@@ -720,16 +719,16 @@ equipments = {
 		#air_ground_attack = 1.0
 		air_attack = 45
 		air_defence = 32
-		air_agility = 50
+		air_agility = 85
 # Naval Combat Stats
-		naval_strike_attack = 0.5
-		naval_strike_targetting = 1.0
+		naval_strike_attack = 10
+		naval_strike_targetting = 1
 # Technical Stats
 		maximum_speed = 2500
 		air_range = 1000
 # Production Stats
-		manpower = 20
-		build_cost_ic = 19
+		manpower = 1
+		build_cost_ic = 47.5
 		resources = { oil = 1 aluminium = 3 rubber = 1 }
 #
 	}	

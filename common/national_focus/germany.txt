@@ -1813,7 +1813,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				days = 1
-				id = DH_germany.24
+				id = DH_Germany_Soviet.3
 			}
 		}
 	}
@@ -3380,7 +3380,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				days = 29
-				id = DH_germany.19
+				id = DH_Germany_Heims_in_Reich.1
 			}
 		}
 	}
@@ -4631,7 +4631,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				days = 1
-				id = DH_germany.1
+				id = DH_Germany_Isabella.1
 			}
 		}
 	}
@@ -6885,7 +6885,7 @@ focus_tree = {
 				}
 				country_event = {
 					hours = 6
-					id = DH_germany.30
+					id = DH_Germany_Staatenbund.1
 				}
 			}
 		}

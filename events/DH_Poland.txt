@@ -54,7 +54,7 @@ country_event = {
 				factor = 0.6
 			}
 		}
-		GER = { country_event = { hours = 6 id = DH_germany.31 }}
+		GER = { country_event = { hours = 6 id = DH_Germany_Poland.1 }}
 	}
 
 	#Join Axis

@@ -305,11 +305,117 @@ spriteTypes = {
 #########################################################################
 #  German Aircrafts
 #########################################################################
+### Fighters	
+	SpriteType = {
+		name = "GFX_GER_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ar68.dds"
+	}
 
+	SpriteType = {
+		name = "GFX_GER_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109E.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_GER_fighter2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109F.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109G.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He162.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ho229.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1101.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_jet_fighter4_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_FwSuperTL.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter5_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_FwII.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter6_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He1079.dds"
+	}	
+
+### Interceptor	
+	SpriteType = {
+		name = "GFX_GER_early_interceptor_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He51.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109D.dds"
+	}		
+	
+	SpriteType = {
+		name = "GFX_GER_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Fw190.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta152.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GER_jet_interceptor1_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me262.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_interceptor2_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta183.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_interceptor3_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Li13a.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_jet_interceptor4_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1110.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_jet_interceptor5_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1111.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_jet_interceptor6_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1112.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_GER_transport_plane_equipment_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_transport_plane_equipment.dds"
-	}	
+	}
+
+## Transport Aircraft
+	SpriteType = {
+		name = "GFX_GER_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_transport_plane_equipment.dds"
+	}
+	
 ## Tactical Bomber
 	SpriteType = {
 		name = "GFX_GER_early_bomber_medium"
@@ -384,12 +490,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_GER_jet_strategic_bomber3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_HoXVIII.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ar555.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_GER_jet_strategic_bomber4_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ar555.dds"
+		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_HoXVIII.dds"
 	}
 
 ##CAS
@@ -416,144 +522,8 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_jet_CAS1_medium"
 		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_B&V178.dds"
-	}
-
-## Escort Fighter
-	SpriteType = {
-		name = "GFX_GER_heavy_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_BF110.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_GER_heavy_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_BF110.dds"
-	}		
-
-	SpriteType = {
-		name = "GFX_GER_heavy_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me410.dds"
-	}		
-
-	SpriteType = {
-		name = "GFX_GER_heavy_fighter4_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me609.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_GER_jet_heavy_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta154.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_GER_jet_heavy_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me262HGV.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_GER_jet_heavy_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_HoXIIIb.dds"
 	}	
 	
-	
-### Fighters	
-	SpriteType = {
-		name = "GFX_GER_early_fighter_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ar68.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_GER_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109E.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_GER_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Fw190.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta152.dds"
-	}	
-	SpriteType = {
-		name = "GFX_GER_jet_fighter1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me262.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_GER_jet_fighter2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ho229.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_GER_jet_fighter3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1101.dds"
-	}	
-
-	SpriteType = {
-		name = "GFX_GER_jet_fighter4_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_FwSuperTL.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_jet_fighter5_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_FwII.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_jet_fighter6_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He1079.dds"
-	}	
-
-### Interceptor	
-	SpriteType = {
-		name = "GFX_GER_early_interceptor_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He51.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_GER_interceptor1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109D.dds"
-	}		
-	
-	SpriteType = {
-		name = "GFX_GER_interceptor2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109F.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_interceptor3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Bf109G.dds"
-	}	
-	SpriteType = {
-		name = "GFX_GER_jet_interceptor1_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_He162.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_GER_jet_interceptor2_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Ta183.dds"
-	}
-	
-	SpriteType = {
-		name = "GFX_GER_jet_interceptor3_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Li13a.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_GER_jet_interceptor4_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1110.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_GER_jet_interceptor5_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1111.dds"
-	}	
-	
-	SpriteType = {
-		name = "GFX_GER_jet_interceptor6_medium"
-		texturefile = "gfx/interface/technologies/Aircraft/Germany/GER_Me1112.dds"
-	}	
 ## Naval Bomber
 	SpriteType = {
 		name = "GFX_GER_naval_bomber1_medium"

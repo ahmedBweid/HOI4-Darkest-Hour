@@ -48,7 +48,7 @@ country_event = {
 	option = { #refuse deal
 		ai_chance = { factor = 1 }
 		name = DH_soviet.1.b
-		GER = { country_event = { hours = 6 id = DH_germany.11 }}
+		GER = { country_event = { hours = 6 id = DH_Germany_Soviet.1 }}
 	}
 }
 
@@ -215,7 +215,7 @@ country_event = {
 				factor = 0
 			}
 		}
-		country_event = { days = 31 id = DH_germany.25 }
+		country_event = { days = 31 id = DH_Germany_Soviet.4 }
 	}
 	# We need more time!
 	option = { 
@@ -238,7 +238,7 @@ country_event = {
 				factor = 100
 			}
 		}
-		country_event = { days = 31 id = DH_germany.26 }
+		country_event = { days = 31 id = DH_Germany_Soviet.5 }
 	}	
 }
 
