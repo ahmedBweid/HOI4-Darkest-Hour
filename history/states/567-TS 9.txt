@@ -1,0 +1,25 @@
+
+state={
+	id=567
+	name="STATE_567"
+	resources={
+		aluminium=34.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		1735 1803 1813 1876 4690 4750 4782 4808 4818 4853 7713 7744 7769 7802 7841 7876 7902 10549 10562 10570 10664 10699 12523 12563 12621 12628 12691 
+	}
+	manpower=410183
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

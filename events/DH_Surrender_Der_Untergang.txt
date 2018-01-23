@@ -1,0 +1,180 @@
+﻿###########################
+# Darkest Hour Surrender Events : Der Untergang
+###########################
+
+add_namespace = DH_Surrender_ROM
+add_namespace = DH_Surrender_HUN
+add_namespace = DH_Surrender_SOV_Response
+
+
+
+### -------------------  ---------------------------------------------
+
+#########################################################################
+# Surrender to the Soviets? (Romania)
+#########################################################################
+country_event = {
+	id = DH_Surrender_ROM.1
+	title = DH_Surrender_ROM.1.t
+	desc = DH_Surrender_ROM.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	trigger = {
+		SOV = { has_war_with = ROM }
+		SOV = { has_war_with = GER }
+		is_in_faction_with = GER 
+		any_other_country = {
+			OR = {
+				tag = SOV
+				is_in_faction_with = SOV
+			}
+			controls_state = 79
+			controls_state = 78
+		}
+	}
+
+	option = { #Surrender to the Soviets
+		name = DH_Surrender_ROM.1.a
+		#kill_country_leader = yes 
+		SOV = {
+			country_event = { id = DH_Surrender_SOV.10 }
+		}
+	}
+
+	option = { #We Won't surrender
+		name = DH_Surrender_ROM.1.b
+	}
+}
+
+#########################################################################
+# Soviet answer to Romanian surrender
+#########################################################################
+country_event = {
+	id = DH_Surrender_SOV_Response.1
+	title = DH_Surrender_SOV_Response.1.t
+	desc = DH_Surrender_SOV_Response.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	#Puppet Romania
+	option = { 
+		name = DH_Surrender_SOV_Response.1.a
+		ROM = { white_peace = SOV }
+
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_dlc = "Together for Victory"
+						has_dlc = "Death or Dishonor"
+					}
+				}
+				set_autonomy = {
+					target = ROM
+					autonomous_state = DH_autonomy_puppet
+				}
+				else = {
+					puppet = ROM
+				}
+			}
+
+			SOV = {
+				transfer_state = 78 #In case the Soviets hadn't recieved Bessarabia beforehand
+			}
+		}
+	}
+
+	#No compromise with the fascists - keep fighting
+	option = { 
+		name = DH_Surrender_SOV_Response.1.b
+	}
+}
+
+
+### -------------------  ---------------------------------------------
+
+#########################################################################
+# Surrender to the Soviets? (Hungary)
+#########################################################################
+country_event = {
+	id = DH_Surrender_HUN.1
+	title = DH_Surrender_HUN.1.t
+	desc = DH_Surrender_HUN.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	trigger = {
+		SOV = { has_war_with = HUN }
+		SOV = { has_war_with = GER }
+		is_in_faction_with = GER 
+		any_other_country = {
+			OR = {
+				tag = SOV
+				is_in_faction_with = SOV
+			}
+			controls_state = 154
+		}
+	}
+
+	#Surrender to the Soviets
+	option = { 
+		name = DH_Surrender_HUN.1.a
+		SOV = {
+			country_event = { id = DH_Surrender_SOV.11 }
+		}
+	}
+
+	#We Won't surrender
+	option = { 
+		name = DH_Surrender_HUN.1.b
+	}
+}
+
+#########################################################################
+# Soviet answer to Hungarian surrender
+#########################################################################
+country_event = {
+	id = DH_Surrender_SOV_Response.2
+	title = DH_Surrender_SOV_Response.2.t
+	desc = DH_Surrender_SOV_Response.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	#Puppet Hungary
+	option = { 
+		name = DH_Surrender_SOV_Response.11.a
+		HUN = { white_peace = SOV }
+
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_dlc = "Together for Victory"
+						has_dlc = "Death or Dishonor"
+					}
+				}
+				set_autonomy = {
+					target = HUN
+					autonomous_state = DH_autonomy_puppet
+				}
+				else = {
+					puppet = HUN
+				}
+			}
+			
+			SOV = {
+				transfer_state = 73 # Transfer of Ruthenian Carpathia
+			}
+		}
+	}	
+
+	#No compromise with the fascists - keep fighting
+	option = { 
+		name = DH_Surrender_SOV_Response.2.b
+	}
+}

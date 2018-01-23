@@ -1,0 +1,1633 @@
+﻿l_english:
+ naval_equipment:0 "Ships"
+
+ #############################################
+ #### Screens 
+ #############################################
+#-- Submarines SS
+ submarine_0:0 "Dive Boat '1895"
+ submarine_0_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_1:0 "Diesel Submarine '12"
+ submarine_1_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_2:0 "Ocean-going Submarine '16"
+ submarine_2_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_3:0 "Submarine '22"
+ submarine_3_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_4:0 "Submarine '33"
+ submarine_4_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_5:0 "Submarine '36"
+ submarine_5_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_6:0 "Submarine '40"
+ submarine_6_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_7:0 "Submarine '43"
+ submarine_7_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_8:0 "Submarine '50"
+ submarine_8_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+ submarine_9:0 "Submarine '55"
+ submarine_9_desc:0 "The Submarine is designed to travel underwater allowing it to operate clandestinely against other naval units. Its main armament consists of torpedoes which are deadly against all other types of vessel, be they Carrier, Battleship, Naval Transport or another Submarine. However, the Submarine can be handicapped by a short range and new technologies to improve them can be expensive."
+
+ 
+#-- Heavy Submarines HSS
+ heavy_submarine:0 "Heavy Submarine"
+ 
+ heavy_submarine_0:0 "Heavy Submarine '33"
+ heavy_submarine_0_desc:0 "Heavy Submarines with very long range and equipped with Sea-Planes are well suited for Reconnaissance"
+ heavy_submarine_1:0 "Heavy Submarine '40"
+ heavy_submarine_1_desc:0 "Heavy Submarines with very long range and equipped with Sea-Planes are well suited for Reconnaissance"
+ heavy_submarine_2:0 "Super Heavy Submarine '43"
+ heavy_submarine_2_desc:0 "Heavy Submarines with very long range and equipped with Sea-Planes are well suited for Reconnaissance"
+
+#-- Destroyers DD
+ destroyer_0:0 "Torpedo Gunboat '1885"
+ destroyer_0_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_1:0 "Fleet Destroyer '00"
+ destroyer_1_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_2:0 "Turbine Destroyer '12"
+ destroyer_2_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_3:0 "Destroyer '16"
+ destroyer_3_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_4:0 "Destroyer '22"
+ destroyer_4_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_5:0 "Destroyer '33"
+ destroyer_5_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_6:0 "Destroyer '36"
+ destroyer_6_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_7:0 "Destroyer '40"
+ destroyer_7_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_8:0 "Destroyer '43"
+ destroyer_8_desc:0 "The Destroyer is the smallest and the fastest of the surface ships. It is lightly armed in comparison with the battleship, but its speed and maneuverability allow it to provide a good first line of defense away from the main capital ships of a fleet, and its light guns are useful for engaging aircraft. Destroyers are usually combined in groups and used for convoy escort and anti-submarine duties."
+ destroyer_9:0 "Missile Destroyer '54"
+ destroyer_9_desc:0 "A guided missile destroyer is a destroyer designed to launch guided missiles. Many are also equipped to carry out anti-submarine, anti-air, and anti-surface operations. The NATO standard designation for these vessels is DDG. Nations vary in their use of destroyer D designation their hull pennant numbering, either prefixing, or dropping it altogether."
+ 
+#-- Light Cruisers CL
+ light_cruiser_0:0 "Protected Cruiser '1885"
+ light_cruiser_0_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_1:0 "Scout Cruiser '00"
+ light_cruiser_1_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_2:0 "Light Cruiser '12"
+ light_cruiser_2_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_3:0 "Light Cruiser '22"
+ light_cruiser_3_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_4:0 "Light Cruiser '33"
+ light_cruiser_4_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_5:0 "Light Cruiser '36"
+ light_cruiser_5_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_6:0 "Light Cruiser '40"
+ light_cruiser_6_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_7:0 "Light Cruiser '43"
+ light_cruiser_7_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ light_cruiser_8:0 "Missile Light Cruiser '54" 
+ light_cruiser_8_desc:0 "Light Cruisers are little more than large destroyers. They are usually lightly armored to give good speed and range. They are normally used in an escort role for capital ships like battleships or carriers, granting protection mainly from enemy air attacks, but also from enemy submarines."
+ 
+#-- Heavy Cruisers CA
+ heavy_cruiser_0:0 "Armored Frigate '1885"
+ heavy_cruiser_0_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_1:0 "Armored Cruiser '1895"
+ heavy_cruiser_1_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_2:0 "Armored Cruiser '06"
+ heavy_cruiser_2_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_3:0 "Heavy Cruiser '22"
+ heavy_cruiser_3_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_4:0 "Heavy Cruiser '33"
+ heavy_cruiser_4_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_5:0 "Heavy Cruiser '36"
+ heavy_cruiser_5_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_6:0 "Heavy Cruiser '40"
+ heavy_cruiser_6_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_7:0 "Heavy Cruiser '43"
+ heavy_cruiser_7_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ heavy_cruiser_8:0 "Missile Heavy Cruiser '50" 
+ heavy_cruiser_8_desc:0 "Heavy Cruisers are larger and more heavily armored than their lighter counterparts. They have larger main guns, giving them the ability to bombard enemy units on land. They are effective against enemy surface ships, especially destroyers and light cruisers, but are susceptible to air and submarine attacks."
+ 
+##############################################
+#### Capitals 
+#############################################
+
+ #-- Battlecruisers BC
+ battle_cruiser_0:0 "Battlecruiser '06"
+ battle_cruiser_0_desc:0 "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
+ battle_cruiser_1:0 "Battlecruiser '12"
+ battle_cruiser_1_desc:0 "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
+ battle_cruiser_2:0 "Battlecruiser '16"
+ battle_cruiser_2_desc:0 "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
+ battle_cruiser_3:0 "Battlecruiser '33"
+ battle_cruiser_3_desc:0 "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
+ battle_cruiser_4:0 "Battlecruiser '40"
+ battle_cruiser_4_desc:0 "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
+ battle_cruiser_5:0 "Battlecruiser '50"
+ battle_cruiser_5_desc:0 "Battlecruisers are very heavy cruisers that combine large main guns and good armor with reasonable speed and a good range. They are mainly used against enemy shipping lanes, able to outrun enemy battleships and able to outfight convoy escorts."
+ 
+#-- Battleships BB
+ battleship_0:0 "Turret Battleship '1885"
+ battleship_0_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_1:0 "Predreadnought '1895"
+ battleship_1_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_2:0 "Dreadnought '00"
+ battleship_2_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_3:0 "Super-dreadnought '06"
+ battleship_3_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_4:0 "Fast Battleship '12"
+ battleship_4_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_5:0 "Fast Battleship '16"
+ battleship_5_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_6:0 "Battleship '22"
+ battleship_6_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_7:0 "Battleship '33"
+ battleship_7_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_8:0 "Battleship '40"
+ battleship_8_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ battleship_9:0 "Battleship '48"
+ battleship_9_desc:0 "The Battleship is the Queen of the Sea. It is a massive floating gun platform, designed primarily to engage enemy capital ships at long range and send them to the bottom of the ocean. However, they are now vulnerable to air or submarine torpedo attacks, and the advent of the Aircraft Carrier has started to number their days."
+ 
+# -- Super Heavy Battleships SHBB
+ SH_battleship_1:0 "Super-Heavy Battleship '36"
+ SH_battleship_2:0 "Super-Heavy Battleship '43"
+ 
+ SH_battleship_1_desc:0 "The current state of the world no longer has any room for abiding by naval treaties. Without these limitations, we can focus entirely on creating the heaviest, most well-armed battleships of all time, able to engage multiple lesser vessels."
+ SH_battleship_2_desc:0 "An improvement on our earlier super heavy design with stronger weapons and improved fire control systems."
+
+# -- Aircraft Carriers CV
+ carrier_0:0 "Converted Carrier '22"
+ carrier_0_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ carrier_1:0 "Carrier '30"
+ carrier_1_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ carrier_2:0 "Carrier '33"
+ carrier_2_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ carrier_3:0 "Carrier '36"
+ carrier_3_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ carrier_4:0 "Carrier '40"
+ carrier_4_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ carrier_5:0 "Carrier '43"
+ carrier_5_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ carrier_6:0 "Super-Carrier '48"
+ carrier_6_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ carrier_7:0 "Super-Carrier '50"
+ carrier_7_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+ nuclear_carrier_0:0 "Nuclear Super-Carrier '58"
+ nuclear_carrier_0_desc:0 "The Aircraft Carrier is rapidly becoming the most important naval vessel. Its ability to project power through the aircraft it carries makes it dangerous to other capital ships and land forces. However, the ship itself is only lightly armed and must rely on other naval units, as well as its own aircraft, to afford it protection."
+
+
+# -- Escort Aircraft Carriers CVE
+ escort_carrier:0 "Escort Carrier"
+
+ escort_carrier_0:0 "Seaplane Carrier '12"
+ escort_carrier_0_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
+ escort_carrier_1:0 "Converted Experimental Carrier '16"
+ escort_carrier_1_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
+ escort_carrier_2:0 "Escort Carrier '22"
+ escort_carrier_2_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
+ escort_carrier_3:0 "Escort Carrier '40"
+ escort_carrier_3_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
+ escort_carrier_4:0 "Escort Carrier '43"
+ escort_carrier_4_desc:0 "The Escort Carrier became an important naval vessel later in the war. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carried made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, were only lightly armed, lightly armored, and of far smaller displacement than fleet or light carriers."
+
+ 
+# -- Light Aircraft Carriers CVL
+ light_carrier:0 "Light Carrier"
+
+ light_carrier_0:0 "Light Carrier '30"
+ light_carrier_0_desc:0 "The Light Carrier was an important supplement for carrier fleets. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carries made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, are only lightly armed, lightly armored, and of far smaller displacement than fleet carriers."
+ light_carrier_1:0 "Light Carrier '40"
+ light_carrier_1_desc:0 "The Light Carrier was an important supplement for carrier fleets. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carries made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, are only lightly armed, lightly armored, and of far smaller displacement than fleet carriers."
+ light_carrier_2:0 "Light Carrier '43"
+ light_carrier_2_desc:0 "The Light Carrier was an important supplement for carrier fleets. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carries made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, are only lightly armed, lightly armored, and of far smaller displacement than fleet carriers."
+ light_carrier_3:0 "Light Carrier '48"
+ light_carrier_3_desc:0 "The Light Carrier was an important supplement for carrier fleets. Its ability to protect convoys, actively hunt submarines and support amphibious operations through the aircraft it carries made it very useful and cost effective, freeing up the more expensive fleet carriers for other tasks. The ships themselves, however, are only lightly armed, lightly armored, and of far smaller displacement than fleet carriers."
+
+######################################################################
+ ### ENG - ENGLAND 
+######################################################################
+ 
+ ENG_submarine_0:0 "Holland-class"
+ ENG_submarine_1:0 "C-boat-class"
+ ENG_submarine_2:0 "H-boat-class"
+ ENG_submarine_3:0 "Odin-class"
+ ENG_submarine_4:0 "S-boat-class"
+ ENG_submarine_5:0 "T-boat-class" # Group II
+ ENG_submarine_6:0 "U-boat-class"
+ ENG_submarine_7:0 "Explorer-class"
+ ENG_submarine_8:0 "Upgraded Amphion-class"
+ ENG_submarine_9:0 "Oberon-class"
+ 
+ ENG_heavy_submarine_0:0 "X-1-class"
+
+ ENG_destroyer_0:0 "C-class"
+ ENG_destroyer_1:0 "E-class"
+ ENG_destroyer_2:0 "G-class" #Beagle Class
+ ENG_destroyer_3:0 "V-class"
+ ENG_destroyer_4:0 "A-class"
+ ENG_destroyer_5:0 "F-class"
+ ENG_destroyer_6:0 "Tribal-class"
+ ENG_destroyer_7:0 "L-class"
+ ENG_destroyer_8:0 "Weapon-class"
+ ENG_destroyer_9:0 "Converted Daring-class"
+ 
+ ENG_light_cruiser_0:0 "Leander-class"
+ ENG_light_cruiser_1:0 "Sentinel-class"
+ ENG_light_cruiser_2:0 "C-class"
+ ENG_light_cruiser_3:0 "Emerald-class"
+ ENG_light_cruiser_4:0 "Leander-class"
+ ENG_light_cruiser_5:0 "Arethusa-class"
+ ENG_light_cruiser_6:0 "Dido-class"
+ ENG_light_cruiser_7:0 "Minotaur-class"
+ ENG_light_cruiser_8:0 "Tiger-class" 
+ 
+ ENG_heavy_cruiser_0:0 "Shannon-class"
+ ENG_heavy_cruiser_1:0 "Drake-class"
+ ENG_heavy_cruiser_2:0 "Duke of Edinburg-class"
+ ENG_heavy_cruiser_3:0 "County-class"
+ ENG_heavy_cruiser_4:0 "York-class"
+ ENG_heavy_cruiser_5:0 "Surrey-class"
+ ENG_heavy_cruiser_6:0 "Cumbria-class"
+ # ENG_heavy_cruiser_7:0 ""
+ ENG_heavy_cruiser_8:0 "St. Vincent-class" 
+ 
+ ENG_battle_cruiser_0:0 "Invincible-class"
+ ENG_battle_cruiser_1:0 "Renown-class"
+ ENG_battle_cruiser_2:0 "Admiral-class"
+ ENG_battle_cruiser_3:0 "G3-class"
+ # ENG_battle_cruiser_4:0 ""
+ # ENG_battle_cruiser_5:0 ""
+ 
+ ENG_battleship_0:0 "Monarch-class"
+ ENG_battleship_1:0 "Canopus-class"
+ ENG_battleship_2:0 "Dreadnought-class"
+ ENG_battleship_3:0 "Orion-class"
+ ENG_battleship_4:0 "Queen Elizabeth-class"
+ ENG_battleship_5:0 "N3-class"
+ ENG_battleship_6:0 "Nelson-class"
+ ENG_battleship_7:0 "King George V-class"
+ ENG_battleship_8:0 "Vanguard-class"
+ ENG_battleship_9:0 "BB X-class"
+ 
+ ENG_SH_battleship_1:0 "Superb-class"
+ ENG_SH_battleship_2:0 "Caesar-class"
+ 
+ ENG_carrier_0:0 "Courageous-class"
+ ENG_carrier_1:0 "Furious-class"
+ ENG_carrier_2:0 "Ark Royal-class"
+ ENG_carrier_3:0 "Illustrious-class"
+ ENG_carrier_4:0 "Implacable-class"
+ ENG_carrier_5:0 "Audacious-class"
+ ENG_carrier_6:0 "Malta-class"
+ ENG_carrier_7:0 "CVA-01-class"
+ ENG_nuclear_carrier_0:0 "Victorious-class"
+ 
+ ENG_escort_carrier_0:0 "Empress-class"
+ ENG_escort_carrier_1:0 "Argus-class"
+ ENG_escort_carrier_2:0 "Hermes-class"
+ ENG_escort_carrier_3:0 "Avenger-class"
+ ENG_escort_carrier_4:0 "Ruler-class"
+
+ ENG_light_carrier_0:0 "Light Carrier '30"
+ ENG_light_carrier_1:0 "Light Carrier '40"
+ ENG_light_carrier_2:0 "Light Carrier '43"
+ ENG_light_carrier_3:0 "Light Carrier '48"
+ 
+######################################################################
+ ### FRA - FRANCE 
+######################################################################
+ 
+ FRA_submarine_0:0 "Gustave Zédé-class"
+ FRA_submarine_1:0 "Brumaire-class"
+ FRA_submarine_2:0 "Dupuy de Lome-class"
+ FRA_submarine_3:0 "Requin-class"
+ FRA_submarine_4:0 "Redoutable 3rd Series-class"
+ FRA_submarine_5:0 "Minerve-class"
+ FRA_submarine_6:0 "Roland Morillot (1st)-class"
+ FRA_submarine_7:0 "Roland Morillot (2nd)-class"
+ FRA_submarine_8:0 "Modernized Aurore-class"
+ FRA_submarine_9:0 "Narval-class"
+ 
+ FRA_heavy_submarine_0:0 "Surcouf-class"
+ 
+ FRA_destroyer_0:0 "Mistral-class"
+ FRA_destroyer_1:0 "Spahi-class"
+ FRA_destroyer_2:0 "Bouclier-class"
+ FRA_destroyer_3:0 "Arabe-class"
+ FRA_destroyer_4:0 "Bourrasque-class"
+ FRA_destroyer_5:0 "Malin-class"
+ FRA_destroyer_6:0 "Hardi-class"
+ FRA_destroyer_7:0 "Improved Hardi-class"
+ FRA_destroyer_8:0 "Surcouf-class"
+ FRA_destroyer_9:0 "T-47-class"
+ 
+ FRA_light_cruiser_0:0 "Descartes-class"
+ FRA_light_cruiser_1:0 "Jurien de la Graviere-class"
+ FRA_light_cruiser_2:0 "Lamotte-Picquet-class"
+ FRA_light_cruiser_3:0 "Duguay-Trouin-class"
+ FRA_light_cruiser_4:0 "La Galissonnière-class"
+ FRA_light_cruiser_5:0 "De Grasse-class"
+ FRA_light_cruiser_8:0 "Colbert-class" 
+ 
+ FRA_heavy_cruiser_0:0 "La Gloire-class"
+ FRA_heavy_cruiser_1:0 "Amiral Charner-class"
+ FRA_heavy_cruiser_2:0 "Edgar Quinet-class"
+ FRA_heavy_cruiser_3:0 "Duquesne-class"
+ FRA_heavy_cruiser_4:0 "Algérie-class"
+ FRA_heavy_cruiser_5:0 "St Louis-class"
+
+ FRA_battle_cruiser_0:0 "Normandie-class"
+ FRA_battle_cruiser_1:0 "Durand Viel-class"
+ FRA_battle_cruiser_2:0 "Brest-class"
+ FRA_battle_cruiser_3:0 "Dunkerque-class"
+ 
+ FRA_battleship_0:0 "Henry IV-class"
+ FRA_battleship_1:0 "Charlemagne-class"
+ FRA_battleship_2:0 "Courbet-class"
+ FRA_battleship_3:0 "Bretagne-class"
+ FRA_battleship_4:0 "Normandie-class"
+ FRA_battleship_5:0 "Lyon-class"
+ FRA_battleship_7:0 "Richelieu-class"
+ FRA_battleship_8:0 "Alsace-class"
+ 
+ FRA_carrier_0:0 "Guynemer-class"
+ FRA_carrier_1:0 "Neptune-class"
+ FRA_carrier_2:0 "Joffre-class"
+ FRA_carrier_7:0 "Clemenceau-class"
+ FRA_nuclear_carrier_0:0 "Verdun-class" 
+ 
+ FRA_escort_carrier_0:0 "Foudre-class"
+ FRA_escort_carrier_1:0 "Béarn-class"
+ FRA_escort_carrier_3:0 "Béarn-class"
+
+ FRA_light_carrier_1:0 "Arromanches-class"
+ FRA_light_carrier_3:0 "Clemenceau-class"
+ 
+ ######################################################################
+ ### GER - GERMANY 
+######################################################################
+
+ GER_submarine_0:0 "Type U-1-class"
+ GER_submarine_1:0 "Type U-27-class"
+ GER_submarine_2:0 "Type U-43-class"
+ GER_submarine_3:0 "Type I-class"
+ GER_submarine_4:0 "Type II-class"
+ GER_submarine_5:0 "Type VII-class"
+ GER_submarine_6:0 "Type IX-class"
+ GER_submarine_7:0 "Type XXI-class"
+ GER_submarine_8:0 "Type XXVIII-class"
+ GER_submarine_9:0 "Type CCI-class"
+ 
+ GER_heavy_submarine_0:0 "Type XIb-class"
+ 
+ GER_destroyer_0:0 "S7-class"
+ GER_destroyer_1:0 "S114-class"
+ GER_destroyer_2:0 "V1-class"
+ GER_destroyer_3:0 "S113-class"
+ GER_destroyer_4:0 "Zerstörer 1922"
+ GER_destroyer_5:0 "Zerstörer 1934-class"
+ GER_destroyer_6:0 "Zerstörer 1934A-class"
+ GER_destroyer_7:0 "Zerstörer 1936A-class"
+ GER_destroyer_8:0 "Zerstörer 1945-class"
+ GER_destroyer_9:0 "Hamburg-class"
+ 
+ GER_light_cruiser_0:0 "Gazelle-class"
+ GER_light_cruiser_1:0 "Königsberg-class"
+ GER_light_cruiser_2:0 "Karlsruhe-class"
+ GER_light_cruiser_3:0 "K-class"
+ GER_light_cruiser_4:0 "Leipzig-class"
+ GER_light_cruiser_5:0 "M-class"
+ GER_light_cruiser_6:0 "Stettin-class"
+ GER_light_cruiser_7:0 "Spähkreuzer SP15-class"
+ GER_light_cruiser_8:0 "Passau-class" 
+ 
+ GER_heavy_cruiser_0:0 "König Wilhelm-class"
+ GER_heavy_cruiser_1:0 "Fürst Bismarck-classs"
+ GER_heavy_cruiser_2:0 "Blücher-class"
+ GER_heavy_cruiser_3:0 ""
+ GER_heavy_cruiser_4:0 "Deutschland-class"
+ GER_heavy_cruiser_5:0 "Hipper-class"
+ GER_heavy_cruiser_6:0 "P-class"
+ GER_heavy_cruiser_7:0 "Admiral Brommy-class"
+ GER_heavy_cruiser_8:0 "V-class" 
+ 
+ GER_battle_cruiser_0:0 "Moltke-class"
+ GER_battle_cruiser_1:0 "Derflinger-class"
+ GER_battle_cruiser_2:0 "Ersatz Yorck-class"
+ GER_battle_cruiser_3:0 "Scharnhorst-class"
+ GER_battle_cruiser_4:0 "O-class"
+ GER_battle_cruiser_5:0 "Q-class"
+ 
+ GER_battleship_0:0 "Siegfried-class"
+ GER_battleship_1:0 "Kaiser-class"
+ GER_battleship_2:0 "Nassau-class"
+ GER_battleship_3:0 "König-class"
+ GER_battleship_4:0 "Bayern-class"
+ GER_battleship_5:0 "L 20a-class"
+ GER_battleship_6:0 "Wurtemburg-class"
+ GER_battleship_7:0 "Bismarck-class"
+ GER_battleship_8:0 "Ludendorff-class" #fictional
+ GER_battleship_9:0 "Hindenburg-class" #fictional
+
+ GER_SH_battleship_1:0 "Schlachtschiff H39"
+ GER_SH_battleship_2:0 "Schlachtschiff H44"
+ 
+ GER_carrier_1:0 "Hindenburg-class"
+ GER_carrier_2:0 "Graf Zeppelin-class"
+ GER_carrier_3:0 "Siegfried-class"
+ GER_carrier_4:0 "Europa-class"
+ GER_carrier_5:0 "Baron von Richtofen-class" #fictional
+ GER_carrier_6:0 "Friedrich der Große-class" #fictional
+ GER_nuclear_carrier_0:0 "Karl der Große-class" #fictional (Charlemagne)
+ 
+ GER_escort_carrier_1:0 "Ausonia-class"
+ GER_escort_carrier_2:0 "Moser-class"
+ GER_escort_carrier_3:0 "Meerwein-class"
+ GER_escort_carrier_4:0 "Potsdam-class"
+ 
+ GER_light_carrier_0:0 "Seydlitz-class"
+ GER_light_carrier_1:0 "Goering-class" #fictional
+ GER_light_carrier_2:0 "Rheinland-class" #fictional
+ GER_light_carrier_3:0 "Gneisenau-class" #fictional
+ 
+ 
+######################################################################
+ ### ITA - ITALY 
+######################################################################
+
+ ITA_submarine_0:0 "Glauco-class"
+ ITA_submarine_1:0 "Nautilus-class"
+ ITA_submarine_2:0 "N-class"
+ ITA_submarine_3:0 "Mameli-class"
+ ITA_submarine_4:0 "Serie 600 Sirena-class"
+ ITA_submarine_5:0 "Serie 600 Adua-class"
+ ITA_submarine_6:0 "Marconi-class"
+ ITA_submarine_7:0 "Tritone-class"
+ ITA_submarine_8:0 "Tazzoli-class"
+ ITA_submarine_9:0 "Toti-class"
+ 
+ ITA_heavy_submarine_0:0 "Galeazzi-class"
+ 
+ ITA_destroyer_0:0 "Lampo-class"
+ ITA_destroyer_1:0 "Soldati Artigliere-class"
+ ITA_destroyer_2:0 "Indomito-class"
+ ITA_destroyer_3:0 "La Masa-class"
+ ITA_destroyer_4:0 "Navigatori-class"
+ ITA_destroyer_5:0 "Dardo-class"
+ ITA_destroyer_6:0 "Poeti-class"
+ ITA_destroyer_7:0 "Commandanti Medaglie d’Oro-class"
+ 
+ ITA_light_cruiser_0:0 "Giovanni Bausan-class"
+ ITA_light_cruiser_1:0 "Regioni-class"
+ ITA_light_cruiser_2:0 "Nino Bixio-class"
+ ITA_light_cruiser_3:0 "Di Giussano-class"
+ ITA_light_cruiser_4:0 "Montecuccoli-class"
+ ITA_light_cruiser_5:0 "Capitani Romani-class"
+ ITA_light_cruiser_6:0 "Etna-class"
+ ITA_light_cruiser_7:0 "Light Cruiser '43"
+ ITA_light_cruiser_8:0 "Duca degli Abruzzi-class" #rebuilt
+ 
+ ITA_heavy_cruiser_1:0 "Garibaldi-class"
+ ITA_heavy_cruiser_2:0 "Pisa-class"
+ ITA_heavy_cruiser_3:0 "Trento-class"
+ ITA_heavy_cruiser_4:0 "Zara-class"
+ ITA_heavy_cruiser_5:0 "Ansaldo-class"
+ ITA_heavy_cruiser_8:0 "Andrea Doria-class" 
+ 
+
+ ITA_battle_cruiser_2:0 "Livorno-class"
+ ITA_battle_cruiser_3:0 "OTO-class"
+ 
+ ITA_battleship_0:0 "Caio Dulio-class"
+ ITA_battleship_1:0 "Re Umberto-class"
+ ITA_battleship_2:0 "Dante Alighieri-class"
+ ITA_battleship_3:0 "Conte di Cavour-class"
+ ITA_battleship_4:0 "Caracciolo-class"
+ ITA_battleship_5:0 "Dante Alighieri refit-class"
+ ITA_battleship_6:0 "Andrea Doria refit-class"
+ ITA_battleship_7:0 "Littorio-class"
+ ITA_battleship_8:0 "Impero-class"
+ ITA_battleship_9:0 "Il Duce-class"
+
+ ITA_carrier_0:0 "Giuseppe Garibaldi-class"
+ ITA_carrier_1:0 "Torino-class"
+ ITA_carrier_2:0 "Aquila-class"
+ ITA_carrier_3:0 "Andrea Doria-class"
+ 
+ ITA_escort_carrier_0:0 "Giuseppe Miraglia-class"
+ ITA_escort_carrier_1:0 "Caracciolo-class"
+ ITA_escort_carrier_2:0 "Giovanni Caboto-class"
+ ITA_escort_carrier_3:0 "Pisa-class"
+
+ ITA_light_carrier_3:0 "Vittorio Emanuele III-class"
+######################################################################
+ ### JAP - JAPAN 
+######################################################################
+ 
+ JAP_submarine_0:0 "Type 1-class"
+ JAP_submarine_1:0 "Kawasaki-class"
+ JAP_submarine_2:0 "Ha-7-class"
+ JAP_submarine_3:0 "Kaichu V-class"
+ JAP_submarine_4:0 "Kaichu VI-class"
+ JAP_submarine_5:0 "Type D-class"
+ JAP_submarine_6:0 "KD7 Type-class"
+ JAP_submarine_7:0 "Senkou-class"
+ JAP_submarine_8:0 "Oyashio-class"
+ JAP_submarine_9:0 "Hayashio-class"
+ 
+ JAP_heavy_submarine_0:0 "Junsen III-class"
+ JAP_heavy_submarine_1:0 "Type AM-class"
+ JAP_heavy_submarine_2:0 "Sen Toku-class"
+ 
+ JAP_destroyer_0:0 "Ikazuchi-class"
+ JAP_destroyer_1:0 "Asakaze-class"
+ JAP_destroyer_2:0 "Umikaze-class"
+ JAP_destroyer_3:0 "Momo-class"
+ JAP_destroyer_4:0 "Mutsuki-class"
+ JAP_destroyer_5:0 "Shiratsuyu-class"
+ JAP_destroyer_6:0 "Kagero-class"
+ JAP_destroyer_7:0 "Akizuki-class"
+ JAP_destroyer_8:0 "Matsu-class"
+ 
+ JAP_light_cruiser_0:0 "Naniwa-class"
+ JAP_light_cruiser_1:0 "Chitose-class"
+ JAP_light_cruiser_2:0 "Tenryu-class"
+ JAP_light_cruiser_3:0 "Sendai-class"
+ JAP_light_cruiser_4:0 "Mogami-class"
+ JAP_light_cruiser_5:0 "Agano-class"
+ JAP_light_cruiser_6:0 "Oyodo-class"
+ JAP_light_cruiser_7:0 "Oyabe-class"
+ 
+ JAP_heavy_cruiser_0:0 "Hiei-class"
+ JAP_heavy_cruiser_1:0 "Azuma-class"
+ JAP_heavy_cruiser_2:0 "Kasuga-class"
+ JAP_heavy_cruiser_3:0 "Furutaka-class"
+ JAP_heavy_cruiser_4:0 "Takao-class"
+ JAP_heavy_cruiser_5:0 "Tone-class"
+ JAP_heavy_cruiser_6:0 "Ibuki-class"
+ JAP_heavy_cruiser_7:0 "Nantai-class"
+
+ JAP_battle_cruiser_0:0 "Tsukuba-class"
+ JAP_battle_cruiser_1:0 "Kongo-class"
+ JAP_battle_cruiser_2:0 "Amagi-class"
+ JAP_battle_cruiser_3:0 "Tsushima-class"
+ JAP_battle_cruiser_4:0 "B-65-class"
+
+ JAP_battleship_0:0 "Fuji-class"
+ JAP_battleship_1:0 "Mikasa-class"
+ JAP_battleship_2:0 "Kawachi-class"
+ JAP_battleship_3:0 "Fuso-class"
+ JAP_battleship_4:0 "Ise-class"
+ JAP_battleship_5:0 "Nagato-class"
+ JAP_battleship_6:0 "Kii-class"
+ JAP_battleship_7:0 "No. 13-class"
+ JAP_battleship_8:0 "Fujimoto-class"
+ JAP_battleship_9:0 "Yokozuna-class"
+ 
+ JAP_SH_battleship_1:0 "Yamato-class"
+ JAP_SH_battleship_2:0 "A-150-class"
+ 
+ JAP_carrier_0:0 "Akagi-class"
+ JAP_carrier_1:0 "G8-class"
+ JAP_carrier_2:0 "Soryu-class"
+ JAP_carrier_3:0 "Shokaku-class"
+ JAP_carrier_4:0 "Taiho-class"
+ JAP_carrier_5:0 "Unryu-class"
+ JAP_carrier_6:0 "Jinryu-class"
+
+ JAP_escort_carrier_0:0 "Wakamiya-class"
+ JAP_escort_carrier_2:0 "Akitsu Maru-class"
+ JAP_escort_carrier_3:0 "Hosho-class"
+ JAP_escort_carrier_4:0 "Shimane Maru-class"
+
+ JAP_light_carrier_0:0 "Ryujo-class"
+ JAP_light_carrier_1:0 "Chitose-class"
+ JAP_light_carrier_2:0 "Ibuki-class"
+ 
+######################################################################
+ ### SOV - Soviet Union
+######################################################################
+
+ SOV_submarine_0:0 "Kasatka-class"
+ SOV_submarine_1:0 "Narval-class"
+ SOV_submarine_2:0 "AG-boat-class"
+ SOV_submarine_3:0 "Series I"
+ SOV_submarine_4:0 "Series IX"
+ SOV_submarine_5:0 "Series Xbis"
+ SOV_submarine_6:0 "Series XV"
+ SOV_submarine_7:0 "Series XVI"
+ SOV_submarine_8:0 "Project 613"
+ SOV_submarine_9:0 "Project 633"
+ 
+ SOV_heavy_submarine_0:0 "Series XIV"
+ SOV_heavy_submarine_1:0 "Series IV"
+ 
+ SOV_destroyer_0:0 "Pruitki-class"
+ SOV_destroyer_1:0 "Finn-class"
+ SOV_destroyer_2:0 "Ussuriets-class"
+ SOV_destroyer_3:0 "Orfey-class"
+ SOV_destroyer_4:0 "O-class"
+ SOV_destroyer_5:0 "P-class"
+ SOV_destroyer_6:0 "Ognevoy-class"
+ SOV_destroyer_7:0 "Opytny-class"
+ SOV_destroyer_8:0 "Skoriy-class"
+ SOV_destroyer_9:0 "Project 56M"
+ 
+ SOV_light_cruiser_1:0 "Komintern-class"
+ SOV_light_cruiser_2:0 "Svetlana-class"
+ SOV_light_cruiser_3:0 "Profintern-class"
+ SOV_light_cruiser_4:0 "Proletariy-class"
+ SOV_light_cruiser_5:0 "Svobody-class"
+ SOV_light_cruiser_6:0 "Politruk-class"
+ SOV_light_cruiser_7:0 "Krasnyy Krim-class"
+ SOV_light_cruiser_8:0 "Kynda-class" 
+ 
+ SOV_heavy_cruiser_0:0 "Kniaz Pozharskii-class"
+ SOV_heavy_cruiser_1:0 "Krasnyi Kavkaz-class"
+ SOV_heavy_cruiser_2:0 "Konstruktor-class"
+ SOV_heavy_cruiser_3:0 "Karl Liebknecht-class"
+ SOV_heavy_cruiser_4:0 "Kraznyy Kazak-class"
+ SOV_heavy_cruiser_5:0 "Kirov-class"
+ SOV_heavy_cruiser_6:0 "Chapayev-class"
+ SOV_heavy_cruiser_7:0 "Sverdlov-class"
+ SOV_heavy_cruiser_8:0 "Slava-class" 
+ 
+ SOV_battle_cruiser_1:0 "Borodino-class"
+ SOV_battle_cruiser_3:0 "Kronshtadt-class"
+ SOV_battle_cruiser_4:0 "Soviet-class"
+ SOV_battle_cruiser_5:0 "Stalingrad-class"
+ 
+ SOV_battleship_0:0 "Rusalka-class"
+ SOV_battleship_1:0 "Petropavlosk-class"
+ SOV_battleship_2:0 "Gangut-class"
+ SOV_battleship_3:0 "Arkhangelsk-class"
+ SOV_battleship_4:0 "Karl Marx-class"
+ SOV_battleship_5:0 "V.I. Lenin-class"
+ SOV_battleship_6:0 "Diktatura Proletariata-class"
+ SOV_battleship_7:0 "Bolshevik-class"
+ SOV_battleship_8:0 "Sovyetskiy Soyuz-class"
+ 
+ SOV_SH_battleship_1:0 "Stalin-class"
+ 
+ SOV_carrier_3:0 "Filip Oktyabrsky-class"
+ SOV_carrier_4:0 "Baku-class"
+ SOV_carrier_5:0 "Kostromitinov-class"
+ SOV_carrier_6:0 "Vladivostock-class"
+ SOV_carrier_7:0 "Gorky-class"
+ SOV_nuclear_carrier_0:0 "OREL-class"
+ SOV_nuclear_carrier_1:0 "Ulyanovsk-class"
+ 
+ SOV_escort_carrier_0:0 "Almaz-class"
+
+ SOV_light_carrier_0:0 "Kraznyy Baykal-class"
+ SOV_light_carrier_1:0 "Krasnoye Vympel-class"
+
+ 
+ 
+######################################################################
+ ### USA - United States
+######################################################################
+ USA_submarine_0:0 "Holland-class"
+ USA_submarine_1:0 "K-boat"
+ USA_submarine_2:0 "S-boat"
+ USA_submarine_3:0 "Barracuda-class"
+ USA_submarine_4:0 "Porpoise-class"
+ USA_submarine_5:0 "Sargo-class"
+ USA_submarine_6:0 "Gato-class"
+ USA_submarine_7:0 "Tench-class"
+ USA_submarine_8:0 "Tang-class"
+ USA_submarine_9:0 "Sailfish-class"
+ 
+ USA_destroyer_0:0 "Bainbridge-class"
+ USA_destroyer_1:0 "Truxton-class"
+ USA_destroyer_2:0 "Smith-class"
+ USA_destroyer_3:0 "Wickes-class"
+ USA_destroyer_4:0 "Clemson-class"
+ USA_destroyer_5:0 "Porter-class"
+ USA_destroyer_6:0 "Sims-class"
+ USA_destroyer_7:0 "Fletcher-class"
+ USA_destroyer_8:0 "Gearing-class"
+ USA_destroyer_9:0 "Adams-class"
+ 
+ USA_light_cruiser_0:0 "Atlanta-class"
+ USA_light_cruiser_1:0 "Chester-class"
+ USA_light_cruiser_2:0 "Providence-class"
+ USA_light_cruiser_3:0 "Omaha-class"
+ USA_light_cruiser_4:0 "Detroit-class"
+ USA_light_cruiser_5:0 "Brooklyn-class"
+ USA_light_cruiser_6:0 "Cleveland-class"
+ USA_light_cruiser_7:0 "Worcester-class"
+ USA_light_cruiser_8:0 "Galveston-class" 
+ 
+ USA_heavy_cruiser_0:0 "Onondaga-class"
+ USA_heavy_cruiser_1:0 "New York-class"
+ USA_heavy_cruiser_2:0 "Tennessee-class"
+ USA_heavy_cruiser_3:0 "Northampton-class"
+ USA_heavy_cruiser_4:0 "New Orleans-class"
+ USA_heavy_cruiser_5:0 "Wichita-class"
+ USA_heavy_cruiser_6:0 "Baltimore-class"
+ USA_heavy_cruiser_7:0 "Des Moines-class"
+ USA_heavy_cruiser_8:0 "Albany-class" 
+ 
+ USA_battle_cruiser_1:0 "Bunker Hill-class"
+ USA_battle_cruiser_2:0 "Lexington-class"
+ USA_battle_cruiser_3:0 "Constellation refit-class"
+ USA_battle_cruiser_4:0 "Alaska-class"
+ USA_battle_cruiser_5:0 "Samoa-class"
+ 
+ USA_battleship_0:0 "Puritan-class"
+ USA_battleship_1:0 "Illinois-class"
+ USA_battleship_2:0 "South Carolina-class"
+ USA_battleship_3:0 "New York-class"
+ USA_battleship_4:0 "Nevada-class"
+ USA_battleship_5:0 "Tennessee-class"
+ USA_battleship_6:0 "Colorado-class"
+ USA_battleship_7:0 "North Carolina-class"
+ USA_battleship_8:0 "Iowa-class"
+ USA_battleship_9:0 "Montana-class"
+ 
+ USA_SH_battleship_1:0 "Rhode Island-class"
+ USA_SH_battleship_2:0 "Maine-class"
+ 
+ USA_carrier_0:0 "Lexington-class"
+ USA_carrier_1:0 "Ranger-class"
+ USA_carrier_2:0 "Yorktown-class"
+ USA_carrier_3:0 "Wasp-class"
+ USA_carrier_4:0 "Essex-class"
+ USA_carrier_5:0 "Midway-class"
+ USA_carrier_6:0 "United States-class"
+ USA_carrier_7:0 "Forrestal-class"
+ USA_nuclear_carrier_0:0 "Enterprise-class"
+ 
+ USA_escort_carrier_0:0 "Wright-class"
+ USA_escort_carrier_1:0 "Langley-class"
+ USA_escort_carrier_2:0 "Long Island-class"
+ USA_escort_carrier_3:0 "Washington-class"
+ USA_escort_carrier_4:0 "Casablanca-class"
+
+ USA_light_carrier_0:0 "Milwaukee-class"
+ USA_light_carrier_1:0 "Independence-class"
+ USA_light_carrier_2:0 "Saipan-class"
+
+ 
+######################################################################
+ ### ARG - Argentina
+######################################################################
+ ARG_submarine_3:0 "Tarantino-class"
+ ARG_submarine_7:0 "Santa Fe (S-11)-class"
+ ARG_submarine_8:0 "Santa Fe (S-21)-class"
+ 
+ ARG_destroyer_0:0 "Corrientes-class"
+ ARG_destroyer_1:0 "Espora-class"
+ ARG_destroyer_2:0 "Catamarca-class" 
+ ARG_destroyer_4:0 "Mendoza-class"
+ ARG_destroyer_5:0 "Halcón-class"
+ ARG_destroyer_6:0 "Buenos Aires-class"
+ ARG_destroyer_7:0 "Brown-class"
+ ARG_destroyer_8:0 "Py-class"
+ 
+ ARG_light_cruiser_0:0 "Patagonia-class"
+ ARG_light_cruiser_1:0 "25 de Mayo-class"
+ ARG_light_cruiser_2:0 "Independencia-class"
+ ARG_light_cruiser_3:0 "Ushuaia-class"
+ ARG_light_cruiser_4:0 "Almirante Brown-class"
+ ARG_light_cruiser_5:0 "General Belgrano-class"
+ ARG_light_cruiser_6:0 "Neuquen-class"
+ ARG_light_cruiser_7:0 "Santísima Trinidad-class"
+ 
+ ARG_heavy_cruiser_1:0 "Garibald-class"
+ ARG_heavy_cruiser_3:0 "Veinticinco de Mayo-class"
+ ARG_heavy_cruiser_4:0 "Tierra del Fuego-class"
+ ARG_heavy_cruiser_5:0 "Nueve de Julio-class"
+ 
+ ARG_battle_cruiser_0:0 "Mendoza-class"
+ ARG_battle_cruiser_1:0 "Tucumán-class"
+ ARG_battle_cruiser_3:0 "San Juan-class"
+ ARG_battle_cruiser_4:0 "Rosas-class"
+
+ 
+ ARG_battleship_0:0 "Almirante Brown-class"
+ ARG_battleship_3:0 "Rivadavia-class"
+ ARG_battleship_4:0 "Córdoba-class"
+ ARG_battleship_7:0 "Santa Cruz-class"
+ ARG_battleship_8:0 "La Plata-class"
+
+ ARG_carrier_1:0 "25 de Mayo-class"
+
+ ARG_escort_carrier_0:0 "Seaplane Carrier '12"
+ ARG_escort_carrier_1:0 "Converted Experimental Carrier '16"
+ ARG_escort_carrier_2:0 "Escort Carrier '22"
+ ARG_escort_carrier_3:0 "Escort Carrier '40"
+ ARG_escort_carrier_4:0 "Escort Carrier '43"
+
+ ARG_light_carrier_1:0 "Independencia-class"
+ ARG_light_carrier_2:0 "9 de Julio-class"
+ 
+######################################################################
+ ###  AST - AUSTRALIA
+######################################################################
+ 
+ AST_submarine_1:0 "E-boat-class"
+ AST_submarine_2:0 "J-boat-class"
+ AST_submarine_3:0 "O-boat-class"
+ AST_submarine_5:0 "LPAS-class"
+ AST_submarine_9:0 "Oberon-class"
+ 
+ AST_destroyer_0:0 "Childers-class"
+ AST_destroyer_1:0 "River-class"
+ AST_destroyer_3:0 "S-class"
+ AST_destroyer_4:0 "Voyager-class"
+ AST_destroyer_5:0 "Bathurst-class"
+ AST_destroyer_6:0 "Tribal-class"
+ AST_destroyer_7:0 "Battle-class"
+ AST_destroyer_8:0 "Daring-class"
+ 
+ AST_light_cruiser_1:0 "Pelorus-class"
+ AST_light_cruiser_2:0 "Birmingham-class"
+ AST_light_cruiser_3:0 "Fremantle-class"
+ AST_light_cruiser_4:0 "Leander-class"
+ AST_light_cruiser_5:0 "Perth-class"
+ AST_light_cruiser_6:0 "Melbourne-class"
+
+ AST_heavy_cruiser_3:0 "Kent-class"
+ AST_heavy_cruiser_4:0 "London-class"
+ AST_heavy_cruiser_5:0 "Queensland-class"
+
+ AST_battle_cruiser_0:0 "Indefatigable-class"
+ AST_battle_cruiser_1:0 "Tasmania-class"
+ AST_battle_cruiser_2:0 "Australis-class"
+
+ AST_battleship_0:0 "Cerberus-class"
+ AST_battleship_1:0 "Cape Leeuwin-class"
+ AST_battleship_4:0 "Queen Victoria-class"
+ AST_battleship_8:0 "Westralia-class"
+ AST_battleship_9:0 "Oceania-class"
+
+ AST_carrier_1:0 "Van Diemen-class"
+ AST_carrier_4:0 "Endeavour-class"
+
+ AST_escort_carrier_0:0 "Albatross-class"
+ AST_escort_carrier_1:0 "Ballarat-class"
+ AST_escort_carrier_2:0 "Albatross-class"
+ AST_escort_carrier_3:0 "Ballarat-class"
+
+ AST_light_carrier_0:0 "Carpentaria-class"
+ AST_light_carrier_1:0 "Colossus-class"
+ AST_light_carrier_2:0 "Majestic-class"
+
+ ######################################################################
+ ###  BEL - BELGIUM
+######################################################################
+ BEL_destroyer_3:0 "Zinnia-class"
+ BEL_destroyer_5:0 "Artevelde-class"
+ BEL_destroyer_6:0 "Les Quatre Journées-class"
+
+ BEL_light_cruiser_5:0 "Wandelaar-class"
+ BEL_light_cruiser_6:0 "Wielingen-class"
+
+ BEL_heavy_cruiser_5:0 "Roi Albert-class"
+
+
+ ######################################################################
+ ###   BRA - BRAZIL
+######################################################################
+ BRA_submarine_3:0 "Balilla-class"
+ BRA_submarine_4:0 "Tubarão-class"
+ BRA_submarine_5:0 "A-class"
+ BRA_submarine_6:0 "Gato-class"
+ BRA_submarine_7:0 "Amazonas-class"
+ BRA_submarine_9:0 "Oberon-class"
+ 
+ BRA_destroyer_2:0 "Para-class"
+ BRA_destroyer_3:0 "Salvador-class"
+ BRA_destroyer_5:0 "Estilete-class"
+ BRA_destroyer_6:0 "Marcilio Dias-class"
+ BRA_destroyer_7:0 "Acre-class"
+ BRA_destroyer_8:0 "Marcilio Dias-class"
+ 
+ BRA_light_cruiser_0:0 "Republica-class"
+ BRA_light_cruiser_1:0 "Bahia-class"
+ BRA_light_cruiser_2:0 "Amazonas-class"
+ BRA_light_cruiser_3:0 "Bahia-class"
+ BRA_light_cruiser_4:0 "Sagitário-class"
+ BRA_light_cruiser_5:0 "Almirante-class"
+ BRA_light_cruiser_6:0 "Almirante Saldanha-class"
+
+ BRA_battle_cruiser_3:0 "Sao Paulo-class"
+ 
+ BRA_battleship_0:0 "Riachuelo-class"
+ BRA_battleship_3:0 "Minas Gerais-class"
+ BRA_battleship_4:0 "Rio de Janeiro-class"
+ BRA_battleship_5:0 "Minas Gerais-class"
+ 
+ BRA_carrier_0:0 "Belo Horizonte-class"
+ BRA_carrier_1:0 "Riachuelo-class"
+ BRA_carrier_3:0 "Brasil-class"
+ 
+ BRA_light_carrier_1:0 "Colossus-class"
+
+ ######################################################################
+ ###   BUL Bulgaria
+######################################################################
+
+ BUL_submarine_4:0 "Uzhilvane-class"
+ BUL_submarine_5:0 "Delfi-class"
+ BUL_submarine_6:0 "Akula-class"
+ 
+ BUL_destroyer_4:0 "Gordi-class"
+ BUL_destroyer_5:0 "Drazki-class"
+ BUL_destroyer_6:0 "Kyustendil-class"
+
+ BUL_light_cruiser_0:0 "Montana-class"
+ BUL_light_cruiser_1:0 "Stara Zagora-class"
+ BUL_light_cruiser_5:0 "Danube-class"
+ 
+ BUL_battleship_1:0 "Sofia-class"
+ BUL_battleship_2:0 "Varna-class"
+ BUL_battleship_3:0 "Sofia II-class"
+ 
+ 
+ ######################################################################
+ ###  CAN Canada
+######################################################################
+ CAN_submarine_1:0 "CC-class"
+ CAN_submarine_2:0 "H-boat-class"
+ CAN_submarine_7:0 "Balao-class"
+ CAN_submarine_9:0 "Oberon-class"
+ 
+ CAN_destroyer_0:0 "D-class"
+ CAN_destroyer_1:0 "E-class"
+ CAN_destroyer_2:0 "M-class"
+ CAN_destroyer_3:0 "S-class"
+ CAN_destroyer_4:0 "River-class"
+ CAN_destroyer_5:0 "G-class"
+ CAN_destroyer_6:0 "Tribal-class"
+ CAN_destroyer_7:0 "V-class"
+ CAN_destroyer_8:0 "C-class"
+ 
+ CAN_light_cruiser_0:0 "Apollo-class"
+ CAN_light_cruiser_1:0 "Sentinel-class"
+ CAN_light_cruiser_2:0 "Arethusa-class"
+ CAN_light_cruiser_3:0 "Emerald-class"
+ CAN_light_cruiser_4:0 "Leander-class"
+ CAN_light_cruiser_5:0 "Crown Colony-class"
+ CAN_light_cruiser_6:0 "Dido-class"
+ CAN_light_cruiser_7:0 "Minotaur-class"
+ CAN_light_cruiser_8:0 "Tiger-class" 
+ 
+ CAN_heavy_cruiser_0:0 "Shannon-class"
+ CAN_heavy_cruiser_1:0 "Diadem-class"
+ CAN_heavy_cruiser_2:0 "Minotaur-class"
+ CAN_heavy_cruiser_3:0 "County-class"
+ CAN_heavy_cruiser_4:0 "York-class"
+ CAN_heavy_cruiser_5:0 "Surrey-class"
+ 
+ CAN_battle_cruiser_0:0 "Invicible-class"
+ CAN_battle_cruiser_1:0 "Renown-class"
+ CAN_battle_cruiser_2:0 "Admiral-class"
+ CAN_battle_cruiser_3:0 "G3-class"
+ CAN_battle_cruiser_4:0 "Incomparable-class"
+ 
+ CAN_battleship_0:0 "Ajax-class"
+ CAN_battleship_1:0 "Majestic-class"
+ CAN_battleship_2:0 "Dreadnought-class"
+ CAN_battleship_3:0 "Dominion-class"
+ CAN_battleship_4:0 "Queen Elizabeth-class"
+ CAN_battleship_5:0 "N3-class"
+ CAN_battleship_6:0 "Nelson-class"
+ CAN_battleship_7:0 "King George V-class"
+ CAN_battleship_8:0 "Lion-class"
+ 
+ CAN_SH_battleship_1:0 "Superb-class"
+
+ CAN_carrier_0:0 "Courageous-class"
+ CAN_carrier_2:0 "Ark Royal-class"
+ CAN_carrier_3:0 "Illustrious-class"
+ CAN_carrier_4:0 "Implacable-class"
+ CAN_carrier_5:0 "Audacious-class"
+ CAN_carrier_6:0 "Malta-class"
+ CAN_carrier_7:0 "CVA-01-class"
+ 
+ CAN_escort_carrier_0:0 "Empress-class"
+ CAN_escort_carrier_1:0 "Argus-class"
+ CAN_escort_carrier_2:0 "Avenger-class"
+ CAN_escort_carrier_3:0 "Hermes-class"
+
+ CAN_light_carrier_0:0 "Unicorn-class"
+ CAN_light_carrier_1:0 "Colossus-class"
+ CAN_light_carrier_2:0 "Majestic-class"
+
+ ######################################################################
+ ###   CHI - Nationalist China
+######################################################################
+
+ CHI_submarine_4:0 "Jin-class"
+ CHI_submarine_5:0 "Guìyú-class"
+ CHI_submarine_6:0 "Yáomù-class"
+ CHI_submarine_7:0 "Hai Shih-class"
+ 
+ CHI_destroyer_3:0 "Wang-class"
+ CHI_destroyer_4:0 "Keelung-class"
+ CHI_destroyer_5:0 "Bajoi-class"
+ CHI_destroyer_6:0 "Han Yang-class"
+ CHI_destroyer_7:0 "Heng Yang-class"
+ CHI_destroyer_8:0 "Chao Yang-class"
+ 
+ CHI_light_cruiser_0:0 "Chao yong-class"
+ CHI_light_cruiser_1:0 "Tsugaru-class"
+ CHI_light_cruiser_2:0 "Chao Ho-class"
+ CHI_light_cruiser_3:0 "Wenshan-class"
+ CHI_light_cruiser_4:0 "Ning Hai-class"
+ CHI_light_cruiser_5:0 "Hong Ming-class"
+ CHI_light_cruiser_6:0 "Maoming-class"
+ 
+ CHI_heavy_cruiser_1:0 "Pingyuan-class"
+ CHI_heavy_cruiser_2:0 "Kasuga-class"
+ CHI_heavy_cruiser_3:0 "Hong Lung-class"
+ CHI_heavy_cruiser_4:0 "Zunyi-class"
+ CHI_heavy_cruiser_5:0 "Pu Jie-class"
+ 
+ CHI_battle_cruiser_2:0 "T'ai-pei-class"
+ 
+ CHI_carrier_0:0 "Formosa-class"
+ CHI_carrier_2:0 "Fuzhou-class"
+ 
+ CHI_escort_carrier_2:0 "Zhangyhum-class"
+ CHI_escort_carrier_3:0 "Zhangyhum-class"
+
+ ######################################################################
+ ###  CHL - Chile
+######################################################################
+ CHL_submarine_0:0 "Holland-class"
+ CHL_submarine_1:0 "E-boat-class"
+ CHL_submarine_2:0 "H-class"
+ CHL_submarine_3:0 "Capitan O'Brien-class"
+ CHL_submarine_4:0 "Lautaro-class"
+ CHL_submarine_5:0 "Union-class"
+ CHL_submarine_6:0 "Gualcolda-class"
+ CHL_submarine_7:0 "Silverstein-class"
+ CHL_submarine_9:0 "O'Brien-class"
+ 
+ CHL_heavy_submarine_0:0 "O'Higgins-class"
+ 
+ CHL_destroyer_0:0 "Parinacota-class"
+ CHL_destroyer_1:0 "Capitán Frey-class"
+ CHL_destroyer_2:0 "Almirante Lynch-class"
+ CHL_destroyer_3:0 "Temerario-class"
+ CHL_destroyer_4:0 "Serrano-class"
+ CHL_destroyer_5:0 "Capitán Thompson-class"
+ CHL_destroyer_6:0 "Capitan Eyzaguirre-class"
+ CHL_destroyer_7:0 "Blanco Encalada-class"
+ CHL_destroyer_8:0 "Bolados-class"
+ 
+ CHL_light_cruiser_0:0 "Esmerelda-class"
+ CHL_light_cruiser_1:0 "Valparaiso-class"
+ CHL_light_cruiser_2:0 "Tierra del fuego-class"
+ CHL_light_cruiser_3:0 "Concepción-class"
+ CHL_light_cruiser_4:0 "Atacama-class"
+ CHL_light_cruiser_5:0 "Los Lagos-class"
+ CHL_light_cruiser_6:0 "Magallanes-class"
+ CHL_light_cruiser_7:0 "Los Ríos-class"
+ CHL_light_cruiser_8:0 "Arica-class" 
+ 
+ CHL_heavy_cruiser_0:0 "Biobío-class"
+ CHL_heavy_cruiser_1:0 "Blanco Encalada-class"
+ CHL_heavy_cruiser_2:0 "Tarapacá-class"
+ CHL_heavy_cruiser_3:0 "Coquimbo-class"
+ CHL_heavy_cruiser_4:0 "Maule-class"
+ CHL_heavy_cruiser_5:0 "Constitución-class"
+ CHL_heavy_cruiser_6:0 "Cerro Fitz Roy-class"
+ CHL_heavy_cruiser_7:0 "Rondeau-class"
+ 
+ CHL_battle_cruiser_0:0 "Punta Gruesa-class"
+ CHL_battle_cruiser_1:0 "Angamos-class"
+ CHL_battle_cruiser_2:0 "Pilcomayo-class"
+ CHL_battle_cruiser_3:0 "Blockade of el Callao-class"
+ CHL_battle_cruiser_4:0 "Abtao-class"
+ CHL_battle_cruiser_5:0 "Papudo-class"
+ 
+ CHL_battleship_0:0 "Huáscar-class"
+ CHL_battleship_1:0 "Almirante Cochrane-class"
+ CHL_battleship_2:0 "Almirante Williams-class"
+ CHL_battleship_3:0 "Almirante Latorre-class"
+ CHL_battleship_4:0 "Almirante Winthrop Simpson-class"
+ CHL_battleship_5:0 "Cruz Prieto-class"
+ CHL_battleship_6:0 "Goñi Prieto-class"
+ CHL_battleship_7:0 "Rebolledo-class"
+ CHL_battleship_8:0 "Vanguardia-class"
+ CHL_battleship_9:0 "Almirante Montt-class"
+ 
+ CHL_escort_carrier_2:0 "Mapuche-class"
+ CHL_escort_carrier_3:0 "Mapuche-class"
+ CHL_escort_carrier_4:0 "Chiloe-class"
+
+ 
+ ######################################################################
+ ###   COL - Columbia
+######################################################################
+
+ COL_destroyer_3:0 "Caldas-class"
+ COL_destroyer_5:0 "San Jacinto-class"
+ COL_destroyer_7:0 "Antioquía-class"
+ COL_destroyer_8:0 "Caldas-class"
+ 
+ COL_light_cruiser_3:0 "Activo-class"
+ COL_light_cruiser_4:0 "Impertérrito-class"
+ COL_light_cruiser_5:0 "Buenaventura-class"
+
+ COL_heavy_cruiser_3:0 "Capitán Tylor-class"
+ COL_heavy_cruiser_4:0 "Capitan Oyama-class"
+ 
+ COL_battle_cruiser_3:0 "Simón Bolivar-class"
+ 
+ COL_battleship_1:0 "Constitución-class"
+ COL_battleship_4:0 "Independiente-class"
+ 
+ ######################################################################
+ ###   DEN - Denmark
+######################################################################
+
+ DEN_submarine_1:0 "Havmanden-class"
+ DEN_submarine_2:0 "B-class"
+ DEN_submarine_3:0 "Daphne-class"
+ DEN_submarine_5:0 "H-class"
+ DEN_submarine_9:0 "Delfinen-class"
+ 
+ DEN_destroyer_0:0 "D01-class"
+ DEN_destroyer_1:0 "D05-class"
+ DEN_destroyer_2:0 "D09-class"
+ DEN_destroyer_3:0 "D13-class"
+ DEN_destroyer_4:0 "Loven-class"
+ DEN_destroyer_5:0 "Ull-class"
+ DEN_destroyer_6:0 "Øredaggert-class"
+ 
+ DEN_light_cruiser_0:0 "Valkyrien-class"
+ DEN_light_cruiser_1:0 "Hejmdal-class"
+ DEN_light_cruiser_2:0 "Vaerge-class"
+ DEN_light_cruiser_3:0 "Bornholm-class"
+ DEN_light_cruiser_4:0 "Valkyrie-class"
+ DEN_light_cruiser_5:0 "Hoenir-class"
+ DEN_light_cruiser_6:0 "Valkyrie II-class"
+ 
+ DEN_heavy_cruiser_2:0 "Odin-class"
+ DEN_heavy_cruiser_3:0 "Niels Iuel-class"
+ DEN_heavy_cruiser_4:0 "Einmyria-class"
+
+ DEN_battleship_6:0 "Tyr-class"
+ DEN_battleship_7:0 "Thor-class"
+ 
+ DEN_carrier_0:0 "Jutland-class"
+ DEN_carrier_1:0 "Espingol-class"
+
+ ######################################################################
+ ###  ECU - Ecuador
+######################################################################
+ 
+ ECU_destroyer_8:0 "Presidente Elroy Alfaro-class"
+ 
+ ######################################################################
+ ###   FIN - Finland
+######################################################################
+
+ FIN_submarine_2:0 "AG-boat-class"
+ FIN_submarine_3:0 "Vetehinen-class"
+ 
+ FIN_heavy_cruiser_4:0 "Väinämöinen-class"
+
+ ######################################################################
+ ###   GRE - Greece
+###################################################################### GRE_submarine_1:0 "Katsonis Class"
+ GRE_submarine_0:0 "Nordenfelt I-class"
+ GRE_submarine_1:0 "Delfin-class"
+ GRE_submarine_2:0 "Hermes-class"
+ GRE_submarine_3:0 "Katsonis-class"
+ GRE_submarine_4:0 "Nemesis-class"
+ GRE_submarine_5:0 "Delphinos-class"
+ GRE_submarine_6:0 "Gato-class"
+ GRE_submarine_7:0 "Papanikolis-class"
+ 
+ GRE_destroyer_1:0 "Kikládhes-class"
+ GRE_destroyer_2:0 "Thyella-class"
+ GRE_destroyer_3:0 "Aetos-class"
+ GRE_destroyer_4:0 "Doxa-class"
+ GRE_destroyer_5:0 "Dardo-class"
+ GRE_destroyer_6:0 "Eptanisa-class"
+ GRE_destroyer_7:0 "Aspis-class"
+ GRE_destroyer_8:0 "Aposolis-class"
+ 
+ GRE_light_cruiser_0:0 "Navarchos Miaoulis-class"
+ GRE_light_cruiser_1:0 "Athinai-class"
+ GRE_light_cruiser_2:0 "Elli-class"
+ GRE_light_cruiser_3:0 "Kríti-class"
+ GRE_light_cruiser_4:0 "Eurybiades-class"
+ GRE_light_cruiser_5:0 "Psará-class"
+ GRE_light_cruiser_6:0 "Ares-class"
+ 
+ GRE_heavy_cruiser_1:0 "Helle-class"
+ GRE_heavy_cruiser_3:0 "Makedonia-class"
+ GRE_heavy_cruiser_4:0 "Thessalonike-class"
+ GRE_heavy_cruiser_5:0 "Thevai-class"
+ GRE_heavy_cruiser_6:0 "Hydra-class"
+ 
+ GRE_battle_cruiser_0:0 "Kypris-class"
+ GRE_battle_cruiser_3:0 "Konstantinoupolis-class"
+ 
+ GRE_battleship_0:0 "Hydra-class"
+ GRE_battleship_1:0 "Kilkis-class"
+ GRE_battleship_2:0 "Averoff-class"
+ GRE_battleship_4:0 "Salamis-class"
+ GRE_battleship_5:0 "Thermopylae-class"
+ GRE_battleship_6:0 "Megas Alexandros-class"
+ GRE_battleship_7:0 "Lysandros-class"
+
+ GRE_carrier_0:0 "Ouranos-class"
+ GRE_carrier_2:0 "Thermopylae-class"
+ 
+ GRE_escort_carrier_1:0 "Astraios-class"
+ GRE_escort_carrier_2:0 "Arkadia-class"
+ GRE_escort_carrier_3:0 "Anatolia-class"
+ 
+######################################################################
+ ###   HOL - Holland
+######################################################################
+ HOL_submarine_0:0 "O-1-class"
+ HOL_submarine_1:0 "O-2-class"
+ HOL_submarine_2:0 "O-6-class"
+ HOL_submarine_3:0 "O-9-class"
+ HOL_submarine_4:0 "O-16-class"
+ HOL_submarine_5:0 "O-12-class"
+ HOL_submarine_7:0 "Walrus-class"
+ HOL_submarine_9:0 "Dolfijn-class"
+ 
+ HOL_destroyer_2:0 "Roofdier-class"
+ HOL_destroyer_4:0 "Admiralen-class"
+ HOL_destroyer_6:0 "Gerard Callenburgh-class"
+ 
+ HOL_light_cruiser_0:0 "Holland-class"
+ HOL_light_cruiser_2:0 "Java-class"
+ HOL_light_cruiser_5:0 "Tromp-class"
+ HOL_light_cruiser_7:0 "Eendrach-class"
+ 
+ HOL_battle_cruiser_4:0 "Project 1047-class"
+ 
+ HOL_battleship_0:0 "Koning der Nederlanden-class"
+ HOL_battleship_1:0 "Evertsen-class"
+  
+ HOL_escort_carrier_2:0 "Gadila-class"
+ HOL_escort_carrier_3:0 "Gadila-class"
+
+ HOL_light_carrier_1:0 "Karel Doorman-class"
+ 
+ ######################################################################
+ ###  IRE - IRELAND
+######################################################################
+
+ IRE_submarine_5:0 "Bradán Feasa-class"
+ IRE_submarine_6:0 "Pooka-class"
+
+ IRE_destroyer_5:0 "Cúige-class"
+ IRE_destroyer_6:0 "Connacht-class"
+ IRE_destroyer_7:0 "Contae Mhuineacháin-class"
+
+ IRE_heavy_cruiser_3:0 "Granuaile-class"
+ 
+ ######################################################################
+ ###  LAT - LATVIA
+######################################################################
+ LAT_submarine_4:0 "Krovona-class"
+ 
+ LAT_destroyer_5:0 "Varonis-class"
+ LAT_destroyer_6:0 "Pieplitisa-class"
+ LAT_destroyer_7:0 "Ronis-class"
+ 
+ LAT_heavy_cruiser_1:0 "Riga-class"
+ ######################################################################
+ ###  LIT - LITHUANIA
+######################################################################
+
+ ######################################################################
+ ###  MEX - MEXICO
+######################################################################
+
+
+ ######################################################################
+ ###  NOR - NORWAY
+######################################################################
+ NOR_submarine_8:0 "Kobben-class"
+ 
+ NOR_battleship_2:0 "Tor-class"
+
+ ### POR - PORTUGAL ###
+ POR_submarine_1:0 "Foca Class"
+ POR_submarine_1_desc:0 "The Portuguese Foca-class represented three small submarines built in Italy for the Portuguese Navy shortly after World War I. They were enlarged versions of the Italian Espadarte-class and the sister ships of the Spanish A-class. They displaced only 260 tons and were armed with two 450mm torpedo tubes. All three ships were decommissioned by the mid-1930s."
+ POR_submarine_2:0 "Delfim Class"
+ POR_submarine_2_desc:0 "The Delfim-class consisted of a pair of submarines originally ordered and laid down in Italy for the Portuguese Navy in the early 1930s. The order was cancelled and they ships were instead completed for the Italian Navy. They were based on the large, Italian Squalo-class, displacing 980 tons and armed with eight 533mm torpedo tubes."
+ POR_submarine_4:0 "Narval Class"
+ POR_submarine_4_desc:0 "The Narval-class consisted of three British Subtle-class submarines that were commissioned in 1945 and sold to Portugal after World War II. They displaced 840 tons and were armed with seven 533mm torpedo tubes."
+ POR_destroyer_1:0 "Douro Class"
+ POR_destroyer_1_desc:0 "The Douro-class was a-class of seven destroyers launched in the early 1930s. They were built in both Portugal and the U.K. Two of the ships were sold to Colombia in 1934. The ships displaced over 1,200 tons and were armed with four BL 4.7 in. guns and eight 533mm torpedo tubes."
+ ### PRU - PERU ###
+ PRU_submarine_1:0 "R Class"
+ PRU_submarine_1_desc:0 "The Peruvian R-class submarines consisted of four subs ordered from and built by the U.S. in the mid-1920s. They were essentially identical to the U.S. R-class submarines, displacing over 570 tons and armed with four 533mm torpedo tubes."
+ PRU_destroyer_1:0 "Almirante Villar Class"
+ PRU_destroyer_1_desc:0 "The Almirante Villar and Amirante Guise were two former Russian Novik-class destroyers. They had a roundabout path to the Peruvian Navy, sailing under the flags of both the U.K. and Estonia before finally being delivered to Peru in 1934. They were armed with four 102mm/60 caliber guns and nine 533mm torpedo tubes. They displaced over 1,200 tons and had decent speed for their size and vintage."
+ PRU_light_cruiser_1:0 "Almirante Grau Class"
+ PRU_light_cruiser_1_desc:0 "The Almirante Grau-class consisted of two pre-WWI light cruisers built in Britain for the Peruvian Navy and commissioned in 1907. Even for a light cruiser, the ships were fairly small, displacing only 3,100 tons, and had below-average speed as well. They were lightly armored and had twin 152mm/50 caliber Vickers guns as their main armament."
+ ### RAJ - BRITISH RAJ ###
+ RAJ_submarine_1:0 "L Class"
+ RAJ_submarine_1_desc:0 "The L-class were medium sized boats originally planned under the Emergency War Program as an improved version of the previous submarine-classes. They were built in the late stages of World War I and were equipped with new, larger 21 in. torpedoes. They served until the beginning of World War II when they were mostly used for secondary and training duties."
+ RAJ_submarine_2:0 "T Class"
+ RAJ_submarine_2_desc:0 "The T-class or Triton-class boats were designed to replace the O, P, and R-class large submarines. They were moderately large submarines with long range well-suited for the Atlantic and Pacific Ocean. These boats were well-armed, stable platforms and were used extensively during the conflict, as 25 percent of the constructed boats were lost during the war."
+ RAJ_submarine_3:0 "U Class"
+ RAJ_submarine_3_desc:0 "The U-class were small-sized submarines built under the War Emergency 1940 and 1941 Programs. Originally designed as training submarines as the war broke out, the design changed, allowing these submarines to prove useful in the confined waters of the North Sea and the Mediterranean. Due to their smaller size, their range and the weaponry were limited. Three subclasses made up the-class: Undine, Umpire and Uproar."
+ RAJ_submarine_4:0 "V Class"
+ RAJ_submarine_4_desc:0 "The V-class or Vampire-class submarines were based on the previous U-class smaller sized boats. They were larger but still relatively small, with better seagoing ability but limited operational range and weaponry."
+ RAJ_destroyer_1:0 "V/W Class"
+ RAJ_destroyer_1_desc:0 "These destroyers included the Admirality and Thornycroft V and W-classes. They were built under the War Emergency Program. They were the ultimate evolution of British destroyer design during the First World War, embodying the improvements of their predecessors as well as new technological advances. Large numbers of these ships were built during the late stages of WWI and became the backbone of the Royal Navy's destroyer flotillas afterwards. Beginning in the 1930s, they were placed into reserve fleets, used eventually relegated to convoy escort duties. They were adequately-armed, fast vessels with good range."
+ RAJ_destroyer_2:0 "G/H/I Class"
+ RAJ_destroyer_2_desc:0 "The G, H, and I-class destroyers were ordered as part of the 1933 and 1934 Naval Construction Programs. They were generally repeats of the preceding F-class, with a slight reduction in size. Armament in the G and H-classes were the same as in the F-class, with both using on the 4.7 in. guns. These ships had long range, were adequately armed, and had a strong torpedo complement. They were used extensively during the war and suffered numerous losses."
+ RAJ_destroyer_3:0 "J/K/N Class"
+ RAJ_destroyer_3_desc:0 "The J, K, and N-classes were similar to the earlier Tribal-class but rather than emphasizing gun armament, the designers returned to a more standard heavy torpedo and lighter gun setup. The ships were modified throughout their wartime service. Upgrades included improved anti-aircraft guns and radar. They were fast, long-ranged and well-armed vessels ideal for fleet escorts."
+ RAJ_destroyer_4:0 "Battle Class"
+ RAJ_destroyer_4_desc:0 "The Battle-class destroyers built upon the evolution of British destroyers used throughout the war. The ships were ordered as part of the 1942 and 1943 Naval Programs. They were well-armed in terms of both their guns and their torpedoes. Their AA armament ASW capabilities, speed, and range made them versatile vessels. Their late introduction to the war led to a minimal contribution."
+ RAJ_light_cruiser_1:0 "C Class"
+ RAJ_light_cruiser_1_desc:0 "C-class light cruisers were a group of twenty-eight light cruisers of the Royal Navy. They were built before and during the First World War for the rough conditions of the North Sea. They proved to be rugged and capable vessels despite being somewhat small and cramped. Their armament was more than satisfactory, as they carried enough 6 in. guns to fight enemy surface targets and a heavy torpedo load. They saw extensive use during WWI and participated in many surface actions. Only the Caledon, Ceres, and Carlisle subclasses were in service by the mid 1930's."
+ RAJ_basic_light_cruiser:0 "Southampton Class"
+ RAJ_light_cruiser_2:0 "Southampton Class"
+ RAJ_light_cruiser_2_desc:0 "The Southampton-class light cruisers were a subclass of the Town-class cruisers and were designed to counter the Japanese Mogami-class cruisers. These vessels were well-armored, had good speed and range, and carried a formidable armament of twelve 6 in. guns in four triple turrets. They were the basis for many of the subsequent RN wartime light cruiser designs."
+ RAJ_light_cruiser_3:0 "Crown Colony Class"
+ RAJ_light_cruiser_3_desc:0 "The Crown Colony-class light cruisers were improved versions of the earlier Town-class but with a simplified design to speed up construction and reduce costs. The ships carried the same guns as their predecessors, four triple turrets housing 6 in. guns. They were similarly armored but because of their smaller engines, their range was somewhat reduced. The type included two subclasses: Fiji and Ceylon."
+ RAJ_light_cruiser_4:0 "Minotaur Class"
+ RAJ_light_cruiser_4_desc:0 "Also known as the Swiftsure-class, these cruisers were designed as a modified version of the Crown Colony-class, incorporating war modifications that were authorized in 1941. They had a longer operational range and more numerous AA weaponry than the Crown Colony-class, while the main armament was reduced to three triple turrets. Built too late to affect the outcome of the war, most of the ordered vessels were cancelled afterwards. "
+ RAJ_heavy_cruiser_1:0 "Hawkins Class"
+ RAJ_heavy_cruiser_1_desc:0 "The Hawkins-class cruisers were the first heavy cruisers in the world. They were based on the earlier Town-class light cruisers, particularly the Birmingham subclass, but equipped with 7.5 in. guns and a thicker armor belt. They were designed to fight the large convoy raiders of Germany. They were well-armed, had reasonable speed and range, and good protection. Altogether, five ships were commissioned but only four were active at the start of WWII."
+ RAJ_heavy_cruiser_2:0 "Surrey Class"
+ RAJ_heavy_cruiser_2_desc:0 "The Surrey-class heavy cruisers were proposed under the 1928 Naval Program. They were improved versions of the earlier York-class heavy cruisers. Had they been completed, they would have been equipped with four twin 8 in. gun turrets, heavier armor, and more powerful engines. Two ships were ordered but none were laid down."
+ RAJ_heavy_cruiser_3:0 "Admiral Class"
+ RAJ_heavy_cruiser_3_desc:0 "The Admiral-class heavy cruisers (not to be confused with the Admiral-class battlecruisers) were the Royal Navy's last attempt to design and build cruisers armed with 8 in. guns. Design studies started in 1938 and ended in 1941, resulting in various proposals. The final proposals featured new 8 in. guns in triple turrets, a heavy AA armament, thick armor, and good speed. A lack of enemy cruisers and the cost efficiency of these vessels resulted in a focus on building more light cruisers instead."
+ RAJ_heavy_cruiser_4:0 "Churchill Design"
+ RAJ_heavy_cruiser_4_desc:0 "These ships were proposed by Sir Winston Churchill, Lord of the Admirality, in the early stages of WWII to counter the German Deutschland-class big gun cruisers. These vessels would have had 9.2 in. cannons, heavy AA, and strong armor. They were designed to effectively battle the enemy capital ships. The ships were eventually cancelled because of high costs and a lack of demand for a new heavy cruiser. "
+ RAJ_battle_cruiser_1:0 "Renown Class"
+ RAJ_battle_cruiser_1_desc:0 "The Renown-class battlecruisers were originally laid down as improved versions of the Revenge-class battleships. Their construction was suspended at the outbreak of WWI. Admiral Lord Fisher managed to restart their construction as battlecruisers. These ships were the quintessential battlecruiser. They were well-armed, fast, and maneuverable, but had thinner armor and a shorter operational range. Only two of the original three ships, Repulse and Renown, were completed."
+ RAJ_battle_cruiser_2:0 "Princess Royal Class"
+ RAJ_battle_cruiser_2_desc:0 "The Princess Royal was a-class of hypothetical battlecruisers that were a faster and cheaper version of the King George V-class battleships. These vessels carried a similar but reduced armament for both surface and anti-air combat: two triple 14 in. cannons and six twin 5.25 in. AA guns. Their fast speed and long range would provide the Royal Navy quick strike capabilities and convoy protection, but their limited armor would prove problematic if they had to fight modern battleships."
+ RAJ_battleship_1:1 "Revenge Class"
+ RAJ_battleship_1_desc:1 "The Revenge-class battleships were ordered in 1913 as cheap versions of the Queen Elizabeth-class fast dreadnoughts. While similarly armed and armored, their considerably lower speed relegated them to secondary duties during WWII. Of the envisioned 8 ships of the-class, only 5 were finished."
+ RAJ_battleship_2:0 "King George V Class"
+ RAJ_battleship_2_desc:0 "The King George V-class battleships were the result of the 1922 Washington and 1930 First London Naval Treaties which limited the maximum displacement and gunnery of capital ships. As such, these ships were equipped with smaller-caliber cannons than earlier and even contemporary battleships. Despite the smaller caliber, the ships were adequately armed, carried strong AA weaponry, and had adequate protection. Five ships were ordered and laid down as replacement for the old Queen Elizabeth Class battleships."
+ RAJ_battleship_3:0 "Lion Class"
+ RAJ_battleship_3_desc:0 "The Lion-class battleships were the follow-up-class to King George V battleships, incorporating many of their features. Six ships were ordered in the 1938 Naval Program to replace the aging Revenge-class battleships but none were finished due to the erupting hostilities. The vessels would have been general similar to the King George-class, but the main armament would be heavier, introducing a new 16 in. cannon. They would also have thicker armor and more powerful engines."
+ RAJ_battleship_4:0 "Vanguard Class"
+ RAJ_battleship_4_desc:0 "The Vanguard-class battleship was the last battleship to be built for the Royal Navy. A single ship was ordered but four more were considered for the Pacific theater. Ordered under the 1940 Emergency War Program, construction did not gain a high priority and was finished after the war. The-class had a sleek hull, giving excellent stability and seaworthiness. The armament was the same as the Queen Elizabeth and Revenge-class battleships, providing considerable firepower. Strong engines and good armor made the vessel fast and well protected."
+ RAJ_SH_battleship_1:0 "Centurion Class"
+ RAJ_SH_battleship_1_desc:0 "The Centurion was a-class of hypothetical heavy battleships of the Royal Navy built to counter the large vessels of the German and Japanese navies. Large 18 in. guns and thick armor provide the ship with the necessary firepower and protection to battle these vessels. Strong AA armament, long range, and good speed were a necessity to cover the vast seas of the British Empire."
+ RAJ_SH_battleship_2:0 "Lion II Class"
+ RAJ_SH_battleship_2_desc:0 "The Lion II-class battleships were designed in 1944 as an improved version of the earlier Lion-class battleship. Incorporating wartime lessons, this design was larger and heavier, and if completed, would carry either three or four triple 16 in. guns of the latest type. Thick armor plates protected the ship from any surface or aerial foe. The cost to build these ships, the defeat of enemy navies, and the need for aircraft carriers resulted in the abandonment of the project."
+ RAJ_carrier_1:0 "Courageous Class"
+ RAJ_carrier_1_desc:0 "These three aircraft carriers were converted battlecruisers and were the first fleet carriers of the Royal Navy. Their conversion was the result of the Washington Naval Treaty of 1922 and the work was finished in 1925. They were moderately-armored but well-armed vessels, with long range and good speed, but due to the nature of the conversion their aircraft complement was limited. Nonetheless, they gave the Royal Navy important experience in aircraft carrier construction and fleet air projection."
+ RAJ_carrier_2:0 "Ark Royal Class"
+ RAJ_carrier_2_desc:0 "The Ark Royal aircraft carrier was the first such vessel to be built to fit the restrictions of the Washington Naval Treaty. She was the first ship on which the hangars and flight deck were an integral part of the hull. Designed in 1934, the vessel was well-armored and armed. It carried a large complement of aircraft and had adequate operational range and speed to keep up with the major forces of the Royal Navy."
+ RAJ_carrier_3:0 "Illustrious Class"
+ RAJ_carrier_3_desc:0 "The Illustrious-class was designed within the restrictions of the Second London Naval Treaty of 1936, which limited carrier size to an upper limit of 23,000 tons. She was the first British carrier to have an armored flight deck, which reduced its air group size. Heavy armor and AA weaponry provided a strong defense for the ships, while powerful engines and a large fuel store gave the ships long operational range. "
+ RAJ_carrier_4:0 "Implacable Class"
+ RAJ_carrier_4_desc:0 "The Implacable-class aircraft carriers were ordered under the 1938 Naval Program and were essentially improved versions of the earlier Illustrious-class. The war and the shift of priority to smaller vessels for convoy protection duties in the early and middle stages of the war slowed the constriction of these vessels. They were larger vessels able to carry more planes while maintaining thick armor on both the hull and flight deck. More powerful engines gave it greater speed and operational range compared to the Illustrious-class."
+ ### ROM - ROMANIA ###
+ ROM_submarine_1:0 "Delfinul Class"
+ ROM_submarine_1_desc:0 "The Delfinul was a Romanian submarine built in Italy for the Romanian Navy. It was launched in 1930 and the ship displaced 650 tons and was armed with six 533mm torpedo tubes."
+ ROM_submarine_3:0 "Requinul Class"
+ ROM_submarine_3_desc:0 "The Requinul and Marsuinul submarines were built by the Germans for their Romanian allies. They were commissioned in 1943. The ships were based on the German Type VII submarines. The ships were medium-sized submarines, displacing 600 tons, and were armed with six 533mm torpedo tubes."
+ ROM_destroyer_1:0 "Marasti Class"
+ ROM_destroyer_1_desc:0 "The Marasti-class was a-class of destroyers built for Romania during World War I. The four ships of the-class were requisitioned by the Italian Navy during the war, and two were eventually sold to Romania in the early 1920s. They were larger destroyers, displacing over 1,400 tons. They were armed with four 120mm/45 Schneider-Canet-Armstrong guns and four 450mm torpedo tubes. They had average speed and reliability for their vintage."
+ #ROM_destroyer_1b: "Regele Ferdinand Class"
+ ### SAF - SOUTH AFRICA ###
+ SAF_submarine_1:0 "L Class"
+ SAF_submarine_1_desc:0 "The L-class were medium sized boats originally planned under the Emergency War Program as an improved version of the previous submarine-classes. They were built in the late stages of World War I and were equipped with new, larger 21 in. torpedoes. They served until the beginning of World War II when they were mostly used for secondary and training duties."
+ SAF_submarine_2:0 "T Class"
+ SAF_submarine_2_desc:0 "The T-class or Triton-class boats were designed to replace the O, P, and R-class large submarines. They were moderately large submarines with long range well-suited for the Atlantic and Pacific Ocean. These boats were well-armed, stable platforms and were used extensively during the conflict, as 25 percent of the constructed boats were lost during the war."
+ SAF_submarine_3:0 "U Class"
+ SAF_submarine_3_desc:0 "The U-class were small-sized submarines built under the War Emergency 1940 and 1941 Programs. Originally designed as training submarines as the war broke out, the design changed, allowing these submarines to prove useful in the confined waters of the North Sea and the Mediterranean. Due to their smaller size, their range and the weaponry were limited. Three subclasses made up the-class: Undine, Umpire and Uproar."
+ SAF_submarine_4:0 "V Class"
+ SAF_submarine_4_desc:0 "The V-class or Vampire-class submarines were based on the previous U-class smaller sized boats. They were larger but still relatively small, with better seagoing ability but limited operational range and weaponry."
+ SAF_destroyer_1:0 "V/W Class"
+ SAF_destroyer_1_desc:0 "These destroyers included the Admirality and Thornycroft V and W-classes. They were built under the War Emergency Program. They were the ultimate evolution of British destroyer design during the First World War, embodying the improvements of their predecessors as well as new technological advances. Large numbers of these ships were built during the late stages of WWI and became the backbone of the Royal Navy's destroyer flotillas afterwards. Beginning in the 1930s, they were placed into reserve fleets, eventually relegated to convoy escort duties. They were adequately-armed, fast vessels with good range."
+ SAF_destroyer_2:0 "G/H/I Class"
+ SAF_destroyer_2_desc:0 "The G, H, and I-class destroyers were ordered as part of the 1933 and 1934 Naval Construction Programs. They were generally repeats of the preceding F-class, with a slight reduction in size. Armament in the G and H-classes was the same as in the F-class, with both using on the 4.7 in. guns. These ships had long range, were adequately armed, and had a strong torpedo complement. They were used extensively during the war and suffered numerous losses."
+ SAF_destroyer_3:0 "J/K/N Class"
+ SAF_destroyer_3_desc:0 "The J, K, and N-classes were similar to the earlier Tribal-class but rather than emphasizing gun armament, the designers returned to a more standard heavy torpedo and lighter gun setup. The ships were modified throughout their wartime service. Upgrades included improved anti-aircraft guns and radar. They were fast, long-ranged and well-armed vessels ideal for fleet escorts."
+ SAF_destroyer_4:0 "Battle Class"
+ SAF_destroyer_4_desc:0 "The Battle-class destroyers built upon the evolution of British destroyers used throughout the war The ships were ordered as part of the 1942 and 1943 Naval Programs. They were well-armed in terms of both their guns and their torpedoes. Their AA armament ASW capabilities, speed, and range made them versatile vessels. Their late introduction to the war led to a minimal contribution."
+ SAF_light_cruiser_1:0 "C Class"
+ SAF_light_cruiser_1_desc:0 "C-class light cruisers were a group of twenty-eight light cruisers of the Royal Navy. They were built before and during the First World War for the rough conditions of the North Sea. They proved to be rugged and capable vessels despite being somewhat small and cramped. Their armament was more than satisfactory, as they carried enough 6 in. guns to fight enemy surface targets and a heavy torpedo load. They saw extensive use during WWI and participated in many surface actions. Only the Caledon, Ceres, and Carlisle subclasses were in service by the mid 1930's."
+ SAF_light_cruiser_2:0 "Southampton Class"
+ SAF_light_cruiser_2_desc:0 "The Southampton-class light cruisers were a subclass of the Town-class cruisers and were designed to counter the Japanese Mogami-class cruisers. These vessels were well-armored, had good speed and range, and carried a formidable armament of twelve 6 in. guns in four triple turrets. They were the basis for many of the subsequent RN wartime light cruiser designs."
+ SAF_light_cruiser_3:0 "Crown Colony Class"
+ SAF_light_cruiser_3_desc:0 "The Crown Colony-class light cruisers were improved versions of the earlier Town-class but with a simplified design to speed up construction and reduce costs. The ships carried the same guns as their predecessors, four triple turrets housing 6 in. guns. They were similarly armored but because of their smaller engines, their range was somewhat reduced. The type included two subclasses: Fiji and Ceylon."
+ SAF_light_cruiser_4:0 "Minotaur Class"
+ SAF_light_cruiser_4_desc:0 "Also known as the Swiftsure-class, these cruisers were designed as a modified version of the Crown Colony-class, incorporating war modifications that were authorized in 1941. They had a longer operational range and more numerous AA weaponry than the Crown Colony-class, while the main armament was reduced to three triple turrets. Built too late to affect the outcome of the war, most of the ordered vessels were cancelled afterwards. "
+ SAF_heavy_cruiser_1:0 "Hawkins Class"
+ SAF_heavy_cruiser_1_desc:0 "The Hawkins-class cruisers were the first heavy cruisers in the world. They were based on the earlier Town-class light cruisers, particularly the Birmingham subclass, but equipped with 7.5 in. guns and a thicker armor belt. They were designed to fight the large convoy raiders of Germany. They were well-armed, had reasonable speed and range, and good protection. Altogether, five ships were commissioned but only four were active at the start of WWII."
+ SAF_heavy_cruiser_2:0 "Surrey Class"
+ SAF_heavy_cruiser_2_desc:0 "The Surrey-class heavy cruisers were proposed under the 1928 Naval Program. They were improved versions of the earlier York-class heavy cruisers. Had they been completed, they would have been equipped with four twin 8 in. gun turrets, heavier armor, and more powerful engines. Two ships were ordered but none were laid down."
+ SAF_heavy_cruiser_3:0 "Admiral Class"
+ SAF_heavy_cruiser_3_desc:0 "The Admiral-class heavy cruisers (not to be confused with the Admiral-class battlecruisers) were the Royal Navy's last attempt to design and build cruisers armed with 8 in. guns. Design studies started in 1938 and ended in 1941, resulting in various proposals. The final proposals featured new 8 in. guns in triple turrets, a heavy AA armament, thick armor, and good speed. A lack of enemy cruisers and the cost efficiency of these vessels resulted in a focus on building more light cruisers instead."
+ SAF_heavy_cruiser_4:0 "Churchill Design"
+ SAF_heavy_cruiser_4_desc:0 "These ships were proposed by Sir Winston Churchill, Lord of the Admirality, in the early stages of WWII to counter the German Deutschland-class big gun cruisers. These vessels would have had 9.2 in. cannons, heavy AA, and strong armor. They were designed to effectively battle the enemy capital ships. The ships were eventually cancelled because of high costs and a lack of demand for a new heavy cruiser. "
+ SAF_battle_cruiser_1:0 "Renown Class"
+ SAF_battle_cruiser_1_desc:0 "The Renown-class battlecruisers were originally laid down as improved versions of the Revenge-class battleships. Their construction was suspended at the outbreak of WWI. Admiral Lord Fisher managed to restart their construction as battlecruisers. These ships were the quintessential battlecruiser. They were well-armed, fast, and maneuverable, but had thinner armor and a shorter operational range. Only two of the original three ships, Repulse and Renown, were completed."
+ SAF_battle_cruiser_2:0 "Princess Royal Class"
+ SAF_battle_cruiser_2_desc:0 "The Princess Royal was a-class of hypothetical battlecruisers that were a faster and cheaper version of the King George V-class battleships. These vessels carried a similar but reduced armament for both surface and anti-air combat: two triple 14 in. cannons and six twin 5.25 in. AA guns. Their fast speed and long range would provide the Royal Navy quick strike capabilities and convoy protection, but their limited armor would prove problematic if they had to fight modern battleships."
+ SAF_battleship_1:1 "Revenge Class"
+ SAF_battleship_1_desc:1 "The Revenge-class battleships were ordered in 1913 as cheap versions of the Queen Elizabeth-class fast dreadnoughts. While similarly armed and armored, their considerably lower speed relegated them to secondary duties during WWII. Of the envisioned 8 ships of the-class, only 5 were finished."
+ SAF_battleship_2:0 "King George V Class"
+ SAF_battleship_2_desc:0 "The King George V-class battleships were the result of the 1922 Washington and 1930 First London Naval Treaties which limited the maximum displacement and gunnery of capital ships. As such, these ships were equipped with smaller-caliber cannons than earlier and even contemporary battleships. Despite the smaller caliber, the ships were adequately armed, carried strong AA weaponry, and had adequate protection. Five ships were ordered and laid down as replacement for the old Queen Elizabeth Class battleships."
+ SAF_battleship_3:0 "Lion Class"
+ SAF_battleship_3_desc:0 "The Lion-class battleships were the follow-up-class to King George V battleships, incorporating many of their features. Six ships were ordered in the 1938 Naval Program to replace the aging Revenge-class battleships but none were finished due to the erupting hostilities. The vessels would have been general similar to the King George-class, but the main armament would be heavier, introducing a new 16 in. cannon. They would also have thicker armor and more powerful engines."
+ SAF_battleship_4:0 "Vanguard Class"
+ SAF_battleship_4_desc:0 "The Vanguard-class battleship was the last battleship to be built for the Royal Navy. A single ship was ordered but four more were considered for the Pacific theater. Ordered under the 1940 Emergency War Program, construction did not gain a high priority and it was finished after the war. The-class had a sleek hull, giving excellent stability and seaworthiness. The armament was the same as the Queen Elizabeth and Revenge-class battleships, providing considerable firepower. Strong engines and good armor made the vessel fast and well protected."
+ SAF_SH_battleship_1:0 "Centurion Class"
+ SAF_SH_battleship_1_desc:0 "The Centurion was a-class of hypothetical heavy battleships of the Royal Navy built to counter the large vessels of the German and Japanese navies. Large 18 in. guns and thick armor provide the ship with the necessary firepower and protection to battle these vessels. Strong AA armament, long range, and good speed were a necessity to cover the vast seas of the British Empire."
+ SAF_SH_battleship_2:0 "Lion II Class"
+ SAF_SH_battleship_2_desc:0 "The Lion II-class battleships were designed in 1944 as an improved version of the earlier Lion-class battleship. Incorporating wartime lessons, this design was larger and heavier, and if completed, would carry either three or four triple 16 in. guns of the latest type. Thick armor plates protected the ship from any surface or aerial foe. The cost to build these ships, the defeat of enemy navies, and the need for aircraft carriers resulted in the abandonment of the project."
+ SAF_carrier_1:0 "Courageous Class"
+ SAF_carrier_1_desc:0 "These three aircraft carriers were converted battlecruisers and were the first fleet carriers of the Royal Navy. Their conversion was the result of the Washington Naval Treaty of 1922 and the work was finished in 1925. They were moderately-armored but well-armed vessels, with long range and good speed, but due to the nature of the conversion their aircraft complement was limited. Nonetheless, they gave the Royal Navy important experience in aircraft carrier construction and fleet air projection."
+ SAF_carrier_2:0 "Ark Royal Class"
+ SAF_carrier_2_desc:0 "The Ark Royal aircraft carrier was the first such vessel to be built to fit the restrictions of the Washington Naval Treaty. She was the first ship on which the hangars and flight deck were an integral part of the hull. Designed in 1934, the vessel was well-armored and armed. It carried a large complement of aircraft and had adequate operational range and speed to keep up with the major forces of the Royal Navy."
+ SAF_carrier_3:0 "Illustrious Class"
+ SAF_carrier_3_desc:0 "The Illustrious-class was designed within the restrictions of the Second London Naval Treaty of 1936, which limited carrier size to an upper limit of 23,000 tons. She was the first British carrier to have an armored flight deck, which reduced its air group size. Heavy armor and AA weaponry provided a strong defense for the ships, while powerful engines and a large fuel store gave the ships long operational range. "
+ SAF_carrier_4:0 "Implacable Class"
+ SAF_carrier_4_desc:0 "The Implacable-class aircraft carriers were ordered under the 1938 Naval Program and were essentially improved versions of the earlier Illustrious-class. The war and the shift of priority to smaller vessels for convoy protection duties in the early and middle stages of the war slowed the constriction of these vessels. They were larger vessels able to carry more planes while maintaining thick armor on both the hull and flight deck. More powerful engines gave it greater speed and operational range compared to the Illustrious-class."
+ ### SIA - SIAM ###
+ SIA_submarine_2:0 "Vilun Class"
+ SIA_submarine_2_desc:0 "The Vilun-class submarines were four small coastal subs built in Japan for the Royal Thai Navy between 1936 and 1938. They displaced 370 tons and were armed with five 533mm torpedo tubes."
+ SIA_destroyer_1:0 "Phra Ruang Class"
+ SIA_destroyer_1_desc:0 "The Phra Ruang was a former British R-class destroyer that was sold to The Royal Thai Navy in 1920. The ship displaced just over 1,000 tons and was armed with three 120mm/45 QF Mk IV guns and four 533mm torpedo tubes. They had good speed, range, and reliability for their vintage."
+ SIA_light_cruiser_3:0 "Taskin Class"
+ SIA_light_cruiser_3_desc:0 "The Taskin-class consisted of a pair of light cruisers built in Italy. They were launched in 1941 but were requisitioned by the Siamese navy in 1942. They were to become the Etna-class Italian AA cruisers of the Regia Marina but were never completed before the Italian armistice. They would have displaced 5,900 tons and been armed with six 152mm/53 OTO 1929 guns in their main armament. They would have had decent armor but would be fairly slow for a cruiser."
+ SIA_heavy_cruiser_1:0 "Sri Ayuthia Class"
+ SIA_heavy_cruiser_1_desc:0 "The Sri Ayuthia-class coastal defense ships were perhaps the last ships of this type built in the world, with both ships of the-class built in Japan and commissioned for the Royal Thai Navy in 1938. The design was comparable to a small cruiser (or large destroyer) in size, to a battleship in speed, and to a heavy cruiser in armament. Its main guns were four 203mm/53 3-Shiki cannon. They were lightly armored compared to contemporary heavy cruisers."
+ 
+ ### SPA - NATIONALIST SPAIN ###
+ SPA_submarine_1:0 "B Class"
+ SPA_submarine_1_desc:0 "The B-class were the first submarines built within Spain for the Spanish Navy. The six ships of the-class were commissioned between 1922 and 1925. They were designed as single-hulled ships, and consequently their reliability was subpar. They were medium-sized submarines, displacing over 550 tons. They were armed with four 450mm torpedo tubes."
+ #SPA_submarine_1b: "C Class"
+ SPA_submarine_2:0 "General Mola Class"
+ SPA_submarine_2_desc:0 "§The General Mola-class was a-class of four Italian Archimedes-class submarines commissioned in 1934 and transferred to the Nationalists in 1937. They were fairly large, displacing 880 tons, yet faster than most subs. They were armed with eight 533mm torpedo tubes and had a diving depth of 90m."
+ SPA_submarine_3:0 "G Class"
+ SPA_submarine_3_desc:0 "The Spanish G-class submarines were a pair of German VIIC-class submarines licensed-built by Nationalist Spain. Only one was ever completed, however, and was not transferred to the Spanish Navy until 1947. The subs displaced 770 tons and were armed with five 533mm torpedo tubes. They had excellent speed and range, as the Type VIICs were the workhorse of the German submarine fleet."
+ SPA_submarine_4:0 "D Class"
+ SPA_submarine_4_desc:0 "The three submarines of the Spanish D-class were all launched in 1944 and commissioned at various times after the war. All three were designed and built in Spain. They were large, oceangoing submarines, displacing 1,050 tons. They were armed with six 533mm torpedo tubes and had excellent speed and range."
+ SPA_destroyer_1:0 "Alsedo Class"
+ SPA_destroyer_1_desc:0 "The three destroyers of the Alsedo-class were built for the Spanish Navy in Spain. They were based on the British L-class design, and were commissioned between 1924 and 1925. They displaced over 1,040 tons and had three 102mm/45 Vickers Mk LA guns as their main armament, as well as four 450mm torpedo tubes. They had decent speed and range for their vintage as well."
+ SPA_destroyer_2:0 "Churruca Class"
+ SPA_destroyer_2_desc:0 "The Spanish Churruca-class included sixteen destroyers launched between 1925 and 1933, two of which were later sold to Argentina. The ships were designed based on the British S-class destroyers and made up the backbone of the Spanish Navy during the Civil War. They displaced over 1,500 tons and were armed with five 120mm/45 Vickers-Armstrong guns in their main armament, as well as six 533mm torpedo tubes. They had good speed and excellent range. "
+ SPA_destroyer_4:0 "Álava Class"
+ SPA_destroyer_4_desc:0 "The Álava-class destroyers were launched postwar as upgrades to the previous Almirante Antequera-class (which was a subclass of the earlier Churruca-class). They displaced 1,710 tons and had four 120mm/45 Vickers-Armstrong Mk Fs as their main guns. Their speed and range were comparable to the earlier designs that the-class built upon."
+ SPA_light_cruiser_1:0 "Méndez Núñes Class"
+ SPA_light_cruiser_1_desc:0 "The Méndez Núñes-class light cruisers were a pair of cruisers built within Spain for the Spanish Navy in the early 1920s. The ships were ordered in 1915 but materials shortages during World War I delayed construction. The design was heavily influenced by the British C-class cruisers. The cruisers displaced nearly 4,800 tons but was relatively slow. Its main armament consisted of six 152mm/50 Vickers Mk V guns. It also had good armor and a dozen 533mm torpedo tubes."
+ #SPA_light_cruiser_1b: "Príncipe Alfonso Class"
+ SPA_heavy_cruiser_1:0 "Princesa de Asturias Class"
+ SPA_heavy_cruiser_1_desc:0 "The Princesa de Asturias-class consisted of three armored cruisers built for the Spanish Navy around the turn of the century. All three had been either scrapped or wrecked by the mid-1930s. They were armed with twin 240mm Guillén M1896 and eight 140mm/33 Schneider-Canet guns. They were heavily armored but also somewhat slow compared to a standard heavy cruiser."
+ SPA_heavy_cruiser_2:0 "Canarias Class"
+ SPA_heavy_cruiser_2_desc:0 "The two heavy cruisers of the Canarias-class were built to the specifications of the Washington Naval treay. They were launched in the early 1930s but not completed until 1936. They displaced nearly 10,700 tons and had good speed. They were relatively lightly armored but sported eight 203mm/50 Vickers-Armstrong Mk D guns as their main armament."
+ SPA_battleship_1:0 "España Class"
+ SPA_battleship_1_desc:0 "The España-class was originally a-class of three dreadnought battleships that were commissioned around the time of World War I, though one had wrecked by the time of the Spanish Civil War. The other two were lost during the war. They were fairly small for a battleship, displacing just over 15,400 tons. They had decent armor and decent speed, however, and had a main battery of eight 305mm/50 Vickers H guns. "
+ ### SPR - REPUBLICAN SPAIN ###
+ SPR_submarine_1:0 "B Class"
+ SPR_submarine_1_desc:0 "The B-class were the first submarines built within Spain for the Spanish Navy. The six ships of the-class were commissioned between 1922 and 1925. They were designed as single-hulled ships, and consequently their reliability was subpar. They were medium-sized submarines, displacing over 550 tons. They were armed with four 450mm torpedo tubes."
+ #SPR_submarine_1b: "C Class"
+ SPR_submarine_2:0 "General Mola Class"
+ SPR_submarine_2_desc:0 "§The General Mola-class was a-class of four Italian Archimedes-class submarines commissioned in 1934 and transferred to the Nationalists in 1937. They were fairly large, displacing 880 tons, yet faster than most subs. They were armed with eight 533mm torpedo tubes and had a diving depth of 90m."
+ SPR_submarine_3:0 "G Class"
+ SPR_submarine_3_desc:0 "The Spanish G-class submarines were a pair of German VIIC-class submarines licensed-built by Nationalist Spain. Only one was ever completed, however, and was not transferred to the Spanish Navy until 1947. The subs displaced 770 tons and were armed with five 533mm torpedo tubes. They had excellent speed and range, as the Type VIICs were the workhorse of the German submarine fleet."
+ SPR_submarine_4:0 "D Class"
+ SPR_submarine_4_desc:0 "The three submarines of the Spanish D-class were all launched in 1944 and commissioned at various times after the war. All three were designed and built in Spain. They were large, oceangoing submarines, displacing 1,050 tons. They were armed with six 533mm torpedo tubes and had excellent speed and range."
+ SPR_destroyer_1:0 "Alsedo Class"
+ SPR_destroyer_1_desc:0 "The three destroyers of the Alsedo-class were built for the Spanish Navy in Spain. They were based on the British L-class design, and were commissioned between 1924 and 1925. They displaced over 1,040 tons and had three 102mm/45 Vickers Mk LA guns as their main armament, as well as four 450mm torpedo tubes. They had decent speed and range for their vintage as well."
+ SPR_destroyer_2:0 "Churruca Class"
+ SPR_destroyer_2_desc:0 "The Spanish Churruca-class included sixteen destroyers launched between 1925 and 1933, two of which were later sold to Argentina. The ships were designed based on the British S-class destroyers and made up the backbone of the Spanish Navy during the Civil War. They displaced over 1,500 tons and were armed with five 120mm/45 Vickers-Armstrong guns in their main armament, as well as six 533mm torpedo tubes. They had good speed and excellent range. "
+ SPR_destroyer_4:0 "Álava Class"
+ SPR_destroyer_4_desc:0 "The Álava-class destroyers were launched postwar as upgrades to the previous Almirante Antequera-class (which was a subclass of the earlier Churruca-class). They displaced 1,710 tons and had four 120mm/45 Vickers-Armstrong Mk Fs as their main guns. Their speed and range were comparable to the earlier designs that the-class built upon."
+ SPR_light_cruiser_1:0 "Méndez Núñes Class"
+ SPR_light_cruiser_1_desc:0 "The Méndez Núñes-class light cruisers were a pair of cruisers built within Spain for the Spanish Navy in the early 1920s. The ships were ordered in 1915 but materials shortages during World War I delayed construction. The design was heavily influenced by the British C-class cruisers. The cruisers displaced nearly 4,800 tons but was relatively slow. Its main armament consisted of six 152mm/50 Vickers Mk V guns. It also had good armor and a dozen 533mm torpedo tubes."
+ #SPR_light_cruiser_1b: "Príncipe Alfonso Class"
+ SPR_heavy_cruiser_1:0 "Princesa de Asturias Class"
+ SPR_heavy_cruiser_1_desc:0 "The Princesa de Asturias-class consisted of three armored cruisers built for the Spanish Navy around the turn of the century. All three had been either scrapped or wrecked by the mid-1930s. They were armed with twin 240mm Guillén M1896 and eight 140mm/33 Schneider-Canet guns. They were heavily armored but also somewhat slow compared to a standard heavy cruiser."
+ SPR_heavy_cruiser_2:0 "Canarias Class"
+ SPR_heavy_cruiser_2_desc:0 "The two heavy cruisers of the Canarias-class were built to the specifications of the Washington Naval treay. They were launched in the early 1930s but not completed until 1936. They displaced nearly 10,700 tons and had good speed. They were relatively lightly armored but sported eight 203mm/50 Vickers-Armstrong Mk D guns as their main armament."
+ SPR_battleship_1:0 "España Class"
+ SPR_battleship_1_desc:0 "The España-class was originally a-class of three dreadnought battleships that were commissioned around the time of World War I, though one had wrecked by the time of the Spanish Civil War. The other two were lost during the war. They were fairly small for a battleship, displacing just over 15,400 tons. They had decent armor and decent speed, however, and had a main battery of eight 305mm/50 Vickers H guns. "
+ ### SWE - SWEEDEN ###
+ SWE_submarine_1:0 "Hajen Class"
+ SWE_submarine_1_desc:0 "The Hajen, Bävern, Valen-classes were a series of small to medium-sized submarines built for the Swedish Navy during the 1920s. The Hajen-class, commissioned in 1920, had submarines that displaced nearly 400 tons and were armed with four 450mm torpedo tubes. They had a diving depth of only 30m."
+ #SWE_submarine_1b: "Draken Class"
+ SWE_submarine_2:0 "Sjölejonet Class"
+ SWE_submarine_2_desc:0 "The Sjölejonet-class consisted of nine submarines built between 1936 and 1942. They were medium-sized subs, displacing 580 tons, and their design was heavily influenced by the Dutch O-class submarines. They were armed with six 533mm torpedo tubes and had a diving depth of 60m. "
+ SWE_submarine_3:0 "U Class"
+ SWE_submarine_3_desc:0 "The Swedish U-class submarines were a-class of nine subs commissioned between 1942 and 1944. They were fairly small and relatively slow, displacing only 370 tons. They were armed with four 533mm torpedo tubes."
+ SWE_submarine_4:0 "Neptun Class"
+ SWE_submarine_4_desc:0 "The Neptun-class consisted of three medium-sized submarines that were all commissioned in 1943. They were used primarily for minelaying duties. They displaced 550 tons and were armed with five 533mm torpedo tubes."
+ SWE_destroyer_1:0 "Ehrensköld Class"
+ SWE_destroyer_1_desc:0 "The two destroyers of the Ehrensköld-class were completed in 1927, as the first modern destroyers for Sweden following World War I. They displaced just over 970 tons and were armed with three 120mm/44 K/45 guns and six 533mm torpedo tubes. They had a short range but good speed."
+ SWE_destroyer_2:0 "Göteborg Class"
+ SWE_destroyer_2_desc:0 "The Göteborg-class consisted of six destroyers built between 1935 and 1942. They had a longer hull and improved machinery compared to their predecessors. They displaced just over 1,020 tons and had a main armament of 120mm/44 K/45 guns, and also six 533mm torpedo tubes. They had a limited range but excellent speed."
+ SWE_destroyer_3:0 "Visby Class"
+ SWE_destroyer_3_desc:0 "The four destroyers of the Visby-class were all built between 1942 and 1944. They were similar to the earlier Göteborg-class, but were larger, displacing over 1,130 tons. They also had improved engines, somewhat better range, and a strong ASW complement of equipment."
+ SWE_destroyer_4:0 "Öland Class"
+ SWE_destroyer_4_desc:0 "§The two Öland-class destroyers represented a radical change from previous designs. They were launched and completed shortly after World War II. They were large, displacing 1,880 tons. They were armed with four 120mm/45 M44 guns in their main armament, and had a strong AA, torpedo, and ASW complement. They were slightly slower than earlier destroyers, but had a significantly improved range."
+ SWE_light_cruiser_1:0 "Fylgia Class"
+ SWE_light_cruiser_1_desc:0 "The Fylgia was a relatively small armored cruiser that was commissioned for the Swedish Navy in 1905. The performed mostly training duties during the war, and underwent an extensive refit in 1939-41. Prior to the refit, she displaced over 4,300 tons and was armed with six 152mm/45 K/50 M1903 guns in her main armament. She had good armor, but was relatively slow for a cruiser."
+ SWE_light_cruiser_4:0 "Tre Kronor Class"
+ SWE_light_cruiser_4_desc:0 "The Tre Kronor-class consisted of a pair of light cruisers completed for the Swedish Navy just after the end of World War II. They displaced just under 7,700 tons and had decent speed and range. Their main armament consisted of seven 152/53 M42 guns. They had a strong complement of AA guns, torpedoes and ASW equipment as well."
+ SWE_heavy_cruiser_1:0 "Sverige Class"
+ SWE_heavy_cruiser_1_desc:0 "The Sverige-class consisted of three coastal battleships built for the Swedish Navy before World War I. The ships more closely resembled heavy cruisers in both size (displacement of over 6,800 tons) and armament (four 283mm/44 K/45 M12 guns). The ships were relatively slow for a cruiser but were very well-armored. All three ships served during World War II."
+ ### TUR - TURKEY ###
+ TUR_submarine_1:0 "Birinci İnönü Class"
+ TUR_submarine_1_desc:0 "The Birinci İnönü-class consisted of two coastal submarines built in the Netherlands for Turkey in the mid-1920s. They were the first ships built for the Turkish Navy after World War I. They displaced 520 tons and were armed with six 450mm torpedo tubes. They were somewhat slow but had good range."
+ #TUR_submarine_1b: "Dumlupınar Class"
+ TUR_submarine_2:0 "Saldiray Class"
+ TUR_submarine_2_desc:0 "The three submarines of the Saldiray-class were launched in the late 1930s. Their design was heavily influenced by Germany, with the first ship of the-class built in Germany, and the other two built under license in Istanbul. They were large ocean-going submarines, displacing over 930 tons and with excellent range. They were armed with six 533mm torpedo tubes."
+ TUR_submarine_3:0 "Oruç Reis Class"
+ TUR_submarine_3_desc:0 "The Oruç Reis-class submarines were built in Britain as a modified British S-class design. The ships were launched in 1940, with several temporarily interned by the Royal Navy. All but one were eventually returned to Turkey. The ships displaced 625 tons and were armed with five 533mm torpedo tubes. They were somewhat limited in their speed and range."
+ TUR_submarine_4:0 "Sakayra Class"
+ TUR_submarine_4_desc:0 "The Sakayra-class submarines were a series of U.S. Balao-class subs sold to Turkey after the war. They were very large submarines for their era, displacing over 1,520 tons. They had excellent range and speed, and were armed with ten 533mm torpedo tubes."
+ TUR_destroyer_1:0 "Peyk Class"
+ TUR_destroyer_1_desc:0 "The Peyk-class consisted of a pair of large, fast torpedo boats commissioned for the Ottoman Navy in 1907. The ships were built in Germany and survived World War I, but were obsolete by World War II. The ships displaced 775 tons and were armed with twin 105mm/37 SK L/40 guns, as well as three 450mm torpedo tubes. They had decent range but were fairly slow for a destroyer."
+ TUR_destroyer_2:0 "Kocatepe Class"
+ TUR_destroyer_2_desc:0 "The two destroyers of the Kocatepe-class were built in Italy for the Turkish Navy in 1931. They were based on the Italian folgore design. The ships displaced 1,250 tons and were armed with four 120mm/50 Ansaldo 1926 guns and six 533mm torpedo tubes. They had good speed and range as well."
+ TUR_destroyer_3:0 "Demirhisar Class"
+ TUR_destroyer_3_desc:0 "The four destroyers of the Demirhisar-class were built in Britain and completed in 1942. Two of the ships were interned by the Royal Navy, one of which was returned after the war. The ships were based on the British I-class. They displaced 1,370 tons and had four 120mm/45 QF Mk IX guns as their main armament. They had decent speed and good range, and had a strong complement of AA guns and ASW equipment."
+ TUR_light_cruiser_1:0 "Mecidiye Class"
+ TUR_light_cruiser_1_desc:0 "The Turkish ship Mecidiye was a protected cruiser built in the U.S. for the Ottoman Navy at the turn of the century. She was actually sunk in shallow water during World War II, but was raised and after a brief stint as part of the Imperial Russian Navy, was returned to Turkey. She displaced just under 3,500 tons and was armed with two 152mm/44 Bethlehem No. 2 and eight 120mm/45 Armstrong Y guns. They had decent range but were relatively slow and lightly armored."
+ TUR_battle_cruiser_1:0 "Yavuz Class"
+ TUR_battle_cruiser_1_desc:0 "The Yavuz was originally commissioned as the German battlecruiser Goeben but was sold to the Ottomans and recommissioned in 1914 to avoid internment. She displaced just under 23,000 tons and had decent speed and range. She was well-armored and was armed with ten 283mm/47 SK L/50 guns as well as a strong secondary armament."
+ TUR_battleship_1:0 "Reşadiye Class"
+ TUR_battleship_1_desc:0 "The Reşadiye-class represents three dreadnought battleships ordered from the U.K. for the Turkish Navy just prior to World War I. Only one of the ships were completed, however, and it was subsequently interned by the British at the start of World War I. The ships would have displaced 23,000 tons and would have had good armor, speed, and range. Their main armament would have had ten 343mm/45 Vickers guns."
+ ### URU - URUGUAY ###
+ URU_destroyer_1:0 "Uruguay Class"
+ URU_destroyer_1_desc:0 "The Uruguay was a heavy torpedo boat built in Germany for the Uruguayan Navy prior to World War I. It displaced over 1,400 tons and was armed with four 120mm/45 Krupp QF guns. It had a strong AA complement and two 450mm torpedo tubes. Given their vintage and large size, they were fairly slow compared to other destroyers."
+ ### VEN - VENEZUELA -- generic only ###
+ ### VIC - VICHY FRANCE ###
+ VIC_submarine_1:0 "600 Series"
+ VIC_submarine_1_desc:0 "The 600-ton Series of submarines were France's first modern post WWI submarines. They were medium sized displacing around 600tons though they were seagoing ones, they were designated as coastal submarines and used mostly in the warm waters of the Mediterranean. Three-classes of four ships were each built of this type: Sirène, Ariane and Circé-classes. They were the basis of the bigger 630-ton Series the Argonaute, Diane and Orion-classes."
+ #VIC_submarine_1b: "630 Series"
+ #VIC_submarine_1c: "Redoutable Class"
+ VIC_submarine_2:0 "Minerve Class"
+ VIC_submarine_2_desc:0 "The Minerve-class submarines (Project name T2) were based on the 630-ton Series though they had better engines and different torpedo layout. These submarines were the first part of the standardization program resulting of a centralized design of the DCAN (Direction des Constructions et Armes Navale), a rather specific shipyard design of the previous-classes."
+ #VIC_submarine_2b: "Aurore Class"
+ VIC_submarine_3:0 "Roland Morillot Class"
+ VIC_submarine_3_desc:0 "The Roland Morillot-class submarines (Project name Z2) were large ocean-going submarines based on the earlier Redoubtable-class submarines. They were large submarines displacing 1,800-2,400 tons and carried a formidable armament of 10 torpedo tubes. The Fall of France occurred before any were finished."
+ VIC_submarine_4:0 "Phénix Class"
+ VIC_submarine_4_desc:0 "The Phénix-class submarines were medium sized ocean-going and long range boats authorized in the 1939-40 naval programs but the start of the war and the Fall of France resulted in the cancellation of these boats. They were similar to the Redoutable-class though they were smaller and displaced 1,200 tons. They carried a similarly heavy torpedo armament."
+ VIC_destroyer_1:0 "Bourrasque Class"
+ VIC_destroyer_1_desc:0 "The Bourrasque-class destroyers were part of the 1,500-ton Series, and launched in the mid 1920's. Together with the preceding Chacal and following L'Adroit-classes, they were the backbone of the new modern post war French fleet. They were fast and well-armed for their time, but their torpedo armament was smaller compared to similar vessels in the other navies."
+ #VIC_destroyer_1b: "Chacal Class"
+ #VIC_destroyer_1c: "Aigle & Vauquelin Class"
+ VIC_destroyer_2:0 "Le Fantasque Class"
+ VIC_destroyer_2_desc:0 "The Le Fantasque-class destroyers were essentially improved versions of the earlier super destroyers of the 2,400-ton Series (Guépard, Aigle, Vauquelin) built under the 1930 naval program. They were large, heavily-armed, and very fast destroyers, perfect for escorting the new high speed units of the French fleet. Their armament consisted of newly developed guns, adequate AA, and torpedo armament."
+ #VIC_destroyer_2b: "Le Hardi Class"
+ #VIC_destroyer_2c: "Mogador Class"
+ VIC_destroyer_3:0 "L'Intrépide Class"
+ VIC_destroyer_3_desc:0 "The L'Intrépide-class destroyers were a modified version of the earlier Le Hardi-class destroyers. They were authorized in the 1938 and 1939 naval programs but the war and Fall of France resulted in the cancellation of these vessels. They would have been focused more on an anti-aircraft role, with an increase in displacement to 2,800-2,900 tons and larger engines."
+ VIC_destroyer_4:0 "Hoche Class"
+ VIC_destroyer_4_desc:0 "The Hoche and Bayard-classes were the final super destroyer design of the French Navy. Both-classes were based on the Mogador-class, displacing 4,200 tons with a similar main armament but improved AA guns and stronger engines. They were authorized in the 1939-40 naval programs but the start of the war and the Fall of France resulted in the cancellation of these ships."
+ VIC_light_cruiser_1:0 "Duguay-Trouin Class"
+ VIC_light_cruiser_1_desc:0 "The Duguay-Trouin light cruisers were the first major French warships built after World War I in the 1922 naval program. They became the first light cruisers with super-firing enclosed main turrets. Among light cruisers, they had a strong torpedo armament but virtually nonexistent armor."
+ VIC_light_cruiser_2:0 "La Galissonnière Class"
+ VIC_light_cruiser_2_desc:0 "The La Galissonnière-class light cruisers were the answer to the Italian Condottieri type light cruisers and were based on the previous Emile Bertin-class. They were built in the 1931 and 1932 naval programs, with typical main armament and adequate AA armament of the era. They displaced 10,850 tons, had an increased amount of scout planes, and had good speed."
+ VIC_light_cruiser_3:0 "De Grasse Class"
+ VIC_light_cruiser_3_desc:0 "The DeGrasse-class cruisers were authorized in the 1938 and 1939 naval programs and were essentially improved La Galissonnières. They had stronger AA armament, as well as bigger engines. The Fall of France caused the last two ships to be cancelled and the lead ship to be finished post-war as a different design. The Germans intended to finish her as a light carrier but this project was also not carried out."
+ VIC_light_cruiser_4:0 "Colbert Class"
+ VIC_light_cruiser_4_desc:0 "The Colbert was an anti-aircraft light cruiser launched in 1956. This Colbert-class cruiser was built in a very similar way to the post-war De Grasse, featuring heavy AA armament both for long and short ranges. The difference between Colbert and DeGrasse was that the Colbert had smaller engines, thinner armor, and was slightly smaller."
+ VIC_heavy_cruiser_1:0 "Suffren Class"
+ VIC_heavy_cruiser_1_desc:0 "The Suffren-class heavy cruisers were basically a repeat of the previous Duquesne-class with minor improvements regarding its seagoing abilities. Both-classes resembled the contemporary cruiser philosophy of the French navy: very thin armor but good speed and range. Their standard displacement is 10,000 tons and they were equipped with armaments that were standard for a heavy cruiser."
+ VIC_heavy_cruiser_2:0 "Algérie Class"
+ VIC_heavy_cruiser_2_desc:0 "The Algérie-class heavy cruiser were a further improvement of the previous-classes of the Suffren and Duquesne but designed to be the opponent of the new Italian heavy cruisers of the Zara-class. Both the main armor belt and underwater protection was considerably increased. Its AA armament was adequate for its time, but due to these changes, the standard displacement was over 10,000 tons."
+ VIC_heavy_cruiser_3:0 "Saint Louis Class"
+ VIC_heavy_cruiser_3_desc:0 "The Saint Louis-class heavy cruisers were based on the Algérie-class but the overall look was closer to that of the Dunkerque and Richelieu-class capital ships. Three ships were ordered in the 1940 naval program, but due to the Fall of France none of them were laid down. They would field new guns and improved AA armament but the armor would be the same as on the Algérie-class. It was the last heavy cruiser design of the French Navy."
+ VIC_heavy_cruiser_4:0 "Forbin Class"
+ VIC_heavy_cruiser_4_desc:0 "The Forbin-class heavy cruisers were a hypothetical design as a follow up of the Saint Louis-class. Designed to defend the trade lanes between Mainland France and the colonies, it had long range and good speed along with a heavy armament of guns in four triple turrets and an adequate number of AA weaponry. The ship layout and general look resembled an influence from the previous Saint Louis-class as well as British Crown Colony-class."
+ VIC_battle_cruiser_1:0 "Durand-Viel Design"
+ VIC_battle_cruiser_1_desc:0 "The Durand-Viel design of battlecruiser was a proposal among a series of studies dating back to WWI. They were essentially the battlecruiser versions of the Normandie and Lyon-classes of battleship featuring the same quad turrets and guns though in reduced number. Like contemporary battlecruisers of other navies, they would be faster but less armored than a battleship. They were cancelled before WWI broke out."
+ VIC_battle_cruiser_2:0 "Dunkerque Class"
+ VIC_battle_cruiser_2_desc:0 "The Dunkerques were designed to counter the German Deutschland-class pocket battleships. They were the apex of a series design studies from the mid 1920's to early 1930's. Authorized in the 1931 and 1934 naval programs, they were similar to the British Nelson-class battleships, with all of their main turrets concentrated forward. This resulted in a shorter belt armor and thus a smaller ship to fit into the Naval Treaties limitations."
+ VIC_battleship_1:0 "Courbet Class"
+ VIC_battleship_1_desc:0 "The Courbet-class battleships were the first super-dreadnoughts built for the French Navy before and during the First World War. Authorized in the 1910 and 1911 naval programs, they saw limited service during World War I, but were active during WW2. Though they had thicker armor and stronger guns than the previous Dante-class battleships, they were still inferior to contemporary USN and RN battleships. They displaced just over 22,000 tons and their only modernizations before WW2 were an improved AA armament and improved boilers."
+ #VIC_battleship_1b: "Bretagne Class" 
+ VIC_battleship_2:0 "Richelieu Class"
+ VIC_battleship_2_desc:0 "The Richelieu-class battleships were the last battleships commissioned into the French Navy. They were an improved design of the Dunkerque and authorized under the 1935 and 1938 naval programs. They had excellent AA armament, speed and range, which made it an excellent capital ship. Out of the four ordered, only two were launched and one was completed before the Fall of France. There were numerous attempts to finish the remaining ships using different designs, proposed for use as anti-aircraft battleships, battleship-carrier hybrids, or full scale carriers."
+ VIC_battleship_3:0 "Gascogne Class"
+ VIC_battleship_3_desc:0 "The Gascogne-class of battleships were a subclass of the Richelieu-class. Three ships were ordered in the 1940 naval program but none were started. The design would be a repeat of the Richelieu, but with the main armament distributed evenly fore and aft, improved AA Armament, and improved engines resulting in an overall better ship."
+ VIC_battleship_4:0 "Alsace Class"
+ VIC_battleship_4_desc:0 "The Alsace-class battleships were planned to succeed the Richelieu-class. Four ships were ordered, with the design studies finished in 1939, authorized in 1940, and expected to be laid down in 1941, though the Fall of France prevented this from happening. It improved upon the Richelieu design with heavier and more numerous main guns, stronger AA armament, thicker armor plates, and larger engines."
+ VIC_SH_battleship_1:0 "Charlemagne Class"
+ VIC_SH_battleship_1_desc:0 "The Charlemagne-class of super battleships was a hypothetical design to match the big battleships of other navies. They featured a heavy armament all forward in superfiring positions, heavy AA armament, and thick armor. The entire design borrowed elements from the Richelieu and British Nelson-classes."
+ VIC_SH_battleship_2:0 "Napoléon Bonaparte Class"
+ VIC_SH_battleship_2_desc:0 "The Napoléon Bonaparte-class battleships were a hypothetical design and based on the Alsace and Gascogne-classes. Its heavy armament was distributed evenly fore and aft in triple turrets, with superfiring secondaries and heavy AA armament. Thick armor and strong engines provided the speed and defense needed to keep up with the other ships in the fleet and effectively battle its adversaries."
+ VIC_carrier_1:0 "Béarn Class"
+ VIC_carrier_1_desc:0 "The Béarn was originally laid down as a Normandie-class battleship but later finished as an aircraft carrier, displacing 22,100 tons and serving during the interbellum years and WWII. As a converted carrier, its speed was slow and it had limited space for aircraft, but the medium armor belt and long range made up for these shortcomings. Its construction gave important experience to the French designers in the DCAN (Direction des Constructions et Armes Navale) and led to a series of design studies afterward."
+ VIC_carrier_2:0 "Joffre Class"
+ VIC_carrier_2_desc:0 "The Joffre-class carriers (Project name PA-16) were the next generation of carriers for the French Navy. It was the last of the design studies that started in 1929 and ended in 1937. Two ships were authorized in the 1938 naval program, but the escalating conflicts slowed down the construction process and eventually the Fall of France prevented the completion of these ships. Displacement would be around 20,000 tons. They would have good AA armament, armor, and speed, but a below-average aircraft complement. Overall, it would have been a well-rounded and versatile carrier for the French Navy."
+ VIC_carrier_3:0 "Jean Bart Class"
+ VIC_carrier_3_desc:0 "The Jean Bart carrier was a mid-war proposal to convert the unfinished Richelieu-class battleship Jean Bart into a full scale carrier in a similar way to the Japanese IJN Shinano. The hull's large size would be resulted in a large aircraft component and together with the big engines a long range and fast carrier. The heavy AA armament of US origin would have provided a good defense against aircraft and smaller surface combatants."
+ VIC_carrier_4:0 "Clemenceau Class"
+ VIC_carrier_4_desc:0 "The Clemenceau-class aircraft carrier (Project name PA-28) were the first postwar carrier design of the French Navy. The design would be similar to the unfinished Joffre-class carriers, though the installed equipment and weaponry would be of modern French products. The acquisition of the USN and RN escort carriers and the economical state of postwar France prevented these ships from being laid down. Not to be confused with the latter Clemenceau-class aircraft carriers (Project name PA-54), which were laid down in 1955 and 1957."
+ ### YUG - YUGOSLAVIA ###
+ YUG_submarine_1:0 "Hrabri Class"
+ YUG_submarine_1_desc:0 "The two Hrabri-class submarines were originally laid down as British L-class submarines for the Royal Navy, but were sold and ultimately completed for Yugoslavia using a modified design in 1928. They were large submarines, displacing 975 tons, and were armed with six 533mm torpedo tubes."
+ YUG_destroyer_1:0 "Dubrovnik Class"
+ YUG_destroyer_1_desc:0 "The Dubrovnik destroyer was the largest ship in the Yugoslav fleet at the time of its purchase. The ship was built in the U.K. and delivered to Yugoslavia in 1932. It was a large destroyer, displacing 1,880 tons. It was armed with four 140mm/53 Skoda guns, a strong AA complement, six 533mm torpedo tubes, and good ASW equipment."
+ YUG_destroyer_2:0 "Beograd Class"
+ YUG_destroyer_2_desc:0 "The Beograd-class consisted of three destroyers built with French help. Two of the ships were built at Split, while the third was built in France. All three were based on the French L'Adroit-class destroyers and commissioned in 1939. They displaced 1,210 tons and were armed with four 120mm/43 Skoda guns and six 533mm torpedo tubes. They had excellent speed but below-average range."
+ YUG_destroyer_4:0 "Split Class"
+ YUG_destroyer_4_desc:0 "The Split was a heavy destroyer launched and completed in Yugoslavia. It was launched in 1943 but not completed until 1958, with a modified design. Its original design displaced 2,400 tons and was armed with five 140/56 Skoda guns in its main armament. Despite its size, it had excellent speed."

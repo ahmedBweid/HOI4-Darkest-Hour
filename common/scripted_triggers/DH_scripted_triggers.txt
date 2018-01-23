@@ -1,0 +1,73 @@
+############################################ Has custom Elections ? ###############################
+	has_custom_elections = {
+		OR = {
+			original_tag = USA
+			original_tag = AST
+			original_tag = CAN	
+		}
+	}
+############################################# Ideology groups ##################################
+#--- Democratic Ideology group
+	ideology_group_democracy = {
+		OR = {
+			has_government = social_conservative	
+			has_government = social_liberal
+			has_government = social_democrat
+		}
+	}
+#--- Fascist Ideology group
+	ideology_group_fascist = {
+		OR = {
+			has_government = national_socialist
+			has_government = fascist		
+			has_government = paternal_autocrat
+		}
+	}
+#--- Communist Ideology group
+	ideology_group_communism = {
+		OR = {
+			has_government = stalinist
+			has_government = leninist		
+			has_government = left_wing_radical
+		}
+	}
+############################################# Elections related ##################################	
+	is_ruling_party_stronk = {
+		OR = {
+			AND = {
+			    has_government = social_conservative
+				social_conservative > 0.20
+			}
+			AND = {
+			    has_government = social_liberal
+				social_liberal > 0.20
+			}
+			AND = {
+			    has_government = social_democrat
+				social_democrat > 0.20
+			}
+
+			OR = {
+				social_conservative < 0.20
+				social_liberal < 0.20
+				social_democrat < 0.20
+			}
+		}
+	}
+############################################# are XX Minsters allowed? ##################################	
+	NS_Minister_Allowed = {always = yes}
+	FA_Minister_Allowed = {always = yes}
+	PA_Minister_Allowed = {always = yes}
+
+	SC_Minister_Allowed = {always = yes}
+	ML_Minister_Allowed = {always = yes}
+	SL_Minister_Allowed = {always = yes}
+	SD_Minister_Allowed = {always = yes}
+	
+	LWR_Minister_Allowed = {always = yes}
+	LE_Minister_Allowed = {always = yes}
+	ST_Minister_Allowed = {always = yes}
+	
+#################################################################################################
+
+

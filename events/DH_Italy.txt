@@ -1,0 +1,158 @@
+﻿###########################
+# Darkest Hour Events : Italy
+###########################
+
+add_namespace = DH_italy
+
+
+### ------------------- Italy ---------------------------------------------
+#########################################################################
+#  Italian Socialist Republic
+#########################################################################
+country_event = { 
+	id = DH_italy.1
+    title = DH_italy.1.t
+    desc = DH_italy.1.d
+    picture = GFX_report_event_generic_read_write
+		
+        fire_only_once = yes
+		
+        trigger = {
+                tag = ITA
+                has_war_with = ENG
+				has_war_with = FRA
+				has_war_with = USA
+			NOT = {
+				controls_state = 115
+				controls_state = 156	
+				controls_state = 117			
+			}
+        }
+		
+		mean_time_to_happen = {
+			days = 2
+		}
+		
+		# We won't surrender
+		option = {
+			name = DH_italy.1.a
+			ai_chance = { 
+				factor = 90
+			}
+			set_cosmetic_tag = ITA_GER_national_socialist
+			GER = {
+			puppet = ITA 
+			}
+			set_state_owner = 736
+			set_state_owner = 746
+			set_state_owner = 750
+			set_state_owner = 39				
+		}
+		
+		# 
+		option = {
+			name = DH_italy.1.b
+			ai_chance = { 
+				factor = 10
+			}
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+			set_politics = { 
+				parties = {
+					social_conservative = { popularity = 60 }
+					fascist = { popularity = 29 }
+					stalinist = { popularity = 11 }
+				} 
+				ruling_party = social_conservative elections_allowed = yes 
+			}
+			remove_ideas = vittoria_mutilata 
+			ENG = { add_to_faction = ITA }
+			ENG = { 
+				white_peace = {
+					tag = ITA
+					message = ITA_agree_peace 
+				}
+			}
+			USA = {
+				white_peace = {
+					tag = ITA
+					message = ITA_agree_peace 
+				}
+			}
+			FRA = { 
+				white_peace = {
+					tag = ITA
+					message = ITA_agree_peace 
+				}
+			}
+		}		
+}
+
+#########################################################################
+#  Tyrolian trade
+#########################################################################
+country_event = {
+	id = DH_italy.2
+	title = DH_italy.2.t
+	desc = DH_italy.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	#NO Trade
+	option = {
+		name = DH_italy.1.a
+		ai_chance = { factor = 0 }
+		GER = { country_event = { hours = 6 id = DH_germany.7 }}
+  }
+  #Trade
+  option = {
+    name = DH_italy.2.b
+		ai_chance = { factor = 100 }
+		GER = {
+			add_state_core = 39
+			transfer_state = 39
+			country_event = { hours = 6 id = DH_germany.8 }
+			39 = { set_state_name = "Südtirol" }
+		}
+		ITA = {
+			add_state_core = 748
+			transfer_state = 748
+			748 = { set_state_name = "Ticino-Grigioni" }
+		}
+  }
+}
+
+#########################################################################
+#  State of Cyprus
+#########################################################################
+country_event = { #Cyprus offer
+	id = DH_italy.3
+	title = DH_italy.3.t
+	desc = DH_italy.3.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #accept cyprus
+		name = DH_italy.3.a
+		ai_chance = {
+			factor = 100
+		}
+		ITA = {
+			transfer_state = 183
+		}
+		add_opinion_modifier = { target = GER modifier = fascist_leanings_good }		
+	}
+
+	option = { #refuse cyprus
+		name = DH_italy.3.b
+		ai_chance = {
+			factor = 0
+		}
+		TUR = { country_event = { hours = 6 id = DH_turkey.2 }}
+	}
+}

@@ -1,0 +1,61 @@
+technologies = {
+
+#########################################################################
+#  Special Technologies
+#########################################################################
+#### Jungle Warfare
+	jungle_warfare = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		marine = {
+			jungle = { attack = 0.05 movement = 0.1 }
+		}
+		mountaineers = {
+			jungle = { attack = 0.05 movement = 0.1 }
+		}
+		paratrooper = {
+			jungle = { attack = 0.05 movement = 0.1 }
+		}
+	}
+
+#### Hungarian Light Infantry
+	HUN_light_infantry_tech = {
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		infantry = {
+			forest = { attack = 0.02 movement = 0.05 }
+			urban = { attack = 0.05 movement = 0.05 }
+		}
+	}
+	
+#### Waffen SS
+	GER_waffen_ss = {
+
+		allow = {
+			always = no
+		}
+
+		enable_subunits = {
+			SS_infantry
+			SS_cavalry
+			SS_motorized
+			SS_mechanized
+		}
+
+		allow = {
+			always = no
+		}
+
+	}	
+################################################################################################	
+}

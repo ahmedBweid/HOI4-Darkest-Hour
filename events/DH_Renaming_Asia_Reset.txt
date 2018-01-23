@@ -1,0 +1,2044 @@
+﻿###########################
+# Darkest Hour: Asia Reset name Events
+###########################
+
+add_namespace = asia_reset_rename
+
+###########################  
+# Asia Reset name Events
+#########################
+country_event = {
+	id = asia_reset_rename.283
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 283
+		NOT = { has_country_flag = renamed_state_283 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_283
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_283 }
+				clr_country_flag = renamed_state_283
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.283.a
+		283 = { reset_state_name = yes }
+		set_country_flag = renamed_state_283
+		clr_global_flag = renamed_state_283
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.286
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 286
+		NOT = { has_country_flag = renamed_state_286 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_286
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_286 }
+				clr_country_flag = renamed_state_286
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.286.a
+		286 = { reset_state_name = yes }
+		set_country_flag = renamed_state_286
+		clr_global_flag = renamed_state_286
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.287
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 287
+		NOT = { has_country_flag = renamed_state_287 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_287
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_287 }
+				clr_country_flag = renamed_state_287
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.287.a
+		287 = { reset_state_name = yes }
+		set_country_flag = renamed_state_287
+		clr_global_flag = renamed_state_287
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.288
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 288
+		NOT = { has_country_flag = renamed_state_288 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_288
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_288 }
+				clr_country_flag = renamed_state_288
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.288.a
+		288 = { reset_state_name = yes }
+		reset_province_name = 1330
+		set_country_flag = renamed_state_288
+		clr_global_flag = renamed_state_288
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.326
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 326
+		NOT = { has_country_flag = renamed_state_326 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_326
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_326 }
+				clr_country_flag = renamed_state_326
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.326.a
+		326 = { reset_state_name = yes }
+		reset_province_name = 10062
+		set_country_flag = renamed_state_326
+		clr_global_flag = renamed_state_326
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.330
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 330
+		NOT = { has_country_flag = renamed_state_330 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_330
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_330 }
+				clr_country_flag = renamed_state_330
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.330.a
+		330 = { reset_state_name = yes }
+		reset_province_name = 4801
+		set_country_flag = renamed_state_330
+		clr_global_flag = renamed_state_330
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.333
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 333
+		NOT = { has_country_flag = renamed_state_333 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_333
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_333 }
+				clr_country_flag = renamed_state_333
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.333.a
+		333 = { reset_state_name = yes }
+		reset_province_name = 7371
+		set_country_flag = renamed_state_333
+		clr_global_flag = renamed_state_333
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.334
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 334
+		NOT = { has_country_flag = renamed_state_334 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_334
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_334 }
+				clr_country_flag = renamed_state_334
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.334.a
+		334 = { reset_state_name = yes }
+		reset_province_name = 10237
+		set_country_flag = renamed_state_334
+		clr_global_flag = renamed_state_334
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.335
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 335
+		NOT = { has_country_flag = renamed_state_335 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_335
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_335 }
+				clr_country_flag = renamed_state_335
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.335.a
+		335 = { reset_state_name = yes }
+		reset_province_name = 7381
+		reset_province_name = 4608
+		set_country_flag = renamed_state_335
+		clr_global_flag = renamed_state_335
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.322
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 322
+		NOT = { has_country_flag = renamed_state_322 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_322
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_322 }
+				clr_country_flag = renamed_state_322
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.322.a
+		322 = { reset_state_name = yes }
+		reset_province_name = 5033
+		set_country_flag = renamed_state_322
+		clr_global_flag = renamed_state_322
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.325
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 325
+		NOT = { has_country_flag = renamed_state_325 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_325
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_325 }
+				clr_country_flag = renamed_state_325
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.325.a
+		325 = { reset_state_name = yes }
+		reset_province_name = 1319
+		reset_province_name = 7965
+		set_country_flag = renamed_state_325
+		clr_global_flag = renamed_state_325
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.328
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 328
+		NOT = { has_country_flag = renamed_state_328 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_328
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_328 }
+				clr_country_flag = renamed_state_328
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.328.a
+		328 = { reset_state_name = yes }
+		reset_province_name = 4572
+		reset_province_name = 10433
+		set_country_flag = renamed_state_328
+		clr_global_flag = renamed_state_328
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.336
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 336
+		NOT = { has_country_flag = renamed_state_336 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_336
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_336 }
+				clr_country_flag = renamed_state_336
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.336.a
+		336 = { reset_state_name = yes }
+		reset_province_name = 12299
+		set_country_flag = renamed_state_336
+		clr_global_flag = renamed_state_336
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.523
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 523
+		NOT = { has_country_flag = renamed_state_523 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_523
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_523 }
+				clr_country_flag = renamed_state_523
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.523.a
+		523 = { reset_state_name = yes }
+		reset_province_name = 4329
+		reset_province_name = 12237
+		set_country_flag = renamed_state_523
+		clr_global_flag = renamed_state_523
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.524
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 524
+		NOT = { has_country_flag = renamed_state_524 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_524
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_524 }
+				clr_country_flag = renamed_state_524
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.524.a
+		524 = { reset_state_name = yes }
+		reset_province_name = 7186
+		reset_province_name = 12068
+		set_country_flag = renamed_state_524
+		clr_global_flag = renamed_state_524
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.525
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 525
+		NOT = { has_country_flag = renamed_state_525 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_525
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_525 }
+				clr_country_flag = renamed_state_525
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.525.a
+		525 = { reset_state_name = yes }
+		reset_province_name = 4056
+		reset_province_name = 7125
+		set_country_flag = renamed_state_525
+		clr_global_flag = renamed_state_525
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.527
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 527
+		NOT = { has_country_flag = renamed_state_527 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_527
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_527 }
+				clr_country_flag = renamed_state_527
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.527.a
+		527 = { reset_state_name = yes }
+		reset_province_name = 4052
+		set_country_flag = renamed_state_527
+		clr_global_flag = renamed_state_527
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.537
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 537
+		NOT = { has_country_flag = renamed_state_537 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_537
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_537 }
+				clr_country_flag = renamed_state_537
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.537.a
+		537 = { reset_state_name = yes }
+		set_country_flag = renamed_state_537
+		clr_global_flag = renamed_state_537
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.591
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 591
+		NOT = { has_country_flag = renamed_state_591 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_591
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_591 }
+				clr_country_flag = renamed_state_591
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.591.a
+		591 = { reset_state_name = yes }
+		reset_province_name = 1070
+		set_country_flag = renamed_state_591
+		clr_global_flag = renamed_state_591
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.592
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 592
+		NOT = { has_country_flag = renamed_state_592 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_592
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_592 }
+				clr_country_flag = renamed_state_592
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.592.a
+		592 = { reset_state_name = yes }
+		reset_province_name = 1047
+		set_country_flag = renamed_state_592
+		clr_global_flag = renamed_state_592
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.593
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 593
+		NOT = { has_country_flag = renamed_state_593 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_593
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_593 }
+				clr_country_flag = renamed_state_593
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.593.a
+		593 = { reset_state_name = yes }
+		set_country_flag = renamed_state_593
+		clr_global_flag = renamed_state_593
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.594
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 594
+		NOT = { has_country_flag = renamed_state_594 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_594
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_594 }
+				clr_country_flag = renamed_state_594
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.594.a
+		594 = { reset_state_name = yes }
+		reset_province_name = 7137
+		set_country_flag = renamed_state_594
+		clr_global_flag = renamed_state_594
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.595
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 595
+		NOT = { has_country_flag = renamed_state_595 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_595
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_595 }
+				clr_country_flag = renamed_state_595
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.595.a
+		595 = { reset_state_name = yes }
+		reset_province_name = 4196
+		reset_province_name = 7071
+		set_country_flag = renamed_state_595
+		clr_global_flag = renamed_state_595
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.596
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 596
+		NOT = { has_country_flag = renamed_state_596 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_596
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_596 }
+				clr_country_flag = renamed_state_596
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.596.a
+		596 = { reset_state_name = yes }
+		reset_province_name = 7191
+		reset_province_name = 9974
+		set_country_flag = renamed_state_596
+		clr_global_flag = renamed_state_596
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.597
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 597
+		NOT = { has_country_flag = renamed_state_597 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_597
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_597 }
+				clr_country_flag = renamed_state_597
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.597.a
+		597 = { reset_state_name = yes }
+		reset_province_name = 1069
+		reset_province_name = 10000
+		set_country_flag = renamed_state_597
+		clr_global_flag = renamed_state_597
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.598
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 598
+		NOT = { has_country_flag = renamed_state_598 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_598
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_598 }
+				clr_country_flag = renamed_state_598
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.598.a
+		598 = { reset_state_name = yes }
+		set_country_flag = renamed_state_598
+		clr_global_flag = renamed_state_598
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.599
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 599
+		NOT = { has_country_flag = renamed_state_599 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_599
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_599 }
+				clr_country_flag = renamed_state_599
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.599.a
+		599 = { reset_state_name = yes }
+		reset_province_name = 10404
+		set_country_flag = renamed_state_599
+		clr_global_flag = renamed_state_599
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.600
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 600
+		NOT = { has_country_flag = renamed_state_600 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_600
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_600 }
+				clr_country_flag = renamed_state_600
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.600.a
+		600 = { reset_state_name = yes }
+		reset_province_name = 3992
+		set_country_flag = renamed_state_600
+		clr_global_flag = renamed_state_600
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.602
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 602
+		NOT = { has_country_flag = renamed_state_602 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_602
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_602 }
+				clr_country_flag = renamed_state_602
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.602.a
+		602 = { reset_state_name = yes }
+		reset_province_name = 7101
+		reset_province_name = 7097
+		set_country_flag = renamed_state_602
+		clr_global_flag = renamed_state_602
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.603
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 603
+		NOT = { has_country_flag = renamed_state_603 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_603
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_603 }
+				clr_country_flag = renamed_state_603
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.603.a
+		603 = { reset_state_name = yes }
+		reset_province_name = 4504
+		set_country_flag = renamed_state_603
+		clr_global_flag = renamed_state_603
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.604
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 604
+		NOT = { has_country_flag = renamed_state_604 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_604
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_604 }
+				clr_country_flag = renamed_state_604
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.604.a
+		604 = { reset_state_name = yes }
+		reset_province_name = 12732
+		reset_province_name = 7940
+		set_country_flag = renamed_state_604
+		clr_global_flag = renamed_state_604
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.605
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 605
+		NOT = { has_country_flag = renamed_state_605 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_605
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_605 }
+				clr_country_flag = renamed_state_605
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.605.a
+		605 = { reset_state_name = yes }
+		reset_province_name = 6999
+		reset_province_name = 4925
+		set_country_flag = renamed_state_605
+		clr_global_flag = renamed_state_605
+	}
+}
+
+
+country_event = {
+	id = asia_reset_rename.606
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 606
+		NOT = { has_country_flag = renamed_state_606 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_606
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_606 }
+				clr_country_flag = renamed_state_606
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.606.a
+		606 = { reset_state_name = yes }
+		reset_province_name = 7222
+		set_country_flag = renamed_state_606
+		clr_global_flag = renamed_state_606
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.607
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 607
+		NOT = { has_country_flag = renamed_state_607 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_607
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_607 }
+				clr_country_flag = renamed_state_607
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.607.a
+		607 = { reset_state_name = yes }
+		reset_province_name = 9958
+		set_country_flag = renamed_state_607
+		clr_global_flag = renamed_state_607
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.608
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 608
+		NOT = { has_country_flag = renamed_state_608 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_608
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_608 }
+				clr_country_flag = renamed_state_608
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.608.a
+		608 = { reset_state_name = yes }
+		reset_province_name = 9843
+		reset_province_name = 10068
+		set_country_flag = renamed_state_608
+		clr_global_flag = renamed_state_608
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.609
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 609
+		NOT = { has_country_flag = renamed_state_609 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_609
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_609 }
+				clr_country_flag = renamed_state_609
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.609.a
+		609 = { reset_state_name = yes }
+		set_country_flag = renamed_state_609
+		clr_global_flag = renamed_state_609
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.610
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 610
+		NOT = { has_country_flag = renamed_state_610 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_610
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_610 }
+				clr_country_flag = renamed_state_610
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.610.a
+		610 = { reset_state_name = yes }
+		set_country_flag = renamed_state_610
+		clr_global_flag = renamed_state_610
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.611
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 611
+		NOT = { has_country_flag = renamed_state_611 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_611
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_611 }
+				clr_country_flag = renamed_state_611
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.611.a
+		611 = { reset_state_name = yes }
+		reset_province_name = 11752
+		set_country_flag = renamed_state_611
+		clr_global_flag = renamed_state_611
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.612
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 612
+		NOT = { has_country_flag = renamed_state_612 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_612
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_612 }
+				clr_country_flag = renamed_state_612
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.612.a
+		612 = { reset_state_name = yes }
+		set_country_flag = renamed_state_612
+		clr_global_flag = renamed_state_612
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.613
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 613
+		NOT = { has_country_flag = renamed_state_613 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_613
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_613 }
+				clr_country_flag = renamed_state_613
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.613.a
+		613 = { reset_state_name = yes }
+		reset_province_name = 7014
+		reset_province_name = 11913
+		set_country_flag = renamed_state_613
+		clr_global_flag = renamed_state_613
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.614
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 614
+		NOT = { has_country_flag = renamed_state_614 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_614
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_614 }
+				clr_country_flag = renamed_state_614
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.614.a
+		614 = { reset_state_name = yes }
+		set_country_flag = renamed_state_614
+		clr_global_flag = renamed_state_614
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.615
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 615
+		NOT = { has_country_flag = renamed_state_615 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_615
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_615 }
+				clr_country_flag = renamed_state_615
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.615.a
+		615 = { reset_state_name = yes }
+		reset_province_name = 1519
+		set_country_flag = renamed_state_615
+		clr_global_flag = renamed_state_615
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.616
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 616
+		NOT = { has_country_flag = renamed_state_616 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_616
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_616 }
+				clr_country_flag = renamed_state_616
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.616.a
+		616 = { reset_state_name = yes }
+		set_country_flag = renamed_state_616
+		clr_global_flag = renamed_state_616
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.617
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 617
+		NOT = { has_country_flag = renamed_state_617 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_617
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_617 }
+				clr_country_flag = renamed_state_617
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.617.a
+		617 = { reset_state_name = yes }
+		reset_province_name = 4709
+		set_country_flag = renamed_state_617
+		clr_global_flag = renamed_state_617
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.619
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 619
+		NOT = { has_country_flag = renamed_state_619 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_619
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_619 }
+				clr_country_flag = renamed_state_619
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.619.a
+		619 = { reset_state_name = yes }
+		set_country_flag = renamed_state_619
+		clr_global_flag = renamed_state_619
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.620
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 620
+		NOT = { has_country_flag = renamed_state_620 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_620
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_620 }
+				clr_country_flag = renamed_state_620
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.620.a
+		620 = { reset_state_name = yes }
+		reset_province_name = 4619
+		set_country_flag = renamed_state_620
+		clr_global_flag = renamed_state_620
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.621
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 621
+		NOT = { has_country_flag = renamed_state_621 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_621
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_621 }
+				clr_country_flag = renamed_state_621
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.621.a
+		621 = { reset_state_name = yes }
+		set_country_flag = renamed_state_621
+		clr_global_flag = renamed_state_621
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.622
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 622
+		NOT = { has_country_flag = renamed_state_622 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_622
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_622 }
+				clr_country_flag = renamed_state_622
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.622.a
+		622 = { reset_state_name = yes }
+		reset_province_name = 8049
+		set_country_flag = renamed_state_622
+		clr_global_flag = renamed_state_622
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.655
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 655
+		NOT = { has_country_flag = renamed_state_655 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_655
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_655 }
+				clr_country_flag = renamed_state_655
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.655.a
+		655 = { reset_state_name = yes }
+		set_country_flag = renamed_state_655
+		clr_global_flag = renamed_state_655
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.667
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 667
+		NOT = { has_country_flag = renamed_state_667 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_667
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_667 }
+				clr_country_flag = renamed_state_667
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.667.a
+		667 = { reset_state_name = yes }
+		set_country_flag = renamed_state_667
+		clr_global_flag = renamed_state_667
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.668
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 668
+		NOT = { has_country_flag = renamed_state_668 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_668
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_668 }
+				clr_country_flag = renamed_state_668
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.668.a
+		668 = { reset_state_name = yes }
+		set_country_flag = renamed_state_668
+		clr_global_flag = renamed_state_668
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.669
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 669
+		NOT = { has_country_flag = renamed_state_669 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_669
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_669 }
+				clr_country_flag = renamed_state_669
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.669.a
+		669 = { reset_state_name = yes }
+		reset_province_name = 12371
+		set_country_flag = renamed_state_669
+		clr_global_flag = renamed_state_669
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.670
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 670
+		NOT = { has_country_flag = renamed_state_670 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_670
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_670 }
+				clr_country_flag = renamed_state_670
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.670.a
+		670 = { reset_state_name = yes }
+		set_country_flag = renamed_state_670
+		clr_global_flag = renamed_state_670
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.672
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 672
+		NOT = { has_country_flag = renamed_state_672 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_672
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_672 }
+				clr_country_flag = renamed_state_672
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.672.a
+		672 = { reset_state_name = yes }
+		reset_province_name = 4652
+		set_country_flag = renamed_state_672
+		clr_global_flag = renamed_state_672
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.673
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 673
+		NOT = { has_country_flag = renamed_state_673 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_673
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_673 }
+				clr_country_flag = renamed_state_673
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.673.a
+		673 = { reset_state_name = yes }
+		reset_province_name = 10263
+		set_country_flag = renamed_state_673
+		clr_global_flag = renamed_state_673
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.680
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 680
+		NOT = { has_country_flag = renamed_state_680 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_680
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_680 }
+				clr_country_flag = renamed_state_680
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.680.a
+		680 = { reset_state_name = yes }
+		reset_province_name = 1492
+		set_country_flag = renamed_state_680
+		clr_global_flag = renamed_state_680
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.714
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 714
+		NOT = { has_country_flag = renamed_state_714 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_714
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_714 }
+				clr_country_flag = renamed_state_714
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.714.a
+		714 = { reset_state_name = yes }
+		set_country_flag = renamed_state_714
+		clr_global_flag = renamed_state_714
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.716
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 716
+		NOT = { has_country_flag = renamed_state_716 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_716
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_716 }
+				clr_country_flag = renamed_state_716
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.716.a
+		716 = { reset_state_name = yes }
+		reset_province_name = 1150
+		reset_province_name = 11771
+		set_country_flag = renamed_state_716
+		clr_global_flag = renamed_state_716
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.721
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 721
+		NOT = { has_country_flag = renamed_state_721 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_721
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_721 }
+				clr_country_flag = renamed_state_721
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.721.a
+		721 = { reset_state_name = yes }
+		set_country_flag = renamed_state_721
+		clr_global_flag = renamed_state_721
+	}
+}
+
+country_event = {
+	id = asia_reset_rename.741
+	hidden = yes
+
+	trigger = {
+		NOT = { tag = JAP }
+		controls_state = 741
+		NOT = { has_country_flag = renamed_state_741 }
+		# This state has been renamed by another country
+		has_global_flag = renamed_state_741
+	}
+
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = { has_country_flag = renamed_state_741 }
+				clr_country_flag = renamed_state_741
+			}
+		}
+	}
+
+	option = {
+		name = asia_reset_rename.741.a
+		741 = { reset_state_name = yes }
+		set_country_flag = renamed_state_741
+		clr_global_flag = renamed_state_741
+	}
+}

@@ -1,0 +1,134 @@
+﻿###########################
+# Darkest Hour Events : Portugal
+###########################
+
+add_namespace = DH_portugal
+
+###------------------- Portugal ----------------------------------------------
+#########################################################################
+# Operation Isabella: Portugese Reply Verde
+#########################################################################
+country_event = {
+	id = DH_portugal.1
+	title = DH_portugal.1.t
+	desc = DH_portugal.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	#We accept this transition
+	option = {
+		name = DH_portugal.1.a
+		ai_chance = {
+			factor = 60
+			modifier = {
+				OR = {
+					any_other_country = {
+						NOT = { tag = GER }
+						has_guaranteed = POR
+						is_major = yes
+					}
+					any_other_country = {
+						is_in_faction_with = POR
+						NOT = { tag = GER }
+					}
+				}
+				factor = 0
+			}
+		}
+		GER = {
+			country_event = { hours = 6 id = DH_germany.2 }
+		}
+	}
+	#We cannot sell our sovereignty!
+	option = {
+		name = DH_portugal.1.b
+		GER = { country_event = { hours = 6 id = DH_germany.3 }}
+		ai_chance = {
+			factor = 40
+			modifier = {
+				POR = {
+					is_in_faction_with = GER
+				}
+				factor = 0
+			}
+			modifier = {
+				GER = {
+					has_army_manpower = { size > 2499999}
+				}
+				factor = 0.7
+			}
+			modifier = {
+				GER = {
+					is_in_faction_with = ITA
+				}
+				factor = 0.7
+			}
+		}
+	}
+}
+
+#########################################################################
+# Operation Isabella: Portugese Reply Both
+#########################################################################
+country_event = {
+	id = DH_portugal.2
+	title = DH_portugal.2.t
+	desc = DH_portugal.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+
+	#We accept this transition
+	option = {
+		name = DH_portugal.2.a
+		GER = { country_event = { hours = 6 id = DH_germany.4 }}
+		ai_chance = {
+			factor = 50
+			modifier = {
+				OR = {
+					any_other_country = {
+						NOT = { tag = GER }
+						has_guaranteed = POR
+						is_major = yes
+					}
+					any_other_country = {
+						is_in_faction_with = POR
+						NOT = { tag = GER }
+					}
+				}
+				factor = 0
+			}
+		}
+	}
+	#We cannot sell our sovereignty!
+	option = {
+		name = DH_portugal.2.b
+		GER = { country_event = { hours = 6 id = DH_germany.5 }}
+		ai_chance = {
+			factor = 60
+			modifier = {
+				POR = {
+					is_in_faction_with = GER
+				}
+				factor = 0
+			}
+			modifier = {
+				GER = {
+					has_army_manpower = { size > 2499999 }
+				}
+				factor = 0.7.
+			}
+			modifier = {
+				GER = {
+					is_in_faction_with = ITA
+				}
+				factor = 0.7
+			}
+		}
+	}
+}

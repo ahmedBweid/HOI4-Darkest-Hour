@@ -1,0 +1,116 @@
+spriteTypes = {	
+#########################################################
+# Generic Portrait
+#########################################################
+	spriteType = {
+		name = "GFX_idea_Generic_Portrait"
+		textureFile = "gfx/interface/ideas/cabinet/generic_minister.dds"
+	}
+
+#########################################################
+# Germany
+#########################################################
+# Head of Government
+	spriteType = {
+		name = "GFX_idea_GER_HoG_NS_Rudolf_Hess"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Ministers/GER_HoG_NS_Rudolf_Hess.dds"
+	}
+# Foreign Minister
+	spriteType = {
+		name = "GFX_idea_GER_FM_FA_Konstantin_von_Neurath"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Ministers/GER_FM_FA_Konstantin_von_Neurath.dds"
+	}
+# Armaments Minister
+	spriteType = {
+		name = "GFX_idea_GER_AM_NS_Werner_von_Blomberg"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Ministers/GER_AM_NS_Werner_von_Blomberg.dds"
+	}
+# Minister of Security
+	spriteType = {
+		name = "GFX_idea_GER_MoS_NS_Wilhelm_Frick"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Ministers/GER_MoS_NS_Wilhelm_Frick.dds"
+	}
+# Head of Intelligence
+	spriteType = {
+		name = "GFX_idea_GER_HoI_FA_Wilhelm_Canaris"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Ministers/GER_HoI_FA_Wilhelm_Canaris.dds"
+	}	
+
+# Chief of Staff
+	spriteType = {
+		name = "GFX_idea_GER_CoStaff_NS_Hans_Krebs"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoStaff_NS_Hans_Krebs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoStaff_PA_Ludwig_Beck"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoStaff_PA_Ludwig_Beck.dds"
+	}
+
+# Chief of Army
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_PA_Werner_von_Fritsch"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_PA_Werner_von_Fritsch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_FA_Fedor_von_Bock"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_FA_Fedor_von_Bock.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_FA_Walther_von_Brauchitsch"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_FA_Walther_von_Brauchitsch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_NS_Adolf_Hitler"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_NS_Adolf_Hitler.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_NS_Ferdinand_Schorner"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_NS_Ferdinand_Schorner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_NS_Wilhelm_Keitel"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_NS_Wilhelm_Keitel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_PA_Erich_Ludendorff"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_PA_Erich_Ludendorff.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoArmy_PA_Gunther_von_Kluge"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoArmy_PA_Gunther_von_Kluge.dds"
+	}
+	
+# Chief of Airforce	
+	spriteType = {
+		name = "GFX_idea_GER_CoAir_FA_Albert_Kesselring"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoAir_FA_Albert_Kesselring.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoAir_NS_Hermann_Goring"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoAir_NS_Hermann_Goring.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoAir_NS_Ritter_von_Greim"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoAir_NS_Ritter_von_Greim.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoAir_PA_Ernst_Udet"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoAir_PA_Ernst_Udet.dds"
+	}
+	
+# Chief of Navy	
+	spriteType = {
+		name = "GFX_idea_GER_CoNavy_FA_Alfred_Saalwachter"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoNavy_FA_Alfred_Saalwachter.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoNavy_NS_Erich_Raeder"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoNavy_NS_Erich_Raeder.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_CoNavy_NS_Karl_Donitz"
+		textureFile = "gfx/interface/ideas/cabinet/Germany/Military Staff/GER_CoNavy_NS_Karl_Donitz.dds"
+	}
+	
+}

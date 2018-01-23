@@ -1,0 +1,54 @@
+﻿l_english:
+#########################################################################
+#  Arab Events
+#########################################################################
+ DH_arab.1.t:0 "Arab Union Accession"
+ DH_arab.1.a:0 "Join"
+ DH_arab.1.b:0 "Refuse"
+ DH_arab.1.d:0 "Our government has been approached by an offer to join the Greater Arab Union, founded on pan-Arabism. This initiative strives for a confederation of Arab countries in the Middle East, to stabalise the region for centuries to come."
+
+#########################################################################
+#  Iranian Events
+######################################################################### 
+ DH_iran.1.t:0 "German-Iranian Treaty of Friendship"
+ DH_iran.1.d:0 "Berlin has approached us with a lucrative offer. By signing the German-Iranian Friendship Treaty the Germans offer us better research equipment and bring us up to speed on the latest scientific breakthroughs. Accepting such an offer however will bring us in a closer ambit of the Reich. Other major powers might see this foreign influence as a provocation."
+ DH_iran.1.a:0 "Accept"
+ DH_iran.1.b:0 "Decline"
+ 
+ DH_iran.2.t:0 "[From.GetName] has accepted the Treay"
+ DH_iran.2.d:0 "Our fellow Aryan friends of Iran have wisely accepted our generous offer. We have offered to bring them up to speed in the realm of science and technology, in return this will allow us to influence Iran's decisions in the long run."
+ DH_iran.2.a:0 "Excellent"
+ 
+ DH_iran.3.t:0 "[From.GetName] has decline the Treaty"
+ DH_iran.3.d:0 "It seems the Persians are not so keen on their Aryan kinship after all. They have rejected the German-Iranian Friendship Treaty, fearing that allowing Germany to influence their academia will bring harm to their international situation. Perhaps they will wake up to their geo-political reality some other time."
+ DH_iran.3.a:0 "Disappointing"
+ 
+#########################################################################
+#  Turkish Events
+######################################################################### 
+ DH_turkey.1.t:0 "Kars Convention on the Subdivision of Transcaucasia"
+ DH_turkey.1.d:0 "After the Great war Turkey and the Soviet Union agreed on a Caucasian border, in which the new Turkish state acknowledged the territory belonging to the three Caucasian Soviet republic of Armenia, Georgia, and Azerbaijan. Now the Germans want to redraw these borders, even offering us to take control of 2 of the Caucasian republics, namely Armenia and Georgia."
+ DH_turkey.1.a:0 "Agree to the new sphere of influence"
+ DH_turkey.1.b:0 "Tell the Germans to keep it"
+ 
+ DH_turkey.2.t:0 "Cyprus Question"
+ DH_turkey.2.d:0 "The British naval base at Cyprus has fallen into German hands, and it happens that Berlin is seeking a new master for the island. Since they have already approached us with the offer to grant Cyprus to Turkey it merely needs approval. The only concession on Turkish side is to join the Axis."
+ DH_turkey.2.a:0 "Cyprus belongs to Turkey"
+ DH_turkey.2.b:0 "We cannot commit at this time"
+ 
+ DH_turkey.3.t:0 "[From.GetName] Trade Deal"
+ DH_turkey.3.d:0 "German negotiators have approached the Turkish forieng ministry with a potentially lucrative trade arrangement. Following the non-Agression Pact, and in return for developing Turkish armaments industry, Germany will receive substantial amounts of Chromite ore. The deal runs for approximately 3 years, after which Germany will have to purchase chromium for market prices."
+ DH_turkey.3.a:0 "Accept"
+ DH_turkey.3.b:0 "Decline"
+ 
+ DH_turkey.4.t:0 "[From.GetName] Accepted"
+ DH_turkey.4.d:0 "[From.GetName] has accepted our trade deal"
+ DH_turkey.4.a:0 "Good"
+ 
+ DH_turkey.5.t:0 "[From.GetName] Declines"
+ DH_turkey.5.d:0 "[From.GetName] has declined out trade deal"
+ DH_turkey.5.a:0 "Terrible"
+ 
+ DH_turkey.6.t:0 "Deals over"
+ DH_turkey.6.d:0 "Removes the chromium stuff due to the trukey trade deal"
+ DH_turkey.6.a:0 "Finally"

@@ -1,0 +1,5199 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Ferdinand Foch
+		FRA_HoG_Ferdinand_Foch = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1929.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Foch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_FA }
+		}
+	# Eugène Deloncle
+		FRA_HoG_Eugene_Deloncle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Eugene_Deloncle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_FA }
+		}
+	# Charles Maurras
+		FRA_HoG_Charles_Maurras = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1930.1.1
+				date < 1952.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Maurras_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_FA }
+		}
+	# Philippe Pétain
+		FRA_HoG_Philippe_Petain = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_PA }
+		}
+	# Pierre Laval
+		FRA_HoG_Pierre_Laval_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1931.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Laval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_PA }
+		}
+	# François Darlan
+		FRA_HoG_Francois_Darlan = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1943.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Darlan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_Admiral ideology_PA }
+		}
+	# Henri-Honoré Giraud
+		FRA_HoG_HenriHonore_Giraud = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = HenriHonore_Giraud_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_PA }
+		}
+	# Pierre Laval
+		FRA_HoG_Pierre_Laval = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Laval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_SC }
+		}
+	# Edouard Herriot
+		FRA_HoG_Edouard_Herriot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Herriot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SC }
+		}
+	# André Marie
+		FRA_HoG_Andre_Marie = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Marie_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_SC }
+		}
+	# Jean-Marie Lattre de Tassigny
+		FRA_HoG_JeanMarie_Lattre_de_Tassigny = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = JeanMarie_Lattre_de_Tassigny_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_SC }
+		}
+	# Charles de Gaulle
+		FRA_HoG_Charles_de_Gaulle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_SC }
+		}
+	# Antoine Henri Queuille
+		FRA_HoG_Antoine_Henri_Queuille = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Antoine_Henri_Queuille_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_SC }
+		}
+	# Joseph Laniel
+		FRA_HoG_Joseph_Laniel = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Laniel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_SC }
+		}
+	# Alexandre Ribot
+		FRA_HoG_Alexandre_Ribot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexandre_Ribot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_ML }
+		}
+	# Raymond Poincaré
+		FRA_HoG_Raymond_Poincare = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Raymond_Poincare_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_ML }
+		}
+	# Georges Bidault
+		FRA_HoG_Georges_Bidault = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Bidault_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_ML }
+		}
+	# Robert Schumann
+		FRA_HoG_Robert_Schumann_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Schumann_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_ML }
+		}
+	# René Pleven
+		FRA_HoG_Rene_Pleven = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1950.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Pleven_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_ML }
+		}
+	# Antoine Pinay
+		FRA_HoG_Antoine_Pinay = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1952.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Antoine_Pinay_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_ML }
+		}
+	# Georges Clemenceau
+		FRA_HoG_Georges_Clemenceau = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Clemenceau_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_The_Tiger ideology_SL }
+		}
+	# Louis Barthou
+		FRA_HoG_Louis_Barthou = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1935.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Barthou_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SL }
+		}
+	# Édouard Herriot
+		FRA_HoG_Edouard_Herriot_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Herriot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SL }
+		}
+	# Frédéric François-Marsal
+		FRA_HoG_Frederic_FrancoisMarsal = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Frederic_FrancoisMarsal_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SL }
+		}
+	# Camille Chautemps
+		FRA_HoG_Camille_Chautemps = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Camille_Chautemps_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SL }
+		}
+	# Albert Sarraut
+		FRA_HoG_Albert_Sarraut = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Sarraut_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_SL }
+		}
+	# Paul Reynaud
+		FRA_HoG_Paul_Reynaud = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Reynaud_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SL }
+		}
+	# Louis-Georges Mandel
+		FRA_HoG_LouisGeorges_Mandel = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = LouisGeorges_Mandel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_SL }
+		}
+	# Robert Schumann
+		FRA_HoG_Robert_Schumann = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Schumann_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_SL }
+		}
+	# René Mayer
+		FRA_HoG_Rene_Mayer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Mayer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SL }
+		}
+	# Aristide Briand
+		FRA_HoG_Aristide_Briand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Aristide_Briand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SD }
+		}
+	# Gaston Doumergue
+		FRA_HoG_Gaston_Doumergue = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Gaston_Doumergue_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_SD }
+		}
+	# René Viviani
+		FRA_HoG_Rene_Viviani = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Viviani_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SD }
+		}
+	# Paul Painlevé
+		FRA_HoG_Paul_Painleve = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Painleve_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SD }
+		}
+	# Alexandre Millerand
+		FRA_HoG_Alexandre_Millerand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexandre_Millerand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SD }
+		}
+	# Georges Leygues
+		FRA_HoG_Georges_Leygues = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Leygues_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_SD }
+		}
+	# Léon Blum
+		FRA_HoG_Leon_Blum = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Blum_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SD }
+		}
+	# Edouard Daladier
+		FRA_HoG_Edouard_Daladier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Daladier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SD }
+		}
+	# Felix Gouin
+		FRA_HoG_Felix_Gouin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Felix_Gouin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Smiling_Oilman ideology_SD }
+		}
+	# Paul Ramadier
+		FRA_HoG_Paul_Ramadier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Ramadier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_SD }
+		}
+	# Edgar Faure
+		FRA_HoG_Edgar_Faure = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1952.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Edgar_Faure_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_SD }
+		}
+	# Ernest Monis
+		FRA_HoG_Ernest_Monis = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernest_Monis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_LWR }
+		}
+	# Joseph Caillaux
+		FRA_HoG_Joseph_Caillaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Caillaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_LWR }
+		}
+	# Marcel Cachin
+		FRA_HoG_Marcel_Cachin_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Cachin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_ST }
+		}
+	# Marcel Cachin
+		FRA_HoG_Marcel_Cachin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Cachin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_ST }
+		}
+	# Jacques Duclos
+		FRA_HoG_Jacques_Duclos = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jacques_Duclos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_ST }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Robert Brasillach
+		FRA_FM_Robert_Brasillach = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Brasillach_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_NS }
+		}
+	# Lucien Rebatet
+		FRA_FM_Lucien_Rebatet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Lucien_Rebatet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_NS }
+		}
+	# Louis Franchet d'Esperey
+		FRA_FM_Louis_Franchet_dEsperey = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Franchet_dEsperey_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_FA }
+		}
+	# Charles Maurras
+		FRA_FM_Charles_Maurras = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Maurras_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_FA }
+		}
+	# Maurice Pujo
+		FRA_FM_Maurice_Pujo = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Pujo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_FA }
+		}
+	# Jean Fontenoy
+		FRA_FM_Jean_Fontenoy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Fontenoy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_FA }
+		}
+	# Eugène Deloncle
+		FRA_FM_Eugene_Deloncle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Eugene_Deloncle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_FA }
+		}
+	# Philippe Pétain
+		FRA_FM_Philippe_Petain = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_PA }
+		}
+	# Paul Baudouin
+		FRA_FM_Paul_Baudouin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Baudouin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_PA }
+		}
+	# Maurice Bourges-Maunoury
+		FRA_FM_Maurice_BourgesMaunoury = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_BourgesMaunoury_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_PA }
+		}
+	# Charles-Emmanuel Mast
+		FRA_FM_CharlesEmmanuel_Mast = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = CharlesEmmanuel_Mast_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_PA }
+		}
+	# François Darlan
+		FRA_FM_Francois_Darlan = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1943.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Darlan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_PA }
+		}
+	# Charles André Weiss
+		FRA_FM_Charles_Andre_Weiss = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Andre_Weiss_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_PA }
+		}
+	# Albert Thomas
+		FRA_FM_Albert_Thomas = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Thomas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_PA }
+		}
+	# Pierre Laval
+		FRA_FM_Pierre_Laval_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Laval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_PA }
+		}
+	# Gabriel Hanoteaux
+		FRA_FM_Gabriel_Hanoteaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Gabriel_Hanoteaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_PA }
+		}
+	# Henri de Jouvenel
+		FRA_FM_Henri_de_Jouvenel = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Henri_de_Jouvenel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_PA }
+		}
+	# Arne Leroy
+		FRA_FM_Arne_Leroy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Arne_Leroy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_PA }
+		}
+	# Pierre Laval
+		FRA_FM_Pierre_Laval = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Laval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SC }
+		}
+	# Antoine Henri Queuille
+		FRA_FM_Antoine_Henri_Queuille = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Antoine_Henri_Queuille_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_SC }
+		}
+	# René Lucien Massigli
+		FRA_FM_Rene_Lucien_Massigli = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Lucien_Massigli_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_SC }
+		}
+	# René Charron
+		FRA_FM_Rene_Charron = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Charron_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SC }
+		}
+	# Pierre Henri Watier
+		FRA_FM_Pierre_Henri_Watier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Henri_Watier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_SC }
+		}
+	# Gabriel Hanotaux
+		FRA_FM_Gabriel_Hanotaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Gabriel_Hanotaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_ML }
+		}
+	# Alexandre Ribot
+		FRA_FM_Alexandre_Ribot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexandre_Ribot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_ML }
+		}
+	# Maurice Dejean
+		FRA_FM_Maurice_Dejean = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Dejean_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_ML }
+		}
+	# George Bidault
+		FRA_FM_George_Bidault = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = George_Bidault_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_ML }
+		}
+	# René Pleven
+		FRA_FM_Rene_Pleven = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Pleven_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_ML }
+		}
+	# Robert Schumann
+		FRA_FM_Robert_Schumann = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1948.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Schumann_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_ML }
+		}
+	# Léon Bourgeois
+		FRA_FM_Leon_Bourgeois = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1895.1.1
+				date < 1925.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Bourgeois_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_SL }
+		}
+	# Charles Jonnart
+		FRA_FM_Charles_Jonnart = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Jonnart_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SL }
+		}
+	# Raymond Poincaré
+		FRA_FM_Raymond_Poincare = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Raymond_Poincare_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SL }
+		}
+	# Stéphen Pichon
+		FRA_FM_Stephen_Pichon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Stephen_Pichon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SL }
+		}
+	# Théophile Delcassé
+		FRA_FM_Theophile_Delcasse = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Theophile_Delcasse_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SL }
+		}
+	# Louis Barthou
+		FRA_FM_Louis_Barthou = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1935.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Barthou_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SL }
+		}
+	# Edmond Lefebvre du Prey
+		FRA_FM_Edmond_Lefebvre_du_Prey = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Edmond_Lefebvre_du_Prey_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SL }
+		}
+	# Édouard Herriot
+		FRA_FM_Edouard_Herriot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Herriot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SL }
+		}
+	# Pierre Etienne Flandin
+		FRA_FM_Pierre_Etienne_Flandin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Etienne_Flandin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SL }
+		}
+	# Yvon Delbos
+		FRA_FM_Yvon_Delbos = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Yvon_Delbos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Supporter_Of_Friendly_Relations ideology_SL }
+		}
+	# Georges Bonnet
+		FRA_FM_Georges_Bonnet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Bonnet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_SL }
+		}
+	# Paul Reynaud
+		FRA_FM_Paul_Reynaud = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Reynaud_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SL }
+		}
+	# Gaston Doumergue
+		FRA_FM_Gaston_Doumergue = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1913.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Gaston_Doumergue_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SD }
+		}
+	# René Viviani
+		FRA_FM_Rene_Viviani = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Viviani_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SD }
+		}
+	# Aristide Briand
+		FRA_FM_Aristide_Briand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1915.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Aristide_Briand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SD }
+		}
+	# Alexandre Millerand
+		FRA_FM_Alexandre_Millerand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexandre_Millerand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_SD }
+		}
+	# Georges Leygues
+		FRA_FM_Georges_Leygues = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1920.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Leygues_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SD }
+		}
+	# Joseph Paul Boncour
+		FRA_FM_Joseph_Paul_Boncour = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Paul_Boncour_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SD }
+		}
+	# Edouard Daladier
+		FRA_FM_Edouard_Daladier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Daladier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SD }
+		}
+	# Pierre Comert
+		FRA_FM_Pierre_Comert = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Comert_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_SD }
+		}
+	# Léon Blum
+		FRA_FM_Leon_Blum = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Blum_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SD }
+		}
+	# Jean Cruppi
+		FRA_FM_Jean_Cruppi = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Cruppi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_LWR }
+		}
+	# Justin de Selves
+		FRA_FM_Justin_de_Selves = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Justin_de_Selves_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_LWR }
+		}
+	# Louis Frossard
+		FRA_FM_Louis_Frossard = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Frossard_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_ST }
+		}
+	# Laurent Casenove
+		FRA_FM_Laurent_Casenove = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Laurent_Casenove_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_ST }
+		}
+	# Marcel Cachin
+		FRA_FM_Marcel_Cachin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Cachin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_ST }
+		}
+	# Marcel Gitton
+		FRA_FM_Marcel_Gitton = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Gitton_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_ST }
+		}
+	# Jacques Duclos
+		FRA_FM_Jacques_Duclos = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jacques_Duclos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_ST }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Xavier Vallat
+		FRA_MoS_Xavier_Vallat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Xavier_Vallat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_NS }
+		}
+	# Jean Decoux
+		FRA_MoS_Jean_Decoux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Decoux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_NS }
+		}
+	# Thierry Maulnier
+		FRA_MoS_Thierry_Maulnier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Thierry_Maulnier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_FA }
+		}
+	# Jean Fontenoy
+		FRA_MoS_Jean_Fontenoy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Fontenoy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_FA }
+		}
+	# Rene Binet
+		FRA_MoS_Rene_Binet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Binet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_FA }
+		}
+	# Jean-Marie Le Pen
+		FRA_MoS_JeanMarie_Le_Pen = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1956.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = JeanMarie_Le_Pen_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_FA }
+		}
+	# Charles Mangin
+		FRA_MoS_Charles_Mangin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Mangin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_PA }
+		}
+	# Joseph Barthélemy
+		FRA_MoS_Joseph_Barthelemy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Barthelemy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_PA }
+		}
+	# Eugene Dunoyer de Segonzac
+		FRA_MoS_Eugene_Dunoyer_de_Segonzac = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Eugene_Dunoyer_de_Segonzac_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_PA }
+		}
+	# François Darlan
+		FRA_MoS_Francois_Darlan = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1943.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Darlan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_PA }
+		}
+	# Eduard Herriot
+		FRA_MoS_Eduard_Herriot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Eduard_Herriot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_PA }
+		}
+	# Pierre Laval
+		FRA_MoS_Pierre_Laval = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Laval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_PA }
+		}
+	# Marius Viple
+		FRA_MoS_Marius_Viple = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Marius_Viple_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_PA }
+		}
+	# René Bousquet
+		FRA_MoS_Rene_Bousquet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Bousquet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_PA }
+		}
+	# Raphael Alibert
+		FRA_MoS_Raphael_Alibert = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Raphael_Alibert_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_PA }
+		}
+	# Gouffre de Lapradelle
+		FRA_MoS_Gouffre_de_Lapradelle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Gouffre_de_Lapradelle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_PA }
+		}
+	# Camille Chautemps
+		FRA_MoS_Camille_Chautemps = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Camille_Chautemps_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SC }
+		}
+	# Joseph Paganon
+		FRA_MoS_Joseph_Paganon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Paganon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SC }
+		}
+	# Gaston Alexandre Clauzel
+		FRA_MoS_Gaston_Alexandre_Clauzel = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Gaston_Alexandre_Clauzel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SC }
+		}
+	# René Nicolau
+		FRA_MoS_Rene_Nicolau = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Nicolau_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SC }
+		}
+	# André Le Troquer
+		FRA_MoS_Andre_Le_Troquer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Le_Troquer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SC }
+		}
+	# Antoine Henri Queuille
+		FRA_MoS_Antoine_Henri_Queuille = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1950.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Antoine_Henri_Queuille_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_SC }
+		}
+	# Leon Martinaud-Deplat
+		FRA_MoS_Leon_MartinaudDeplat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_MartinaudDeplat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SC }
+		}
+	# Robert Schumann
+		FRA_MoS_Robert_Schumann = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Schumann_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_ML }
+		}
+	# André Marie
+		FRA_MoS_Andre_Marie = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Marie_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_ML }
+		}
+	# Louis Barthou
+		FRA_MoS_Louis_Barthou = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1935.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Barthou_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SL }
+		}
+	# Paul Peytral
+		FRA_MoS_Paul_Peytral = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Peytral_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SL }
+		}
+	# Jules Pams
+		FRA_MoS_Jules_Pams = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Jules_Pams_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SL }
+		}
+	# Maurice Maunoury
+		FRA_MoS_Maurice_Maunoury = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1922.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Maunoury_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SL }
+		}
+	# Camille Chautemps
+		FRA_MoS_Camille_Chautemps_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Camille_Chautemps_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SL }
+		}
+	# Justin de Selves
+		FRA_MoS_Justin_de_Selves = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Justin_de_Selves_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SL }
+		}
+	# Marx Dormoy
+		FRA_MoS_Marx_Dormoy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Marx_Dormoy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Opposer_Of_The_Far_Right ideology_SL }
+		}
+	# Pierre Pené
+		FRA_MoS_Pierre_Pene = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Pene_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SL }
+		}
+	# Arthur Fontaine
+		FRA_MoS_Arthur_Fontaine = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Arthur_Fontaine_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_SL }
+		}
+	# Henri Roy
+		FRA_MoS_Henri_Roy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Henri_Roy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SL }
+		}
+	# Louis-Georges Mandel
+		FRA_MoS_LouisGeorges_Mandel = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = LouisGeorges_Mandel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SL }
+		}
+	# Yvon Delbos
+		FRA_MoS_Yvon_Delbos = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Yvon_Delbos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SL }
+		}
+	# Jules Moch
+		FRA_MoS_Jules_Moch = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Jules_Moch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SL }
+		}
+	# Jean Maillet
+		FRA_MoS_Jean_Maillet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Maillet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_SL }
+		}
+	# Aristide Briand
+		FRA_MoS_Aristide_Briand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Aristide_Briand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SD }
+		}
+	# Jean Jaurès
+		FRA_MoS_Jean_Jaures = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1915.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Jaures_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SD }
+		}
+	# René Renoult
+		FRA_MoS_Rene_Renoult = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Renoult_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SD }
+		}
+	# Pierre Marraud
+		FRA_MoS_Pierre_Marraud = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1921.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Marraud_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SD }
+		}
+	# Adrien Tixier
+		FRA_MoS_Adrien_Tixier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Adrien_Tixier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Health_And_Safety ideology_SD }
+		}
+	# Pierre Auguste Chardigny
+		FRA_MoS_Pierre_Auguste_Chardigny = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Auguste_Chardigny_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_SD }
+		}
+	# Roger Salengro
+		FRA_MoS_Roger_Salengro = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1937.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Roger_Salengro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SD }
+		}
+	# Julien Luchaire
+		FRA_MoS_Julien_Luchaire = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Julien_Luchaire_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_SD }
+		}
+	# Henri Bonnet
+		FRA_MoS_Henri_Bonnet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Henri_Bonnet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_SD }
+		}
+	# Paul Ramadier
+		FRA_MoS_Paul_Ramadier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Ramadier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SD }
+		}
+	# Albert Lebrun
+		FRA_MoS_Albert_Lebrun = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Lebrun_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SD }
+		}
+	# Charles Brune
+		FRA_MoS_Charles_Brune = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1951.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Brune_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SD }
+		}
+	# Ernest Monis
+		FRA_MoS_Ernest_Monis = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ernest_Monis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_LWR }
+		}
+	# Eugène Étienne
+		FRA_MoS_Eugene_Etienne = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Eugene_Etienne_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_LWR }
+		}
+	# Louis Malvy
+		FRA_MoS_Louis_Malvy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Malvy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_LWR }
+		}
+	# Louis-Lucien Klotz
+		FRA_MoS_LouisLucien_Klotz = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = LouisLucien_Klotz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_LWR }
+		}
+	# Théodore Steeg
+		FRA_MoS_Theodore_Steeg = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Theodore_Steeg_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LWR }
+		}
+	# Joseph Caillaux
+		FRA_MoS_Joseph_Caillaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Caillaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_LWR }
+		}
+	# Alfred Rosmer
+		FRA_MoS_Alfred_Rosmer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfred_Rosmer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_ST }
+		}
+	# Lucien Micol
+		FRA_MoS_Lucien_Micol = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Lucien_Micol_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_ST }
+		}
+	# Claudine Chomat
+		FRA_MoS_Claudine_Chomat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Claudine_Chomat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_ST }
+		}
+	# Henri Gourdeaux
+		FRA_MoS_Henri_Gourdeaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Henri_Gourdeaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_ST }
+		}
+	# Jean-Marie Clamamus
+		FRA_MoS_JeanMarie_Clamamus = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = JeanMarie_Clamamus_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_ST }
+		}
+	# Maurice Thorez
+		FRA_MoS_Maurice_Thorez = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Thorez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_ST }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Auguste Dubail
+		FRA_AM_Auguste_Dubail = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Auguste_Dubail_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_FA }
+		}
+	# Marcel Deat
+		FRA_AM_Marcel_Deat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Deat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_FA }
+		}
+	# Marius Berliet
+		FRA_AM_Marius_Berliet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Marius_Berliet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Jacques de Guillebon
+		FRA_AM_Jacques_de_Guillebon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jacques_de_Guillebon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_PA }
+		}
+	# Renault Louis
+		FRA_AM_Renault_Louis = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Renault_Louis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Steel_Magnate ideology_PA }
+		}
+	# Tulio Franco Franco
+		FRA_AM_Tulio_Franco_Franco = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tulio_Franco_Franco_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_PA }
+		}
+	# Lucien Lacaze
+		FRA_AM_Lucien_Lacaze = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Lucien_Lacaze_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_PA }
+		}
+	# Robert Haas
+		FRA_AM_Robert_Haas = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Haas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Stephane Auphan
+		FRA_AM_Stephane_Auphan = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Stephane_Auphan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_To_Sea_Proponent ideology_PA }
+		}
+	# Paul Painleve
+		FRA_AM_Paul_Painleve = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Painleve_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_PA }
+		}
+	# Paul Mantoux
+		FRA_AM_Paul_Mantoux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Mantoux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_PA }
+		}
+	# Marie Emile Fayolle
+		FRA_AM_Marie_Emile_Fayolle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1928.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Marie_Emile_Fayolle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Reformer ideology_SC }
+		}
+	# Jean Fabry
+		FRA_AM_Jean_Fabry = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Fabry_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SC }
+		}
+	# Joseph Louis Avenol
+		FRA_AM_Joseph_Louis_Avenol = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Louis_Avenol_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Battle_Fleet_Proponent ideology_SC }
+		}
+	# Charles de Gaulle
+		FRA_AM_Charles_de_Gaulle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_SC }
+		}
+	# Marie-Pierre Koenig
+		FRA_AM_MariePierre_Koenig = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = MariePierre_Koenig_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_SC }
+		}
+	# Paul Marchandeau
+		FRA_AM_Paul_Marchandeau = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Marchandeau_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SC }
+		}
+	# Antoine Henri Queuille
+		FRA_AM_Antoine_Henri_Queuille = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Antoine_Henri_Queuille_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_To_Ground_Proponent ideology_SC }
+		}
+	# Louis Armand
+		FRA_AM_Louis_Armand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Armand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_SC }
+		}
+	# Edmond Michelet
+		FRA_AM_Edmond_Michelet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Edmond_Michelet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SC }
+		}
+	# Jules Romains
+		FRA_AM_Jules_Romains = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jules_Romains_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Submarine_Proponent ideology_SC }
+		}
+	# Alexandre Ribot
+		FRA_AM_Alexandre_Ribot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexandre_Ribot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ML }
+		}
+	# Raymond Poincaré
+		FRA_AM_Raymond_Poincare = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Raymond_Poincare_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ML }
+		}
+	# Joseph Gallieni
+		FRA_AM_Joseph_Gallieni = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1915.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Gallieni_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_ML }
+		}
+	# Albert Thomas
+		FRA_AM_Albert_Thomas = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Thomas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_ML }
+		}
+	# Charles de Lasteyrie
+		FRA_AM_Charles_de_Lasteyrie = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1922.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_de_Lasteyrie_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ML }
+		}
+	# Edouard Herriot
+		FRA_AM_Edouard_Herriot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Herriot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ML }
+		}
+	# Robert Schumann
+		FRA_AM_Robert_Schumann = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Schumann_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_ML }
+		}
+	# André Marie
+		FRA_AM_Andre_Marie = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Marie_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_Superiority_Proponent ideology_ML }
+		}
+	# René Pleven
+		FRA_AM_Rene_Pleven = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Pleven_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_ML }
+		}
+	# Pierre-Henri Teitgen
+		FRA_AM_PierreHenri_Teitgen = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = PierreHenri_Teitgen_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ML }
+		}
+	# Georges Bidault
+		FRA_AM_Georges_Bidault = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1951.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Bidault_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_ML }
+		}
+	# Étienne Clémentel
+		FRA_AM_Etienne_Clementel = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Etienne_Clementel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SL }
+		}
+	# Paul Peytral
+		FRA_AM_Paul_Peytral = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Peytral_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SL }
+		}
+	# Georges Clemenceau
+		FRA_AM_Georges_Clemenceau = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Clemenceau_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_SL }
+		}
+	# Joseph Thierry
+		FRA_AM_Joseph_Thierry = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Thierry_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SL }
+		}
+	# Frédéric François-Marsal
+		FRA_AM_Frederic_FrancoisMarsal = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Frederic_FrancoisMarsal_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SL }
+		}
+	# Louis Loucheur
+		FRA_AM_Louis_Loucheur = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Loucheur_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Construction_Magnate ideology_SL }
+		}
+	# Albert Sarraut
+		FRA_AM_Albert_Sarraut = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1928.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Albert_Sarraut_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Balanced_Budget_Economy ideology_SL }
+		}
+	# Pierre Étienne Flandin
+		FRA_AM_Pierre_Etienne_Flandin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1931.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Etienne_Flandin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SL }
+		}
+	# Raoul Dautry
+		FRA_AM_Raoul_Dautry = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Raoul_Dautry_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_SL }
+		}
+	# Vincent Auriol
+		FRA_AM_Vincent_Auriol = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Vincent_Auriol_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Supporter_Of_Devaluation ideology_SL }
+		}
+	# Georges Bonnet
+		FRA_AM_Georges_Bonnet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Bonnet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Opposer_To_Military_Spending ideology_SL }
+		}
+	# Marcel Hoden
+		FRA_AM_Marcel_Hoden = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Hoden_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_Superiority_Proponent ideology_SL }
+		}
+	# René Mayer
+		FRA_AM_Rene_Mayer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1948.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Mayer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_SL }
+		}
+	# Paul Ramadier
+		FRA_AM_Paul_Ramadier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1948.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Ramadier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SL }
+		}
+	# Joseph Noullens
+		FRA_AM_Joseph_Noullens = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Noullens_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# René Renoult
+		FRA_AM_Rene_Renoult = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Renoult_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# Alexandre Millerand
+		FRA_AM_Alexandre_Millerand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexandre_Millerand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# Louis Germain-Martin
+		FRA_AM_Louis_GermainMartin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_GermainMartin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# Paul Doumer
+		FRA_AM_Paul_Doumer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1921.1.1
+				date < 1936.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Doumer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SD }
+		}
+	# Edouard Daladier
+		FRA_AM_Edouard_Daladier = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Daladier_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SD }
+		}
+	# Louis Barthou
+		FRA_AM_Louis_Barthou = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1934.1.1
+				date < 1935.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Barthou_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_SD }
+		}
+	# Leon Jouhaux
+		FRA_AM_Leon_Jouhaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Jouhaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Strategic_Air_Proponent ideology_SD }
+		}
+	# Guy Mollet
+		FRA_AM_Guy_Mollet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Guy_Mollet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Keynesian_Economy ideology_SD }
+		}
+	# André Le Troquer
+		FRA_AM_Andre_Le_Troquer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Le_Troquer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# Jules Moch
+		FRA_AM_Jules_Moch = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1950.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jules_Moch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Battle_Fleet_Proponent ideology_SD }
+		}
+	# Charles Dumont
+		FRA_AM_Charles_Dumont = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Dumont_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_LWR }
+		}
+	# Joseph Caillaux
+		FRA_AM_Joseph_Caillaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Caillaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LWR }
+		}
+	# Louis-Lucien Klotz
+		FRA_AM_LouisLucien_Klotz = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = LouisLucien_Klotz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Corrupt_Kleptocrat ideology_LWR }
+		}
+	# Louis Malvy
+		FRA_AM_Louis_Malvy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Malvy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LWR }
+		}
+	# Marcel Cachin
+		FRA_AM_Marcel_Cachin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Cachin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Planned_Economy_Proponent ideology_ST }
+		}
+	# George Lévy
+		FRA_AM_George_Levy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = George_Levy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_ST }
+		}
+	# Laurent Casenove
+		FRA_AM_Laurent_Casenove = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Laurent_Casenove_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_ST }
+		}
+	# Jean Jerome
+		FRA_AM_Jean_Jerome = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Jerome_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_ST }
+		}
+	# Benoit Frachon
+		FRA_AM_Benoit_Frachon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Benoit_Frachon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Battle_Fleet_Proponent ideology_ST }
+		}
+	# Auguste Lecoeur
+		FRA_AM_Auguste_Lecoeur = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Auguste_Lecoeur_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_ST }
+		}
+	# Daniel Renoult
+		FRA_AM_Daniel_Renoult = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Daniel_Renoult_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_ST }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Rene Bousquet
+		FRA_HoI_Rene_Bousquet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Bousquet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_PA }
+		}
+	# Paul Repiton-Preneuf
+		FRA_HoI_Paul_RepitonPreneuf = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_RepitonPreneuf_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Pierre Laval
+		FRA_HoI_Pierre_Laval = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Laval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_PA }
+		}
+	# Gouffre de Lapradelle
+		FRA_HoI_Gouffre_de_Lapradelle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Gouffre_de_Lapradelle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_PA }
+		}
+	# René Nicolau
+		FRA_HoI_Rene_Nicolau = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Nicolau_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SC }
+		}
+	# Jacques Brunschwig
+		FRA_HoI_Jacques_Brunschwig = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jacques_Brunschwig_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_SC }
+		}
+	# André de Wawrin-Passy
+		FRA_HoI_Andre_de_WawrinPassy = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_de_WawrinPassy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SC }
+		}
+	# Roger Lantenois
+		FRA_HoI_Roger_Lantenois = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Roger_Lantenois_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_SC }
+		}
+	# André Boulloche
+		FRA_HoI_Andre_Boulloche = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Boulloche_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SC }
+		}
+	# Robert Lecourt
+		FRA_HoI_Robert_Lecourt = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1948.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Lecourt_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_SC }
+		}
+	# Leon Martinaud-Deplat
+		FRA_HoI_Leon_MartinaudDeplat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1952.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_MartinaudDeplat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_SC }
+		}
+	# Paul Ribeyre
+		FRA_HoI_Paul_Ribeyre = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Ribeyre_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_SC }
+		}
+	# Georges Ladoux
+		FRA_HoI_Georges_Ladoux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_Ladoux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_ML }
+		}
+	# André Marie
+		FRA_HoI_Andre_Marie = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Marie_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ML }
+		}
+	# Charles Luizet
+		FRA_HoI_Charles_Luizet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Luizet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ML }
+		}
+	# Charles Joseph Dupont
+		FRA_HoI_Charles_Joseph_Dupont = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1913.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Joseph_Dupont_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SL }
+		}
+	# Marie Louis Koëltz
+		FRA_HoI_Marie_Louis_Koeltz = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1931.1.1
+				date < 1935.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Marie_Louis_Koeltz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SL }
+		}
+	# Pierre Etienne Flandin
+		FRA_HoI_Pierre_Etienne_Flandin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1932.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Etienne_Flandin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SL }
+		}
+	# Joseph Paganon
+		FRA_HoI_Joseph_Paganon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Paganon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_SL }
+		}
+	# Maurice Henri Gauche
+		FRA_HoI_Maurice_Henri_Gauche = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1940.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Henri_Gauche_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SL }
+		}
+	# Maurice Delage
+		FRA_HoI_Maurice_Delage = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Delage_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SL }
+		}
+	# Raoul Albert Louis Salan
+		FRA_HoI_Raoul_Albert_Louis_Salan = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1944.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Raoul_Albert_Louis_Salan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SL }
+		}
+	# Aimé Lepercq
+		FRA_HoI_Aime_Lepercq = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Aime_Lepercq_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_SL }
+		}
+	# René Mayer
+		FRA_HoI_Rene_Mayer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1949.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Mayer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SL }
+		}
+	# Felix Gouin
+		FRA_HoI_Felix_Gouin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Felix_Gouin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SD }
+		}
+	# Daniel Mayer
+		FRA_HoI_Daniel_Mayer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Daniel_Mayer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SD }
+		}
+	# André Le Troquer
+		FRA_HoI_Andre_Le_Troquer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Le_Troquer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SD }
+		}
+	# Edgar Faure
+		FRA_HoI_Edgar_Faure = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1951.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Edgar_Faure_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SD }
+		}
+	# S. Mineff
+		FRA_HoI_S_Mineff = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = S_Mineff_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Waldeck Rochet
+		FRA_HoI_Waldeck_Rochet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Waldeck_Rochet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_ST }
+		}
+	# Jean-Marie Clamamus
+		FRA_HoI_JeanMarie_Clamamus = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = JeanMarie_Clamamus_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_ST }
+		}
+	# Henri Gourdeaux
+		FRA_HoI_Henri_Gourdeaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Henri_Gourdeaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_ST }
+		}
+	# Gustave Guéhenneux
+		FRA_HoI_Gustave_Guehenneux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1947.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Gustave_Guehenneux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ST }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Xavier Vallat
+		FRA_CoStaff_Xavier_Vallat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Xavier_Vallat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_NS }
+		}
+	# Ferdinand Foch
+		FRA_CoStaff_Ferdinand_Foch = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1929.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Foch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_Counterattack_Genius ideology_FA }
+		}
+	# Eugène Deloncle
+		FRA_CoStaff_Eugene_Deloncle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Eugene_Deloncle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_FA }
+		}
+	# Rene Binet
+		FRA_CoStaff_Rene_Binet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Rene_Binet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_FA }
+		}
+	# Philippe Pétain
+		FRA_CoStaff_Philippe_Petain = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_PA }
+		}
+	# Charles Huntziger
+		FRA_CoStaff_Charles_Huntziger = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Huntziger_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_PA }
+		}
+	# Henri-Honoré Giraud
+		FRA_CoStaff_HenriHonore_Giraud = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = HenriHonore_Giraud_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_PA }
+		}
+	# François Darlan
+		FRA_CoStaff_Francois_Darlan = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1943.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Darlan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_PA }
+		}
+	# Eugene Bridoux
+		FRA_CoStaff_Eugene_Bridoux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Eugene_Bridoux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_PA }
+		}
+	# Jean-Marie Lattre de Tassigny
+		FRA_CoStaff_JeanMarie_Lattre_de_Tassigny = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = JeanMarie_Lattre_de_Tassigny_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_SC }
+		}
+	# Paul Le Gentilhomme
+		FRA_CoStaff_Paul_Le_Gentilhomme = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Le_Gentilhomme_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_SC }
+		}
+	# Charles de Gaulle
+		FRA_CoStaff_Charles_de_Gaulle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_de_Gaulle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_SC }
+		}
+	# Pierre-Armand Billotte
+		FRA_CoStaff_PierreArmand_Billotte = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = PierreArmand_Billotte_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_SC }
+		}
+	# Pierre Bourges-Maunory
+		FRA_CoStaff_Pierre_BourgesMaunory = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_BourgesMaunory_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_SC }
+		}
+	# Auguste Dubail
+		FRA_CoStaff_Auguste_Dubail = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Auguste_Dubail_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ML }
+		}
+	# Emile Belin
+		FRA_CoStaff_Emile_Belin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Emile_Belin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_ML }
+		}
+	# Etienne Laffon de Ladébat
+		FRA_CoStaff_Etienne_Laffon_de_Ladebat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Etienne_Laffon_de_Ladebat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ML }
+		}
+	# Maurice Pellé
+		FRA_CoStaff_Maurice_Pelle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Pelle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ML }
+		}
+	# Noël de Castelnau
+		FRA_CoStaff_Noel_de_Castelnau = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Noel_de_Castelnau_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ML }
+		}
+	# Jean Graziani
+		FRA_CoStaff_Jean_Graziani = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1915.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Graziani_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_ML }
+		}
+	# Pierre Duport
+		FRA_CoStaff_Pierre_Duport = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Duport_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_ML }
+		}
+	# Ferdinand Foch
+		FRA_CoStaff_Ferdinand_Foch_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1929.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Foch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_Counterattack_Genius ideology_ML }
+		}
+	# François Anthoine
+		FRA_CoStaff_Francois_Anthoine = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Anthoine_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ML }
+		}
+	# Philippe Pétain
+		FRA_CoStaff_Philippe_Petain_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_ML }
+		}
+	# Henri Alby
+		FRA_CoStaff_Henri_Alby = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1918.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Henri_Alby_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_ML }
+		}
+	# Edmond Buat
+		FRA_CoStaff_Edmond_Buat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1920.1.1
+				date < 1923.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Edmond_Buat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_ML }
+		}
+	# Marie-Eugene Debeney
+		FRA_CoStaff_MarieEugene_Debeney = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = MarieEugene_Debeney_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ML }
+		}
+	# Maxime Weygand
+		FRA_CoStaff_Maxime_Weygand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1929.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Maxime_Weygand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_SL }
+		}
+	# Maurice Gamelin
+		FRA_CoStaff_Maurice_Gamelin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1935.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Gamelin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_Fortifications_Supporter ideology_SL }
+		}
+	# Maurice Sarrail
+		FRA_CoStaff_Maurice_Sarrail = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1929.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Sarrail_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_LWR }
+		}
+	# Marcel Cachin
+		FRA_CoStaff_Marcel_Cachin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Cachin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_ST }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Ferdinand Foch
+		FRA_CoArmy_Ferdinand_Foch = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1929.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Foch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_FA }
+		}
+	# Philippe Pétain
+		FRA_CoArmy_Philippe_Petain = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Louis Franchet d'Espèrey
+		FRA_CoArmy_Louis_Franchet_dEsperey = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1936.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Franchet_dEsperey_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_PA }
+		}
+	# Maxime Weygand
+		FRA_CoArmy_Maxime_Weygand = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1929.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Maxime_Weygand_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_PA }
+		}
+	# Eugene Bridoux
+		FRA_CoArmy_Eugene_Bridoux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Eugene_Bridoux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# André Bayle
+		FRA_CoArmy_Andre_Bayle_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1950.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Bayle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_PA }
+		}
+	# Alphonse Georges
+		FRA_CoArmy_Alphonse_Georges = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Alphonse_Georges_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_SC }
+		}
+	# Jean-Marie Lattre de Tassigny
+		FRA_CoArmy_JeanMarie_Lattre_de_Tassigny = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = JeanMarie_Lattre_de_Tassigny_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_SC }
+		}
+	# Jean Bertin-Boussus
+		FRA_CoArmy_Jean_BertinBoussus = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_BertinBoussus_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_SC }
+		}
+	# André Bayle
+		FRA_CoArmy_Andre_Bayle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1950.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Bayle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_SC }
+		}
+	# Auguste Dubail
+		FRA_CoArmy_Auguste_Dubail = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Auguste_Dubail_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ML }
+		}
+	# Etienne Laffon de Ladébat
+		FRA_CoArmy_Etienne_Laffon_de_Ladebat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Etienne_Laffon_de_Ladebat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ML }
+		}
+	# Joseph Joffre
+		FRA_CoArmy_Joseph_Joffre = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1920.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Joffre_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ML }
+		}
+	# Edmond Buat
+		FRA_CoArmy_Edmond_Buat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1924.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Edmond_Buat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ML }
+		}
+	# Robert Nivelle
+		FRA_CoArmy_Robert_Nivelle = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Nivelle_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ML }
+		}
+	# Philippe Pétain
+		FRA_CoArmy_Philippe_Petain_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Philippe_Petain_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_ML }
+		}
+	# Ferdinand Foch
+		FRA_CoArmy_Ferdinand_Foch_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1918.1.1
+				date < 1929.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Foch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ML }
+		}
+	# Maurice Gamelin
+		FRA_CoArmy_Maurice_Gamelin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1935.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Gamelin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defense_Supporter ideology_SL }
+		}
+	# Pierre Auguste Chardigny
+		FRA_CoArmy_Pierre_Auguste_Chardigny = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Auguste_Chardigny_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_SL }
+		}
+	# Leon Victor Bourgeois
+		FRA_CoArmy_Leon_Victor_Bourgeois = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1895.1.1
+				date < 1925.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Victor_Bourgeois_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_SD }
+		}
+	# Maurice Sarrail
+		FRA_CoArmy_Maurice_Sarrail = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1929.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Sarrail_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_LWR }
+		}
+	# André Marty
+		FRA_CoArmy_Andre_Marty = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Marty_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ST }
+		}
+	# Pierre Fabien
+		FRA_CoArmy_Pierre_Fabien = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Fabien_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Jean Decoux
+		FRA_CoNavy_Jean_Decoux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				NS_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Decoux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_NS }
+		}
+	# Joseph Barnouin
+		FRA_CoNavy_Joseph_Barnouin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Barnouin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_FA }
+		}
+	# Jean-Marie Charles Abrial
+		FRA_CoNavy_JeanMarie_Charles_Abrial = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = JeanMarie_Charles_Abrial_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_FA }
+		}
+	# Charles Platon
+		FRA_CoNavy_Charles_Platon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Platon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_FA }
+		}
+	# François Darlan
+		FRA_CoNavy_Francois_Darlan = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1943.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Darlan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_PA }
+		}
+	# Pierre Richard
+		FRA_CoNavy_Pierre_Richard = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Richard_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_PA }
+		}
+	# Jean Esteva
+		FRA_CoNavy_Jean_Esteva = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Esteva_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_PA }
+		}
+	# Jean Marie Abrial
+		FRA_CoNavy_Jean_Marie_Abrial = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Marie_Abrial_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_PA }
+		}
+	# Francois Pietri
+		FRA_CoNavy_Francois_Pietri = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Pietri_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_SC }
+		}
+	# Etienne Schlumberger
+		FRA_CoNavy_Etienne_Schlumberger = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Etienne_Schlumberger_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_SC }
+		}
+	# Jules Habert
+		FRA_CoNavy_Jules_Habert = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Jules_Habert_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_ML }
+		}
+	# Joseph Barnouin
+		FRA_CoNavy_Joseph_Barnouin_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1915.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Barnouin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# Ferdinand Jean Jacques de Bon
+		FRA_CoNavy_Ferdinand_Jean_Jacques_de_Bon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1916.1.1
+				date < 1920.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Ferdinand_Jean_Jacques_de_Bon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# François Morin
+		FRA_CoNavy_Francois_Morin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Francois_Morin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_ML }
+		}
+	# Marie Merveilleux du Vignaux
+		FRA_CoNavy_Marie_Merveilleux_du_Vignaux = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1918.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Marie_Merveilleux_du_Vignaux_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_ML }
+		}
+	# Pierre Ronarc'h
+		FRA_CoNavy_Pierre_Ronarch = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1919.1.1
+				date < 1921.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Ronarch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# Henri Salaun
+		FRA_CoNavy_Henri_Salaun = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1920.1.1
+				date < 1928.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Henri_Salaun_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# Maurice Grasset
+		FRA_CoNavy_Maurice_Grasset = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1921.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Grasset_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# Louis Violette
+		FRA_CoNavy_Louis_Violette = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1928.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Violette_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ML }
+		}
+	# Georges Durand-Viel
+		FRA_CoNavy_Georges_DurandViel = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1931.1.1
+				date < 1937.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Georges_DurandViel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_ML }
+		}
+	# César Campinchi
+		FRA_CoNavy_Cesar_Campinchi = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Cesar_Campinchi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_ML }
+		}
+	# Louis Pivet
+		FRA_CoNavy_Louis_Pivet = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1920.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Pivet_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_SL }
+		}
+	# Joseph Paul Boncour
+		FRA_CoNavy_Joseph_Paul_Boncour = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Paul_Boncour_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_SD }
+		}
+	# Jean Gout
+		FRA_CoNavy_Jean_Gout = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Gout_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_SD }
+		}
+	# André Marty
+		FRA_CoNavy_Andre_Marty = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Andre_Marty_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_ST }
+		}
+	# Charles Tillon
+		FRA_CoNavy_Charles_Tillon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Tillon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Victor Duval
+		FRA_CoAir_Victor_Duval = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				FA_Minister_Allowed = yes
+				NOT = { has_country_flag = Victor_Duval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_FA }
+		}
+	# Jean Marie Bergeret
+		FRA_CoAir_Jean_Marie_Bergeret = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Marie_Bergeret_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_PA }
+		}
+	# Maurice Jannekeyn
+		FRA_CoAir_Maurice_Jannekeyn = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Maurice_Jannekeyn_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_PA }
+		}
+	# Robert Rossi
+		FRA_CoAir_Robert_Rossi = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Robert_Rossi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_SC }
+		}
+	# Martial Valín
+		FRA_CoAir_Martial_Valin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Martial_Valin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_SC }
+		}
+	# Raymond Roques
+		FRA_CoAir_Raymond_Roques = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Raymond_Roques_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_SC }
+		}
+	# Edouard Barès
+		FRA_CoAir_Edouard_Bares = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Edouard_Bares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ML }
+		}
+	# Jean Du Peuty
+		FRA_CoAir_Jean_Du_Peuty = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Jean_Du_Peuty_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ML }
+		}
+	# Louis Guillabert
+		FRA_CoAir_Louis_Guillabert = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Louis_Guillabert_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_ML }
+		}
+	# Victor Duval
+		FRA_CoAir_Victor_Duval_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1917.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Victor_Duval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_ML }
+		}
+	# Laurent Eynac
+		FRA_CoAir_Laurent_Eynac = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1928.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Laurent_Eynac_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ML }
+		}
+	# Paul Painlevé
+		FRA_CoAir_Paul_Painleve = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1930.1.1
+				date < 1933.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Paul_Painleve_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ML }
+		}
+	# Jacques-Louis Dumesnil
+		FRA_CoAir_JacquesLouis_Dumesnil = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1931.1.1
+				date < 1936.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = JacquesLouis_Dumesnil_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ML }
+		}
+	# Auguste Edouard Hirschauer
+		FRA_CoAir_Auguste_Edouard_Hirschauer = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1914.1.1
+				date < 1936.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Auguste_Edouard_Hirschauer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_SL }
+		}
+	# Victor Denain
+		FRA_CoAir_Victor_Denain = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Victor_Denain_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_SL }
+		}
+	# Joseph Vuillemin
+		FRA_CoAir_Joseph_Vuillemin = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Joseph_Vuillemin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_SL }
+		}
+	# Guy La Chambre
+		FRA_CoAir_Guy_La_Chambre = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Guy_La_Chambre_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_SL }
+		}
+	# Marcel Deat
+		FRA_CoAir_Marcel_Deat = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Deat_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_SD }
+		}
+	# Pierre Cot
+		FRA_CoAir_Pierre_Cot = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Pierre_Cot_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_SD }
+		}
+	# Marcel Gitton
+		FRA_CoAir_Marcel_Gitton = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcel_Gitton_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_ST }
+		}
+	# Charles Tillon
+		FRA_CoAir_Charles_Tillon = {
+			picture = Generic_Portrait
+			allowed = { tag = FRA }
+			available = {
+				date > 1924.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Charles_Tillon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ST }
+		}
+	}
+}

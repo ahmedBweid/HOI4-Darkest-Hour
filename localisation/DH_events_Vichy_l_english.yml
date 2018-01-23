@@ -1,0 +1,8 @@
+﻿l_english:
+#########################################################################
+#  Vichy events
+#########################################################################
+ DH_vichy.1.t:0 "Submit or Fight!"
+ DH_vichy.1.d:0 "This morning German officers have been demanding unconditional cooperation of the French State, in effect starting the occupation of all of France. The Vichy government is meeting to decide on the course of action. Some state that enough is enough and that Germany must abide by the armistice, while others argue that Germany will simply ignore any counter offer and demands total submission from France. Do we fight? Or do we submit?"
+ DH_vichy.1.a:0 "Submit to Germany."
+ DH_vichy.1.b:0 "Join Allies" 

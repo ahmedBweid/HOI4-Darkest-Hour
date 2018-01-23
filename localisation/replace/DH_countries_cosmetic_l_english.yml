@@ -1,0 +1,133 @@
+﻿l_english:
+ #################################################################
+ ## German subject names
+ #################################################################
+ ITA_GER_fascist:0 "Italian Reich"
+ ITA_GER_fascist_DEF:0 "Italian Reich"
+ ITA_GER_national_socialist:0 "Italian Reich"
+ ITA_GER_national_socialist_DEF:0 "Italian Reich"
+ 
+ FIN_GREATER_fascist:0 "Greater Finnish Empire"
+ FIN_GREATER_fascist_DEF:0 "Greater Finnish Empire"
+ FIN_GREATER_national_socialist:0 "Greater Finnish Empire"
+ FIN_GREATER_national_socialist_DEF:0 "Greater Finnish Empire"
+ 
+ ICE_GER_RK_fascist:0 "Reichskommissariat Island"
+ ICE_GER_RK_fascist_DEF:0 "Das Reichskommissariat Island"
+ ICE_GER_RK_national_socialist:0 "Reichskommissariat Island"
+ ICE_GER_RK_national_socialist_DEF:0 "Das Reichskommissariat Island"
+ 
+ AUS_GER_fascist:0 "Ostmark"
+ AUS_GER_fascist_DEF:0 "Ostmark"
+ AUS_GER_national_socialist:0 "Ostmark"
+ AUS_GER_national_socialist_DEF:0 "Ostmark" 
+ 
+ AUS_GER_AXIS_fascist:0 "Deutschösterreich"
+ AUS_GER_AXIS_fascist_DEF:0 "Deutschösterreich"
+ AUS_GER_AXIS_national_socialist:0 "Deutschösterreich"
+ AUS_GER_AXIS_national_socialist_DEF:0 "Deutschösterreich" 
+ 
+ #################################################################
+ ## German cosmetic tags
+ #################################################################
+# Germany
+ GER_BIG_fascist:0 "Greater German Reich"
+ GER_BIG_fascist_DEF:0 "The Greater German Reich"
+ GER_BIG_national_socialist:0 "Greater German Reich"
+ GER_BIG_national_socialist_DEF:0 "The Greater German Reich"
+
+ GER_GREATER_fascist:0 "Greater Germanic Reich"
+ GER_GREATER_fascist_DEF:0 "The Greater Germanic Reich"
+ GER_GREATER_national_socialist:0 "Greater Germanic Reich"
+ GER_GREATER_national_socialist_DEF:0 "The Greater Germanic Reich"
+
+ # Denmark
+ DEN_GER_fascist:0 "Reichsprotektorat Nordmark"
+ DEN_GER_fascist_DEF:0 "Reichsprotektorat Nordmark"
+ DEN_GER_national_socialist:0 "Reichsprotektorat Nordmark"
+ DEN_GER_national_socialist_DEF:0 "Reichsprotektorat Nordmark"
+ 
+ DEN_GER_fascist_DH_autonomy_integrated_puppet:0 "Reichsgau Nordmark"
+ DEN_GER_fascist_DH_autonomy_puppet:0 "Reichskommissariat Nordmark"
+ DEN_GER_fascist_DH_autonomy_colony:0 "Reichsprotektorat Nordmark"
+ DEN_GER_fascist_DH_autonomy_satellite:0 "Social Republic of Dänemark"
+  
+ DEN_GER_national_socialist_DH_autonomy_integrated_puppet:0 "Reichsgau Nordmark"
+ DEN_GER_national_socialist_DH_autonomy_puppet:0 "Reichskommissariat Nordmark"
+ DEN_GER_national_socialist_DH_autonomy_colony:0 "Reichsprotektorat Nordmark"
+ DEN_GER_national_socialist_DH_autonomy_satellite:0 "Social Republic of Dänemark"
+
+# Norway
+ NOR_GER_fascist_DH_autonomy_integrated_puppet:0 "Reichsgau Nordland"
+ NOR_GER_fascist_DH_autonomy_puppet:0 "Reichskommissariat Nordland"
+ NOR_GER_fascist_DH_autonomy_colony:0 "Reichsprotektorat Nordland"
+ NOR_GER_fascist_DH_autonomy_satellite:0 "Nasjonal Samling"
+  
+ NOR_GER_national_socialist_DH_autonomy_integrated_puppet:0 "Reichsgau Nordland"
+ NOR_GER_national_socialist_DH_autonomy_puppet:0 "Reichskommissariat Nordland"
+ NOR_GER_national_socialist_DH_autonomy_colony:0 "Reichsprotektorat Nordland"
+ NOR_GER_national_socialist_DH_autonomy_satellite:0 "Nasjonal Samling"
+
+# Sweden
+ SWE_GER_fascist:0 "Reichskommissariat Schweland"
+ SWE_GER_fascist_DEF:0 "The Reichskommissariat of Schweland"
+ SWE_GER_national_socialist:0 "Reichskommissariat Schweland"
+ SWE_GER_national_socialist_DEF:0 "The Reichskommissariat of Schweland"
+ 
+ SWE_GER_fascist_DH_autonomy_integrated_puppet:0 "Reichsgau Schweland"
+ SWE_GER_fascist_DH_autonomy_puppet:0 "Reichskommissariat Schweland"
+ SWE_GER_fascist_DH_autonomy_colony:0 "Reichsprotektorat Schweland"
+ SWE_GER_fascist_DH_autonomy_satellite:0 "Social Republic of Schweland"
+  
+ SWE_GER_national_socialist_DH_autonomy_integrated_puppet:0 "Reichsgau Schweland"
+ SWE_GER_national_socialist_DH_autonomy_puppet:0 "Reichskommissariat Schweland"
+ SWE_GER_national_socialist_DH_autonomy_colony:0 "Reichsprotektorat Schweland"
+ SWE_GER_national_socialist_DH_autonomy_satellite:0 "Social Republic of Schweland"
+ 
+ # England
+ EGL_GER_fascist:0 "Reichskommissariat England"
+ EGL_GER_fascist_DEF:0 "The Reichskommissariat of England"
+ EGL_GER_national_socialist:0 "Reichskommissariat England"
+ EGL_GER_national_socialist_DEF:0 "The Reichskommissariat of England"
+ 
+ EGL_GER_fascist_DH_autonomy_integrated_puppet:0 "Reichsgau England"
+ EGL_GER_fascist_DH_autonomy_puppet:0 "Reichskommissariat England"
+ EGL_GER_fascist_DH_autonomy_colony:0 "Reichsprotektorat England"
+ EGL_GER_fascist_DH_autonomy_satellite:0 "Social Republic of England"
+
+ EGL_GER_national_socialist_DH_autonomy_integrated_puppet:0 "Reichsgau England"
+ EGL_GER_national_socialist_DH_autonomy_puppet:0 "Reichskommissariat England"
+ EGL_GER_national_socialist_DH_autonomy_colony:0 "Reichsprotektorat England"
+ EGL_GER_national_socialist_DH_autonomy_satellite:0 "Social Republic of England"
+
+# Scotland
+ SCO_GER_fascist:0 "Reichskommissariat Schottland"
+ SCO_GER_fascist_DEF:0 "The Reichskommissariat of Schottland"
+ SCO_GER_national_socialist:0 "Reichskommissariat Schottland"
+ SCO_GER_national_socialist_DEF:0 "The Reichskommissariat of Schottland"
+
+ SCO_GER_fascist_DH_autonomy_integrated_puppet:0 "Reichsgau Schottland"
+ SCO_GER_fascist_DH_autonomy_puppet:0 "Reichskommissariat Schottland"
+ SCO_GER_fascist_DH_autonomy_colony:0 "Reichsprotektorat Schottland"
+ SCO_GER_fascist_DH_autonomy_satellite:0 "Social Republic of Schottland"
+  
+ SCO_GER_national_socialist_DH_autonomy_integrated_puppet:0 "Reichsgau Schottland"
+ SCO_GER_national_socialist_DH_autonomy_puppet:0 "Reichskommissariat Schottland"
+ SCO_GER_national_socialist_DH_autonomy_colony:0 "Reichsprotektorat Schottland"
+ SCO_GER_national_socialist_DH_autonomy_satellite:0 "Social Republic of Schottland"
+
+ # United States
+ USA_GER_fascist:0 "Reichsprotektorat Amerika"
+ USA_GER_fascist_DEF:0 "Reichsprotektorat Amerika"
+ USA_GER_national_socialist:0 "Reichsprotektorat Amerika"
+ USA_GER_national_socialist_DEF:0 "Reichsprotektorat Amerika"
+ 
+ USA_GER_fascist_DH_autonomy_integrated_puppet:0 "Reichsgau Amerika"
+ USA_GER_fascist_DH_autonomy_puppet:0 "Reichskommissariat Amerika"
+ USA_GER_fascist_DH_autonomy_colony:0 "Reichsprotektorat Amerika"
+ USA_GER_fascist_DH_autonomy_satellite:0 "Social Republic of Amerika"
+  
+ USA_GER_national_socialist_DH_autonomy_integrated_puppet:0 "Reichsgau Amerika"
+ USA_GER_national_socialist_DH_autonomy_puppet:0 "Reichskommissariat Amerika"
+ USA_GER_national_socialist_DH_autonomy_colony:0 "Reichsprotektorat Amerika"
+ USA_GER_national_socialist_DH_autonomy_satellite:0 "Social Republic of Amerika"

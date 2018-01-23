@@ -1,0 +1,395 @@
+﻿#########################################################################
+# Darkest Hour Events : USSR
+#########################################################################
+
+add_namespace = DH_soviet
+
+### ------------------- USSR ---------------------------------------------
+
+#########################################################################
+#  Commercial Agreement
+#########################################################################
+country_event = {
+	id = DH_soviet.1
+	title = DH_soviet.1.t
+	desc = DH_soviet.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #accept deal
+		name = DH_soviet.1.a
+		ai_chance = {
+			factor = 1000
+			modifier = {
+				SOV = { has_government = social_conservative }
+				factor = 0
+			}
+		}
+		GER = {
+			58 = {
+				add_resource = {
+						type = oil
+						amount = 12
+						state = 58
+				}
+				add_resource = {
+						type = chromium
+						amount = 6
+						state = 58
+				}
+			}
+		}
+		SOV = {
+			add_ideas = GER_commercial
+		}
+	}
+	option = { #refuse deal
+		ai_chance = { factor = 1 }
+		name = DH_soviet.1.b
+		GER = { country_event = { hours = 6 id = DH_Germany_Soviet.1 }}
+	}
+}
+
+#########################################################################
+#  Commercial agreement cancelled
+#########################################################################
+country_event = { #commercial agreement is over
+	id = DH_soviet.2
+	title = DH_soviet.2.t
+	desc = DH_soviet.2.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #remove idea
+		name = DH_soviet.2.a
+		SOV = {
+			remove_ideas = GER_commercial
+		}
+	}
+}
+
+#########################################################################
+#  Death of Stalin
+#########################################################################
+country_event = {
+	id = DH_soviet.3
+	title = DH_soviet.3.t
+	desc = DH_soviet.3.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1953.3.1	
+	}
+
+	
+	#
+	option = { 
+		name = DH_soviet.3.a
+		country_event = { days = 31 id = DH_soviet.4 }
+		create_country_leader = { 
+			name = "Lavrenti P. Beria" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Beria.dds" 
+			expire = "1967.1.1" 
+			ideology = stalinism 
+			traits = { } 
+		}
+	}
+}
+
+
+#########################################################################
+#  Death of Stalin : Succession after Stalin's death
+#########################################################################
+country_event = {
+	id = DH_soviet.4
+	title = DH_soviet.4.t
+	desc = DH_soviet.4.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	
+	# Nikita S. Khrushchev
+	option = { 
+		name = DH_soviet.4.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 100
+			}
+		}
+		create_country_leader = { 
+			name = "Nikita S. Khrushchev" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Khrushchev.dds" 
+			expire = "1971.9.11" 
+			ideology = stalinism 
+			traits = { } 
+		}			
+	}
+	# Georgy Malenkov
+	option = { 
+		name = DH_soviet.4.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+		create_country_leader = { 
+			name = "Georgy Malenkov" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Malenkov.dds" 
+			expire = "1988.1.14" 
+			ideology = stalinism 
+			traits = { } 
+		}	
+	}	
+	# Lavrenti P. Beria
+	option = {
+		name = DH_soviet.4.c
+		ai_chance = {
+			factor  = 10
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+	}
+	# Georgy Zhukov
+	option = { 
+		name = DH_soviet.4.d
+		ai_chance = {
+			factor  = 0
+		}
+		create_country_leader = { 
+			name = "Georgy Zhukov" 
+			desc = "POLITICS_PETER_II_DESC" 
+			picture = "Portrait_Soviet_Zhukov.dds" 
+			expire = "1974.6.18" 
+			ideology = stalinism 
+			traits = { } 
+		}			
+	}	
+}
+
+#########################################################################
+#  Crusade against the West : Proposition from Berlin
+#########################################################################
+country_event = {
+	id = DH_soviet.5
+	title = DH_soviet.5.t
+	desc = DH_soviet.5.d
+	picture = GFX_news_event_002
+	fire_only_once = no
+	
+	is_triggered_only = yes
+	
+	# Let's bury the west
+	option = { 
+		name = DH_soviet.5.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				OR = {
+					has_idea = officers_purged
+					has_idea = officers_purged_2
+					has_idea = officers_purged_3
+					has_idea = officers_purged_4
+					has_idea = officers_purged_5
+					has_idea = officers_purged_6
+					has_idea = officers_purged_7
+					has_idea = officers_purged_8
+					has_idea = officers_purged_9
+					has_idea = officers_purged_10
+				}
+				factor = 0
+			}
+		}
+		country_event = { days = 31 id = DH_Germany_Soviet.4 }
+	}
+	# We need more time!
+	option = { 
+		name = DH_soviet.5.b
+		ai_chance = {
+			factor = 20
+			modifier = {
+				OR = {
+					has_idea = officers_purged
+					has_idea = officers_purged_2
+					has_idea = officers_purged_3
+					has_idea = officers_purged_4
+					has_idea = officers_purged_5
+					has_idea = officers_purged_6
+					has_idea = officers_purged_7
+					has_idea = officers_purged_8
+					has_idea = officers_purged_9
+					has_idea = officers_purged_10
+				}
+				factor = 100
+			}
+		}
+		country_event = { days = 31 id = DH_Germany_Soviet.5 }
+	}	
+}
+
+#########################################################################
+#  Intervene in Xinjiang
+#########################################################################
+country_event = {
+	id = DH_soviet.6
+	title = DH_soviet.6.t
+	desc = DH_soviet.6.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	# Yes, we intervene
+	option = { 
+		name = DH_soviet.6.a
+		ai_chance = {
+			factor = 70
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}	
+		declare_war_on = { target = ETS type = puppet }
+	}
+	
+	# No, leave them be
+	option = {
+		name = DH_soviet.6.b
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+}
+
+#########################################################################
+#  Peace with China
+#########################################################################
+country_event = {
+	id = DH_soviet.7
+	title = DH_soviet.7.t
+	desc = DH_soviet.7.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	#Peace
+	option = {
+		name = DH_soviet.7.a
+		ai_chance = {
+			factor = 70
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 100
+			}
+		}
+		SOV = { white_peace = CHI }
+		SOV = { white_peace = ETS }
+		ETS = { annex_country = { target = SIK } }
+	}
+	
+	# No, we must spread the revolution
+	option = {
+		name = DH_soviet.7.b
+		ai_chance = {
+			factor = 30
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+	}
+}
+
+#########################################################################
+#  Move Industry to the Urals
+#########################################################################
+country_event = {
+	id = DH_soviet.8
+	title = DH_soviet.8.t
+	desc = DH_soviet.8.d
+	picture = GFX_report_event_DH_soviet_tanks
+
+	is_triggered_only = yes
+	
+	#Smart move
+	option = {
+		name = DH_soviet.8.a
+		219 = {
+			remove_building = {
+				type = arms_factory
+				level = 6
+			}
+			remove_building = {
+				type = industrial_complex
+				level = 2
+			}
+		}
+		195 = {
+			remove_building = {
+				type = arms_factory
+				level = 5
+			}
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		242 = {
+			remove_building = {
+				type = industrial_complex
+				level = 2
+			}
+		}
+		573 = {
+			add_extra_state_shared_building_slots = 8
+			add_building_construction = {
+				type = arms_factory
+				level = 5
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+		582 = {
+			add_extra_state_shared_building_slots = 8
+			add_building_construction = {
+				type = arms_factory
+				level = 6
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	#Don't be ridiculous
+	option = {
+		name = DH_soviet.8.b
+	}
+}

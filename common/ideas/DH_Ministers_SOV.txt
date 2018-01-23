@@ -1,0 +1,1993 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# Nikolai I. Yezhov
+		SOV_HoG_Nikolai_I_Yezhov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1940.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolai_I_Yezhov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_PA }
+		}
+	# Gregori N. Zhilenkov
+		SOV_HoG_Gregori_N_Zhilenkov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Gregori_N_Zhilenkov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_PA }
+		}
+	# Alexander F. Kerensky
+		SOV_HoG_Alexander_F_Kerensky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexander_F_Kerensky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_SL }
+		}
+	# Nikolai Bukharin
+		SOV_HoG_Nikolai_Bukharin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolai_Bukharin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_LWR }
+		}
+	# Vladimir Lenin
+		SOV_HoG_Vladimir_Lenin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1924.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vladimir_Lenin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_LE }
+		}
+	# Aleksey Rykov
+		SOV_HoG_Aleksey_Rykov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksey_Rykov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_LE }
+		}
+	# Leon Trotsky
+		SOV_HoG_Leon_Trotsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1924.1.1
+				date < 1932.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Trotsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_ST }
+		}
+	# Vyacheslav M. Molotov
+		SOV_HoG_Vyacheslav_M_Molotov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Vyacheslav_M_Molotov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Collectivizer ideology_ST }
+		}
+	# Iosif V. Stalin
+		SOV_HoG_Iosif_V_Stalin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1954.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Iosif_V_Stalin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_ST }
+		}
+	# Lavrentiy P. Beria
+		SOV_HoG_Lavrentiy_P_Beria = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Lavrentiy_P_Beria_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_ST }
+		}
+	# Georgy M. Malenkov
+		SOV_HoG_Georgy_M_Malenkov_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Georgy_M_Malenkov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_ST }
+		}
+	# Georgy M. Malenkov
+		SOV_HoG_Georgy_M_Malenkov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Georgy_M_Malenkov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_ST }
+		}
+	# Nikolay A. Bulganin
+		SOV_HoG_Nikolay_A_Bulganin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1955.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_A_Bulganin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Old_General ideology_ST }
+		}
+	# Nikita S. Khrushchev
+		SOV_HoG_Nikita_S_Khrushchev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1958.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikita_S_Khrushchev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_ST }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# Fedor P. Bogatyrchuk
+		SOV_FM_Fedor_P_Bogatyrchuk = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Fedor_P_Bogatyrchuk_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_PA }
+		}
+	# Dmitri P. Romanov
+		SOV_FM_Dmitri_P_Romanov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Dmitri_P_Romanov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_SC }
+		}
+	# Leon Trotsky
+		SOV_FM_Leon_Trotsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Trotsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_LE }
+		}
+	# Georgiy Chicherin
+		SOV_FM_Georgiy_Chicherin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Georgiy_Chicherin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_LE }
+		}
+	# Boris Kamkov
+		SOV_FM_Boris_Kamkov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1916.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Boris_Kamkov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_LE }
+		}
+	# Maksim M. Litvinov
+		SOV_FM_Maksim_M_Litvinov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Maksim_M_Litvinov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Persuader_Of_Democracies ideology_ST }
+		}
+	# Andrey J. Vyshinsky
+		SOV_FM_Andrey_J_Vyshinsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Andrey_J_Vyshinsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_ST }
+		}
+	# Vyacheslav M. Molotov
+		SOV_FM_Vyacheslav_M_Molotov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Vyacheslav_M_Molotov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_ST }
+		}
+	# Ivan M. Maisky
+		SOV_FM_Ivan_M_Maisky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_M_Maisky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_ST }
+		}
+	# Dmitriy T. Shepilov
+		SOV_FM_Dmitriy_T_Shepilov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1956.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Dmitriy_T_Shepilov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_ST }
+		}
+	# Andrey A. Gromyko
+		SOV_FM_Andrey_A_Gromyko = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1957.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Andrey_A_Gromyko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_ST }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Vladimir Malyshkin
+		SOV_MoS_Vladimir_Malyshkin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Vladimir_Malyshkin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_PA }
+		}
+	# Igor N. Troubetzkoy
+		SOV_MoS_Igor_N_Troubetzkoy = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Igor_N_Troubetzkoy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SC }
+		}
+	# Aleksey Rykov
+		SOV_MoS_Aleksey_Rykov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksey_Rykov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_LE }
+		}
+	# Grigoriy Petrovsky
+		SOV_MoS_Grigoriy_Petrovsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Grigoriy_Petrovsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_LE }
+		}
+	# Feliks Dzerzhinsky
+		SOV_MoS_Feliks_Dzerzhinsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Feliks_Dzerzhinsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_LE }
+		}
+	# Aleksandr Beloborodov
+		SOV_MoS_Aleksandr_Beloborodov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_Beloborodov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_LE }
+		}
+	# Maria Spiridonova
+		SOV_MoS_Maria_Spiridonova = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1916.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Maria_Spiridonova_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Health_And_Safety ideology_LE }
+		}
+	# Genrikh G. Yagoda
+		SOV_MoS_Genrikh_G_Yagoda = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1939.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Genrikh_G_Yagoda_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Purged_Purger ideology_ST }
+		}
+	# Nikolai I. Yezhov
+		SOV_MoS_Nikolai_I_Yezhov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1940.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolai_I_Yezhov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Secret_Police_Chief ideology_ST }
+		}
+	# Sergej Uritskiy
+		SOV_MoS_Sergej_Uritskiy = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Sergej_Uritskiy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_ST }
+		}
+	# Lavrentiy P. Beria
+		SOV_MoS_Lavrentiy_P_Beria = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Lavrentiy_P_Beria_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Secret_Police_Chief ideology_ST }
+		}
+	# Alexander G. Orlov
+		SOV_MoS_Alexander_G_Orlov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexander_G_Orlov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_ST }
+		}
+	# Sergiy G. Gendin
+		SOV_MoS_Sergiy_G_Gendin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Sergiy_G_Gendin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_ST }
+		}
+	# Alexey P. Panfilov
+		SOV_MoS_Alexey_P_Panfilov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexey_P_Panfilov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_ST }
+		}
+	# Sergey N. Kruglov
+		SOV_MoS_Sergey_N_Kruglov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Sergey_N_Kruglov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Secret_Police_Chief ideology_ST }
+		}
+	# Nikolay Dudorov
+		SOV_MoS_Nikolay_Dudorov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1956.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_Dudorov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_ST }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# Anton Scheglov
+		SOV_AM_Anton_Scheglov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Anton_Scheglov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_PA }
+		}
+	# Vladimir M. Smirnov
+		SOV_AM_Vladimir_M_Smirnov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Vladimir_M_Smirnov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SL }
+		}
+	# Pavel Dybenko
+		SOV_AM_Pavel_Dybenko = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_Dybenko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Battle_Fleet_Proponent ideology_LWR }
+		}
+	# Feliks Dzerzhinsky
+		SOV_AM_Feliks_Dzerzhinsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Feliks_Dzerzhinsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LE }
+		}
+	# Isidore Gukovsky
+		SOV_AM_Isidore_Gukovsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1921.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Isidore_Gukovsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_LE }
+		}
+	# Nikolay Krestinsky
+		SOV_AM_Nikolay_Krestinsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_Krestinsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Planned_Economy_Proponent ideology_LE }
+		}
+	# Vladimir Antonov-Ovseyenko
+		SOV_AM_Vladimir_AntonovOvseyenko = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vladimir_AntonovOvseyenko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_LE }
+		}
+	# Leon Trotsky
+		SOV_AM_Leon_Trotsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Leon_Trotsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_LE }
+		}
+	# Boris Savinkov
+		SOV_AM_Boris_Savinkov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1916.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Boris_Savinkov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_LE }
+		}
+	# Grigory Sokolnikov
+		SOV_AM_Grigory_Sokolnikov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1920.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Grigory_Sokolnikov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Reformer ideology_LE }
+		}
+	# Ivan Skvortsov-Stepanov
+		SOV_AM_Ivan_SkvortsovStepanov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_SkvortsovStepanov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Corrupt_Kleptocrat ideology_ST }
+		}
+	# Lazar M. Kaganovich
+		SOV_AM_Lazar_M_Kaganovich = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1930.1.1
+				date < 1962.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Lazar_M_Kaganovich_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Iron_Lazar ideology_ST }
+		}
+	# Iosif V. Stalin
+		SOV_AM_Iosif_V_Stalin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Iosif_V_Stalin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Planned_Economy_Proponent ideology_ST }
+		}
+	# Georgiy D. Bazilevich
+		SOV_AM_Georgiy_D_Bazilevich = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Georgiy_D_Bazilevich_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_ST }
+		}
+	# Dimitry F. Ustinov
+		SOV_AM_Dimitry_F_Ustinov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Dimitry_F_Ustinov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_ST }
+		}
+	# Boris L. Vannikov
+		SOV_AM_Boris_L_Vannikov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Boris_L_Vannikov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_ST }
+		}
+	# Aleksandr Vasilevsky
+		SOV_AM_Aleksandr_Vasilevsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1949.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_Vasilevsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_ST }
+		}
+	# Nikolay A. Bulganin
+		SOV_AM_Nikolay_A_Bulganin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_A_Bulganin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Planned_Economy_Proponent ideology_ST }
+		}
+	# Georgiy K. Zhukov
+		SOV_AM_Georgiy_K_Zhukov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1955.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Georgiy_K_Zhukov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_ST }
+		}
+	# Rodion Y. Malinovsky
+		SOV_AM_Rodion_Y_Malinovsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1959.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Rodion_Y_Malinovsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_ST }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Nikolai I. Yezhov
+		SOV_HoI_Nikolai_I_Yezhov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1940.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolai_I_Yezhov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_PA }
+		}
+	# Mikhail A. Meandrov
+		SOV_HoI_Mikhail_A_Meandrov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_A_Meandrov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_PA }
+		}
+	# Igor N. Troubetzkoy
+		SOV_HoI_Igor_N_Troubetzkoy = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Igor_N_Troubetzkoy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SC }
+		}
+	# Moisey Uritsky
+		SOV_HoI_Moisey_Uritsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1918.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Moisey_Uritsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_LWR }
+		}
+	# Feliks Dzerzhinsky
+		SOV_HoI_Feliks_Dzerzhinsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Feliks_Dzerzhinsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_LE }
+		}
+	# Yakov Peters
+		SOV_HoI_Yakov_Peters = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Yakov_Peters_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_LE }
+		}
+	# Vyacheslav Menzhinsky
+		SOV_HoI_Vyacheslav_Menzhinsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vyacheslav_Menzhinsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_LE }
+		}
+	# Martin Latsis
+		SOV_HoI_Martin_Latsis = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Martin_Latsis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_LE }
+		}
+	# Józef Unszlicht
+		SOV_HoI_Jozef_Unszlicht = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Jozef_Unszlicht_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_LE }
+		}
+	# Grigory Ordzhonikidze
+		SOV_HoI_Grigory_Ordzhonikidze = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Grigory_Ordzhonikidze_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Yan K. Berzin
+		SOV_HoI_Yan_K_Berzin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Yan_K_Berzin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ST }
+		}
+	# Ivan I.Proskurov
+		SOV_HoI_Ivan_IProskurov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_IProskurov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_ST }
+		}
+	# Filip I. Golikov
+		SOV_HoI_Filip_I_Golikov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Filip_I_Golikov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Alexey P. Panfilov
+		SOV_HoI_Alexey_P_Panfilov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexey_P_Panfilov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_ST }
+		}
+	# Igor I. Ilichev
+		SOV_HoI_Igor_I_Ilichev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Igor_I_Ilichev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_ST }
+		}
+	# Fedor F. Kuznetsov
+		SOV_HoI_Fedor_F_Kuznetsov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Fedor_F_Kuznetsov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ST }
+		}
+	# Viktor S. Abakumov
+		SOV_HoI_Viktor_S_Abakumov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Viktor_S_Abakumov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_ST }
+		}
+	# Semyon D. Ignatyev
+		SOV_HoI_Semyon_D_Ignatyev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1951.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Semyon_D_Ignatyev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Ivan A. Serov
+		SOV_HoI_Ivan_A_Serov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1953.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_A_Serov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ST }
+		}
+	# Aleksandr N. Shelepin
+		SOV_HoI_Aleksandr_N_Shelepin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1958.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_N_Shelepin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Vladimir Y. Semichastny
+		SOV_HoI_Vladimir_Y_Semichastny = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1961.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Vladimir_Y_Semichastny_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_ST }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Fyodor Trikhin
+		SOV_CoStaff_Fyodor_Trikhin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Fyodor_Trikhin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_PA }
+		}
+	# Konstantin K. Rokossovsky
+		SOV_CoStaff_Konstantin_K_Rokossovsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Konstantin_K_Rokossovsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LWR }
+		}
+	# Mikhail Bonch-Bruyevich
+		SOV_CoStaff_Mikhail_BonchBruyevich = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_BonchBruyevich_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_LE }
+		}
+	# Nikolay Rattel
+		SOV_CoStaff_Nikolay_Rattel = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_Rattel_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LE }
+		}
+	# Fedor Kostyaev
+		SOV_CoStaff_Fedor_Kostyaev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Fedor_Kostyaev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_LE }
+		}
+	# Pavel Lebedev
+		SOV_CoStaff_Pavel_Lebedev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_Lebedev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_LE }
+		}
+	# Mikhail Frunze
+		SOV_CoStaff_Mikhail_Frunze = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_Frunze_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_LE }
+		}
+	# Mikhail N. Tukhatchevskiy
+		SOV_CoStaff_Mikhail_N_Tukhatchevskiy = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_N_Tukhatchevskiy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_Deep_Battle_Proponent ideology_LE }
+		}
+	# Boris M. Shaposhnikov
+		SOV_CoStaff_Boris_M_Shaposhnikov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Boris_M_Shaposhnikov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Kirill A. Meretskov
+		SOV_CoStaff_Kirill_A_Meretskov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Kirill_A_Meretskov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ST }
+		}
+	# Georgiy K. Zhukov
+		SOV_CoStaff_Georgiy_K_Zhukov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Georgiy_K_Zhukov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_ST }
+		}
+	# Alesandr M. Vasilevskiy
+		SOV_CoStaff_Alesandr_M_Vasilevskiy = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Alesandr_M_Vasilevskiy_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_ST }
+		}
+	# Nikolay A. Bulganin
+		SOV_CoStaff_Nikolay_A_Bulganin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_A_Bulganin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Aleksei I. Antonov
+		SOV_CoStaff_Aleksei_I_Antonov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksei_I_Antonov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ST }
+		}
+	# Sergei M. Shtemenko
+		SOV_CoStaff_Sergei_M_Shtemenko = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Sergei_M_Shtemenko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_ST }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Vitaly Maltsev
+		SOV_CoArmy_Vitaly_Maltsev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Vitaly_Maltsev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Georgiy K. Zhukov
+		SOV_CoArmy_Georgiy_K_Zhukov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Georgiy_K_Zhukov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_PA }
+		}
+	# Nikolay Krylenko
+		SOV_CoArmy_Nikolay_Krylenko = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_Krylenko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_LE }
+		}
+	# Jukums Vacietis
+		SOV_CoArmy_Jukums_Vacietis = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Jukums_Vacietis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Commando_Doctrine_Army ideology_LE }
+		}
+	# Sergey Kamenev
+		SOV_CoArmy_Sergey_Kamenev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Sergey_Kamenev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_LE }
+		}
+	# Mikhail Artemyevich Muravyov
+		SOV_CoArmy_Mikhail_Artemyevich_Muravyov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1916.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_Artemyevich_Muravyov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Commando_Doctrine_Army ideology_LE }
+		}
+	# Kliment Y. Voroshilov
+		SOV_CoArmy_Kliment_Y_Voroshilov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1970.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Kliment_Y_Voroshilov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ST }
+		}
+	# Semen K. Timoshenko
+		SOV_CoArmy_Semen_K_Timoshenko = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Semen_K_Timoshenko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_ST }
+		}
+	# Iosif V. Stalin
+		SOV_CoArmy_Iosif_V_Stalin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Iosif_V_Stalin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ST }
+		}
+	# Rodion Y. Malinovsky
+		SOV_CoArmy_Rodion_Y_Malinovsky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Rodion_Y_Malinovsky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# P. Drozd
+		SOV_CoNavy_P_Drozd = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = P_Drozd_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_PA }
+		}
+	# Nikolay G. Kuznetsov
+		SOV_CoNavy_Nikolay_G_Kuznetsov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolay_G_Kuznetsov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_PA }
+		}
+	# Pavel Dybenko
+		SOV_CoNavy_Pavel_Dybenko = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_Dybenko_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_LWR }
+		}
+	# Modest Ivanov
+		SOV_CoNavy_Modest_Ivanov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Modest_Ivanov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_LE }
+		}
+	# Vasiliy Altfater
+		SOV_CoNavy_Vasiliy_Altfater = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1919.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vasiliy_Altfater_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_LE }
+		}
+	# Yevgeny Berens
+		SOV_CoNavy_Yevgeny_Berens = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Yevgeny_Berens_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_LE }
+		}
+	# Aleksandr Nemits
+		SOV_CoNavy_Aleksandr_Nemits = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_Nemits_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_LE }
+		}
+	# Eduard Pantserzhansky
+		SOV_CoNavy_Eduard_Pantserzhansky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1920.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Eduard_Pantserzhansky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_LE }
+		}
+	# Vyacheslav Zof
+		SOV_CoNavy_Vyacheslav_Zof = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1920.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vyacheslav_Zof_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_LE }
+		}
+	# Vladimir M. Orlov
+		SOV_CoNavy_Vladimir_M_Orlov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1930.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vladimir_M_Orlov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_LE }
+		}
+	# Ivan. S. Isakov
+		SOV_CoNavy_Ivan_S_Isakov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Ivan_S_Isakov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_LE }
+		}
+	# Mikhail V. Viktorov
+		SOV_CoNavy_Mikhail_V_Viktorov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_V_Viktorov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_ST }
+		}
+	# Nikolai G. Kuznetsov
+		SOV_CoNavy_Nikolai_G_Kuznetsov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Nikolai_G_Kuznetsov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# S.A. Chernykh
+		SOV_CoAir_SA_Chernykh = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = SA_Chernykh_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_PA }
+		}
+	# Pavel V. Rychagov
+		SOV_CoAir_Pavel_V_Rychagov_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_V_Rychagov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_PA }
+		}
+	# Konstantin Akashev
+		SOV_CoAir_Konstantin_Akashev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Konstantin_Akashev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_LE }
+		}
+	# Mikhail Solovov
+		SOV_CoAir_Mikhail_Solovov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Mikhail_Solovov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_LE }
+		}
+	# Aleksandr Vorotnikov
+		SOV_CoAir_Aleksandr_Vorotnikov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_Vorotnikov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_LE }
+		}
+	# Andrey Sergeev
+		SOV_CoAir_Andrey_Sergeev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1914.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Andrey_Sergeev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_LE }
+		}
+	# Andrey Znamensky
+		SOV_CoAir_Andrey_Znamensky = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1920.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Andrey_Znamensky_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_LE }
+		}
+	# Arkady Rosengolts
+		SOV_CoAir_Arkady_Rosengolts = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1920.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Arkady_Rosengolts_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_LE }
+		}
+	# Pyotr Baranov
+		SOV_CoAir_Pyotr_Baranov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1920.1.1
+				date < 1932.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Pyotr_Baranov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_LE }
+		}
+	# Yakov I. Alksnis
+		SOV_CoAir_Yakov_I_Alksnis = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1922.1.1
+				date < 1939.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Yakov_I_Alksnis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_LE }
+		}
+	# Yakov V. Smushkevich
+		SOV_CoAir_Yakov_V_Smushkevich = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1933.1.1
+				date < 1942.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Yakov_V_Smushkevich_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_LE }
+		}
+	# Aleksandr E. Golovanov
+		SOV_CoAir_Aleksandr_E_Golovanov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_E_Golovanov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_LE }
+		}
+	# Konstantin Andreevich Vershinin
+		SOV_CoAir_Konstantin_Andreevich_Vershinin = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1946.1.1
+				date < 1969.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Konstantin_Andreevich_Vershinin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_LE }
+		}
+	# Pavel Stepanovich Kutakhov
+		SOV_CoAir_Pavel_Stepanovich_Kutakhov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1969.1.1
+				date < 1984.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_Stepanovich_Kutakhov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_LE }
+		}
+	# Aleksandr D. Loktionov
+		SOV_CoAir_Aleksandr_D_Loktionov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1937.1.1
+				date < 1941.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Aleksandr_D_Loktionov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ST }
+		}
+	# Pavel V. Rychagov
+		SOV_CoAir_Pavel_V_Rychagov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_V_Rychagov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_ST }
+		}
+	# Pavel F. Zhigarev
+		SOV_CoAir_Pavel_F_Zhigarev = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1938.1.1
+				date < 1959.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Pavel_F_Zhigarev_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ST }
+		}
+	# Alexander A. Novikov
+		SOV_CoAir_Alexander_A_Novikov = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Alexander_A_Novikov_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_ST }
+		}
+	# Y.V. Vladimiroch
+		SOV_CoAir_YV_Vladimiroch = {
+			picture = Generic_Portrait
+			allowed = { tag = SOV }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = YV_Vladimiroch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_ST }
+		}
+	}
+}

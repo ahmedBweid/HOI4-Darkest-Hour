@@ -1,0 +1,239 @@
+﻿capital = 275
+
+oob = "SAF_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	
+	
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+# Armour Tech
+	experimental_tank_1916 = 1
+	light_tank_1917 = 1
+	heavy_tank_1917 = 1
+	light_tank_1918 = 1
+	light_tank_1919 = 1
+#Naval Stuff
+	destroyer_1885 = 1
+	destroyer_1900 = 1
+	destroyer_1912 = 1
+	destroyer_1916 = 1
+	
+	transport = 1
+#
+	trench_warfare = 1
+	fleet_in_being = 1
+}
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+	add_ideas = SAF_ossewabrandwag
+	add_ideas = SAF_history_of_segregation
+
+	add_to_tech_sharing_group = commonwealth_research
+	add_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	oob = "SAF_1939"
+	
+	if = {
+		limit = { has_dlc = "Together for Victory" }
+		complete_national_focus = SAF_special_service_battalion
+		complete_national_focus = SAF_improve_the_three_oh_three
+		complete_national_focus = SAF_q_services_corps
+		complete_national_focus = SAF_commit_to_the_five_year_plan
+		complete_national_focus = SAF_seaward_defence_force
+		complete_national_focus = SAF_protect_the_trade
+		complete_national_focus = SAF_south_african_railways
+		complete_national_focus = SAF_expand_the_mining_industry
+		complete_national_focus = SAF_heavy_engineering	
+		
+		else = {
+			#generic focuses
+			complete_national_focus = army_effort
+			complete_national_focus = equipment_effort
+			complete_national_focus = motorization_effort
+			complete_national_focus = aviation_effort
+			complete_national_focus = naval_effort
+			complete_national_focus = large_navy
+			complete_national_focus = industrial_effort
+			complete_national_focus = construction_effort
+			complete_national_focus = production_effort
+		}
+	}
+
+	add_ideas = {
+		#laws
+		volunteer_only
+		low_economic_mobilisation
+	}
+
+	
+	set_technology = {
+		fighter1 = 1
+		tactical_bomber1 = 1
+		
+		
+		
+		interwar_artillery = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+		support_weapons2 = 1
+		
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_plant = 1
+		improved_oil_plant = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_convoys = 25
+set_politics = {
+
+	parties = {
+		national_socialist = { popularity = 0 }		
+		fascist = { popularity = 0 }		
+		paternal_autocrat = { popularity = 0 }		
+		social_conservative = { popularity = 76 }				
+		social_liberal = { popularity = 15 }		
+		social_democrat = { popularity = 5 }		
+		left_wing_radical = { popularity = 4 }		
+		leninist = { popularity = 0 }		
+		stalinist = { popularity = 0 }	
+	}
+	
+	ruling_party = social_conservative
+	last_election = "1933.5.17"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			national_socialist = { popularity = 0 }		
+			fascist = { popularity = 0 }		
+			paternal_autocrat = { popularity = 0 }		
+			social_conservative = { popularity = 50 }	
+			social_liberal = { popularity = 0 }		
+			social_democrat = { popularity = 5 }		
+			left_wing_radical = { popularity = 4 }		
+			leninist = { popularity = 0 }		
+			stalinist = { popularity = 0 }	
+		}
+		
+		ruling_party = social_conservative
+		last_election = "1938.5.18"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+}
+
+
+####################################################
+## South African Leaders
+####################################################
+#NS
+create_country_leader = {
+	name = "Louis Weichardt"
+	desc = ""
+	picture = "DH_Fritz_Julius_Kuhn.dds"
+	expire = "1965.1.1"
+	ideology = national_socialism
+	traits = {}
+}
+#FA
+create_country_leader = {
+	name = "J. F. van Rensburg"
+	desc = ""
+	picture = "DH_William_Dudley_Pelley.dds"
+	expire = "1965.1.1"
+	ideology = fascist_ideology
+	traits = { }
+}
+
+#SC
+create_country_leader = {
+	name = "J. B. M. Hertzog"
+	desc = ""
+	picture = "South_Africa_SC_JBM_Hertzog.dds"
+	expire = "1947.1.1"
+	ideology = market_liberalism
+	traits = { }
+}
+#SL
+#SD
+create_country_leader = {
+	name = "Zacharias Richard Mahabane"
+	desc = ""
+	picture = "DH_Allan_Benson.dds"
+	expire = "1947.1.1"
+	ideology = social_democracy
+	traits = { }
+}
+
+#LWR
+#LE
+create_country_leader = {
+	name = "Moses Mauane Kotane"
+	desc = ""
+	picture = "DH_Joseph_Lash.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = { }
+}
+#ST
+
+####################################################
+## South African Generals
+####################################################
+create_corps_commander = {
+	name = "George Edwin Brink"
+	gfx = "GFX_SAF_george_edwin_brink"
+	traits = { desert_fox  }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Guy Hallifax"
+	gfx = "GFX_SAF_guy_halifax"
+	traits = { }
+	skill = 3
+}

@@ -1,0 +1,251 @@
+spriteTypes = {	
+#######################################################
+### Generic
+#######################################################
+# Rifles
+	SpriteType = {
+		name = "GFX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_Rifle_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_Rifle_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_Rifle_3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_Rifle_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_Rifle_5.dds"
+	}	
+	
+#SMGs	
+	SpriteType = {
+		name = "GFX_infantry_smg_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SMG_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SMG_2.dds"
+	}
+	
+#AT equipment	
+	SpriteType = {
+		name = "GFX_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_AT_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_AT_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_AT_3.dds"
+	}
+	
+#Heavy Infantry Equipment
+	SpriteType = {
+		name = "GFX_support_weapons_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SW_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SW_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SW_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Generic/Generic_SW_4.dds"
+	}
+
+#######################################################
+### Germany
+#######################################################
+# Rifles
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_Rifle_G98.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_Rifle_Kar98k.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_Rifle_G41.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_Rifle_G43.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_Rifle_StG44.dds"
+	}	
+	
+#SMGs	
+	SpriteType = {
+		name = "GFX_GER_infantry_smg_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SMG_MP40.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SMG_MP3008.dds"
+	}
+
+#AT equipment	
+	SpriteType = {
+		name = "GFX_GER_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_AT_PzB39.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_AT_PzF.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_AT_RPzB.dds"
+	}
+	
+#Heavy Infantry Equipment
+	SpriteType = {
+		name = "GFX_GER_support_weapons_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SW_MG08_leMnW.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_support_weapons2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SW_MG34_leGrW36.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_support_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SW_MG42_leGrW34.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_support_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Germany/GER_SW_MG45_leGrW42.dds"
+	}
+#######################################################
+### United States
+#######################################################
+# Rifles
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1903.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1Garand.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1Garand.dds"
+	}	
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M1Carbine.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_Rifle_M2Carbine.dds"
+	}
+	
+#SMGs	
+	SpriteType = {
+		name = "GFX_USA_infantry_smg_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_SMG_M1Thompson.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_SMG_M3.dds"
+	}
+
+#AT equipment	
+	SpriteType = {
+		name = "GFX_USA_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_AT_M2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_AT_M20.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/United States/USA_AT_M1.dds"
+	}
+	
+	
+#######################################################
+### Soviet Union
+#######################################################
+# Rifles
+	SpriteType = {
+		name = "GFX_SOV_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_Rifle_MN1891.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_Rifle_MN1891-30.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_Rifle_SVT-38.dds"
+	}	
+	SpriteType = {
+		name = "GFX_SOV_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_Rifle_SVT-40.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_Rifle_SKS.dds"
+	}	
+	
+#SMGs	
+	SpriteType = {
+		name = "GFX_SOV_infantry_smg_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SMG_PPSh-41.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_smg1_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SMG_PPS-43.dds"
+	}
+
+#AT equipment	
+	SpriteType = {
+		name = "GFX_SOV_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_AT_PTRS-41.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_AT_RPG-43.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_AT_RPG-1.dds"
+	}
+	
+#Heavy Infantry Equipment
+	SpriteType = {
+		name = "GFX_SOV_support_weapons_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SW_PM-M1910_GR.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_support_weapons2_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SW_DP_RM-38.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_support_weapons3_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SW_DS-39_82-PM-41.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_support_weapons4_medium"
+		texturefile = "gfx/interface/technologies/Infantry/Soviet Union/SOV_SW_SG-43_120-PM-43.dds"
+	}	
+}
