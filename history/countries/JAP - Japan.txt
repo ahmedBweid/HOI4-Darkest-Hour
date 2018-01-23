@@ -216,6 +216,7 @@ if = {
 		autonomous_state = autonomy_integrated_puppet
 	}
 	else = {
+<<<<<<< HEAD
 		set_autonomy = {
 			target = MEN
 			autonomous_state = autonomy_puppet
@@ -224,6 +225,18 @@ if = {
 			target = MAN
 			autonomous_state = autonomy_puppet
 		}
+=======
+		#set_autonomy = {
+		#	target = MEN
+		#	autonomous_state = DH_autonomy_puppet
+		#}
+		#set_autonomy = {
+		#	target = MAN
+		#	autonomous_state = DH_autonomy_puppet
+		#}
+		puppet = MEN
+		puppet = MAN
+>>>>>>> master
 	}
 }
 

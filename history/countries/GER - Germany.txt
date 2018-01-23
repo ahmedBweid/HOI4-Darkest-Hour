@@ -123,10 +123,24 @@ create_import = {
 	}
 	
 	oob = "GER_1939"
+<<<<<<< HEAD
 	
 	set_autonomy = {
 		target = SLO
 		autonomous_state = autonomy_puppet
+=======
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = SLO
+			autonomous_state = DH_autonomy_puppet
+		}
+		else = {
+			puppet = SLO
+		}
+>>>>>>> master
 	}
 	
 	give_military_access = SLO
@@ -631,6 +645,7 @@ create_navy_leader = {
 	skill = 3
 	id = 31
 }
+<<<<<<< HEAD
 
 
 ## 1936 Start ##
@@ -685,3 +700,5 @@ create_equipment_variant = {
 	}
 
 }
+=======
+>>>>>>> master

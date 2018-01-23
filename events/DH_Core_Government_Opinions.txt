@@ -145,7 +145,7 @@ country_event = {
 				}
 				add_opinion_modifier = {
 					target = ROOT
-					modifier = DH_similar_ideologies
+					modifier = DH_democractic_ideologies
 				}
 			}
 			every_country = {

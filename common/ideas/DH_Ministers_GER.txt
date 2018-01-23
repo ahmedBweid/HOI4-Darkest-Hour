@@ -31,11 +31,39 @@ ideas = {
 	
 	Chief_of_Army = {
 	
+<<<<<<< HEAD
 		designer = yes
 		
 		GER_Adolf_Hitler_Chief_of_Army = {
 		
 			picture = Adolf_Hitler_GER
+=======
+	# Fritz Bayerlein ( Add trait Logistics wizard)
+		GER_CoStaff_Fritz_Bayerlein = {		
+			picture = Generic_Portrait
+			
+			allowed = { tag = GER }
+			available = {date > 1936.1.1}
+			cost = 150			
+			removal_cost = 10
+			
+			traits = {CoStaff_ pos_CoStaff ideology_PA}
+		}
+	# Wilhelm Grüner
+		GER_CoStaff_Wilhelm_Gruner = {
+			picture = Generic_Portrait
+			
+			allowed = { tag = GER }
+			available = {date > 1936.1.1}
+			cost = 150
+			removal_cost = 10
+			
+			traits = {CoStaff_school_of_defence pos_CoStaff ideology_PA}		
+		}
+	# Ernst Wollweber
+		GER_CoStaff_Ernst_Wollweber = {		
+			picture = Generic_Portrait
+>>>>>>> master
 			
 			allowed = {
 				tag = GER

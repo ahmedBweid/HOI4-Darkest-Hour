@@ -39,5 +39,7 @@ opinion_modifiers = {
 
 	DH_different_ideologies = { value = -10 }
 
-	DH_same_ideologies = { value = 40 }
+	DH_same_ideologies = { value = 30 }
+
+	DH_democractic_ideologies = { value = 25 }
 }
