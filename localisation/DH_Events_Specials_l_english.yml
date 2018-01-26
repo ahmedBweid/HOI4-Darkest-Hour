@@ -42,3 +42,17 @@
   DH_US_special.1.t:0 "Stab in The Back"
   DH_US_special.1.d:0 "The leadership of Italy assured America that they were desirous of peace, but the Government of Italy has now chosen to preserve what it terms its 'Freedom of Action' and the hand that held the dagger has struck it into the back of its neighbour. Some indeed still hold to the now obvious delusion that we of the United States can safely permit the United States to remain a lone island in a world dominated by force. We might once more have to intervene in a European war."
   DH_US_special.1.a:0 "Here we go again..."
+  
+##############################################
+## Colored Puppets
+##############################################  
+ DH_Colored_Puppet.1.t:0 "Colored Puppets"
+ DH_Colored_Puppet.1.d:0 "Do you want colored puppets on or off?"
+ DH_Colored_Puppet.1.a:0 "Turn colored puppets on."
+ DH_Colored_Puppet.1.b:0 "Turn colored puppets off."
+ DH_Colored_Puppet.2.t:0 "A Puppet of a foreign power"
+ DH_Colored_Puppet.2.d:0 "We have sadly became a puppet of a foreign power, and they are enforcing their color upon us."
+ DH_Colored_Puppet.2.a:0 "Damn!"
+ DH_Colored_Puppet.3.t:0 "Free from our oppresors!"
+ DH_Colored_Puppet.3.d:0 "We have gain our freedom our oppresors, and therfore we may adopt our own color again."
+ DH_Colored_Puppet.3.a:0 "FREEDOM!"

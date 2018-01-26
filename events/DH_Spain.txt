@@ -135,7 +135,7 @@ country_event = {
 			ruling_party = social_conservative
 			elections_allowed = yes
 		}
-      }
+    }
 }
 #Manuel Azana steps into power
 country_event = {
@@ -213,9 +213,9 @@ country_event = {
     }
 
 
-	# Support the Republicans : No Pasarán!
+	# Support the Nationalists : Patria, Pan y Justicia!
 	option = {
-		name = DH_spain.7.a
+		name = DH_spain.7.A
 		trigger = { is_ai = no }
 		hidden_effect	= {	
 			SPA = {
@@ -243,9 +243,10 @@ country_event = {
 		}
 		custom_effect_tooltip = nationalists_chosen
 	}
-	# Support the Nationalists : Patria, Pan y Justicia!
+
+	# Support the Republicans : No Pasarán!
 	option = {
-		name = DH_spain.7.b
+		name = DH_spain.7.B
 		hidden_effect	= {
 			if = {
 				limit = {
@@ -424,7 +425,7 @@ country_event = {
 }
 # Republicans: Seek French Support
 country_event = {
-		id = DH_spain.8
+	id = DH_spain.8
 	title = DH_spain.8.t
 	desc = DH_spain.8.d
 	picture = GFX_report_event_spain_civil_war_soldiers
@@ -440,7 +441,7 @@ country_event = {
 }
 # Republicans: Seek British Support
 country_event = {
-		id = DH_spain.9
+	id = DH_spain.9
 	title = DH_spain.9.t
 	desc = DH_spain.9.d
 	picture = GFX_report_event_spain_civil_war_soldiers

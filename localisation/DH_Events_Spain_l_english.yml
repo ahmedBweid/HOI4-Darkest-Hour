@@ -29,7 +29,7 @@
  
  DH_spain.7.t:0 "Spanish Civil War"
  DH_spain.7.d:0 "WIP"
- DH_spain.7.a:0 "No Pasarán!"
- DH_spain.7.b:0 "Patria, Pan y Justicia!" 
+ DH_spain.7.A:0 "Patria, Pan y Justicia!" 
+ DH_spain.7.B:0 "No Pasarán!"
  nationalists_chosen:0 "Support the Republicans" 
  republicans_chosen:0 "Support the Nationalists" 

@@ -1,5 +1,15 @@
 spriteTypes = {	
 
+	bitmapfont = {
+		name = "cg_16b"				####### GENERAL TOOLTIP FONT ########
+#		path = "gfx/fonts/cg_16b"
+		fontfiles = { 
+			"gfx/fonts/cg_16b"		
+			"gfx/fonts/hoi_16tooltip3"					
+		}			
+		color = 0xffffffff
+	}
+	
 	 spriteType = {
 	 	name = "GFX_nullobject"
 	 	texturefile = "gfx//interface//thisisdog.dds"
