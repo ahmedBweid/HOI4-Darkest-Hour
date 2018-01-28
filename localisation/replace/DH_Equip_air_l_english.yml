@@ -47,6 +47,7 @@
  interceptor_equipment_3:0 "Interceptor '43"
  interceptor_equipment_3_short:0 "Interceptor '43"
  interceptor_equipment_3_desc:0 "Interceptors are short-range fighters designed to destroy enemy bombers. They have high speed and good manouverability to make them agile enough to evade the machine guns of the bombers, while having the firepower needed to disable a heavy, armoured bomber.  Against enemy fighters, they are less effective yet they still put up a good fight."
+ jet_interceptor_equipment:0 "Jet Interceptor"
  jet_interceptor_equipment_1:0 "Turbojet Interceptor '45"
  jet_interceptor_equipment_1_short:0 "Jet Interceptor '45"
  jet_interceptor_equipment_1_desc:0 "Interceptors are short-range fighters designed to destroy enemy bombers. They have high speed and good manouverability to make them agile enough to evade the machine guns of the bombers, while having the firepower needed to disable a heavy, armoured bomber.  Against enemy fighters, they are less effective yet they still put up a good fight."

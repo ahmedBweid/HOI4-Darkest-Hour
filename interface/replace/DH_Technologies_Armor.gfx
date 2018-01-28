@@ -5,6 +5,11 @@ spriteTypes = {
 ###########################################################
 #Light Tanks
 	SpriteType = {
+		name = "GFX_experimental_tank_1916_medium"
+		texturefile = "gfx/interface/technologies/Armor/Generic/LT_1.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_light_tank_1917_medium"
 		texturefile = "gfx/interface/technologies/Armor/Generic/LT_1.dds"
 	}
