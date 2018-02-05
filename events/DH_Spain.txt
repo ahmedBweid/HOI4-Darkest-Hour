@@ -135,7 +135,7 @@ country_event = {
 			ruling_party = social_conservative
 			elections_allowed = yes
 		}
-    }
+	}
 }
 #Manuel Azana steps into power
 country_event = {
