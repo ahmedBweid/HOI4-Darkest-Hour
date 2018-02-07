@@ -47,31 +47,41 @@ equipments = {
 			steel = 3
 			chromium = 3
 		}
-		
 	}
 
-	# 1917
-	heavy_tank_equipment_0 = {
-		year = 1917
-
-		archetype = heavy_tank_equipment		
-		priority = 90
-		visual_level = 0
-		is_convertable = yes
-	}
-	
-	# 1939
+################################
+# 1939 Heavy Tank
+################################
 	heavy_tank_equipment_1 = {
 		year = 1939
 
-		archetype = heavy_tank_equipment		
-		parent = heavy_tank_equipment_0
+		archetype = heavy_tank_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 13
+		reliability = 0.8
+		build_cost_ic = 25
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 12
+		hard_attack = 12
+		air_attack = 0
+		defense = 8
+		breakthrough = 36
+		
+		# Armor Stats
+		armor_value = 70
+		ap_attack = 35
+		hardness = 0.95
 	}
 
-	# 1941
+################################
+# 1941 Heavy Tank
+################################
 	heavy_tank_equipment_2 = {
 		year = 1941
 
@@ -80,29 +90,29 @@ equipments = {
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
+			
+		# Technical Stats
+		maximum_speed = 12
+		reliability = 0.8
+		build_cost_ic = 27
+		resources = { oil = 1 steel = 2 }
 		
-		#Misc Abilities
-		maximum_speed = 6
-
-		#Defensive Abilities
-		defense = 8
-		breakthrough = 52
-		armor_value = 110
-
-		#Offensive Abilities
+		# Combat Stats
 		soft_attack = 22
 		hard_attack = 30
-		ap_attack = 111
+		air_attack = 0
+		defense = 9
+		breakthrough = 52
 		
-		build_cost_ic = 27 
-		resources = {
-			oil = 1
-			steel = 3
-			chromium = 3
-		}
+		# Armor Stats
+		armor_value = 110
+		ap_attack = 115
+		hardness = 0.95
 	}
 
-	# 1943
+################################
+# 1943 Heavy Tank
+################################
 	heavy_tank_equipment_3 = {
 		year = 1943
 
@@ -111,29 +121,29 @@ equipments = {
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
-
-		#Misc Abilities
-		maximum_speed = 6
-
-		#Defensive Abilities
-		defense = 9
-		breakthrough = 67
-		armor_value = 130
-
-		#Offensive Abilities
+	
+		# Technical Stats
+		maximum_speed = 17
+		reliability = 0.8
+		build_cost_ic = 30
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
 		soft_attack = 28
 		hard_attack = 40
-		ap_attack = 131
+		air_attack = 0
+		defense = 12
+		breakthrough = 67
 		
-		build_cost_ic = 30
-		resources = {
-			oil = 1
-			steel = 4
-			chromium = 3
-		}
+		# Armor Stats
+		armor_value = 130
+		ap_attack = 135
+		hardness = 0.95
 	}
 
-	# 1944
+################################
+# 1944 Heavy Tank
+################################
 	heavy_tank_equipment_4 = {
 		year = 1944
 
@@ -142,9 +152,29 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 18
+		reliability = 0.8
+		build_cost_ic = 32
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 35
+		hard_attack = 50
+		air_attack = 0
+		defense = 14
+		breakthrough = 82
+		
+		# Armor Stats
+		armor_value = 140
+		ap_attack = 145
+		hardness = 0.95
 	}
 	
-	# 1956
+################################
+# 1956 Heavy Tank
+################################
 	heavy_tank_equipment_5 = {
 		year = 1956
 
@@ -153,10 +183,29 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 20
+		reliability = 0.8
+		build_cost_ic = 36
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 40
+		hard_attack = 65
+		air_attack = 0
+		defense = 18
+		breakthrough = 97
+		
+		# Armor Stats
+		armor_value = 160
+		ap_attack = 165
+		hardness = 0.95
 	}	
-########################################################
-# Heavy SPH
-##########################################################
+
+############################################################################################################
+## Heavy SPH
+############################################################################################################
 	heavy_tank_artillery_equipment = {
 		year = 1934
 
@@ -205,8 +254,11 @@ equipments = {
 		
 	}
 
+################################
+# 1939 Heavy SPH
+################################
 	heavy_tank_artillery_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_artillery_equipment
 		family = heavy_tank_equipment_1
@@ -216,7 +268,9 @@ equipments = {
 		priority = 100
 		visual_level = 0
 	}
-
+################################
+# 1941 Heavy SPH
+################################
 	heavy_tank_artillery_equipment_2 = {
 		year = 1941
 
@@ -249,7 +303,9 @@ equipments = {
 			chromium = 3
 		}
 	}
-
+################################
+# 1943 Heavy SPH
+################################
 	heavy_tank_artillery_equipment_3 = {
 		year = 1943
 
@@ -283,6 +339,9 @@ equipments = {
 		}
 	}
 
+############################################################################################################
+## Heavy TD
+############################################################################################################
 	heavy_tank_destroyer_equipment = {
 		year = 1934
 
@@ -329,9 +388,11 @@ equipments = {
 			chromium = 3
 		}
 	}
-
+################################
+# 1939 Heavy TD
+################################
 	heavy_tank_destroyer_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_destroyer_equipment
 		family = heavy_tank_equipment_1
@@ -341,7 +402,9 @@ equipments = {
 		priority = 120
 		visual_level = 0
 	}
-
+################################
+# 1941 Heavy TD
+################################
 	heavy_tank_destroyer_equipment_2 = {
 		year = 1941
 
@@ -377,6 +440,9 @@ equipments = {
 		}
 	}
 
+################################
+# 1943 Heavy TD
+################################
 	heavy_tank_destroyer_equipment_3 = {
 		year = 1943
 
@@ -412,6 +478,9 @@ equipments = {
 		}
 	}
 
+############################################################################################################
+## Heavy SPAAA
+############################################################################################################
 	heavy_tank_aa_equipment = {
 		year = 1934
 
@@ -459,9 +528,11 @@ equipments = {
 		}
 		
 	}
-
+################################
+# 1939 Heavy SPAAA
+################################
 	heavy_tank_aa_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_aa_equipment
 		family = heavy_tank_equipment_1
@@ -472,6 +543,9 @@ equipments = {
 		visual_level = 0
 	}
 
+################################
+# 1941 Heavy SPAAA
+################################
 	heavy_tank_aa_equipment_2 = {
 		year = 1941
 
@@ -507,6 +581,9 @@ equipments = {
 		}
 	}
 
+################################
+# 1943 Heavy SPAAA
+################################
 	heavy_tank_aa_equipment_3 = {
 		year = 1943
 
