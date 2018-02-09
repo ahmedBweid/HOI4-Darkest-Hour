@@ -44,8 +44,8 @@ focus_tree = {
 					type = air_base
 					level = 6
 					instant_build = yes
-					}
 				}
+			}
 			custom_effect_tooltip = available_chief_of_airforce
 			#show_ideas_tooltip = ritter_von_greim
 		}
@@ -409,7 +409,11 @@ focus_tree = {
 		available = {
 			OR = {
 				SOV = {
-					has_capitulated = yes
+					OR ={
+						has_capitulated = yes
+						exists = no
+						is_subject_of = GER
+					}
 				}
 				date > 1945.1.1
 			}
@@ -2424,8 +2428,13 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			GER = {
-				controls_state = 102
+			OR = {
+				GER = {
+					controls_state = 102
+				}
+				ITA = {
+					controls_state = 102
+				}
 			}
 		}
 		cancel = {
@@ -2912,6 +2921,11 @@ focus_tree = {
 				is_puppet = no
 			}
 		}
+		bypass = {
+			GRE = {
+				is_subject_of = GER
+			}
+		}
 		ai_will_do = {
 			factor = 10
 		}
@@ -3176,9 +3190,11 @@ focus_tree = {
 			date > 1939.1.1
 		}
 		bypass = {
-			POL = {
-				OR = {
+			OR = {
+				POL = {
 					exists = no
+				}
+				POL = {
 					is_subject_of = GER
 				}
 			}
@@ -4184,7 +4200,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
+	focus = {#note to self. Rewrite this focus to use the 2 tags for spain now.
 		id = GER_nationalist_spain_ally
 		icon = GFX_goal_generic_major_alliance
 		cost = 10.00
@@ -4622,7 +4638,6 @@ focus_tree = {
 		available = {
 			GER = {
 				NOT = {
-
 					has_war_with = SPR
 					has_war_with = POR
 				}
@@ -5080,6 +5095,14 @@ focus_tree = {
 						controls_state = 743
 					}
 					is_in_faction_with = GER
+				}
+			}
+		}
+		bypass = {
+			ENG = {
+				OR = {
+					is_subject_of = GER
+					exists = no
 				}
 			}
 		}

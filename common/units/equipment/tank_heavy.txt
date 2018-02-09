@@ -47,31 +47,41 @@ equipments = {
 			steel = 3
 			chromium = 3
 		}
-		
 	}
 
-	# 1917
-	heavy_tank_equipment_0 = {
-		year = 1917
-
-		archetype = heavy_tank_equipment		
-		priority = 90
-		visual_level = 0
-		is_convertable = yes
-	}
-	
-	# 1939
+################################
+# 1939 Heavy Tank
+################################
 	heavy_tank_equipment_1 = {
 		year = 1939
 
-		archetype = heavy_tank_equipment		
-		parent = heavy_tank_equipment_0
+		archetype = heavy_tank_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 13
+		reliability = 0.8
+		build_cost_ic = 25
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 12
+		hard_attack = 12
+		air_attack = 0
+		defense = 8
+		breakthrough = 36
+		
+		# Armor Stats
+		armor_value = 70
+		ap_attack = 35
+		hardness = 0.95
 	}
 
-	# 1941
+################################
+# 1941 Heavy Tank
+################################
 	heavy_tank_equipment_2 = {
 		year = 1941
 
@@ -80,29 +90,29 @@ equipments = {
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
+			
+		# Technical Stats
+		maximum_speed = 12
+		reliability = 0.8
+		build_cost_ic = 27
+		resources = { oil = 1 steel = 2 }
 		
-		#Misc Abilities
-		maximum_speed = 6
-
-		#Defensive Abilities
-		defense = 8
-		breakthrough = 52
-		armor_value = 110
-
-		#Offensive Abilities
+		# Combat Stats
 		soft_attack = 22
 		hard_attack = 30
-		ap_attack = 111
+		air_attack = 0
+		defense = 9
+		breakthrough = 52
 		
-		build_cost_ic = 27 
-		resources = {
-			oil = 1
-			steel = 3
-			chromium = 3
-		}
+		# Armor Stats
+		armor_value = 110
+		ap_attack = 115
+		hardness = 0.95
 	}
 
-	# 1943
+################################
+# 1943 Heavy Tank
+################################
 	heavy_tank_equipment_3 = {
 		year = 1943
 
@@ -111,58 +121,97 @@ equipments = {
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
-
-		#Misc Abilities
-		maximum_speed = 6
-
-		#Defensive Abilities
-		defense = 9
-		breakthrough = 67
-		armor_value = 130
-
-		#Offensive Abilities
+	
+		# Technical Stats
+		maximum_speed = 17
+		reliability = 0.8
+		build_cost_ic = 30
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
 		soft_attack = 28
 		hard_attack = 40
-		ap_attack = 131
+		air_attack = 0
+		defense = 12
+		breakthrough = 67
 		
-		build_cost_ic = 30
-		resources = {
-			oil = 1
-			steel = 4
-			chromium = 3
-		}
+		# Armor Stats
+		armor_value = 130
+		ap_attack = 135
+		hardness = 0.95
 	}
 
-	# 1944
+################################
+# 1944 Heavy Tank
+################################
 	heavy_tank_equipment_4 = {
 		year = 1944
 
-		archetype = heavy_tank_equipment		
+		archetype = heavy_tank_equipment
 		parent = heavy_tank_equipment_3
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 18
+		reliability = 0.8
+		build_cost_ic = 32
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 35
+		hard_attack = 50
+		air_attack = 0
+		defense = 14
+		breakthrough = 82
+		
+		# Armor Stats
+		armor_value = 140
+		ap_attack = 145
+		hardness = 0.95
 	}
 	
-	# 1956
+################################
+# 1956 Heavy Tank
+################################
 	heavy_tank_equipment_5 = {
 		year = 1956
 
-		archetype = heavy_tank_equipment		
+		archetype = heavy_tank_equipment
 		parent = heavy_tank_equipment_4
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 20
+		reliability = 0.8
+		build_cost_ic = 36
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 40
+		hard_attack = 65
+		air_attack = 0
+		defense = 18
+		breakthrough = 97
+		
+		# Armor Stats
+		armor_value = 160
+		ap_attack = 165
+		hardness = 0.95
 	}	
-########################################################
-# Heavy SPH
-##########################################################
+
+############################################################################################################
+## Heavy SPH
+############################################################################################################
 	heavy_tank_artillery_equipment = {
 		year = 1934
 
 		is_archetype = yes
 		is_convertable = yes
-		picture = archetype_heavy_tank_equipment		
+		picture = archetype_heavy_tank_equipment
 		is_buildable = no
 		family = heavy_tank_equipment
 		type = {
@@ -205,8 +254,11 @@ equipments = {
 		
 	}
 
+################################
+# 1939 Heavy SPH
+################################
 	heavy_tank_artillery_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_artillery_equipment
 		family = heavy_tank_equipment_1
@@ -215,8 +267,28 @@ equipments = {
 		}
 		priority = 100
 		visual_level = 0
-	}
+		
+		# Technical Stats
+		maximum_speed = 13
+		reliability = 0.8
+		build_cost_ic = 25
+		resources = { oil = 1 steel = 2 }
 
+		# Combat Stats
+		soft_attack = 70
+		hard_attack = 1
+		air_attack = 0
+		defense = 4
+		breakthrough = 2
+
+		# Armor Stats
+		armor_value = 45
+		ap_attack = 8
+		hardness = 0.8
+	}
+################################
+# 1941 Heavy SPH
+################################
 	heavy_tank_artillery_equipment_2 = {
 		year = 1941
 
@@ -230,26 +302,27 @@ equipments = {
 		priority = 100
 		visual_level = 1
 
-		#Misc Abilities
-		maximum_speed = 6
+		# Technical Stats
+		maximum_speed = 12
+		reliability = 0.8
+		build_cost_ic = 27
+		resources = { oil = 1 steel = 2 }
 
-		#Defensive Abilities
+		# Combat Stats
+		soft_attack = 90
+		hard_attack = 2
+		air_attack = 0
 		defense = 6
 		breakthrough = 3
+
+		# Armor Stats
 		armor_value = 68
-
-		#Offensive Abilities 
-		soft_attack = 97
-		hard_attack = 2
-		
-		build_cost_ic = 27
-		resources = {
-			oil = 1
-			steel = 4
-			chromium = 3
-		}
+		ap_attack = 8
+		hardness = 0.8	
 	}
-
+################################
+# 1943 Heavy SPH
+################################
 	heavy_tank_artillery_equipment_3 = {
 		year = 1943
 
@@ -263,32 +336,102 @@ equipments = {
 		priority = 100
 		visual_level = 2
 
-		#Misc Abilities
-		maximum_speed = 6
+		# Technical Stats
+		maximum_speed = 17
+		reliability = 0.8
+		build_cost_ic = 30
+		resources = { oil = 1 steel = 2 }
 
-		#Defensive Abilities
+		# Combat Stats
+		soft_attack = 100
+		hard_attack = 2.5
+		air_attack = 0
 		defense = 7
 		breakthrough = 3.5
-		armor_value = 90
 
-		#Offensive Abilities
-		soft_attack = 117
-		hard_attack = 2.5
-		
-		build_cost_ic = 30
-		resources = {
-			oil = 1
-			steel = 5
-			chromium = 3
+		# Armor Stats
+		armor_value = 80
+		ap_attack = 8
+		hardness = 0.8	
+	}
+################################
+# 1944 Heavy SPH
+################################
+	heavy_tank_artillery_equipment_4 = {
+		year = 1944
+
+		archetype = heavy_tank_artillery_equipment
+		parent = heavy_tank_artillery_equipment_3
+		family = heavy_tank_equipment_4
+		can_convert_from = { 
+			heavy_tank_equipment_3
+			heavy_tank_equipment_4
 		}
+		priority = 100
+		visual_level = 2
+
+		# Technical Stats
+		maximum_speed = 28
+		reliability = 0.8
+		build_cost_ic = 32
+		resources = { oil = 1 steel = 2 }
+
+		# Combat Stats
+		soft_attack = 110
+		hard_attack = 3
+		air_attack = 0
+		defense = 9
+		breakthrough = 4
+
+		# Armor Stats
+		armor_value = 90
+		ap_attack = 8
+		hardness = 0.8	
+	}
+################################
+# 1956 Heavy SPH
+################################
+	heavy_tank_artillery_equipment_5 = {
+		year = 1956
+
+		archetype = heavy_tank_artillery_equipment
+		parent = heavy_tank_artillery_equipment_4
+		family = heavy_tank_equipment_5
+		can_convert_from = { 
+			heavy_tank_equipment_4
+			heavy_tank_equipment_5
+		}
+		priority = 100
+		visual_level = 2
+
+		# Technical Stats
+		maximum_speed = 20
+		reliability = 0.8
+		build_cost_ic = 36
+		resources = { oil = 1 steel = 2 }
+
+		# Combat Stats
+		soft_attack = 130
+		hard_attack = 4
+		air_attack = 0
+		defense = 12
+		breakthrough = 6
+
+		# Armor Stats
+		armor_value = 100
+		ap_attack = 8
+		hardness = 0.8	
 	}
 
+############################################################################################################
+## Heavy TD
+############################################################################################################
 	heavy_tank_destroyer_equipment = {
 		year = 1934
 
 		is_archetype = yes
 		is_convertable = yes
-		picture = archetype_heavy_tank_equipment		
+		picture = archetype_heavy_tank_equipment
 		is_buildable = no
 		family = heavy_tank_equipment
 		type = {
@@ -329,9 +472,11 @@ equipments = {
 			chromium = 3
 		}
 	}
-
+################################
+# 1939 Heavy TD
+################################
 	heavy_tank_destroyer_equipment_1 = {
-		year = 1934
+		year = 1939
 
 		archetype = heavy_tank_destroyer_equipment
 		family = heavy_tank_equipment_1
@@ -340,8 +485,28 @@ equipments = {
 		}
 		priority = 120
 		visual_level = 0
-	}
+		
+		# Technical Stats
+		maximum_speed = 13
+		reliability = 0.8
+		build_cost_ic = 25
+		resources = { oil = 1 steel = 2 }
 
+		# Combat Stats
+		soft_attack = 6
+		hard_attack = 25
+		air_attack = 0
+		defense = 4
+		breakthrough = 2
+
+		# Armor Stats
+		armor_value = 70
+		ap_attack = 96
+		hardness = 0.95
+	}
+################################
+# 1941 Heavy TD
+################################
 	heavy_tank_destroyer_equipment_2 = {
 		year = 1941
 
@@ -355,28 +520,28 @@ equipments = {
 		priority = 120
 		visual_level = 1
 
-		#Misc Abilities
-		maximum_speed = 6
+		# Technical Stats
+		maximum_speed = 12
+		reliability = 0.8
+		build_cost_ic = 27
+		resources = { oil = 1 steel = 2 }
 
-		#Defensive Abilities
-		defense = 6
-		breakthrough = 1.5
-		armor_value = 110
-
-		#Offensive Abilities
+		# Combat Stats
 		soft_attack = 8
 		hard_attack = 42
-		ap_attack = 140
 		air_attack = 0
-		
-		build_cost_ic = 27
-		resources = {
-			oil = 1
-			steel = 4
-			chromium = 3
-		}
+		defense = 6
+		breakthrough = 1.5
+
+		# Armor Stats
+		armor_value = 110
+		ap_attack = 140
+		hardness = 0.95
 	}
 
+################################
+# 1943 Heavy TD
+################################
 	heavy_tank_destroyer_equipment_3 = {
 		year = 1943
 
@@ -390,158 +555,92 @@ equipments = {
 		priority = 120
 		visual_level = 2
 		
-		#Misc Abilities
-		maximum_speed = 6
+		# Technical Stats
+		maximum_speed = 17
+		reliability = 0.8
+		build_cost_ic = 30
+		resources = { oil = 1 steel = 2 }
 
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 1.8
-		armor_value = 130
-
-		#Offensive Abilities
+		# Combat Stats
 		soft_attack = 10
 		hard_attack = 60
-		ap_attack = 160
 		air_attack = 0
-		
-		build_cost_ic = 30
-		resources = {
-			oil = 2
-			steel = 4
-			chromium = 4
-		}
+		defense = 7
+		breakthrough = 1.8
+
+		# Armor Stats
+		armor_value = 130
+		ap_attack = 150
+		hardness = 0.95
 	}
 
-	heavy_tank_aa_equipment = {
-		year = 1934
+################################
+# 1944 Heavy TD
+################################
+	heavy_tank_destroyer_equipment_4 = {
+		year = 1944
 
-		is_archetype = yes
-		is_convertable = yes
-		picture = archetype_heavy_tank_equipment		
-		is_buildable = no
-		family = heavy_tank_equipment
-		type = {
-			armor
-			anti_air
-		}
-		group_by = archetype
-		
-		interface_category = interface_category_armor
-		
-		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_aa_upgrade
-		}
-		
-		#Misc Abilities
-		maximum_speed = 5
-		reliability = 0.8
-
-		#Defensive Abilities
-		defense = 2
-		breakthrough = 2
-		hardness = 0.8
-		armor_value = 45
-
-		#Offensive Abilities
-		soft_attack = 4.5
-		hard_attack = 4
-		ap_attack = 25
-		air_attack = 17
-		
-		build_cost_ic = 25
-		resources = {
-			oil = 1
-			steel = 3
-			chromium = 3
-		}
-		
-	}
-
-	heavy_tank_aa_equipment_1 = {
-		year = 1934
-
-		archetype = heavy_tank_aa_equipment
-		family = heavy_tank_equipment_1
+		archetype = heavy_tank_destroyer_equipment
+		parent = heavy_tank_destroyer_equipment_3
+		family = heavy_tank_equipment_4
 		can_convert_from = { 
-			heavy_tank_equipment_1
-		}
-		priority = 110
-		visual_level = 0
-	}
-
-	heavy_tank_aa_equipment_2 = {
-		year = 1941
-
-		archetype = heavy_tank_aa_equipment
-		parent = heavy_tank_aa_equipment_1
-		family = heavy_tank_equipment_2
-		can_convert_from = { 
-			heavy_tank_equipment_1
-			heavy_tank_equipment_2
-		}
-		priority = 110
-		visual_level = 1
-
-		#Misc Abilities
-		maximum_speed = 6
-
-		#Defensive Abilities
-		defense = 3
-		breakthrough = 3
-		armor_value = 68
-
-		#Offensive Abilities
-		soft_attack = 6
-		hard_attack = 4.5
-		ap_attack = 60
-		air_attack = 33
-		
-		build_cost_ic = 27
-		resources = {
-			oil = 1
-			steel = 3
-			chromium = 3
-		}
-	}
-
-	heavy_tank_aa_equipment_3 = {
-		year = 1943
-
-		archetype = heavy_tank_aa_equipment
-		parent = heavy_tank_aa_equipment_2
-		family = heavy_tank_equipment_3
-		can_convert_from = { 
-			heavy_tank_equipment_2
 			heavy_tank_equipment_3
+			heavy_tank_equipment_4
 		}
-		priority = 110
+		priority = 120
 		visual_level = 2
 		
-		#Misc Abilities
-		maximum_speed = 6
+		# Technical Stats
+		maximum_speed = 18
 		reliability = 0.8
+		build_cost_ic = 32
+		resources = { oil = 1 steel = 2 }
 
-		
-		#Defensive Abilities
-		defense = 3.5
-		breakthrough = 3.5
-		armor_value = 90
+		# Combat Stats
+		soft_attack = 12
+		hard_attack = 70
+		air_attack = 0
+		defense = 8
+		breakthrough = 2
 
-		#Offensive Abilities
-		soft_attack = 7.5
-		hard_attack = 6
-		ap_attack = 88
-		air_attack = 44
-		
-		build_cost_ic = 30
-		resources = {
-			oil = 1
-			steel = 4
-			chromium = 3
+		# Armor Stats
+		armor_value = 140
+		ap_attack = 160
+		hardness = 0.95
+	}
+
+################################
+# 1956 Heavy TD
+################################
+	heavy_tank_destroyer_equipment_5 = {
+		year = 1956
+
+		archetype = heavy_tank_destroyer_equipment
+		parent = heavy_tank_destroyer_equipment_4
+		family = heavy_tank_equipment_5
+		can_convert_from = { 
+			heavy_tank_equipment_4
+			heavy_tank_equipment_5
 		}
+		priority = 120
+		visual_level = 2
 		
+		# Technical Stats
+		maximum_speed = 20
+		reliability = 0.8
+		build_cost_ic = 36
+		resources = { oil = 1 steel = 2 }
+
+		# Combat Stats
+		soft_attack = 16
+		hard_attack = 80
+		air_attack = 0
+		defense = 10
+		breakthrough = 3
+
+		# Armor Stats
+		armor_value = 160
+		ap_attack = 165
+		hardness = 0.95
 	}
 }
