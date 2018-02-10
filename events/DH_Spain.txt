@@ -1,9 +1,10 @@
-﻿###########################
+﻿﻿###########################
 # Darkest Hour Events : Spain
 ###########################
 
 add_namespace = DH_spain
 
+### ------------------- Spain ---------------------------------------------
 #########################################################################
 # Join Germany against Portugal?
 #########################################################################
@@ -62,26 +63,35 @@ country_event = {
 	picture = GFX_news_event_002
 	fire_only_once = yes
 
-	trigger = {
-		tag = SPR
-		date > 1936.2.15
-	}
+    trigger = {
+        tag = SPR
+        date > 1936.2.15
+    }
 
 	#the popular front wins!
 	option = {
 		name = DH_spain.2.a
 
+		hidden_effect = {
 		set_political_party = { ideology = national_socialist popularity = 0.0 }
 		set_political_party = { ideology = fascist popularity = 0.10 }
 		set_political_party = { ideology = paternal_autocrat popularity = 0.0 }
-		set_political_party = { ideology = social_conservative popularity = 0.15 }
-		set_political_party = { ideology = social_liberal popularity = 0.50 }
-		set_political_party = { ideology = social_democrat popularity = 0.0 }
-		set_political_party = { ideology = left_wing_radical popularity = 0.05 }
-		set_political_party = { ideology = leninist popularity = 0.10 }
-		set_political_party = { ideology = stalinist popularity = 0.05 }
+		set_political_party = { ideology = social_conservative popularity = 0.29 }
+		set_political_party = { ideology = market_liberal popularity = 0.0 }
+		set_political_party = { ideology = social_liberal popularity = 0.07 }
+		set_political_party = { ideology = social_democrat popularity = 0.54 }
+		set_political_party = { ideology = left_wing_radical popularity = 0.0 }
+		set_political_party = { ideology = leninist popularity = 0.0 }
+		set_political_party = { ideology = stalinist popularity = 0.0 }
+		}
+		
+		set_politics = {
+			ruling_party = social_democrat
+			elections_allowed = yes
+		}
 	}
 }
+
 
 #########################################################################
 # Political killings
@@ -94,7 +104,7 @@ country_event = {
 	fire_only_once = no
 
 	trigger = {
-		has_country_leader = { id = 17 ruling_only = yes name = "Manuel Anzana" }
+	has_country_leader = { id = 17 ruling_only = yes name = "Manuel Anzana" }
 	}
 	
 	mean_time_to_happen = { days = 15 }
@@ -109,91 +119,82 @@ country_event = {
 	}
 }
 #####################################
-# Zoltarian wip files (tired of copy and pasting these so i uploaded it[Not done/stable])
+# wip/unstable events ignore for now
 ######################################
 #Niceto Alcala-Zamora removed from power
-country_event = {
-    id = DH_spain.4
-    title = DH_spain.4.t
-    desc = DH_spain.4.d
-    picture = GFX_news_event_002
- 
-    fire_only_once = yes
- 
-    trigger = {
-        tag = SPR
-        date > 1936.4.6
-    }
-
-    mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = DH_spain.4.a
-		set_politics = {
-			ruling_party = social_conservative
-			elections_allowed = yes
-		}
-	}
-}
+#country_event = {
+#   id = DH_spain.4
+#    title = DH_spain.4.t
+#    desc = DH_spain.4.d
+#    picture = GFX_news_event_002
+#
+#    fire_only_once = yes
+#
+#    trigger = {
+#       tag = SPR
+#     date > 1936.4.6
+#  }
+#
+#    option = {
+#        name = DH_spain.4.a
+#		set_politics = {
+#			ruling_party = market_liberal
+#			elections_allowed = yes
+#		}
+#      }
+#}
 #Manuel Azana steps into power
-country_event = {
-    id = DH_spain.5
-    title = DH_spain.5.t
-    desc = DH_spain.5.d
-    picture = GFX_news_event_002
- 
-    fire_only_once = yes
- 
-    trigger = {
-        tag = SPR
-        date > 1936.5.9
-    }
-
-    mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = DH_spain.5.a
-		set_politics = {
-			ruling_party = social_liberal
-			elections_allowed = yes
-		}
-
-      }
-}
+#country_event = {
+#  id = DH_spain.5
+#   title = DH_spain.5.t
+#  desc = DH_spain.5.d
+#    picture = GFX_news_event_002
+# 
+#   fire_only_once = yes
+#
+#    trigger = {
+#       tag = SPR
+#        date > 1936.5.9
+#    }
+#
+#    option = {
+#        name = DH_spain.5.a
+#		set_politics = {
+#			ruling_party = social_liberal
+#			elections_allowed = yes
+#		}
+#
+#      }
+#}
 #Franco becomes leader
-country_event = {
-    id = DH_spain.6
-    title = DH_spain.6.t
-    desc = DH_spain.6.d
-    picture = GFX_news_event_002
- 
-    fire_only_once = yes
- 
-    trigger = {
-		tag = SPR
-        has_government = fascist
-        date > 1936.7.19
-    }
-
-    mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = DH_spain.6.a
-        retire_country_leader = yes
-        create_country_leader = {
-        	name = "Francisco Franco"
-        	picture = "Portrait_Spain_Francisco_Franco.dds"
-        	expire = "1965.1.1"
-        	ideology = falangism
-            }
-      }
-}
+#country_event = {
+#    id = DH_spain.6
+#    title = DH_spain.6.t
+#    desc = DH_spain.6.d
+#    picture = GFX_news_event_002
+# 
+#    fire_only_once = yes
+# 
+#    trigger = {
+#		tag = SPR
+#        has_government = fascist
+#        date > 1936.7.19
+#    }
+#
+#
+#   option = {
+#       name = DH_spain.6.a
+#        retire_country_leader = yes
+#        create_country_leader = {
+#        	name = "Francisco Franco"
+#        	picture = "Portrait_Spain_Francisco_Franco.dds" #       	expire = "1965.1.1"
+#       	ideology = paternal_autocrat
+#            }
+#      }
+#}
+######################################################
+#SPANISH CIVIL WAR Event
+######################################################
 # Spanish Civil War
 country_event = {
 	id = DH_spain.7
@@ -208,254 +209,197 @@ country_event = {
         date > 1936.7.16
     }
 
-    mean_time_to_happen = {
-        days = 1
-    }
-
-
-	# Support the Nationalists : Patria, Pan y Justicia!
-	option = {
-		name = DH_spain.7.A
+	option = { # Support Nationalists
+		name = DH_spain.7.a
 		trigger = { is_ai = no }
-		hidden_effect	= {	
-			SPA = {
-				add_state_core = 41
-				add_state_core = 165
-				add_state_core = 174
-				add_state_core = 172
-				add_state_core = 176
-				add_state_core = 166
-				add_state_core = 177
-				add_state_core = 167
-				add_state_core = 168
-				add_state_core = 175
-				add_state_core = 41
-				add_state_core = 170
-				add_state_core = 169
-				add_state_core = 173
-				add_state_core = 290
-				add_state_core = 699
-				add_state_core = 178
-				add_state_core = 297
-				add_state_core = 756
-				add_state_core = 757
+		
+				hidden_effect = {
+			SPR = {
+				every_owned_state = {
+					limit = {
+						is_core_of = SPR
+					}
+					add_core_of = SPA
+				}
+				start_civil_war = {
+					ideology = paternal_autocrat
+					size = 0.5
+					capital = 276
+					states = { 166 171 172 174 176 177 178 290 297 699  }
+				}
+				
+				set_political_party = { ideology = national_socialist popularity = 0.0 }
+				set_political_party = { ideology = fascist popularity = 0.0 }
+				set_political_party = { ideology = paternal_autocrat popularity = 0.0 }
+				set_political_party = { ideology = social_conservative popularity = 0.0 }
+				set_political_party = { ideology = market_liberal popularity = 0.0 }
+				set_political_party = { ideology = social_liberal popularity = 0.05 }
+				set_political_party = { ideology = social_democrat popularity = 0.95 }
+				set_political_party = { ideology = left_wing_radical popularity = 0.0 }
+				set_political_party = { ideology = leninist popularity = 0.0 }
+				set_political_party = { ideology = stalinist popularity = 0.0 }
+
+				set_country_flag = become_nationalists
+				
+			random_other_country = {
+				limit = { original_tag = SPR has_government = paternal_autocrat }
+				country_event = { id = DH_spain.8 }
 			}
-		}
+			}
+			
+	}
+
+
 		custom_effect_tooltip = nationalists_chosen
 	}
-
-	# Support the Republicans : No Pasarán!
-	option = {
-		name = DH_spain.7.B
-		hidden_effect	= {
-			if = {
-				limit = {
-					171 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
+	
+	option = { # Support Republicans
+		name = DH_spain.7.b
+		
+						hidden_effect = {
+			SPR = {
+				every_owned_state = {
+					limit = {
+						is_core_of = SPR
 					}
+					add_core_of = SPA
 				}
-				SPA = { transfer_state = 171 }
-				
-			}
-			if = {
-				limit = {
-					174 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 174 }
-				
-			}
-			if = {
-				limit = {
-					176 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 176 }
-				
-			}
-			if = {
-				limit = {
-					172 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 172 }
-				
-			}
-			if = {
-				limit = {
-					166 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 166 }
-				
-			}
-			if = {
-				limit = {
-					290 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 290 }
-				
-			}
-			if = {
-				limit = {
-					699 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 699 }			
-				
-			}
-			if = {
-				limit = {
-					178 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 178 }			
-				
-			}
-			if = {
-				limit = {
-					297 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 297 }
-				
-			}		
-			if = {
-				limit = {
-					177 = {
-						OR = {
-							is_owned_by = SPR
-							is_owned_by = SPA
-						}
-					}
-				}
-				SPA = { transfer_state = 177 }
-				
-			}	
-			
-			SPR = {	
-				declare_war_on = {
-					target = SPA
-					type = take_state
-					generator = { 176 }
-				}
-				add_ideas = SPR_civil_war
-				load_oob = "SPR_Civil_War"
-			}
-			
-			SPA = {
-				set_politics = {
-					ruling_party = fascist
-					elections_allowed = no
-				}
-				add_popularity = {
-					ideology = fascist
-					popularity = 0.75
-				}
-				add_popularity = {
-					ideology = social_conservative
-					popularity = 0.18
-				}
-				add_popularity = {
+				start_civil_war = {
 					ideology = paternal_autocrat
-					popularity = 0.07
+					size = 0.5
+					capital = 276
+					states = { 166 171 172 174 176 177 178 290 297 699  }
 				}
-				add_ideas = spr_civil_war
-				add_state_core = 41
-				add_state_core = 165
-				add_state_core = 174
-				add_state_core = 172
-				add_state_core = 176
-				add_state_core = 166
-				add_state_core = 177
-				add_state_core = 167
-				add_state_core = 168
-				add_state_core = 175
-				add_state_core = 41
-				add_state_core = 170
-				add_state_core = 169
-				add_state_core = 173
-				add_state_core = 290
-				add_state_core = 699
-				add_state_core = 178
-				add_state_core = 297
-				add_state_core = 756
-				add_state_core = 757
-				load_oob = "SPA_Civil_War"
-			}	
-		}
+								
+				set_political_party = { ideology = national_socialist popularity = 0.0 }
+				set_political_party = { ideology = fascist popularity = 0.0 }
+				set_political_party = { ideology = paternal_autocrat popularity = 0.0 }
+				set_political_party = { ideology = social_conservative popularity = 0.0 }
+				set_political_party = { ideology = market_liberal popularity = 0.0 }
+				set_political_party = { ideology = social_liberal popularity = 0.05 }
+				set_political_party = { ideology = social_democrat popularity = 0.95 }
+				set_political_party = { ideology = left_wing_radical popularity = 0.0 }
+				set_political_party = { ideology = leninist popularity = 0.0 }
+				set_political_party = { ideology = stalinist popularity = 0.0 }
+				
+
+				
+							random_other_country = {
+				limit = { original_tag = SPR has_government = paternal_autocrat }
+				country_event = { id = DH_spain.8 }
+			}
+							
+			}
+		
 		custom_effect_tooltip = republicans_chosen
+		}
 	}
 }
-# Republicans: Seek French Support
+
 country_event = {
 	id = DH_spain.8
 	title = DH_spain.8.t
 	desc = DH_spain.8.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+	fire_only_once = yes
+	hidden = yes
+
 	is_triggered_only = yes
 
+	immediate = {
+		SPA = {
+			annex_country =  { target = ROOT transfer_troops = yes }#annex facist civil war spain
+			set_equipment_fraction = 0.2
 
-	option = {
-		name = spain.8.a
+		}
 
 	}
 
+	option = {
+		name = DH_spain.8.a
+		
+		SPA = {
+				country_event = { id = DH_spain.9 }
+				
+			if ={			
+					limit = { SPR = { has_country_flag = become_nationalists }  }
+					change_tag_from = SPR		
+			}
+		}
+	}
 }
-# Republicans: Seek British Support
+
+
 country_event = {
 	id = DH_spain.9
 	title = DH_spain.9.t
 	desc = DH_spain.9.d
 	picture = GFX_report_event_spain_civil_war_soldiers
 	
+		is_triggered_only = yes
+	
+			option = {
+		name = DH_spain.9.a
+		
+		SPA = {
+		
+			declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}
+				
+		set_political_party = { ideology = national_socialist popularity = 0.0 }
+		set_political_party = { ideology = fascist popularity = 0.17 }
+		set_political_party = { ideology = paternal_autocrat popularity = 0.51 }
+		set_political_party = { ideology = social_conservative popularity = 0.32 }
+		set_political_party = { ideology = market_liberal popularity = 0.0 }
+		set_political_party = { ideology = social_liberal popularity = 0.00 }
+		set_political_party = { ideology = social_democrat popularity = 0.0 }
+		set_political_party = { ideology = left_wing_radical popularity = 0.0 }
+		set_political_party = { ideology = leninist popularity = 0.0 }
+		set_political_party = { ideology = stalinist popularity = 0.0 }
+		
+				set_politics = {
+			ruling_party = paternal_autocrat
+			elections_allowed = no
+		}
+
+		add_ideas = spr_civil_war
+		load_oob = "SPA_Civil_War"		
+
+
+		}
+		
+		SPR = {
+				add_ideas = SPR_civil_war
+				load_oob = "SPR_Civil_War"
+		}
+		
+	}
+}
+#####################################################################################
+
+
+
+
+# Republicans: Seek French Support
+country_event = {
+		id = DH_spain.12
+	title = DH_spain.12.t
+	desc = DH_spain.12.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
 	is_triggered_only = yes
 
 
 	option = {
-		name = spain.8.a
+		name = spain.12.a
 
 	}
 
 }
-# Republicans: Seek Soviet Support
+# Republicans: Seek British Support
 country_event = {
 		id = DH_spain.10
 	title = DH_spain.10.t
@@ -466,7 +410,39 @@ country_event = {
 
 
 	option = {
-		name = spain.8.a
+		name = spain.10.a
+
+	}
+
+}
+# Republicans: Seek Soviet Support
+country_event = {
+		id = DH_spain.11
+	title = DH_spain.11.t
+	desc = DH_spain.11.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = spain.11.a
+
+	}
+
+}
+# Nationalists: Seek Portuguese support
+country_event = {
+		id = DH_spain.12
+	title = DH_spain.12.t
+	desc = DH_spain.12.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	is_triggered_only = yes
+
+
+	option = {
+		name = spain.12.a
 
 	}
 
