@@ -1,0 +1,990 @@
+technologies = {
+	
+	@early_tank_line = 2
+	@light_tank_line = -2
+	@medium_tank_line = 2
+	@main_battle_tank_line = 4
+	@heavy_tank_line = 6
+	@modern_heavy_tank_line = 8
+	@super_heavy_tank_line = 10
+	
+	@1916 = 0
+	@1917 = 2
+	@1918 = 4
+	@1926 = 6
+	@1934 = 8
+	@1936 = 10
+	@1939 = 12
+	@1941 = 14
+	@1943 = 16
+	@1944 = 18
+	@1948 = 20
+	@1952 = 22
+	@1956 = 24
+	@1960 = 26
+	
+	
+##########################################################################################################################	
+### -------------------------------------- Lights Tank -------------------------------------------------------	
+##########################################################################################################################	
+
+### 1916 Experimental Tank
+	experimental_tank_1916 = { 
+
+		on_research_complete = {
+			custom_effect_tooltip = EXPERIMENTAL_TANK
+		}
+	
+		path = {
+			leads_to_tech = light_tank_1917
+			research_cost_coeff = 1
+		}
+	
+		path = {
+			leads_to_tech = heavy_tank_1917
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1916
+		
+		desc = "THEO_JET_ENGINES_SPECIAL"
+		
+		folder = {
+			name = armour_folder
+			position = { x = @early_tank_line y = @1916 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+### 1917 Tank (A7V)
+	light_tank_1917 = { 
+
+		enable_equipments = {
+			light_tank_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1918
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1917
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = @1917 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+### 1917 Heavy Tank (A7V-U)
+	heavy_tank_1917 = { 
+
+		enable_equipments = {
+			heavy_tank_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1918
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1917
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = @1917 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+### 1918  Light Tank (LK I)
+	light_tank_1918 = { 
+
+		enable_equipments = {
+			light_tank_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1926
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = armour_folder
+			position = { x = @early_tank_line y = @1918 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+### 1926  Light Tank (Oberschlesien)
+	light_tank_1926 = { 
+
+		enable_equipments = {
+			light_tank_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1934
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1926
+		folder = {
+			name = armour_folder
+			position = { x = @early_tank_line y = @1926 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	
+### 1934  Light Tank (PzKpfw. I)
+	light_tank_1934 = { 
+
+		enable_equipments = {
+			light_tank_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1936
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = @early_tank_line y = @1934 }
+		}
+		
+		sub_technologies = {
+			light_TD_1934
+			light_SPG_1934
+			light_SPAA_1934
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+### 1936 Light Tank (PzKpfw. II)
+	light_tank_1936 = { 
+
+		enable_equipments = {
+			light_tank_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1939
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = medium_tank_1939
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_tank_1939
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = armour_folder
+			position = { x = @early_tank_line y = @1936 }
+		}
+
+		sub_technologies = {
+			light_TD_1936
+			light_SPG_1936
+			light_SPAA_1936
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}		
+	
+### 1939 Light Tank (PzKpfw. 38t)
+	light_tank_1939 = { 
+
+		enable_equipments = {
+			light_tank_equipment_5
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1943
+			research_cost_coeff = 1
+		}
+		
+		sub_technologies = {
+			light_TD_1939
+			light_SPG_1939
+			light_SPAA_1939
+		}
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = @light_tank_line y = @1939 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+### 1943 Light Tank (PzKpfw. Leopard)
+	light_tank_1943 = { 
+
+		enable_equipments = {
+			light_tank_equipment_6
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1952
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = @light_tank_line y = @1943 }
+		}
+		
+		sub_technologies = {
+			light_TD_1944
+			light_SPG_1944
+			light_SPAA_1944
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+### 1952 Light Tank (M41 Walker Bulldog)
+	light_tank_1952 = { 
+
+		enable_equipments = {
+			light_tank_equipment_7
+		}
+		
+		path = {
+			leads_to_tech = light_tank_1960
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1952
+		folder = {
+			name = armour_folder
+			position = { x = @light_tank_line y = @1952 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+### 1960 Light Tank (M551 Sheridan)
+	light_tank_1960 = { 
+
+		enable_equipments = {
+			light_tank_equipment_8
+		}
+		
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = armour_folder
+			position = { x = @light_tank_line y = @1960 }
+		}
+		
+
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+##########################################################################################################################	
+### -------------------------------------- Medium Tank -------------------------------------------------------	
+##########################################################################################################################	
+	
+### 1939 Medium Tank (PzKpfw. III)
+	medium_tank_1939 = {
+
+		enable_equipments = {
+			medium_tank_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = medium_tank_1941
+			research_cost_coeff = 1
+		}
+
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = @medium_tank_line y = @1939 }
+		}
+		
+		sub_technologies = {
+			medium_TD_1939
+			medium_SPG_1939
+			medium_SPAA_1939
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+### 1941 Medium Tank (PzKpfw. IV)
+	medium_tank_1941 = {
+
+		enable_equipments = {
+			medium_tank_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = medium_tank_1943
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @medium_tank_line y = @1941 }
+		}
+	
+		sub_technologies = {
+			medium_TD_1941
+			medium_SPG_1941
+			medium_SPAA_1941
+		}	
+	
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}	
+	
+### 1943 Medium Tank (PzKpfw. V Panther)
+	medium_tank_1943 = {
+
+		enable_equipments = {
+			medium_tank_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = medium_tank_1945
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = @medium_tank_line y = @1943 }
+		}
+		
+		sub_technologies = {
+			medium_TD_1943
+			medium_SPG_1943
+			medium_SPAA_1943
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}	
+	
+### 1945 Medium Tank (PzKpfw. V Panther Ausf. D)
+	medium_tank_1945 = {
+
+		enable_equipments = {
+			medium_tank_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = main_battle_tank_1948
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1945
+		folder = {
+			name = armour_folder
+			position = { x = @medium_tank_line y = @1944 }
+		}
+		
+		sub_technologies = {
+			medium_TD_1944
+			medium_SPG_1944
+			medium_SPAA_1944
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}	
+
+##########################################################################################################################	
+### -------------------------------------- Heavy Tank -------------------------------------------------------	
+##########################################################################################################################	
+	
+### 1939 Heavy Tank (10,5cm K(gp.Sfl.) 'Dicker Max')
+	heavy_tank_1939 = {
+
+		enable_equipments = {
+			heavy_tank_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = heavy_tank_1941
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = armour_folder
+			position = { x = @heavy_tank_line y = @1939 }
+		}
+		
+		sub_technologies = {
+			heavy_TD_1939
+			heavy_SPG_1939
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+	
+### 1941 Heavy Tank (12,8cm K(gp.Sfl.) 'Sturer Emil')
+	heavy_tank_1941 = {
+
+		enable_equipments = {
+			heavy_tank_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = heavy_tank_1943
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = armour_folder
+			position = { x = @heavy_tank_line y = @1941 }
+		}
+	
+		sub_technologies = {
+			heavy_TD_1941
+			heavy_SPG_1941
+		}	
+	
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}	
+	
+### 1943 Heavy Tank (PzKpfw.VI Tiger I)
+	heavy_tank_1943 = {
+
+		enable_equipments = {
+			heavy_tank_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = heavy_tank_1944
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1943
+		folder = {
+			name = armour_folder
+			position = { x = @heavy_tank_line y = @1943 }
+		}
+		
+		sub_technologies = {
+			heavy_TD_1943
+			heavy_SPG_1943
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}	
+	
+### 1944 Heavy Tank (PzKpfw.VI Tiger II)
+	heavy_tank_1944 = {
+
+		enable_equipments = {
+			heavy_tank_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = heavy_tank_1956
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = main_battle_tank_1956
+			research_cost_coeff = 1
+		}		
+		path = {
+			leads_to_tech = super_heavy_tank_1944
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = @heavy_tank_line y = @1944 }
+		}
+		
+		sub_technologies = {
+			heavy_TD_1944
+			heavy_SPG_1944
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}	
+	
+### 1956 Heavy Tank (E-100)
+	heavy_tank_1956 = {
+
+		enable_equipments = {
+			heavy_tank_equipment_5
+		}
+		
+		
+		research_cost = 2
+		start_year = 1956
+		folder = {
+			name = armour_folder
+			position = { x = @modern_heavy_tank_line y = @1956 }
+		}
+		
+		sub_technologies = {
+			heavy_TD_1944
+			heavy_SPG_1944
+		}	
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}		
+	
+### 1944 Super Heavy Tank (Maus)
+	super_heavy_tank_1944 = {
+
+		enable_equipments = {
+			super_heavy_tank_equipment_0
+		}
+		
+		path = {
+			leads_to_tech = main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = armour_folder
+			position = { x = @super_heavy_tank_line y = @1944 }
+		}
+		
+		sub_technologies = {
+			super_heavy_TD_1944
+			super_heavy_SPG_1944
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}	
+##########################################################################################################################	
+### -------------------------------------- Main Battle Tank -------------------------------------------------------	
+##########################################################################################################################	
+
+### MBT '48 ( E-50 Standardpanzer, T-54)
+	main_battle_tank_1948 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_0
+		}	
+
+		path = {
+			leads_to_tech = main_battle_tank_1956
+			research_cost_coeff = 1
+		}	
+	
+		folder = {
+			name = armour_folder
+			position = { x = @main_battle_tank_line y = @1948 }
+		}
+		
+		research_cost = 2.5
+		start_year = 1948
+			
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1948.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1949.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1950.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+### MBT '56 ( E-75 Tiger III, T-55)
+	main_battle_tank_1956 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_1
+		}	
+
+		path = {
+			leads_to_tech = main_battle_tank_1960 
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2.5
+		start_year = 1956
+		
+		folder = {
+			name = armour_folder
+			position = { x = @main_battle_tank_line y = @1956 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1952.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1953.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1954.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+### MBT '60 ( PzKpfw. Leopard I ,T-62)
+	main_battle_tank_1960 = { 
+
+		enable_equipments = {
+			modern_tank_equipment_2
+		}	
+		
+		research_cost = 2.5
+		start_year = 1960
+		
+		folder = {
+			name = armour_folder
+			position = { x = @main_battle_tank_line y = @1960 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}			
+			
+			modifier = {
+				factor = 2
+				date > "1962.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1963.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1964.1.1"
+			}
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+
+
+	
+}

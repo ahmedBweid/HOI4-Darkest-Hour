@@ -1,0 +1,18 @@
+ideas = {
+
+	country = {
+		SPR_Political_Killings = {
+			modifier = {
+				national_socialist_drift = 0.01
+				fascist_drift = 0.03
+				paternal_autocrat_drift = 0.03
+				left_wing_radical_drift = 0.04
+				leninist_drift = 0.02
+				stalinist_drift = 0.03
+				
+				foreign_subversive_activites = 0.25
+				political_power_gain = -0.25
+			}
+		}
+	}
+}

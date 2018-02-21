@@ -1,0 +1,3645 @@
+ideas = {
+#################################################
+### Head of Government
+#################################################
+	Head_of_Government = {
+	# José María Gil-Robles Quiñones
+		SPR_HoG_Jose_Maria_GilRobles_Quinones_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Maria_GilRobles_Quinones_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Flamboyant_Tough_Guy ideology_PA }
+		}
+	# Manuel Portela Valladares
+		SPR_HoG_Manuel_Portela_Valladares = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Portela_Valladares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SC }
+		}
+	# José María Gil-Robles Quiñones
+		SPR_HoG_Jose_Maria_GilRobles_Quinones = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Maria_GilRobles_Quinones_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SC }
+		}
+	# Claudio Sánchez Albornoz
+		SPR_HoG_Claudio_Sanchez_Albornoz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Claudio_Sanchez_Albornoz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Smiling_Oilman ideology_SC }
+		}
+	# Miguel Maura Gamazo
+		SPR_HoG_Miguel_Maura_Gamazo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Maura_Gamazo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_SC }
+		}
+	# Manuel Portela Valladares
+		SPR_HoG_Manuel_Portela_Valladares_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Portela_Valladares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SL }
+		}
+	# Diego Martínez Barrio
+		SPR_HoG_Diego_Martinez_Barrio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Martinez_Barrio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Backroom_Backstabber ideology_SL }
+		}
+	# Manuel Azaña Díaz
+		SPR_HoG_Manuel_Azana_Diaz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1930.1.1
+				date < 1940.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Azana_Diaz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Silent_Workhorse ideology_SD }
+		}
+	# Santiago Casares Quiroga
+		SPR_HoG_Santiago_Casares_Quiroga = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Casares_Quiroga_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Corporate_Suit ideology_SD }
+		}
+	# José Giral Pereira
+		SPR_HoG_Jose_Giral_Pereira = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Giral_Pereira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_SD }
+		}
+	# Indalencio Prieto Tuero
+		SPR_HoG_Indalencio_Prieto_Tuero = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Indalencio_Prieto_Tuero_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_SD }
+		}
+	# Francisco Largo Caballero
+		SPR_HoG_Francisco_Largo_Caballero = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Largo_Caballero_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Smiling_Oilman ideology_LWR }
+		}
+	# Juan Negrín López
+		SPR_HoG_Juan_Negrin_Lopez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Negrin_Lopez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Naive_Optimist ideology_LWR }
+		}
+	# Luis Jiménez de Asúa
+		SPR_HoG_Luis_Jimenez_de_Asua = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Jimenez_de_Asua_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_LWR }
+		}
+	# Joaquín Ascaso Budriá
+		SPR_HoG_Joaquin_Ascaso_Budria = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Ascaso_Budria_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Happy_Amateur ideology_LE }
+		}
+	# José Díaz Ramos
+		SPR_HoG_Jose_Diaz_Ramos = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Diaz_Ramos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Ambitious_Union_Boss ideology_ST }
+		}
+	# Santiago Carrillo Solares
+		SPR_HoG_Santiago_Carrillo_Solares = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Carrillo_Solares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoG_Political_Protege ideology_ST }
+		}
+}
+#################################################
+### Foreign Minister
+#################################################
+	Foreign_Minister = {
+	# José Martínez de Velasco
+		SPR_FM_Jose_Martinez_de_Velasco = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Martinez_de_Velasco_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_PA }
+		}
+	# Manuel Jímenez Fernández
+		SPR_FM_Manuel_Jimenez_Fernandez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Jimenez_Fernandez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_PA }
+		}
+	# Emilio de Palacios y Fau
+		SPR_FM_Emilio_de_Palacios_y_Fau = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Emilio_de_Palacios_y_Fau_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_PA }
+		}
+	# Luis Luciá Luciá
+		SPR_FM_Luis_Lucia_Lucia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Lucia_Lucia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_PA }
+		}
+	# Ángel Osorio y Gallardo
+		SPR_FM_Angel_Osorio_y_Gallardo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Angel_Osorio_y_Gallardo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_SC }
+		}
+	# Claudio Sánchez Albornoz
+		SPR_FM_Claudio_Sanchez_Albornoz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Claudio_Sanchez_Albornoz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SC }
+		}
+	# Manuel de Irujo y Ollo
+		SPR_FM_Manuel_de_Irujo_y_Ollo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_de_Irujo_y_Ollo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_SC }
+		}
+	# Jaume Aiguader y Miró
+		SPR_FM_Jaume_Aiguader_y_Miro = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jaume_Aiguader_y_Miro_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SC }
+		}
+	# Niceto Alcalá-Zamora
+		SPR_FM_Niceto_AlcalaZamora = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Niceto_AlcalaZamora_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SC }
+		}
+	# Joaquín Urzaiz Cadaval
+		SPR_FM_Joaquin_Urzaiz_Cadaval = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Urzaiz_Cadaval_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_ML }
+		}
+	# Diego Martínez Barrio
+		SPR_FM_Diego_Martinez_Barrio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Martinez_Barrio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_SL }
+		}
+	# Diego Hidalgo Dúran
+		SPR_FM_Diego_Hidalgo_Duran = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Hidalgo_Duran_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_SL }
+		}
+	# Salvador de Madariaga
+		SPR_FM_Salvador_de_Madariaga = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Salvador_de_Madariaga_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SL }
+		}
+	# F. López Goicoechea Inchaurrandieta
+		SPR_FM_F_Lopez_Goicoechea_Inchaurrandieta = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = F_Lopez_Goicoechea_Inchaurrandieta_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SL }
+		}
+	# Ricardo Samper Ibáñez
+		SPR_FM_Ricardo_Samper_Ibanez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Ricardo_Samper_Ibanez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_SL }
+		}
+	# Manuel Azaña Díaz
+		SPR_FM_Manuel_Azana_Diaz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1930.1.1
+				date < 1940.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Azana_Diaz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_SD }
+		}
+	# Augusto Barcia Trelles
+		SPR_FM_Augusto_Barcia_Trelles = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Augusto_Barcia_Trelles_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_SD }
+		}
+	# Lluis Companys i Jover
+		SPR_FM_Lluis_Companys_i_Jover = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Lluis_Companys_i_Jover_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_SD }
+		}
+	# José Giral Pereira
+		SPR_FM_Jose_Giral_Pereira = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Giral_Pereira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_SD }
+		}
+	# Sebastián Pozas Perea
+		SPR_FM_Sebastian_Pozas_Perea = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Sebastian_Pozas_Perea_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_General_Staffer ideology_SD }
+		}
+	# Santiago Casares Quiroga
+		SPR_FM_Santiago_Casares_Quiroga = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Casares_Quiroga_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_SD }
+		}
+	# Bibiano Fernández Ossorio
+		SPR_FM_Bibiano_Fernandez_Ossorio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Bibiano_Fernandez_Ossorio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_SD }
+		}
+	# Fernando de los Ríos Urruti
+		SPR_FM_Fernando_de_los_Rios_Urruti = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Fernando_de_los_Rios_Urruti_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_LWR }
+		}
+	# Victoria Kent
+		SPR_FM_Victoria_Kent = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Victoria_Kent_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_LWR }
+		}
+	# Julio Álvarez del Vayo
+		SPR_FM_Julio_Alvarez_del_Vayo_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Julio_Alvarez_del_Vayo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_LWR }
+		}
+	# Julián Besteiro Fernández
+		SPR_FM_Julian_Besteiro_Fernandez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Julian_Besteiro_Fernandez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_LWR }
+		}
+	# Alvaro de Albornoz Liminiana
+		SPR_FM_Alvaro_de_Albornoz_Liminiana = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Alvaro_de_Albornoz_Liminiana_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_LWR }
+		}
+	# Andreu Nin i Pérez
+		SPR_FM_Andreu_Nin_i_Perez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Andreu_Nin_i_Perez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_LE }
+		}
+	# Joaquin Maurín Juliá
+		SPR_FM_Joaquin_Maurin_Julia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Maurin_Julia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_LE }
+		}
+	# Eduardo de Guzmán
+		SPR_FM_Eduardo_de_Guzman = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Eduardo_de_Guzman_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Great_Compromiser ideology_LE }
+		}
+	# José Peirats
+		SPR_FM_Jose_Peirats = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Peirats_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Apologetic_Clerk ideology_LE }
+		}
+	# Diego Abad de Santillán
+		SPR_FM_Diego_Abad_de_Santillan = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Abad_de_Santillan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_LE }
+		}
+	# Jesús Hernández y Tomás
+		SPR_FM_Jesus_Hernandez_y_Tomas = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jesus_Hernandez_y_Tomas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_ST }
+		}
+	# Dolores Ibáurri Gómez
+		SPR_FM_Dolores_Ibaurri_Gomez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Dolores_Ibaurri_Gomez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Iron_Fisted_Brute ideology_ST }
+		}
+	# Margarita Nelken
+		SPR_FM_Margarita_Nelken = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Margarita_Nelken_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Biased_Intellectual ideology_ST }
+		}
+	# Julio Álvarez del Vayo
+		SPR_FM_Julio_Alvarez_del_Vayo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Julio_Alvarez_del_Vayo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_Ideological_Crusader ideology_ST }
+		}
+	# Santiago Carrillo Solares
+		SPR_FM_Santiago_Carrillo_Solares = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Carrillo_Solares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { FM_The_Cloak_N_Dagger_Schemer ideology_ST }
+		}
+}
+#################################################
+### Minister of Security
+#################################################
+	Minister_of_Security = {
+	# Tomás Garciano Goñi
+		SPR_MoS_Tomas_Garciano_Goni = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Tomas_Garciano_Goni_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_PA }
+		}
+	# José María Quinones de Leon
+		SPR_MoS_Jose_Maria_Quinones_de_Leon = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Maria_Quinones_de_Leon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_PA }
+		}
+	# Manuel Portela Valladares
+		SPR_MoS_Manuel_Portela_Valladares = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Portela_Valladares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_SC }
+		}
+	# José Martínez de Velasco
+		SPR_MoS_Jose_Martinez_de_Velasco = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Martinez_de_Velasco_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SC }
+		}
+	# Manuel de Irujo y Ollo
+		SPR_MoS_Manuel_de_Irujo_y_Ollo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_de_Irujo_y_Ollo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SC }
+		}
+	# Ángel Osorio y Gallardo
+		SPR_MoS_Angel_Osorio_y_Gallardo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Angel_Osorio_y_Gallardo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_SC }
+		}
+	# Miguel Maura Gamazo
+		SPR_MoS_Miguel_Maura_Gamazo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Maura_Gamazo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SC }
+		}
+	# Mariano Gómez
+		SPR_MoS_Mariano_Gomez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1946.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Mariano_Gomez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SC }
+		}
+	# Alejandro Lerroux García
+		SPR_MoS_Alejandro_Lerroux_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Alejandro_Lerroux_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crooked_Kleptocrat ideology_SL }
+		}
+	# Diego Martínez Barrio
+		SPR_MoS_Diego_Martinez_Barrio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Martinez_Barrio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_SL }
+		}
+	# Julio López Olivan
+		SPR_MoS_Julio_Lopez_Olivan = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Julio_Lopez_Olivan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_SL }
+		}
+	# Pablo de Azcárate y Flores
+		SPR_MoS_Pablo_de_Azcarate_y_Flores = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Pablo_de_Azcarate_y_Flores_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SL }
+		}
+	# Federico Escofet Alsina
+		SPR_MoS_Federico_Escofet_Alsina = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Federico_Escofet_Alsina_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SL }
+		}
+	# Santiago Casares Quiroga
+		SPR_MoS_Santiago_Casares_Quiroga = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Casares_Quiroga_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_SD }
+		}
+	# Amós Salvador Carreras
+		SPR_MoS_Amos_Salvador_Carreras = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Amos_Salvador_Carreras_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_SD }
+		}
+	# Sebastián Pozas Perea
+		SPR_MoS_Sebastian_Pozas_Perea = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Sebastian_Pozas_Perea_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_SD }
+		}
+	# Marcelino Domingo Sanjuán
+		SPR_MoS_Marcelino_Domingo_Sanjuan = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Marcelino_Domingo_Sanjuan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_SD }
+		}
+	# Julián Zugazagoitia Mendieta
+		SPR_MoS_Julian_Zugazagoitia_Mendieta = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Julian_Zugazagoitia_Mendieta_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_LWR }
+		}
+	# Ángel Galarza y Gago
+		SPR_MoS_Angel_Galarza_y_Gago = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Angel_Galarza_y_Gago_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_LWR }
+		}
+	# Antonio Ortega Gutiérrez
+		SPR_MoS_Antonio_Ortega_Gutierrez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Antonio_Ortega_Gutierrez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_LWR }
+		}
+	# Ramon Gonzalez Peña
+		SPR_MoS_Ramon_Gonzalez_Pena = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ramon_Gonzalez_Pena_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_LWR }
+		}
+	# Victoria Kent
+		SPR_MoS_Victoria_Kent = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Victoria_Kent_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LWR }
+		}
+	# Wenceslao Carrillo Forjador
+		SPR_MoS_Wenceslao_Carrillo_Forjador = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Wenceslao_Carrillo_Forjador_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LWR }
+		}
+	# José Expósito Leiva
+		SPR_MoS_Jose_Exposito_Leiva = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Exposito_Leiva_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_LE }
+		}
+	# Melchor Rodríguez de Galdeano
+		SPR_MoS_Melchor_Rodriguez_de_Galdeano = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Melchor_Rodriguez_de_Galdeano_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Crime_Fighter ideology_LE }
+		}
+	# Andreu Nin i Pérez
+		SPR_MoS_Andreu_Nin_i_Perez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Andreu_Nin_i_Perez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_LE }
+		}
+	# Eduardo de Guzmán
+		SPR_MoS_Eduardo_de_Guzman = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Eduardo_de_Guzman_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Silent_Lawyer ideology_LE }
+		}
+	# Juan García Oliver
+		SPR_MoS_Juan_Garcia_Oliver = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Garcia_Oliver_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_LE }
+		}
+	# Buenaventura Durruti Dumange
+		SPR_MoS_Buenaventura_Durruti_Dumange = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Buenaventura_Durruti_Dumange_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_LE }
+		}
+	# Vicente Uribe Galdeano
+		SPR_MoS_Vicente_Uribe_Galdeano = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Uribe_Galdeano_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_ST }
+		}
+	# Dolores Ibáurri Gómez
+		SPR_MoS_Dolores_Ibaurri_Gomez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Dolores_Ibaurri_Gomez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_ST }
+		}
+	# Valentín González González
+		SPR_MoS_Valentin_Gonzalez_Gonzalez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Valentin_Gonzalez_Gonzalez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Back_Stabber ideology_ST }
+		}
+	# Margarita Nelken
+		SPR_MoS_Margarita_Nelken = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Margarita_Nelken_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Compassionate_Gentleman ideology_ST }
+		}
+	# José Díaz Ramos
+		SPR_MoS_Jose_Diaz_Ramos = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Diaz_Ramos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Man_Of_The_People ideology_ST }
+		}
+	# Antonio Mije
+		SPR_MoS_Antonio_Mije = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Antonio_Mije_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_ST }
+		}
+	# Joaquín Grimau García
+		SPR_MoS_Joaquin_Grimau_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Grimau_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Efficient_Sociopath ideology_ST }
+		}
+	# Santiago Carrillo Solares
+		SPR_MoS_Santiago_Carrillo_Solares = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Carrillo_Solares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { MoS_Prince_Of_Terror ideology_ST }
+		}
+}
+#################################################
+### Armaments Minister
+#################################################
+	Armaments_Minister = {
+	# José Calvo-Sotelo
+		SPR_AM_Jose_CalvoSotelo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_CalvoSotelo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_PA }
+		}
+	# Luis Luciá Luciá
+		SPR_AM_Luis_Lucia_Lucia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Lucia_Lucia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_PA }
+		}
+	# José María Gil-Robles Quiñones
+		SPR_AM_Jose_Maria_GilRobles_Quinones = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Maria_GilRobles_Quinones_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_PA }
+		}
+	# José María Quinones de Leon
+		SPR_AM_Jose_Maria_Quinones_de_Leon = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Maria_Quinones_de_Leon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_PA }
+		}
+	# Juan March Ordinas
+		SPR_AM_Juan_March_Ordinas = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_March_Ordinas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_PA }
+		}
+	# José Mendizábal y Bonilla
+		SPR_AM_Jose_Mendizabal_y_Bonilla = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Mendizabal_y_Bonilla_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_SC }
+		}
+	# José Yanguas Messía
+		SPR_AM_Jose_Yanguas_Messia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Yanguas_Messia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SC }
+		}
+	# Manuel Carrasco i Formiguera
+		SPR_AM_Manuel_Carrasco_i_Formiguera = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Carrasco_i_Formiguera_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SC }
+		}
+	# Diego Hidalgo Dúran
+		SPR_AM_Diego_Hidalgo_Duran = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Hidalgo_Duran_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_SC }
+		}
+	# Ángel Osorio y Gallardo
+		SPR_AM_Angel_Osorio_y_Gallardo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Angel_Osorio_y_Gallardo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_SC }
+		}
+	# Joaquín Chapaprieta Torregrosa
+		SPR_AM_Joaquin_Chapaprieta_Torregrosa = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Chapaprieta_Torregrosa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Balanced_Budget_Economy ideology_SC }
+		}
+	# Miguel Nuñez de Prado
+		SPR_AM_Miguel_Nunez_de_Prado = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Nunez_de_Prado_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_To_Sea_Proponent ideology_SL }
+		}
+	# Bernardo Giner de los Ríos García
+		SPR_AM_Bernardo_Giner_de_los_Rios_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Bernardo_Giner_de_los_Rios_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_SL }
+		}
+	# Emilio Herrera
+		SPR_AM_Emilio_Herrera = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Emilio_Herrera_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_Superiority_Proponent ideology_SL }
+		}
+	# Lluis Nicolau d'Olwer
+		SPR_AM_Lluis_Nicolau_dOlwer = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Lluis_Nicolau_dOlwer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SL }
+		}
+	# Alejandro Lerroux García
+		SPR_AM_Alejandro_Lerroux_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Alejandro_Lerroux_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SL }
+		}
+	# Manuel Azaña Díaz
+		SPR_AM_Manuel_Azana_Diaz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1930.1.1
+				date < 1940.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Azana_Diaz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_SD }
+		}
+	# José Giral Pereira
+		SPR_AM_Jose_Giral_Pereira = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Giral_Pereira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Battle_Fleet_Proponent ideology_SD }
+		}
+	# Francisco Méndez Aspe
+		SPR_AM_Francisco_Mendez_Aspe = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Mendez_Aspe_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_SD }
+		}
+	# Bibiano Fernández Ossorio
+		SPR_AM_Bibiano_Fernandez_Ossorio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Bibiano_Fernandez_Ossorio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_SD }
+		}
+	# Santiago Casares Quiroga
+		SPR_AM_Santiago_Casares_Quiroga = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Casares_Quiroga_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Submarine_Proponent ideology_SD }
+		}
+	# José Larraz Lopez
+		SPR_AM_Jose_Larraz_Lopez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Larraz_Lopez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Keynesian_Economy ideology_SD }
+		}
+	# José Prat García
+		SPR_AM_Jose_Prat_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Prat_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_SD }
+		}
+	# Carles Pi i Suñer
+		SPR_AM_Carles_Pi_i_Suner = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Carles_Pi_i_Suner_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_SD }
+		}
+	# Indalencio Prieto Tuero
+		SPR_AM_Indalencio_Prieto_Tuero = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Indalencio_Prieto_Tuero_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_LWR }
+		}
+	# Belamino Tomás Álvarez
+		SPR_AM_Belamino_Tomas_Alvarez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Belamino_Tomas_Alvarez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LWR }
+		}
+	# Fernando de los Ríos Urruti
+		SPR_AM_Fernando_de_los_Rios_Urruti = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Fernando_de_los_Rios_Urruti_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Strategic_Air_Proponent ideology_LWR }
+		}
+	# Juan Negrín López
+		SPR_AM_Juan_Negrin_Lopez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Negrin_Lopez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_LWR }
+		}
+	# Francisco Largo Caballero
+		SPR_AM_Francisco_Largo_Caballero = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Largo_Caballero_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LWR }
+		}
+	# Felix Gordón Ordás
+		SPR_AM_Felix_Gordon_Ordas = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Felix_Gordon_Ordas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Laissez-faire_Capitalist ideology_LWR }
+		}
+	# Todolfo Llopis Férrandiz
+		SPR_AM_Todolfo_Llopis_Ferrandiz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Todolfo_Llopis_Ferrandiz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_LWR }
+		}
+	# Juan López Sánchez
+		SPR_AM_Juan_Lopez_Sanchez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Lopez_Sanchez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_LE }
+		}
+	# Ángel Pestaña
+		SPR_AM_Angel_Pestana = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Angel_Pestana_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Air_To_Ground_Proponent ideology_LE }
+		}
+	# Joaquin Maurín Juliá
+		SPR_AM_Joaquin_Maurin_Julia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Maurin_Julia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_LE }
+		}
+	# Joaquín Ascaso Budriá
+		SPR_AM_Joaquin_Ascaso_Budria = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Ascaso_Budria_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Military_Entrepreneur ideology_LE }
+		}
+	# Juan Peiró Belis
+		SPR_AM_Juan_Peiro_Belis = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Peiro_Belis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_LE }
+		}
+	# Federica Monsteny Mané
+		SPR_AM_Federica_Monsteny_Mane = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Federica_Monsteny_Mane_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_LE }
+		}
+	# Ricardo Sanz García
+		SPR_AM_Ricardo_Sanz_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Ricardo_Sanz_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_LE }
+		}
+	# Vicente Uribe Galdeano
+		SPR_AM_Vicente_Uribe_Galdeano = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Uribe_Galdeano_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Administrative_Genius ideology_ST }
+		}
+	# Juan Comorera y Soler
+		SPR_AM_Juan_Comorera_y_Soler = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Comorera_y_Soler_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Resource_Industrialist ideology_ST }
+		}
+	# Etelvino Vega Martínez
+		SPR_AM_Etelvino_Vega_Martinez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Etelvino_Vega_Martinez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Tank_Proponent ideology_ST }
+		}
+	# Enrique Castro Delgado
+		SPR_AM_Enrique_Castro_Delgado = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Enrique_Castro_Delgado_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Infantry_Proponent ideology_ST }
+		}
+	# Jesús Hernández y Tomás
+		SPR_AM_Jesus_Hernandez_y_Tomas = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1944.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jesus_Hernandez_y_Tomas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { AM_Theoretical_Scientist ideology_ST }
+		}
+}
+#################################################
+### Head of Intelligence
+#################################################
+	Head_of_Intelligence = {
+	# Luis Orgaz Yoldi
+		SPR_HoI_Luis_Orgaz_Yoldi = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Orgaz_Yoldi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_PA }
+		}
+	# Luis Luciá Luciá
+		SPR_HoI_Luis_Lucia_Lucia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Lucia_Lucia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_PA }
+		}
+	# Ricardo Samper Ibáñez
+		SPR_HoI_Ricardo_Samper_Ibanez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Ricardo_Samper_Ibanez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_SC }
+		}
+	# Juan March Ordinas
+		SPR_HoI_Juan_March_Ordinas = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_March_Ordinas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SC }
+		}
+	# Diego Hidalgo Dúran
+		SPR_HoI_Diego_Hidalgo_Duran = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Hidalgo_Duran_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SC }
+		}
+	# Manuel Matallana Gómez
+		SPR_HoI_Manuel_Matallana_Gomez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Matallana_Gomez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SC }
+		}
+	# Joaquín Chapaprieta Torregrosa
+		SPR_HoI_Joaquin_Chapaprieta_Torregrosa = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Chapaprieta_Torregrosa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_SC }
+		}
+	# Juan Hernández Sarabia
+		SPR_HoI_Juan_Hernandez_Sarabia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ML_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Hernandez_Sarabia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ML }
+		}
+	# Manuel Estrada Manchón
+		SPR_HoI_Manuel_Estrada_Manchon = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Estrada_Manchon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_SL }
+		}
+	# Alejandro Lerroux García
+		SPR_HoI_Alejandro_Lerroux_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Alejandro_Lerroux_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_SL }
+		}
+	# Manuel Torres Campaña
+		SPR_HoI_Manuel_Torres_Campana = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Torres_Campana_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_SD }
+		}
+	# Francisco Méndez Aspe
+		SPR_HoI_Francisco_Mendez_Aspe = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Mendez_Aspe_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_SD }
+		}
+	# Benjamín Balboa López
+		SPR_HoI_Benjamin_Balboa_Lopez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Benjamin_Balboa_Lopez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_SD }
+		}
+	# Josep Tarradellas y Joan
+		SPR_HoI_Josep_Tarradellas_y_Joan = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Josep_Tarradellas_y_Joan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_SD }
+		}
+	# José Giral Pereira
+		SPR_HoI_Jose_Giral_Pereira = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Giral_Pereira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_SD }
+		}
+	# Gustavo Durán Martínez
+		SPR_HoI_Gustavo_Duran_Martinez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Gustavo_Duran_Martinez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_LWR }
+		}
+	# Felix Gordón Ordás
+		SPR_HoI_Felix_Gordon_Ordas = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Felix_Gordon_Ordas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_LWR }
+		}
+	# Juan Hernández Sarabia
+		SPR_HoI_Juan_Hernandez_Sarabia_2 = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Hernandez_Sarabia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_LWR }
+		}
+	# Alvaro de Albornoz Liminiana
+		SPR_HoI_Alvaro_de_Albornoz_Liminiana = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Alvaro_de_Albornoz_Liminiana_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_LWR }
+		}
+	# Federica Monsteny Mané
+		SPR_HoI_Federica_Monsteny_Mane = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Federica_Monsteny_Mane_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_LE }
+		}
+	# Mariano Vázquez Rodríguez
+		SPR_HoI_Mariano_Vazquez_Rodriguez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Mariano_Vazquez_Rodriguez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_LE }
+		}
+	# Juan López Sánchez
+		SPR_HoI_Juan_Lopez_Sanchez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Lopez_Sanchez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_LE }
+		}
+	# Ángel Pestaña
+		SPR_HoI_Angel_Pestana = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Angel_Pestana_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_LE }
+		}
+	# Julian Gorkin Gómez García
+		SPR_HoI_Julian_Gorkin_Gomez_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Julian_Gorkin_Gomez_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Naval_Intelligence_Specialist ideology_LE }
+		}
+	# Ricardo Sanz García
+		SPR_HoI_Ricardo_Sanz_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Ricardo_Sanz_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_LE }
+		}
+	# Rafael Videlia Rubio
+		SPR_HoI_Rafael_Videlia_Rubio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Rafael_Videlia_Rubio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Industrial_Specialist ideology_ST }
+		}
+	# Jesús Hernández y Tomás
+		SPR_HoI_Jesus_Hernandez_y_Tomas = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Jesus_Hernandez_y_Tomas_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Technical_Specialist ideology_ST }
+		}
+	# Santiago Carrillo Solares
+		SPR_HoI_Santiago_Carrillo_Solares = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Carrillo_Solares_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Political_Specialist ideology_ST }
+		}
+	# Daniel Ortega Martínez
+		SPR_HoI_Daniel_Ortega_Martinez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Daniel_Ortega_Martinez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Logistics_Specialist ideology_ST }
+		}
+	# Juan Comorera y Soler
+		SPR_HoI_Juan_Comorera_y_Soler = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Comorera_y_Soler_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { HoI_Dismal_Enigma ideology_ST }
+		}
+}
+#################################################
+### Chief of Staff
+#################################################
+	Chief_of_Staff = {
+	# Luís Orgaz Yoldi
+		SPR_CoStaff_Luis_Orgaz_Yoldi = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1942.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Orgaz_Yoldi_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_PA }
+		}
+	# Joaquin Fanjul Goñi
+		SPR_CoStaff_Joaquin_Fanjul_Goni = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Fanjul_Goni_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_PA }
+		}
+	# José Miaja Menant
+		SPR_CoStaff_Jose_Miaja_Menant = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Miaja_Menant_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_SC }
+		}
+	# Domingo Batet Mestre
+		SPR_CoStaff_Domingo_Batet_Mestre = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Domingo_Batet_Mestre_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_SC }
+		}
+	# Toribio Martínez Cabrera
+		SPR_CoStaff_Toribio_Martinez_Cabrera = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Toribio_Martinez_Cabrera_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_SL }
+		}
+	# Manuel Estrada Manchón
+		SPR_CoStaff_Manuel_Estrada_Manchon = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Estrada_Manchon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_SL }
+		}
+	# Sebastián Pozas Perea
+		SPR_CoStaff_Sebastian_Pozas_Perea = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Sebastian_Pozas_Perea_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_SD }
+		}
+	# Enrique Jurado Barrio
+		SPR_CoStaff_Enrique_Jurado_Barrio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Enrique_Jurado_Barrio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_SD }
+		}
+	# Carlos Masquelet Lacaci
+		SPR_CoStaff_Carlos_Masquelet_Lacaci = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Carlos_Masquelet_Lacaci_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_SD }
+		}
+	# Luis Castelló Pantoja
+		SPR_CoStaff_Luis_Castello_Pantoja = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1945.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Castello_Pantoja_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_SD }
+		}
+	# Gustavo Durán Martínez
+		SPR_CoStaff_Gustavo_Duran_Martinez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Gustavo_Duran_Martinez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_LWR }
+		}
+	# Vicente Rojo Lluch
+		SPR_CoStaff_Vicente_Rojo_Lluch = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Rojo_Lluch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LWR }
+		}
+	# Juan Hernández Sarabia
+		SPR_CoStaff_Juan_Hernandez_Sarabia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Hernandez_Sarabia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_LWR }
+		}
+	# Arturo Mena Roig
+		SPR_CoStaff_Arturo_Mena_Roig = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Arturo_Mena_Roig_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_LWR }
+		}
+	# Juan Perea Capulino
+		SPR_CoStaff_Juan_Perea_Capulino = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Perea_Capulino_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_LWR }
+		}
+	# Vicente Guarner Vivancos
+		SPR_CoStaff_Vicente_Guarner_Vivancos = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Guarner_Vivancos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_LE }
+		}
+	# Miguel García Vivancos
+		SPR_CoStaff_Miguel_Garcia_Vivancos = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Garcia_Vivancos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_LE }
+		}
+	# Francisco Ascaso Budría
+		SPR_CoStaff_Francisco_Ascaso_Budria = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Ascaso_Budria_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_LE }
+		}
+	# Cipriano Mera Sanz
+		SPR_CoStaff_Cipriano_Mera_Sanz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Cipriano_Mera_Sanz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_LE }
+		}
+	# Buenaventura Durruti Dumange
+		SPR_CoStaff_Buenaventura_Durruti_Dumange = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Buenaventura_Durruti_Dumange_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_LE }
+		}
+	# Frank Ryan
+		SPR_CoStaff_Frank_Ryan = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Frank_Ryan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Emilio Kléber
+		SPR_CoStaff_Emilio_Kleber = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Emilio_Kleber_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_ST }
+		}
+	# Enrique Líster Forján
+		SPR_CoStaff_Enrique_Lister_Forjan = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Enrique_Lister_Forjan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Psychology ideology_ST }
+		}
+	# Juan Modesto Guilloto
+		SPR_CoStaff_Juan_Modesto_Guilloto = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Modesto_Guilloto_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Mass_Combat ideology_ST }
+		}
+	# Antonio Cordón García
+		SPR_CoStaff_Antonio_Cordon_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Antonio_Cordon_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Defence ideology_ST }
+		}
+	# Manuel Tagüeña Lacorte
+		SPR_CoStaff_Manuel_Taguena_Lacorte = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Taguena_Lacorte_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Manoeuvre ideology_ST }
+		}
+	# Francisco Galán Rodríguez
+		SPR_CoStaff_Francisco_Galan_Rodriguez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Galan_Rodriguez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoStaff_School_Of_Fire_Support ideology_ST }
+		}
+}
+#################################################
+### Chief of Army
+#################################################
+	Chief_of_Army = {
+	# Antonio Aranda Mata
+		SPR_CoArmy_Antonio_Aranda_Mata = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Antonio_Aranda_Mata_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# José María Gil-Robles Quiñones
+		SPR_CoArmy_Jose_Maria_GilRobles_Quinones = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Maria_GilRobles_Quinones_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_PA }
+		}
+	# Joaquin Fanjul Goñi
+		SPR_CoArmy_Joaquin_Fanjul_Goni = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Fanjul_Goni_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_PA }
+		}
+	# Nicolás Molero Lobo
+		SPR_CoArmy_Nicolas_Molero_Lobo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Nicolas_Molero_Lobo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_SC }
+		}
+	# José Antonio de Aguirre y Lecube
+		SPR_CoArmy_Jose_Antonio_de_Aguirre_y_Lecube = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Antonio_de_Aguirre_y_Lecube_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_SC }
+		}
+	# José Miaja Menant
+		SPR_CoArmy_Jose_Miaja_Menant = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Miaja_Menant_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_SC }
+		}
+	# Domingo Batet Mestre
+		SPR_CoArmy_Domingo_Batet_Mestre = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Domingo_Batet_Mestre_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_SC }
+		}
+	# Manuel Estrada Manchón
+		SPR_CoArmy_Manuel_Estrada_Manchon = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Estrada_Manchon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_SL }
+		}
+	# Carlos Masquelet Lacaci
+		SPR_CoArmy_Carlos_Masquelet_Lacaci = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Carlos_Masquelet_Lacaci_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_SL }
+		}
+	# Toribio Martínez Cabrera
+		SPR_CoArmy_Toribio_Martinez_Cabrera = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Toribio_Martinez_Cabrera_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_SL }
+		}
+	# Manuel Azaña Díaz
+		SPR_CoArmy_Manuel_Azana_Diaz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1930.1.1
+				date < 1940.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Azana_Diaz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_SD }
+		}
+	# Sebastián Pozas Perea
+		SPR_CoArmy_Sebastian_Pozas_Perea = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Sebastian_Pozas_Perea_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_SD }
+		}
+	# Enrique Jurado Barrio
+		SPR_CoArmy_Enrique_Jurado_Barrio = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Enrique_Jurado_Barrio_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_SD }
+		}
+	# Luis Castelló Pantoja
+		SPR_CoArmy_Luis_Castello_Pantoja = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Castello_Pantoja_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_SD }
+		}
+	# Juan Hernández Sarabia
+		SPR_CoArmy_Juan_Hernandez_Sarabia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Hernandez_Sarabia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_LWR }
+		}
+	# Vicente Rojo Lluch
+		SPR_CoArmy_Vicente_Rojo_Lluch = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Rojo_Lluch_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_LWR }
+		}
+	# Gustavo Durán Martínez
+		SPR_CoArmy_Gustavo_Duran_Martinez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Gustavo_Duran_Martinez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_LWR }
+		}
+	# Arturo Mena Roig
+		SPR_CoArmy_Arturo_Mena_Roig = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Arturo_Mena_Roig_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_LWR }
+		}
+	# Juan Perea Capulino
+		SPR_CoArmy_Juan_Perea_Capulino = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Perea_Capulino_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_LWR }
+		}
+	# Cipriano Mera Sanz
+		SPR_CoArmy_Cipriano_Mera_Sanz = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Cipriano_Mera_Sanz_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_LE }
+		}
+	# Vicente Guarner Vivancos
+		SPR_CoArmy_Vicente_Guarner_Vivancos = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Guarner_Vivancos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_LE }
+		}
+	# Miguel García Vivancos
+		SPR_CoArmy_Miguel_Garcia_Vivancos = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Garcia_Vivancos_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_LE }
+		}
+	# Francisco Ascaso Budría
+		SPR_CoArmy_Francisco_Ascaso_Budria = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Ascaso_Budria_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_LE }
+		}
+	# Buenaventura Durruti Dumange
+		SPR_CoArmy_Buenaventura_Durruti_Dumange = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Buenaventura_Durruti_Dumange_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_LE }
+		}
+	# Manuel Tagüeña Lacorte
+		SPR_CoArmy_Manuel_Taguena_Lacorte = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Manuel_Taguena_Lacorte_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Elastic_Defence_Doctrine ideology_ST }
+		}
+	# Enrique Líster Forján
+		SPR_CoArmy_Enrique_Lister_Forjan = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Enrique_Lister_Forjan_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Decisive_Battle_Doctrine ideology_ST }
+		}
+	# Juan Modesto Guilloto
+		SPR_CoArmy_Juan_Modesto_Guilloto = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Modesto_Guilloto_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Guns_And_Butter_Doctrine ideology_ST }
+		}
+	# Antonio Cordón García
+		SPR_CoArmy_Antonio_Cordon_Garcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Antonio_Cordon_Garcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Static_Defence_Doctrine ideology_ST }
+		}
+	# Etelvino Vega Martínez
+		SPR_CoArmy_Etelvino_Vega_Martinez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Etelvino_Vega_Martinez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoArmy_Armoured_Spearhead_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Navy
+#################################################
+	Chief_of_Navy = {
+	# Francisco Nunez de Olaneta
+		SPR_CoNavy_Francisco_Nunez_de_Olaneta = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Nunez_de_Olaneta_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_PA }
+		}
+	# Miguel Buiza Palacios
+		SPR_CoNavy_Miguel_Buiza_Palacios = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Buiza_Palacios_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_SC }
+		}
+	# Miguel Maura Gamazo
+		SPR_CoNavy_Miguel_Maura_Gamazo = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Maura_Gamazo_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_SC }
+		}
+	# Antonio Azarola Gresillón
+		SPR_CoNavy_Antonio_Azarola_Gresillon = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Antonio_Azarola_Gresillon_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_SL }
+		}
+	# Antonio Ruíz Funes-García
+		SPR_CoNavy_Antonio_Ruiz_FunesGarcia = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Antonio_Ruiz_FunesGarcia_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_SL }
+		}
+	# José Giral Pereira
+		SPR_CoNavy_Jose_Giral_Pereira = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Jose_Giral_Pereira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_SD }
+		}
+	# Lluis Companys i Jover
+		SPR_CoNavy_Lluis_Companys_i_Jover = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Lluis_Companys_i_Jover_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_SD }
+		}
+	# Santiago Casares Quiroga
+		SPR_CoNavy_Santiago_Casares_Quiroga = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Santiago_Casares_Quiroga_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_SD }
+		}
+	# Bruno Alonso
+		SPR_CoNavy_Bruno_Alonso = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Bruno_Alonso_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_LWR }
+		}
+	# Joaquín Julio Maurín
+		SPR_CoNavy_Joaquin_Julio_Maurin = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Joaquin_Julio_Maurin_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Power_Projection_Doctrine ideology_LWR }
+		}
+	# Luís González Ubieta
+		SPR_CoNavy_Luis_Gonzalez_Ubieta = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Luis_Gonzalez_Ubieta_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_LWR }
+		}
+	# Indalecio Prieto Tuero
+		SPR_CoNavy_Indalecio_Prieto_Tuero = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Indalecio_Prieto_Tuero_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_LWR }
+		}
+	# Andres Saborit Colomer
+		SPR_CoNavy_Andres_Saborit_Colomer = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1940.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Andres_Saborit_Colomer_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_LWR }
+		}
+	# Juan Peiró Belis
+		SPR_CoNavy_Juan_Peiro_Belis = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Peiro_Belis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_LE }
+		}
+	# Juan López Sánchez
+		SPR_CoNavy_Juan_Lopez_Sanchez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Lopez_Sanchez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_LE }
+		}
+	# Vicente Uribe Galdeano
+		SPR_CoNavy_Vicente_Uribe_Galdeano = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Uribe_Galdeano_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Base_Control_Doctrine ideology_ST }
+		}
+	# Pedro Fernández Checa
+		SPR_CoNavy_Pedro_Fernandez_Checa = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Pedro_Fernandez_Checa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Decisive_Naval_Battle_Doctrine ideology_ST }
+		}
+	# Francisco Galán Rodríguez
+		SPR_CoNavy_Francisco_Galan_Rodriguez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Francisco_Galan_Rodriguez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Open_Seas_Doctrine ideology_ST }
+		}
+	# Pedro Prado Mendizábal
+		SPR_CoNavy_Pedro_Prado_Mendizabal = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Pedro_Prado_Mendizabal_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoNavy_Indirect_Approach_Doctrine ideology_ST }
+		}
+}
+#################################################
+### Chief of Airforce
+#################################################
+	Chief_of_Airforce = {
+	# Emilio Herrera
+		SPR_CoAir_Emilio_Herrera = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Emilio_Herrera_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_PA }
+		}
+	# Diego Hidalgo Dúran
+		SPR_CoAir_Diego_Hidalgo_Duran = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				PA_Minister_Allowed = yes
+				NOT = { has_country_flag = Diego_Hidalgo_Duran_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_PA }
+		}
+	# Alfredo Kindelán y Duany
+		SPR_CoAir_Alfredo_Kindelan_y_Duany = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SC_Minister_Allowed = yes
+				NOT = { has_country_flag = Alfredo_Kindelan_y_Duany_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_SC }
+		}
+	# Miguel Nuñez de Prado
+		SPR_CoAir_Miguel_Nunez_de_Prado = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SL_Minister_Allowed = yes
+				NOT = { has_country_flag = Miguel_Nunez_de_Prado_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_SL }
+		}
+	# Felipe Díaz Sandino
+		SPR_CoAir_Felipe_Diaz_Sandino = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Felipe_Diaz_Sandino_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_SD }
+		}
+	# Lluis Companys i Jover
+		SPR_CoAir_Lluis_Companys_i_Jover = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Lluis_Companys_i_Jover_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Naval_Aviation_Doctrine ideology_SD }
+		}
+	# Ángel Camacho Benítez
+		SPR_CoAir_Angel_Camacho_Benitez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Angel_Camacho_Benitez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_SD }
+		}
+	# Julio Just Gímeno
+		SPR_CoAir_Julio_Just_Gimeno = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1941.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Julio_Just_Gimeno_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_SD }
+		}
+	# María Lejarraga de Martínez
+		SPR_CoAir_Maria_Lejarraga_de_Martinez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				SD_Minister_Allowed = yes
+				NOT = { has_country_flag = Maria_Lejarraga_de_Martinez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_SD }
+		}
+	# Ignacio Hidalgo de Cisneros
+		SPR_CoAir_Ignacio_Hidalgo_de_Cisneros = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Ignacio_Hidalgo_de_Cisneros_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_LWR }
+		}
+	# Trifon Gómez San José
+		SPR_CoAir_Trifon_Gomez_San_Jose = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Trifon_Gomez_San_Jose_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_LWR }
+		}
+	# Indalecio Prieto Tuero
+		SPR_CoAir_Indalecio_Prieto_Tuero = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LWR_Minister_Allowed = yes
+				NOT = { has_country_flag = Indalecio_Prieto_Tuero_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_LWR }
+		}
+	# Juan López Sánchez
+		SPR_CoAir_Juan_Lopez_Sanchez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1933.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Lopez_Sanchez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_LE }
+		}
+	# Juan Peiró Belis
+		SPR_CoAir_Juan_Peiro_Belis = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1937.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Juan_Peiro_Belis_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Carpet_Bombing_Doctrine ideology_LE }
+		}
+	# Ventura Gassol Rovíra
+		SPR_CoAir_Ventura_Gassol_Rovira = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1939.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Ventura_Gassol_Rovira_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_LE }
+		}
+	# Mariano Vázquez Rodríguez
+		SPR_CoAir_Mariano_Vazquez_Rodriguez = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1943.1.1
+				date < 1964.1.1
+				LE_Minister_Allowed = yes
+				NOT = { has_country_flag = Mariano_Vazquez_Rodriguez_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Air_Superiority_Doctrine ideology_LE }
+		}
+	# Pedro Fernández Checa
+		SPR_CoAir_Pedro_Fernandez_Checa = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Pedro_Fernandez_Checa_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Army_Aviation_Doctrine ideology_ST }
+		}
+	# Vicente Uribe Galdeano
+		SPR_CoAir_Vicente_Uribe_Galdeano = {
+			picture = Generic_Portrait
+			allowed = { tag = SPR }
+			available = {
+				date > 1938.1.1
+				date < 1964.1.1
+				ST_Minister_Allowed = yes
+				NOT = { has_country_flag = Vicente_Uribe_Galdeano_unavailable }
+			}
+			cost = 150
+			removal_cost = 10
+			traits = { CoAir_Vertical_Envelopment_Doctrine ideology_ST }
+		}
+	}
+}

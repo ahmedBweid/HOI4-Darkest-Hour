@@ -1,0 +1,94 @@
+﻿division_template = {
+	name = "Columna de Milicianos"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+units = {
+# Militias
+	division = {
+		name = "I Milicia de Madrid"
+		location = 3938  # Madrid
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "II Milicia de Madrid"
+		location = 3938  # Madrid
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "III Milicia de Madrid"
+		location = 3938  # Madrid
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "IV Milicia de Madrid"
+		location = 3938  # Madrid
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "I Milicia del CSP"
+		location = 9979  # Malaga
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "I Milicias Valencianas"
+		location = 6906  # Valencia
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "II Milicias Valencianas"
+		location = 6906  # Valencia
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "II Milicia del CSP"
+		location = 9979  # Malaga
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "III Milicia del CSP"
+		location = 9979 # Malaga
+		division_template = "Columna de Milicianos"
+	}	
+# Regulars	
+	division = {
+		name = "1a División Vasca"
+		location = 740  # Bilbao
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "I Brigada Confederal"
+		location = 9764  # Barcelona
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "II Brigada Confederal"
+		location = 9764  # Barcelona
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "III Brigada Confederal"
+		location = 9764  # Barcelona
+		division_template = "Columna de Milicianos"
+	}
+    division = {
+		name = "2a División Vasca"
+		location = 740  # Bilbao
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "3a División Vasca"
+		location = 740  # Bilbao
+		division_template = "Columna de Milicianos"
+	}
+	division = {
+		name = "4a División Vasca"
+		location = 740  # Bilbao
+		division_template = "Columna de Milicianos"
+	}
+}

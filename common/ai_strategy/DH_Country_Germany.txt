@@ -1,0 +1,658 @@
+####################################################
+## Germany
+#####################################################
+
+# air_factory_balance
+# alliance
+# antagonize
+# area_priority
+# befriend
+# build_army
+# build_building
+# build_ship
+# conquer
+# contain
+# equipment_production_factor
+# equipment_stockpile
+# garrison
+# ignore
+# influence
+# invade
+# pp_spend_priority
+# protect
+# research_tech
+# role_ratio
+# send_volunteers_desire
+# support
+# template_prio
+# template_xp_reserve 
+# unit_ratio
+
+## ------------------ Foreign Relations -------------------------------------------------------------
+
+# German-Italian Relations
+German_Italian_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		ITA = { is_fascist = yes }		
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = befriend
+		id = "ITA"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "ITA"
+		value = 25
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 50
+	}
+	ai_strategy = {
+		type = ignore
+		id = "ITA"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "ITA"
+		value = 200
+	}
+}
+
+# German-Japanese Relations
+German_Japanese_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		JAP = { is_fascist = yes }		
+	}
+	abort = {
+		always = no
+	}
+	ai_strategy = {
+		type = befriend
+		id = "JAP"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "ITA"
+		value = 25
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = 10
+	}
+	ai_strategy = {
+		type = ignore
+		id = "JAP"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "JAP"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "JAP"
+		value = -200
+	}	
+}
+
+# German-Hungarian Relations
+German_Hungarian_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		HUN = { is_fascist = yes }		
+	}
+	abort = {
+		HUN = { is_fascist = no }	
+	}
+	ai_strategy = {
+		type = befriend
+		id = "HUN"
+		value = 15
+	}
+	ai_strategy = {
+		type = protect
+		id = "HUN"
+		value = 25
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "HUN"
+		value = 50
+	}
+	ai_strategy = {
+		type = ignore
+		id = "HUN"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "HUN"
+		value = 200
+	}
+}
+
+# German-Romanian Relations
+German_Romanian_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		ROM = { is_fascist = yes }		
+	}
+	abort = {
+		ROM = { is_fascist = no }	
+	}
+	ai_strategy = {
+		type = befriend
+		id = "ROM"
+		value = 15
+	}
+	ai_strategy = {
+		type = protect
+		id = "ROM"
+		value = 25
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "ROM"
+		value = 50
+	}
+	ai_strategy = {
+		type = ignore
+		id = "ROM"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "ROM"
+		value = 200
+	}
+}
+
+# German-Bulgarian Relations
+German_Bulgarian_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		ROM = { is_fascist = yes }		
+	}
+	abort = {
+		BUL = { is_fascist = no }	
+	}
+	ai_strategy = {
+		type = befriend
+		id = "BUL"
+		value = 15
+	}
+	ai_strategy = {
+		type = protect
+		id = "BUL"
+		value = 25
+	}	
+	ai_strategy = {
+		type = alliance
+		id = "BUL"
+		value = 50
+	}
+	ai_strategy = {
+		type = ignore
+		id = "BUL"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "BUL"
+		value = 200
+	}
+}
+
+# German-British Relations
+German_British_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		ENG = { is_democratic = yes }
+	}
+	abort = {
+		ENG = { is_fascist = yes }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "ENG"
+		value = -60
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 100
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "ENG"
+		value = -200
+	}
+	ai_strategy = {
+		type = invade
+		id = "ENG"
+		value = 20
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 100
+	}	
+}
+
+# German-French Relations
+German_French_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		FRA = { is_fascist = no }
+	}
+	abort = {
+		FRA = { is_fascist = yes }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = -70
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 100
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "FRA"
+		value = -200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 120
+	}	
+}
+
+# German-Polish Relations
+German_Polish_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		POL = { is_fascist = no }
+	}
+	abort = {
+		POL = { is_fascist = yes }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "POL"
+		value = -50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POL"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "POL"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "POL"
+		value = 100
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "POL"
+		value = -200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POL"
+		value = 120
+	}	
+}
+
+# German-US Relations
+German_US_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		USA = { is_democratic = yes }		
+	}
+	abort = {
+		USA = { is_fascist = yes }
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "USA"
+		value = -50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 50
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "USA"
+		value = -200
+	}
+	
+	ai_strategy = {
+		type = invade
+		id = "USA"
+		value = -50
+	}	
+}
+
+
+# German-Soviet Relations
+German_Soviet_Relations = {
+	enable = {
+		original_tag = GER
+		GER = { is_fascist = yes }
+		SOV = { is_communist = yes }		
+	}
+	abort = {
+		SOV = { is_fascist = yes }	
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = "SOV"
+		value = -20
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = -50
+	}		
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 100
+	}	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 100
+	}	
+	ai_strategy = {
+		type = ignore
+		id = "SOV"
+		value = -200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 50
+	}	
+}
+
+German_Benelux_Early_Relations = {
+	enable = {
+		tag = GER
+		date < 1940.2.1	
+	}
+	abort = {
+	    date > 1940.2.1
+	}
+	
+	ai_strategy = { 
+		type = antagonize 
+		id = "BEL" 					
+		value = -100 	
+	}
+	ai_strategy = { 
+		type = ignore 
+		id = "BEL"						
+		value = 200 		
+	}
+	ai_strategy = { 
+		type = antagonize 
+		id = "HOL"					
+		value = -100 	
+	}
+	ai_strategy = {
+		type = ignore 
+		id = "HOL" 						
+		value = 200 		
+	}
+	ai_strategy = {
+		type = antagonize 
+		id = "LUX" 					
+		value = -100 	
+	}
+	ai_strategy = {
+		type = ignore 
+		id = "LUX" 						
+		value = 200 		
+	}
+}
+## ------------------ Military Operations -------------------------------------------------------------
+
+# Operation Weserubung
+German_Operation_Weserubung = {
+	enable = {
+		original_tag = GER
+		GER = { 
+			is_fascist = yes 			
+			has_completed_focus = GER_weserubung
+		}		
+	}
+	abort = {
+		always = no
+	}
+	#Denmark	
+	ai_strategy = {
+		type = invade
+		id = "DEN"
+		value = 50
+	}	
+	ai_strategy = {
+		type = conquer
+		id = "DEN"
+		value = 200
+	}
+	#Norway	
+	ai_strategy = {
+		type = invade
+		id = "NOR"
+		value = 200
+	}	
+	ai_strategy = {
+		type = conquer
+		id = "NOR"
+		value = 200
+	}	
+}
+
+# Operation Sealowe
+German_Operation_Sealion = {
+	enable = {
+		original_tag = GER
+		GER = { 
+			is_fascist = yes 
+			has_offensive_war_with = ENG			
+			has_completed_focus = GER_Sealowe
+		}
+		ENG = { is_democratic = yes }		
+	}
+	abort = {
+		always = yes
+	}
+	
+	ai_strategy = {
+		type = invade
+		id = "ENG"
+		value = 200
+	}	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 200
+	}
+}
+
+#Operation Barbarossa
+German_Operation_Barbarossa = {
+	enable = {
+		original_tag = GER
+		GER = { 
+			is_fascist = yes 
+			has_completed_focus = GER_ussr_war_goal
+		}	
+		SOV = { is_democratic = yes }		
+	}
+	abort = {
+		always = no
+	}
+
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 200
+	}
+}
+
+#Operation Amerika
+German_Operation_Amerika = {
+	enable = {
+		original_tag = GER
+		GER = { 
+			is_fascist = yes 
+			has_offensive_war_with = USA
+			OR = {
+				has_completed_focus = GER_Amerika
+				has_completed_focus = GER_amerikaproject
+			}
+		date > 1944.6.6
+		}
+		USA = { is_democratic = yes }		
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = invade
+		id = "USA"
+		value = 200
+	}	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 200
+	}
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 150
+	}	
+}
+
+## ------------------ Region Priorities -------------------------------------------------------------
+## German Region Priorities
+German_area_priority = {
+	enable = {
+		original_tag = GER
+	}
+	ai_strategy = {
+		type = area_priority
+		id = europe
+		value = 200
+	}
+	ai_strategy = {
+		type = area_priority
+		id = north_america
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = south_america
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = asia
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = pacific
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = oceania
+		value = 25
+	}
+	ai_strategy = {
+		type = area_priority
+		id = middle_east
+		value = 150
+	}
+	ai_strategy = {
+		type = area_priority
+		id = africa
+		value = 50
+	}
+}

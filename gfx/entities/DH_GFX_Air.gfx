@@ -1,0 +1,65 @@
+objectTypes = {
+###########################################################
+## German Luftwaffe
+###########################################################	
+#--------------------------- Fighers ----------------------------------------
+# He-51
+	pdxmesh = {
+		name = "GER_Fighter_He51_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Fighter_He51.mesh"
+	}
+# Bf-109E
+	pdxmesh = {
+		name = "GER_Fighter_Bf109E_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Fighter_Bf109E.mesh"
+	}
+# Fw-190
+	pdxmesh = {
+		name = "GER_Fighter_Fw190_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Fighter_Fw190.mesh"
+	}
+# Me-262
+	pdxmesh = {
+		name = "GER_Fighter_Me262_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Fighter_Me262.mesh"
+	}	
+# He-162
+	pdxmesh = {
+		name = "GER_Fighter_He162_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Fighter_He162.mesh"
+	}	
+# Ho-229
+	pdxmesh = {
+		name = "GER_Fighter_Go229_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Fighter_Go229.mesh"
+	}
+# Ta-183
+	pdxmesh = {
+		name = "GER_Fighter_Ta183_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Fighter_Ta183.mesh"
+	}
+#--------------------------- Heavy Fighers ----------------------------------------
+# Bf-210
+	pdxmesh = {
+		name = "GER_HeavyFighter_Bf110G_mesh"
+		file = "gfx/models/units/planes/Germany/GER_HeavyFighter_Bf110G.mesh"
+	}
+#--------------------------- CAS ----------------------------------------
+# Ju-87
+	pdxmesh = {
+		name = "GER_CAS_Ju87_mesh"
+		file = "gfx/models/units/planes/Germany/GER_CAS_Ju87.mesh"
+	}
+#--------------------------- Strategic Bomber ----------------------------------------
+# Ar-234B
+	pdxmesh = {
+		name = "GER_Bomber_Ar234_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Bomber_Ar234.mesh"
+	}
+#--------------------------- Strategic Bomber ----------------------------------------
+# Ho-19B
+	pdxmesh = {
+		name = "GER_Bomber_Ho18B_mesh"
+		file = "gfx/models/units/planes/Germany/GER_Bomber_Ho18B.mesh"
+	}
+}

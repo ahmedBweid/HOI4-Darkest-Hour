@@ -1,0 +1,181 @@
+ideas = {
+
+	country = {
+
+
+#### United Kingdom -----------------------------------------
+		
+		# Our Finest Hour
+		ENG_our_finest_hour = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				strategic_bomb_visibility = -0.15
+				air_attack_factor = 0.15
+			}
+
+		}	
+
+		# End of the Beginning
+		ENG_end_of_beginning = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.15
+				army_org_factor = 0.07
+				unity_factor = 0.1
+			}
+
+		}		
+		
+#### Germany -----------------------------------------
+		
+		# Blitzkreig
+		GER_revenge = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.10
+				#org_regain = 0.10
+				army_attack_factor = 0.10
+			}
+
+		}
+		#Destiny
+		GER_destiny = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.20
+				army_attack_factor = 0.20
+			}
+
+		}		
+		
+		#Fortress Europa
+		GER_defence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.25
+				research_time_factor = -0.05
+			}
+		}			
+		
+		
+#### USSR -----------------------------------------
+		#Rodina
+		SOV_german_betrayal = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.01	
+				army_morale_factor = -0.5
+			}
+				
+		}		
+		
+		#The Great patriotic war
+		SOV_patrotic_war = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 0.1
+				industrial_capacity_factory = 0.20   
+				army_morale_factor = 0.15
+			}
+			
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}			
+		}				
+	
+	
+#### United Kingdom -----------------------------------------
+		
+		# Love of freedom
+		USA_stab_in_the_back = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.7
+				industrial_capacity_factory  = 0.10
+			}
+		}		
+		
+	}	
+}	

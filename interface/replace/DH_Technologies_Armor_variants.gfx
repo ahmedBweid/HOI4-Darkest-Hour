@@ -1,0 +1,188 @@
+spriteTypes = {
+###########################################################
+###--------------------------------------------- Germany ------------------------------------------------------
+###########################################################
+#Light TDs
+	SpriteType = {
+		name = "GFX_GER_light_TD_1934_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Light_PanzerJager_I.dds"
+	}
+
+	#SpriteType = {
+		#name = "GFX_GER_light_TD_1936_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
+
+	SpriteType = {
+		name = "GFX_GER_light_TD_1938_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Light_Marder_II.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_light_TD_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Light_Hetzer.dds"
+	}
+
+	#SpriteType = {
+		#name = "GFX_GER_light_TD_1944_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
+
+#Medium TDs	
+	SpriteType = {
+		name = "GFX_GER_medium_TD_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Medium_StuG_III.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_medium_TD_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Medium_Jadgpanzer_IV.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_medium_TD_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Medium_Jadgpanther.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_medium_TD_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_TD_Medium_Jadgpanther.dds"
+	}	
+	
+#Heavy TDs	
+	SpriteType = {
+		name = "GFX_GER_heavy_TD_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_Dicker_Max.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_heavy_TD_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_VK3601.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_heavy_TD_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_TigerI.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_heavy_TD_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_TigerII.dds"
+	}
+#-----------------------------------------------	
+#Light SPHs
+	SpriteType = {
+		name = "GFX_GER_light_SPG_1934_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Light_Bison.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_light_SPG_1936_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Light_Bison.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_light_SPG_1938_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Light_Wespe.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_light_SPG_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Light_Grille.dds"
+	}
+
+	#SpriteType = {
+		#name = "GFX_GER_light_SPG_1944_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
+
+#Medium SPHs	
+	#SpriteType = {
+		#name = "GFX_GER_medium_SPG_1939_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}	
+	
+	SpriteType = {
+		name = "GFX_GER_medium_SPG_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Medium_Hummel.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_medium_SPG_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Medium_GW_Panther.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_medium_SPG_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPH_Medium_GW_Panther.dds"
+	}	
+	
+#Heavy SPHs	
+	SpriteType = {
+		name = "GFX_GER_heavy_SPG_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_Dicker_Max.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_heavy_SPG_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_VK3601.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_heavy_SPG_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_TigerI.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_heavy_SPG_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_HT_TigerII.dds"
+	}
+#-----------------------------------------------		
+#Light SPAAGs
+	SpriteType = {
+		name = "GFX_GER_light_SPAA_1934_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Light_Flakpanzer_I.dds"
+	}
+
+	#SpriteType = {
+		#name = "GFX_GER_light_SPAA_1936_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
+
+	#SpriteType = {
+		#name = "GFX_GER_light_SPAA_1938_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
+
+	SpriteType = {
+		name = "GFX_GER_light_SPAA_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Light_Flakpanzer_38.dds"
+	}
+
+	#SpriteType = {
+		#name = "GFX_GER_light_SPAA_1944_medium"
+		#texturefile = "gfx/interface/technologies/Armor/Germany/Variants/.dds"
+	#}
+
+#Medium SPAAGs	
+	SpriteType = {
+		name = "GFX_GER_medium_SPAA_1939_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Medium_Wirbelwind.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_medium_SPAA_1941_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Medium_Ostwind.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_medium_SPAA_1943_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Medium_Kugelblitz.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_medium_SPAA_1944_medium"
+		texturefile = "gfx/interface/technologies/Armor/Germany/Variants/GER_SPAA_Medium_Coelian.dds"
+	}	
+
+}

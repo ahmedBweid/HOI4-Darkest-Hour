@@ -1,0 +1,226 @@
+﻿division_template = {
+	name = "Brigada Nacional"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Tabor de Regulares"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1a Milicia Falangista"
+		location = 875  # Cordoba
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "2a Milicia Falangista"
+		location = 875  # Cordoba
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "1a Bandera de la Legión"
+		location = 1048  # Cadiz
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "2a Bandera de la Legión"
+		location = 1048  # Cadiz
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "3a Bandera de la Legión"
+		location = 1048  # Cadiz
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "4a Bandera de la Legión"
+		location = 1048  # Cadiz
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "3a Milicia Falangista"
+		location = 885  # Burgos
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "4a Milicia Falangista"
+		location = 885  # Burgos
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "5a Milicia Falangista"
+		location = 11825  # Valladolid
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "6a Milicia Falangista"
+		location = 11825  # Valladolid
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "1os Voluntarios Tradicionalistas"
+		location = 11825  # Valladolid
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "Fuerzas de Galicia"
+		location = 758  # Coruna
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "Fuerzas de Córdoba"
+		location = 875  # Cordoba
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "5o Tabor de Regulares"
+		location = 7215  # Nador
+		division_template = "Tabor de Regulares"
+	}
+	division = {
+		name = "7a Milicia Falangista"
+		location = 758  # Coruna
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "2os Voluntarios Tradicionalistas"
+		location = 758  # Coruna
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "5a Bandera de la Legión"
+		location = 7183  # Sevilla
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "6a Bandera de la Legión"
+		location = 7183  # Sevilla
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "3er Tabor de Regulares"
+		location = 9945  # Ceuta
+		division_template = "Tabor de Regulares"
+	}
+	division = {
+		name = "4o Tabor de Regulares"
+		location = 10113  # Larache
+		division_template = "Tabor de Regulares"
+	}
+	division = {
+		name = "3os Voluntarios Tradicionalistas"
+		location = 1048  # Cadiz
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "1er Tabor de Regulares"
+		location = 4199  # Tetuan
+		division_template = "Tabor de Regulares"
+	}
+	division = {
+		name = "2o Tabor de Regulares"
+		location = 12100  # Melilla
+		division_template = "Tabor de Regulares"
+	}
+	division = {
+		name = "Fuerzas de Melilla"
+		location = 12100  # Melilla
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "6a Bandera de la Legión"
+		location = 7183  # Sevilla
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "7a Bandera de la Legión"
+		location = 7183  # Sevilla
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "1a Milicia de la CEDA"
+		location = 7183  # Sevilla
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "8a Bandera de la Legión"
+		location = 12087  # Algo
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "9a Bandera de la Legión"
+		location = 7183  # Sevilla
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "10a Bandera de la Legión"
+		location = 4199  # Tetuan
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "2a Milicia de la CEDA"
+		location = 885  # Burgos
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "4os Voluntarios Tradicionalistas"
+		location = 885  # Burgos
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "Fuerzas de Canarias"
+		location = 13071  # Canarias
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "3a Milicia de la CEDA"
+		location = 885  # Burgos
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "11a Bandera de la Legión"
+		location = 1048  # Cadiz
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "7a Milicia Falangista"
+		location = 11825  # Valladolid
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "8a Milicia Falangista"
+		location = 11825  # Valladolid
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "9a Milicia Falangista"
+		location = 875  # Cordoba
+		division_template = "Brigada Nacional"
+	}
+	division = {
+		name = "12a Bandera de la Legión"
+		location = 875  # Cordoba
+		division_template = "Brigada Nacional"
+	}
+	
+	division = {
+		name = "13a Bandera de la Legión"
+		location = 875  # Cordoba
+		division_template = "Brigada Nacional"
+	}
+}

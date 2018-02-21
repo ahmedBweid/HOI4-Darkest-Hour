@@ -1,0 +1,117 @@
+﻿l_english:
+#########################################################################
+#  Operation Isabella Events
+#########################################################################
+ DH_Spain_Isabella.1.t:0 "Germany presses for military action"
+ DH_Spain_Isabella.1.d:0 "WIP"
+ DH_Spain_Isabella.1.A:0 "This is our chance to unite Iberia."
+ DH_Spain_Isabella.1.B:0 "War is not the answer." 
+ 
+#########################################################################
+#  Spanish Political Events
+#########################################################################
+ DH_Spain_Election.1.t:0 "Spanish General Elections, 1936"
+ DH_Spain_Election.1.d:0 "The general elections have begun. The left wing, led by Manuel Azaña, has managed to set up an uneasy coalition, the Frente Popular, which includes the socialists of PSOE and the Communist Party. These parties follow the dictate of Stalin to ‘form an united anti-fascist front’ in the last Communist International Congress. Against the left, the right has been unable to present a strong coalition due to the CEDA allying itself with anti-republican monarchists in some areas, and with centrist republicans in others. Its leader, Gil Robles, has failed to set up a proper government proposition, and instead has based his campaign on opposition to the left, proposing the elections as a fight between the ‘catholic Spain’ against the ‘atrocities of barbarous revolution’. A third centrist option exists, led by the current president of the government Portela Valladares and aided by the president of the republic Alcalá-Zamora. They advocate for a return to centrism opposing the growing polarization of Spanish politics since the failed October revolution two years ago."
+ DH_Spain_Election.1.A:0 "The popular front wins!"
+
+ DH_Spain_Politics.1.t:0 "Political killings"
+ DH_Spain_Politics.1.d:0 "Ever since the victory of the Popular Front in February, the Falange Española, a small, marginal political force, has received an avalanche of young right-wing militants willing to take violent action. This has provoked the response of similar left-wing organizations. Last Thursday, 12th of March, the first attack has taken place against Luis Jiménez de Asúa, father of the 1931 constitution and socialist MP. Although he has come out safe, his police escort has lost his life. The government has responded today by outlawing the party and arresting its leader, José Antonio Primo de Rivera. In the following months, the street violence will cause more than fifty dead among the left-wing organizations, as well as some forty Falangists. Around a hundred churches and monasteries will also be assaulted and burned, its contents looted by the far left militias."
+ DH_Spain_Politics.1.A:0 "We're losing control"
+ SPR_Political_Killings:0 "Political Killings"
+ 
+ DH_Spain_Politics.2.t:0 "Niceto Alcalá-Zamora removed from power"
+ DH_Spain_Politics.2.d:0 "After the elections in February 1936, the president of the Republic Niceto Alcalá-Zamora has found himself in a difficult position. The left wing has not forgotten his attitude during the previous government, and a debate has been started in parliament about their dissolution by order of the President in 1933. According to the new government, this was an anti-constitutional act and Alcalá-Zamora must be destituted. The vote has resulted in 238 votes in favor, 5 against and 174 blanks, from right-wing MPs who abandoned the room in protest. Despite his protests, he has been forced to step down. The post will be taken up by Diego Martínez Barrio, president of Parliament as an interim president."
+ DH_Spain_Politics.2.A:0 "He was never one of us"
+ 
+ DH_Spain_Politics.3.t:0 "Manuel Azaña steps into power"
+ DH_Spain_Politics.3.d:0 "Last 30th of April, Manuel Azaña was elected as the only candidate to the Presidency of the Republic of the Popular Front. Today, after the destitution of Alcalá-Zamora, he has been voted in as President with 754 of 874 votes in favor."
+ DH_Spain_Politics.3.A:0 "Alright"
+ 
+ DH_Spain_Politics.4.t:0 "The Assassination of Calvo Sotelo"
+ DH_Spain_Politics.4.d:0 "Yesterday, 12th of July, Lieutenant José Castillo of the Assault Guard, socialist militant, was shot dead, either by Falangist gunmen or members of the Carlist Tercio de Requetés de Madrid. After his funeral, a group of his friends and supporters met in the Pontejos Barracks, including several police officers of the Assault Guard, socialist militants, Civil Guards and many members of ‘La Motorizada’, a Popular Front-controlled socialist paramilitary group made out of socialist police officers. Many among this group demanded revenge for this assassination, and several trucks were dispatched to seek out known Falangists. One of the said trucks, led by Captain Fernando Condés of the Civil Guard, was unable to find any Falangists, so they instead decided to take their revenge on leaders of the parliamentary opposition. Antonio Goicoechea, the leader of Renovación Española, was not in his house, and Gil Robles, the leader of CEDA, was away on vacations. Early this morning, finding themselves close to the house of Calvo Sotelo, leader of the monarchist parliamentary opposition, the group entered the apartment and arrested Calvo Sotelo, who protested invoking his parliamentary immunity but was calmed by Condés identifying himself as a member of the Civil Guard. After promising his family he would call them as soon as he got to wherever they would take him “unless these gentlemen are taking me to shoot me”, he climbed in the truck and was taken away. His body has been found this morning next to a cemetery, shot twice and thrown on the ground, on a pool of blood."
+ DH_Spain_Politics.4.A:0 "This means war"
+ 
+ DH_Spain_Politics.x.t:0 "Niceto"
+ DH_Spain_Politics.x.d:0 "WIP"
+ DH_Spain_Politics.x.a:0 ""
+ 
+#########################################################################
+#  Spanish Civil War Events
+#########################################################################
+ DH_Spain_CW.1.t:0 "Spanish Civil War"
+ DH_Spain_CW.1.d:0 "Ever since the victory of the Popular Front in the elections, a military conspiracy has been brewing to overthrow the government. Aiming to ‘reestablish order in the nation and recover the international prestige of Spain’, a group of generals is attempting to execute a ‘strike of force’ to put General Sanjurjo, currently exiled, in power. Since April, General Mola has been directing the conspirators under the codename ‘the director’. He has designed a coup which will, through extreme speed and violence, overthrow the government immediately. The execution of José Calvo Sotelo, leader of the opposition early the 13th of July has caused the Carlists and the CEDA to align themselves with the conspiracy, as well as several skeptic generals, including the ex-leader of high command, General Franco. This prompted Mola to choose the 18th of July as the date of the uprising. The morning of the 17th in Melilla, the local rebellious officers carry out a reunion with falangist leaders to plan for the following day. One of the Falangists informed the local leader of Unión Republicana, who reports to General Romerales, who in turn informed Casares Quiroga, member of the Popular Front. Romerales then sent a detachment to arrest the rebellious officers, but the leader of the detachment informed the Legion, who sent a patrol to stop the detachment and arrest general Romerales, who was then executed along with other local authorities. The State of War was declared, and the uprising began, after informing the rest of the Moroccan army that they had been discovered. In the last three days, the uprising has extended all around the country, and most of our army is now up in arms against us, occupying a large part of our territory. Although they have failed to take control of the capital and the larger cities, they are as we speak commencing the march in what they call the new ‘Reconquista’ towards our remaining cities and attempting to liberate their companions who are resisting heavy sieges all around the country, such as Oviedo or Toledo."
+ DH_Spain_CW.1.A:0 "Patria, Pan y Justicia!" 
+ DH_Spain_CW.1.B:0 "No Pasarán!"
+ nationalists_chosen:0 "Support the Republicans" 
+ republicans_chosen:0 "Support the Nationalists" 
+ 
+#########################################################################
+#  Nationalist Spain Events
+#########################################################################
+ DH_Nationalist_Spain.1.t:0 "The Execution of Primo de Rivera"
+ DH_Nationalist_Spain.1.d:0 "José Antonio Primo de Rivera was incarcerated last 14th of March along with his brother under accusations of conspiracy and military revolt. Last Tuesday, 17th of November, he was found guilty of all charges and sentenced to death by a ‘popular tribunal’ with little or none legal guarantees.\nThis morning he was taken to the courtyard of the prison of Alicante and shot by a platoon of anarchist and socialist militia members. No order of fire was given, José Antonio shouted one last ‘Arriba España!’ and the shooters fired at point-blank range until they emptied their magazines. José Antonio fell on his knees after being hit sixty times and was finally killed by a shot in the back of the head by the officer in charge. \nIn his will, he wrote “Let my blood be the last Spanish blood spilled in civil discord. Let all the peoples of Spain, diverse as they are, be harmonized in an indivisible unity in their destiny.”\nThe news of his death has reached the Nationalists, and have been silenced. For the next two years, he will be known as ‘the absent one’ and turned into a martyr of the movement. The leaders of Falange Española, lacking a leader but lacking confirmation of José Antonio’s death, can now be controlled easily by the Generalissimo."
+ DH_Nationalist_Spain.1.A:0 "He shall never be forgotten" 
+
+ DH_Nationalist_Spain.2.t:0 "Sanjurjo’s Final flight"
+ DH_Nationalist_Spain.2.d:0 "José Sanjurjo Sacanell, leader and main organizer of the Military Coup, has died today in an aviation accident.\nPilot Juan Antonio Ansaldo was sent to Estoril to transfer him to Burgos where he would assume command of the nationalist forces. However, the aircraft has crashed shortly after takeoff and caught fire, resulting in the death of the general. The pilot, who has survived with light wounds, attributes the accident to the excess of luggage that Sanjurjo insisted on taking with himself.\nHis death and the failures of generals Goded and Fanjul, who have been arrested and executed, have forced the rebels to reorganized their plans. General Cabanellas has assumed command of the National Defense Junta under recommendation by General Mola, the ‘director’. "
+ DH_Nationalist_Spain.2.A:0 "That was not the plan"
+ 
+ DH_Nationalist_Spain.3.t:0 "New Generalissimo?"
+ DH_Nationalist_Spain.3.d:0 "The high command of the rebel army has met in the San Fernando Airfield in Salamanca to vote in a new centralized leader. The arrival of the new government of Largo Caballero in the Republican side has united the fragile republican side against the still fragmented nationalists. With the armies of Mola and Franco approaching Madrid, it is time to elect a supreme commander, a Generalissimo.\nThe obvious choice is General Franco. He is supported by the monarchist sector and has been proclaimed by the Falangists as ‘leader and savior of Spain’. Of the generals who outrank him, Cabanellas is widely disliked for opposing Miguel Primo de Rivera’s dictatorship, is part of the Freemasons and a Republican. Queipo de Llano is a Republican, Saliquet is too old and Sanjurjo is dead. Franco has also been given legitimacy by Germany and Italy lending their military support particularly to him personally. He is known for his calm and calculating approach, has few enemies and has achieved the most amount of military victories. He leads the Army of Africa and has the loyalty of the Legion and the Regulars, who admire his courage in combat, and the young students of the military academy of which he was the director.\nMola, the ‘director’, has expressed his support for Franco. However, he is also an experienced general and has been the main organizer of the uprising. He has the support of the Carlists and is respected by most among the generals. However, he is tainted by the initial failures of the uprising, has worse international contacts and is widely known for being the security director during the ‘soft dictatorships’ that preceded the republic. The Alfonsine monarchists see him as a Republican, and his contacts with the Carlists make him seem an ultra-conservative in the eyes of the Falangists and moderate right.\nWhich candidate should lead us?"
+ DH_Nationalist_Spain.3.A:0 "Francisco Franco Bahamonde" 
+ DH_Nationalist_Spain.3.B:0 "Emilio Mola y Vidal" 
+ 
+ DH_Nationalist_Spain.4.t:0 "Franco proclaimed new Generalissimo"
+ DH_Nationalist_Spain.4.d:0 "As soon as the voting began, Kindelán and Mola expressed their support for Franco. Soon, all the other generals voted for him, except Cabanellas, who abstained. He later commented:“you do not know what you have done. You do not know Franco like I do, as he was once under my command. You are giving him Spain, and he will believe it is his and will not allow anyone to substitute him during or after the war until his death”\nAfter the reunion, Mola was asked why he was not elected, to which he answered simply “Me? Why? We chose Franco”. According to him, Franco is “younger, of a higher status, has countless sympathies and is famous abroad”. As for Queipo de Llano, he commented that Cabanellas was impossible, as a republican mason, and Mola would have lost the war.\nAfter this, Franco has immediately taken action to seize control of the government of the rebel area, as his new post does not include any political power."
+ DH_Nationalist_Spain.4.A:0 "Franco will save Spain!" 
+ 
+ DH_Nationalist_Spain.5.t:0 "Mola proclaimed new Generalissimo"
+ DH_Nationalist_Spain.5.d:0 "Against all odds, Emilio Mola has been elected as the new Generalissimo. With the opposition of Kindelán and Franco, he has managed to win the election with the support of Cabanellas. His powers as director joined with his new post give him complete military and political control of the Movement. It is expected to see the Carlists taking greater relevance in the Movement from now on, and the shrinking of the Falange."
+ DH_Nationalist_Spain.5.A:0 "Mola will save Spain!" 
+ 
+ DH_Nationalist_Spain.6.t:0 "Emilio Mola's Final flight"
+ DH_Nationalist_Spain.6.d:0 "General Emilio Mola Vidal, the director, has died in an aviation accident. His personal airplane has crashed on a hill close to Alcocer during a storm. His trip was motivated by Republican offensives in La Granja, which motivated him to move from Vitoria to Valladolid to follow the operations more closely. \nCommand of the Northern Army has been assumed by Fidel Dávila, while the Carlist militias mourn his death as a terrible hit to morale. He will be buried in the cemetery of Pamplona."
+ DH_Nationalist_Spain.6.A:0 "Rest in Peace" 
+ DH_Nationalist_Spain.6.B:0 "Franco shall take over." 
+ 
+ DH_Nationalist_Spain.7.t:0 "Decreto de Unificación"
+ DH_Nationalist_Spain.7.d:0 "By order of the newly elected Supreme Authority, the many factions and parties within our National Movement have been unified by decree. The Falange Española de las JONS and the Carlist Requeté, their militias and all the other fighting groups, shall henceforth be united in one party, under the name of Falange Española Tradicionalista y de las JONS.\nTo ensure absolute authority, the leader of Falange, Manuel Hedilla, has been arrested and sentenced to death for resisting the unification, although our Leader has pardoned him and sentenced him to prison instead. Fal Conde, leader of the Carlists, has also been sentenced to death, forcing him to remain in exile in Portugal."
+ DH_Nationalist_Spain.7.A:0 "United We Stand" 
+ 
+#########################################################################
+#  Republican Spain Events
+#########################################################################
+ DH_Republican_Spain_IB.1.t:0 "International Brigades"
+ DH_Republican_Spain_IB.1.d:0 "The International brigades are military units composed of volunteers from more than fifty countries coming to fight the War against the rebels, organized from the Comintern, by orders of Stalin. The government is hesitant to accept them, as they would increase even further the communist influence over the republic, but we need as many soldiers as we can get."
+ DH_Republican_Spain_IB.1.A:0 "We need all the help we can get!" 
+ DH_Republican_Spain_IB.1.B:0 "We don't need these reds!" 
+ 
+ DH_Republican_Spain_IB.2.t:0 "The XI Thälmann Brigade has arrived"
+ DH_Republican_Spain_IB.2.d:0 "The XI International brigade has been constituted with three battalions: Edgar André, Commune de París and Garibaldi, along with a Spanish battalion. Its commander is Manfred Stern."
+ DH_Republican_Spain_IB.2.A:0 "Welcome them!" 
+ 
+ DH_Republican_Spain_IB.3.t:0 "The XII Garibaldi Brigade has arrived"
+ DH_Republican_Spain_IB.3.d:0 "The XII International brigade has been constituted with three battalions: Ernst Thälmann, André Marty and the Garibaldi battalion, transferred from the XI Brigade. Its brigade commander is Maté Zalka."
+ DH_Republican_Spain_IB.3.A:0 "Welcome them!" 
+ 
+ DH_Republican_Spain_IB.4.t:0 "The XIII Dombrowski Brigade has arrived"
+ DH_Republican_Spain_IB.4.d:0 "The XIII International brigade has been constituted with three battalions: Capayev, Henri Vuillemin and Louise Michel. Its commander is Wilhelm Zaisser."
+ DH_Republican_Spain_IB.4.A:0 "Welcome them!" 
+ 
+ DH_Republican_Spain_IB.5.t:0 "The XIV La Marsellaise Brigade has arrived"
+ DH_Republican_Spain_IB.5.d:0 "The XIV International brigade has been constituted with three battalions: Noves Nacions, Henri Barbusse, Pierre Brachet. The auxiliary Spanish battalion in it is special in that it is raised from both Spanish and Portuguese anarchist militants, and named Domingo Germinal. It also includes an attached battalion Vaillant-Couturier. Its commander is General Walter."
+ DH_Republican_Spain_IB.5.A:0 "Welcome them!" 
+ 
+ DH_Republican_Spain_IB.6.t:0 "The XV Abraham Lincoln Brigade has arrived"
+ DH_Republican_Spain_IB.6.d:0 "The XV International brigade has been constituted with four battalions: Dimitrov, the British Battalion, Lincoln and 6 de febrero. It also includes the Mexican ‘Benito Juárez García’ volunteer corps. Its leader is Janos Galicz."
+ DH_Republican_Spain_IB.6.A:0 "Welcome them!" 
+ 
+ DH_Republican_Spain_IB.7.t:0 "The 129th International Brigade has arrived"
+ DH_Republican_Spain_IB.7.d:0 "The 129th International brigade has been constituted with remains of several battalions of other brigades and members of POUM. It includes the battalions Masaryk, Djokovic and Dimitrov."
+ DH_Republican_Spain_IB.7.A:0 "Welcome them!" 
+ 
+ DH_Republican_Spain_IB.8.t:0 "The 150th International Brigade has arrived"
+ DH_Republican_Spain_IB.8.d:0 "The 150th International brigade has been formed over the base of the Dabrowski battalion of the XI International brigade. It includes the Rakosi battalion of Hungarians, and is commanded by Fernando Gerassi."
+ DH_Republican_Spain_IB.8.A:0 "Welcome them!" 
+ 
+ 

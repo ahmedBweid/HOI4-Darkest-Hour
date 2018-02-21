@@ -1,0 +1,5 @@
+﻿###########################
+# Darkest Hour  Events : Core
+###########################
+
+add_namespace = DH_core

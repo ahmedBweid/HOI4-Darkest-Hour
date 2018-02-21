@@ -1,0 +1,92 @@
+﻿l_english:
+ motorized_anti_tank_brigade:0 "Motorized Anti-Tank"
+ motorized_anti_tank_brigade_desc:0 "Motorized Anti-Tank Artillery"
+ motorized_anti_air_brigade:0 "Motorized Anti-Air"
+ motorized_anti_air_brigade_desc:0 "Motorized Anti-Air Artillery"
+ motorized_artillery_brigade:0 "Motorized Artillery"
+ motorized_artillery_brigade_desc:0 "Motorized Artillery"
+ 
+ cavalry:0 "Cavalry"
+ cavalry_desc:0 "Horse mounted infantry. More expensive, but with good mobility."
+ light_armor:0 "Light Armor"
+ light_armor_desc:0 "Lightly armored tanks."
+ medium_armor:0 "Armor"
+ medium_armor_desc:0 "tanks are flexible and can do almost any job."
+ heavy_armor:0 "Heavy Armor"
+ heavy_armor_desc:0 "The strongest tanks with powerful armor and weapons, but slow and tactically inflexible."
+ super_heavy_armor:0 "Super-Heavy Armor"
+ motorized:0 "Motorized Infantry"
+ motorized_desc:0 "Motorized infantry transportation, such as trucks and motorcycles."
+ mechanized:0 "Mechanized Infantry"
+ mechanized_desc:0 "Lightly armored infantry transportation."
+ modern_armor:0 "Modern Armor"
+ modern_armor_desc:0 "Modern Tanks have evolved to deal with most battlefield situations. Powerful guns and sloped armor have eliminated the need for specialized tanks."
+ infantry:0 "Infantry"
+ infantry_desc:0 "Meat for the meat grinder."
+ militia:0 "Militia"
+ garrison:0 "Garrison"
+ 
+ medium_tank_destroyer_brigade:0 "Tank Destroyer"
+ medium_sp_anti_air_brigade:0 "SP Anti-Air Artillery"
+ medium_sp_artillery_brigade:0 "SP Artillery"
+
+ paratrooper:0 "Paratroopers"
+ paratrooper_desc:0 "By incorporating airborne forces into our army, we can make forced entries and position key troops in previously inaccessible areas, allowing for new tactical opportunities."
+ marine:0 "Marines"
+ marine_desc:0 "Troops specializing in amphibious warfare are growing ever more indispensable. Improvised methods and equipment become things of the past as our naval infantry is supported by specialized landing craft and training."
+ mountaineers:0 "Mountaineers"
+ mountaineers_desc:0 "Combat in mountain ranges exposes troops to many perils, but sometimes cannot be avoided. Providing our soldiers with specialized training for this environment, we can minimize these risks."
+## SS Units
+ group_SS_units_title:0 "Waffen-SS Battalions"
+ group_SS_units_title_desc:0 "Waffen-SS divisions have increased defense, breakthrough and suppression, but are more prone to attrition and require more supplies while also being less organised."
+
+ SS_infantry:0 "Waffen-SS Infanterie"
+ SS_cavalry:0 "Waffen-SS Kavallerie"
+ SS_motorized:0 "Waffen-SS Motorized Infanterie"
+ SS_mechanized:0 "Waffen-SS Panzergrenadiere"
+
+## Flavor names
+ GER_paratrooper:0 "Fallschirmjäger"
+ GER_mountaineers:0 "Gebirgsjäger"
+ GER_marine:0 "Marine-infanterie"
+ GER_mechanized:0 "Panzergrenadiere"
+ GER_infantry:0 "Infanterie"
+ GER_cavalry:0 "Kavallerie" 
+ GER_militia:0 "Volkssturm"
+ 
+ ENG_mountaineers:0 "Gurkhas"
+ ENG_marine:0 "Royal Marines"
+ ENG_militia:0 "Home Guard"
+ 
+ FRA_paratrooper:0 "Chasseurs Parachutistes"
+ FRA_mountaineers:0 "Chasseurs Alpins"
+ FRA_marine:0 "Fusiliers-Marins"
+ FRA_cavalry:0 "Cavalerie" 
+ 
+ ITA_paratrooper:0 "Paracadutisti"
+ ITA_mountaineers:0 "Alpini"
+ ITA_marine:0 "Marina"
+ ITA_cavalry:0 "Cavalleria" 
+ 
+ USA_paratrooper:0 "Airborne"
+ USA_militia:0 "National Guard"
+ 
+ HOL_marine:0 "Mariners"
+ 
+ ROM_cavalry:0 "Cavalerie" 
+ ROM_mountaineers:0 "Alpinisti"
+ ROM_paratrooper:0 "Parasutisti"
+ ROM_marine:0 "Infanterie-Marinar"
+ 
+ POL_mountaineers:0 "Strzelcy podhalańscy"
+ 
+ SOV_paratrooper:0 "VDV"
+ SOV_marine:0 "Morskaya Pekhota"
+ SOV_mountaineers:0 "Gornostrelki"
+ SOV_motorized:0 "Motostrelki" 
+ 
+ ## Naval Flotillas naming system
+ FLOTILLA_NAME_GENERIC:0 "$NR$. $NAME$"
+ FLOTILLA_NAME_USA_GENERIC:0 "$NAME$ $NR$"
+ FLOTILLA_NAME_JAP_GENERIC:0 "Dai $NR$ $NAME$"
+ FLOTILLA_NAME_FRA_GENERIC:0 "$NR$ème $NAME$"

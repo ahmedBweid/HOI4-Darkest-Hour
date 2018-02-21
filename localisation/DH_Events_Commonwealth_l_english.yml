@@ -1,0 +1,28 @@
+﻿l_english:
+#########################################################################
+#  Commonwealth Events
+#########################################################################
+ DH_commonwealth.1.t:0 "Commonwealth Membership Questioned"
+ DH_commonwealth.1.d:0 "With the isle of Britain lost the United Kingdom can no longer be regarded as a one of the Great Powers, members to the British Commonwealth have started questioning the nature of the relationship. Even though advantages of remaining are few, a complete fracture of the Commonwealth would undermine the war effort. Others emphasise that independence is prefered now that the UK can no longer guarantee its member's security."
+ DH_commonwealth.1.a:0 "Leave the Empire"
+ DH_commonwealth.1.b:0 "Until death do us part"
+ DH_commonwealth.1.c:0 "Remain Loyal to London"
+ 
+ DH_commonwealth.2.t:0 "[From.GetName] leaves the Commonwealth"
+ DH_commonwealth.2.d:0 "One of our members has notified us that it no longer recognises the United Kingdom as its overlord, thereby resigning from the British Commonwealth. Alas, there is nothing we can do it seems."
+ DH_commonwealth.2.a:0 "Blimey!"
+ 
+ DH_commonwealth.3.t:0 "[From.GetName] remains Loyal to London"
+ DH_commonwealth.3.d:0 "Now that the transition of Britain is over, some of the fascist members of the British Empire have expressed their wish to remain a part of the new Britain, forsaking their old master."
+ DH_commonwealth.3.a:0 "For the Empire!"
+ 
+#########################################################
+### Flavor Events
+#########################################################
+ DH_flavor_ENG.1.t:0 "His Majesty opens the Canadian National Vimy Memorial"
+ DH_flavor_ENG.1.d:0 "Sailors from HMCS Saguenay stood guard as His Majesty King Edward VIII formally opened the Canadian National Vimy Memorial; described by the King himself as “an inspired expression in stone, chiseled by a skillful Canadian hand, of Canada's salute to her fallen sons.” 50,000 pilgrims, including President Albert Lebrun of France, attended the unveiling of the grand monument. Built-in solemn remembrance of the Canadian Corps’ assault on Vimy Ridge in 1917 –where for the first time men from all provinces of the nation fought side by side– the towering limestone monument stands as a testament to Canadian heroism and national unity."
+ DH_flavor_ENG.1.A:0 "Lest we forget"
+ 
+ DH_flavor_CAN.2.t:0 "Sir Henry Pellatt dies at the age of 80"
+ DH_flavor_CAN.2.d:0 "Sailors from HMCS Saguenay stood guard as His Majesty King Edward VIII formally opened the Canadian National Vimy Memorial; described by the King himself as “an inspired expression in stone, chiseled by a skillful Canadian hand, of Canada's salute to her fallen sons.” 50,000 pilgrims, including President Albert Lebrun of France, attended the unveiling of the grand monument. Built-in solemn remembrance of the Canadian Corps’ assault on Vimy Ridge in 1917 –where for the first time men from all provinces of the nation fought side by side– the towering limestone monument stands as a testament to Canadian heroism and national unity."
+ DH_flavor_CAN.2.A:0 "God rest his soul"

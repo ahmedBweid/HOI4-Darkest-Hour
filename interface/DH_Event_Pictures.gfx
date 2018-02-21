@@ -1,0 +1,159 @@
+spriteTypes = {
+############################################################################
+## Generic Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Generic_Elections"
+		texturefile = "gfx/Event Pictures/Generic/DH_Elections.dds"
+	}
+	
+############################################################################
+## US Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Roosevelt_Dies"
+		texturefile = "gfx/Event Pictures/United States/DH_Roosevelt_Dies.dds"
+	}	
+
+############################################################################
+## Australian Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Robert_Menzies_Resign"
+		texturefile = "gfx/Event Pictures/Australia/DH_Robert_Menzies.dds"
+	}
+	spriteType = {
+		name = "GFX_DH_John_Curtin"
+		texturefile = "gfx/Event Pictures/Australia/DH_John_Curtin.dds"
+	}
+	spriteType = {
+		name = "GFX_DH_John_Curtin_Funeral"
+		texturefile = "gfx/Event Pictures/Australia/DH_John_Curtin_Funeral.dds"
+	}
+	
+############################################################################
+## British Pics
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Stanley_Baldwin_Radio"
+		texturefile = "gfx/Event Pictures/Britain/DH_Stanley_Baldwin_Radio.dds"
+	}
+	spriteType = {
+		name = "GFX_DH_Chamberlain_Quits"
+		texturefile = "gfx/Event Pictures/Britain/DH_Chamberlain_Quits.dds"
+	}
+	
+############################################################################
+## Crumbling Empire 
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Coventry_Cathedral"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Coventry_Cathedral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Edward_VIII_Hitler"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Edward_VIII_Hitler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Fall_of_the_UK"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Fall_of_the_UK.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Foggy_London"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Foggy_London.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Halifax_Goering"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Halifax_Goering.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Nazi_in_London"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Nazi_in_London.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Oswald_Mosley"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Oswald_Mosley.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Westminister_Fire"
+		texturefile = "gfx/event_pictures/Surrender Crumbling Empire/DH_Westminister_Fire.dds"
+	}
+
+############################################################################
+## Germany
+############################################################################
+	spriteType = {
+		name = "GFX_DH_Anschluss_Vote"
+		texturefile = "gfx/Event Pictures/Germany/DH_Anschluss_Vote.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Bad_US_UK"
+		texturefile = "gfx/event_pictures/Germany/DH_Bad_US_UK.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Denmark_Map"
+		texturefile = "gfx/event_pictures/Germany/DH_Denmark_Map.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_French_Armistice"
+		texturefile = "gfx/event_pictures/Germany/DH_French_Armistice.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_German_Movies"
+		texturefile = "gfx/event_pictures/Germany/DH_German_Movies.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Germania"
+		texturefile = "gfx/event_pictures/Germany/DH_Germania.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Heims_in_Reich"
+		texturefile = "gfx/event_pictures/Germany/DH_Heims_in_Reich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Iceland_Map"
+		texturefile = "gfx/event_pictures/Germany/DH_Iceland_Map.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Maginot_Destroyed"
+		texturefile = "gfx/event_pictures/Germany/DH_Maginot_Destroyed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Norway_Map"
+		texturefile = "gfx/event_pictures/Germany/DH_Norway_Map.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Quisling"
+		texturefile = "gfx/event_pictures/Germany/DH_Quisling.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Staatenbund"
+		texturefile = "gfx/event_pictures/Germany/DH_Staatenbund.dds"
+	}
+
+	spriteType = {
+		name = "GFX_DH_Sweden_Map"
+		texturefile = "gfx/event_pictures/Germany/DH_Sweden_Map.dds"
+	}
+
+}
+	
+	

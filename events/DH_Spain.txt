@@ -1,0 +1,712 @@
+﻿###########################
+# Darkest Hour Events : Spain
+###########################
+
+add_namespace = DH_spain
+add_namespace = DH_Spain_Isabella
+add_namespace = DH_Spain_Election
+add_namespace = DH_Spain_Politics
+add_namespace = DH_Spain_CW
+add_namespace = DH_Nationalist_Spain
+add_namespace = DH_Republican_Spain
+add_namespace = DH_Republican_Spain_IB
+
+#########################################################################
+# Join Germany against Portugal?
+#########################################################################
+country_event = {
+	id = DH_Spain_Isabella.1
+	title = DH_Spain_Isabella.1.t
+	desc = DH_Spain_Isabella.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	#War on Portugal
+	option = {
+		name = DH_Spain_Isabella.1.A
+		ai_chance = {
+			factor = 1
+			modifier = {
+				has_idea = SPA_recovering_from_civil_war
+				factor = 0
+			}
+		}
+		SPR = {
+			declare_war_on = {
+				target = POR
+				type = annex_everything
+			}
+		}
+		SPR = {
+			add_to_war = {
+				targeted_alliance = GER
+				enemy = POR
+			}
+		}
+	}
+	#Decline War
+	option = {
+		name = DH_Spain_Isabella.1.B
+		ai_chance = {
+			factor = 0.5
+			modifier = {
+				has_idea = SPA_recovering_from_civil_war
+				factor = 0
+			}
+		}
+		GER = {country_event = { hours = 6 id = DH_germany.6 }}
+	}
+}
+#########################################################################
+# Spanish General Elections, 1936
+#########################################################################
+country_event = {
+	id = DH_Spain_Election.1
+	title = DH_Spain_Election.1.t
+	desc = DH_Spain_Election.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		date > 1936.2.15
+	}
+
+	#The popular front wins!
+	option = {
+		name = DH_Spain_Election.1.A
+
+		set_political_party = { ideology = national_socialist popularity = 0.0 }
+		set_political_party = { ideology = fascist popularity = 0.10 }
+		set_political_party = { ideology = paternal_autocrat popularity = 0.0 }
+		set_political_party = { ideology = social_conservative popularity = 0.05 }
+		set_political_party = { ideology = social_liberal popularity = 0.05 }
+		set_political_party = { ideology = social_democrat popularity = 0.15 }
+		set_political_party = { ideology = left_wing_radical popularity = 0.05 }
+		set_political_party = { ideology = leninist popularity = 0.05 }
+		set_political_party = { ideology = stalinist popularity = 0.04 }
+		set_politics = { ruling_party = social_democrat elections_allowed = yes }
+		create_country_leader = { name = "Niceto Alcalá-Zamora" desc = "" picture = "Spain_SC_Niceto_Alcala_Zamora.dds" expire = "1965.1.1" ideology = social_democracy traits = {}}
+	}
+}
+
+#########################################################################
+# Political killings
+#########################################################################
+country_event = {
+	id = DH_Spain_Politics.1
+	title = DH_Spain_Politics.1.t
+	desc = DH_Spain_Politics.1.d
+	picture = GFX_news_event_002
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_government = social_democrat
+		date > 1936.3.14
+	}
+	
+	# We're losing control
+	option = {
+		name = DH_Spain_Politics.1.a
+		add_ideas = SPR_Political_Killings
+	}
+}
+
+#########################################################################
+# Niceto Alcalá-Zamora removed from power
+#########################################################################
+country_event = {
+    id = DH_Spain_Politics.2
+    title = DH_Spain_Politics.2.t
+    desc = DH_Spain_Politics.2.d
+    picture = GFX_news_event_002
+ 
+    fire_only_once = yes
+ 
+    trigger = {
+        tag = SPR		
+		has_government = social_democrat
+        date > 1936.4.7		
+    }
+
+	# He wasn't one of us
+    option = {
+        name = DH_Spain_Politics.2.A
+		retire_country_leader = yes
+		create_country_leader = { name = "Diego Martínez Barrio" desc = "" picture = "Spain_SD_Diego_Martinez_Barrio.dds" expire = "1965.1.1" ideology = social_democracy traits = {}}
+    }
+}
+
+#########################################################################
+# Manuel Azaña steps into power
+#########################################################################
+country_event = {
+    id = DH_Spain_Politics.3
+    title = DH_Spain_Politics.3.t
+    desc = DH_Spain_Politics.3.d
+    picture = GFX_news_event_002
+ 
+    fire_only_once = yes
+ 
+    trigger = {
+        tag = SPR
+		has_government = social_democrat		
+        date > 1936.5.10
+    }
+
+    option = {
+        name = DH_Spain_Politics.3.A
+		retire_country_leader = yes
+    }
+}
+
+#########################################################################
+# The Assassination of Calvo Sotelo
+#########################################################################
+country_event = {
+    id = DH_Spain_Politics.4
+    title = DH_Spain_Politics.4.t
+    desc = DH_Spain_Politics.4.d
+    picture = GFX_news_event_002
+ 
+    fire_only_once = yes
+ 
+    trigger = {
+        tag = SPR
+        date > 1936.5.9
+    }
+# This means War!
+    option = {
+        name = DH_Spain_Politics.4.A
+		add_political_power = -75
+    }
+}
+
+#########################################################################
+#  Spanish Civil War
+#########################################################################
+country_event = {
+	id = DH_Spain_CW.1
+	title = DH_Spain_CW.1.t
+	desc = DH_Spain_CW.1.d
+	picture = GFX_DH_Generic_Elections
+	
+	fire_only_once = yes
+	
+    trigger = {
+        tag = SPR
+        date > 1936.7.16
+    }
+	
+	immediate = {
+		set_global_flag = Spanish_Civil_War
+	}
+# Support Nationalists
+	option = { 
+		name = DH_Spain_CW.1.A
+		trigger = { is_ai = no }		
+		hidden_effect = {
+			SPR = {
+				set_national_unity = 0.90
+				every_owned_state = {
+					limit = {
+						is_core_of = SPR
+					}
+					add_core_of = SPA
+				}
+				start_civil_war = {
+					ideology = paternal_autocrat
+					size = 0.3
+					capital = 276
+					states = { 166 171 172 174 176 177 178 290 297 699  }
+				}
+				
+				set_political_party = { ideology = national_socialist popularity = 0.0 }
+				set_political_party = { ideology = fascist popularity = 0.0 }
+				set_political_party = { ideology = paternal_autocrat popularity = 0.0 }
+				set_political_party = { ideology = social_conservative popularity = 0.0 }
+				set_political_party = { ideology = social_liberal popularity = 0.05 }
+				set_political_party = { ideology = social_democrat popularity = 0.95 }
+				set_political_party = { ideology = left_wing_radical popularity = 0.0 }
+				set_political_party = { ideology = leninist popularity = 0.0 }
+				set_political_party = { ideology = stalinist popularity = 0.0 }
+
+				set_country_flag = become_nationalists
+				
+				random_other_country = {
+					limit = { original_tag = SPR has_government = paternal_autocrat }
+					country_event = { id = DH_Spain_CW.2 }
+				}
+			}			
+		}
+
+
+		custom_effect_tooltip = nationalists_chosen
+	}
+# Support Republicans	
+	option = { 
+		name = DH_Spain_CW.1.B		
+		hidden_effect = {
+			SPR = {
+				set_national_unity = 0.90
+				every_owned_state = {
+					limit = {
+						is_core_of = SPR
+					}
+					add_core_of = SPA
+				}
+				start_civil_war = {
+					ideology = paternal_autocrat
+					size = 0.5
+					capital = 276
+					states = { 166 171 172 174 176 177 178 290 297 699  }
+				}								
+				set_political_party = { ideology = national_socialist popularity = 0.0 }
+				set_political_party = { ideology = fascist popularity = 0.0 }
+				set_political_party = { ideology = paternal_autocrat popularity = 0.0 }
+				set_political_party = { ideology = social_conservative popularity = 0.0 }
+				set_political_party = { ideology = social_liberal popularity = 0.05 }
+				set_political_party = { ideology = social_democrat popularity = 0.95 }
+				set_political_party = { ideology = left_wing_radical popularity = 0.0 }
+				set_political_party = { ideology = leninist popularity = 0.0 }
+				set_political_party = { ideology = stalinist popularity = 0.0 }
+			
+				random_other_country = {
+					limit = { original_tag = SPR has_government = paternal_autocrat }
+					country_event = { id = DH_Spain_CW.2 }
+				}							
+			}	
+		}
+		custom_effect_tooltip = republicans_chosen
+	}
+}
+#########################################################################
+#  Spanish Civil War : Setup event
+#########################################################################
+country_event = {
+	id = DH_Spain_CW.2
+	fire_only_once = yes
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		SPA = {
+			annex_country =  { target = ROOT transfer_troops = yes }
+			set_national_unity = 0.90
+			set_equipment_fraction = 0.2
+		}
+	}
+
+	option = {
+		name = DH_Spain_CW.2.a		
+		SPA = {
+			country_event = { id = DH_Spain_CW.3 }				
+			if ={			
+				limit = { SPR = { has_country_flag = become_nationalists } }
+				change_tag_from = SPR		
+			}
+		}
+	}
+}
+
+#########################################################################
+#  Spanish Civil War : Setup event (Final)
+#########################################################################
+country_event = {
+	id = DH_Spain_CW.3
+	title = DH_Spain_CW.3.t
+	desc = DH_Spain_CW.3.d
+	picture = GFX_DH_Generic_Elections	
+	is_triggered_only = yes
+	
+	option = {
+		name = DH_Spain_CW.3.a		
+		SPA = {			
+			declare_war_on = {
+				target = SPR
+				type = annex_everything
+			}				
+			set_political_party = { ideology = national_socialist popularity = 0.0 }
+			set_political_party = { ideology = fascist popularity = 0.17 }
+			set_political_party = { ideology = paternal_autocrat popularity = 0.51 }
+			set_political_party = { ideology = social_conservative popularity = 0.32 }
+			set_political_party = { ideology = social_liberal popularity = 0.00 }
+			set_political_party = { ideology = social_democrat popularity = 0.0 }
+			set_political_party = { ideology = left_wing_radical popularity = 0.0 }
+			set_political_party = { ideology = leninist popularity = 0.0 }
+			set_political_party = { ideology = stalinist popularity = 0.0 }		
+			set_politics = {
+				ruling_party = paternal_autocrat
+				elections_allowed = no
+			}
+			add_ideas = spr_civil_war
+			load_oob = "SPA_Civil_War"
+		}		
+		SPR = {
+			add_ideas = SPR_civil_war
+			load_oob = "SPR_Civil_War"
+		}	
+	}
+}
+
+#########################################################################
+# The execution of Primo de Rivera
+#########################################################################
+country_event = {
+	id = DH_Nationalist_Spain.1
+	title = DH_Nationalist_Spain.1.t
+	desc = DH_Nationalist_Spain.1.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPA
+		NOT = { has_government = fascist }
+		date > 1936.11.20
+	}
+
+	# He shall never be forgotten
+	option = {
+		name = DH_Nationalist_Spain.1.A
+		create_country_leader = { name = "Manuel Hedilla Larrey" desc = "" picture = ".dds" expire = "1965.1.1" ideology = falangism traits = {}}		
+		add_national_unity = 0.05
+	}
+}
+
+#########################################################################
+# Sanjurjo’s Final flight
+#########################################################################
+country_event = {
+	id = DH_Nationalist_Spain.2
+	title = DH_Nationalist_Spain.2.t
+	desc = DH_Nationalist_Spain.2.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPA
+		date > 1936.7.20
+	}
+
+	#That was not the plan
+	option = {
+		name = DH_Nationalist_Spain.2.A
+		create_country_leader = { name = "Miguel Cabanellas Ferrer" desc = "" picture = "Spain_PA_Cabanellas_Ferrer.dds" expire = "1965.1.1" ideology = paternal_autocracy traits = {}}		
+	}
+}
+
+#########################################################################
+# New Generalissimo?
+#########################################################################
+country_event = {
+	id = DH_Nationalist_Spain.3
+	title = DH_Nationalist_Spain.3.t
+	desc = DH_Nationalist_Spain.3.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPA
+		date > 1936.7.20
+	}
+
+	#Franco
+	option = {
+		name = DH_Nationalist_Spain.3.A
+		create_country_leader = { name = "Francisco Franco Bahamonde" desc = "" picture = "Spain_PA_Francesco_Franco.dds" expire = "1965.1.1" ideology = paternal_autocracy traits = {}}		
+		country_event = { hours = 8 id = DH_Nationalist_Spain.4 }
+	}
+	#Mola
+	option = {
+		name = DH_Nationalist_Spain.3.B
+		create_country_leader = { name = "Emilio Mola y Vidal" desc = "" picture = "Spain_PA_Emilio_Mola.dds" expire = "1965.1.1" ideology = paternal_autocracy traits = {}}		
+		country_event = { hours = 8 id = DH_Nationalist_Spain.5 }
+	}	
+}
+
+#########################################################################
+# Franco proclaimed new Generalissimo
+#########################################################################
+country_event = {
+	id = DH_Nationalist_Spain.4
+	title = DH_Nationalist_Spain.4.t
+	desc = DH_Nationalist_Spain.4.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	#Franco will save Spain!
+	option = {
+		name = DH_Nationalist_Spain.4.A
+		add_political_power = 50
+	}
+}
+
+#########################################################################
+# Mola proclaimed new Generalissimo
+#########################################################################
+country_event = {
+	id = DH_Nationalist_Spain.5
+	title = DH_Nationalist_Spain.5.t
+	desc = DH_Nationalist_Spain.5.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+
+	#Franco will save Spain!
+	option = {
+		name = DH_Nationalist_Spain.5.A
+		add_political_power = -25
+	}
+}
+
+#########################################################################
+# Emilio Mola's Final flight
+#########################################################################
+country_event = {
+	id = DH_Nationalist_Spain.6
+	title = DH_Nationalist_Spain.6.t
+	desc = DH_Nationalist_Spain.6.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = SPA
+		date > 1937.6.3
+	}
+	
+	#May he rest in peace
+	option = {
+		name = DH_Nationalist_Spain.6.A
+		trigger = { NOT = { has_country_leader = { ruling_only = yes name = "Emilio Mola y Vidal" }}}
+		add_political_power = -25
+	}
+	#Franco will take over
+	option = {
+		name = DH_Nationalist_Spain.6.A
+		trigger = { has_country_leader = { ruling_only = yes name = "Emilio Mola y Vidal" }}
+		create_country_leader = { name = "Francisco Franco Bahamonde" desc = "" picture = "Spain_PA_Francesco_Franco.dds" expire = "1965.1.1" ideology = paternal_autocracy traits = {}}				
+	}	
+}
+
+#########################################################################
+# Decreto de Unificación (Unificacion Decree)
+#########################################################################
+country_event = {
+	id = DH_Nationalist_Spain.7
+	title = DH_Nationalist_Spain.7.t
+	desc = DH_Nationalist_Spain.7.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPA
+		date > 1937.4.19
+	}
+
+	#United We Stand
+	option = {
+		name = DH_Nationalist_Spain.7.A
+		set_party_name = { ideology = national_socialist long_name = "The Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista" name = "FET-JONS" }
+		set_party_name = { ideology = fascist long_name = "The Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista" name = "FET-JONS" }
+		set_party_name = { ideology = paternal_autocrat long_name = "The Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista" name = "FET-JONS" }
+		set_party_name = { ideology = social_conservative long_name = "The Falange Española Tradicionalista y de las Juntas de Ofensiva Nacional Sindicalista" name = "FET-JONS" }
+	}
+}
+
+#########################################################################
+# International Brigades
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.1
+	title = DH_Republican_Spain_IB.1.t
+	desc = DH_Republican_Spain_IB.1.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_global_flag = Spanish_Civil_War
+		date > 1936.9.18
+	}
+
+	# We need all the help we can get
+	option = {
+		name = DH_Republican_Spain_IB.1.A
+		set_country_flag = SPR_International_Brigades
+		custom_effect_tooltip = "Volunteer units from all over the world will arrive to assist us in the fight against Fascism!"
+		
+	}
+	# We don't need these reds!
+	option = {
+		name = DH_Republican_Spain_IB.1.B
+	}	
+}
+
+#########################################################################
+# The XI Thälmann Brigade has arrived
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.2
+	title = DH_Republican_Spain_IB.2.t
+	desc = DH_Republican_Spain_IB.2.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_country_flag = SPR_International_Brigades
+		date > 1936.10.22
+	}
+
+	# Welcome them!
+	option = {
+		name = DH_Republican_Spain_IB.2.A	
+		load_oob = SPR_CW_XI
+	}
+}
+
+#########################################################################
+# The XII Garibaldi Brigade has arrived
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.3
+	title = DH_Republican_Spain_IB.3.t
+	desc = DH_Republican_Spain_IB.3.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_country_flag = SPR_International_Brigades
+		date > 1936.11.1
+	}
+
+	# Welcome them!
+	option = {
+		name = DH_Republican_Spain_IB.2.A		
+		load_oob = SPR_CW_XII
+	}
+}
+
+#########################################################################
+# The XIII Dombrowski Brigade has arrived
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.4
+	title = DH_Republican_Spain_IB.4.t
+	desc = DH_Republican_Spain_IB.4.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_country_flag = SPR_International_Brigades
+		date > 1936.12.1
+	}
+
+	# Welcome them!
+	option = {
+		name = DH_Republican_Spain_IB.4.A		
+		load_oob = SPR_CW_XIII
+	}
+}
+
+#########################################################################
+# The XIV La Marsellaise Brigade has arrived
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.5
+	title = DH_Republican_Spain_IB.5.t
+	desc = DH_Republican_Spain_IB.5.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_country_flag = SPR_International_Brigades
+		date > 1936.12.1
+	}
+
+	# Welcome them!
+	option = {
+		name = DH_Republican_Spain_IB.5.A		
+		load_oob = SPR_CW_XIV
+	}
+}
+
+#########################################################################
+# The XV Abraham Lincoln Brigade has arrived
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.6
+	title = DH_Republican_Spain_IB.6.t
+	desc = DH_Republican_Spain_IB.6.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_country_flag = SPR_International_Brigades
+		date > 1937.1.31
+	}
+
+	# Welcome them!
+	option = {
+		name = DH_Republican_Spain_IB.6.A		
+		load_oob = SPR_CW_XV
+	}
+}
+
+#########################################################################
+# The 129th International Brigade has arrived
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.7
+	title = DH_Republican_Spain_IB.7.t
+	desc = DH_Republican_Spain_IB.7.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_country_flag = SPR_International_Brigades
+		date > 1937.4.28
+	}
+
+	# Welcome them!
+	option = {
+		name = DH_Republican_Spain_IB.7.A		
+		load_oob = SPR_CW_129th
+	}
+}
+
+#########################################################################
+# The 150th International Brigade has arrived
+#########################################################################
+country_event = {
+	id = DH_Republican_Spain_IB.8
+	title = DH_Republican_Spain_IB.8.t
+	desc = DH_Republican_Spain_IB.8.d
+	picture = GFX_DH_Generic_Elections
+	fire_only_once = yes
+
+	trigger = {
+		tag = SPR
+		has_country_flag = SPR_International_Brigades
+		date > 1937.5.27
+	}
+
+	# Welcome them!
+	option = {
+		name = DH_Republican_Spain_IB.8.A		
+		load_oob = SPR_CW_150th
+	}
+}

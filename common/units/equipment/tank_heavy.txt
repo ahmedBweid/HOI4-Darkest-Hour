@@ -1,0 +1,205 @@
+equipments = {
+########################################################
+# Heavy tank
+##########################################################
+	heavy_tank_equipment = {
+		year = 1917
+
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_heavy_tank_equipment
+		is_buildable = no
+		is_convertable = yes
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		#Misc Abilities
+		maximum_speed = 5
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 36
+		hardness = 0.95
+		armor_value = 70
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 12
+		ap_attack = 35
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 14
+		
+		build_cost_ic = 25 
+		resources = {
+			oil = 1
+			steel = 3
+			chromium = 3
+		}
+	}
+
+################################
+# 1939 Heavy Tank
+################################
+	heavy_tank_equipment_1 = {
+		year = 1939
+
+		archetype = heavy_tank_equipment
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 13
+		reliability = 0.8
+		build_cost_ic = 25
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 12
+		hard_attack = 12
+		air_attack = 0
+		defense = 8
+		breakthrough = 36
+		
+		# Armor Stats
+		armor_value = 70
+		ap_attack = 35
+		hardness = 0.95
+	}
+
+################################
+# 1941 Heavy Tank
+################################
+	heavy_tank_equipment_2 = {
+		year = 1941
+
+		archetype = heavy_tank_equipment
+		parent = heavy_tank_equipment_1
+		priority = 90
+		visual_level = 1
+		is_convertable = yes
+			
+		# Technical Stats
+		maximum_speed = 12
+		reliability = 0.8
+		build_cost_ic = 27
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 22
+		hard_attack = 30
+		air_attack = 0
+		defense = 9
+		breakthrough = 52
+		
+		# Armor Stats
+		armor_value = 110
+		ap_attack = 115
+		hardness = 0.95
+	}
+
+################################
+# 1943 Heavy Tank
+################################
+	heavy_tank_equipment_3 = {
+		year = 1943
+
+		archetype = heavy_tank_equipment
+		parent = heavy_tank_equipment_2
+		priority = 90
+		visual_level = 2
+		is_convertable = yes
+	
+		# Technical Stats
+		maximum_speed = 17
+		reliability = 0.8
+		build_cost_ic = 30
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 28
+		hard_attack = 40
+		air_attack = 0
+		defense = 12
+		breakthrough = 67
+		
+		# Armor Stats
+		armor_value = 130
+		ap_attack = 135
+		hardness = 0.95
+	}
+
+################################
+# 1944 Heavy Tank
+################################
+	heavy_tank_equipment_4 = {
+		year = 1944
+
+		archetype = heavy_tank_equipment
+		parent = heavy_tank_equipment_3
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 18
+		reliability = 0.8
+		build_cost_ic = 32
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 35
+		hard_attack = 50
+		air_attack = 0
+		defense = 14
+		breakthrough = 82
+		
+		# Armor Stats
+		armor_value = 140
+		ap_attack = 145
+		hardness = 0.95
+	}
+	
+################################
+# 1956 Heavy Tank
+################################
+	heavy_tank_equipment_5 = {
+		year = 1956
+
+		archetype = heavy_tank_equipment
+		parent = heavy_tank_equipment_4
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+		
+		# Technical Stats
+		maximum_speed = 20
+		reliability = 0.8
+		build_cost_ic = 36
+		resources = { oil = 1 steel = 2 }
+		
+		# Combat Stats
+		soft_attack = 40
+		hard_attack = 65
+		air_attack = 0
+		defense = 18
+		breakthrough = 97
+		
+		# Armor Stats
+		armor_value = 160
+		ap_attack = 165
+		hardness = 0.95
+	}	
+}
